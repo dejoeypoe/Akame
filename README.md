@@ -111,11 +111,11 @@ WhatsApp Connection (BETA, not working perfectly)
 
 Editing Number Owner & session name in [`config.js`](https://github.com/Abuzzpoet/Akame/blob/master/config.js)
 
-## ```How To Customise Message Display```
+```How To Customise Message Display```
 ```js
 //—————「 Website Apikey 」—————//
+//gausah di apa² in, beli sendiri key ya :)
 global.APIKeys = {
-    //gausah di apa² in, beli sendiri key ya :)
     'https://zenzapis.xyz': 'Your_Apikey',
 }
 
@@ -126,6 +126,7 @@ global.namaowner = 'GuaAbuzz'
 global.agama = 'Islam'
 
 //—————「 Setting Owner 」—————//
+//terserah mau ubah atau nggak
 global.owner = ['6289636827082']
 global.premium = ['6289636827082']
 
