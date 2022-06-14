@@ -129,8 +129,8 @@ global.agama = 'Islam'
 global.owner = ['6289636827082']
 global.premium = ['6289636827082']
 
-//—————「 Setting Nomor Donasi 」—————//
-//ubah aja kalau ada yg gapunya kasih tanda -
+//—————「 Setting Nomor Donasi/Sewabot 」—————//
+//ubah aja kalau ada yg gapunya kasih tanda '-'
 global.telkomsel = ['6282171978174']
 global.xl = ['-']
 global.indosat = ['-']
@@ -148,12 +148,9 @@ global.scbot = 'https://github.com/Abuzzpoet/Akame'
 global.myweb = 'https://tiktok.com/@guaabuzz'
 
 //—————「 Set Sticker Wm 」—————//
+//terserah mau ubah atau nggak
 global.packname = 'GuaAbuzz'
 global.author = 'WhatsApp Bot'
-
-//—————「 Set Simbol 」—————//
-//terserah mau ubah atau nggak
-global.sp = '⭔'
 
 //—————「 Set Message 」—————//
 //terserah mau ubah apa nggak
