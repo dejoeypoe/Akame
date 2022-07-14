@@ -6,4 +6,8125 @@
  * Contact Me On wa.me/6289636827082
  * Follow https://github.com/Abuzzpoet
  */
-const _0xe53eab=_0x1a13;(function(_0x4b2ece,_0x4a7ba1){const _0x2af688=_0x1a13,_0x4da4f5=_0x4b2ece();while(!![]){try{const _0x56f0f3=parseInt(_0x2af688(0x50a))/0x1+parseInt(_0x2af688(0x6b6))/0x2*(-parseInt(_0x2af688(0x647))/0x3)+-parseInt(_0x2af688(0x17b))/0x4*(-parseInt(_0x2af688(0x449))/0x5)+parseInt(_0x2af688(0x42a))/0x6+-parseInt(_0x2af688(0x791))/0x7*(parseInt(_0x2af688(0x70e))/0x8)+-parseInt(_0x2af688(0x367))/0x9+parseInt(_0x2af688(0x373))/0xa*(parseInt(_0x2af688(0x960))/0xb);if(_0x56f0f3===_0x4a7ba1)break;else _0x4da4f5['push'](_0x4da4f5['shift']());}catch(_0x5485e4){_0x4da4f5['push'](_0x4da4f5['shift']());}}}(_0x25fb,0x9000b),require(_0xe53eab(0x5cd)));const {BufferJSON,WA_DEFAULT_EPHEMERAL,generateWAMessageFromContent,proto,generateWAMessageContent,generateWAMessage,prepareWAMessageMedia,WAMessageStubType,areJidsSameUser,getContentType}=require('@adiwajshing/baileys'),fs=require('fs'),util=require(_0xe53eab(0x390)),chalk=require(_0xe53eab(0x727)),{exec,spawn,execSync}=require(_0xe53eab(0x2cb)),axios=require(_0xe53eab(0x711)),path=require(_0xe53eab(0x55d)),os=require('os'),{JSDOM}=require(_0xe53eab(0x74a)),speed=require(_0xe53eab(0x41f)),moment=require('moment-timezone'),{performance}=require(_0xe53eab(0x697)),{Primbon}=require(_0xe53eab(0x83f)),primbon=new Primbon();let {TelegraPh}=require(_0xe53eab(0x393));function _0x25fb(){const _0x55cb0b=['stiker','myip\x0a│⭔\x20','🎮\x20Tebak\x20Kimia\x20🎮\x0a\x0aJawaban\x20Benar\x20🎉\x0a\x0aIngin\x20bermain\x20lagi?\x20tekan\x20button\x20dibawah','👤\x20*Owner\x20Grup\x20:*\x20','bcgroup','aminio','setsubject','setcmd\x20[reply\x20sticker/pesan]\x0a│⭔\x20','5\x20Tahun\x20Lagi','templateVideo','smooth','ramaljodoh\x0a│⭔\x20','get','\x0a⭔\x20*Watak\x20Hari\x20:*\x20','\x0a•\x20Following\x20:\x20','sifat_karakter_tanggal_lahir','lirik','earrape\x20[reply\x20audio\x20/\x20vn]\x0a│⭔\x20','salam\x20sejahtera','zoneId','randomquote\x0a│⭔\x20','Mau\x20Cari\x20Wallpaper\x20Apa?','\x20Dika,\x201,\x202005\x0a\x0aNote\x20:\x20','selectedButtonId','others','stikmeme','「\x20Anime\x20Menu\x20」','gsmarena\x20[hp]\x0a│⭔\x20','avatar_url','```Partner\x20Telah\x20Meninggalkan\x20Sesi\x20Anonymous```','bdsm\x0a│⭔\x20','ephotomenu','Namo\x20Buddhaya','Giliran\x20','\x0a⭔\x20*Elemen\x20:*\x20','yellow','antilinkyt','\x0a⭔\x20*Batu\x20:*\x20','math','Kirim\x20perintah\x20','render','block\x20@user\x0a│⭔\x20','Random\x20Image\x20Mori\x20Calliope','\x0a⭔\x20*Arah\x20Rezeki\x20:*\x20','request\x20[req]\x0a│⭔\x20','\x0a⭔\x20*Usaha\x20:*\x20','⭔\x20Judul:\x20','⭔\x20*Nama\x20Suami\x20:*\x20','terjawab','\x0a│⭔\x20INDOSAT\x20:\x20','rules','community','\x0a⭔\x20*Angka\x20Keberuntungan\x20:*\x20','Open','cekvote','⭔\x20Created\x20:\x20','apikey','tgl_lahir','Pusing\x20ah','bussines','\x0a⭔\x20*Info\x20:*\x20','Judul','test','⭔\x20Tanggal\x20:\x20','No.\x20','\x0a⭔\x20*Angka\x20Kua\x20:*\x20','Kamu\x20telah\x20memilih\x20','3dchristmas\x20[text]\x0a│⭔\x20','*Request\x20Feature\x20From:*\x20wa.me/','dilanquote','getmusic\x20[query]\x0a│⭔\x20','lontong','14983958TSRRvu','logogirl','profilePic','slow','base64','animequotes\x0a│⭔\x20','75\x20Hari\x20Lagi','Kirim/reply\x20image/sticker\x20dengan\x20caption\x20','*🎗️\x20WhatsApp\x20:*\x20wa.me/','twitter\x20[url]\x0a│⭔\x20','hidetag','sangecek','「\x20Convert\x20Menu\x20」','jail\x20[image]\x0a│⭔\x20','\x0a│\x20Runtime\x20:\x0a│\x20\x20','@s.whatsapp.net','/stalker/stalker/ig','sendText','\x0a│\x20Platform\x20:\x20','statusbot','6289636827082@s.whatsapp.net','*⍢⃝🤝\x20C\x20O\x20N\x20N\x20E\x20C\x20T\x20\x20W\x20I\x20T\x20H\x20\x20M\x20E*\x0a\x0a','\x0a-----------------------------------------------------\x0a','tafsirsurah','\x20wangyy\x20aku\x20mau\x20nyiumin\x20aroma\x20wangynya\x20','?\x0a│⭔\x20','versions','「\x20Asupan\x20Menu\x20」','GANTI\x20MENU\x20BOT','35\x20Hari\x20Lagi','getName','July\x209,\x202022\x2006:00:00','marmer\x20[text]\x0a│⭔\x20','jodohku\x20[teks]\x0a└──────────────┈❖','sticker','whatsapp.com','cecan\x0a│⭔\x20','⏰\x20List\x20Online:\x0a\x0a','mimetype','arahrezeki','garis_hidup','Reply\x20Image','templateGif','HH:mm:ss\x20DD/MM/YYYY','randomquote','cekcantik\x20[teks]\x0a│⭔\x20','.pdf','report\x20[bug]\x0a└──────────────┈❖','\x0a⭔\x20*karakteristik\x20:*\x20','send5ButMsg','jahy','/randomanime/mori-calliope','kesehatan','makasih','energi_negatif','tiktokwatermark','quoteanime','「\x20Search\x20Menu\x20」','api.ipify.org','tagall\x20[text]\x0a│⭔\x20','Antilink\x20YouTube\x20Nonaktif\x20🕊️','Mode:\x20','Menampilkan\x20Webzone\x20Menu','coklat','waktu_milih','⭔\x20Years:\x20','ryujin\x0a│⭔\x20','⭔\x20No\x20:\x20','shift','\x0a│⭔\x20SAWERIA\x20:\x20','\x20」\x0a└┬─────────────┈❖\x0a┌┤「\x20RULES\x20BOT\x20」\x0a│└─────────────┈❖\x0a│1.\x20Tolong\x20Gunakan\x20Delay\x205\x20Detik\x0a│\x20\x20\x20Untuk\x20Menggukan\x20BOT.\x0a│2.\x20Cuilk\x20Bot\x20Tanpa\x20Izin?\x20Group\x0a│\x20\x20\x20Ya\x20Gua\x20Raid\x20😎.\x0a│2.\x20Gunakan\x20Dengan\x20Bijak.\x0a│3.\x20Don\x27t\x20Call\x20Bots.\x0a│4.\x20Don\x27t\x20Spam\x20Bot.\x0a└┬─────────────┈❖\x0a┌┤「\x20SNK\x20」\x0a│└─────────────┈❖\x0a│1.\x20Data\x20Whatsapp\x20Anda\x20Akan\x20Kami\x0a│\x20\x20\x20Simpan\x20Di\x20Server\x20Kami\x0a│\x20\x20\x20Selama\x20BOT\x20Aktif.\x0a│2.\x20Data\x20Anda\x20Akan\x20Di\x20Hapus\x0a│\x20\x20\x20Ketika\x20BOT\x20OFF.\x0a│3.\x20Kami\x20Tidak\x20Menyimpan\x20Gambar/\x0a│\x20\x20\x20Video/File/Audio/Dokumen\x0a│\x20\x20\x20Yang\x20Anda\x20Kirim.\x0a│4.\x20Kami\x20Tidak\x20Pernah\x20Meminta\x0a│\x20\x20\x20Anda\x20Untuk\x20Memberikan\x0a│\x20\x20\x20Informasi\x20Pribadi.\x0a│5.\x20Jika\x20Menemukan\x20BUG/ERROR\x0a│\x20\x20\x20Silahkan\x20REPORT!.\x0a└┬─────────────┈❖\x0a┌┤「\x20ATTENTION\x20」\x0a│└─────────────┈❖\x0a│1.\x20Bot\x20Akan\x20Memblokir\x20Nomor\x20Anda.\x0a│2.\x20Anda\x20Tidak\x20Akan\x20Bisa.\x0a│\x20\x20\x20Mengakses\x20Bot\x20Lagi.\x0a│3.\x20Mengeksploitasi\x20Terhadap\x20bot.\x0a│Sanksi:\x20*BLOCK\x20PERMANENT*\x0a└──────────────┈❖','promote\x20@user\x0a│⭔\x20','logo2\x20[text]\x0a│⭔\x20','groupmenu','wattpad','Number\x20Phone\x20Owner','Reply\x20Pesannya!!','photoeditormenu','nama','sendReadReceipt','📈\x20*Status\x20:*\x20','speed','⭔\x20*Nama\x20:*\x20','Berhasil\x20Menghapus\x20Sesi\x20Vote\x20Di\x20Grup\x20Ini','https://raw.githubusercontent.com/BochilTeam/database/master/games/tebaklirik.json','totalmem','oppai\x0a│⭔\x20','arah_naga_hari','Convert\x20Webp\x20To\x20Video','ytmp3','gopay','tictactoe','Semua\x20Jawaban\x20Terjawab','hasOwnProperty','tahun_lahir','beach','-af\x20acrusher=.1:1:64:0:log','5\x20Bulan\x20Lagi','from','peruntungan_tahun','asmaulhusna\x0a└┬─────────────┈❖\x0a┌┤「\x20KERANG\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','sendVideoAsSticker','chatModify','Iya','\x0aDurasi\x20Video\x201-9\x20Detik','Halo','📛\x20*Name\x20:*\x20','chat.whatsapp.com','⭔\x20Location\x20:\x20','⭔\x20Like:\x20','jenis_kelamin','justina','kaligrafi\x20[text]\x0a│⭔\x20','⌲\x20Tebak\x20Kata','⌲\x20Jadiin','biodata','terima\x20kasih','groupRevokeInvite','kanyequote','S258diZhcuFJooAtHTaPEn4T','spiderlogo','Amino\x20Search\x20From\x20:\x20','zettairyouiki','suitpvp\x20[@tag]\x0a└──────────────┈❖','wallpaper','.net','member_count','Thanks\x20To\x20>_<','setname\x20[text]\x0a│⭔\x20','\x0a📥\x20Format\x20:\x20MP3\x0a📮\x20Resolusi\x20:\x20','YouTube\x20Search\x0a\x0a\x20Result\x20From\x20','haribaik','husbu\x0a│⭔\x20','menuphotoeditor','karakter','\x0a│\x20\x0a└────\x0a\x0a*','/randomanime/','ramalnasib','⌲\x20Asah\x20Otak','nasib','extendedTextMessage','hapusvote*\x20-\x20untuk\x20menghapus\x20vote','blowjob\x0a│⭔\x20','megumin\x0a│⭔\x20','taliwangke','\x20Tahun.\x0a\x0a_Cepet\x20Cepet\x20Tobat\x20Bro\x20Soalnya\x20Mati\x20ga\x20ada\x20yang\x20tau_','tri','\x0a⭔\x20*Destiny\x20Desire\x20:*\x20','listgc\x0a│⭔\x20','groupFetchAllParticipating','「\x20*Tafsir\x20Surah*\x20\x20」\x0a\x0a*Pendek*\x20:\x20','getFullYear','thumbnail','vote','►\x20With\x20Watermark','full_name','\x0a📄\x20Title\x20:\x20','pixelate','No\x20Query\x20username,\x20Contoh\x20:\x20','jadiannikah\x0a│⭔\x20','(async\x20()\x20=>\x20{\x20return\x20','/stalker/stalker/npm','vote\x20[text]\x0a│⭔\x20','Link\x20TikTok\x20Ya,\x20Mana?','⭔\x20Arab:\x20','stickermeme','drakor\x20[text]\x0a└──────────────┈❖','stikermeme','info','toString','_Masih\x20ada\x20vote\x20di\x20chat\x20ini!_\x0a\x0a*','ramalanjodoh','*---「\x20CHARACTER-SEARCH\x20」---*\x0a\x0a','tourl\x20[image\x20/\x20video]\x0a│⭔\x20','user_id','\x20love','menukerang','/webzone/amino','antilinkyt\x20[on/off]\x0a│⭔\x20','key','announcement','Contoh\x20:\x20','Stop','DD/MM/YYYY\x20HH:mm:ss','cerpen\x0a└──────────────┈❖','*🎗️\x20Github\x20:*\x20','2\x20Tahun\x20Lagi','upvote','https://github.com/','https://islamic-api-indonesia.herokuapp.com/api/data/pdf/iqra','kecocokanpasangan','Terima\x20Kasih','\x0a⭔\x20Video\x20Pixel:\x20','\x0a│•\x20Wib\x20:\x20','⌲\x20Template\x20Image','Hari\x20','\x0a│\x20Menuju\x20idul\x20Adha\x20:\x0a│\x20\x20','smeme','\x0a•\x20Node\x20Id\x20:\x20','\x0a⭔\x20*Peruntungan\x20Tahun\x20:*\x20','10\x20Hari\x20Lagi','3️⃣','muslimquote','manga\x20[query]\x0a│⭔\x20','tupai','```Berhasil\x20Menemukan\x20Partner,\x20sekarang\x20kamu\x20dapat\x20mengirim\x20pesan```','chat','\x0a⭔\x20*Planet\x20:*\x20','linkgc','exports','kitagawa','shadowtext','kosong','Wattpad\x20From\x20query\x0a\x0a','\x0a⭔\x20*Simbol\x20Tarot\x20:*\x20','total_hit','No\x20Query\x20id,\x20Contoh\x20:\x20','Maksimal\x2010\x20detik!','agama','.start','00\x2012\x20*\x20*\x20*','foot\x0a│⭔\x20','sticker\x0a│⭔\x20','\x0a│\x20Status\x20:\x20','antilinktt\x20off','keluar','\x20😅+🤔','Start','\x20File\x20Name\x0a\x0aLihat\x20List\x20Pesan\x20Dengan\x20','👥\x20*INFO\x20LINK\x20GROUP*\x0a📛\x20*Nama\x20:*\x20','puisi','shadowtext\x20[text]\x0a│⭔\x20','manga','npm','𝑺𝒆𝒍𝒂𝒎𝒂𝒕\x20𝑻𝒆𝒏𝒈𝒂𝒉\x20𝑴𝒂𝒍𝒂𝒎\x20🌃','sektor','tebak\x20lontong','fiction\x20[text]\x0a│⭔\x20','rejeki','Contoh:\x0a','twittermp3\x20','Donasi','ytmp4\x20[url]\x20[Resolusi]\x0a│⭔\x20','creator','3344kLklsb','\x0a⭔\x20ID\x20','55\x20Bulan\x20Lagi','galaxy','delete\x20/\x20','\x0a│•\x20Tanggal\x20Server\x20:\x20','\x0a└┬─────────────┈❖\x0a┌┤「\x20ANIME\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','1️⃣','memancing\x0a│⭔\x20','Jawaban:\x20','sendImage','nowplayingbioskop','\x0a⭔\x20Ram:\x20','antilinktt\x20on','passed\x20[image]\x0a│⭔\x20','greyscale\x20[image]\x0a│⭔\x20','\x20tidak\x20memilih\x20suit,\x20game\x20berakhir','\x0a⭔\x20*Jam\x20Baik\x20:*\x20','coffe\x0a│⭔\x20','flashlight\x20[text]\x0a│⭔\x20','100\x20Bulan\x20Lagi','Gak\x20Bisa','fileSha256','menudatabase','Pesan\x20tersebut\x20bukan\x20dikirim\x20oleh\x20bot','link','islamicmenu','「\x20Stalk\x20Menu\x20」','shio\x0a└──────────────┈❖','.mp3','sewabot','getmsg\x20','mtype','\x20ml\x20214885010\x202253','sendImageAsSticker','Menampilkan\x20Anonymous\x20Menu','fat\x20[reply\x20audio\x20/\x20vn]\x0a│⭔\x20','\x20tikus\x0a\x0aNote\x20:\x20For\x20Detail\x20https://primbon.com/shio.htm','ytvideo','yt-search','stickmeme','Owhh\x20Begitu:(','harisangar','⭔\x20Name\x20:\x20','facebook\x20[url]\x0a│⭔\x20','🎮\x20Tebak\x20Kalimat\x20🎮\x0a\x0aJawaban\x20Benar\x20🎉\x0a\x0aIngin\x20bermain\x20lagi?\x20tekan\x20button\x20dibawah','⭔\x20*Link*\x20:\x20','aov','Sukses\x20Membuka\x20Edit\x20Info\x20Group\x20🕊️','\x0a-\x20Cinta\x20:\x20','🎮\x20Cak\x20Lontong\x20🎮\x0a\x0aJawaban\x20Benar\x20🎉\x0a*','antilink\x20off','\x0a⭔\x20*Garis\x20Hidup\x20:*\x20','./src/hremo-','following','\x0a🔗\x20*Link\x20Chat\x20:*\x20https://chat.whatsapp.com/','hentai\x0a│⭔\x20','Mau\x20format\x20apa\x20?\x20Contoh\x20:\x20','ghstalk','apakah\x20[teks]\x0a│⭔\x20','searchmenu','send5ButGif','\x20🙏','Text\x20mana?\x0a\x0aContoh\x20:\x20','megumin','\x0a⭔\x20Views\x20:\x20','🎮\x20Tebak\x20Kabupaten\x20🎮\x0a\x0aJawaban\x20Benar\x20🎉\x0a\x0aIngin\x20bermain\x20lagi?\x20tekan\x20button\x20dibawah','getmsg','joox\x20[query]\x0a│⭔\x20','\x0a│•\x20Wita\x20:\x20','\x0a-\x20Malapetaka\x20:\x20','Profile','antilinktt\x20[on/off]\x0a│⭔\x20','keberuntungan\x0a│⭔\x20','\x0a└┬─────────────┈❖\x0a┌┤「\x20OWNER\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','./lib/wiki.js','\x20di\x20laptop\x20ngeliatin\x20gw,\x20','catatan','\x201\x202\x0a\x0amaka\x20hasilnya\x20adalah\x20tafsir\x20surah\x20Al-Fatihah\x20ayat\x202','lesbicek','Tidak\x20diketahui','getvideo','6️⃣','⭔\x20Thumbnail:\x20','arahrezeki\x0a│⭔\x20','menumeme','selfies','database','brighten\x20[image]\x0a│⭔\x20','command','\x0a-\x20Kesehatan\x20:\x20','⌲\x20Template\x20Video','muslimquote\x0a│⭔\x20','cum','tqtt','inspect','glass\x20[image]\x0a│⭔\x20','harinaas','github','*📈\x20STATUS\x20BOT\x20:*\x20ONLINE\x0a','\x20pb\x20riio46','Berhasil\x20Dilaporkan\x20Ke\x20Owner!','*⍢⃝🤖\x20I\x20N\x20F\x20O\x20\x20B\x20O\x20T*\x0a\x0a','\x0a⭔\x20Inchi:\x20','\x0a⭔\x20*Bunga\x20:*\x20','yts','「\x20Quotes\x20Menu\x20」','tictactoe-','\x0a•\x20Wib\x20:\x20','check','\x0a🔎\x20Ext\x20:\x20Search\x0a📀\x20ID\x20:\x20','judul','\x0a🔗\x20Media\x20Url\x20:\x20','darkjoke','result','20\x20Hari\x20Lagi','unmute','Tekan\x20Tombol\x20Di\x20Bawah','menuasupan','「\x20Broadcast\x20Bot\x20」\x0a\x0a','\x0a⭔\x20*Solusi\x20:*\x20','rusak','author','Menampilkan\x20Sticker\x20\x20Menu','fat','created','application/pdf','asupanaeuni\x0a│⭔\x20','Menampilkan\x20Nsfw\x20Menu','email','includes','arah_rejeki','owner','kecocokannama','gemini','infobot','circle\x20[image]\x0a│⭔\x20','\x0a│\x20Number\x20:\x20','triggered','\x0a•\x20Location\x20:\x20','tebak\x20[option]\x0a│⭔\x20','lontong_desk','65\x20Hari\x20Lagi','\x0a⭔\x20Duration\x20:\x20','\x0a⭔\x20*Catatan\x20:*\x20','logo4','kerja','botstatus','https://vt.tiktok.com','magenta','text2','prefix','3dwaterpipe','unblock','./lib/scraper','listgc','https://raw.githubusercontent.com/BochilTeam/database/master/games/caklontong.json','85\x20Bulan\x20Lagi','tovideo\x20[reply\x20sticker]\x0a│⭔\x20','tiktok\x20[url]\x0a│⭔\x20','\x0a⭔\x20Author\x20:\x20','\x0a⭔\x20Type\x20:\x20','persentase_kecocokan','\x20mengetik\x20command\x20dibawah\x20ini\x20','⭔\x20Bab:\x20','_Waktu\x20suit\x20habis_','```Hi\x20','tebak\x20gambar','ramaljodohbali','15:00:00','.leave','Asmaul\x20Husna:\x0a\x0a','juz-amma-arab-latin-indonesia.xlsx','login','\x20)\x0a│\x20Name\x20:\x20','\x2012,\x201,\x202022','\x0a•\x20Name\x20:\x20','https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.xlsx','\x0a\x0aIngin\x20bermain?\x20tekan\x20button\x20dibawah','\x20」\x0a└┬─────────────┈❖\x0a┌┤「\x20NOTE\x20」\x0a│└─────────────┈❖\x0a│•\x20Saya\x20','Kirim/reply\x20text\x20dengan\x20caption\x20','menuconvert','tebak\x20bendera','ringtone','error','setppbot\x20[image]\x0a└┬─────────────┈❖\x0a┌┤「\x20PRIMBON\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','👋\x20」\x0a│「\x20','dilanquote\x0a│⭔\x20','anonymousmenu','ramalcinta','hadis','Sudah\x20Aktif\x20Sebelumnya\x20🕊','menuanime','https://www.anime-planet.com','menuislamic','docx','profesional','Update\x20','glass','holoh\x20[teks]\x0a│⭔\x20','gangbang\x0a│⭔\x20','nama_pasangan','then','\x20gtv\x0a\x0aOption\x20:\x20\x0a⬣\x20rcti\x0a⬣\x20nettv\x0a⬣\x20antv\x0a⬣\x20indosiar\x0a⬣\x20inewstv\x0a⬣\x20kompastv\x0a⬣\x20metrotv\x0a⬣\x20mnctv\x0a⬣\x20rtv\x0a⬣\x20sctv\x0a⬣\x20trans7\x0a⬣\x20transtv\x0a⬣\x20tvone\x0a⬣\x20tvri','creation','/api/morensfw/','christmasholiday','karakter\x0a│⭔\x20','mp4aLink','\x0a👁️\x20Viewers\x20:\x20','aquarius','apiKey','setdesc','setppbot','⌲\x20Siapakah\x20Aku','Betul','\x0a└┬─────────────┈❖\x0a┌┤「\x20ISLAMIC\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','source','\x0a│\x20Owner\x20:\x20','⭔\x20Subuh\x20:\x20','⭔\x20Email\x20:\x20','translation_en','game','text','\x0a└┬─────────────┈❖\x0a┌┤「\x20SEARCH\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','asupannatajadeh\x0a│⭔\x20','jadwalsalat','mute','nomorhoki\x0a│⭔\x20','tekateki','sektor_baik','Lanjut','jadwalbioskop','7️⃣','triggered\x20[image]\x0a└┬─────────────┈❖\x0a┌┤「\x20QUOTES\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','keluar\x0a│⭔\x20','antilink\x20on','ytmp3\x20[url]\x0a│⭔\x20','⭔\x20*Tanggal\x20:*\x20','china','\x0aJawaban\x20:\x20','「\x20Sticker\x20Menu\x20」️','siapakahaku\x0a│⭔\x20','deskripsi','now','/textpro/','morou','10\x20Bulan\x20Lagi','*\x0a\x0a','tipe','malapetaka','「\x20Game\x20Menu\x20」','scdl','Ehh\x20Maaf\x20Kamu\x20Admin','toimage\x20[reply\x20sticker]\x0a│⭔\x20','rose\x0a│⭔\x20','decodeJid','ephemeral\x20[option]\x0a│⭔\x20','foggywindow\x20[text]\x0a│⭔\x20','ryujin','cosplay\x0a│⭔\x20','Silahkan\x20Jawab\x20Soal\x20Di\x20Atas\x20Ini\x0a\x0aDeskripsi\x20:\x20','🤖\x20','kayes\x0a│⭔\x20','jadian','Sukses\x20Membuka\x20Group\x20🕊️','bcallmedia','⌲\x20Susun\x20Kata','Pending\x20Ya\x20Kak?','igcertificate\x20[text]\x0a│⭔\x20','stalk\x20[option]\x20[query]\x0a└──────────────┈❖','APIs','\x20:\x20','contrast\x20[image]\x0a│⭔\x20','jid','name','quotes','cekvote\x0a│⭔\x20','users','uniform','artitarot','./src/math','startsWith','cekgay','*🎗️\x20TikTok\x20:*\x20','fengshui','\x0a⭔\x20*Nama\x20Pasangan\x20:*\x20','ytsearch','\x0a⭔\x20Caption\x20:\x20','alquran\x0a│⭔\x20','stalk','@g.us','Lagu\x20Tersebut\x20Adalah\x20Lagu\x20dari?\x0a\x0aArtist\x20:\x20','bgWhite','family100\x0a│⭔\x20','ummadl','Menampilkan\x20Owner\x20Menu','\x20SENDIRI\x20PUN\x20NGGAK\x20SAMA\x20AAAAAAAAAAAAAAH','\x20free\x20fire','cancer','\x20Menang!','Link\x20TikTok\x20Ya\x20Mana?','bio','motivasi','Hash\x20Not\x20Found\x20In\x20Database','ramalan_cinta','delmsg\x0a└┬─────────────┈❖\x0a┌┤「\x20EPHOTO\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','3drainbow\x20[text]\x0a│⭔\x20','long','*⏰\x20Runtime\x20:*\x20','Penggunaan\x20','80\x20Hari\x20Lagi','Silahkan\x20Jawab\x20Pertanyaan\x20Berikut\x0a\x0a','95\x20Hari\x20Lagi','speedtest\x0a│⭔\x20','find','joox','./lib/y2mate','\x20ig\x20cak_haho','lag','append','google\x20[query]\x0a│⭔\x20','databasemenu','⌲\x20Teka\x20Teki','ramaljodoh','medias','\x20❤️\x20@','Sombong','hapusvote*\x20-\x20Untuk\x20Menghapus\x20Vote\x0a\x0a©','5\x20Hari\x20Lagi','./lib/binary','Kirim\x20Gambar/Video\x20Dengan\x20Caption\x20','neko','\x0a⭔\x20*Personality\x20:*\x20','\x0a│\x20Runtime\x20:\x20','Yang\x20mau\x20di\x20tulis\x20apaan?','child_process','url','justina\x0a│⭔\x20','logogaming','100','public_repos','\x0a│⭔\x20DANA\x20:\x20','\x0a-\x20Kestabilan\x20:\x20','95\x20Bulan\x20Lagi','scale','remove','Private\x20Chat','\x20dan\x20\x0a@','tomp3','patrick\x0a│⭔\x20','addmsg\x0a│⭔\x20','\x20Tutorial\x20Membuat\x20Bot\x20WhatsApp','60\x20Hari\x20Lagi','Mode\x20Antilink\x20TikTok','deep\x20[reply\x20audio\x20/\x20vn]\x0a│⭔\x20','\x0a│⭔\x20Q.S\x20Az-Zalzalah\x20Ayat\x207\x20:\x0a│\x0a│\x20\x20\x20\x20فَمَنْ\x20يَّعْمَلْ\x20مِثْقَالَ\x20ذَرَّةٍ\x20خَيْرًا\x20يَّرَه\x0a│\x0a│⭔\x20Artinya\x20:\x20Maka\x20barangsiapa\x0a│mengerjakan\x20kebaikan\x20seberatzarrah,\x0a│niscaya\x20dia\x20akan\x20melihat\x0a│(balasan)nya.\x0a│\x0a│*Terima\x20Kasih*\x0a└──────────────┈❖','dropwater','templateVid','\x0a⭔\x20*Arti\x20:*\x20','sendTextWithMentions','vietnam\x0a│⭔\x20','「\x20Text\x20Pro\x20Menu\x20」','ffcover\x20[text]\x0a│⭔\x20','「\x20Group\x20Menu\x20」','mentionedJid','tebak','setcmd','Bisa','galauquote','blackpink\x20[text]\x0a│⭔\x20','rezeki\x0a│⭔\x20','23:59:00','Menampilkan\x20Islamic\x20Menu','35\x20Bulan\x20Lagi','\x0a\x0aSilahkan\x20pilih\x20suit\x20di\x20chat\x20masing\x22\x0aklik\x20https://wa.me/','gay','「\x20Main\x20Menu\x20」','trumpquote\x0a│⭔\x20','⌲\x20Tebak\x20Kimia','\x20|\x20⏳\x20Runtime\x20:\x20','china\x0a│⭔\x20','dana','/photoeditor/','3dcrackedstone\x20[text]\x0a│⭔\x20','gimage','hentai','blur','Masukkan\x20Link\x20Group!','「\x20Anonymous\x20Menu\x20」','*Arab*\x20:\x20','thunder\x20[text]\x0a│⭔\x20','\x0a⭔\x20Upload\x20At\x20:\x20','\x20..\x20kamu\x20percaya\x20sama\x20aku\x20?\x20aaaaaaaaaaah\x20syukur\x20','afkReason','\x0a⭔\x20*Arah\x20Naga\x20Hari\x20:*\x20','-filter_complex\x20\x22areverse\x22','\x20text','\x0a⭔\x20Media\x20Url\x20:\x20','tovideo','Sukses\x20Menyetel\x20Ulang,\x20Tautan\x20Undangan\x20Grup\x20','ephemeral','「\x20Kerang\x20Menu\x20」','req','Terkirim','\x0a⭔\x20*Tanggal\x20Lahir\x20:*\x20','gamemenu','promote','kehilangan','unsur','tovn\x20[reply\x20video]\x0a│⭔\x20','listonline\x0a│⭔\x20','360p','playstore\x20[text]\x0a│⭔\x20','\x0a➣\x20Album\x20:\x20','hidetag\x20[text]\x0a│⭔\x20','al-quran','description','Terima\x20kasih','jodohku','transformer\x20[text]\x0a│⭔\x20','https://xteam.xyz/','listResponseMessage','*「\x20VOTE\x20」*\x0a\x0a*Alasan:*\x20','fromMe','hilih','\x20Second\x0a','simisimi','\x0a└┬─────────────┈❖\x0a┌┤「\x20VOICE\x20CHANGER\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','\x0a⭔\x20*Hasil\x20:*\x20','deep','\x0aKamu\x20berhenti\x20AFK','groupLeave','kehancuran','lastname','listonline','setdesc\x20[text]\x0a│⭔\x20','☕\x20Random\x20Coffe','\x0a🌱\x20*ID\x20:*\x20','\x0a⭔\x20Battery:\x20','Orang\x20yang\x20kamu\x20tantang\x20sedang\x20bermain\x20suit\x20bersama\x20orang\x20lain\x20:(','Agama\x20Saya\x20','img','┌────────┈❖\x0a│「\x20Hi,\x20','huluh','greenhorror','togif','ass','\x0a*English*\x20:\x20','3ddeepsea\x20[text]\x0a│⭔\x20','ytmp3\x20','\x0a⭔\x20Pixel:\x20','Game\x20berakhir','\x0a└┬─────────────┈❖\x0a┌┤「\x20DATABASE\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','bcall\x20[text]\x0a│⭔\x20','pinterestdl','rezeki','\x0a⭔\x20Battery\x20Brand:\x20','bcgc','\x0a└┬─────────────┈❖\x0a┌┤「\x20MEME\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','\x0aSERI','/randomasupan/','Link\x20Twitter\x20Ya\x20Mana?','cuckold','\x0a👥\x20*Member\x20:*\x20','thumb','.mp4','blown\x20[reply\x20audio\x20/\x20vn]\x0a│⭔\x20','life_path','upvote*\x20-\x20Untuk\x20Ya\x0a*','Open\x20Jasa\x20Sewabot\x20>_<','del\x20/\x20','group\x20[option]\x0a│⭔\x20','Yang\x20Sabar\x20Ya\x20Bos:(','harrypotter','Kamu\x20Sudah\x20Vote','getDate','scbot','stickergif','stalk\x20[option]\x20[query]\x0a└┬─────────────┈❖\x0a┌┤「\x20TEXT\x20PRO\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','arahrejeki','\x20Group\x20Chat,\x20Waktu\x20Selesai\x20','*Stalk\x20Github*\x0a\x0a•\x20Username\x20:\x20','⭔\x20Time\x20:\x20','kitagawa\x0a└┬─────────────┈❖\x0a┌┤「\x20ASUPAN\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','platform','\x0a⭔\x20Category\x20:\x20','\x20keluar\x20pertama\x20kali\x20di\x20anime\x20juga\x20manis\x20❤️\x20❤️\x20❤️\x20banget\x20AAAAAAAAH\x20','https://raw.githubusercontent.com/BochilTeam/database/master/religi/asmaulhusna.json','https://fatiharridho.github.io/tebaklagu.json','certificate\x20[text]\x0a│⭔\x20','next\x0a│⭔\x20','3341169yOAEMj','tiktoknowm','Cari\x20Partner','gantengcek','\x20(@','SINGLE_SELECT','orgy\x0a│⭔\x20','xp8pSDavAgfE5XScqXo9UKHF','length','⭔\x20@','dbinary\x20[teks]\x0a│⭔\x20','TikTok\x20Creator','10pVkjMc','quotesmenu','profile_image','Halo,\x20Apa\x20ada\x20yang\x20dapat\x20saya\x20bantu?','asupan','hisoka','kitagawa\x0a└──────────────┈❖','\x0a🔗\x20Url\x20:\x20','block','tiktoknowatermark','listcmd\x0a│⭔\x20','report','react\x20[emoji]\x0a│⭔\x20','filter','⌲\x20Next\x20Video','videoMessage','shubuh','greenhorror\x20[text]\x0a│⭔\x20','jadianpernikahan','⌲\x20Tebak\x20Lontong','\x20telah\x20di\x20mute\x20di\x20group\x20ini\x20🕊️','Contoh\x20:\x20.wangy\x20Riy','green','pixelate\x20[image]\x0a│⭔\x20','Menampilkan\x20Anime\x20Menu','success','female','⭔\x20Member\x20Count:\x20','tebak\x20kimia','util','listcmd','dengan\x20alasan\x20','./lib/uploader','kabupaten','tebaklagu','awan','zettairyouiki\x0a│⭔\x20Noted\x20:\x20Stay\x20Halal\x20Brother\x20>_<\x0a└──────────────┈❖','removebg','https://raw.githubusercontent.com/BochilTeam/database/master/games/susunkata.json','\x0a⭔\x20*Destiny\x20:*\x20','/user/cekapi','messageContextInfo','all','\x0a│⭔\x20GOPAY\x20:\x20','sketch','blur\x20[image]\x0a│⭔\x20','jadiannikah','「\x20Photo\x20Editor\x20Menu\x20」','thailand','25\x20Hari\x20Lagi','_*Masukin\x20id\x20grupnya\x20tolol*_','pantun\x0a│⭔\x20','marmer','groupUpdateSubject','patrick','Owner','Menampilkan\x20Stalk\x20Menu','delmsg\x0a└──────────────┈❖','subject','\x2028,\x2012,\x202021','warna_keberuntungan','asupantiktok','owner\x0a│⭔\x20','username','Link\x20Facebook\x20Ya\x20Mana?','Posisi\x20Invalid','unread','\x0a⭔\x20*Angka\x20Shuzi\x20:*\x20','thx','list','templateMessage','quoted\x0a│⭔\x20','Kamu\x20masih\x20didalam\x20game','\x0a⭔\x20*Nama\x20Istri\x20:*\x20','./lib/myfunc','25\x20Bulan\x20Lagi','40\x20Hari\x20Lagi','45\x20Bulan\x20Lagi','\x20)\x0a│•\x20Waktu\x20Server\x20:\x20','waktu','followers','-af\x20atempo=4/4,asetrate=44500*2/3','namaowner','trumpthink','\x20」\x0a└┬─────────────┈❖\x0a┌┤「\x20DONASI\x20」\x0a│└─────────────┈❖\x0a│⭔\x20TELKOMSEL\x20:\x20','*List\x20Hash\x20🚀*\x0aInfo:\x20*bold*\x20hash\x20is\x20Locked\x20🔒\x0a\x0a*Hash\x20☕\x20:*\x0a','asmaulhusna','harrypotter\x20[text]\x0a│⭔\x20','certificate','motivasi\x0a│⭔\x20','menuall','Gak\x20Gimana2','Keluar','\x20360p','jodohku\x20[teks]\x0a└┬─────────────┈❖\x0a┌┤「\x20MEME\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','earrape','Masukkan\x20Alasan\x20Melakukan\x20Vote,\x20Contoh:\x20*','05:00:00','simih','artinama\x0a│⭔\x20','*?\x0aWaktu\x20:\x2060s','toLowerCase','playerX','memeindo\x0a│⭔\x20','⌲\x20𝚄𝙿𝚅𝙾𝚃𝙴','visoka','Vote\x20dimulai!','reduce','/webzone/jadwalbioskop','Random\x20Image\x20Marin\x20Kitagawa','Klik\x20disini','\x20setelah\x20','tafsirsurah\x0a│⭔\x20','\x20untuk\x20bermain\x20suit\x0a\x0aSilahkan\x20@','views','locale','\x0a⭕:\x20@','delete','\x0a•\x20Email\x20:\x20','watak_kelahiran','halloweenskeleton\x20[text]\x0a│⭔\x20','next','pinterestdl\x20[url]\x0a│⭔\x20','⭔\x20*Description*\x20:\x20','tebak\x20kabupaten','cantikcek','⭔\x20Title:\x20','\x0a-\x20Persentase\x20:\x20','tentacles\x0a│⭔\x20','quotesanime\x0a│⭔\x20','react','Maaf\x20Bot\x20Tidak\x20Bisa\x20Menjawab','snippet','jadwalsholat','arabic','leo','upvote\x0a│⭔\x20','「\x20Contributor\x20」','Ketik\x20#menu\x20Untuk\x20Melihat\x20List\x20Menu\x20Bot','DD/MM/YY\x20HH:mm:ss','infochat\x0a│⭔\x20','Skip','reverse\x20[reply\x20audio\x20/\x20vn]\x0a│⭔\x20','asahotak\x0a│⭔\x20','americanflag','chat\x20[option]\x0a│⭔\x20','\x20abu-daud\x201\x0a\x0aPilihan\x20tersedia:\x0aabu-daud\x0a1\x20-\x204590\x0aahmad\x0a1\x20-\x2026363\x0abukhari\x0a1\x20-\x207008\x0adarimi\x0a1\x20-\x203367\x0aibnu-majah\x0a1\x20-\x204331\x0anasai\x0a1\x20-\x205662\x0amalik\x0a1\x20-\x201594\x0amuslim\x0a1\x20-\x205362','\x20Pertanyaan\x0a\x0aContoh\x20:\x20','asupanaeuni','galauquote\x0a│⭔\x20','⭔\x20*Nama\x20Anda\x20:*\x20','age','\x20」\x0a└┬─────────────┈❖\x0a┌┤「\x20SEWA\x20BOT\x20」\x0a│└─────────────┈❖\x0a│⭔\x201\x20Minggu\x205k\x0a│⭔\x201\x20Bulan\x2015k\x0a└┬─────────────┈❖\x0a┌┤「\x20PEMBAYARAN\x20」\x0a│└─────────────┈❖\x0a│⭔\x20TELKOMSEL\x20:\x20','❍\x20Rules','tebakan','private','\x0aJangan\x20tag\x20dia!\x0aDia\x20sedang\x20AFK\x20','astaghfirallah\x20Beneran???','\x0aContoh\x20penggunaan:\x20','vietnam','(beberapa\x20Jawaban\x20Terdapat\x20Spasi)','sisi_positif','https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=','groupUpdateDescription','gsmarena','\x0a👨‍🎤\x20Author\x20:\x20','\x0a└┬─────────────┈❖\x0a┌┤「\x20GROUP\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','19:00:00','berry\x20[text]\x0a│⭔\x20','limit','hapusvote*\x20-\x20Untuk\x20Menghapus\x20Vote','findIndex','performance-now','filesize','robot\x20[reply\x20audio\x20/\x20vn]\x0a│⭔\x20','15\x20Bulan\x20Lagi','menampilkan\x20Nomor\x20Owner','jail','aminio\x20[text]\x0a│⭔\x20','5️⃣','/entertainment/simisimi','indosat','keys','5608848OSpFxP','Text\x20?','editinfo\x20open','🔎\x20My\x20public\x20IP\x20address\x20is:\x20','\x0a\x0a(\x20Q.S\x20','asupantiktok\x0a│⭔\x20','genre','stalker','primbon_hari_naas','⭔\x20Acara\x20:\x20','keywords','/randomimage/patrick','Reply\x20Message\x20Yang\x20Ingin\x20Disave\x20Di\x20Database','suamiistri\x0a│⭔\x20','⭔\x20*Title*\x20:\x20','crossfire\x20[text]\x0a│⭔\x20','➣\x20Title\x20:\x20','quotesanime','invert\x20[image]\x0a│⭔\x20','Menampilkan\x20Group\x20Menu','Antilink\x20YouTube\x20Aktif\x20🕊️','\x0a⭔\x20Bio\x20Url\x20:\x20','\x0a│\x20Language\x20:\x20Javascript\x0a│\x20Lib\x20:\x20Baileys-md\x0a└┬─────────────┈❖\x0a┌┤「\x20INFO\x20TIME\x20」\x0a│└─────────────┈❖\x0a│\x20Tanggal\x20Server\x20:\x20','\x0a⭔\x20Followers\x20:\x20','number','_[\x20!\x20]\x20Error\x20Gagal\x20Dalam\x20Mendownload\x20Dan\x20Mengirim\x20File_','application/vnd.openxmlformats-officedocument.wordprocessingml.document','media','unlocked','gluetext','Hadis\x20tidak\x20ditemukan\x20!','145jKDFaH','\x27\x20Telah\x20Terdaftar\x20Di\x20List\x20Pesan','https://youtu.be','Ubah\x20Menu\x20Bot\x20Menjadi\x20Video','\x0a└┬─────────────┈❖\x0a┌┤「\x20KEUNTUNGAN\x20」\x0a│└─────────────┈❖\x0a│⭔\x20On\x2024\x20Jam\x0a│⭔\x20Run\x20Dirpd/Heroku/Oktote\x0a│⭔\x20Anti\x20Delay\x0a│⭔\x20Anti\x20Virtex\x0a│⭔\x20Antilink\x20WA/TT/YT\x0a│⭔\x20Welcome\x20Image\x0a│⭔\x20Left\x0a└┬─────────────┈❖\x0a┌┤「\x20SISTEM\x20」\x0a│└─────────────┈❖\x0a│⭔\x20Kirim\x20»\x20Bukti\x20Pembayaran\x20»\x20Bot\x20Join\x0a└──────────────┈❖','ovo','asahotak','\x0a⭔\x20*Aroma\x20:*\x20','\x0aUntuk\x20Download\x20Media\x20Silahkan\x20Klik\x20salah\x20satu\x20Button\x20dibawah\x20ini\x20atau\x20masukkan\x20command\x20ytmp3/ytmp4\x20dengan\x20url\x20diatas\x0a','puppycute','listpc\x0a│⭔\x20','deletevote','textpromenu','⭔\x20*Analisa\x20:*\x20','90\x20Hari\x20Lagi','igcertificate','stringify','bgGreen','Download\x20From\x20','\x0a📥\x20Format\x20:\x20MP4\x0a📮\x20Resolusi\x20:\x20','\x0a⭔\x20*Lahir\x20Pasangan\x20:*\x20','100%','5LjfCVAp4vVNYiTjq9mXJWHF','remove-bg','floor','agamaowner\x20/\x20','donasi','menuowner','shio\x0a└┬─────────────┈❖\x0a┌┤「\x20PHOTO\x20EDITOR\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','⭔\x20*Hari\x20Lahir\x20:*\x20','https://islamic-api-indonesia.herokuapp.com/api/data/quran?surah=','impressiveglitch\x20[text]\x0a│⭔\x20','bisakah\x20[teks]\x0a│⭔\x20','https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakbendera.json','sisi_negatif','myweb','space','⌲\x20Tebak\x20Tebakan','perhitungan_feng_shui','grafity\x20[text]\x0a│⭔\x20','Testing\x20Speed...','freemem','「\x20Sewa\x20Bot\x20」','\x0a\x0aTerdapat\x20*','ebinary\x20[teks]\x0a│⭔\x20','jam_baik','\x0a⭔\x20Keywords\x20:\x20','-filter:a\x20\x22atempo=1.6,asetrate=22100\x22','🎮\x20Tebak\x20Lagu\x20🎮\x0a\x0aJawaban\x20Benar\x20🎉\x0a\x0aIngin\x20bermain\x20lagi?\x20tekan\x20button\x20dibawah','namabot','./lib/gempa.js','\x0a│\x20WITA\x20:\x20','years','4️⃣','pdf','👥\x20*Member\x20:*\x20','sepia\x20[image]\x0a│⭔\x20','demote\x20@user\x0a│⭔\x20','\x0a⭔\x20*Sifat\x20:*\x20','⭔\x20Updated\x20:\x20','\x0a🎚️\x20Ukuran\x20File\x20:\x20','latin','download','meme\x0a│⭔\x20','removeBackgroundFromImageFile','ago','getmsg\x0a│⭔\x20','\x0a│\x20\x0a└────\x0a\x0a┌〔\x20DEVOTE\x20〕\x0a│\x20\x0a├\x20Total:\x20','\x0a\x0a⭔\x20Description\x20:\x20','githubstalk','Reply\x20Video/Audio\x20Yang\x20Ingin\x20Dijadikan\x20VN\x20Dengan\x20Caption\x20','menunsfw','user_name','\x0a⭔\x20*Lahir\x20Suami\x20:*\x20','suami_istri','lagu','```Kamu\x20Sedang\x20Tidak\x20Berada\x20Di\x20Sesi\x20Anonymous,\x20Tekan\x20Button\x20Untuk\x20Mencari\x20Partner```','attp\x20[teks]\x0a│⭔\x20','bunga_keberuntungan','Nammo\x20Buddhaya\x20Juga\x20Kak\x20','Menunggu\x20partner','reverse','3dwaterpipe\x20[text]\x0a│⭔\x20','dl_link','glasses\x0a│⭔\x20','other','Sukses\x20Menutup\x20Edit\x20Info\x20Group\x20🕊️','node-cron','\x20Chat\x0aWaktu\x20Selesai\x20','Silahkan\x20Jawab\x20Pertanyaan\x20Berikut\x0a\x0aSoal\x20:\x20','Ping','ramalannasib','iqra\x0a│⭔\x20','Haii\x20Kak\x20','Ya\x20ada\x20apa\x20kak?','libra','Nama\x20:\x20','\x0a⭔\x20Profesional\x20:\x20','sendkontak\x0a└──────────────┈❖','Silahkan\x20pilih\x20\x0a\x0aBatu🗿\x0aKertas📄\x0aGunting✂️','\x0a•\x20Tanggal\x20Server\x20:\x20','facebook','Kirim/Reply\x20Foto','\x0a➣\x20Publish\x20:\x20','\x0a│\x20User\x20:\x20','node_id','blown','https://api.memegen.link/images/custom/','ping','Kirim/Reply\x20Video/Audio\x20Yang\x20Ingin\x20Dijadikan\x20MP3\x20Dengan\x20Caption\x20','katasenja\x0a│⭔\x20','「\x20Islamic\x20Menu\x20」','Silakan\x20Pilih\x20Menu\x20Yang\x20Ingin\x20Anda\x20Ubah!','revoke\x20\x0a│⭔\x20','*-------「\x20ANIME-SEARCH\x20」-------*\x0a\x0a','tourl','pinterest','pilih','magma\x20[text]\x0a│⭔\x20','hapusvote\x0a└──────────────┈❖','/downloader/twitter','\x20*username*\x0a\x0aContoh\x20:\x20','afkTime','\x0a-\x20Kehancuran\x20:\x20','Pertanyaan\x20:\x20','sifat','upscale\x20[image]\x0a│⭔\x20','masa_subur','jahy\x0a│⭔\x20','\x20)\x0a•\x20Waktu\x20Server\x20:\x20','cekmati\x20[teks]\x0a│⭔\x20','\x0a⭔\x20Following\x20:\x20','bohlam','\x0a⭔\x20*Sektor\x20:*\x20','https://islamic-api-indonesia.herokuapp.com/api/data/json/hadith/','updated','translation_id','.m4a','auto','listmsg','fengshui\x0a│⭔\x20','\x0a⭔\x20*Angka\x20Akar\x20:*\x20','cekcantik','g-i-s','soundcloud\x20[url]\x0a└┬─────────────┈❖\x0a┌┤「\x20DATABASE\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','1\x20Tahun\x20Lagi','Bot\x20Ini\x20Menggunakan\x20Multi\x20Prefix\x20Dan\x20No\x20Prefix','\x0a⭔\x20Created\x20:\x20','setname','.png','Lucu\x20Dan\x20Original\x20awok⁹⁹⁹','\x0a⭔\x20*Jumlah\x20Neptu\x20:*\x20','coffe','impressiveglitch','gluetext\x20[text]\x0a└──────────────┈❖','Link\x20SoundCloud\x20Ya\x20Mana?','⭔\x20Genre:\x20','Antilink\x20TikTok\x20Aktif\x20🕊️','flower','antilinkyt\x20off','inSurah','Om\x20Santi,\x20Santi,\x20Santi,\x20Om\x20Kak\x20','*📫\x20Title\x20:*\x20','format','20\x20Bulan\x20Lagi','tanggal','admin','pussy\x0a│⭔\x20','twitdl','perselisihan','\x0a⭔\x20*Pasangan\x20Zodiak\x20:*\x20','\x0a⭔\x20*Sisi\x20Negatif\x20:*\x20','enable','kayes','raiden','ringtone\x20[query]\x0a└──────────────┈❖','⭔\x20*Tanggal\x20Pernikahan\x20:*\x20','juz-amma-arab-latin-indonesia.pptx','energi_positif','Silahkan\x20Jawab\x20Pertanyaan\x20Berikut\x0a\x0aUnsur\x20:\x20','ahegao','short','「\x20Download\x20Menu\x20」','\x203\x0a\x0aIQRA\x20Yang\x20tersedia\x20:\x201,2,3,4,5,6','elemen','*\x0a\x0aIngin\x20bermain\x20lagi?\x20tekan\x20button\x20dibawah','send5ButVid','video/mp4','timestamp','```Mohon\x20Tunggu\x20Sedang\x20Mencari\x20Partner```',',\x20Bot\x20Ini\x20Adalah\x0a│\x20\x20Beta\x20Multi-Device\x20WhatsApp.\x0a│•\x20Jika\x20Kamu\x20Menemukan\x20Semacam\x0a│\x20\x20Bug\x20Atau\x20Kesalahan\x20Mohon\x0a│\x20\x20Dimaklumi\x20Dulu\x20Ya,Ketik\x20Report\x0a│\x20\x20Untuk\x20Lapor\x20Owner\x20Agar\x20Segera\x0a│\x20\x20Diperbaiki\x20Atau\x20DiFix.\x0a└┬─────────────┈❖\x0a┌┤「\x20INFO\x20BOT\x20」\x0a│└─────────────┈❖\x0a│•\x20Library\x20:\x20*Baileys-MD*.\x0a│•\x20Prefix\x20:\x20(\x20','allmenu','LIST\x20MENU\x20\x20>_<','432423VNbkue','regular','\x0a•\x20Bio\x20:\x20','trumpthink\x0a│⭔\x20','videoId','templateImage','Sulit\x20Itu\x20Bro','3dgradient\x20[text]\x0a│⭔\x20','public','setexif\x20[packname|author]\x0a│⭔\x20','Mau\x20Lapor\x20Apa?\x0a\x0aContoh:\x20','\x0a⭔\x20*Sektor\x20Baik\x20:*\x20','ceklesbi\x20[teks]\x0a│⭔\x20','50\x20Hari\x20Lagi','*\x20Jawaban\x20','logogaming\x20[text]\x0a│⭔\x20','slow\x20[reply\x20audio\x20/\x20vn]\x0a│⭔\x20','Ciee\x20yang\x20Jadian💖\x20Jangan\x20lupa\x20pajak\x20jadiannya🐤\x0a\x0a@','awan\x20[text]\x0a│⭔\x20','presences','3\x20Tahun\x20Lagi','starnight','alquran','tupai\x20[reply\x20audio\x20/\x20vn]\x0a└┬─────────────┈❖\x0a┌┤「\x20WEBZONE\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','updated_at','\x20Nama\x0a\x0aContoh\x20:\x20','arab','notnot\x0a│⭔\x20','weton\x0a│⭔\x20','Kirim/Reply\x20Image\x20Dengan\x20Caption\x20','_*tidak\x20ada\x20voting\x20digrup\x20ini!*_\x0a\x0a*','panties','🎮\x20Kuis\x20Matematika\x20\x20🎮\x0a\x0aJawaban\x20Benar\x20🎉\x0a\x0aIngin\x20bermain\x20lagi?\x20kirim\x20','asupanmenu','\x0a└┬─────────────┈❖\x0a┌┤「\x20ASUPAN\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','sewa','\x0a•\x20Public\x20Gist(s)\x20:\x20','isBaileys','replace','\x20😅','ashar','mute\x20off','=>\x20Di','ramalan_jodoh_bali','🎮\x20Tebak\x20Tebakan\x20🎮\x0a\x0aJawaban\x20Benar\x20🎉\x0a\x0aIngin\x20bermain\x20lagi?\x20tekan\x20button\x20dibawah','waifu\x0a│⭔\x20','anonymous','orgy','gameId','haribaik\x0a│⭔\x20','delcmd\x20[reply\x20sticker/pesan]\x0a│⭔\x20','thighs\x0a│⭔\x20','wangy\x20[teks]\x0a│⭔\x20','pussy','menuanonymous','toaud','play','🔗\x20*Link\x20Chat\x20:*\x20https://wa.me/','\x20Kalah\x20\x0a','ero\x0a│⭔\x20','antilink\x20[on/off]\x0a│⭔\x20','Ehh\x20Maaf\x20Kamu\x20Ngirim\x20Link\x20Group\x20Ini','sender','title','sendMedia','\x20saya\x20wibu','ID\x20:\x20','Off','ytcertificate\x20[text]\x0a└┬─────────────┈❖\x0a┌┤「\x20GROUP\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','.stop','HH:mm:ss','Invalid\x20Date','/downloader/facebook','album','⭔\x20Ashar\x20:\x20','nsfwmenu','togif\x20[reply\x20sticker]\x0a│⭔\x20','\x27\x0a\x20\x20\x20\x20\x0aAkses\x20dengan\x20','fendom\x0a│⭔\x20','⭔\x20Deskripsi:\x20','All\x20Fitur\x20Bot\x20>_<','start\x0a│⭔\x20','\x20Nama,\x20tanggal\x20lahir,\x20bulan\x20lahir,\x20tahun\x20lahir,\x20untuk\x20tahun','path','https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakgambar.json','Random\x20Image\x20','not_announcement','fireworksparkle\x20[text]\x0a│⭔\x20','\x0a\x0aKetik\x20*nyerah*\x20untuk\x20menyerah\x20dan\x20mengakui\x20kekalahan','https://raw.githubusercontent.com/iamriz7/kopel_/main/kopel.json','premium_expired','tanpa\x20alasan','settings','husbu','usaha','planet_yang_mengitari','\x20AAAAAAAAAAAAAAAAAAAAGH\x20❤️\x20❤️\x20❤️apa\x20?\x20','asal','msg','\x0a└┬─────────────┈❖\x0a┌┤「\x20DOWNLOADER\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','kapankah\x20[teks]\x0a│⭔\x20','shinobu\x0a│⭔\x20','singleSelectReply','👤\x20*User\x20:*\x20@','destiny','File\x20Melebihi\x20Batas\x20','templateMsg','getQuotedObj','*🔒\x20LIST\x20PERSONAL\x20CHAT*\x0a\x0a','galaxy\x20[text]\x0a│⭔\x20','Apikey\x20Yang\x20Dipake\x20Oleh\x20Bot\x20','Sudah\x20Nonaktif\x20Sebelumnya\x20🕊','starlogo','pinterest\x20[query]\x0a│⭔\x20','60\x20Bulan\x20Lagi','cum\x0a│⭔\x20','\x0a⬣\x20https://zenzapis.xyz\x20[Sewa]','hari_lahir','suitpvp\x20[@tag]\x0a└┬─────────────┈❖\x0a┌┤「\x20ISLAMIC\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','⌲\x20Next\x20Image','Message','⭔\x20Nomor:\x20','\x20Gambar\x20aku','Menampilkan\x20Download\x20Menu','cocokpasangan','jadwal','triggered\x20[image]\x0a└──────────────┈❖','Namo\x20buddhaya','mute\x20on','-filter:a\x20\x22atempo=1.63,asetrate=44100\x22','Balas\x20audio\x20yang\x20ingin\x20diubah\x20dengan\x20caption\x20*','character\x20[query]\x0a│⭔\x20','persentase','calliope','Berhasil\x20Dilaporkan\x20Ke\x20Owner\x0a\x0aPastikan\x20Bugnya\x20Valid,\x20Jika\x20Anda\x20Bermain-main\x20Dengan\x20Ini,\x20Gunakan\x20Fitur\x20Ini\x20Lagi\x20Dan\x20Lagi\x20Tanpa\x20Alasan,\x20Anda\x20Pasti\x20Akan\x20Diblokir\x20!','free','tomp4','⭔\x20Totalhit\x20:\x20','mulai','⌲\x20𝙳𝙴𝚅𝙾𝚃𝙴','request','Menampilkan\x20All\x20Menu','analisa','batu_keberuntungan','4\x20Tahun\x20Lagi','_*Hasil\x20Suit*_','\x0a\x0a-\x20','iqra','⌲\x20Next\x20Quotes','⎙\x20Sewabot','downloadmenu','⭔\x20Img\x20Url:\x20','\x0a•\x20Company\x20:\x20','\x0a⭔\x20User\x20Name\x20:\x20','add','\x206,\x2012,\x202020','simih\x20[teks]\x0a│⭔\x20','𝑺𝒆𝒍𝒂𝒎𝒂𝒕\x20𝑷𝒂𝒈𝒊\x20🌄','add\x20@user\x0a│⭔\x20','Bot','delmsg','/stalker/nickpb','cocoknama\x0a│⭔\x20','filesizeF','𝑺𝒆𝒍𝒂𝒎𝒂𝒕\x20𝑷𝒆𝒕𝒂𝒏𝒈\x20🌆','Contoh:\x20','fendom','cecan','Kedua\x20pemain\x20tidak\x20niat\x20main,\x0aSuit\x20dibatalkan','3dneonlight','10:00:00','Sukses\x20Broadcast','/stalker/nickml','\x0a•\x20Public\x20Repo(s)\x20:\x20','Anda\x20Tidak\x20Diizinkan\x20Untuk\x20Mengubah\x20Perintah\x20Stiker\x20Ini\x20❎','lanjut','lockcmd','\x0aJawaban\x20:\x20*','group\x20close','cekmati','Penulis','catch','unblock\x20@user\x0a│⭔\x20','⭔\x20Duha\x20:\x20','setdesk','kerangmenu','selectedId','link_song','\x0a\x0a──────────────────────\x0a','bohlam\x20[text]\x0a│⭔\x20','\x0a⭔\x20*Lahir\x20Anda\x20:*\x20','menutextpro','elemen_keberuntungan','groupSettingUpdate','cekvote*\x20-\x20Untuk\x20Mengecek\x20Vote\x0a*','./config','emojimix2\x20😎\x0a└──────────────┈❖','\x0a-\x20Kehilangan\x20:\x20','math\x20medium','\x0a└──────────────┈❖','Hadis\x20yang\x20ke\x20berapa?\x0a\x0acontoh:\x0a','soundcloud\x20[url]\x0a└──────────────┈❖','\x20Padang','values','\x0a•\x20Type\x20:\x20','tebak\x20kalimat','delvote','menudownload','\x0a└┬─────────────┈❖\x0a┌┤「\x20MAIN\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','2️⃣','slice','LIST\x20DATABASE\x20📂\x0a\x0a','antivirtex','suami','\x20AAAAA\x20LUCCUUUUUUUUUUUUUUU............\x20','⭔\x20Title\x20:\x20','bluecircuit\x20[text]\x0a│⭔\x20','3dneonlight\x20[text]\x0a│⭔\x20','\x20Saya\x20Mati','like','start','male','jadian\x20[teks]\x0a│⭔\x20','►\x20Audio','cekprefix','Reseted\x20Limit','\x0a│⭔\x20XL\x20:\x20','\x0a⭔\x20Homepage\x20:\x20','masasubur','string','smartfren','SHA256\x20Hash\x20Missing','object','*📱\x20Total\x20Chat\x20:*\x20','*💻\x20RAM\x20Server\x20:*\x20','done','setmenu\x20[option]\x0a└──────────────┈❖','⭔\x20Creator:\x20','parse','twitter\x20','=>\x20Dari','3dgradient','participants','personality','tiktokwm','「\x20Owner\x20Menu\x20」','groupParticipantsUpdate','\x0a⭔\x20*Hari\x20Naas\x20:*\x20','harisangar\x0a│⭔\x20','botAdmin','\x0a│\x0a│\x20\x0a└────\x0a\x0a*','\x0a│⭔\x20TRI\x20:\x20','logo3\x20[text]\x0a│⭔\x20','groupAcceptInvite','ownermenu','kick','help','\x0a⭔\x20*Karakter\x20:*\x20','0@s.whatsapp.net','📛\x20*Nama\x20:*\x20','No\x20Name','\x20detik','darkjoke\x0a└──────────────┈❖','kestabilan','ffcover','taurus','Anime\x20apa\x20yang\x20kamu\x20cari??','logogirl\x20[text]\x0a│⭔\x20','\x20bukhari\x201\x0a','ramaljodohbali\x0a│⭔\x20','juz-amma-arab-latin-indonesia.docx','\x0a⭔\x20Allah\x20SWT.\x0a⭔\x20Ortu\x20Saya.\x0a⭔\x20DikaArdnt\x20(Author).\x0a⭔\x20Sanzy\x20YT.\x0a⭔\x20GuaAbuzz\x20(Saya).\x0a⭔\x20Fatih\x20A.\x0a⭔\x20Nurutomo.\x0a⭔\x20Mhankbarbar.\x0a⭔\x20ZeeoneOfc.\x0a⭔\x20Penyedia\x20Module.\x0a⭔\x20Penyedia\x20Res\x20Api\x27s.\x0a⭔\x20All\x20My\x20Friends.\x0a\x0a•\x20Library\x20:\x20*Baileys-MD*.\x0a•\x20Prefix\x20:\x20(\x20','mimpi','jadwalsholat\x0a│⭔\x20','\x0a└┬─────────────┈❖\x0a┌┤「\x20STICKER\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','play\x20[query]\x0a│⭔\x20','\x0aUsername\x20:\x20','styletext\x20[teks]\x0a└┬─────────────┈❖\x0a┌┤「\x20STICKER\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','\x0a⭔\x20Chipset:\x20','Canda','lockcmd\x0a│⭔\x20','\x207\x207\x202005','https://api.agify.io/?name=','twitter','delttc','65\x20Bulan\x20Lagi','\x0a⭔\x20File\x20Size\x20:\x20','foggywindow','ebinary','\x0a└┬─────────────┈❖\x0a┌┤「\x20PHOTO\x20EDITOR\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','animemenu','flower\x20[text]\x0a│⭔\x20','⌲\x20Tebak\x20Kabupaten','./lib/converter','menu\x20/\x20','company','puisi\x0a│⭔\x20','audio/mpeg','updateBlockStatus','\x20Menu\x20Error','*\x20:\x20','\x0aPenulis\x20:\x20','creepyfact\x0a│⭔\x20','⭔\x20*Hasil\x20:*\x20','artimimpi\x0a│⭔\x20','\x20Dika|Novia','*⚡\x20Speed\x20:*\x20','demote','katasenja','Om\x20Swastyastu','potensipenyakit','open','\x0aRequest\x20Message:\x20','matrix\x20[text]\x0a│⭔\x20','⭔\x20Id\x20:\x20','shinobu','tebak\x20kata','3GQnMpa','q61faXzzR5zNU6cvcrwtUkRU','yts\x20[query]\x0a│⭔\x20','peruntungan','voicemenu','https://coffee.alexflipnote.dev/random','\x20DIka,\x207,\x207,\x202005,\x202022\x0a\x0aNote\x20:\x20','⭔\x20Divote:\x20','cerpen','join','Xian\x20You\x20Yi\x20De\x20Kak\x20','tiktokmp3\x20','Pesan\x20tersebut\x20bukan\x20dikirim\x20oleh\x20bot!','Judul\x20:\x20','nasib\x0a│⭔\x20','leave','script','om\x20swastyastu','\x0a\x0a────────────────────────\x0a\x0a','menusticker','\x0a⭔\x20Title\x20:\x20','pekerjaan_weton_lahir','board','❍\x20Ping','seconds','\x20GuaAbuzz\x20Oni-chan','hapusvote\x0a└┬─────────────┈❖\x0a┌┤「\x20GAME\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','state','「\x20ANTI\x20VIRTEX\x20」\x0a\x0aKamu\x20Terdeteksi\x20Mengirim\x20Virtex,\x20Maaf\x20Kamu\x20Akan\x20Di\x20Kick\x20!','https://chat.whatsapp.com/','send5ButImg','\x20Story\x20Wa\x20Anime','/randomtext/','bdsm','Berhasil\x20Menambahkan\x20Pesan\x20Di\x20List\x20Pesan\x20Sebagai\x20\x27','ytcertificate','self','mp4','fbdl','nagahari\x0a│⭔\x20','zenz','saweria','Partner\x20ditemukan!','\x0a│\x20Lib\x20:\x20Baileys-md\x0a│\x20Menuju\x20idul\x20Adha\x20:\x0a│\x20\x20','juzamma','potensi_keberuntungan','pesan','telkomsel','jumlah_neptu','Shalom','americanflag\x20[text]\x0a│⭔\x20','rate','ramalanjodohbali','agamabot','ero','\x0a•\x20Wita\x20:\x20','comrade','group','Selesaikan\x20suit\x20mu\x20yang\x20sebelumnya','sendMessage','acara','Menampilkan\x20Random\x20Menu','\x20menolak\x20suit,\x20suit\x20dibatalkan','\x201\x202\x0a\x0amaka\x20hasilnya\x20adalah\x20surah\x20Al-Fatihah\x20ayat\x202\x20beserta\x20audionya,\x20dan\x20ayatnya\x201\x20aja','\x20packname|author','bucinquote\x0a│⭔\x20','asupannatajadeh','\x20aaaaaah\x20❤️\x20❤️\x20❤️\x20YEAAAAAAAAAAAH\x20GUA\x20MASIH\x20PUNYA\x20','animequotes','Silahkan\x20Jawab\x20Gambar\x20Berikut\x0a\x0aWaktu\x20:\x2060s','\x0a└┬─────────────┈❖\x0a┌┤「\x20PRIMBON\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','Reply\x20Video','coklat\x20[text]\x0a│⭔\x20','blog','Mau\x20Cari\x20Wikimedia\x20Apa?','\x0aJawablah\x20Pertanyaan\x20Berikut\x20:\x0a','thunder','winner','push','Text?','perf_hooks','video','Menampilkan\x20Kerang\x20Menu','menuwebzone','match','\x20❤️\x20❤️\x20❤️\x20WANGY\x20WANGY\x20WANGY\x20WANGY\x20HU\x20HA\x20HU\x20HA\x20HU\x20HA,\x20aaaah\x20baunya\x20rambut\x20','logo4\x20[text]\x0a│⭔\x20','\x0a└┬─────────────┈❖\x0a┌┤「\x20RANDOM\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','ytmp4','tarot','application/vnd.openxmlformats-officedocument.spreadsheetml.sheet','\x20https://umma.id/channel/video/post/gus-arafat-sumber-kecewa-84464612933698','Hello','d\x0a│⭔\x20','hadist','menustalk','homepage','wetonjawa','Public','time','darkjoke\x0a└┬─────────────┈❖\x0a┌┤「\x20MAIN\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','namo\x20buddhaya','\x20samsung','⭔\x20Premium\x20:\x20','sendButtonText','\x20npm\x20scrape-primbon','ramalcinta\x0a│⭔\x20','delttt','dither\x20[image]\x0a│⭔\x20','devote*\x20-\x20Untuk\x20Tidak\x0a*','starnight\x20[text]\x0a│⭔\x20','1962762zmZFiT','\x20menantang\x20@','suit_','\x0a💬\x20Description\x20:\x20','anime','episode','⭔\x20Media\x20Url\x20:\x20','\x0a⭔\x20Video\x20ID\x20:\x20','⭔\x20Username\x20:\x20','ttp\x20[teks]\x0a│⭔\x20','\x207,\x207,\x202005','\x20pdf\x0a\x0aFormat\x20yang\x20tersedia\x20:\x20pdf,\x20docx,\x20pptx,\x20xlsx','ceksange\x20[teks]\x0a│⭔\x20','Hanya\x20Bisa\x20Membalas\x20Pesan\x20Dari\x20Bot','timeout','grup','array','\x0a\x0aMenunggu\x20lawan\x20memilih','Sukses\x20Mengubah\x20Mode\x20Bot\x20Menjadi\x20Self','sendkontak\x0a└┬─────────────┈❖\x0a┌┤「\x20ANIME\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','\x0a⭔\x20*Lahir\x20:*\x20','githubstalk\x20[username]\x0a│⭔\x20','sepia','jadwaltv','⌲\x20Tebak\x20Lirik','shio','Antilink\x20TikTok\x20Nonaktif\x20🕊️','umma\x20[url]\x0a│⭔\x20','Masukkan\x20Query\x20text!','🎮\x20Tebak\x20Gambar\x20🎮\x0a\x0aJawaban\x20Benar\x20🎉\x0a\x0aIngin\x20bermain\x20lagi?\x20tekan\x20button\x20dibawah','https://raw.githubusercontent.com/BochilTeam/database/master/games/siapakahaku.json','copyNForward','HH\x20:\x20mm\x20:\x20ss','Anime','editinfo','TikTok\x20Downloader','pasangan\x0a│⭔\x20','gay\x20[image]\x0a│⭔\x20','hadist\x0a│⭔\x20','Kirim/Reply\x20Video/Audio\x20Yang\x20Ingin\x20Dijadikan\x20Audio\x20Dengan\x20Caption\x20','maid','/stalker/nickcod','Info\x20Tentang\x20Owner?\x20>_<','broadcast','profile_hd','nama_anda','Character','vote*\x20-\x20untuk\x20memulai\x20vote','\x0a👤\x20*Owner\x20Grup\x20:*\x20','help\x20/\x20','\x0a⭔\x20License\x20:\x20','publish','ahegao\x0a│⭔\x20','entries','Gak\x20Bisa\x20Ajg\x20Aaokawpk','cosplay','zodiak','tgl_memancing','setmenu','\x0aWaktu\x20:\x2060s','community_thumb','concat','_currentTurn','pushName','map','audio','apakah','harisial','⌲\x20Tebak\x20Kalimat','pptx','translation','\x0a⭔\x20*Energi\x20Negatif\x20:*\x0a-\x20Perselisihan\x20:\x20','\x20text1|text2','/randomanime/marin-kitagawa','⌲\x20Siapkah\x20Aku','xfarr-api','trumpquote','lambang','Menampilkan\x20Game\x20Menu','robot','Done!','⌲\x20Template\x20Gif','setmenu\x20templateMessage','image','Balas\x20sticker\x20dengan\x20caption\x20*','Text\x20Pro\x20','weton','reply','1622392bbNheq','APIKeys','locked','axios','downloadAndSaveMediaMessage','\x0a\x0a\x0aTerdapat\x20','apikey\x0a│⭔\x20','「\x20ANTI\x20LINK\x20WHATSAPP\x20」\x0a\x0aKamu\x20Terdeteksi\x20Mengirim\x20Link\x20Group,\x20Maaf\x20Kamu\x20Akan\x20Di\x20Kick\x20!','rose','dither','Berhasil\x20delete\x20session\x20TicTacToe','https://raw.githubusercontent.com/BochilTeam/database/master/games/asahotak.json','naturalleaves\x20[text]\x0a│⭔\x20','family100','⭔\x20ApiKey\x20:\x20','menuvoice','\x20text\x0a\x0aContoh\x20:\x20','\x20Abuzzpoet','⭔\x20Dzuhur\x20:\x20','⌲\x20Tebak\x20Gambar','kala_tinantang','\x0a⭔\x20Url\x20:\x20','removebg\x20[image]\x0a│⭔\x20','primbonmenu','⭔\x20*Nomor\x20HP\x20:*\x20','chalk','\x20aov\x20293306941441181','\x27\x20tidak\x20terdaftar\x20didalam\x20list\x20pesan','/randomimage/','\x27\x20dari\x20list\x20pesan','./src/database.json','metallic\x20[text]\x0a│⭔\x20','twitteraudio','culik','\x20})()','Tidak\x20Ada\x20Hash','\x0a⭔\x20*Persentase\x20:*\x20','fiction','\x0a\x0a─────────────────\x0a\x0a','zodiac','cache','Donasi\x20Kak\x20Buat\x20Beli\x20Apikey🔥','suitpvp','\x20https://youtube.com/watch?v=PtFMh6Tccag%27\x20128kbps','❍\x20Donasi','groupInviteCode','soal','maintainers','quotes\x20[text]\x0a│⭔\x20','Hi,\x20Apa\x20ada\x20yang\x20dapat\x20saya\x20bantu?','sifat_usaha_bisnis','active','firstname','playerO','Menampilkan\x20Asupan\x20Menu','\x0a⭔\x20Detail\x20:\x20','Untuk\x20Command\x20Apa?','♫\x20Audio','relayMessage','donasi\x0a│⭔\x20','jsdom','bass\x20[reply\x20audio\x20/\x20vn]\x0a│⭔\x20','toUpperCase','ramalan_peruntungan','angka_kua','exec','\x0a\x20\x20\x20\x20','Mute\x20Bot','\x20」\x0a└┬─────────────┈❖\x0a┌┤「\x20INFO\x20BOT\x20」\x0a│└─────────────┈❖\x0a│\x20Prefix\x20:\x20(\x20','application/vnd.openxmlformats-officedocument.presentationml.presentation','toaudio\x20[reply\x20video]\x0a└┬─────────────┈❖\x0a┌┤「\x20DOWNLOADER\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','\x0a⭔\x20Version\x20:\x20','memeindo','Menyerah!','⭔\x20*Lahir\x20:*\x20','data','couple','bcallmedia\x0a│⭔\x20','?file&text=','report\x20[bug]\x0a└┬─────────────┈❖\x0a┌┤「\x20NSFW\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','\x0a└┬─────────────┈❖\x0a┌┤「\x20CONVERT\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','📄\x20Judul\x20:\x20','messages.upsert','Reply\x20Pesan','/downloader/soundcloud','nomorhoki','bagaimanakah\x20[teks]\x0a│⭔\x20','status','75\x20Bulan\x20Lagi','updateProfilePicture','unwatchFile','「\x20Webzone\x20Menu\x20」','logo3','susunkata\x0a│⭔\x20','stalkmenu','ruby','editinfo\x20[option]\x0a│⭔\x20','menumain','character','\x27,\x20','tebak\x20lagu','wallpaper\x20','neon\x20[text]\x0a│⭔\x20','Klik\x20Untuk\x20Melihat\x20Daftar\x20Sewabot','/stalker/nickff','glass\x20[text]\x0a│⭔\x20','ringtone\x20[query]\x0a└┬─────────────┈❖\x0a┌┤「\x20STALK\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','quoted','del','primbon_arah_rejeki','\x0a⭔\x20*Lahir\x20Istri\x20:*\x20','Close','\x0aReport\x20Message:\x20','crossfire','simbol_tarot','sifatusaha\x0a│⭔\x20','anime\x20[query]\x0a│⭔\x20','\x20cod\x206290150021186841472','Asia/Jayapura','bisakah','yasuologo','Invalid!\x0a\x0aYg\x20mau\x20di\x20cek\x20siapa\x20kontol?','👤\x20@','susunkata','Silahkan\x20Jawab\x20Gambar\x20Berikut\x0a\x0aClue\x20:\x20','emojimix2\x20😎\x0a└┬─────────────┈❖\x0a┌┤「\x20SEARCH\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','kalimat','bind','128kbps','\x0a\x0a┌〔\x20UPVOTE\x20〕\x0a│\x20\x0a├\x20Total:\x20','today_hit','28XFUmEe','Balas\x20Video/Image\x20Dengan\x20Caption\x20','christmasholiday\x20[text]\x0a│⭔\x20','/islami/jadwalshalat','created_at','neondevils\x20[text]\x0a│⭔\x20','masturbation','Besok','\x20hari\x20pertama\x20menstruasi,\x20siklus','\x0a⭔\x20Realease:\x20','WAITING','\x0a⭔\x20*Warna\x20:*\x20','peruntungan\x0a│⭔\x20','close','「\x20ANTI\x20LINK\x20YOUTUBE\x20」\x0a\x0aKamu\x20Terdeteksi\x20Mengirim\x20Link\x20Youtube,\x20Maaf\x20Kamu\x20Akan\x20Di\x20Kick\x20!','Ehh\x20Bot\x20Gak\x20Admin\x20T_T','kpop','python\x20speed.py','cek_potensi_penyakit','Antilink\x20Group\x20WhatsApp\x20Nonaktif\x20🕊️','penyakit\x0a│⭔\x20','bluecircuit','Ephoto\x20','beach\x20[text]\x0a│⭔\x20','imageMessage','tqto','join\x20[link]\x0a│⭔\x20','*?\x0a\x0aWaktu:\x20','wasted\x20[image]\x0a│⭔\x20','https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakkimia.json','\x27\x20Tidak\x20Terdaftar\x20Di\x20List\x20Pesan','*Berapa\x20hasil\x20dari:\x20','thanks','ping\x0a│⭔\x20','Menampilkan\x20Search\x20Menu','maid\x0a│⭔\x20','hapusvote','\x20belanja','resolve','yuri\x0a│⭔\x20','8️⃣','log','primary','twittermp3\x20[url]\x0a│⭔\x20','aries','\x20Tambahin\x20Menu\x20Nsfw\x20dong','Tidak','userJid','thanksto','antilink','\x0a└┬─────────────┈❖\x0a┌┤「\x20INFO\x20BOT\x20」\x0a│└─────────────┈❖\x0a│\x20Prefix\x20:\x20(\x20','3dscifi\x20[text]\x0a│⭔\x20','\x0a│\x20WIT\x20:\x20','\x0a│\x0a│\x20\x0a└────\x0a\x0a┌〔\x20DEVOTE\x20〕\x0a│\x20\x0a├\x20Total:\x20','Mode\x20Edit\x20Info','cekganteng\x20[teks]\x0a│⭔\x20','nowplayingbioskop\x0a│⭔\x20','\x0a📬\x20Sumber\x20:\x20','pindl','jawaban','hilih\x20[teks]\x0a│⭔\x20','\x20Jawaban\x20','unlinkSync','uptime','dropwater\x20[text]\x0a│⭔\x20','*🔗\x20Nomor\x20Owner\x20:*\x20wa.me/','mememenu','message','bcallmedia\x20\x20[image\x20/\x20video]\x0a│⭔\x20','Convert\x20By\x20','\x0a⭔\x20*Watak\x20Kelahiran\x20:*\x20','antilinkyt\x20on','DD/MM/YY','calliope\x0a│⭔\x20','gaycek','Mau\x20Request\x20Apa?\x0a\x0aContoh:\x20','\x0a⭔\x20Maintainers\x20:\x0a\x20','setmenu\x20templateImage','Masih\x20Ada\x20Sesi\x20Yang\x20Belum\x20Diselesaikan!','jadwalbioskop\x20[lokasi]\x0a│⭔\x20','emojimix\x20😎+🤠\x0a│⭔\x20','attp','ytsearch\x20[query]\x0a│⭔\x20','ruby\x20[text]\x0a│⭔\x20','3dscifi','Self','⭔\x20First\x20Name\x20:\x20','►\x20No\x20Watermark','agamabot\x0a│⭔\x20','Google\x20Search\x20From\x20:\x20','neko\x0a│⭔\x20','\x0a•\x20Wit\x20:\x20','\x0a•\x20Updated\x20At\x20:\x20','Salam\x20Sejahtera','\x0a⭔\x20*Gender\x20:*\x20','Apikey\x20Check\x20:\x0a\x0a','Menampilkan\x20Meme\x20Image\x20Menu','selfies\x0a│⭔\x20','Tidak\x20bisa\x20bermain\x20dengan\x20diri\x20sendiri\x20!','\x0a⭔\x20Like\x20:\x20','readFileSync','⭔\x20Arti\x20ID:\x20','──────────────────────\x0a\x0a','participant','.\x20@','ass\x0a│⭔\x20','holoh','/randomanime/raiden-shogun','off','tekateki\x0a│⭔\x20','myip','raiden\x0a│⭔\x20','berry','Contoh\x20penggunaan:\x0a','blackpink','\x0a└┬─────────────┈❖\x0a┌┤「\x20ANONYMOUS\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','\x20Chat','⭔\x20Full\x20Name\x20:\x20','\x0a📤\x20Upload\x20At\x20:\x20','conversation','logogold','getmusic','tiktokaudio','\x0a└┬─────────────┈❖\x0a┌┤「\x20WEBZONE\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','emojimix','86h6d6u4AXrst4BVMD9dzdGZ','tagall','cekapi','⌲\x20Chat\x20Owner\x20Disini','stickermenu','Exif\x20berhasil\x20diubah\x20menjadi\x0a\x0a⭔\x20Packname\x20:\x20','isGroup','Couple\x20Male','Coba\x20Deh\x20Cari\x20Di\x20Gugel','\x20ff\x20552992060','_\x0a\x0aBy\x20\x27','disable','&ayat=','sendContact','[\x20PESAN\x20]','⭔\x20Maghrib\x20:\x20','starlogo\x20[text]\x0a│⭔\x20','-filter:v\x20\x22minterpolate=\x27mi_mode=mci:mc_mode=aobmc:vsbmc=1:fps=120\x27\x22','fakeObj','kopi','/webzone/drakor','grafity','⌲\x20List\x20Menu','Invalid','Sukses\x20Mengirim\x20Broadcast\x20Ke\x20','scale\x20[image]\x0a│⭔\x20','📱\x20Total\x20Group\x20:\x20','-filter_complex\x20\x22afftfilt=real=\x27hypot(re,im)*sin(0)\x27:imag=\x27hypot(re,im)*cos(0)\x27:win_size=512:overlap=0.75\x22','_Siapa\x20yang\x20ingin\x20kamu\x20tantang?_\x0aTag\x20orangnya..\x0a\x0aContoh\x20:\x20','antilinktt','Random\x20Asupan\x20','artimimpi','user','toFixed','harisial\x0a│⭔\x20','halloweenskeleton','ffmpeg\x20-i\x20','*Jawablah\x20Pertanyaan\x20Berikut\x20:*\x0a','Mengirim\x20Broadcast\x20Ke\x20','artist','assalamualaikum','wikimedia\x20','\x0aTipe\x20:\x20','kick\x20@user\x0a│⭔\x20','*📚\x20Url\x20:*\x20','Asia/Jakarta','kekayaan','tomp3\x20[reply\x20video]\x0a│⭔\x20','\x0a⭔\x20*Sisi\x20Positif\x20:*\x20','scrape-primbon','Antilink\x20Group\x20WhatsApp\x20Aktif\x20🕊️','yuri','suit','currentTurn','⭔\x20Status\x20:\x20','limitawal','random','Infinity','/randomtext/animequotes2','tafsirmimpi','waifu','ytmp4\x20','chats','\x0a└┬─────────────┈❖\x0a┌┤「\x20TEXT\x20PRO\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','wallpaper\x20[query]\x0a│⭔\x20','-filter:a\x20\x22atempo=0.5,asetrate=65100\x22','PLAYING','\x0a\x0a@','nightcore\x20[reply\x20audio\x20/\x20vn]\x0a│⭔\x20','\x20https://youtube.com/watch?v=PtFMh6Tccag%27\x20360p','rate\x20[teks]\x0a│⭔\x20','/webzone/webtoons','trim','https://raw.githubusercontent.com/BochilTeam/database/master/games/tekateki.json','kuismath','liston','sketch\x20[text]\x0a│⭔\x20','mute\x20[on/off]\x0a│⭔\x20','creepyfact','zettairyouiki\x0a│⭔\x20Noted\x20:\x20Stay\x20Halal\x20Brother\x20>_<\x0a└┬─────────────┈❖\x0a┌┤「\x20OWNER\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','tebak\x20tebakan','type','►\x20Video','menu','isya','balas\x20stiker\x20dengan\x20caption\x20*','pekerjaan\x0a│⭔\x20','huluh\x20[teks]\x0a│⭔\x20','\x20Dika,\x207,\x207,\x202005','userName','-af\x20equalizer=f=54:width_type=o:width=2:g=20','menurandom','ceklesbi','./storage/menu/hisoka.jpg','*Jawaban\x20Salah!*','6289636827082-1635036556@g.us','arti','🎮\x20Siapakah\x20Aku\x20🎮\x0a\x0aJawaban\x20Benar\x20🎉\x0a\x0aIngin\x20bermain\x20lagi?\x20tekan\x20button\x20dibawah','buttonsResponseMessage','/webzone/wattpad','Ehh\x20Maaf\x20Kamu\x20Owner\x20Bot\x20Ku','menuquotes','drakor','\x0a⭔\x20Ext\x20:\x20MP3\x0a⭔\x20Resolusi\x20:\x20','\x0a⭔\x20Bussines\x20:\x20','readTimestamp','kimia','cekpref','tags','https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.pdf','split','Astaghfirullah\x20Tobat\x20Kak','\x20GuaAbuzz','🚀\x20*Type\x20:*\x20','Menit\x20','Waktu\x20Habis\x0aJawaban:\x20\x20','suamiistri','9️⃣','delttt\x0a│⭔\x20','templateButtonReplyMessage','https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.pptx','juzamma\x0a│⭔\x20','⌲\x20Tebak\x20Lagu','\x20jakarta','blueBright','spiderlogo\x20[text]\x0a│⭔\x20','「\x20Voice\x20Changer\x20Menu\x20」️','unarchive','gambar','\x0a⭔\x20Storage:\x20','blowjob','\x0a│\x20Mode\x20:\x20','transliteration','remove.bg','halah','🎮\x20Tebak\x20Bendera\x20🎮\x0a\x0aJawaban\x20Benar\x20🎉\x0a\x0aIngin\x20bermain\x20lagi?\x20tekan\x20button\x20dibawah','ttt','logogold\x20[text]\x0a│⭔\x20','tovn','tiktokmp3','Menampilkan\x20Primbon\x20Menu','results','nomor_keberuntungan','Menampilkan\x20Convert\x20Menu','🎮\x20Susun\x20Kata\x20🎮\x0a\x0aJawaban\x20Benar\x20🎉\x0a\x0aIngin\x20bermain\x20lagi?\x20tekan\x20button\x20dibawah','faktaunik\x0a│⭔\x20','wattpad\x20[text]\x0a│⭔\x20','comrade\x20[image]\x0a│⭔\x20','wait','fast\x20[reply\x20audio\x20/\x20vn]\x0a│⭔\x20','virgo','3ddeepsea','File\x20Melebihi\x20Batas\x20Silahkan\x20Download\x20Sendiri\x20:\x20','devote','selectedRowId','Jadwal\x20TV\x20Search\x20Query\x20:\x20','nomer_hoki','siapakahaku','No\x20Query\x20id,\x20Contoh\x20','fast','hari_sangar_taliwangke','setppgc\x20[image]\x0a│⭔\x20','⭔\x20Community:\x20','panties\x0a│⭔\x20','\x20|\x20','03:00:00','*👥\x20Tag\x20All\x20By\x20Admin*\x0a\x20\x0a\x20🗞️\x20*Pesan\x20:\x20','⎙\x20SewaBot','nulis\x20[teks]\x0a│⭔\x20','Room\x20ID:\x20','tafsir','\x0a└┬─────────────┈❖\x0a┌┤「\x20STALK\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','writeFileSync','meme','leave\x0a│⭔\x20','\x20Owner\x20Ganteng*','Mungkin\x20Pesan\x20Yang\x20Anda\x20Reply\x20Tidak\x20Mengandung\x20Result\x20Ytsearch','Reply\x20Gif','Detik','bio_url','80\x20Bulan\x20Lagi','Abis\x20Command\x20Ini\x20Juga\x20Lu\x20','foot','musimsemi\x20[text]\x0a│⭔\x20','packname','aroma_keberuntungan','https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.docx','Menampilkan\x20Main\x20Menu','toaudio','⭔\x20*Zodiak\x20:*\x20','ramalan_jodoh','asupan\x0a│⭔\x20','puppycute\x20[text]\x0a│⭔\x20','neon','cuckold\x0a│⭔\x20','heleh\x20[teks]\x0a│⭔\x20','ramalancinta','\x0a🔗\x20*Media\x20Url*\x20:\x20','Menampilkan\x20Voice\x20Changer\x20Menu','black','⭔\x20Arti\x20EN:\x20','pilih2','⭔\x20Expired\x20:\x20','yasuologo\x20[text]\x0a│⭔\x20','getMonth','anonymous\x0a│⭔\x20','Ubah\x20Menu\x20Bot\x20Menjadi\x20Pesan','endLimit','「\x20Nsfw\x20Menu\x20」','Reply\x20Pesan!','\x206289636827083','*\x0aWaktu\x20:\x2060s','premium','devote\x0a│⭔\x20','menampilkan\x20Nama\x20Teman\x20-\x20Teman\x20Saya\x20Yang\x20Sudah\x20Membantu\x20Merakit\x20Bot\x20Ini\x20!!','CHATTING','Couple\x20Female','bcgroup\x20[text]\x0a│⭔\x20','/searching/jadwaltv','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*Info\x20Script*\x20\x20\x20\x20\x20\x0a📚\x20*Base\x20:\x20Dika\x20Ardnt*\x20\x0a⌲\x20https://github.com/DikaArdnt/Hisoka-Morou\x0a\x0a🌱\x20*Recode\x20By\x20:\x20GuaAbuzz*\x0a⎙\x20','\x20type\x20id\x0a\x0aList\x20Type\x20:\x0a1.\x20ff\x20(Free\x20Fire)\x0a2.\x20ml\x20(Mobile\x20Legends)\x0a3.\x20aov\x20(Arena\x20Of\x20Valor)\x0a4.\x20cod\x20(Call\x20Of\x20Duty)\x0a5.\x20pb\x20(point\x20Blank)\x0a6.\x20ig\x20(Instagram)\x0a7.\x20npm\x20(https://npmjs.com)','userReceipt','jadwaltv\x20[option]\x0a│⭔\x20','5Gdq1sSWSeyZzPMHqz7ENfi8','https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakkalimat.json','⭔\x20Url:\x20','listpc','🌱\x20*ID\x20:*\x20','_Lawan\x20sudah\x20memilih_\x0aSekarang\x20giliran\x20kamu','Hai,\x20Apa\x20ada\x20yang\x20dapat\x20saya\x20bantu?','*Bug\x20Report\x20From:*\x20wa.me/','asmaulhusna\x0a└──────────────┈❖','cake\x20[text]\x0a│⭔\x20','webtoons\x20[text]\x0a│⭔\x20','\x20Akame','caption','tictactoe\x0a│⭔\x20','「\x20ANTI\x20LINK\x20TIKTOK\x20」\x0a\x0aKamu\x20Terdeteksi\x20Mengirim\x20Link\x20TikTok,\x20Maaf\x20Kamu\x20Akan\x20Di\x20Kick\x20!',',\x20Walaupun\x20Berbeda\x20Adat/Suku/Ras/Agama\x20Jangan\x20Lupa\x20Toleransi\x20Sesama\x20Manusia\x20Itu\x20Juga\x20Penting\x20Ya\x20Guys🙏','\x0a\x0a*Panjang*\x20:\x20','\x0a⭔\x20*Naga\x20Hari\x20:*\x20','gluetext\x20[text]\x0a└┬─────────────┈❖\x0a┌┤「\x20VOICE\x20CHANGER\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','math\x20[mode]\x0a│⭔\x20','linkgroup\x0a│⭔\x20','Please\x20Follow\x20TikTok\x20@GuaAbuzz','starnight2','Srtle\x20Text\x20From\x20','\x0a└┬─────────────┈❖\x0a┌┤「\x20EPHOTO\x20」\x0a│└─────────────┈❖\x0a│⭔\x20','\x0aSelama\x20','jadwalshalat','50\x20Bulan\x20Lagi','endsWith','「\x20Chat\x20Owner\x20」','autobio','ceksange','istri','SHA256\x20Hash\x20Tidak\x20Ditemukan\x20❎','angka_shuzi','math\x20mode','read','wikimedia','⏳\x20*Waktu\x20:*\x20','\x0a•\x20Blog\x20:\x20','oppai','Mode\x20Antilink\x20YouTube','\x0a➣\x20Singer\x20:\x20'];_0x25fb=function(){return _0x55cb0b;};return _0x25fb();}const {smsg,formatp,tanggal,formatDate,getTime,isUrl,sleep,clockString,runtime,fetchJson,getBuffer,jsonformat,format,parseMention,getRandom}=require(_0xe53eab(0x3bd)),{aiovideodl}=require('./lib/scraper.js'),{wikiSearch}=require(_0xe53eab(0x1c6)),{Gempa}=require(_0xe53eab(0x47b)),{jadwaltv}=require('./lib/jadwaltv'),xfarr=require(_0xe53eab(0x701));global['db']=JSON[_0xe53eab(0x5f8)](fs[_0xe53eab(0x7f5)](_0xe53eab(0x72c)));if(global['db'])global['db']={'users':{},'chats':{},'database':{},'game':{},'settings':{},'others':{},'sticker':{},...global['db']||{}};function _0x1a13(_0x30ff5f,_0x15a06b){const _0x25fb15=_0x25fb();return _0x1a13=function(_0x1a1336,_0x2ee8ba){_0x1a1336=_0x1a1336-0x13a;let _0x1ad3d5=_0x25fb15[_0x1a1336];return _0x1ad3d5;},_0x1a13(_0x30ff5f,_0x15a06b);}let tebaklagu=db[_0xe53eab(0x259)][_0xe53eab(0x395)]=[],_family100=db[_0xe53eab(0x259)][_0xe53eab(0x71b)]=[],kuismath=db[_0xe53eab(0x259)][_0xe53eab(0x93e)]=[],tebakgambar=db['game']['tebakgambar']=[],tebakkata=db['game']['tebakkata']=[],caklontong=db[_0xe53eab(0x259)][_0xe53eab(0x95f)]=[],caklontong_desk=db[_0xe53eab(0x259)][_0xe53eab(0x208)]=[],tebakkalimat=db[_0xe53eab(0x259)]['kalimat']=[],tebaklirik=db[_0xe53eab(0x259)]['lirik']=[],tebaktebakan=db[_0xe53eab(0x259)][_0xe53eab(0x40d)]=[],tebakbendera=db[_0xe53eab(0x259)]['bendera']=[],tebakkabupaten=db[_0xe53eab(0x259)][_0xe53eab(0x394)]=[],tebakkimia=db[_0xe53eab(0x259)][_0xe53eab(0x878)]=[],asahotak=db['game']['asahotak']=[],siapakahaku=db[_0xe53eab(0x259)]['siapakahaku']=[],susunkata=db[_0xe53eab(0x259)][_0xe53eab(0x789)]=[],tekateki=db[_0xe53eab(0x259)][_0xe53eab(0x260)]=[],vote=db[_0xe53eab(0x930)]['vote']=[];moment['tz']['setDefault']('Asia/Jakarta')[_0xe53eab(0x3e6)]('id'),module[_0xe53eab(0x158)]=hisoka=async(_0x3f28da,_0x1e8587,_0x5a5348,_0x5ae835)=>{const _0x4f903d=_0xe53eab;try{var _0x3864dd=_0x1e8587[_0x4f903d(0x19b)]===_0x4f903d(0x808)?_0x1e8587[_0x4f903d(0x7d4)]['conversation']:_0x1e8587['mtype']==_0x4f903d(0x7a9)?_0x1e8587[_0x4f903d(0x7d4)][_0x4f903d(0x7a9)][_0x4f903d(0x8f9)]:_0x1e8587[_0x4f903d(0x19b)]==_0x4f903d(0x382)?_0x1e8587[_0x4f903d(0x7d4)][_0x4f903d(0x382)][_0x4f903d(0x8f9)]:_0x1e8587[_0x4f903d(0x19b)]==_0x4f903d(0x9ec)?_0x1e8587['message'][_0x4f903d(0x9ec)]['text']:_0x1e8587[_0x4f903d(0x19b)]==_0x4f903d(0x870)?_0x1e8587[_0x4f903d(0x7d4)][_0x4f903d(0x870)][_0x4f903d(0x92f)]:_0x1e8587[_0x4f903d(0x19b)]=='listResponseMessage'?_0x1e8587['message']['listResponseMessage'][_0x4f903d(0x570)][_0x4f903d(0x8a8)]:_0x1e8587['mtype']==_0x4f903d(0x885)?_0x1e8587[_0x4f903d(0x7d4)][_0x4f903d(0x885)][_0x4f903d(0x5c4)]:_0x1e8587[_0x4f903d(0x19b)]===_0x4f903d(0x39c)?_0x1e8587['message'][_0x4f903d(0x870)]?.[_0x4f903d(0x92f)]||_0x1e8587[_0x4f903d(0x7d4)][_0x4f903d(0x321)]?.['singleSelectReply']['selectedRowId']||_0x1e8587[_0x4f903d(0x25a)]:'',_0x23f888=typeof _0x1e8587[_0x4f903d(0x25a)]==_0x4f903d(0x5ef)?_0x1e8587[_0x4f903d(0x25a)]:'',_0x4ade91=prefa?/^[°•π÷×¶∆£¢€¥®™+✓_=|~!?@#$%^&.©^]/gi[_0x4f903d(0x956)](_0x3864dd)?_0x3864dd['match'](/^[°•π÷×¶∆£¢€¥®™+✓_=|~!?@#$%^&.©^]/gi)[0x0]:'':prefa??global[_0x4f903d(0x212)];const _0x1f0b6f=_0x3864dd[_0x4f903d(0x295)](_0x4ade91),_0x314e48=moment(Date['now']())['tz'](_0x4f903d(0x83b))[_0x4f903d(0x3e6)]('id')['format']('a'),_0x179f46=_0x3864dd[_0x4f903d(0x530)](_0x4ade91,'')[_0x4f903d(0x856)]()['split'](/ +/)[_0x4f903d(0x9a4)]()['toLowerCase'](),_0x1a5e8a=_0x3864dd[_0x4f903d(0x856)]()['split'](/ +/)[_0x4f903d(0x5dc)](0x1),_0x4f33ca=_0x1e8587[_0x4f903d(0x6f5)]||_0x4f903d(0x60e),_0xc0ef6f=await _0x3f28da[_0x4f903d(0x27b)](_0x3f28da[_0x4f903d(0x82e)]['id']),_0x40c20b=[_0xc0ef6f,...global['owner']][_0x4f903d(0x6f6)](_0x37bc30=>_0x37bc30[_0x4f903d(0x530)](/[^0-9]/g,'')+_0x4f903d(0x96f))[_0x4f903d(0x1fd)](_0x1e8587[_0x4f903d(0x548)]),_0x2aebf6=_0x1e8587['sender']==_0xc0ef6f?!![]:![],_0x496965=q=_0x1a5e8a[_0x4f903d(0x650)]('\x20'),_0x20ebdd=_0x1e8587[_0x4f903d(0x779)]?_0x1e8587[_0x4f903d(0x779)]:_0x1e8587,_0x24de29=(_0x20ebdd['msg']||_0x20ebdd)[_0x4f903d(0x986)]||'',_0x157a4b=/image|video|sticker|audio/['test'](_0x24de29),_0x1cde90=_0x1e8587[_0x4f903d(0x814)]?await _0x3f28da['groupMetadata'](_0x1e8587[_0x4f903d(0x155)])[_0x4f903d(0x5bf)](_0x551025=>{}):'',_0x31511d=_0x1e8587['isGroup']?_0x1cde90[_0x4f903d(0x3ad)]:'',_0x44ee0c=_0x1e8587['isGroup']?_0x1cde90[_0x4f903d(0x5fc)]:'',_0x17bb56=_0x1e8587[_0x4f903d(0x814)]?await _0x1cde90[_0x4f903d(0x5fc)]:'',_0xe812f2=_0x1e8587[_0x4f903d(0x814)]?await _0x17bb56['filter'](_0xdfce4a=>_0xdfce4a[_0x4f903d(0x4ef)]!==null)[_0x4f903d(0x6f6)](_0xe67f77=>_0xe67f77['id']):'',_0x3ca89d=_0x1e8587[_0x4f903d(0x814)]?_0x1cde90[_0x4f903d(0x1ff)]:'',_0x346492=_0x1e8587[_0x4f903d(0x814)]?_0xe812f2[_0x4f903d(0x1fd)](_0xc0ef6f):![],_0x24d90e=_0x1e8587[_0x4f903d(0x814)]?_0xe812f2[_0x4f903d(0x1fd)](_0x1e8587['sender']):![],_0x2234d8=_0x40c20b||global[_0x4f903d(0x8e2)][_0x4f903d(0x6f6)](_0x34613d=>_0x34613d[_0x4f903d(0x530)](/[^0-9]/g,'')+_0x4f903d(0x96f))[_0x4f903d(0x1fd)](_0x1e8587[_0x4f903d(0x548)])||![],_0x231a42=moment['tz'](_0x4f903d(0x83b))[_0x4f903d(0x4ec)](_0x4f903d(0x6d6)),_0x40c484=moment['tz'](_0x4f903d(0x784))[_0x4f903d(0x4ec)](_0x4f903d(0x6d6)),_0x4bc32f=moment['tz']('Asia/Makassar')[_0x4f903d(0x4ec)](_0x4f903d(0x6d6)),_0x38f42a=moment()['tz'](_0x4f903d(0x83b))[_0x4f903d(0x4ec)](_0x4f903d(0x550));if(_0x38f42a<_0x4f903d(0x2ef))var _0x2a3917='𝑺𝒆𝒍𝒂𝒎𝒂𝒕\x20𝑴𝒂𝒍𝒂𝒎\x20🏙️';if(_0x38f42a<_0x4f903d(0x41a))var _0x2a3917=_0x4f903d(0x5ae);if(_0x38f42a<'18:00:00')var _0x2a3917='𝑺𝒆𝒍𝒂𝒎𝒂𝒕\x20𝑺𝒐𝒓𝒆\x20🌇';if(_0x38f42a<_0x4f903d(0x224))var _0x2a3917='𝑺𝒆𝒍𝒂𝒎𝒂𝒕\x20𝑺𝒊𝒂𝒏𝒈\x20🌤️';if(_0x38f42a<_0x4f903d(0x5b4))var _0x2a3917=_0x4f903d(0x5a7);if(_0x38f42a<_0x4f903d(0x3d4))var _0x2a3917='𝑺𝒆𝒍𝒂𝒎𝒂𝒕\x20𝑺𝒖𝒃𝒖𝒉\x20🌆';if(_0x38f42a<_0x4f903d(0x8b3))var _0x2a3917=_0x4f903d(0x171);const _0x22e847=new Date(_0x4f903d(0x97f)),_0x3a6b82=new Date()['getTime'](),_0x59be0e=_0x22e847-_0x3a6b82,_0x3cb62d=Math[_0x4f903d(0x461)](_0x59be0e/(0x3e8*0x3c*0x3c*0x18)),_0x16e0e8=Math[_0x4f903d(0x461)](_0x59be0e%(0x3e8*0x3c*0x3c*0x18)/(0x3e8*0x3c*0x3c)),_0x3a5ff1=Math[_0x4f903d(0x461)](_0x59be0e%(0x3e8*0x3c*0x3c)/(0x3e8*0x3c)),_0x15a2c7=Math[_0x4f903d(0x461)](_0x59be0e%(0x3e8*0x3c)/0x3e8),_0x5f585c=_0x3cb62d+_0x4f903d(0x14a)+_0x16e0e8+'Jam\x20'+_0x3a5ff1+_0x4f903d(0x880)+_0x15a2c7+_0x4f903d(0x8c0),_0x37ae15={'key':{'fromMe':![],'participant':'0@s.whatsapp.net','remoteJid':_0x4f903d(0x86d)},'message':{'orderMessage':{'itemCount':0x7e6,'status':0xc8,'thumbnail':fs['readFileSync'](_0x4f903d(0x86b)),'surface':0xc8,'message':_0x4f903d(0x4a6)+_0x4f33ca+'\x0a𝙲𝚖𝚍\x20'+_0x179f46,'orderTitle':_0x4f903d(0x902),'sellerJid':_0x4f903d(0x60c)}},'contextInfo':{'forwardingScore':0x3e7,'isForwarded':!![]},'sendEphemeral':!![]};let _0x139c6e=[flaming,fluming,flarun,flasmurf],_0x5b262b=_0x139c6e[Math[_0x4f903d(0x461)](Math[_0x4f903d(0x846)]()*_0x139c6e['length'])];try{let _0x33ea97=_0x15df7c=>typeof _0x15df7c===_0x4f903d(0x442)&&!isNaN(_0x15df7c),_0x4972fb=_0x2234d8?global[_0x4f903d(0x845)][_0x4f903d(0x8e2)]:global[_0x4f903d(0x845)][_0x4f903d(0x591)],_0xe58cab=global['db'][_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]];if(typeof _0xe58cab!==_0x4f903d(0x5f2))global['db'][_0x4f903d(0x291)][_0x1e8587['sender']]={};if(_0xe58cab){if(!_0x33ea97(_0xe58cab['afkTime']))_0xe58cab[_0x4f903d(0x4c3)]=-0x1;if(!(_0x4f903d(0x305)in _0xe58cab))_0xe58cab[_0x4f903d(0x305)]='';if(!_0x33ea97(_0xe58cab[_0x4f903d(0x41c)]))_0xe58cab[_0x4f903d(0x41c)]=_0x4972fb;}else global['db'][_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]]={'afkTime':-0x1,'afkReason':'','limit':_0x4972fb};let _0x54fd24=global['db'][_0x4f903d(0x84c)][_0x1e8587['chat']];if(typeof _0x54fd24!==_0x4f903d(0x5f2))global['db'][_0x4f903d(0x84c)][_0x1e8587['chat']]={};if(_0x54fd24){if(!('mute'in _0x54fd24))_0x54fd24[_0x4f903d(0x25e)]=![];if(!(_0x4f903d(0x7c2)in _0x54fd24))_0x54fd24['antilink']=![];if(!(_0x4f903d(0x93c)in _0x54fd24))_0x54fd24[_0x4f903d(0x93c)]=![];if(!('antilinktt'in _0x54fd24))_0x54fd24[_0x4f903d(0x82b)]=![];if(!(_0x4f903d(0x5de)in _0x54fd24))_0x54fd24[_0x4f903d(0x5de)]=!![];}else global['db'][_0x4f903d(0x84c)][_0x1e8587['chat']]={'mute':![],'antilink':![],'antilinkyt':![],'antilinktt':![],'antivirtex':!![]};let _0x1f7999=global['db'][_0x4f903d(0x566)][_0xc0ef6f];if(typeof _0x1f7999!==_0x4f903d(0x5f2))global['db'][_0x4f903d(0x566)][_0xc0ef6f]={};if(_0x1f7999){if(!_0x33ea97(_0x1f7999['status']))_0x1f7999['status']=0x0;if(!('autobio'in _0x1f7999))_0x1f7999[_0x4f903d(0x90b)]=![];if(!('templateImage'in _0x1f7999))_0x1f7999['templateImage']=!![];if(!(_0x4f903d(0x921)in _0x1f7999))_0x1f7999['templateVideo']=![];if(!(_0x4f903d(0x98a)in _0x1f7999))_0x1f7999[_0x4f903d(0x98a)]=![];if(!(_0x4f903d(0x574)in _0x1f7999))_0x1f7999[_0x4f903d(0x574)]=![];}else global['db'][_0x4f903d(0x566)][_0xc0ef6f]={'status':0x0,'autobio':![],'templateImage':!![],'templateVideo':![],'templateGif':![],'templateMsg':![]};}catch(_0x174c16){console['error'](_0x174c16);}if(!_0x3f28da[_0x4f903d(0x512)]){if(!_0x1e8587[_0x4f903d(0x13a)]['fromMe'])return;}_0x1e8587[_0x4f903d(0x7d4)]&&(_0x3f28da[_0x4f903d(0x9af)](_0x1e8587[_0x4f903d(0x155)],_0x1e8587[_0x4f903d(0x548)],[_0x1e8587[_0x4f903d(0x13a)]['id']]),console[_0x4f903d(0x7ba)](chalk[_0x4f903d(0x8d5)](chalk[_0x4f903d(0x2a0)](_0x4f903d(0x81c))),chalk[_0x4f903d(0x8d5)](chalk[_0x4f903d(0x45a)](new Date())),chalk[_0x4f903d(0x8d5)](chalk['bgBlue'](_0x23f888||_0x1e8587['mtype']))+'\x0a'+chalk[_0x4f903d(0x210)](_0x4f903d(0x5fa)),chalk[_0x4f903d(0x389)](_0x4f33ca),chalk[_0x4f903d(0x93b)](_0x1e8587[_0x4f903d(0x548)])+'\x0a'+chalk[_0x4f903d(0x88a)](_0x4f903d(0x534)),chalk[_0x4f903d(0x389)](_0x1e8587[_0x4f903d(0x814)]?_0x4f33ca:_0x4f903d(0x2d6),_0x1e8587[_0x4f903d(0x155)])));setInterval(()=>{const _0x586d26=_0x4f903d;fs[_0x586d26(0x8ba)](_0x586d26(0x72c),JSON[_0x586d26(0x459)](global['db'],null,0x2));},0x3c*0x3e8);let _0x4556b7=require(_0x4f903d(0x4a0));_0x4556b7['schedule'](_0x4f903d(0x163),()=>{const _0xebd40e=_0x4f903d;let _0x3bce07=Object[_0xebd40e(0x429)](global['db'][_0xebd40e(0x291)]),_0x185e9f=_0x2234d8?global[_0xebd40e(0x845)]['premium']:global['limitawal'][_0xebd40e(0x591)];for(let _0xd5c166 of _0x3bce07)global['db'][_0xebd40e(0x291)][_0xd5c166][_0xebd40e(0x41c)]=_0x185e9f;console[_0xebd40e(0x7ba)](_0xebd40e(0x5eb));},{'scheduled':!![],'timezone':_0x4f903d(0x83b)});if(_0x157a4b&&_0x1e8587[_0x4f903d(0x56c)][_0x4f903d(0x191)]&&_0x1e8587[_0x4f903d(0x56c)][_0x4f903d(0x191)][_0x4f903d(0xa09)]('base64')in global['db'][_0x4f903d(0x982)]){let _0x13c7ba=global['db'][_0x4f903d(0x982)][_0x1e8587['msg']['fileSha256'][_0x4f903d(0xa09)](_0x4f903d(0x964))],{text:_0x343e98,mentionedJid:_0x511cbe}=_0x13c7ba,_0x4bbec5=await generateWAMessage(_0x1e8587[_0x4f903d(0x155)],{'text':_0x343e98,'mentions':_0x511cbe},{'userJid':_0x3f28da[_0x4f903d(0x82e)]['id'],'quoted':_0x1e8587[_0x4f903d(0x779)]&&_0x1e8587[_0x4f903d(0x779)]['fakeObj']});_0x4bbec5[_0x4f903d(0x13a)][_0x4f903d(0x323)]=areJidsSameUser(_0x1e8587[_0x4f903d(0x548)],_0x3f28da[_0x4f903d(0x82e)]['id']),_0x4bbec5[_0x4f903d(0x13a)]['id']=_0x1e8587[_0x4f903d(0x13a)]['id'],_0x4bbec5[_0x4f903d(0x6f5)]=_0x1e8587[_0x4f903d(0x6f5)];if(_0x1e8587['isGroup'])_0x4bbec5[_0x4f903d(0x7f8)]=_0x1e8587[_0x4f903d(0x548)];let _0x4b9136={..._0x5a5348,'messages':[proto['WebMessageInfo']['fromObject'](_0x4bbec5)],'type':_0x4f903d(0x2bb)};_0x3f28da['ev']['emit'](_0x4f903d(0x760),_0x4b9136);}if(_0x4f903d(0x71b)+_0x1e8587[_0x4f903d(0x155)]in _family100&&_0x1f0b6f){kuis=!![];let _0x527f8d=_family100[_0x4f903d(0x71b)+_0x1e8587[_0x4f903d(0x155)]],_0x31e2eb=_0x23f888[_0x4f903d(0x3d8)]()[_0x4f903d(0x530)](/[^\w\s\-]+/,''),_0x4310b4=/^((me)?nyerah|surr?ender)$/i['test'](_0x1e8587['text']);if(!_0x4310b4){let _0xa104df=_0x527f8d[_0x4f903d(0x7cc)][_0x4f903d(0x41e)](_0x5b25e6=>_0x5b25e6[_0x4f903d(0x3d8)]()['replace'](/[^\w\s\-]+/,'')===_0x31e2eb);if(_0x527f8d['terjawab'][_0xa104df])return!0x0;_0x527f8d[_0x4f903d(0x948)][_0xa104df]=_0x1e8587['sender'];}let _0x4c4b29=_0x527f8d[_0x4f903d(0x948)][_0x4f903d(0x36f)]===_0x527f8d[_0x4f903d(0x948)][_0x4f903d(0x380)](_0x344cbf=>_0x344cbf)[_0x4f903d(0x36f)],_0x5830a9=(_0x4f903d(0x692)+_0x527f8d['soal']+_0x4f903d(0x713)+_0x527f8d[_0x4f903d(0x7cc)][_0x4f903d(0x36f)]+_0x4f903d(0x7ce)+(_0x527f8d[_0x4f903d(0x7cc)][_0x4f903d(0x2b6)](_0x21b5f1=>_0x21b5f1[_0x4f903d(0x1fd)]('\x20'))?_0x4f903d(0x413):'')+'\x0a'+(_0x4c4b29?_0x4f903d(0x9bc):_0x4310b4?_0x4f903d(0x757):'')+'\x0a'+Array[_0x4f903d(0x9c2)](_0x527f8d[_0x4f903d(0x7cc)],(_0x2e0e0f,_0x21ac1e)=>{const _0x4fdba1=_0x4f903d;return _0x4310b4||_0x527f8d['terjawab'][_0x21ac1e]?('('+(_0x21ac1e+0x1)+')\x20'+_0x2e0e0f+'\x20'+(_0x527f8d[_0x4fdba1(0x948)][_0x21ac1e]?'@'+_0x527f8d[_0x4fdba1(0x948)][_0x21ac1e][_0x4fdba1(0x87c)]('@')[0x0]:''))['trim']():![];})[_0x4f903d(0x380)](_0x18d1d6=>_0x18d1d6)[_0x4f903d(0x650)]('\x0a')+_0x4f903d(0x750)+(_0x4310b4?'':'Perfect\x20Player'))['trim']();_0x3f28da['sendText'](_0x1e8587['chat'],_0x5830a9,_0x1e8587,{'contextInfo':{'mentionedJid':parseMention(_0x5830a9)}})['then'](_0x1e887f=>{const _0x189d23=_0x4f903d;return _family100[_0x189d23(0x71b)+_0x1e8587[_0x189d23(0x155)]][_0x189d23(0x675)]=mesg;})[_0x4f903d(0x5bf)](_0x160a79=>_0x160a79);if(_0x4c4b29||_0x4310b4)delete _family100[_0x4f903d(0x71b)+_0x1e8587[_0x4f903d(0x155)]];}if(asahotak[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0])&&_0x1f0b6f){kuis=!![],jawaban=asahotak[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]];if(_0x23f888[_0x4f903d(0x3d8)]()==jawaban)await _0x3f28da['sendButtonText'](_0x1e8587[_0x4f903d(0x155)],[{'buttonId':_0x4f903d(0x44f),'buttonText':{'displayText':'⌲\x20Asah\x20Otak'},'type':0x1}],'🎮\x20Asah\x20Otak\x20🎮\x0a\x0aJawaban\x20Benar\x20🎉\x0a\x0aIngin\x20bermain\x20lagi?\x20tekan\x20button\x20dibawah',_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x1e8587),delete asahotak[_0x1e8587['sender'][_0x4f903d(0x87c)]('@')[0x0]];else _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x86c));}if(siapakahaku[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0])&&_0x1f0b6f){kuis=!![],jawaban=siapakahaku[_0x1e8587['sender'][_0x4f903d(0x87c)]('@')[0x0]];if(_0x23f888[_0x4f903d(0x3d8)]()==jawaban)await _0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],[{'buttonId':_0x4f903d(0x8ab),'buttonText':{'displayText':_0x4f903d(0x700)},'type':0x1}],_0x4f903d(0x86f),_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x1e8587),delete siapakahaku[_0x1e8587[_0x4f903d(0x548)]['split']('@')[0x0]];else _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x86c));}if(susunkata[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0])&&_0x1f0b6f){kuis=!![],jawaban=susunkata[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]];if(_0x23f888[_0x4f903d(0x3d8)]()==jawaban)await _0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],[{'buttonId':_0x4f903d(0x789),'buttonText':{'displayText':_0x4f903d(0x286)},'type':0x1}],_0x4f903d(0x89e),_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x1e8587),delete susunkata[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]];else _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x86c));}if(tebakbendera[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0])&&_0x1f0b6f){kuis=!![],jawaban=tebakbendera[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]];if(_0x23f888[_0x4f903d(0x3d8)]()==jawaban)await _0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],[{'buttonId':_0x4f903d(0x231),'buttonText':{'displayText':'⌲\x20Tebak\x20Bendera'},'type':0x1}],_0x4f903d(0x895),_0x3f28da['user'][_0x4f903d(0x28e)],_0x1e8587),delete tebakbendera[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]];else _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x86c));}if(tebakkabupaten[_0x4f903d(0x9bd)](_0x1e8587['sender']['split']('@')[0x0])&&_0x1f0b6f){kuis=!![],jawaban=tebakkabupaten[_0x1e8587[_0x4f903d(0x548)]['split']('@')[0x0]];if(_0x23f888['toLowerCase']()==jawaban)await _0x3f28da[_0x4f903d(0x6af)](_0x1e8587['chat'],[{'buttonId':_0x4f903d(0x3ef),'buttonText':{'displayText':_0x4f903d(0x62e)},'type':0x1}],_0x4f903d(0x1bd),_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x1e8587),delete tebakkabupaten[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]];else _0x1e8587['reply'](_0x4f903d(0x86c));}if(susunkata['hasOwnProperty'](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0])&&_0x1f0b6f){kuis=!![],jawaban=susunkata[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]];if(_0x23f888[_0x4f903d(0x3d8)]()==jawaban)await _0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],[{'buttonId':_0x4f903d(0x789),'buttonText':{'displayText':_0x4f903d(0x286)},'type':0x1}],_0x4f903d(0x89e),_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x1e8587),delete tebaktebakan[_0x1e8587[_0x4f903d(0x548)]['split']('@')[0x0]];else _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x86c));}if(tebakkimia['hasOwnProperty'](_0x1e8587[_0x4f903d(0x548)]['split']('@')[0x0])&&_0x1f0b6f){kuis=!![],jawaban=tebakkimia[_0x1e8587['sender']['split']('@')[0x0]];if(_0x23f888[_0x4f903d(0x3d8)]()==jawaban)await _0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],[{'buttonId':_0x4f903d(0x38f),'buttonText':{'displayText':_0x4f903d(0x2f6)},'type':0x1}],_0x4f903d(0x91a),_0x3f28da[_0x4f903d(0x82e)]['name'],_0x1e8587),delete tebakkimia[_0x1e8587[_0x4f903d(0x548)]['split']('@')[0x0]];else _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x86c));}if(tekateki[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)]['split']('@')[0x0])&&_0x1f0b6f){kuis=!![],jawaban=tekateki[_0x1e8587['sender'][_0x4f903d(0x87c)]('@')[0x0]];if(_0x23f888[_0x4f903d(0x3d8)]()==jawaban)await _0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],[{'buttonId':_0x4f903d(0x260),'buttonText':{'displayText':_0x4f903d(0x2be)},'type':0x1}],'🎮\x20Teka\x20Teki\x20🎮\x0a\x0aJawaban\x20Benar\x20🎉\x0a\x0aIngin\x20bermain\x20lagi?\x20tekan\x20button\x20dibawah',_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x1e8587),delete tekateki[_0x1e8587['sender'][_0x4f903d(0x87c)]('@')[0x0]];else _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x86c));}if(tebaklagu[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0])&&_0x1f0b6f){kuis=!![],jawaban=tebaklagu[_0x1e8587['sender']['split']('@')[0x0]];if(_0x23f888['toLowerCase']()==jawaban)await _0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],[{'buttonId':_0x4f903d(0x772),'buttonText':{'displayText':_0x4f903d(0x888)},'type':0x1}],_0x4f903d(0x479),_0x3f28da['user'][_0x4f903d(0x28e)],_0x1e8587),delete tebaklagu[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]];else _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x86c));}if(kuismath[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0])&&_0x1f0b6f){kuis=!![],jawaban=kuismath[_0x1e8587[_0x4f903d(0x548)]['split']('@')[0x0]];if(_0x23f888['toLowerCase']()==jawaban)await _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x52a)+_0x4ade91+_0x4f903d(0x910)),delete kuismath[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]];else _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x86c));}if(tebakgambar[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0])&&_0x1f0b6f){kuis=!![],jawaban=tebakgambar[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]];if(_0x23f888['toLowerCase']()==jawaban)await _0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],[{'buttonId':_0x4f903d(0x222),'buttonText':{'displayText':_0x4f903d(0x721)},'type':0x1}],_0x4f903d(0x6d3),_0x3f28da[_0x4f903d(0x82e)]['name'],_0x1e8587),delete tebakgambar[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]];else _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x86c));}if(tebakkata[_0x4f903d(0x9bd)](_0x1e8587['sender'][_0x4f903d(0x87c)]('@')[0x0])&&_0x1f0b6f){kuis=!![],jawaban=tebakkata[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]];if(_0x23f888['toLowerCase']()==jawaban)await _0x3f28da['sendButtonText'](_0x1e8587[_0x4f903d(0x155)],[{'buttonId':_0x4f903d(0x646),'buttonText':{'displayText':_0x4f903d(0x9d1)},'type':0x1}],'🎮\x20Tebak\x20Kata\x20🎮\x0a\x0aJawaban\x20Benar\x20🎉\x0a\x0aIngin\x20bermain\x20lagi?\x20tekan\x20button\x20dibawah',_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x1e8587),delete tebakkata[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]];else _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x86c));}if(caklontong[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0])&&_0x1f0b6f){kuis=!![],jawaban=caklontong[_0x1e8587[_0x4f903d(0x548)]['split']('@')[0x0]],deskripsi=caklontong_desk[_0x1e8587['sender'][_0x4f903d(0x87c)]('@')[0x0]];if(_0x23f888[_0x4f903d(0x3d8)]()==jawaban)await _0x3f28da['sendButtonText'](_0x1e8587['chat'],[{'buttonId':_0x4f903d(0x173),'buttonText':{'displayText':_0x4f903d(0x386)},'type':0x1}],_0x4f903d(0x1ad)+deskripsi+_0x4f903d(0x502),_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x1e8587),delete caklontong[_0x1e8587['sender'][_0x4f903d(0x87c)]('@')[0x0]],delete caklontong_desk[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]];else _0x1e8587['reply']('*Jawaban\x20Salah!*');}if(tebakkalimat[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0])&&_0x1f0b6f){kuis=!![],jawaban=tebakkalimat[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]];if(_0x23f888[_0x4f903d(0x3d8)]()==jawaban)await _0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],[{'buttonId':_0x4f903d(0x5d7),'buttonText':{'displayText':_0x4f903d(0x6fa)},'type':0x1}],_0x4f903d(0x1a8),_0x3f28da[_0x4f903d(0x82e)]['name'],_0x1e8587),delete tebakkalimat[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]];else _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x86c));}if(tebaklirik[_0x4f903d(0x9bd)](_0x1e8587['sender'][_0x4f903d(0x87c)]('@')[0x0])&&_0x1f0b6f){kuis=!![],jawaban=tebaklirik[_0x1e8587[_0x4f903d(0x548)]['split']('@')[0x0]];if(_0x23f888[_0x4f903d(0x3d8)]()==jawaban)await _0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],[{'buttonId':'tebak\x20lirik','buttonText':{'displayText':_0x4f903d(0x6ce)},'type':0x1}],'🎮\x20Tebak\x20Lirik\x20🎮\x0a\x0aJawaban\x20Benar\x20🎉\x0a\x0aIngin\x20bermain\x20lagi?\x20tekan\x20button\x20dibawah',_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x1e8587),delete tebaklirik[_0x1e8587['sender'][_0x4f903d(0x87c)]('@')[0x0]];else _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x86c));}if(tebaktebakan[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)]['split']('@')[0x0])&&_0x1f0b6f){kuis=!![],jawaban=tebaktebakan[_0x1e8587['sender']['split']('@')[0x0]];if(_0x23f888[_0x4f903d(0x3d8)]()==jawaban)await _0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],[{'buttonId':_0x4f903d(0x85e),'buttonText':{'displayText':_0x4f903d(0x46e)},'type':0x1}],_0x4f903d(0x536),_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x1e8587),delete tebaktebakan[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]];else _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x86c));}if(db['settings'][_0xc0ef6f][_0x4f903d(0x90b)]){let _0x18a60e=global['db'][_0x4f903d(0x566)][_0xc0ef6f];if(new Date()*0x1-_0x18a60e[_0x4f903d(0x765)]>0x3e8){let _0x2bad2d=await runtime(process[_0x4f903d(0x7d0)]());await _0x3f28da['setStatus'](_0x4f903d(0x281)+_0x3f28da[_0x4f903d(0x82e)]['name']+_0x4f903d(0x2f7)+runtime(_0x2bad2d)),_0x18a60e[_0x4f903d(0x765)]=new Date()*0x1;}}if(db['chats'][_0x1e8587[_0x4f903d(0x155)]][_0x4f903d(0x7c2)]){if(_0x23f888['match'](_0x4f903d(0x9cb))){_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x715));if(!_0x346492)return _0x1e8587['reply'](_0x4f903d(0x7a0));let _0x196b95=_0x4f903d(0x664)+await _0x3f28da[_0x4f903d(0x73b)](_0x1e8587[_0x4f903d(0x155)]),_0x47983d=new RegExp(_0x196b95,'i'),_0x31f7c5=_0x47983d['test'](_0x1e8587[_0x4f903d(0x25a)]);if(_0x31f7c5)return _0x1e8587['reply'](_0x4f903d(0x547));if(_0x24d90e)return _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x278));if(_0x40c20b)return _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x872));_0x3f28da[_0x4f903d(0x600)](_0x1e8587[_0x4f903d(0x155)],[_0x1e8587[_0x4f903d(0x548)]],_0x4f903d(0x2d5));}}if(db[_0x4f903d(0x84c)][_0x1e8587[_0x4f903d(0x155)]][_0x4f903d(0x93c)]){if(_0x23f888['match'](_0x4f903d(0x44b))){_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x79f));if(!_0x346492)return _0x1e8587['reply'](_0x4f903d(0x7a0));if(_0x24d90e)return _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x278));if(_0x40c20b)return _0x1e8587[_0x4f903d(0x70d)]('Ehh\x20Maaf\x20Kamu\x20Owner\x20Bot\x20Ku');_0x3f28da['groupParticipantsUpdate'](_0x1e8587[_0x4f903d(0x155)],[_0x1e8587[_0x4f903d(0x548)]],_0x4f903d(0x2d5));}}if(db[_0x4f903d(0x84c)][_0x1e8587['chat']][_0x4f903d(0x82b)]){if(_0x23f888[_0x4f903d(0x69b)](_0x4f903d(0x20f))){_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x8fb));if(!_0x346492)return _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x7a0));if(_0x24d90e)return _0x1e8587['reply']('Ehh\x20Maaf\x20Kamu\x20Admin');if(_0x40c20b)return _0x1e8587[_0x4f903d(0x70d)]('Ehh\x20Maaf\x20Kamu\x20Owner\x20Bot\x20Ku');_0x3f28da['groupParticipantsUpdate'](_0x1e8587['chat'],[_0x1e8587[_0x4f903d(0x548)]],_0x4f903d(0x2d5));}}if(db[_0x4f903d(0x84c)][_0x1e8587[_0x4f903d(0x155)]]['antivirtex']){if(_0x23f888[_0x4f903d(0x36f)]>0xdac){_0x1e8587['reply'](_0x4f903d(0x663));if(!_0x346492)return _0x1e8587['reply']('Ehh\x20Bot\x20Gak\x20Admin\x20T_T');_0x3f28da[_0x4f903d(0x600)](_0x1e8587[_0x4f903d(0x155)],[_0x1e8587[_0x4f903d(0x548)]],_0x4f903d(0x2d5));}}if(db[_0x4f903d(0x84c)][_0x1e8587[_0x4f903d(0x155)]][_0x4f903d(0x25e)]&&!_0x24d90e&&!_0x40c20b)return;this['game']=this[_0x4f903d(0x259)]?this['game']:{};let _0x4511e3=Object[_0x4f903d(0x5d5)](this[_0x4f903d(0x259)])[_0x4f903d(0x2b6)](_0x19ea91=>_0x19ea91['id']&&_0x19ea91[_0x4f903d(0x259)]&&_0x19ea91[_0x4f903d(0x662)]&&_0x19ea91['id'][_0x4f903d(0x295)]('tictactoe')&&[_0x19ea91[_0x4f903d(0x259)][_0x4f903d(0x3d9)],_0x19ea91[_0x4f903d(0x259)][_0x4f903d(0x743)]][_0x4f903d(0x1fd)](_0x1e8587['sender'])&&_0x19ea91['state']==_0x4f903d(0x850));if(_0x4511e3){let _0x28e2d8,_0x3cdc65=!0x1,_0xc88e8c=!0x1,_0x4ddc37=!0x1;if(!/^([1-9]|(me)?nyerah|surr?ender|off|skip)$/i[_0x4f903d(0x956)](_0x1e8587['text']))return;_0x4ddc37=!/^[1-9]$/[_0x4f903d(0x956)](_0x1e8587[_0x4f903d(0x25a)]);if(_0x1e8587[_0x4f903d(0x548)]!==_0x4511e3['game']['currentTurn']){if(!_0x4ddc37)return!0x0;}if(!_0x4ddc37&&0x1>(_0x28e2d8=_0x4511e3[_0x4f903d(0x259)]['turn'](_0x1e8587[_0x4f903d(0x548)]===_0x4511e3[_0x4f903d(0x259)][_0x4f903d(0x743)],parseInt(_0x1e8587[_0x4f903d(0x25a)])-0x1)))return _0x1e8587[_0x4f903d(0x70d)]({'-3':'Game\x20telah\x20berakhir','-2':_0x4f903d(0x825),'-1':_0x4f903d(0x3b4),0x0:_0x4f903d(0x3b4)}[_0x28e2d8]),!0x0;if(_0x1e8587[_0x4f903d(0x548)]===_0x4511e3[_0x4f903d(0x259)][_0x4f903d(0x694)])_0x3cdc65=!![];else{if(_0x4511e3[_0x4f903d(0x259)][_0x4f903d(0x65d)]===0x1ff)_0xc88e8c=!![];}let _0x59940e=_0x4511e3['game'][_0x4f903d(0x940)]()[_0x4f903d(0x6f6)](_0x2d5a78=>{const _0x59d6e0=_0x4f903d;return{'X':'❌','O':'⭕',0x1:_0x59d6e0(0x182),0x2:_0x59d6e0(0x5db),0x3:_0x59d6e0(0x150),0x4:_0x59d6e0(0x47e),0x5:_0x59d6e0(0x426),0x6:_0x59d6e0(0x1cd),0x7:_0x59d6e0(0x264),0x8:'8️⃣',0x9:_0x59d6e0(0x883)}[_0x2d5a78];});_0x4ddc37&&(_0x4511e3[_0x4f903d(0x259)][_0x4f903d(0x6f4)]=_0x1e8587[_0x4f903d(0x548)]===_0x4511e3[_0x4f903d(0x259)][_0x4f903d(0x3d9)],_0x3cdc65=!![]);let _0x550ac0=_0x4ddc37?_0x4511e3['game'][_0x4f903d(0x843)]:_0x4511e3[_0x4f903d(0x259)][_0x4f903d(0x694)],_0x5d143c=_0x4f903d(0x8b7)+_0x4511e3['id']+'\x0a\x0a'+_0x59940e[_0x4f903d(0x5dc)](0x0,0x3)['join']('')+'\x0a'+_0x59940e['slice'](0x3,0x6)[_0x4f903d(0x650)]('')+'\x0a'+_0x59940e[_0x4f903d(0x5dc)](0x6)[_0x4f903d(0x650)]('')+'\x0a\x0a'+(_0x3cdc65?'@'+_0x550ac0[_0x4f903d(0x87c)]('@')[0x0]+_0x4f903d(0x2a7):_0xc88e8c?_0x4f903d(0x33f):_0x4f903d(0x939)+['❌','⭕'][0x1*_0x4511e3[_0x4f903d(0x259)][_0x4f903d(0x6f4)]]+_0x4f903d(0x36b)+_0x4511e3[_0x4f903d(0x259)]['currentTurn'][_0x4f903d(0x87c)]('@')[0x0]+')')+'\x0a❌:\x20@'+_0x4511e3['game'][_0x4f903d(0x3d9)][_0x4f903d(0x87c)]('@')[0x0]+_0x4f903d(0x3e7)+_0x4511e3[_0x4f903d(0x259)][_0x4f903d(0x743)][_0x4f903d(0x87c)]('@')[0x0]+'\x0a\x0aKetik\x20*nyerah*\x20untuk\x20menyerah\x20dan\x20mengakui\x20kekalahan';if((_0x4511e3[_0x4f903d(0x259)][_0x4f903d(0x6f4)]^_0x4ddc37?_0x4511e3['x']:_0x4511e3['o'])!==_0x1e8587[_0x4f903d(0x155)])_0x4511e3[_0x4511e3[_0x4f903d(0x259)][_0x4f903d(0x6f4)]^_0x4ddc37?'x':'o']=_0x1e8587['chat'];if(_0x4511e3['x']!==_0x4511e3['o'])await _0x3f28da[_0x4f903d(0x971)](_0x4511e3['x'],_0x5d143c,_0x1e8587,{'mentions':parseMention(_0x5d143c)});await _0x3f28da[_0x4f903d(0x971)](_0x4511e3['o'],_0x5d143c,_0x1e8587,{'mentions':parseMention(_0x5d143c)}),(_0xc88e8c||_0x3cdc65)&&delete this['game'][_0x4511e3['id']];}this[_0x4f903d(0x842)]=this['suit']?this['suit']:{};let _0x2e5b58=Object[_0x4f903d(0x5d5)](this['suit'])[_0x4f903d(0x2b6)](_0x573e00=>_0x573e00['id']&&_0x573e00[_0x4f903d(0x765)]&&[_0x573e00['p'],_0x573e00['p2']][_0x4f903d(0x1fd)](_0x1e8587['sender']));if(_0x2e5b58){let _0x50b177='',_0x5f59d7=![];if(_0x1e8587[_0x4f903d(0x548)]==_0x2e5b58['p2']&&/^(acc(ept)?|terima|gas|oke?|tolak|gamau|nanti|ga(k.)?bisa|y)/i[_0x4f903d(0x956)](_0x1e8587[_0x4f903d(0x25a)])&&_0x1e8587[_0x4f903d(0x814)]&&_0x2e5b58[_0x4f903d(0x765)]==_0x4f903d(0x8a2)){if(/^(tolak|gamau|nanti|n|ga(k.)?bisa)/i['test'](_0x1e8587['text']))return _0x3f28da[_0x4f903d(0x2e3)](_0x1e8587[_0x4f903d(0x155)],'@'+_0x2e5b58['p2'][_0x4f903d(0x87c)]`@`[0x0]+_0x4f903d(0x685),_0x1e8587),delete this[_0x4f903d(0x842)][_0x2e5b58['id']],!0x0;_0x2e5b58[_0x4f903d(0x765)]=_0x4f903d(0x542),_0x2e5b58['asal']=_0x1e8587[_0x4f903d(0x155)],clearTimeout(_0x2e5b58[_0x4f903d(0x3c2)]),_0x3f28da[_0x4f903d(0x971)](_0x1e8587[_0x4f903d(0x155)],'Suit\x20telah\x20dikirimkan\x20ke\x20chat\x0a\x0a@'+_0x2e5b58['p']['split']`@`[0x0]+_0x4f903d(0x2d7)+_0x2e5b58['p2'][_0x4f903d(0x87c)]`@`[0x0]+_0x4f903d(0x2f2)+_0xc0ef6f[_0x4f903d(0x87c)]`@`[0x0],_0x1e8587,{'mentions':[_0x2e5b58['p'],_0x2e5b58['p2']]});if(!_0x2e5b58[_0x4f903d(0x4be)])_0x3f28da[_0x4f903d(0x971)](_0x2e5b58['p'],_0x4f903d(0x4ac),_0x1e8587);if(!_0x2e5b58[_0x4f903d(0x8d7)])_0x3f28da[_0x4f903d(0x971)](_0x2e5b58['p2'],_0x4f903d(0x4ac),_0x1e8587);_0x2e5b58[_0x4f903d(0x9a0)]=setTimeout(()=>{const _0x314fad=_0x4f903d;if(!_0x2e5b58[_0x314fad(0x4be)]&&!_0x2e5b58['pilih2'])_0x3f28da[_0x314fad(0x971)](_0x1e8587[_0x314fad(0x155)],_0x314fad(0x5b2));else(!_0x2e5b58['pilih']||!_0x2e5b58[_0x314fad(0x8d7)])&&(_0x50b177=!_0x2e5b58[_0x314fad(0x4be)]?_0x2e5b58['p2']:_0x2e5b58['p'],_0x3f28da[_0x314fad(0x2e3)](_0x1e8587[_0x314fad(0x155)],'@'+(_0x2e5b58[_0x314fad(0x4be)]?_0x2e5b58['p2']:_0x2e5b58['p'])[_0x314fad(0x87c)]`@`[0x0]+_0x314fad(0x18b),_0x1e8587));return delete this[_0x314fad(0x842)][_0x2e5b58['id']],!0x0;},_0x2e5b58[_0x4f903d(0x6c4)]);}let _0x19ae99=_0x1e8587[_0x4f903d(0x548)]==_0x2e5b58['p'],_0x162c66=_0x1e8587['sender']==_0x2e5b58['p2'],_0x234c5c=/gunting/i,_0x1b7060=/batu/i,_0x5e7ff9=/kertas/i,_0xabff08=/^(gunting|batu|kertas)/i;if(_0x19ae99&&_0xabff08[_0x4f903d(0x956)](_0x1e8587[_0x4f903d(0x25a)])&&!_0x2e5b58['pilih']&&!_0x1e8587[_0x4f903d(0x814)]){_0x2e5b58[_0x4f903d(0x4be)]=_0xabff08[_0x4f903d(0x74f)](_0x1e8587[_0x4f903d(0x25a)][_0x4f903d(0x3d8)]())[0x0],_0x2e5b58[_0x4f903d(0x25a)]=_0x1e8587['text'],_0x1e8587['reply'](_0x4f903d(0x95a)+_0x1e8587[_0x4f903d(0x25a)]+'\x20'+(!_0x2e5b58[_0x4f903d(0x8d7)]?_0x4f903d(0x6c7):''));if(!_0x2e5b58[_0x4f903d(0x8d7)])_0x3f28da[_0x4f903d(0x971)](_0x2e5b58['p2'],_0x4f903d(0x8f2),0x0);}if(_0x162c66&&_0xabff08[_0x4f903d(0x956)](_0x1e8587[_0x4f903d(0x25a)])&&!_0x2e5b58[_0x4f903d(0x8d7)]&&!_0x1e8587[_0x4f903d(0x814)]){_0x2e5b58['pilih2']=_0xabff08[_0x4f903d(0x74f)](_0x1e8587[_0x4f903d(0x25a)][_0x4f903d(0x3d8)]())[0x0],_0x2e5b58['text2']=_0x1e8587[_0x4f903d(0x25a)],_0x1e8587['reply'](_0x4f903d(0x95a)+_0x1e8587[_0x4f903d(0x25a)]+'\x20'+(!_0x2e5b58['pilih']?_0x4f903d(0x6c7):''));if(!_0x2e5b58[_0x4f903d(0x4be)])_0x3f28da[_0x4f903d(0x971)](_0x2e5b58['p'],_0x4f903d(0x8f2),0x0);}let _0x411fac=_0x2e5b58['pilih'],_0x336222=_0x2e5b58['pilih2'];if(_0x2e5b58['pilih']&&_0x2e5b58['pilih2']){clearTimeout(_0x2e5b58[_0x4f903d(0x9a0)]);if(_0x1b7060[_0x4f903d(0x956)](_0x411fac)&&_0x234c5c['test'](_0x336222))_0x50b177=_0x2e5b58['p'];else{if(_0x1b7060[_0x4f903d(0x956)](_0x411fac)&&_0x5e7ff9[_0x4f903d(0x956)](_0x336222))_0x50b177=_0x2e5b58['p2'];else{if(_0x234c5c[_0x4f903d(0x956)](_0x411fac)&&_0x5e7ff9[_0x4f903d(0x956)](_0x336222))_0x50b177=_0x2e5b58['p'];else{if(_0x234c5c[_0x4f903d(0x956)](_0x411fac)&&_0x1b7060[_0x4f903d(0x956)](_0x336222))_0x50b177=_0x2e5b58['p2'];else{if(_0x5e7ff9['test'](_0x411fac)&&_0x1b7060[_0x4f903d(0x956)](_0x336222))_0x50b177=_0x2e5b58['p'];else{if(_0x5e7ff9[_0x4f903d(0x956)](_0x411fac)&&_0x234c5c[_0x4f903d(0x956)](_0x336222))_0x50b177=_0x2e5b58['p2'];else{if(_0x411fac==_0x336222)_0x5f59d7=!![];}}}}}}_0x3f28da[_0x4f903d(0x971)](_0x2e5b58[_0x4f903d(0x56b)],(_0x4f903d(0x59b)+(_0x5f59d7?_0x4f903d(0x347):'')+_0x4f903d(0x851)+_0x2e5b58['p'][_0x4f903d(0x87c)]`@`[0x0]+'\x20('+_0x2e5b58[_0x4f903d(0x25a)]+')\x20'+(_0x5f59d7?'':_0x2e5b58['p']==_0x50b177?'\x20Menang\x20\x0a':_0x4f903d(0x544))+'\x0a@'+_0x2e5b58['p2'][_0x4f903d(0x87c)]`@`[0x0]+'\x20('+_0x2e5b58[_0x4f903d(0x211)]+')\x20'+(_0x5f59d7?'':_0x2e5b58['p2']==_0x50b177?'\x20Menang\x20\x0a':'\x20Kalah\x20\x0a')+'\x0a')['trim'](),_0x1e8587,{'mentions':[_0x2e5b58['p'],_0x2e5b58['p2']]}),delete this[_0x4f903d(0x842)][_0x2e5b58['id']];}}let _0x2312e4=[...new Set([..._0x1e8587[_0x4f903d(0x2e8)]||[],..._0x1e8587[_0x4f903d(0x779)]?[_0x1e8587[_0x4f903d(0x779)][_0x4f903d(0x548)]]:[]])];for(let _0xd198cd of _0x2312e4){let _0x1f7de4=global['db'][_0x4f903d(0x291)][_0xd198cd];if(!_0x1f7de4)continue;let _0x37910a=_0x1f7de4[_0x4f903d(0x4c3)];if(!_0x37910a||_0x37910a<0x0)continue;let _0x51286a=_0x1f7de4[_0x4f903d(0x305)]||'';_0x1e8587['reply']((_0x4f903d(0x40f)+(_0x51286a?_0x4f903d(0x392)+_0x51286a:_0x4f903d(0x565))+_0x4f903d(0x906)+clockString(new Date()-_0x37910a)+'\x0a')[_0x4f903d(0x856)]());}if(db[_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x4c3)]>-0x1){let _0x31a83a=global['db'][_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]];_0x1e8587[_0x4f903d(0x70d)]((_0x4f903d(0x32a)+(_0x31a83a['afkReason']?_0x4f903d(0x3e2)+_0x31a83a[_0x4f903d(0x305)]:'')+_0x4f903d(0x906)+clockString(new Date()-_0x31a83a[_0x4f903d(0x4c3)])+'\x0a')[_0x4f903d(0x856)]()),_0x31a83a[_0x4f903d(0x4c3)]=-0x1,_0x31a83a[_0x4f903d(0x305)]='';}switch(_0x179f46){case'afk':{let _0x4f4716=global['db'][_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]];_0x4f4716['afkTime']=+new Date(),_0x4f4716[_0x4f903d(0x305)]=_0x496965,_0x1e8587[_0x4f903d(0x70d)](_0x1e8587[_0x4f903d(0x6f5)]+'\x20Telah\x20Afk'+(_0x496965?':\x20'+_0x496965:''));}break;case'ttc':case _0x4f903d(0x896):case _0x4f903d(0x9bb):{let _0x2afd74=require('./lib/tictactoe');this['game']=this[_0x4f903d(0x259)]?this[_0x4f903d(0x259)]:{};if(Object[_0x4f903d(0x5d5)](this['game'])[_0x4f903d(0x2b6)](_0xcd0df8=>_0xcd0df8['id'][_0x4f903d(0x295)](_0x4f903d(0x9bb))&&[_0xcd0df8[_0x4f903d(0x259)]['playerX'],_0xcd0df8[_0x4f903d(0x259)][_0x4f903d(0x743)]]['includes'](_0x1e8587[_0x4f903d(0x548)])))throw _0x4f903d(0x3bb);let _0x335727=Object['values'](this['game'])[_0x4f903d(0x2b6)](_0x159898=>_0x159898[_0x4f903d(0x662)]===_0x4f903d(0x79b)&&(_0x496965?_0x159898[_0x4f903d(0x28e)]===_0x496965:!![]));if(_0x335727){_0x1e8587['reply'](_0x4f903d(0x671)),_0x335727['o']=_0x1e8587['chat'],_0x335727[_0x4f903d(0x259)][_0x4f903d(0x743)]=_0x1e8587[_0x4f903d(0x548)],_0x335727[_0x4f903d(0x662)]='PLAYING';let _0x4bfa19=_0x335727[_0x4f903d(0x259)]['render']()[_0x4f903d(0x6f6)](_0x27951b=>{const _0x53716a=_0x4f903d;return{'X':'❌','O':'⭕',0x1:_0x53716a(0x182),0x2:_0x53716a(0x5db),0x3:_0x53716a(0x150),0x4:_0x53716a(0x47e),0x5:_0x53716a(0x426),0x6:_0x53716a(0x1cd),0x7:'7️⃣',0x8:_0x53716a(0x7b9),0x9:'9️⃣'}[_0x27951b];}),_0x41c1d8=_0x4f903d(0x8b7)+_0x335727['id']+'\x0a\x0a'+_0x4bfa19['slice'](0x0,0x3)[_0x4f903d(0x650)]('')+'\x0a'+_0x4bfa19['slice'](0x3,0x6)[_0x4f903d(0x650)]('')+'\x0a'+_0x4bfa19[_0x4f903d(0x5dc)](0x6)['join']('')+'\x0a\x0aMenunggu\x20@'+_0x335727[_0x4f903d(0x259)][_0x4f903d(0x843)]['split']('@')[0x0]+_0x4f903d(0x562);if(_0x335727['x']!==_0x335727['o'])await _0x3f28da[_0x4f903d(0x971)](_0x335727['x'],_0x41c1d8,_0x1e8587,{'mentions':parseMention(_0x41c1d8)});await _0x3f28da[_0x4f903d(0x971)](_0x335727['o'],_0x41c1d8,_0x1e8587,{'mentions':parseMention(_0x41c1d8)});}else{_0x335727={'id':_0x4f903d(0x1e6)+ +new Date(),'x':_0x1e8587[_0x4f903d(0x155)],'o':'','game':new _0x2afd74(_0x1e8587['sender'],'o'),'state':_0x4f903d(0x79b)};if(_0x496965)_0x335727[_0x4f903d(0x28e)]=_0x496965;_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x499)+(_0x496965?_0x4f903d(0x21e)+_0x4ade91+_0x179f46+'\x20'+_0x496965:'')),this['game'][_0x335727['id']]=_0x335727;}}break;case _0x4f903d(0x626):case _0x4f903d(0x6b2):{this['game']=this[_0x4f903d(0x259)]?this['game']:{};try{if(this[_0x4f903d(0x259)])delete this[_0x4f903d(0x259)],_0x3f28da[_0x4f903d(0x971)](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x718),_0x1e8587);else{if(!this[_0x4f903d(0x259)])_0x1e8587[_0x4f903d(0x70d)]('Session\x20TicTacToe🎮\x20tidak\x20ada');else throw'?';}}catch(_0x4b530f){_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x1f4));}}break;case _0x4f903d(0x738):case _0x4f903d(0x842):{this[_0x4f903d(0x842)]=this[_0x4f903d(0x842)]?this[_0x4f903d(0x842)]:{};let _0x580d0f=0xa,_0x58f9f6=0xa,_0x5127ac=0xea60;if(Object[_0x4f903d(0x5d5)](this['suit'])[_0x4f903d(0x2b6)](_0x148f77=>_0x148f77['id'][_0x4f903d(0x295)](_0x4f903d(0x842))&&[_0x148f77['p'],_0x148f77['p2']][_0x4f903d(0x1fd)](_0x1e8587['sender'])))_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x681));if(_0x1e8587[_0x4f903d(0x2e8)][0x0]===_0x1e8587['sender'])return _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x7f3));if(!_0x1e8587['mentionedJid'][0x0])return _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x82a)+_0x4ade91+'suit\x20@'+owner[0x1],_0x1e8587[_0x4f903d(0x155)],{'mentions':[owner[0x1]+_0x4f903d(0x96f)]});if(Object[_0x4f903d(0x5d5)](this[_0x4f903d(0x842)])['find'](_0x325dc4=>_0x325dc4['id'][_0x4f903d(0x295)](_0x4f903d(0x842))&&[_0x325dc4['p'],_0x325dc4['p2']][_0x4f903d(0x1fd)](_0x1e8587[_0x4f903d(0x2e8)][0x0])))throw _0x4f903d(0x333);let _0x96d534=_0x4f903d(0x6b8)+new Date()*0x1,_0x3b62e2='_*SUIT\x20PvP*_\x0a\x0a@'+_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]`@`[0x0]+_0x4f903d(0x6b7)+_0x1e8587[_0x4f903d(0x2e8)][0x0][_0x4f903d(0x87c)]`@`[0x0]+_0x4f903d(0x3e4)+_0x1e8587[_0x4f903d(0x2e8)][0x0][_0x4f903d(0x87c)]`@`[0x0]+'\x20untuk\x20ketik\x20terima/tolak';this['suit'][_0x96d534]={'chat':await _0x3f28da[_0x4f903d(0x971)](_0x1e8587[_0x4f903d(0x155)],_0x3b62e2,_0x1e8587,{'mentions':parseMention(_0x3b62e2)}),'id':_0x96d534,'p':_0x1e8587[_0x4f903d(0x548)],'p2':_0x1e8587[_0x4f903d(0x2e8)][0x0],'status':_0x4f903d(0x8a2),'waktu':setTimeout(()=>{const _0x23becc=_0x4f903d;if(this[_0x23becc(0x842)][_0x96d534])_0x3f28da[_0x23becc(0x971)](_0x1e8587['chat'],_0x23becc(0x220),_0x1e8587);delete this['suit'][_0x96d534];},0xea60),'poin':_0x580d0f,'poin_lose':_0x58f9f6,'timeout':_0x5127ac};}break;case _0x4f903d(0x7ff):{if(!_0x40c20b)throw mess[_0x4f903d(0x1ff)];var _0x1f551c=require('http');_0x1f551c['get']({'host':_0x4f903d(0x99a),'port':0x50,'path':'/'},function(_0x167ba9){const _0x5420d8=_0x4f903d;_0x167ba9['on'](_0x5420d8(0x759),function(_0x1e8817){const _0x49b548=_0x5420d8;_0x1e8587[_0x49b548(0x70d)](_0x49b548(0x42d)+_0x1e8817);});});}break;case'Assalamualaikum':case _0x4f903d(0x836):case'Assalamualaikum\x20Wr.\x20Wb':_0x1e8587[_0x4f903d(0x70d)]('Waalaikumsalam\x20Kak\x20'+_0x4f33ca+'\x20🙏');break;case _0x4f903d(0x678):case _0x4f903d(0x7ee):case'shalom':case _0x4f903d(0x92a):case'Salam\x20sejahtera':_0x1e8587[_0x4f903d(0x70d)]('Salam\x20Sejahtera\x20Juga\x20Untukmu\x20Kak\x20'+_0x4f33ca+_0x4f903d(0x1b9));break;case _0x4f903d(0x63f):case _0x4f903d(0x658):case'Om\x20swastyastu':_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x4ea)+_0x4f33ca+'\x20🙏');break;case _0x4f903d(0x938):case _0x4f903d(0x589):case _0x4f903d(0x6ac):_0x1e8587['reply'](_0x4f903d(0x498)+_0x4f33ca+'\x20🙏');break;case'Wie\x20De\x20Dong\x20Tian':case'Wie\x20de\x20dong\x20tian':case'wie\x20de\x20dong\x20tian':_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x651)+_0x4f33ca+_0x4f903d(0x1b9));break;case _0x4f903d(0x7b1):case _0x4f903d(0x995):case _0x4f903d(0x3b7):case'tengkiyu':case _0x4f903d(0x9d4):case _0x4f903d(0x146):case _0x4f903d(0x31d):_0x1e8587[_0x4f903d(0x70d)]('Sama-Sama\x20Kak\x20'+_0x4f33ca);break;case _0x4f903d(0x879):case _0x4f903d(0x5ea):_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x4db));break;case'p':_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x3fd));break;case _0x4f903d(0x67c):case'agamaowner':_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x334)+global[_0x4f903d(0x161)]+_0x4f903d(0x8fc));break;case'tqtt':case _0x4f903d(0x7aa):case _0x4f903d(0x7c1):{anu=_0x4f903d(0x619)+_0x4ade91+_0x4f903d(0x4ca)+moment['tz'](_0x4f903d(0x83b))[_0x4f903d(0x4ec)](_0x4f903d(0x550))+_0x4f903d(0x4ad)+moment['tz'](_0x4f903d(0x83b))[_0x4f903d(0x4ec)](_0x4f903d(0x7d9))+_0x4f903d(0x1e7)+_0x231a42+_0x4f903d(0x67e)+_0x4bc32f+_0x4f903d(0x7ec)+_0x40c484;let _0x58bd3f=[{'urlButton':{'displayText':_0x4f903d(0x372),'url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':_0x4f903d(0x9ab),'phoneNumber':global['owner'][0x0]}},{'quickReplyButton':{'displayText':_0x4f903d(0x40c),'id':'rules'}},{'quickReplyButton':{'displayText':_0x4f903d(0x73a),'id':_0x4f903d(0x463)}},{'quickReplyButton':{'displayText':_0x4f903d(0x59f),'id':_0x4f903d(0x199)}}],_0x2649ce=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x2649ce[_0x4f903d(0x50f)])_0x3f28da['send5ButImg'](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)]['name'],global[_0x4f903d(0x34c)],_0x58bd3f);else{if(_0x2649ce[_0x4f903d(0x98a)])_0x3f28da['send5ButGif'](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x58bd3f);else{if(_0x2649ce['templateVid'])_0x3f28da[_0x4f903d(0x503)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da['user'][_0x4f903d(0x28e)],global['visoka'],_0x58bd3f);else _0x2649ce[_0x4f903d(0x574)]&&_0x3f28da[_0x4f903d(0x991)](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x58bd3f);}}}break;case _0x4f903d(0x1d4):{let _0x8ecdd=await generateWAMessageFromContent(_0x1e8587[_0x4f903d(0x155)],proto[_0x4f903d(0x582)]['fromObject']({'listMessage':{'title':'┌────────┈❖\x0a│「\x20Hi,\x20'+_0x4f33ca+_0x4f903d(0x235)+_0x2a3917+'\x20」\x0a└┬─────────────┈❖\x0a┌┤「\x20INFO\x20USER\x20」\x0a│└─────────────┈❖\x0a│\x20Name\x20:\x20'+_0x4f33ca+_0x4f903d(0x204)+_0x1e8587['sender'][_0x4f903d(0x87c)]('@')[0x0]+_0x4f903d(0x166)+(_0x40c20b?_0x4f903d(0x3aa):'User')+_0x4f903d(0x4b1)+Object[_0x4f903d(0x429)](global['db'][_0x4f903d(0x291)])['length']+_0x4f903d(0x7c3)+_0x4ade91+'\x20)\x0a│\x20Name\x20:\x20'+global[_0x4f903d(0x47a)]+_0x4f903d(0x255)+global[_0x4f903d(0x3c5)]+_0x4f903d(0x891)+(_0x3f28da[_0x4f903d(0x512)]?'Public':_0x4f903d(0x7e6))+_0x4f903d(0x972)+os[_0x4f903d(0x360)]()+_0x4f903d(0x96e)+runtime(process[_0x4f903d(0x7d0)]())+_0x4f903d(0x440)+moment['tz'](_0x4f903d(0x83b))[_0x4f903d(0x4ec)](_0x4f903d(0x7d9))+'\x0a│\x20Waktu\x20Server\x20:\x20'+moment['tz']('Asia/Jakarta')[_0x4f903d(0x4ec)](_0x4f903d(0x550))+_0x4f903d(0x14b)+_0x5f585c+'\x0a│\x20WIB\x20:\x20'+_0x231a42+_0x4f903d(0x47c)+_0x4bc32f+_0x4f903d(0x7c5)+_0x40c484+_0x4f903d(0x5d1),'description':'\x0a','buttonText':_0x4f903d(0x509),'footerText':_0x4f903d(0x737),'listType':_0x4f903d(0x36c),'sections':[{'title':_0x4f903d(0x55a),'rows':[{'title':'「\x20All\x20Menu\x20」','description':_0x4f903d(0x597),'rowId':_0x4ade91+_0x4f903d(0x508)}]},{'title':'List\x20menu\x20Bot\x20>_<','rows':[{'title':_0x4f903d(0x300),'description':_0x4f903d(0x19e),'rowId':_0x4ade91+'anonymousmenu'},{'title':_0x4f903d(0x932),'description':_0x4f903d(0x38b),'rowId':_0x4ade91+_0x4f903d(0x62c)},{'title':_0x4f903d(0x97b),'description':_0x4f903d(0x744),'rowId':_0x4ade91+_0x4f903d(0x52b)},{'title':_0x4f903d(0x96c),'description':_0x4f903d(0x89d),'rowId':_0x4ade91+'convertmenu'},{'title':_0x4f903d(0x4ff),'description':_0x4f903d(0x585),'rowId':_0x4ade91+_0x4f903d(0x5a0)},{'title':'「\x20Database\x20Menu\x20」','description':'Menampilkan\x20Database\x20Menu','rowId':_0x4ade91+'databasemenu'},{'title':'「\x20Ephoto\x20Menu\x20」','description':'Menampilkan\x20Ephoto\x20Menu','rowId':_0x4ade91+_0x4f903d(0x937)},{'title':_0x4f903d(0x2e7),'description':_0x4f903d(0x43d),'rowId':_0x4ade91+_0x4f903d(0x9a9)},{'title':_0x4f903d(0x276),'description':_0x4f903d(0x704),'rowId':_0x4ade91+_0x4f903d(0x311)},{'title':_0x4f903d(0x4b8),'description':_0x4f903d(0x2f0),'rowId':_0x4ade91+_0x4f903d(0x195)},{'title':_0x4f903d(0x30d),'description':_0x4f903d(0x699),'rowId':_0x4ade91+_0x4f903d(0x5c3)},{'title':'「\x20Meme\x20Menu\x20」','description':_0x4f903d(0x7f1),'rowId':_0x4ade91+_0x4f903d(0x7d3)},{'title':_0x4f903d(0x2f4),'description':_0x4f903d(0x8c9),'rowId':_0x4ade91+'mainmenu'},{'title':_0x4f903d(0x8de),'description':_0x4f903d(0x1fb),'rowId':_0x4ade91+_0x4f903d(0x555)},{'title':_0x4f903d(0x5ff),'description':_0x4f903d(0x2a3),'rowId':_0x4ade91+_0x4f903d(0x608)},{'title':'「\x20Primbon\x20Menu\x20」','description':_0x4f903d(0x89a),'rowId':_0x4ade91+_0x4f903d(0x725)},{'title':_0x4f903d(0x3a2),'description':'Menampilkan\x20Photo\x20Editor\x20Menu','rowId':_0x4ade91+_0x4f903d(0x9ad)},{'title':_0x4f903d(0x1e5),'description':'Menampilkan\x20Quotes\x20Menu','rowId':_0x4ade91+_0x4f903d(0x374)},{'title':'「\x20Random\x20Menu\x20」','description':_0x4f903d(0x684),'rowId':_0x4ade91+'randommenu'},{'title':_0x4f903d(0x26c),'description':_0x4f903d(0x1f6),'rowId':_0x4ade91+'stickermenu'},{'title':_0x4f903d(0x999),'description':_0x4f903d(0x7b3),'rowId':_0x4ade91+_0x4f903d(0x1b7)},{'title':_0x4f903d(0x196),'description':_0x4f903d(0x3ab),'rowId':_0x4ade91+_0x4f903d(0x76c)},{'title':_0x4f903d(0x2e5),'description':'Menampilkan\x20Text\x20Pro\x20menu','rowId':_0x4ade91+_0x4f903d(0x455)},{'title':_0x4f903d(0x88c),'description':_0x4f903d(0x8d4),'rowId':_0x4ade91+_0x4f903d(0x64b)},{'title':_0x4f903d(0x769),'description':_0x4f903d(0x99e),'rowId':_0x4ade91+'webzonemenu'}]},{'title':_0x4f903d(0x351),'rows':[{'title':_0x4f903d(0x473),'description':_0x4f903d(0x775),'rowId':_0x4ade91+_0x4f903d(0x199)}]},{'title':_0x4f903d(0x6e0),'rows':[{'title':_0x4f903d(0x90a),'description':_0x4f903d(0x423),'rowId':_0x4ade91+_0x4f903d(0x1ff)}]},{'title':_0x4f903d(0x9df),'rows':[{'title':_0x4f903d(0x3fc),'description':_0x4f903d(0x8e4),'rowId':_0x4ade91+_0x4f903d(0x1d9)}]}],'listType':0x1}}),{'userJid':_0x1e8587['chat'],'quoted':_0x37ae15});_0x3f28da[_0x4f903d(0x748)](_0x1e8587[_0x4f903d(0x155)],_0x8ecdd[_0x4f903d(0x7d4)],{'messageId':_0x8ecdd[_0x4f903d(0x13a)]['id']});}break;case'sc':case _0x4f903d(0x657):{anu=_0x4f903d(0x8e9)+global[_0x4f903d(0x358)];let _0x388bca=[{'urlButton':{'displayText':_0x4f903d(0x372),'url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':'Number\x20Phone\x20Owner','phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':'❍\x20Rules','id':_0x4f903d(0x94a)}},{'quickReplyButton':{'displayText':_0x4f903d(0x73a),'id':_0x4f903d(0x463)}},{'quickReplyButton':{'displayText':_0x4f903d(0x811),'id':_0x4f903d(0x1ff)}}],_0x4173fb=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x4173fb['templateImage'])_0x3f28da[_0x4f903d(0x665)](_0x1e8587['chat'],anu,_0x3f28da['user'][_0x4f903d(0x28e)],global[_0x4f903d(0x34c)],_0x388bca);else{if(_0x4173fb[_0x4f903d(0x98a)])_0x3f28da[_0x4f903d(0x1b8)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)]['name'],global[_0x4f903d(0x3dc)],_0x388bca);else{if(_0x4173fb[_0x4f903d(0x2e1)])_0x3f28da[_0x4f903d(0x503)](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x388bca);else _0x4173fb[_0x4f903d(0x574)]&&_0x3f28da[_0x4f903d(0x991)](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x388bca);}}}break;case'tes':case _0x4f903d(0x956):case'jaringan':case _0x4f903d(0x2ba):{_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x287));}break;case'chat':{if(!_0x40c20b)throw mess['owner'];if(!q)throw'Option\x20:\x201.\x20mute\x0a2.\x20unmute\x0a3.\x20archive\x0a4.\x20unarchive\x0a5.\x20read\x0a6.\x20unread\x0a7.\x20delete';if(_0x1a5e8a[0x0]===_0x4f903d(0x25e))_0x3f28da[_0x4f903d(0x9c6)]({'mute':_0x4f903d(0x847)},_0x1e8587['chat'],[])[_0x4f903d(0x245)](_0x119784=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x119784)))['catch'](_0x7ff48=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x7ff48)));else{if(_0x1a5e8a[0x0]===_0x4f903d(0x1ef))_0x3f28da['chatModify']({'mute':null},_0x1e8587[_0x4f903d(0x155)],[])[_0x4f903d(0x245)](_0x58ca9b=>_0x1e8587['reply'](jsonformat(_0x58ca9b)))[_0x4f903d(0x5bf)](_0x10de88=>_0x1e8587['reply'](jsonformat(_0x10de88)));else{if(_0x1a5e8a[0x0]==='archive')_0x3f28da['chatModify']({'archive':!![]},_0x1e8587[_0x4f903d(0x155)],[])[_0x4f903d(0x245)](_0x16446d=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x16446d)))[_0x4f903d(0x5bf)](_0x318e4a=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x318e4a)));else{if(_0x1a5e8a[0x0]===_0x4f903d(0x88d))_0x3f28da['chatModify']({'archive':![]},_0x1e8587[_0x4f903d(0x155)],[])[_0x4f903d(0x245)](_0xa7b8d5=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0xa7b8d5)))[_0x4f903d(0x5bf)](_0x55b670=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x55b670)));else{if(_0x1a5e8a[0x0]===_0x4f903d(0x911))_0x3f28da[_0x4f903d(0x9c6)]({'markRead':!![]},_0x1e8587['chat'],[])['then'](_0x26b51d=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x26b51d)))['catch'](_0x51bc77=>_0x1e8587['reply'](jsonformat(_0x51bc77)));else{if(_0x1a5e8a[0x0]===_0x4f903d(0x3b5))_0x3f28da[_0x4f903d(0x9c6)]({'markRead':![]},_0x1e8587['chat'],[])[_0x4f903d(0x245)](_0x479095=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x479095)))['catch'](_0x2e001e=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x2e001e)));else _0x1a5e8a[0x0]===_0x4f903d(0x3e8)&&_0x3f28da[_0x4f903d(0x9c6)]({'clear':{'message':{'id':_0x1e8587[_0x4f903d(0x779)]['id'],'fromMe':!![]}}},_0x1e8587['chat'],[])[_0x4f903d(0x245)](_0x15d29e=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x15d29e)))['catch'](_0x230465=>_0x1e8587['reply'](jsonformat(_0x230465)));}}}}}}break;case'family100':{if(_0x4f903d(0x71b)+_0x1e8587[_0x4f903d(0x155)]in _family100){_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x7df));throw![];}let _0x28bfb1=await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/family100.json'),_0x5081ee=_0x28bfb1[Math[_0x4f903d(0x461)](Math[_0x4f903d(0x846)]()*_0x28bfb1[_0x4f903d(0x36f)])],_0x19c235=(_0x4f903d(0x833)+_0x5081ee['soal']+_0x4f903d(0x474)+_0x5081ee['jawaban'][_0x4f903d(0x36f)]+_0x4f903d(0x518)+(_0x5081ee['jawaban'][_0x4f903d(0x2b6)](_0x1dd0b5=>_0x1dd0b5[_0x4f903d(0x1fd)]('\x20'))?'(beberapa\x20Jawaban\x20Terdapat\x20Spasi)':''))[_0x4f903d(0x856)]();_family100['family100'+_0x1e8587[_0x4f903d(0x155)]]={'id':'family100'+_0x1e8587[_0x4f903d(0x155)],'pesan':await _0x3f28da['sendText'](_0x1e8587['chat'],_0x19c235,_0x1e8587),..._0x5081ee,'terjawab':Array[_0x4f903d(0x9c2)](_0x5081ee['jawaban'],()=>![]),'hadiah':0x6};}break;case _0x4f903d(0x6f8):if(!q)return _0x1e8587['reply'](_0x4f903d(0x2b1)+_0x179f46+_0x4f903d(0x71e)+_0x179f46+_0x4f903d(0x54b));const _0x3ad71=[_0x4f903d(0x9c7),_0x4f903d(0x7bf),'Bisa\x20Jadi',_0x4f903d(0x252)],_0x4c6cde=_0x3ad71[Math['floor'](Math['random']()*_0x3ad71['length'])];_0x3f28da['sendMessage'](_0x1e8587['chat'],{'text':'Pertanyaan\x20:\x20Apakah\x20'+q+_0x4f903d(0x26b)+_0x4c6cde},{'quoted':_0x37ae15});break;case _0x4f903d(0x785):if(!q)return _0x1e8587['reply'](_0x4f903d(0x2b1)+_0x179f46+_0x4f903d(0x71e)+_0x179f46+_0x4f903d(0x54b));const _0x4dffb2=[_0x4f903d(0x2eb),_0x4f903d(0x190),_0x4f903d(0x6ec),'TENTU\x20PASTI\x20KAMU\x20BISA!!!!'],_0xf97b2f=_0x4dffb2[Math[_0x4f903d(0x461)](Math[_0x4f903d(0x846)]()*_0x4dffb2[_0x4f903d(0x36f)])];_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],{'text':_0x4f903d(0x4c5)+q+_0x4f903d(0x26b)+_0xf97b2f},{'quoted':_0x37ae15});break;case'bagaimanakah':if(!q)return _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x2b1)+_0x179f46+_0x4f903d(0x71e)+_0x179f46+_0x4f903d(0x54b));const _0x5455ad=[_0x4f903d(0x3ce),_0x4f903d(0x510),_0x4f903d(0x3f6),_0x4f903d(0x816),_0x4f903d(0x410),_0x4f903d(0x952),_0x4f903d(0x1a4),_0x4f903d(0x354),'Gimana\x20yeee'],_0x3fd3af=_0x5455ad[Math['floor'](Math[_0x4f903d(0x846)]()*_0x5455ad[_0x4f903d(0x36f)])];_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],{'text':_0x4f903d(0x4c5)+q+_0x4f903d(0x26b)+_0x3fd3af},{'quoted':_0x37ae15});break;case _0x4f903d(0x67a):if(!q)return _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x2b1)+_0x179f46+'\x20text\x0a\x0aContoh\x20:\x20'+_0x179f46+_0x4f903d(0x584));const _0x5b1695=['5','10','15','20','25','30','35','40','45','50','55','60','65','70','75','80','85','90','95','100'],_0x55ac48=_0x5b1695[Math[_0x4f903d(0x461)](Math[_0x4f903d(0x846)]()*_0x5b1695[_0x4f903d(0x36f)])];_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],{'text':'Rate\x20:\x20'+q+'\x0aJawaban\x20:\x20*'+_0x55ac48+'%*'},{'quoted':_0x37ae15});break;case _0x4f903d(0x36a):case'cekganteng':if(!q)return _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x2b1)+_0x179f46+_0x4f903d(0x523)+_0x179f46+_0x4f903d(0x87e));const _0x1ed52d=['5','10','15','20','25','30','35','40','45','50','55','60','65','70','75','80','85','90','95','100'],_0x45d871=_0x1ed52d[Math['floor'](Math['random']()*_0x1ed52d['length'])];_0x3f28da['sendMessage'](_0x1e8587[_0x4f903d(0x155)],{'text':_0x4f903d(0x4a9)+q+_0x4f903d(0x5bb)+_0x45d871+'%*'},{'quoted':_0x37ae15});break;case _0x4f903d(0x3f0):case _0x4f903d(0x4d7):if(!q)return _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x2b1)+_0x179f46+'\x20Nama\x0a\x0aContoh\x20:\x20'+_0x179f46+_0x4f903d(0x8f8));const _0x3d596c=['5','10','15','20','25','30','35','40','45','50','55','60','65','70','75','80','85','90','95',_0x4f903d(0x2cf)],_0x55bc0e=_0x3d596c[Math[_0x4f903d(0x461)](Math[_0x4f903d(0x846)]()*_0x3d596c[_0x4f903d(0x36f)])];_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],{'text':_0x4f903d(0x4a9)+q+_0x4f903d(0x5bb)+_0x55bc0e+'%*'},{'quoted':_0x37ae15});break;case _0x4f903d(0x96b):case _0x4f903d(0x90c):case _0x4f903d(0x7db):case _0x4f903d(0x296):case _0x4f903d(0x1ca):case _0x4f903d(0x86a):if(!q)return _0x1e8587['reply'](_0x4f903d(0x2b1)+_0x179f46+_0x4f903d(0x523)+_0x179f46+'\x20'+_0x4f33ca);const _0x1c6804=['5','10','15','20','25','30','35','40','45','50','55','60','65','70','75','80','85','90','95','100'],_0xdce8e2=_0x1c6804[Math[_0x4f903d(0x461)](Math['random']()*_0x1c6804[_0x4f903d(0x36f)])];_0x3f28da[_0x4f903d(0x682)](_0x1e8587['chat'],{'text':'Nama\x20:\x20'+q+'\x0aJawaban\x20:\x20*'+_0xdce8e2+'%*'},{'quoted':_0x37ae15});break;case'kapankah':if(!q)return _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x2b1)+_0x179f46+_0x4f903d(0x406)+_0x179f46+_0x4f903d(0x5e4));const _0x6479a=[_0x4f903d(0x2c4),_0x4f903d(0x14f),'15\x20Hari\x20Lagi',_0x4f903d(0x1ee),_0x4f903d(0x3a4),'30\x20Hari\x20Lagi',_0x4f903d(0x97d),_0x4f903d(0x3bf),'45\x20Hari\x20Lagi',_0x4f903d(0x517),'55\x20Hari\x20Lagi',_0x4f903d(0x2dc),_0x4f903d(0x209),'70\x20Hari\x20Lagi',_0x4f903d(0x966),_0x4f903d(0x2b2),'85\x20Hari\x20Lagi',_0x4f903d(0x457),_0x4f903d(0x2b4),'100\x20Hari\x20Lagi',_0x4f903d(0x9c1),_0x4f903d(0x272),_0x4f903d(0x422),_0x4f903d(0x4ed),_0x4f903d(0x3be),'30\x20Bulan\x20Lagi',_0x4f903d(0x2f1),'40\x20Bulan\x20Lagi',_0x4f903d(0x3c0),_0x4f903d(0x908),_0x4f903d(0x17d),_0x4f903d(0x57c),_0x4f903d(0x627),'70\x20Bulan\x20Lagi',_0x4f903d(0x766),_0x4f903d(0x8c2),_0x4f903d(0x218),'90\x20Bulan\x20Lagi',_0x4f903d(0x2d3),_0x4f903d(0x18f),_0x4f903d(0x4da),_0x4f903d(0x141),_0x4f903d(0x51e),_0x4f903d(0x59a),_0x4f903d(0x920),_0x4f903d(0x798),'Lusa',_0x4f903d(0x8c3)+q],_0x3f984b=_0x6479a[Math[_0x4f903d(0x461)](Math[_0x4f903d(0x846)]()*_0x6479a[_0x4f903d(0x36f)])];_0x3f28da['sendMessage'](_0x1e8587['chat'],{'text':_0x4f903d(0x4c5)+q+'\x0aJawaban\x20:\x20*'+_0x3f984b+'*'},{'quoted':_0x37ae15});break;case'wangy':if(!q)return _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x388));qq=q[_0x4f903d(0x74c)](),awikwok=qq+'\x20'+qq+'\x20'+qq+_0x4f903d(0x69c)+qq+_0x4f903d(0x978)+qq+'\x20AAAAAAAAH\x20~\x20Rambutnya....\x20aaah\x20rambutnya\x20juga\x20pengen\x20aku\x20elus-elus\x20~~\x20AAAAAH\x20'+qq+_0x4f903d(0x362)+qq+_0x4f903d(0x5e0)+qq+_0x4f903d(0x56a)+qq+'\x20itu\x20gak\x20nyata\x20?\x20Cuma\x20HALU\x20katamu\x20?\x20nggak,\x20ngak\x20ngak\x20ngak\x20ngak\x20NGAAAAAAAAK\x20GUA\x20GAK\x20PERCAYA\x20ITU\x20DIA\x20NYATA\x20NGAAAAAAAAAAAAAAAAAK\x20PEDULI\x20BANGSAAAAAT\x20!!\x20GUA\x20GAK\x20PEDULI\x20SAMA\x20KENYATAAN\x20POKOKNYA\x20GAK\x20PEDULI.\x20❤️\x20❤️\x20❤️\x20'+qq+'\x20gw\x20...\x20'+qq+_0x4f903d(0x1c7)+qq+_0x4f903d(0x304)+q+'\x20aku\x20gak\x20mau\x20merelakan\x20'+qq+_0x4f903d(0x68a)+qq+_0x4f903d(0x2a4),_0x1e8587[_0x4f903d(0x70d)](awikwok);break;case _0x4f903d(0x5bd):if(!q)return _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x787));predea=await axios[_0x4f903d(0x924)](_0x4f903d(0x624)+q),_0x1e8587[_0x4f903d(0x70d)]('Nama\x20:\x20'+predea['data'][_0x4f903d(0x28e)]+'\x0a*Mati\x20Pada\x20Umur\x20:*\x20'+predea[_0x4f903d(0x759)][_0x4f903d(0x40a)]+_0x4f903d(0x9f1));break;case _0x4f903d(0x894):case _0x4f903d(0x324):case _0x4f903d(0x337):case'heleh':case _0x4f903d(0x7fb):if(!_0x1e8587[_0x4f903d(0x779)]&&!_0x496965)throw _0x4f903d(0x22f)+(_0x4ade91+_0x179f46);ter=_0x179f46[0x1][_0x4f903d(0x3d8)](),tex=_0x1e8587[_0x4f903d(0x779)]?_0x1e8587[_0x4f903d(0x779)][_0x4f903d(0x25a)]?_0x1e8587[_0x4f903d(0x779)][_0x4f903d(0x25a)]:q?q:_0x1e8587['text']:q?q:_0x1e8587[_0x4f903d(0x25a)],_0x1e8587[_0x4f903d(0x70d)](tex['replace'](/[aiueo]/g,ter)[_0x4f903d(0x530)](/[AIUEO]/g,ter[_0x4f903d(0x74c)]()));break;case _0x4f903d(0x2e9):{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+'\x20lagu\x0a\x0aOption\x20:\x20\x0a⬣\x20lagu\x0a⬣\x20gambar\x0a⬣\x20kata\x0a⬣\x20kalimat\x0a⬣\x20lirik\x0a⬣\x20lontong\x20\x0a⬣\x20bendera\x0a⬣\x20kabupaten\x0a⬣\x20kimia';if(_0x1a5e8a[0x0]===_0x4f903d(0x494)){if(tebaklagu['hasOwnProperty'](_0x1e8587[_0x4f903d(0x548)]['split']('@')[0x0]))throw _0x4f903d(0x7df);let _0x12cb04=await fetchJson(_0x4f903d(0x364)),_0x15116a=_0x12cb04[Math[_0x4f903d(0x461)](Math[_0x4f903d(0x846)]()*_0x12cb04[_0x4f903d(0x36f)])],_0x480b94=await _0x3f28da['sendMessage'](_0x1e8587['chat'],{'audio':{'url':_0x15116a[_0x4f903d(0x5c5)]},'mimetype':_0x4f903d(0x633)},{'quoted':_0x37ae15});_0x3f28da[_0x4f903d(0x971)](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x29f)+_0x15116a[_0x4f903d(0x835)]+'\x0aWaktu\x20:\x2060s',_0x480b94)[_0x4f903d(0x245)](()=>{const _0x33d1e7=_0x4f903d;tebaklagu[_0x1e8587[_0x33d1e7(0x548)][_0x33d1e7(0x87c)]('@')[0x0]]=_0x15116a['jawaban'][_0x33d1e7(0x3d8)]();}),await sleep(0xea60),tebaklagu[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0])&&(console[_0x4f903d(0x7ba)](_0x4f903d(0x184)+_0x15116a['jawaban']),_0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],[{'buttonId':_0x4f903d(0x772),'buttonText':{'displayText':_0x4f903d(0x888)},'type':0x1}],_0x4f903d(0x881)+tebaklagu[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]]+_0x4f903d(0x22d),_0x3f28da[_0x4f903d(0x82e)]['name'],_0x1e8587),delete tebaklagu[_0x1e8587['sender']['split']('@')[0x0]]);}else{if(_0x1a5e8a[0x0]===_0x4f903d(0x88e)){if(tebakgambar[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]))throw'Masih\x20Ada\x20Sesi\x20Yang\x20Belum\x20Diselesaikan!';let _0x4f898e=await fetchJson(_0x4f903d(0x55e)),_0x479776=_0x4f898e[Math[_0x4f903d(0x461)](Math[_0x4f903d(0x846)]()*_0x4f898e['length'])];_0x3f28da[_0x4f903d(0x185)](_0x1e8587['chat'],_0x479776[_0x4f903d(0x335)],_0x4f903d(0x280)+_0x479776[_0x4f903d(0x26e)]+_0x4f903d(0x6f1),_0x1e8587)[_0x4f903d(0x245)](()=>{const _0x4af2e8=_0x4f903d;tebakgambar[_0x1e8587['sender'][_0x4af2e8(0x87c)]('@')[0x0]]=_0x479776[_0x4af2e8(0x7cc)]['toLowerCase']();}),await sleep(0xea60),tebakgambar[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)]['split']('@')[0x0])&&(console[_0x4f903d(0x7ba)](_0x4f903d(0x184)+_0x479776[_0x4f903d(0x7cc)]),_0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],[{'buttonId':_0x4f903d(0x222),'buttonText':{'displayText':_0x4f903d(0x721)},'type':0x1}],_0x4f903d(0x881)+tebakgambar[_0x1e8587[_0x4f903d(0x548)]['split']('@')[0x0]]+_0x4f903d(0x22d),_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x1e8587),delete tebakgambar[_0x1e8587[_0x4f903d(0x548)]['split']('@')[0x0]]);}else{if(_0x1a5e8a[0x0]==='kata'){if(tebakkata['hasOwnProperty'](_0x1e8587['sender'][_0x4f903d(0x87c)]('@')[0x0]))throw _0x4f903d(0x7df);let _0xc39ee1=await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakkata.json'),_0x2e79ba=_0xc39ee1[Math['floor'](Math['random']()*_0xc39ee1['length'])];_0x3f28da[_0x4f903d(0x971)](_0x1e8587[_0x4f903d(0x155)],'Silahkan\x20Jawab\x20Pertanyaan\x20Berikut\x0a\x0a'+_0x2e79ba[_0x4f903d(0x73c)]+_0x4f903d(0x6f1),_0x1e8587)['then'](()=>{const _0x3b74e2=_0x4f903d;tebakkata[_0x1e8587[_0x3b74e2(0x548)][_0x3b74e2(0x87c)]('@')[0x0]]=_0x2e79ba[_0x3b74e2(0x7cc)][_0x3b74e2(0x3d8)]();}),await sleep(0xea60),tebakkata[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0])&&(console[_0x4f903d(0x7ba)](_0x4f903d(0x184)+_0x2e79ba[_0x4f903d(0x7cc)]),_0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],[{'buttonId':'tebak\x20kata','buttonText':{'displayText':_0x4f903d(0x9d1)},'type':0x1}],_0x4f903d(0x881)+tebakkata[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]]+_0x4f903d(0x22d),_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x1e8587),delete tebakkata[_0x1e8587['sender'][_0x4f903d(0x87c)]('@')[0x0]]);}else{if(_0x1a5e8a[0x0]===_0x4f903d(0x78c)){if(tebakkalimat['hasOwnProperty'](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]))throw'Masih\x20Ada\x20Sesi\x20Yang\x20Belum\x20Diselesaikan!';let _0x2f1614=await fetchJson(_0x4f903d(0x8ee)),_0x30db9c=_0x2f1614[Math[_0x4f903d(0x461)](Math[_0x4f903d(0x846)]()*_0x2f1614[_0x4f903d(0x36f)])];_0x3f28da[_0x4f903d(0x971)](_0x1e8587['chat'],_0x4f903d(0x2b3)+_0x30db9c[_0x4f903d(0x73c)]+_0x4f903d(0x6f1),_0x1e8587)[_0x4f903d(0x245)](()=>{const _0x11dbcf=_0x4f903d;tebakkalimat[_0x1e8587[_0x11dbcf(0x548)][_0x11dbcf(0x87c)]('@')[0x0]]=_0x30db9c['jawaban']['toLowerCase']();}),await sleep(0xea60),tebakkalimat[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0])&&(console[_0x4f903d(0x7ba)](_0x4f903d(0x184)+_0x30db9c[_0x4f903d(0x7cc)]),_0x3f28da['sendButtonText'](_0x1e8587[_0x4f903d(0x155)],[{'buttonId':_0x4f903d(0x5d7),'buttonText':{'displayText':_0x4f903d(0x6fa)},'type':0x1}],_0x4f903d(0x881)+tebakkalimat[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]]+_0x4f903d(0x22d),_0x3f28da[_0x4f903d(0x82e)]['name'],_0x1e8587),delete tebakkalimat[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]]);}else{if(_0x1a5e8a[0x0]==='lirik'){if(tebaklirik[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]))throw _0x4f903d(0x7df);let _0x2aaf97=await fetchJson(_0x4f903d(0x9b4)),_0x468394=_0x2aaf97[Math[_0x4f903d(0x461)](Math[_0x4f903d(0x846)]()*_0x2aaf97['length'])];_0x3f28da[_0x4f903d(0x971)](_0x1e8587[_0x4f903d(0x155)],'Ini\x20Adalah\x20Lirik\x20Dari\x20Lagu?\x20:\x20*'+_0x468394[_0x4f903d(0x73c)]+_0x4f903d(0x3d7),_0x1e8587)[_0x4f903d(0x245)](()=>{const _0x5bc63f=_0x4f903d;tebaklirik[_0x1e8587[_0x5bc63f(0x548)][_0x5bc63f(0x87c)]('@')[0x0]]=_0x468394[_0x5bc63f(0x7cc)]['toLowerCase']();}),await sleep(0xea60),tebaklirik[_0x4f903d(0x9bd)](_0x1e8587['sender']['split']('@')[0x0])&&(console[_0x4f903d(0x7ba)]('Jawaban:\x20'+_0x468394[_0x4f903d(0x7cc)]),_0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],[{'buttonId':'tebak\x20lirik','buttonText':{'displayText':_0x4f903d(0x6ce)},'type':0x1}],_0x4f903d(0x881)+tebaklirik[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]]+_0x4f903d(0x22d),_0x3f28da[_0x4f903d(0x82e)]['name'],_0x1e8587),delete tebaklirik[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]]);}else{if(_0x1a5e8a[0x0]==='lontong'){if(caklontong[_0x4f903d(0x9bd)](_0x1e8587['sender'][_0x4f903d(0x87c)]('@')[0x0]))throw _0x4f903d(0x7df);let _0x560485=await fetchJson(_0x4f903d(0x217)),_0x2c336b=_0x560485[Math[_0x4f903d(0x461)](Math[_0x4f903d(0x846)]()*_0x560485[_0x4f903d(0x36f)])];_0x3f28da[_0x4f903d(0x971)](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x833)+_0x2c336b[_0x4f903d(0x73c)]+_0x4f903d(0x8e1),_0x1e8587)[_0x4f903d(0x245)](()=>{const _0x2639d8=_0x4f903d;caklontong[_0x1e8587[_0x2639d8(0x548)][_0x2639d8(0x87c)]('@')[0x0]]=_0x2c336b[_0x2639d8(0x7cc)][_0x2639d8(0x3d8)](),caklontong_desk[_0x1e8587[_0x2639d8(0x548)][_0x2639d8(0x87c)]('@')[0x0]]=_0x2c336b[_0x2639d8(0x26e)];}),await sleep(0xea60),caklontong[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)]['split']('@')[0x0])&&(console['log']('Jawaban:\x20'+_0x2c336b[_0x4f903d(0x7cc)]),_0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],[{'buttonId':_0x4f903d(0x173),'buttonText':{'displayText':_0x4f903d(0x386)},'type':0x1}],_0x4f903d(0x881)+caklontong[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]]+'\x0aDeskripsi\x20:\x20'+caklontong_desk[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]]+_0x4f903d(0x22d),_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x1e8587),delete caklontong[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]],delete caklontong_desk[_0x1e8587[_0x4f903d(0x548)]['split']('@')[0x0]]);}else{if(_0x1a5e8a[0x0]==='bendera'){if(tebakbendera[_0x4f903d(0x9bd)](_0x1e8587['sender'][_0x4f903d(0x87c)]('@')[0x0]))throw'Masih\x20Ada\x20Sesi\x20Yang\x20Belum\x20Diselesaikan!';let _0x267eea=await fetchJson(_0x4f903d(0x46a)),_0x2b2448=_0x267eea[Math[_0x4f903d(0x461)](Math[_0x4f903d(0x846)]()*_0x267eea[_0x4f903d(0x36f)])];_0x3f28da[_0x4f903d(0x185)](_0x1e8587[_0x4f903d(0x155)],_0x2b2448[_0x4f903d(0x335)],_0x4f903d(0x78a)+_0x2b2448['flag']+_0x4f903d(0x6f1),_0x1e8587)['then'](()=>{const _0x2fa326=_0x4f903d;tebakbendera[_0x1e8587[_0x2fa326(0x548)][_0x2fa326(0x87c)]('@')[0x0]]=_0x2b2448[_0x2fa326(0x28e)]['toLowerCase']();}),await sleep(0xea60),tebakbendera[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0])&&(console[_0x4f903d(0x7ba)](_0x4f903d(0x184)+_0x2b2448[_0x4f903d(0x28e)]),_0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],[{'buttonId':_0x4f903d(0x231),'buttonText':{'displayText':'⌲\x20Tebak\x20Bendera'},'type':0x1}],'Waktu\x20Habis\x0aJawaban:\x20\x20'+tebakbendera[_0x1e8587['sender']['split']('@')[0x0]]+_0x4f903d(0x22d),_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x1e8587),delete tebakbendera[_0x1e8587[_0x4f903d(0x548)]['split']('@')[0x0]]);}else{if(_0x1a5e8a[0x0]===_0x4f903d(0x394)){if(tebakkapubaten[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]))throw _0x4f903d(0x7df);let _0x5dbff9=await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakkabupaten.json'),_0x2d375c=_0x5dbff9[Math[_0x4f903d(0x461)](Math['random']()*_0x5dbff9[_0x4f903d(0x36f)])];_0x3f28da['sendImage'](_0x1e8587[_0x4f903d(0x155)],_0x2d375c[_0x4f903d(0x2cc)],_0x4f903d(0x68c),_0x1e8587)[_0x4f903d(0x245)](()=>{const _0x5b9fb2=_0x4f903d;tebakkabupaten[_0x1e8587[_0x5b9fb2(0x548)][_0x5b9fb2(0x87c)]('@')[0x0]]=_0x2d375c[_0x5b9fb2(0x549)][_0x5b9fb2(0x3d8)]();}),await sleep(0xea60),tebakkabupaten[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0])&&(console[_0x4f903d(0x7ba)](_0x4f903d(0x184)+_0x2d375c[_0x4f903d(0x549)]),_0x3f28da['sendButtonText'](_0x1e8587[_0x4f903d(0x155)],[{'buttonId':'tebak\x20kabupaten','buttonText':{'displayText':_0x4f903d(0x62e)},'type':0x1}],_0x4f903d(0x881)+tebakkabupaten[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]]+_0x4f903d(0x22d),_0x3f28da[_0x4f903d(0x82e)]['name'],_0x1e8587),delete tebakkabupaten[_0x1e8587[_0x4f903d(0x548)]['split']('@')[0x0]]);}else{if(_0x1a5e8a[0x0]==='kimia'){if(tebakkimia[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]))throw _0x4f903d(0x7df);let _0x42da35=await fetchJson(_0x4f903d(0x7ae)),_0x4d4c36=_0x42da35[Math['floor'](Math[_0x4f903d(0x846)]()*_0x42da35['length'])];_0x3f28da[_0x4f903d(0x971)](_0x1e8587['chat'],_0x4f903d(0x4fc)+_0x4d4c36[_0x4f903d(0x314)]+_0x4f903d(0x6f1),_0x1e8587)['then'](()=>{const _0x1a6888=_0x4f903d;tebakkimia[_0x1e8587['sender'][_0x1a6888(0x87c)]('@')[0x0]]=_0x4d4c36['lambang'][_0x1a6888(0x3d8)]();}),await sleep(0xea60),tebakkimia[_0x4f903d(0x9bd)](_0x1e8587['sender'][_0x4f903d(0x87c)]('@')[0x0])&&(console['log']('Jawaban:\x20'+_0x4d4c36[_0x4f903d(0x703)]),_0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],[{'buttonId':_0x4f903d(0x38f),'buttonText':{'displayText':'⌲\x20Tebak\x20Kimia'},'type':0x1}],_0x4f903d(0x881)+tebakkimia[_0x1e8587['sender'][_0x4f903d(0x87c)]('@')[0x0]]+_0x4f903d(0x22d),_0x3f28da['user'][_0x4f903d(0x28e)],_0x1e8587),delete tebakkimia[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]]);}}}}}}}}}}break;case _0x4f903d(0x44f):{if(asahotak[_0x4f903d(0x9bd)](_0x1e8587['sender'][_0x4f903d(0x87c)]('@')[0x0]))throw _0x4f903d(0x7df);let _0x47eac3=await fetchJson(_0x4f903d(0x719)),_0x3dd9df=_0x47eac3[Math[_0x4f903d(0x461)](Math[_0x4f903d(0x846)]()*_0x47eac3['length'])];_0x3f28da[_0x4f903d(0x971)](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x4a2)+_0x3dd9df[_0x4f903d(0x73c)]+_0x4f903d(0x6f1),_0x1e8587)[_0x4f903d(0x245)](()=>{const _0x88eea6=_0x4f903d;asahotak[_0x1e8587['sender'][_0x88eea6(0x87c)]('@')[0x0]]=_0x3dd9df[_0x88eea6(0x7cc)][_0x88eea6(0x3d8)]();}),await sleep(0xea60),asahotak[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0])&&(console[_0x4f903d(0x7ba)]('Jawaban:\x20'+_0x3dd9df['jawaban']),_0x3f28da[_0x4f903d(0x6af)](_0x1e8587['chat'],[{'buttonId':_0x4f903d(0x44f),'buttonText':{'displayText':_0x4f903d(0x9ea)},'type':0x1}],_0x4f903d(0x881)+asahotak[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]]+_0x4f903d(0x22d),_0x3f28da['user'][_0x4f903d(0x28e)],_0x1e8587),delete asahotak[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]]);}break;case _0x4f903d(0x8ab):{if(siapakahaku[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]))throw _0x4f903d(0x7df);let _0x56ebe5=await fetchJson(_0x4f903d(0x6d4)),_0xf72abd=_0x56ebe5[Math[_0x4f903d(0x461)](Math['random']()*_0x56ebe5['length'])];_0x3f28da[_0x4f903d(0x971)](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x4a2)+_0xf72abd[_0x4f903d(0x73c)]+_0x4f903d(0x6f1),_0x1e8587)[_0x4f903d(0x245)](()=>{const _0xf87bd2=_0x4f903d;siapakahaku[_0x1e8587['sender'][_0xf87bd2(0x87c)]('@')[0x0]]=_0xf72abd[_0xf87bd2(0x7cc)][_0xf87bd2(0x3d8)]();}),await sleep(0xea60),siapakahaku['hasOwnProperty'](_0x1e8587[_0x4f903d(0x548)]['split']('@')[0x0])&&(console[_0x4f903d(0x7ba)](_0x4f903d(0x184)+_0xf72abd['jawaban']),_0x3f28da[_0x4f903d(0x6af)](_0x1e8587['chat'],[{'buttonId':'siapakahaku','buttonText':{'displayText':_0x4f903d(0x251)},'type':0x1}],_0x4f903d(0x881)+siapakahaku[_0x1e8587[_0x4f903d(0x548)]['split']('@')[0x0]]+'\x0a\x0aIngin\x20bermain?\x20tekan\x20button\x20dibawah',_0x3f28da['user'][_0x4f903d(0x28e)],_0x1e8587),delete siapakahaku[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]]);}break;case _0x4f903d(0x789):{if(susunkata[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]))throw'Masih\x20Ada\x20Sesi\x20Yang\x20Belum\x20Diselesaikan!';let _0x20e16f=await fetchJson(_0x4f903d(0x399)),_0x99186e=_0x20e16f[Math[_0x4f903d(0x461)](Math[_0x4f903d(0x846)]()*_0x20e16f[_0x4f903d(0x36f)])];_0x3f28da[_0x4f903d(0x971)](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x4a2)+_0x99186e[_0x4f903d(0x73c)]+_0x4f903d(0x838)+_0x99186e[_0x4f903d(0x274)]+_0x4f903d(0x6f1),_0x1e8587)['then'](()=>{const _0x37b96e=_0x4f903d;susunkata[_0x1e8587[_0x37b96e(0x548)][_0x37b96e(0x87c)]('@')[0x0]]=_0x99186e[_0x37b96e(0x7cc)][_0x37b96e(0x3d8)]();}),await sleep(0xea60),susunkata[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0])&&(console[_0x4f903d(0x7ba)]('Jawaban:\x20'+_0x99186e[_0x4f903d(0x7cc)]),_0x3f28da['sendButtonText'](_0x1e8587['chat'],[{'buttonId':_0x4f903d(0x789),'buttonText':{'displayText':_0x4f903d(0x286)},'type':0x1}],_0x4f903d(0x881)+susunkata[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]]+_0x4f903d(0x22d),_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x1e8587),delete susunkata[_0x1e8587[_0x4f903d(0x548)]['split']('@')[0x0]]);}break;case _0x4f903d(0x260):{if(tekateki['hasOwnProperty'](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]))throw'Masih\x20Ada\x20Sesi\x20Yang\x20Belum\x20Diselesaikan!';let _0x1c2334=await fetchJson(_0x4f903d(0x857)),_0xacf167=_0x1c2334[Math[_0x4f903d(0x461)](Math[_0x4f903d(0x846)]()*_0x1c2334[_0x4f903d(0x36f)])];_0x3f28da[_0x4f903d(0x971)](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x4a2)+_0xacf167[_0x4f903d(0x73c)]+_0x4f903d(0x6f1),_0x1e8587)[_0x4f903d(0x245)](()=>{const _0x5eabdc=_0x4f903d;tekateki[_0x1e8587['sender'][_0x5eabdc(0x87c)]('@')[0x0]]=_0xacf167[_0x5eabdc(0x7cc)]['toLowerCase']();}),await sleep(0xea60),tekateki[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0])&&(console['log'](_0x4f903d(0x184)+_0xacf167[_0x4f903d(0x7cc)]),_0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],[{'buttonId':_0x4f903d(0x260),'buttonText':{'displayText':_0x4f903d(0x2be)},'type':0x1}],_0x4f903d(0x881)+tekateki[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]]+_0x4f903d(0x22d),_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x1e8587),delete tekateki[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]]);}break;case _0x4f903d(0x858):case _0x4f903d(0x93e):{if(kuismath[_0x4f903d(0x9bd)](_0x1e8587['sender'][_0x4f903d(0x87c)]('@')[0x0]))throw _0x4f903d(0x7df);let {genMath:_0x280394,modes:_0x8199c2}=require(_0x4f903d(0x294));if(!_0x496965)throw _0x4f903d(0x99d)+Object[_0x4f903d(0x429)](_0x8199c2)['join'](_0x4f903d(0x8b2))+_0x4f903d(0x411)+_0x4ade91+_0x4f903d(0x5d0);let _0x365ebb=await _0x280394(_0x496965[_0x4f903d(0x3d8)]());_0x3f28da[_0x4f903d(0x971)](_0x1e8587['chat'],_0x4f903d(0x7b0)+_0x365ebb['soal'][_0x4f903d(0x3d8)]()+_0x4f903d(0x7ac)+(_0x365ebb[_0x4f903d(0x3c2)]/0x3e8)['toFixed'](0x2)+'\x20detik',_0x1e8587)[_0x4f903d(0x245)](()=>{const _0x538484=_0x4f903d;kuismath[_0x1e8587[_0x538484(0x548)][_0x538484(0x87c)]('@')[0x0]]=_0x365ebb['jawaban'];}),await sleep(_0x365ebb[_0x4f903d(0x3c2)]),kuismath[_0x4f903d(0x9bd)](_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0])&&(console[_0x4f903d(0x7ba)](_0x4f903d(0x184)+_0x365ebb['jawaban']),_0x1e8587[_0x4f903d(0x70d)]('Waktu\x20Habis\x0aJawaban:\x20'+kuismath[_0x1e8587[_0x4f903d(0x548)]['split']('@')[0x0]]),delete kuismath[_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]]);}break;case _0x4f903d(0x31e):{if(!_0x2234d8&&global['db'][_0x4f903d(0x291)][_0x1e8587['sender']][_0x4f903d(0x41c)]<0x1)return _0x1e8587['reply'](mess[_0x4f903d(0x8dd)]);db[_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]-=0x1;if(!_0x1e8587[_0x4f903d(0x814)])throw mess['group'];let _0x1dc879=_0x17bb56[_0x4f903d(0x6f6)](_0x58397f=>_0x58397f['id']),_0x4f932e=_0x1e8587['sender'],_0x4fe281=_0x1dc879[Math[_0x4f903d(0x461)](Math[_0x4f903d(0x846)]()*_0x1dc879[_0x4f903d(0x36f)])],_0x35da26='👫Jodoh\x20mu\x20adalah\x0a\x0a@'+_0x4f932e[_0x4f903d(0x87c)]('@')[0x0]+_0x4f903d(0x2c1)+_0x4fe281[_0x4f903d(0x87c)]('@')[0x0],_0x5aa545=[_0x4f932e,_0x4fe281],_0x37ce52=[{'buttonId':'jodohku','buttonText':{'displayText':'⌲\x20Jodohku'},'type':0x1}];await _0x3f28da[_0x4f903d(0x6af)](_0x1e8587['chat'],_0x37ce52,_0x35da26,_0x3f28da[_0x4f903d(0x82e)]['name'],_0x1e8587,{'mentions':_0x5aa545});}break;case _0x4f903d(0x283):{if(!_0x2234d8&&global['db']['users'][_0x1e8587[_0x4f903d(0x548)]]['limit']<0x1)return _0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8dd)]);db[_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]]['limit']-=0x1;if(!_0x1e8587['isGroup'])throw mess['group'];let _0x565e33=_0x17bb56[_0x4f903d(0x6f6)](_0x1d2f6f=>_0x1d2f6f['id']),_0x7a1748=_0x565e33[Math[_0x4f903d(0x461)](Math[_0x4f903d(0x846)]()*_0x565e33[_0x4f903d(0x36f)])],_0x310020=_0x565e33[Math['floor'](Math['random']()*_0x565e33[_0x4f903d(0x36f)])],_0x5ad72a=_0x4f903d(0x51b)+_0x7a1748[_0x4f903d(0x87c)]('@')[0x0]+'\x20❤️\x20@'+_0x310020[_0x4f903d(0x87c)]('@')[0x0],_0x597ee8=[_0x7a1748,_0x310020],_0x539e32=[{'buttonId':_0x4f903d(0x283),'buttonText':{'displayText':_0x4f903d(0x9d2)},'type':0x1}];await _0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],_0x539e32,_0x5ad72a,_0x3f28da['user']['name'],_0x1e8587,{'mentions':_0x597ee8});}break;case _0x4f903d(0x3f5):{if(!_0x40c20b)throw mess[_0x4f903d(0x1ff)];reactionMessage={'react':{'text':_0x1a5e8a[0x0],'key':{'remoteJid':_0x1e8587[_0x4f903d(0x155)],'fromMe':!![],'id':_0x20ebdd['id']}}},_0x3f28da['sendMessage'](_0x1e8587[_0x4f903d(0x155)],reactionMessage);}break;case _0x4f903d(0x650):{if(!_0x40c20b)throw mess[_0x4f903d(0x1ff)];if(!_0x496965)throw _0x4f903d(0x2ff);if(!isUrl(_0x1a5e8a[0x0])&&!_0x1a5e8a[0x0][_0x4f903d(0x1fd)](_0x4f903d(0x983)))throw'Link\x20Invalid!';_0x1e8587[_0x4f903d(0x70d)](mess['wait']);let _0x159f90=_0x1a5e8a[0x0][_0x4f903d(0x87c)](_0x4f903d(0x664))[0x1];await _0x3f28da[_0x4f903d(0x607)](_0x159f90)[_0x4f903d(0x245)](_0x1ed0ed=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x1ed0ed)))[_0x4f903d(0x5bf)](_0x540a62=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x540a62)));}break;case _0x4f903d(0x656):{if(!_0x40c20b)throw mess['owner'];await _0x3f28da[_0x4f903d(0x32b)](_0x1e8587['chat'])['then'](_0x3ee293=>_0x1e8587['reply'](jsonformat(_0x3ee293)))[_0x4f903d(0x5bf)](_0x48b8df=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x48b8df)));}break;case'setexif':{if(!_0x40c20b)throw mess[_0x4f903d(0x1ff)];if(!_0x496965)throw'Contoh\x20:\x20'+(_0x4ade91+_0x179f46)+_0x4f903d(0x687);global[_0x4f903d(0x8c6)]=_0x496965[_0x4f903d(0x87c)]('|')[0x0],global[_0x4f903d(0x1f5)]=_0x496965['split']('|')[0x1],_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x813)+global[_0x4f903d(0x8c6)]+_0x4f903d(0x21b)+global['author']);}break;case _0x4f903d(0x609):{if(!_0x1e8587[_0x4f903d(0x814)])throw mess[_0x4f903d(0x680)];if(!_0x346492)throw mess[_0x4f903d(0x603)];if(!_0x24d90e)throw mess[_0x4f903d(0x4ef)];let _0x2c3394=_0x1e8587[_0x4f903d(0x2e8)][0x0]?_0x1e8587[_0x4f903d(0x2e8)][0x0]:_0x1e8587[_0x4f903d(0x779)]?_0x1e8587['quoted'][_0x4f903d(0x548)]:_0x496965[_0x4f903d(0x530)](/[^0-9]/g,'')+'@s.whatsapp.net';await _0x3f28da[_0x4f903d(0x600)](_0x1e8587[_0x4f903d(0x155)],[_0x2c3394],_0x4f903d(0x2d5))[_0x4f903d(0x245)](_0x4d0eba=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x4d0eba)))['catch'](_0xec0a19=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0xec0a19)));}break;case _0x4f903d(0x5a4):{if(!_0x1e8587[_0x4f903d(0x814)])throw mess[_0x4f903d(0x680)];if(!_0x346492)throw mess[_0x4f903d(0x603)];if(!_0x24d90e)throw mess[_0x4f903d(0x4ef)];let _0x392d0=_0x1e8587['quoted']?_0x1e8587['quoted'][_0x4f903d(0x548)]:_0x496965[_0x4f903d(0x530)](/[^0-9]/g,'')+_0x4f903d(0x96f);await _0x3f28da[_0x4f903d(0x600)](_0x1e8587[_0x4f903d(0x155)],[_0x392d0],'add')[_0x4f903d(0x245)](_0x307994=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x307994)))['catch'](_0x14ab8c=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x14ab8c)));}break;case _0x4f903d(0x72f):{if(_0x1a5e8a[_0x4f903d(0x36f)]<0x1)return _0x1e8587['reply'](_0x4f903d(0x3a5));let _0x42f53b=[];for(let _0x4de30b of _0x44ee0c){_0x42f53b[_0x4f903d(0x695)](_0x4de30b[_0x4f903d(0x28d)]);}_0x3f28da[_0x4f903d(0x600)](_0x1a5e8a[0x0],_0x42f53b);}break;case _0x4f903d(0x312):{if(!_0x1e8587[_0x4f903d(0x814)])throw mess['group'];if(!_0x346492)throw mess['botAdmin'];if(!_0x24d90e)throw mess[_0x4f903d(0x4ef)];let _0x5efe8f=_0x1e8587['mentionedJid'][0x0]?_0x1e8587['mentionedJid'][0x0]:_0x1e8587[_0x4f903d(0x779)]?_0x1e8587[_0x4f903d(0x779)]['sender']:_0x496965[_0x4f903d(0x530)](/[^0-9]/g,'')+_0x4f903d(0x96f);await _0x3f28da['groupParticipantsUpdate'](_0x1e8587[_0x4f903d(0x155)],[_0x5efe8f],_0x4f903d(0x312))[_0x4f903d(0x245)](_0x1ecff1=>_0x1e8587['reply'](jsonformat(_0x1ecff1)))[_0x4f903d(0x5bf)](_0x144045=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x144045)));}break;case _0x4f903d(0x63d):{if(!_0x1e8587[_0x4f903d(0x814)])throw mess['group'];if(!_0x346492)throw mess[_0x4f903d(0x603)];if(!_0x24d90e)throw mess[_0x4f903d(0x4ef)];let _0x3af305=_0x1e8587['mentionedJid'][0x0]?_0x1e8587[_0x4f903d(0x2e8)][0x0]:_0x1e8587[_0x4f903d(0x779)]?_0x1e8587['quoted'][_0x4f903d(0x548)]:_0x496965[_0x4f903d(0x530)](/[^0-9]/g,'')+'@s.whatsapp.net';await _0x3f28da[_0x4f903d(0x600)](_0x1e8587[_0x4f903d(0x155)],[_0x3af305],_0x4f903d(0x63d))[_0x4f903d(0x245)](_0x31fc3f=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x31fc3f)))['catch'](_0x2f048a=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x2f048a)));}break;case _0x4f903d(0x37b):{if(!_0x40c20b)throw mess['owner'];let _0x2d1d54=_0x1e8587['mentionedJid'][0x0]?_0x1e8587[_0x4f903d(0x2e8)][0x0]:_0x1e8587['quoted']?_0x1e8587[_0x4f903d(0x779)][_0x4f903d(0x548)]:_0x496965[_0x4f903d(0x530)](/[^0-9]/g,'')+'@s.whatsapp.net';await _0x3f28da[_0x4f903d(0x634)](_0x2d1d54,_0x4f903d(0x37b))[_0x4f903d(0x245)](_0x42d033=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x42d033)))[_0x4f903d(0x5bf)](_0xf60bb8=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0xf60bb8)));}break;case _0x4f903d(0x214):{if(!_0x40c20b)throw mess['owner'];let _0x52552b=_0x1e8587[_0x4f903d(0x2e8)][0x0]?_0x1e8587['mentionedJid'][0x0]:_0x1e8587[_0x4f903d(0x779)]?_0x1e8587[_0x4f903d(0x779)][_0x4f903d(0x548)]:_0x496965[_0x4f903d(0x530)](/[^0-9]/g,'')+'@s.whatsapp.net';await _0x3f28da[_0x4f903d(0x634)](_0x52552b,_0x4f903d(0x214))['then'](_0x481750=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x481750)))[_0x4f903d(0x5bf)](_0xf16860=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0xf16860)));}break;case _0x4f903d(0x4dd):case _0x4f903d(0x91e):{if(!_0x1e8587[_0x4f903d(0x814)])throw mess[_0x4f903d(0x680)];if(!_0x346492)throw mess[_0x4f903d(0x603)];if(!_0x24d90e)throw mess[_0x4f903d(0x4ef)];if(!_0x496965)throw _0x4f903d(0x42b);await _0x3f28da[_0x4f903d(0x3a8)](_0x1e8587[_0x4f903d(0x155)],_0x496965)['then'](_0x30773f=>_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x38c)]))[_0x4f903d(0x5bf)](_0x161f3b=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x161f3b)));}break;case _0x4f903d(0x24f):case _0x4f903d(0x5c2):{if(!_0x1e8587['isGroup'])throw mess[_0x4f903d(0x680)];if(!_0x346492)throw mess[_0x4f903d(0x603)];if(!_0x24d90e)throw mess['admin'];if(!_0x496965)throw _0x4f903d(0x42b);await _0x3f28da[_0x4f903d(0x416)](_0x1e8587[_0x4f903d(0x155)],_0x496965)[_0x4f903d(0x245)](_0xe5ed18=>_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x38c)]))[_0x4f903d(0x5bf)](_0x4b8917=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x4b8917)));}break;case'setpp':case _0x4f903d(0x250):{if(!_0x40c20b)throw mess['owner'];if(!_0x20ebdd)throw _0x4f903d(0x527)+(_0x4ade91+_0x179f46);if(!/image/[_0x4f903d(0x956)](_0x24de29))throw _0x4f903d(0x527)+(_0x4ade91+_0x179f46);if(/webp/[_0x4f903d(0x956)](_0x24de29))throw'Kirim/Reply\x20Image\x20Dengan\x20Caption\x20'+(_0x4ade91+_0x179f46);let _0x51b496=await _0x3f28da[_0x4f903d(0x712)](_0x20ebdd);await _0x3f28da[_0x4f903d(0x767)](_0xc0ef6f,{'url':_0x51b496})[_0x4f903d(0x5bf)](_0x4164f0=>fs[_0x4f903d(0x7cf)](_0x51b496)),_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x38c)]);}break;case'setppgroup':case'setppgrup':case'setppgc':{if(!_0x1e8587['isGroup'])throw mess[_0x4f903d(0x680)];if(!_0x24d90e)throw mess['admin'];if(!_0x20ebdd)throw'Kirim/Reply\x20Image\x20Dengan\x20Caption\x20'+(_0x4ade91+_0x179f46);if(!/image/[_0x4f903d(0x956)](_0x24de29))throw _0x4f903d(0x527)+(_0x4ade91+_0x179f46);if(/webp/['test'](_0x24de29))throw _0x4f903d(0x527)+(_0x4ade91+_0x179f46);let _0x1ec7ed=await _0x3f28da[_0x4f903d(0x712)](_0x20ebdd);await _0x3f28da[_0x4f903d(0x767)](_0x1e8587['chat'],{'url':_0x1ec7ed})[_0x4f903d(0x5bf)](_0x5eea30=>fs[_0x4f903d(0x7cf)](_0x1ec7ed)),_0x1e8587['reply'](mess[_0x4f903d(0x38c)]);}break;case _0x4f903d(0x80f):{if(!_0x1e8587['isGroup'])throw mess[_0x4f903d(0x680)];if(!_0x346492)throw mess['botAdmin'];if(!_0x24d90e)throw mess[_0x4f903d(0x4ef)];let _0x3d94aa=_0x4f903d(0x8b4)+(q?q:_0x4f903d(0x15b))+_0x4f903d(0x273);for(let _0x1a55c8 of _0x17bb56){_0x3d94aa+=_0x4f903d(0x370)+_0x1a55c8['id'][_0x4f903d(0x87c)]('@')[0x0]+'\x0a';}_0x3f28da[_0x4f903d(0x682)](_0x1e8587['chat'],{'text':_0x3d94aa,'mentions':_0x17bb56['map'](_0x10accb=>_0x10accb['id'])},{'quoted':_0x37ae15});}break;case _0x4f903d(0x96a):{if(!_0x1e8587[_0x4f903d(0x814)])throw mess['group'];if(!_0x24d90e)throw mess[_0x4f903d(0x4ef)];_0x3f28da['sendMessage'](_0x1e8587['chat'],{'text':q?q:'','mentions':_0x17bb56[_0x4f903d(0x6f6)](_0x459daf=>_0x459daf['id'])},{'quoted':_0x37ae15});}break;case _0x4f903d(0x7c2):{if(!_0x1e8587[_0x4f903d(0x814)])throw mess[_0x4f903d(0x680)];if(!_0x346492)throw mess[_0x4f903d(0x603)];if(!_0x24d90e)throw mess[_0x4f903d(0x4ef)];if(_0x1a5e8a[0x0]==='on'){if(db[_0x4f903d(0x84c)][_0x1e8587['chat']][_0x4f903d(0x7c2)])return _0x1e8587['reply']('Sudah\x20Aktif\x20Sebelumnya\x20🕊️');db[_0x4f903d(0x84c)][_0x1e8587['chat']][_0x4f903d(0x7c2)]=!![],_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x840));}else{if(_0x1a5e8a[0x0]===_0x4f903d(0x7fd)){if(!db[_0x4f903d(0x84c)][_0x1e8587[_0x4f903d(0x155)]][_0x4f903d(0x7c2)])return _0x1e8587['reply'](_0x4f903d(0x579));db[_0x4f903d(0x84c)][_0x1e8587[_0x4f903d(0x155)]]['antilink']=![],_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x7a4));}else{let _0x4c9a89=[{'buttonId':_0x4f903d(0x267),'buttonText':{'displayText':'On'},'type':0x1},{'buttonId':_0x4f903d(0x1ae),'buttonText':{'displayText':_0x4f903d(0x54d)},'type':0x1}];await _0x3f28da['sendButtonText'](_0x1e8587[_0x4f903d(0x155)],_0x4c9a89,'Mode\x20Antilink\x20Group\x20WhatsApp',_0x3f28da['user'][_0x4f903d(0x28e)],_0x37ae15);}}}break;case _0x4f903d(0x93c):{if(!_0x1e8587[_0x4f903d(0x814)])throw mess[_0x4f903d(0x680)];if(!_0x346492)throw mess[_0x4f903d(0x603)];if(!_0x24d90e)throw mess[_0x4f903d(0x4ef)];if(_0x1a5e8a[0x0]==='on'){if(db[_0x4f903d(0x84c)][_0x1e8587[_0x4f903d(0x155)]][_0x4f903d(0x93c)])return _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x23a));db[_0x4f903d(0x84c)][_0x1e8587[_0x4f903d(0x155)]][_0x4f903d(0x93c)]=!![],_0x1e8587['reply'](_0x4f903d(0x43e));}else{if(_0x1a5e8a[0x0]==='off'){if(!db[_0x4f903d(0x84c)][_0x1e8587[_0x4f903d(0x155)]]['antilinkyt'])return _0x1e8587[_0x4f903d(0x70d)]('Sudah\x20Nonaktif\x20Sebelumnya\x20🕊');db['chats'][_0x1e8587[_0x4f903d(0x155)]][_0x4f903d(0x93c)]=![],_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x99c));}else{let _0x2feced=[{'buttonId':_0x4f903d(0x7d8),'buttonText':{'displayText':'On'},'type':0x1},{'buttonId':_0x4f903d(0x4e8),'buttonText':{'displayText':_0x4f903d(0x54d)},'type':0x1}];await _0x3f28da['sendButtonText'](_0x1e8587[_0x4f903d(0x155)],_0x2feced,_0x4f903d(0x916),_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x37ae15);}}}break;case _0x4f903d(0x82b):{if(!_0x1e8587[_0x4f903d(0x814)])throw mess[_0x4f903d(0x680)];if(!_0x346492)throw mess[_0x4f903d(0x603)];if(!_0x24d90e)throw mess[_0x4f903d(0x4ef)];if(_0x1a5e8a[0x0]==='on'){if(db[_0x4f903d(0x84c)][_0x1e8587[_0x4f903d(0x155)]][_0x4f903d(0x82b)])return _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x23a));db['chats'][_0x1e8587[_0x4f903d(0x155)]]['antilinktt']=!![],_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x4e6));}else{if(_0x1a5e8a[0x0]===_0x4f903d(0x7fd)){if(!db[_0x4f903d(0x84c)][_0x1e8587[_0x4f903d(0x155)]][_0x4f903d(0x82b)])return _0x1e8587[_0x4f903d(0x70d)]('Sudah\x20Nonaktif\x20Sebelumnya\x20🕊');db[_0x4f903d(0x84c)][_0x1e8587[_0x4f903d(0x155)]][_0x4f903d(0x82b)]=![],_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x6d0));}else{let _0x22b22e=[{'buttonId':_0x4f903d(0x188),'buttonText':{'displayText':'On'},'type':0x1},{'buttonId':_0x4f903d(0x167),'buttonText':{'displayText':'Off'},'type':0x1}];await _0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],_0x22b22e,_0x4f903d(0x2dd),_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x37ae15);}}}break;case _0x4f903d(0x25e):{if(!_0x1e8587['isGroup'])throw mess['group'];if(!_0x346492)throw mess[_0x4f903d(0x603)];if(!_0x24d90e)throw mess[_0x4f903d(0x4ef)];if(_0x1a5e8a[0x0]==='on'){if(db[_0x4f903d(0x84c)][_0x1e8587[_0x4f903d(0x155)]][_0x4f903d(0x25e)])return _0x1e8587['reply']('Sudah\x20Aktif\x20Sebelumnya\x20🕊');db[_0x4f903d(0x84c)][_0x1e8587[_0x4f903d(0x155)]][_0x4f903d(0x25e)]=!![],_0x1e8587[_0x4f903d(0x70d)](_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)]+_0x4f903d(0x387));}else{if(_0x1a5e8a[0x0]===_0x4f903d(0x7fd)){if(!db[_0x4f903d(0x84c)][_0x1e8587[_0x4f903d(0x155)]][_0x4f903d(0x25e)])return _0x1e8587[_0x4f903d(0x70d)]('Sudah\x20Tidak\x20Aktif\x20Sebelumnya\x20🕊');db['chats'][_0x1e8587['chat']][_0x4f903d(0x25e)]=![],_0x1e8587[_0x4f903d(0x70d)](_0x3f28da[_0x4f903d(0x82e)]['name']+'\x20telah\x20di\x20unmute\x20di\x20group\x20ini\x20🕊️');}else{let _0x203549=[{'buttonId':_0x4f903d(0x58a),'buttonText':{'displayText':'On'},'type':0x1},{'buttonId':_0x4f903d(0x533),'buttonText':{'displayText':_0x4f903d(0x54d)},'type':0x1}];await _0x3f28da[_0x4f903d(0x6af)](_0x1e8587['chat'],_0x203549,_0x4f903d(0x751),_0x3f28da['user']['name'],_0x37ae15);}}}break;case'style':case'styletext':{if(!_0x2234d8&&global['db']['users'][_0x1e8587['sender']][_0x4f903d(0x41c)]<0x1)return _0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8dd)]);db[_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]]['limit']-=0x1;let {styletext:_0x5b8b0b}=require(_0x4f903d(0x215));if(!_0x496965)throw _0x4f903d(0x6d2);let _0x11e3e5=await _0x5b8b0b(_0x496965),_0x874d13=_0x4f903d(0x904)+_0x496965+'\x0a\x0a';for(let _0x41755d of _0x11e3e5){_0x874d13+='🖋️\x20*'+_0x41755d['name']+_0x4f903d(0x636)+_0x41755d['result']+'\x0a\x0a';}_0x1e8587[_0x4f903d(0x70d)](_0x874d13);}break;case _0x4f903d(0x9f9):{if(!_0x1e8587[_0x4f903d(0x814)])throw mess[_0x4f903d(0x680)];if(_0x1e8587[_0x4f903d(0x155)]in vote)throw _0x4f903d(0xa0a)+_0x4ade91+_0x4f903d(0x9ed);if(!_0x496965)throw _0x4f903d(0x3d3)+(_0x4ade91+_0x179f46)+_0x4f903d(0x8bd);_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x3dd)),vote[_0x1e8587[_0x4f903d(0x155)]]=[q,[],[]],await sleep(0x3e8),upvote=vote[_0x1e8587[_0x4f903d(0x155)]][0x1],devote=vote[_0x1e8587['chat']][0x2],teks_vote=_0x4f903d(0x322)+vote[_0x1e8587[_0x4f903d(0x155)]][0x0]+_0x4f903d(0x78f)+vote[_0x1e8587[_0x4f903d(0x155)]][0x1][_0x4f903d(0x36f)]+_0x4f903d(0x7c6)+vote[_0x1e8587[_0x4f903d(0x155)]][0x2][_0x4f903d(0x36f)]+_0x4f903d(0x604)+_0x4ade91+_0x4f903d(0x350)+_0x4ade91+_0x4f903d(0x6b4)+_0x4ade91+_0x4f903d(0x5cc)+_0x4ade91+_0x4f903d(0x41d);let _0x17bedc=[{'buttonId':_0x4ade91+_0x4f903d(0x142),'buttonText':{'displayText':_0x4f903d(0x3db)},'type':0x1},{'buttonId':_0x4ade91+_0x4f903d(0x8a7),'buttonText':{'displayText':'⌲\x20𝙳𝙴𝚅𝙾𝚃𝙴'},'type':0x1}],_0x3dbe81={'text':teks_vote,'footer':_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],'buttons':_0x17bedc,'headerType':0x1};_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],_0x3dbe81);}break;case _0x4f903d(0x142):{if(!_0x1e8587['isGroup'])throw mess[_0x4f903d(0x680)];if(!(_0x1e8587[_0x4f903d(0x155)]in vote))throw _0x4f903d(0x528)+_0x4ade91+_0x4f903d(0x6e5);isVote=vote[_0x1e8587['chat']][0x1][_0x4f903d(0x6f3)](vote[_0x1e8587[_0x4f903d(0x155)]][0x2]),wasVote=isVote[_0x4f903d(0x1fd)](_0x1e8587[_0x4f903d(0x548)]);if(wasVote)throw _0x4f903d(0x356);vote[_0x1e8587[_0x4f903d(0x155)]][0x1]['push'](_0x1e8587[_0x4f903d(0x548)]),menvote=vote[_0x1e8587[_0x4f903d(0x155)]][0x1][_0x4f903d(0x6f3)](vote[_0x1e8587['chat']][0x2]),teks_vote='*「\x20VOTE\x20」*\x0a\x0a*Alasan:*\x20'+vote[_0x1e8587['chat']][0x0]+_0x4f903d(0x78f)+vote[_0x1e8587['chat']][0x1][_0x4f903d(0x36f)]+'\x0a'+vote[_0x1e8587[_0x4f903d(0x155)]][0x1][_0x4f903d(0x6f6)]((_0x59b412,_0x2a149e)=>'├\x20'+(_0x2a149e+0x1)+_0x4f903d(0x7f9)+_0x59b412[_0x4f903d(0x87c)]`@`[0x0])[_0x4f903d(0x650)]('\x0a')+'\x0a│\x20\x0a└────\x0a\x0a┌〔\x20DEVOTE\x20〕\x0a│\x20\x0a├\x20Total:\x20'+vote[_0x1e8587['chat']][0x2][_0x4f903d(0x36f)]+'\x0a'+vote[_0x1e8587['chat']][0x2]['map']((_0x43199d,_0x447f18)=>'├\x20'+(_0x447f18+0x1)+_0x4f903d(0x7f9)+_0x43199d[_0x4f903d(0x87c)]`@`[0x0])[_0x4f903d(0x650)]('\x0a')+'\x0a│\x20\x0a└────\x0a\x0a*'+_0x4ade91+_0x4f903d(0x350)+_0x4ade91+'devote*\x20-\x20Untuk\x20Tidak\x0a*'+_0x4ade91+_0x4f903d(0x5cc)+_0x4ade91+'hapusvote*\x20-\x20Untuk\x20Menghapus\x20Vote\x0a\x0a©'+_0x3f28da['user']['id'];let _0x29d72d=[{'buttonId':_0x4ade91+_0x4f903d(0x142),'buttonText':{'displayText':_0x4f903d(0x3db)},'type':0x1},{'buttonId':_0x4ade91+'devote','buttonText':{'displayText':_0x4f903d(0x595)},'type':0x1}],_0x279e74={'text':teks_vote,'footer':_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],'buttons':_0x29d72d,'headerType':0x1,'mentions':menvote};_0x3f28da[_0x4f903d(0x682)](_0x1e8587['chat'],_0x279e74);}break;case _0x4f903d(0x8a7):{if(!_0x1e8587[_0x4f903d(0x814)])throw mess[_0x4f903d(0x680)];if(!(_0x1e8587['chat']in vote))throw _0x4f903d(0x528)+_0x4ade91+'vote*\x20-\x20untuk\x20memulai\x20vote';isVote=vote[_0x1e8587[_0x4f903d(0x155)]][0x1][_0x4f903d(0x6f3)](vote[_0x1e8587[_0x4f903d(0x155)]][0x2]),wasVote=isVote['includes'](_0x1e8587[_0x4f903d(0x548)]);if(wasVote)throw _0x4f903d(0x356);vote[_0x1e8587['chat']][0x2][_0x4f903d(0x695)](_0x1e8587['sender']),menvote=vote[_0x1e8587[_0x4f903d(0x155)]][0x1][_0x4f903d(0x6f3)](vote[_0x1e8587['chat']][0x2]),teks_vote='*「\x20VOTE\x20」*\x0a\x0a*Alasan:*\x20'+vote[_0x1e8587['chat']][0x0]+_0x4f903d(0x78f)+vote[_0x1e8587[_0x4f903d(0x155)]][0x1][_0x4f903d(0x36f)]+'\x0a'+vote[_0x1e8587[_0x4f903d(0x155)]][0x1]['map']((_0x550091,_0x1df528)=>'├\x20'+(_0x1df528+0x1)+_0x4f903d(0x7f9)+_0x550091[_0x4f903d(0x87c)]`@`[0x0])[_0x4f903d(0x650)]('\x0a')+_0x4f903d(0x48c)+vote[_0x1e8587['chat']][0x2]['length']+'\x0a'+vote[_0x1e8587[_0x4f903d(0x155)]][0x2][_0x4f903d(0x6f6)]((_0x5098a9,_0x4d6c25)=>'├\x20'+(_0x4d6c25+0x1)+'.\x20@'+_0x5098a9['split']`@`[0x0])[_0x4f903d(0x650)]('\x0a')+'\x0a│\x20\x0a└────\x0a\x0a*'+_0x4ade91+_0x4f903d(0x350)+_0x4ade91+_0x4f903d(0x6b4)+_0x4ade91+_0x4f903d(0x5cc)+_0x4ade91+_0x4f903d(0x2c3)+_0x3f28da[_0x4f903d(0x82e)]['id'];let _0x404f9f=[{'buttonId':_0x4ade91+'upvote','buttonText':{'displayText':_0x4f903d(0x3db)},'type':0x1},{'buttonId':_0x4ade91+_0x4f903d(0x8a7),'buttonText':{'displayText':_0x4f903d(0x595)},'type':0x1}],_0x5de41b={'text':teks_vote,'footer':_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],'buttons':_0x404f9f,'headerType':0x1,'mentions':menvote};_0x3f28da[_0x4f903d(0x682)](_0x1e8587['chat'],_0x5de41b);}break;case _0x4f903d(0x94e):if(!_0x1e8587[_0x4f903d(0x814)])throw mess[_0x4f903d(0x680)];if(!(_0x1e8587['chat']in vote))throw _0x4f903d(0x528)+_0x4ade91+_0x4f903d(0x6e5);teks_vote=_0x4f903d(0x322)+vote[_0x1e8587[_0x4f903d(0x155)]][0x0]+_0x4f903d(0x78f)+upvote[_0x4f903d(0x36f)]+'\x0a'+vote[_0x1e8587[_0x4f903d(0x155)]][0x1][_0x4f903d(0x6f6)]((_0x23213e,_0x2ccf50)=>'├\x20'+(_0x2ccf50+0x1)+_0x4f903d(0x7f9)+_0x23213e[_0x4f903d(0x87c)]`@`[0x0])[_0x4f903d(0x650)]('\x0a')+_0x4f903d(0x48c)+devote[_0x4f903d(0x36f)]+'\x0a'+vote[_0x1e8587['chat']][0x2][_0x4f903d(0x6f6)]((_0x568741,_0x426d9e)=>'├\x20'+(_0x426d9e+0x1)+_0x4f903d(0x7f9)+_0x568741[_0x4f903d(0x87c)]`@`[0x0])['join']('\x0a')+_0x4f903d(0x9e7)+_0x4ade91+_0x4f903d(0x350)+_0x4ade91+_0x4f903d(0x6b4)+_0x4ade91+_0x4f903d(0x5cc)+_0x4ade91+_0x4f903d(0x2c3)+_0x3f28da['user']['id'],_0x3f28da[_0x4f903d(0x2e3)](_0x1e8587[_0x4f903d(0x155)],teks_vote,_0x1e8587);break;case _0x4f903d(0x454):case _0x4f903d(0x5d8):case _0x4f903d(0x7b5):{if(!_0x1e8587[_0x4f903d(0x814)])throw mess[_0x4f903d(0x680)];if(!(_0x1e8587[_0x4f903d(0x155)]in vote))throw _0x4f903d(0x528)+_0x4ade91+_0x4f903d(0x6e5);delete vote[_0x1e8587[_0x4f903d(0x155)]],_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x9b3));}break;case _0x4f903d(0x680):case _0x4f903d(0x6c5):{if(!_0x1e8587[_0x4f903d(0x814)])throw mess['group'];if(!_0x346492)throw mess[_0x4f903d(0x603)];if(!_0x24d90e)throw mess[_0x4f903d(0x4ef)];if(_0x1a5e8a[0x0]===_0x4f903d(0x79e))await _0x3f28da[_0x4f903d(0x5cb)](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x13b))[_0x4f903d(0x245)](_0x325389=>_0x1e8587[_0x4f903d(0x70d)]('Sukses\x20Menutup\x20Group\x20🕊️'))['catch'](_0x55f71b=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x55f71b)));else{if(_0x1a5e8a[0x0]===_0x4f903d(0x641))await _0x3f28da[_0x4f903d(0x5cb)](_0x1e8587['chat'],_0x4f903d(0x560))['then'](_0x3b7560=>_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x284)))[_0x4f903d(0x5bf)](_0x12ddcb=>_0x1e8587['reply'](jsonformat(_0x12ddcb)));else{let _0x5440f0=[{'buttonId':'group\x20open','buttonText':{'displayText':_0x4f903d(0x94d)},'type':0x1},{'buttonId':_0x4f903d(0x5bc),'buttonText':{'displayText':_0x4f903d(0x77d)},'type':0x1}];await _0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],_0x5440f0,'Mode\x20Group',_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x1e8587);}}}break;case _0x4f903d(0x6d8):{if(!_0x1e8587[_0x4f903d(0x814)])throw mess[_0x4f903d(0x680)];if(!_0x346492)throw mess[_0x4f903d(0x603)];if(!_0x24d90e)throw mess[_0x4f903d(0x4ef)];if(_0x1a5e8a[0x0]===_0x4f903d(0x641))await _0x3f28da[_0x4f903d(0x5cb)](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x446))[_0x4f903d(0x245)](_0x3ff7c3=>_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x1ab)))[_0x4f903d(0x5bf)](_0xf04bc3=>_0x1e8587['reply'](jsonformat(_0xf04bc3)));else{if(_0x1a5e8a[0x0]===_0x4f903d(0x79e))await _0x3f28da[_0x4f903d(0x5cb)](_0x1e8587[_0x4f903d(0x155)],'locked')[_0x4f903d(0x245)](_0x4cbd1d=>_0x1e8587['reply'](_0x4f903d(0x49f)))['catch'](_0x3a87f5=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x3a87f5)));else{let _0xa0925b=[{'buttonId':_0x4f903d(0x42c),'buttonText':{'displayText':_0x4f903d(0x94d)},'type':0x1},{'buttonId':'editinfo\x20close','buttonText':{'displayText':_0x4f903d(0x77d)},'type':0x1}];await _0x3f28da[_0x4f903d(0x6af)](_0x1e8587['chat'],_0xa0925b,_0x4f903d(0x7c7),_0x3f28da['user']['name'],_0x1e8587);}}}break;case'linkgroup':case _0x4f903d(0x157):{if(!_0x1e8587['isGroup'])throw mess[_0x4f903d(0x680)];if(!_0x346492)throw mess[_0x4f903d(0x603)];let _0x14c523=await _0x3f28da['groupInviteCode'](_0x1e8587[_0x4f903d(0x155)]);_0x3f28da[_0x4f903d(0x971)](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x16c)+_0x1cde90[_0x4f903d(0x3ad)]+_0x4f903d(0x6e6)+(_0x1cde90[_0x4f903d(0x1ff)]!==undefined?'@'+_0x1cde90[_0x4f903d(0x1ff)][_0x4f903d(0x87c)]`@`[0x0]:_0x4f903d(0x1cb))+_0x4f903d(0x331)+_0x1cde90['id']+_0x4f903d(0x1b2)+_0x14c523+_0x4f903d(0x34b)+_0x1cde90[_0x4f903d(0x5fc)][_0x4f903d(0x36f)]+'\x0a',_0x1e8587,{'detectLink':!![]});}break;case'revoke':if(!_0x1e8587[_0x4f903d(0x814)])throw mess[_0x4f903d(0x680)];if(!_0x346492)throw mess[_0x4f903d(0x603)];if(!_0x24d90e)throw mess[_0x4f903d(0x4ef)];await _0x3f28da[_0x4f903d(0x9d5)](_0x1e8587[_0x4f903d(0x155)])[_0x4f903d(0x245)](_0x576e28=>{const _0x590092=_0x4f903d;_0x1e8587[_0x590092(0x70d)](_0x590092(0x30b)+_0x1cde90['subject']);})[_0x4f903d(0x5bf)](_0x415470=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x415470)));break;case _0x4f903d(0x30c):{if(!_0x1e8587['isGroup'])throw mess[_0x4f903d(0x680)];if(!_0x346492)throw mess[_0x4f903d(0x603)];if(!_0x24d90e)throw mess[_0x4f903d(0x4ef)];if(!_0x496965)throw'Masukkan\x20value\x20enable/disable';if(_0x1a5e8a[0x0]===_0x4f903d(0x4f5))await _0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],{'disappearingMessagesInChat':WA_DEFAULT_EPHEMERAL})[_0x4f903d(0x245)](_0x4df631=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x4df631)))[_0x4f903d(0x5bf)](_0x305b11=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x305b11)));else _0x1a5e8a[0x0]===_0x4f903d(0x819)&&await _0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],{'disappearingMessagesInChat':![]})[_0x4f903d(0x245)](_0x56dbff=>_0x1e8587['reply'](jsonformat(_0x56dbff)))['catch'](_0x131031=>_0x1e8587[_0x4f903d(0x70d)](jsonformat(_0x131031)));}break;case _0x4f903d(0x3e8):case _0x4f903d(0x77a):case'd':{if(!_0x1e8587['quoted'])throw![];let {chat:_0x39cf77,fromMe:_0x5dbf62,id:_0x43c603,isBaileys:_0x1d9e26}=_0x1e8587['quoted'];if(!_0x1d9e26)throw _0x4f903d(0x193);_0x3f28da[_0x4f903d(0x682)](_0x1e8587['chat'],{'delete':{'remoteJid':_0x1e8587[_0x4f903d(0x155)],'fromMe':!![],'id':_0x1e8587[_0x4f903d(0x779)]['id'],'participant':_0x1e8587['quoted'][_0x4f903d(0x548)]}});}break;case _0x4f903d(0x345):case _0x4f903d(0x91c):{if(!_0x40c20b)throw mess[_0x4f903d(0x1ff)];if(!_0x496965)throw _0x4f903d(0x1ba)+(_0x4ade91+_0x179f46)+_0x4f903d(0x660);let _0x4c32a9=await _0x3f28da[_0x4f903d(0x9f5)](),_0x1c5615=Object['entries'](_0x4c32a9)['slice'](0x0)[_0x4f903d(0x6f6)](_0x49d9ee=>_0x49d9ee[0x1]),_0x12a6fe=_0x1c5615[_0x4f903d(0x6f6)](_0x966556=>_0x966556['id']);_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x834)+_0x12a6fe[_0x4f903d(0x36f)]+_0x4f903d(0x35c)+_0x12a6fe['length']*1.5+_0x4f903d(0x60f));for(let _0x455582 of _0x12a6fe){await sleep(0x5dc);let _0x117d64=[{'urlButton':{'displayText':_0x4f903d(0x372),'url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':'Number\x20Phone\x20Owner','phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':_0x4f903d(0x65e),'id':_0x4f903d(0x4b5)}},{'quickReplyButton':{'displayText':_0x4f903d(0x73a),'id':_0x4f903d(0x463)}},{'quickReplyButton':{'displayText':_0x4f903d(0x59f),'id':'sewabot'}}],_0x29fb52=_0x4f903d(0x1f2)+_0x496965;_0x3f28da[_0x4f903d(0x665)](_0x455582,_0x29fb52,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x34c)],_0x117d64);}_0x1e8587['reply'](_0x4f903d(0x826)+_0x12a6fe['length']+'\x20Group');}break;case'bc':case _0x4f903d(0x6e1):case'bcall':{if(!_0x40c20b)throw mess[_0x4f903d(0x1ff)];if(!_0x496965)throw'Text\x20mana?\x0a\x0aContoh\x20:\x20'+(_0x4ade91+_0x179f46)+_0x4f903d(0x660);let _0x1f0e1e=await _0x5ae835[_0x4f903d(0x84c)][_0x4f903d(0x39d)]()[_0x4f903d(0x6f6)](_0x441aa1=>_0x441aa1['id']);_0x1e8587[_0x4f903d(0x70d)]('Mengirim\x20Broadcast\x20Ke\x20'+_0x1f0e1e[_0x4f903d(0x36f)]+_0x4f903d(0x4a1)+_0x1f0e1e[_0x4f903d(0x36f)]*1.5+_0x4f903d(0x60f));for(let _0x24bc75 of _0x1f0e1e){await sleep(0x5dc);let _0x1373b0=[{'urlButton':{'displayText':_0x4f903d(0x372),'url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':_0x4f903d(0x9ab),'phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':_0x4f903d(0x65e),'id':_0x4f903d(0x4b5)}},{'quickReplyButton':{'displayText':_0x4f903d(0x73a),'id':_0x4f903d(0x463)}},{'quickReplyButton':{'displayText':_0x4f903d(0x59f),'id':'sewabot'}}],_0x3324c1=_0x4f903d(0x1f2)+_0x496965;_0x3f28da['send5ButImg'](_0x24bc75,_0x3324c1,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global['thumb'],_0x1373b0);}_0x1e8587['reply'](_0x4f903d(0x5b5));}break;case _0x4f903d(0x285):{if(!_0x40c20b)throw mess[_0x4f903d(0x1ff)];let _0xbd50f2=await _0x5ae835[_0x4f903d(0x84c)]['all']()['map'](_0x25c635=>_0x25c635['id']);_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x834)+_0xbd50f2[_0x4f903d(0x36f)]+_0x4f903d(0x4a1)+_0xbd50f2[_0x4f903d(0x36f)]*1.5+_0x4f903d(0x60f));for(let _0x1597ca of _0xbd50f2){await sleep(0x5dc),_0x3f28da[_0x4f903d(0x6d5)](_0x1597ca,_0x20ebdd[_0x4f903d(0x820)],![],{'quoted':_0x37ae15});}_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x826)+_0xbd50f2[_0x4f903d(0x36f)]+_0x4f903d(0x805));}break;case'infochat':{if(!_0x1e8587[_0x4f903d(0x779)])_0x1e8587[_0x4f903d(0x70d)]('Reply\x20Pesan');let _0x5df9dc=await _0x1e8587[_0x4f903d(0x575)]();if(!_0x1e8587[_0x4f903d(0x779)]['isBaileys'])throw _0x4f903d(0x653);let _0x3e507e='';for(let _0x2dbffb of _0x5df9dc[_0x4f903d(0x8eb)]){let _0x364fe0=_0x2dbffb[_0x4f903d(0x877)],_0x2966c5=_0x2dbffb['receiptTimestamp'],_0x166cdd=_0x364fe0?_0x364fe0:_0x2966c5;_0x3e507e+=_0x4f903d(0x788)+_0x2dbffb[_0x4f903d(0x7c0)][_0x4f903d(0x87c)]('@')[0x0]+'\x0a',_0x3e507e+=_0x4f903d(0x913)+moment(_0x166cdd*0x3e8)[_0x4f903d(0x4ec)](_0x4f903d(0x3fe)),_0x3e507e+=_0x4f903d(0x9b0)+(_0x364fe0?'Dibaca':_0x4f903d(0x30f))+'\x0a\x0a';}_0x3f28da[_0x4f903d(0x2e3)](_0x1e8587[_0x4f903d(0x155)],_0x3e507e,_0x1e8587);}break;case'q':case'quoted':{if(!_0x1e8587['quoted'])return _0x1e8587['reply'](_0x4f903d(0x9ac));let _0x3e5507=await _0x3f28da['serializeM'](await _0x1e8587[_0x4f903d(0x575)]());if(!_0x3e5507['quoted'])return _0x1e8587['reply']('Pesan\x20Yang\x20Anda\x20Reply\x20Tidak\x20Mengandung\x20Reply');await _0x3e5507[_0x4f903d(0x779)][_0x4f903d(0x6d5)](_0x1e8587['chat'],!![]);}break;case _0x4f903d(0x8f0):{if(!_0x40c20b)return _0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x1ff)]);let _0x192c81=await _0x5ae835['chats'][_0x4f903d(0x39d)]()[_0x4f903d(0x380)](_0x5f5852=>_0x5f5852['id'][_0x4f903d(0x909)](_0x4f903d(0x9dd)))[_0x4f903d(0x6f6)](_0x53924d=>_0x53924d['id']),_0x2b3e3b=_0x4f903d(0x576);_0x2b3e3b+=_0x4f903d(0x5f3)+_0x192c81[_0x4f903d(0x36f)]+'\x20Chat\x0a\x0a';for(let _0xded9dc of _0x192c81){let _0x2fb95b=_0x5ae835['messages'][_0xded9dc][_0x4f903d(0x6c6)][0x0][_0x4f903d(0x6f5)];_0x2b3e3b+=_0x4f903d(0x60d)+_0x2fb95b+'\x0a',_0x2b3e3b+=_0x4f903d(0x571)+_0xded9dc[_0x4f903d(0x87c)]('@')[0x0]+'\x0a',_0x2b3e3b+=_0x4f903d(0x543)+_0xded9dc['split']('@')[0x0]+'\x0a\x0a',_0x2b3e3b+=_0x4f903d(0x7f7);}_0x3f28da[_0x4f903d(0x2e3)](_0x1e8587[_0x4f903d(0x155)],_0x2b3e3b,_0x1e8587);}break;case _0x4f903d(0x216):{let _0x3dc0f3=await _0x5ae835['chats'][_0x4f903d(0x39d)]()[_0x4f903d(0x380)](_0x484164=>_0x484164['id'][_0x4f903d(0x909)](_0x4f903d(0x29e)))[_0x4f903d(0x6f6)](_0x173637=>_0x173637['id']),_0x5daf21='👥\x20*LIST\x20GROUP\x20CHAT*\x0a\x0a';_0x5daf21+=_0x4f903d(0x828)+_0x3dc0f3['length']+'\x20Group\x0a\x0a';for(let _0x48c1ad of _0x3dc0f3){let _0x5b0e2e=await _0x3f28da['groupMetadata'](_0x48c1ad);_0x5daf21+=_0x4f903d(0x60d)+_0x5b0e2e[_0x4f903d(0x3ad)]+'\x0a',_0x5daf21+=_0x4f903d(0x91b)+(_0x5b0e2e['owner']!==undefined?'@'+_0x5b0e2e[_0x4f903d(0x1ff)][_0x4f903d(0x87c)]`@`[0x0]:_0x4f903d(0x1cb))+'\x0a',_0x5daf21+=_0x4f903d(0x8f1)+_0x5b0e2e['id']+'\x0a',_0x5daf21+='⏳\x20*Dibuat\x20:*\x20'+moment(_0x5b0e2e[_0x4f903d(0x247)]*0x3e8)['tz'](_0x4f903d(0x83b))[_0x4f903d(0x4ec)](_0x4f903d(0x13e))+'\x0a',_0x5daf21+=_0x4f903d(0x480)+_0x5b0e2e[_0x4f903d(0x5fc)][_0x4f903d(0x36f)]+'\x0a\x0a',_0x5daf21+=_0x4f903d(0x7f7);}_0x3f28da['sendTextWithMentions'](_0x1e8587[_0x4f903d(0x155)],_0x5daf21,_0x1e8587);}break;case _0x4f903d(0x32e):case _0x4f903d(0x859):{if(!_0x1e8587[_0x4f903d(0x814)])_0x1e8587[_0x4f903d(0x70d)](mess['group']);let _0x53df74=_0x1a5e8a&&/\d+\-\d+@g.us/[_0x4f903d(0x956)](_0x1a5e8a[0x0])?_0x1a5e8a[0x0]:_0x1e8587[_0x4f903d(0x155)],_0x37149c=[...Object[_0x4f903d(0x429)](_0x5ae835[_0x4f903d(0x51d)][_0x53df74]),_0xc0ef6f];_0x3f28da['sendText'](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x985)+_0x37149c['map'](_0xfc0543=>'🌱\x20@'+_0xfc0543[_0x4f903d(0x530)](/@.+/,''))[_0x4f903d(0x650)]`\n`,_0x1e8587,{'mentions':_0x37149c});}break;case _0x4f903d(0x982):case _0x4f903d(0x918):case's':case _0x4f903d(0x359):case'sgif':{if(!_0x20ebdd)throw _0x4f903d(0x792)+(_0x4ade91+_0x179f46);_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]);if(/image/[_0x4f903d(0x956)](_0x24de29)){let _0x3df281=await _0x20ebdd[_0x4f903d(0x487)](),_0xb707b3=await _0x3f28da[_0x4f903d(0x19d)](_0x1e8587[_0x4f903d(0x155)],_0x3df281,_0x1e8587,{'packname':global[_0x4f903d(0x8c6)],'author':global[_0x4f903d(0x1f5)]});await fs['unlinkSync'](_0xb707b3);}else{if(/video/[_0x4f903d(0x956)](_0x24de29)){if((_0x20ebdd['msg']||_0x20ebdd)[_0x4f903d(0x65f)]>0xb)return _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x160));let _0x406c6b=await _0x20ebdd['download'](),_0x1d0b70=await _0x3f28da[_0x4f903d(0x9c5)](_0x1e8587[_0x4f903d(0x155)],_0x406c6b,_0x1e8587,{'packname':global[_0x4f903d(0x8c6)],'author':global[_0x4f903d(0x1f5)]});await fs[_0x4f903d(0x7cf)](_0x1d0b70);}else throw _0x4f903d(0x2c6)+(_0x4ade91+_0x179f46)+_0x4f903d(0x9c8);}}break;case _0x4f903d(0x62a):{let {eBinary:_0x192be1}=require(_0x4f903d(0x2c5)),_0x3b336c=_0x496965?_0x496965:_0x1e8587['quoted']&&_0x1e8587[_0x4f903d(0x779)][_0x4f903d(0x25a)]?_0x1e8587['quoted'][_0x4f903d(0x25a)]:_0x1e8587['text'],_0x213530=await _0x192be1(_0x3b336c);_0x1e8587[_0x4f903d(0x70d)](_0x213530);}break;case'dbinary':{let {dBinary:_0x38b272}=require('./lib/binary'),_0x53c20e=_0x496965?_0x496965:_0x1e8587[_0x4f903d(0x779)]&&_0x1e8587[_0x4f903d(0x779)][_0x4f903d(0x25a)]?_0x1e8587[_0x4f903d(0x779)][_0x4f903d(0x25a)]:_0x1e8587['text'],_0x105d8f=await _0x38b272(_0x53c20e);_0x1e8587[_0x4f903d(0x70d)](_0x105d8f);}break;case _0x4f903d(0x80d):{let [_0x13793e,_0x406894]=_0x496965[_0x4f903d(0x87c)]`+`;if(!_0x13793e)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+'\x20😅+🤔';if(!_0x406894)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0x169);let _0x4145e2=await fetchJson(_0x4f903d(0x415)+encodeURIComponent(_0x13793e)+'_'+encodeURIComponent(_0x406894));for(let _0x5c3629 of _0x4145e2['results']){let _0x2058eb=await _0x3f28da[_0x4f903d(0x19d)](_0x1e8587[_0x4f903d(0x155)],_0x5c3629[_0x4f903d(0x2cc)],_0x1e8587,{'packname':global[_0x4f903d(0x8c6)],'author':global[_0x4f903d(0x1f5)],'categories':_0x5c3629['tags']});await fs[_0x4f903d(0x7cf)](_0x2058eb);}}break;case'emojimix2':{if(!_0x496965)throw'Contoh\x20:\x20'+(_0x4ade91+_0x179f46)+_0x4f903d(0x531);let _0x5464ea=await fetchJson(_0x4f903d(0x415)+encodeURIComponent(_0x496965));for(let _0x518396 of _0x5464ea[_0x4f903d(0x89b)]){let _0x1e96d2=await _0x3f28da[_0x4f903d(0x19d)](_0x1e8587[_0x4f903d(0x155)],_0x518396['url'],_0x1e8587,{'packname':global[_0x4f903d(0x8c6)],'author':global['author'],'categories':_0x518396[_0x4f903d(0x87a)]});await fs[_0x4f903d(0x7cf)](_0x1e96d2);}}break;case _0x4f903d(0x7e2):case'ttp':{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0x308);_0x1e8587['reply'](mess[_0x4f903d(0x8a2)]),await _0x3f28da['sendImageAsSticker'](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x320)+_0x179f46+_0x4f903d(0x75c)+_0x496965,_0x4f903d(0x378),_0x4f903d(0x271),_0x1e8587,{'asSticker':!![]});}break;case _0x4f903d(0x14c):case _0x4f903d(0x1a3):case _0x4f903d(0x931):case _0x4f903d(0xa05):case _0x4f903d(0xa07):{let _0x1d3ef9=_0x4f903d(0x967)+(_0x4ade91+_0x179f46)+_0x4f903d(0x6fe);if(!/image/[_0x4f903d(0x956)](_0x24de29))throw _0x1d3ef9;if(!_0x496965)throw _0x1d3ef9;_0x1e8587['reply'](mess[_0x4f903d(0x8a2)]),atas=_0x496965[_0x4f903d(0x87c)]('|')[0x0]?_0x496965[_0x4f903d(0x87c)]('|')[0x0]:'-',bawah=_0x496965[_0x4f903d(0x87c)]('|')[0x1]?_0x496965[_0x4f903d(0x87c)]('|')[0x1]:'-';let _0x1b79df=await _0x20ebdd['download'](),{floNime:_0x4ff7f6}=require(_0x4f903d(0x393)),_0x38d905=await _0x4ff7f6(_0x1b79df),_0xfa129e=_0x4f903d(0x4b4)+encodeURIComponent(atas)+'/'+encodeURIComponent(bawah)+'.png?background='+_0x38d905['result'][_0x4f903d(0x2cc)],_0x2a847b=await _0x3f28da['sendImageAsSticker'](_0x1e8587[_0x4f903d(0x155)],_0xfa129e,_0x1e8587,{'packname':global[_0x4f903d(0x8c6)],'author':global[_0x4f903d(0x1f5)]});await fs['unlinkSync'](_0x2a847b);}break;case _0x4f903d(0x3d5):case _0x4f903d(0x326):{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+'\x20text';hm=await fetchJson(api('zenz',_0x4f903d(0x427),{'text':_0x496965},'apikey')),_0x1e8587[_0x4f903d(0x70d)](hm['result'][_0x4f903d(0x7d4)]);}break;case'gitstalk':case _0x4f903d(0x1b5):case _0x4f903d(0x48e):{if(!_0x496965)throw _0x4f903d(0x93f)+(_0x4ade91+_0x179f46)+_0x4f903d(0x4c2)+(_0x4ade91+_0x179f46)+_0x4f903d(0x71f);y=await fetchJson('https://api.github.com/users/'+_0x496965);let _0x3b55e3=_0x4f903d(0x35d)+y[_0x4f903d(0x228)]+'\x0a•\x20Id\x20:\x20'+y['id']+_0x4f903d(0x14d)+y[_0x4f903d(0x4b2)]+_0x4f903d(0x5d6)+y['type']+_0x4f903d(0x22b)+y[_0x4f903d(0x28e)]+_0x4f903d(0x5a2)+y[_0x4f903d(0x631)]+_0x4f903d(0x914)+y[_0x4f903d(0x690)]+_0x4f903d(0x206)+y['location']+_0x4f903d(0x3e9)+y[_0x4f903d(0x1fc)]+_0x4f903d(0x50c)+y[_0x4f903d(0x2a9)]+_0x4f903d(0x5b7)+y[_0x4f903d(0x2d0)]+_0x4f903d(0x52e)+y['public_gists']+'\x0a•\x20Followers\x20:\x20'+y[_0x4f903d(0x3c3)]+_0x4f903d(0x926)+y[_0x4f903d(0x1b1)]+'\x0a•\x20Created\x20At\x20:\x20'+moment(y[_0x4f903d(0x795)])['tz']('Asia/Jakarta')[_0x4f903d(0x4ec)](_0x4f903d(0x98b))+_0x4f903d(0x7ed)+moment(y[_0x4f903d(0x522)])['tz'](_0x4f903d(0x83b))[_0x4f903d(0x4ec)]('HH:mm:ss\x20DD/MM/YYYY'),_0x1f7b5a=[{'urlButton':{'displayText':_0x4f903d(0x1c2),'url':_0x4f903d(0x143)+y['login']}}];buf=await getBuffer(y[_0x4f903d(0x934)]),_0x3f28da[_0x4f903d(0x665)](_0x1e8587[_0x4f903d(0x155)],_0x3b55e3,'©\x20'+_0x3f28da['user']['name'],buf,_0x1f7b5a);}break;case _0x4f903d(0x431):case _0x4f903d(0x29d):{if(!_0x2234d8&&global['db'][_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]<0x1)return _0x1e8587[_0x4f903d(0x70d)]('Limit\x20Harian\x20Anda\x20Telah\x20Habis');if(!_0x496965)return _0x1e8587[_0x4f903d(0x70d)]('Contoh\x20:\x20'+(_0x4ade91+_0x179f46)+_0x4f903d(0x8ea));let [_0x200a82,_0x5c6de3,_0x1a16a6]=_0x1a5e8a;if(_0x200a82[_0x4f903d(0x3d8)]()=='ff'){if(!_0x5c6de3)throw _0x4f903d(0x8ac)+(_0x4ade91+_0x179f46)+_0x4f903d(0x817);let _0xae0445=await fetchJson(api(_0x4f903d(0x66f),_0x4f903d(0x776),{'apikey':global['APIKeys'][global['APIs'][_0x4f903d(0x66f)]],'query':_0x5c6de3}));if(_0xae0445[_0x4f903d(0x765)]==![])return _0x1e8587[_0x4f903d(0x70d)](_0xae0445[_0x4f903d(0x1ed)]['message']);_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x54c)+_0xae0445[_0x4f903d(0x1ed)][_0x4f903d(0x53a)]+_0x4f903d(0x61e)+_0xae0445[_0x4f903d(0x1ed)][_0x4f903d(0x867)]),db[_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]-=0x1;}else{if(_0x200a82[_0x4f903d(0x3d8)]()=='ml'){if(!_0x5c6de3)throw _0x4f903d(0x15f)+(_0x4ade91+_0x179f46)+_0x4f903d(0x19c);if(!_0x1a16a6)throw _0x4f903d(0x15f)+(_0x4ade91+_0x179f46)+'\x20ml\x20214885010\x202253';let _0x4249bd=await fetchJson(api(_0x4f903d(0x66f),_0x4f903d(0x5b6),{'apikey':global[_0x4f903d(0x70f)][global[_0x4f903d(0x28a)][_0x4f903d(0x66f)]],'query':_0x5c6de3,'query2':_0x1a16a6}));if(_0x4249bd['status']==![])return _0x1e8587['reply'](_0x4249bd[_0x4f903d(0x1ed)][_0x4f903d(0x7d4)]);_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x54c)+_0x4249bd[_0x4f903d(0x1ed)][_0x4f903d(0x53a)]+'\x0aZone\x20:\x20'+_0x4249bd[_0x4f903d(0x1ed)][_0x4f903d(0x92b)]+_0x4f903d(0x61e)+_0x4249bd[_0x4f903d(0x1ed)][_0x4f903d(0x867)]),db[_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]-=0x1;}else{if(_0x200a82[_0x4f903d(0x3d8)]()==_0x4f903d(0x1aa)){if(!_0x5c6de3)throw _0x4f903d(0x8ac)+(_0x4ade91+_0x179f46)+_0x4f903d(0x728);let _0x3b4707=await fetchJson(api(_0x4f903d(0x66f),'/stalker/nickaov',{'apikey':global[_0x4f903d(0x70f)][global['APIs'][_0x4f903d(0x66f)]],'query':_0x5c6de3}));if(_0x3b4707[_0x4f903d(0x765)]==![])return _0x1e8587[_0x4f903d(0x70d)](_0x3b4707[_0x4f903d(0x1ed)]['message']);_0x1e8587[_0x4f903d(0x70d)]('ID\x20:\x20'+_0x3b4707[_0x4f903d(0x1ed)][_0x4f903d(0x53a)]+'\x0aUsername\x20:\x20'+_0x3b4707[_0x4f903d(0x1ed)][_0x4f903d(0x867)]),db[_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]-=0x1;}else{if(_0x200a82[_0x4f903d(0x3d8)]()=='cod'){if(!_0x5c6de3)throw'No\x20Query\x20id,\x20Contoh\x20'+(_0x4ade91+_0x179f46)+_0x4f903d(0x783);let _0x3850d9=await fetchJson(api(_0x4f903d(0x66f),_0x4f903d(0x6df),{'apikey':global[_0x4f903d(0x70f)][global[_0x4f903d(0x28a)][_0x4f903d(0x66f)]],'query':_0x5c6de3}));if(_0x3850d9[_0x4f903d(0x765)]==![])return _0x1e8587[_0x4f903d(0x70d)](_0x3850d9[_0x4f903d(0x1ed)][_0x4f903d(0x7d4)]);_0x1e8587['reply'](_0x4f903d(0x54c)+_0x3850d9[_0x4f903d(0x1ed)][_0x4f903d(0x53a)]+'\x0aUsername\x20:\x20'+_0x3850d9[_0x4f903d(0x1ed)][_0x4f903d(0x867)]),db[_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]-=0x1;}else{if(_0x200a82[_0x4f903d(0x3d8)]()=='pb'){if(!_0x5c6de3)throw _0x4f903d(0x8ac)+(_0x4ade91+_0x179f46)+_0x4f903d(0x1df);let _0x3c3c99=await fetchJson(api(_0x4f903d(0x66f),_0x4f903d(0x5ab),{'apikey':global[_0x4f903d(0x70f)][global[_0x4f903d(0x28a)][_0x4f903d(0x66f)]],'query':_0x5c6de3}));if(_0x3c3c99[_0x4f903d(0x765)]==![])return _0x1e8587[_0x4f903d(0x70d)](_0x3c3c99[_0x4f903d(0x1ed)][_0x4f903d(0x7d4)]);_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x54c)+_0x3c3c99[_0x4f903d(0x1ed)][_0x4f903d(0x53a)]+'\x0aUsername\x20:\x20'+_0x3c3c99[_0x4f903d(0x1ed)][_0x4f903d(0x867)]),db[_0x4f903d(0x291)][_0x1e8587['sender']]['limit']-=0x1;}else{if(_0x200a82[_0x4f903d(0x3d8)]()=='ig'){if(!_0x5c6de3)throw'No\x20Query\x20username,\x20Contoh\x20:\x20'+(_0x4ade91+_0x179f46)+_0x4f903d(0x2b9);let {result:_0x1686ca}=await fetchJson(api(_0x4f903d(0x66f),_0x4f903d(0x970),{'username':_0x5c6de3},_0x4f903d(0x950)));if(_0x1686ca[_0x4f903d(0x765)]==![])return _0x1e8587['reply'](_0x1686ca[_0x4f903d(0x1ed)][_0x4f903d(0x7d4)]);_0x3f28da[_0x4f903d(0x54a)](_0x1e8587[_0x4f903d(0x155)],_0x1686ca[_0x4f903d(0x8f9)][_0x4f903d(0x6e2)],'',_0x4f903d(0x806)+_0x1686ca['caption'][_0x4f903d(0x9fb)]+_0x4f903d(0x5a3)+_0x1686ca[_0x4f903d(0x8f9)][_0x4f903d(0x491)]+_0x4f903d(0x17c)+_0x1686ca[_0x4f903d(0x8f9)][_0x4f903d(0xa0e)]+_0x4f903d(0x441)+_0x1686ca[_0x4f903d(0x8f9)]['followers']+_0x4f903d(0x4cc)+_0x1686ca[_0x4f903d(0x8f9)][_0x4f903d(0x1b1)]+_0x4f903d(0x876)+_0x1686ca['caption'][_0x4f903d(0x953)]+_0x4f903d(0x4aa)+_0x1686ca['caption'][_0x4f903d(0x23f)]+'\x0a⭔\x20Verified\x20:\x20'+_0x1686ca['caption']['verified']+'\x0a⭔\x20Private\x20:\x20'+_0x1686ca[_0x4f903d(0x8f9)]['private']+'\x0a⭔\x20Bio\x20:\x20'+_0x1686ca[_0x4f903d(0x8f9)]['biography']+_0x4f903d(0x43f)+_0x1686ca['caption'][_0x4f903d(0x8c1)],_0x1e8587),db[_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]-=0x1;}else{if(_0x200a82[_0x4f903d(0x3d8)]()==_0x4f903d(0x170)){if(!_0x5c6de3)throw _0x4f903d(0x9fe)+(_0x4ade91+_0x179f46)+_0x4f903d(0x6b0);let {result:_0x14d275}=await fetchJson(api(_0x4f903d(0x66f),_0x4f903d(0xa01),{'query':_0x5c6de3},_0x4f903d(0x950)));if(_0x14d275['status']==![])return _0x1e8587['reply'](_0x14d275[_0x4f903d(0x1ed)]['message']);_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x1a6)+_0x14d275[_0x4f903d(0x28e)]+_0x4f903d(0x755)+Object[_0x4f903d(0x429)](_0x14d275[_0x4f903d(0x97a)])+_0x4f903d(0x4dc)+tanggal(_0x14d275[_0x4f903d(0x6aa)][_0x4f903d(0x1f8)])+'\x0a⭔\x20Modified\x20:\x20'+tanggal(_0x14d275['time']['modified'])+_0x4f903d(0x7dd)+_0x14d275[_0x4f903d(0x73d)][_0x4f903d(0x6f6)](_0x560cc0=>'-\x20'+_0x560cc0['name']+_0x4f903d(0x28b)+_0x560cc0[_0x4f903d(0x1fc)])[_0x4f903d(0x650)]('\x0a')+_0x4f903d(0x48d)+_0x14d275[_0x4f903d(0x31c)]+_0x4f903d(0x5ed)+_0x14d275[_0x4f903d(0x6a7)]+_0x4f903d(0x477)+_0x14d275[_0x4f903d(0x434)]+'\x0a⭔\x20Author\x20:\x20'+_0x14d275[_0x4f903d(0x1f5)][_0x4f903d(0x28e)]+_0x4f903d(0x6e8)+_0x14d275['license']+'\x0a⭔\x20Readme\x20:\x20'+_0x14d275['readme']),db[_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]-=0x1;}else _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0x8ea));}}}}}}}break;case'toimage':case'toimg':{if(!_0x20ebdd)throw _0x4f903d(0x989);if(!/webp/[_0x4f903d(0x956)](_0x24de29))throw _0x4f903d(0x70a)+(_0x4ade91+_0x179f46)+'*';_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]);let _0x4392e6=await _0x3f28da[_0x4f903d(0x712)](_0x20ebdd),_0x197be7=await getRandom(_0x4f903d(0x4de));exec(_0x4f903d(0x832)+_0x4392e6+'\x20'+_0x197be7,_0x3fb701=>{const _0x473e39=_0x4f903d;fs['unlinkSync'](_0x4392e6);if(_0x3fb701)throw _0x3fb701;let _0x505767=fs['readFileSync'](_0x197be7);_0x3f28da['sendMessage'](_0x1e8587[_0x473e39(0x155)],{'image':_0x505767},{'quoted':_0x37ae15}),fs[_0x473e39(0x7cf)](_0x197be7);});}break;case _0x4f903d(0x592):case _0x4f903d(0x30a):{if(!_0x20ebdd)throw _0x4f903d(0x68e);if(!/webp/[_0x4f903d(0x956)](_0x24de29))throw _0x4f903d(0x863)+(_0x4ade91+_0x179f46)+'*';_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]);let {webp2mp4File:_0xb5d4b8}=require(_0x4f903d(0x393)),_0x4fd056=await _0x3f28da['downloadAndSaveMediaMessage'](_0x20ebdd),_0x480f0d=await _0xb5d4b8(_0x4fd056);await _0x3f28da['sendMessage'](_0x1e8587[_0x4f903d(0x155)],{'video':{'url':_0x480f0d['result'],'caption':_0x4f903d(0x9b8)}},{'quoted':_0x37ae15}),await fs[_0x4f903d(0x7cf)](_0x4fd056);}break;case _0x4f903d(0x541):case _0x4f903d(0x8ca):{if(!/video/[_0x4f903d(0x956)](_0x24de29)&&!/audio/[_0x4f903d(0x956)](_0x24de29))throw _0x4f903d(0x6dd)+(_0x4ade91+_0x179f46);if(!_0x20ebdd)throw _0x4f903d(0x6dd)+(_0x4ade91+_0x179f46);_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]);let _0x47b69d=await _0x20ebdd['download'](),{toAudio:_0x386144}=require('./lib/converter'),_0x1c6bcf=await _0x386144(_0x47b69d,'mp4');_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],{'audio':_0x1c6bcf,'mimetype':_0x4f903d(0x633)},{'quoted':_0x1e8587});}break;case _0x4f903d(0x2d8):{if(/document/[_0x4f903d(0x956)](_0x24de29))throw _0x4f903d(0x4b6)+(_0x4ade91+_0x179f46);if(!/video/[_0x4f903d(0x956)](_0x24de29)&&!/audio/[_0x4f903d(0x956)](_0x24de29))throw _0x4f903d(0x4b6)+(_0x4ade91+_0x179f46);if(!_0x20ebdd)throw _0x4f903d(0x4b6)+(_0x4ade91+_0x179f46);_0x1e8587[_0x4f903d(0x70d)](mess['wait']);let _0x55641e=await _0x20ebdd[_0x4f903d(0x487)](),{toAudio:_0x4edfe2}=require(_0x4f903d(0x62f)),_0x186c9e=await _0x4edfe2(_0x55641e,_0x4f903d(0x66c));_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],{'document':_0x186c9e,'mimetype':'audio/mpeg','fileName':_0x4f903d(0x7d6)+_0x3f28da['user'][_0x4f903d(0x28e)]+_0x4f903d(0x198)},{'quoted':_0x1e8587});}break;case _0x4f903d(0x898):case'toptt':{if(!/video/[_0x4f903d(0x956)](_0x24de29)&&!/audio/['test'](_0x24de29))throw _0x4f903d(0x48f)+(_0x4ade91+_0x179f46);if(!_0x20ebdd)throw'Reply\x20Video/Audio\x20Yang\x20Ingin\x20Dijadikan\x20VN\x20Dengan\x20Caption\x20'+(_0x4ade91+_0x179f46);_0x1e8587['reply'](mess[_0x4f903d(0x8a2)]);let _0x33fb65=await _0x20ebdd[_0x4f903d(0x487)](),{toPTT:_0x317436}=require(_0x4f903d(0x62f)),_0x3ba0a4=await _0x317436(_0x33fb65,_0x4f903d(0x66c));_0x3f28da['sendMessage'](_0x1e8587['chat'],{'audio':_0x3ba0a4,'mimetype':_0x4f903d(0x633),'ptt':!![]},{'quoted':_0x1e8587});}break;case _0x4f903d(0x339):{if(!_0x20ebdd)throw _0x4f903d(0x8bf);if(!/webp/[_0x4f903d(0x956)](_0x24de29))throw'balas\x20stiker\x20dengan\x20caption\x20*'+(_0x4ade91+_0x179f46)+'*';_0x1e8587['reply'](mess[_0x4f903d(0x8a2)]);let {webp2mp4File:_0x2a8f00}=require(_0x4f903d(0x393)),_0x947ff9=await _0x3f28da['downloadAndSaveMediaMessage'](_0x20ebdd),_0x4f32cd=await _0x2a8f00(_0x947ff9);await _0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],{'video':{'url':_0x4f32cd[_0x4f903d(0x1ed)],'caption':_0x4f903d(0x9b8)},'gifPlayback':!![]},{'quoted':_0x37ae15}),await fs[_0x4f903d(0x7cf)](_0x947ff9);}break;case _0x4f903d(0x4bc):{_0x1e8587[_0x4f903d(0x70d)](mess['wait']);let {UploadFileUgu:_0x53ff29,webp2mp4File:_0x281709,TelegraPh:_0x1f7194}=require(_0x4f903d(0x393)),_0x515354=await _0x3f28da['downloadAndSaveMediaMessage'](_0x20ebdd);if(/image/[_0x4f903d(0x956)](_0x24de29)){let _0x2b0968=await _0x1f7194(_0x515354);_0x1e8587[_0x4f903d(0x70d)](util[_0x4f903d(0x4ec)](_0x2b0968));}else{if(!/image/[_0x4f903d(0x956)](_0x24de29)){let _0x626ca0=await _0x53ff29(_0x515354);_0x1e8587[_0x4f903d(0x70d)](util[_0x4f903d(0x4ec)](_0x626ca0));}}await fs['unlinkSync'](_0x515354);}break;case'imagenobg':case _0x4f903d(0x398):case _0x4f903d(0x460):{if(!_0x20ebdd)throw'Kirim/Reply\x20Image\x20Dengan\x20Caption\x20'+(_0x4ade91+_0x179f46);if(!/image/[_0x4f903d(0x956)](_0x24de29))throw'Kirim/Reply\x20Image\x20Dengan\x20Caption\x20'+(_0x4ade91+_0x179f46);if(/webp/[_0x4f903d(0x956)](_0x24de29))throw _0x4f903d(0x527)+(_0x4ade91+_0x179f46);let _0x58017a=require(_0x4f903d(0x893)),_0x52719f=[_0x4f903d(0x648),_0x4f903d(0x9d7),_0x4f903d(0x45f),'aT7ibfUsGSwFyjaPZ9eoJc61','BY63t7Vx2tS68YZFY6AJ4HHF',_0x4f903d(0x8ed),_0x4f903d(0x80e),_0x4f903d(0x36e),'dWbCoCb3TacCP93imNEcPxcL'],_0x4b7ca6=_0x52719f[Math[_0x4f903d(0x461)](Math[_0x4f903d(0x846)]()*_0x52719f[_0x4f903d(0x36f)])];hmm=await'./src/remobg-'+getRandom(''),localFile=await _0x3f28da[_0x4f903d(0x712)](_0x20ebdd,hmm),outputFile=await _0x4f903d(0x1b0)+getRandom(_0x4f903d(0x4de)),_0x1e8587[_0x4f903d(0x70d)](mess['wait']),_0x58017a[_0x4f903d(0x489)]({'path':localFile,'apiKey':_0x4b7ca6,'size':_0x4f903d(0x50b),'type':_0x4f903d(0x4d3),'scale':_0x4f903d(0x45e),'outputFile':outputFile})['then'](async _0x3925ff=>{const _0x29bedd=_0x4f903d;_0x3f28da[_0x29bedd(0x682)](_0x1e8587['chat'],{'image':fs[_0x29bedd(0x7f5)](outputFile),'caption':mess[_0x29bedd(0x38c)]},{'quoted':_0x1e8587}),await fs[_0x29bedd(0x7cf)](localFile),await fs[_0x29bedd(0x7cf)](outputFile);});}break;case _0x4f903d(0x1e4):case _0x4f903d(0x29a):{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0x666);let _0x555e9b=require(_0x4f903d(0x1a2)),_0x16f2ee=await _0x555e9b(_0x496965),_0x5e6607=_0x4f903d(0x9e2)+_0x496965+'\x0a\x0a',_0x36ed46=0x1;for(let _0x5bb54c of _0x16f2ee['all']){_0x5e6607+=_0x4f903d(0x9a3)+_0x36ed46++ +_0x4f903d(0x21c)+_0x5bb54c[_0x4f903d(0x85f)]+_0x4f903d(0x6bd)+_0x5bb54c[_0x4f903d(0x50e)]+_0x4f903d(0x65b)+_0x5bb54c[_0x4f903d(0x549)]+_0x4f903d(0x1bc)+_0x5bb54c[_0x4f903d(0x3e5)]+_0x4f903d(0x20a)+_0x5bb54c['timestamp']+_0x4f903d(0x303)+_0x5bb54c['ago']+_0x4f903d(0x21b)+_0x5bb54c['author'][_0x4f903d(0x28e)]+'\x0a⭔\x20Url\x20:\x20'+_0x5bb54c[_0x4f903d(0x2cc)]+_0x4f903d(0x734);}_0x3f28da[_0x4f903d(0x682)](_0x1e8587['chat'],{'image':{'url':_0x16f2ee[_0x4f903d(0x39d)][0x0][_0x4f903d(0x9f8)]},'caption':_0x5e6607},{'quoted':_0x37ae15});}break;case'google':{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0x2db);_0x1e8587['reply'](mess[_0x4f903d(0x8a2)]);let _0x5dff32=require('google-it');_0x5dff32({'query':_0x496965})[_0x4f903d(0x245)](_0x3ee04a=>{const _0x242e02=_0x4f903d;let _0x4eb939=_0x242e02(0x7ea)+_0x496965+'\x0a\x0a';for(let _0xb6881 of _0x3ee04a){_0x4eb939+=_0x242e02(0x438)+_0xb6881[_0x242e02(0x549)]+'\x0a',_0x4eb939+=_0x242e02(0x3ee)+_0xb6881[_0x242e02(0x3f7)]+'\x0a',_0x4eb939+=_0x242e02(0x1a9)+_0xb6881[_0x242e02(0x194)]+_0x242e02(0x659);}_0x1e8587[_0x242e02(0x70d)](_0x4eb939);});}break;case _0x4f903d(0x2fc):{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+'\x20Akame';_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]);let _0xccf6fb=require(_0x4f903d(0x4d8));_0xccf6fb(_0x496965,async(_0x13cb76,_0x4172eb)=>{const _0x3e1684=_0x4f903d;n=_0x4172eb,images=n[Math[_0x3e1684(0x461)](Math[_0x3e1684(0x846)]()*n[_0x3e1684(0x36f)])]['url'];let _0x39e271=[{'buttonId':'gimage\x20'+_0x496965,'buttonText':{'displayText':_0x3e1684(0x581)},'type':0x1}],_0x3632c8={'image':{'url':images},'caption':'*-------「\x20GIMAGE\x20SEARCH\x20」-------*\x0a🤠\x20*Query*\x20:\x20'+_0x496965+_0x3e1684(0x8d3)+images,'footer':_0x3f28da[_0x3e1684(0x82e)][_0x3e1684(0x28e)],'buttons':_0x39e271,'headerType':0x4};_0x3f28da[_0x3e1684(0x682)](_0x1e8587[_0x3e1684(0x155)],_0x3632c8,{'quoted':_0x37ae15});});}break;case _0x4f903d(0x542):case'ytplay':{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0x666);_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]);if(!_0x2234d8&&global['db'][_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]<0x2)return _0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8dd)]);db[_0x4f903d(0x291)][_0x1e8587['sender']][_0x4f903d(0x41c)]-=0x2;let _0x36a12d=require(_0x4f903d(0x1a2)),_0x51ecb7=await _0x36a12d(_0x496965),_0x2f5279=_0x51ecb7['videos'][Math[_0x4f903d(0x461)](Math['random']()*_0x51ecb7['videos'][_0x4f903d(0x36f)])],_0x15090b=[{'buttonId':_0x4f903d(0x33d)+_0x2f5279['url'],'buttonText':{'displayText':_0x4f903d(0x747)},'type':0x1},{'buttonId':_0x4f903d(0x84b)+_0x2f5279[_0x4f903d(0x2cc)],'buttonText':{'displayText':_0x4f903d(0x860)},'type':0x1}],_0x46ff11={'image':{'url':_0x2f5279[_0x4f903d(0x9f8)]},'caption':_0x4f903d(0x9fc)+_0x2f5279[_0x4f903d(0x549)]+_0x4f903d(0x1e9)+_0x2f5279['videoId']+'\x0a⏳\x20Duration\x20:\x20'+_0x2f5279[_0x4f903d(0x505)]+_0x4f903d(0x24c)+_0x2f5279[_0x4f903d(0x3e5)]+_0x4f903d(0x807)+_0x2f5279[_0x4f903d(0x48a)]+_0x4f903d(0x418)+_0x2f5279[_0x4f903d(0x1f5)][_0x4f903d(0x28e)]+'\x0a💻\x20Channel\x20:\x20'+_0x2f5279[_0x4f903d(0x1f5)][_0x4f903d(0x2cc)]+_0x4f903d(0x6b9)+_0x2f5279[_0x4f903d(0x31c)]+'\x0a🔗\x20Url\x20:\x20'+_0x2f5279[_0x4f903d(0x2cc)],'footer':_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],'buttons':_0x15090b,'headerType':0x4};_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],_0x46ff11,{'quoted':_0x37ae15});}break;case _0x4f903d(0x9b9):case'ytaudio':{let {yta:_0x4c1c06}=require(_0x4f903d(0x2b8));if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0x739);_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]);if(!_0x2234d8&&global['db'][_0x4f903d(0x291)][_0x1e8587['sender']][_0x4f903d(0x41c)]<0x2)return _0x1e8587['reply'](mess[_0x4f903d(0x8dd)]);db[_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]-=0x2;let _0x1ab00d=_0x1a5e8a[0x1]?_0x1a5e8a[0x1]:_0x4f903d(0x78e),_0x50df66=await _0x4c1c06(_0x496965,_0x1ab00d);if(_0x50df66['filesize']>=0x186a0)return _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x8a6)+_0x50df66['dl_link']);_0x3f28da['sendImage'](_0x1e8587[_0x4f903d(0x155)],_0x50df66[_0x4f903d(0x34c)],_0x4f903d(0x75f)+_0x50df66[_0x4f903d(0x549)]+_0x4f903d(0x485)+_0x50df66[_0x4f903d(0x5ad)]+_0x4f903d(0x37a)+isUrl(_0x496965)+_0x4f903d(0x9e1)+(_0x1a5e8a[0x1]||'128kbps'),_0x1e8587),_0x3f28da['sendMessage'](_0x1e8587[_0x4f903d(0x155)],{'audio':{'url':_0x50df66['dl_link']},'mimetype':'audio/mpeg','fileName':_0x50df66[_0x4f903d(0x549)]+_0x4f903d(0x198)},{'quoted':_0x37ae15});}break;case _0x4f903d(0x69f):case _0x4f903d(0x1a1):{let {ytv:_0x457c49}=require(_0x4f903d(0x2b8));if(!_0x496965)throw'Contoh\x20:\x20'+(_0x4ade91+_0x179f46)+_0x4f903d(0x853);_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]);if(!_0x2234d8&&global['db'][_0x4f903d(0x291)][_0x1e8587['sender']][_0x4f903d(0x41c)]<0x2)return _0x1e8587['reply'](mess[_0x4f903d(0x8dd)]);db[_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]-=0x2;let _0x3f12aa=_0x1a5e8a[0x1]?_0x1a5e8a[0x1]:_0x4f903d(0x317),_0x24f91b=await _0x457c49(_0x496965,_0x3f12aa);if(_0x24f91b[_0x4f903d(0x420)]>=0x186a0)return _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x8a6)+_0x24f91b[_0x4f903d(0x49c)]);_0x3f28da[_0x4f903d(0x682)](_0x1e8587['chat'],{'video':{'url':_0x24f91b[_0x4f903d(0x49c)]},'mimetype':_0x4f903d(0x504),'fileName':_0x24f91b[_0x4f903d(0x549)]+'.mp4','caption':_0x4f903d(0x75f)+_0x24f91b['title']+_0x4f903d(0x485)+_0x24f91b['filesizeF']+'\x0a🔗\x20Url\x20:\x20'+isUrl(_0x496965)+_0x4f903d(0x45c)+(_0x1a5e8a[0x1]||_0x4f903d(0x317))},{'quoted':_0x37ae15});}break;case _0x4f903d(0x80a):{let {yta:_0xf1ff0e}=require(_0x4f903d(0x2b8));if(!_0x496965)throw'Contoh\x20:\x20'+(_0x4ade91+_0x179f46)+'\x201';if(!_0x1e8587['quoted'])return _0x1e8587['reply']('Reply\x20Pesan');if(!_0x1e8587[_0x4f903d(0x779)][_0x4f903d(0x52f)])throw _0x4f903d(0x6c3);let _0x2cfcfe=_0x20ebdd[_0x4f903d(0x25a)][_0x4f903d(0x69b)](new RegExp(/(?:https?:\/\/)?(?:youtu\.be\/|(?:www\.|m\.)?youtube\.com\/(?:watch|v|embed|shorts)(?:\.php)?(?:\?.*v=|\/))([a-zA-Z0-9\_-]+)/,'gi'));if(!_0x2cfcfe)throw'Mungkin\x20Pesan\x20Yang\x20Anda\x20Reply\x20Tidak\x20Mengandung\x20Result\x20Ytsearch';_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]);let _0x10d13b=_0x1a5e8a[0x1]?_0x1a5e8a[0x1]:_0x4f903d(0x78e),_0xd1598f=await _0xf1ff0e(_0x2cfcfe[_0x496965-0x1],_0x10d13b);if(_0xd1598f[_0x4f903d(0x420)]>=0x186a0)return _0x1e8587['reply'](_0x4f903d(0x573)+util[_0x4f903d(0x4ec)](_0xd1598f));_0x3f28da[_0x4f903d(0x185)](_0x1e8587['chat'],_0xd1598f['thumb'],_0x4f903d(0x5e1)+_0xd1598f['title']+_0x4f903d(0x628)+_0xd1598f[_0x4f903d(0x5ad)]+_0x4f903d(0x723)+_0xd1598f[_0x4f903d(0x49c)]+'\x0a⭔\x20Ext\x20:\x20MP3\x0a⭔\x20Resolusi\x20:\x20'+(_0x1a5e8a[0x1]||_0x4f903d(0x78e)),_0x1e8587),_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],{'audio':{'url':_0xd1598f[_0x4f903d(0x49c)]},'mimetype':_0x4f903d(0x633),'fileName':_0xd1598f[_0x4f903d(0x549)]+_0x4f903d(0x198)},{'quoted':_0x37ae15});}break;case _0x4f903d(0x1cc):{let {ytv:_0x15998d}=require(_0x4f903d(0x2b8));if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+'\x201';if(!_0x1e8587[_0x4f903d(0x779)])return _0x1e8587['reply'](_0x4f903d(0x761));if(!_0x1e8587[_0x4f903d(0x779)][_0x4f903d(0x52f)])throw _0x4f903d(0x6c3);let _0x2f641f=_0x20ebdd['text']['match'](new RegExp(/(?:https?:\/\/)?(?:youtu\.be\/|(?:www\.|m\.)?youtube\.com\/(?:watch|v|embed|shorts)(?:\.php)?(?:\?.*v=|\/))([a-zA-Z0-9\_-]+)/,'gi'));if(!_0x2f641f)throw _0x4f903d(0x8be);_0x1e8587['reply'](mess[_0x4f903d(0x8a2)]);let _0x7f7dba=_0x1a5e8a[0x1]?_0x1a5e8a[0x1]:'360p',_0x1ac080=await _0x15998d(_0x2f641f[_0x496965-0x1],_0x7f7dba);if(_0x1ac080[_0x4f903d(0x420)]>=0x186a0)return _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x573)+util[_0x4f903d(0x4ec)](_0x1ac080));_0x3f28da[_0x4f903d(0x682)](_0x1e8587['chat'],{'video':{'url':_0x1ac080[_0x4f903d(0x49c)]},'mimetype':_0x4f903d(0x504),'fileName':_0x1ac080[_0x4f903d(0x549)]+_0x4f903d(0x34d),'caption':'⭔\x20Title\x20:\x20'+_0x1ac080[_0x4f903d(0x549)]+_0x4f903d(0x628)+_0x1ac080['filesizeF']+_0x4f903d(0x723)+_0x1ac080[_0x4f903d(0x49c)]+_0x4f903d(0x875)+(_0x1a5e8a[0x1]||_0x4f903d(0x317))},{'quoted':_0x37ae15});}break;case _0x4f903d(0x4bd):{_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]);let {pinterest:_0x27d039}=require('./lib/scraper');anu=await _0x27d039(_0x496965),result=anu[Math[_0x4f903d(0x461)](Math[_0x4f903d(0x846)]()*anu['length'])],_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],{'image':{'url':result},'caption':_0x4f903d(0x6bc)+result},{'quoted':_0x37ae15});}break;case _0x4f903d(0x84a):case _0x4f903d(0x567):case _0x4f903d(0x2c7):case _0x4f903d(0x645):case _0x4f903d(0x1bb):case _0x4f903d(0x292):case _0x4f903d(0x6de):case _0x4f903d(0x915):case _0x4f903d(0x1d1):case _0x4f903d(0x6ed):{_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]);if(!_0x2234d8&&global['db'][_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]<0x1)return _0x1e8587['reply'](mess[_0x4f903d(0x8dd)]);db['users'][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]-=0x1;let _0x2d07e0=[{'buttonId':''+_0x179f46,'buttonText':{'displayText':_0x4f903d(0x581)},'type':0x1}],_0x47b9d8={'image':{'url':api('zenz',_0x4f903d(0x9e8)+_0x179f46,{},_0x4f903d(0x950))},'caption':_0x4f903d(0x55f)+_0x179f46,'footer':_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],'buttons':_0x2d07e0,'headerType':0x4};_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],_0x47b9d8,{'quoted':_0x37ae15});}break;case _0x4f903d(0x159):{_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]);if(!_0x2234d8&&global['db'][_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]<0x1)return _0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8dd)]);db[_0x4f903d(0x291)][_0x1e8587['sender']][_0x4f903d(0x41c)]-=0x1;let _0x3548a6=[{'buttonId':'kitagawa','buttonText':{'displayText':_0x4f903d(0x581)},'type':0x1}],_0x1e1a12={'image':{'url':api(_0x4f903d(0x66f),_0x4f903d(0x6ff),{},_0x4f903d(0x950))},'caption':_0x4f903d(0x3e0),'footer':_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],'buttons':_0x3548a6,'headerType':0x4};_0x3f28da[_0x4f903d(0x682)](_0x1e8587['chat'],_0x1e1a12,{'quoted':_0x37ae15});}break;case _0x4f903d(0x58f):{_0x1e8587['reply'](mess[_0x4f903d(0x8a2)]);if(!_0x2234d8&&global['db'][_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]<0x1)return _0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8dd)]);db['users'][_0x1e8587['sender']][_0x4f903d(0x41c)]-=0x1;let _0x3a2f02=[{'buttonId':_0x4f903d(0x58f),'buttonText':{'displayText':_0x4f903d(0x581)},'type':0x1}],_0x46d39d={'image':{'url':api(_0x4f903d(0x66f),_0x4f903d(0x993),{},_0x4f903d(0x950))},'caption':_0x4f903d(0x942),'footer':_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],'buttons':_0x3a2f02,'headerType':0x4};_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],_0x46d39d,{'quoted':_0x37ae15});}break;case'raiden':{_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]);if(!_0x2234d8&&global['db']['users'][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]<0x1)return _0x1e8587[_0x4f903d(0x70d)](mess['endLimit']);db[_0x4f903d(0x291)][_0x1e8587['sender']][_0x4f903d(0x41c)]-=0x1;let _0xac48c6=[{'buttonId':_0x4f903d(0x4f7),'buttonText':{'displayText':_0x4f903d(0x581)},'type':0x1}],_0x4f7f90={'image':{'url':api('zenz',_0x4f903d(0x7fc),{},_0x4f903d(0x950))},'caption':'Random\x20Image\x20Raiden\x20Shogun','footer':_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],'buttons':_0xac48c6,'headerType':0x4};_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],_0x4f7f90,{'quoted':_0x37ae15});}break;case _0x4f903d(0x3a9):{_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]);if(!_0x2234d8&&global['db'][_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]<0x1)return _0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8dd)]);db[_0x4f903d(0x291)][_0x1e8587['sender']]['limit']-=0x1;let _0x45c29e=[{'buttonId':_0x4f903d(0x3a9),'buttonText':{'displayText':_0x4f903d(0x581)},'type':0x1}],_0x2d4213={'image':{'url':api(_0x4f903d(0x66f),_0x4f903d(0x435),{},_0x4f903d(0x950))},'caption':'Random\x20Image\x20Patrick','footer':_0x3f28da['user'][_0x4f903d(0x28e)],'buttons':_0x45c29e,'headerType':0x4};_0x3f28da['sendMessage'](_0x1e8587[_0x4f903d(0x155)],_0x2d4213,{'quoted':_0x37ae15});}break;case _0x4f903d(0x4fd):case _0x4f903d(0x33a):case _0x4f903d(0x668):case _0x4f903d(0x890):case _0x4f903d(0x34a):case _0x4f903d(0x1d8):case _0x4f903d(0x67d):case _0x4f903d(0x5b0):case _0x4f903d(0x8c4):case'gangbang':case'glasses':case _0x4f903d(0x2fd):case _0x4f903d(0x992):case _0x4f903d(0x797):case _0x4f903d(0x539):case _0x4f903d(0x529):case _0x4f903d(0x53f):case'tentacles':case'thighs':case _0x4f903d(0x841):case _0x4f903d(0x9da):{if(_0x1e8587[_0x4f903d(0x814)])throw mess[_0x4f903d(0x40e)];_0x1e8587[_0x4f903d(0x70d)](mess['wait']);if(!_0x2234d8&&global['db']['users'][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]<0x2)return _0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8dd)]);db[_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]-=0x2;let _0x3c1c68=[{'buttonId':''+_0x179f46,'buttonText':{'displayText':_0x4f903d(0x581)},'type':0x1}],_0x2dd9be={'image':{'url':api(_0x4f903d(0x66f),_0x4f903d(0x248)+_0x179f46,{},_0x4f903d(0x950))},'caption':_0x4f903d(0x87d),'footer':_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],'buttons':_0x3c1c68,'headerType':0x4};_0x3f28da['sendMessage'](_0x1e8587['chat'],_0x2dd9be,{'quoted':_0x37ae15});}break;case _0x4f903d(0x8bb):case _0x4f903d(0x1ec):case _0x4f903d(0x756):{_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]);if(!_0x2234d8&&global['db'][_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]<0x1)return _0x1e8587['reply'](mess[_0x4f903d(0x8dd)]);db[_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]-=0x1;let _0x10a2d3=[{'buttonId':''+_0x179f46,'buttonText':{'displayText':_0x4f903d(0x581)},'type':0x1}],_0x320a8e={'image':{'url':api('zenz',_0x4f903d(0x72a)+_0x179f46,{},_0x4f903d(0x950))},'caption':'Random\x20Image\x20'+_0x179f46,'footer':_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],'buttons':_0x10a2d3,'headerType':0x4};_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],_0x320a8e,{'quoted':_0x37ae15});}break;case _0x4f903d(0x5b1):case _0x4f903d(0x26a):case _0x4f903d(0x3a3):case _0x4f903d(0x412):case _0x4f903d(0x4f6):case'notnot':case _0x4f903d(0x27e):case _0x4f903d(0x9cf):case _0x4f903d(0x716):case _0x4f903d(0x7a1):{_0x1e8587[_0x4f903d(0x70d)](mess['wait']);if(!_0x2234d8&&global['db'][_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]<0x1)return _0x1e8587[_0x4f903d(0x70d)](mess['endLimit']);db[_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]-=0x1;let _0x5a9184=[{'buttonId':''+_0x179f46,'buttonText':{'displayText':_0x4f903d(0x581)},'type':0x1}],_0x4eb29e={'image':{'url':api('zenz',_0x4f903d(0x348)+_0x179f46,{},'apikey')},'caption':_0x4f903d(0x82c)+_0x179f46,'footer':_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],'buttons':_0x5a9184,'headerType':0x4};_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],_0x4eb29e,{'quoted':_0x37ae15});}break;case _0x4f903d(0x377):case _0x4f903d(0x407):case _0x4f903d(0x689):case _0x4f903d(0x3b0):{_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]);if(!_0x2234d8&&global['db'][_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]<0x1)return _0x1e8587['reply'](mess['endLimit']);db[_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]-=0x1;let _0x354c45=[{'buttonId':''+_0x179f46,'buttonText':{'displayText':_0x4f903d(0x381)},'type':0x1}],_0x5353bc={'video':{'url':api(_0x4f903d(0x66f),'/randomasupan/'+_0x179f46,{},_0x4f903d(0x950))},'caption':_0x4f903d(0x82c)+_0x179f46,'footer':_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],'buttons':_0x354c45,'headerType':0x4};_0x3f28da['sendMessage'](_0x1e8587[_0x4f903d(0x155)],_0x5353bc,{'quoted':_0x37ae15});}break;case _0x4f903d(0x75a):{_0x1e8587['reply'](mess['wait']);let _0x52c872=await fetchJson(_0x4f903d(0x563));if(!_0x2234d8&&global['db'][_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]<0x1)return _0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8dd)]);db[_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]-=0x1;let _0x3a2b5c=_0x52c872[Math[_0x4f903d(0x461)](Math[_0x4f903d(0x846)]()*_0x52c872['length'])];_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],{'image':{'url':_0x3a2b5c[_0x4f903d(0x5e7)]},'caption':_0x4f903d(0x815)},{'quoted':_0x37ae15}),_0x3f28da['sendMessage'](_0x1e8587[_0x4f903d(0x155)],{'image':{'url':_0x3a2b5c[_0x4f903d(0x38d)]},'caption':_0x4f903d(0x8e6)},{'quoted':_0x37ae15});}break;case _0x4f903d(0x4e1):case _0x4f903d(0x821):{_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]);if(!_0x2234d8&&global['db'][_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]<0x1)return _0x1e8587[_0x4f903d(0x70d)](mess['endLimit']);db[_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]-=0x1;let _0x13603e=[{'buttonId':_0x4f903d(0x4e1),'buttonText':{'displayText':_0x4f903d(0x581)},'type':0x1}],_0x19c71b={'image':{'url':_0x4f903d(0x64c)},'caption':_0x4f903d(0x330),'footer':_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],'buttons':_0x13603e,'headerType':0x4};_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],_0x19c71b,{'quoted':_0x37ae15});}break;case _0x4f903d(0x9dc):{if(!_0x496965)throw _0x4f903d(0x92d);let {wallpaper:_0x12a7ac}=require(_0x4f903d(0x215));anu=await _0x12a7ac(_0x496965),result=anu[Math[_0x4f903d(0x461)](Math[_0x4f903d(0x846)]()*anu[_0x4f903d(0x36f)])];let _0x40ba73=[{'buttonId':_0x4f903d(0x773)+_0x496965,'buttonText':{'displayText':'⌲\x20Next\x20Image'},'type':0x1}],_0x20ff71={'image':{'url':result[_0x4f903d(0x709)][0x0]},'caption':_0x4f903d(0x5e1)+result[_0x4f903d(0x549)]+_0x4f903d(0x361)+result[_0x4f903d(0x85f)]+_0x4f903d(0x745)+result[_0x4f903d(0x254)]+_0x4f903d(0x309)+(result[_0x4f903d(0x709)][0x2]||result[_0x4f903d(0x709)][0x1]||result[_0x4f903d(0x709)][0x0]),'footer':_0x3f28da[_0x4f903d(0x82e)]['name'],'buttons':_0x40ba73,'headerType':0x4};_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],_0x20ff71,{'quoted':_0x37ae15});}break;case _0x4f903d(0x912):{if(!_0x496965)throw _0x4f903d(0x691);let {wikimedia:_0xb6f17a}=require(_0x4f903d(0x215));anu=await _0xb6f17a(_0x496965),result=anu[Math[_0x4f903d(0x461)](Math[_0x4f903d(0x846)]()*anu['length'])];let _0x15552e=[{'buttonId':_0x4f903d(0x837)+_0x496965,'buttonText':{'displayText':_0x4f903d(0x581)},'type':0x1}],_0x38e453={'image':{'url':result[_0x4f903d(0x709)]},'caption':_0x4f903d(0x75f)+result[_0x4f903d(0x549)]+_0x4f903d(0x7ca)+result['source']+_0x4f903d(0x1eb)+result[_0x4f903d(0x709)],'footer':_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],'buttons':_0x15552e,'headerType':0x4};_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],_0x38e453,{'quoted':_0x37ae15});}break;case _0x4f903d(0x43b):case _0x4f903d(0x998):{let {quotesAnime:_0x2ebfc4}=require('./lib/scraper');if(!_0x2234d8&&global['db'][_0x4f903d(0x291)][_0x1e8587['sender']][_0x4f903d(0x41c)]<0x1)return _0x1e8587['reply'](mess[_0x4f903d(0x8dd)]);db[_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]-=0x1;let _0x4c462e=await _0x2ebfc4();result=_0x4c462e[Math['floor'](Math[_0x4f903d(0x846)]()*_0x4c462e[_0x4f903d(0x36f)])];let _0x146b72=[{'buttonId':_0x4f903d(0x43b),'buttonText':{'displayText':'⌲\x20Next\x20Quotes'},'type':0x1}],_0x76bfa4={'text':'~_'+result[_0x4f903d(0x28f)]+_0x4f903d(0x818)+result[_0x4f903d(0x9e6)]+_0x4f903d(0x771)+result[_0x4f903d(0x6ba)]+_0x4f903d(0x59c)+result['up_at'],'footer':_0x4f903d(0x1f0),'buttons':_0x146b72,'headerType':0x2};_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],_0x76bfa4,{'quoted':_0x37ae15});}break;case _0x4f903d(0x68b):{if(!_0x2234d8&&global['db'][_0x4f903d(0x291)][_0x1e8587['sender']][_0x4f903d(0x41c)]<0x1)return _0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8dd)]);db[_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]-=0x1;let _0x2bff55=await fetchJson(api(_0x4f903d(0x66f),_0x4f903d(0x848),{},_0x4f903d(0x950))),_0x5ab80b=[{'buttonId':_0x4f903d(0x68b),'buttonText':{'displayText':_0x4f903d(0x59e)},'type':0x1}],_0x499c05={'text':'~_'+_0x2bff55[_0x4f903d(0x1ed)][_0x4f903d(0x28f)]+_0x4f903d(0x818)+_0x2bff55[_0x4f903d(0x1ed)][_0x4f903d(0x770)]+'\x27,\x20'+_0x2bff55[_0x4f903d(0x1ed)][_0x4f903d(0x6ba)]+_0x4f903d(0x59c)+_0x2bff55[_0x4f903d(0x1ed)][_0x4f903d(0x6bb)],'footer':_0x4f903d(0x1f0),'buttons':_0x5ab80b,'headerType':0x2};_0x3f28da[_0x4f903d(0x682)](_0x1e8587['chat'],_0x499c05,{'quoted':_0x37ae15});}break;case _0x4f903d(0x2aa):case _0x4f903d(0x95d):case'bucinquote':case _0x4f903d(0x63e):case _0x4f903d(0x98c):case _0x4f903d(0x151):case _0x4f903d(0x2ec):case _0x4f903d(0x9d6):case _0x4f903d(0x702):case _0x4f903d(0x3c6):case _0x4f903d(0x85c):case'faktaunik':case _0x4f903d(0x16d):case'pantun':{if(!_0x2234d8&&global['db']['users'][_0x1e8587['sender']][_0x4f903d(0x41c)]<0x1)return _0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8dd)]);db['users'][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]-=0x1;let _0x512d66=await fetchJson(api('zenz',_0x4f903d(0x667)+_0x179f46,{},_0x4f903d(0x950))),_0x38ff10=[{'buttonId':''+_0x179f46,'buttonText':{'displayText':_0x4f903d(0x59e)},'type':0x1}],_0x3d630b={'text':_0x512d66[_0x4f903d(0x1ed)]['message'],'footer':_0x4f903d(0x1f0),'buttons':_0x38ff10,'headerType':0x2};_0x3f28da[_0x4f903d(0x682)](_0x1e8587['chat'],_0x3d630b,{'quoted':_0x37ae15});}break;case _0x4f903d(0x64f):{if(!_0x2234d8&&global['db'][_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]<0x1)return _0x1e8587['reply'](mess[_0x4f903d(0x8dd)]);db['users'][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]-=0x1;let _0x31b9c4=await fetchJson(api(_0x4f903d(0x66f),_0x4f903d(0x667)+_0x179f46,{},_0x4f903d(0x950))),_0x4ca568=[{'buttonId':''+_0x179f46,'buttonText':{'displayText':'⌲\x20Next\x20Quotes'},'type':0x1}],_0x12b8ed={'text':_0x4f903d(0x654)+_0x31b9c4[_0x4f903d(0x1ed)][_0x4f903d(0x955)]+_0x4f903d(0x637)+_0x31b9c4[_0x4f903d(0x1ed)][_0x4f903d(0x5be)]+'\x0a\x0a'+_0x31b9c4['result']['cerita'],'footer':_0x4f903d(0x1f0),'buttons':_0x4ca568,'headerType':0x2};_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],_0x12b8ed,{'quoted':_0x37ae15});}break;case'3dchristmas':case _0x4f903d(0x8a5):case _0x4f903d(0x403):case _0x4f903d(0x7e5):case'3drainbow':case _0x4f903d(0x213):case _0x4f903d(0x831):case _0x4f903d(0x39f):case _0x4f903d(0x7a6):case _0x4f903d(0x46d):case'metallic':case _0x4f903d(0x733):case _0x4f903d(0x338):case'transformer':case _0x4f903d(0x801):case _0x4f903d(0x693):case'magma':case'3dcrackedstone':case _0x4f903d(0x5b3):case _0x4f903d(0x4e2):case'naturalleaves':case'fireworksparkle':case'matrix':case _0x4f903d(0x2e0):case _0x4f903d(0x355):case _0x4f903d(0x629):case'neondevils':case _0x4f903d(0x249):case _0x4f903d(0x5fb):case _0x4f903d(0x803):case _0x4f903d(0x447):{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+'\x20text';_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]),_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],{'image':{'url':api(_0x4f903d(0x66f),_0x4f903d(0x270)+_0x179f46,{'text':_0x496965},_0x4f903d(0x950))},'caption':_0x4f903d(0x70b)+_0x179f46},{'quoted':_0x37ae15});}break;case _0x4f903d(0x2f3):case'contrast':case _0x4f903d(0x9fd):case _0x4f903d(0x717):case _0x4f903d(0x6cc):case'brighten':case'greyscale':case'circle':case _0x4f903d(0x2fe):case'invert':case _0x4f903d(0x2d4):case'upscale':case _0x4f903d(0x241):case'wasted':case'passed':case _0x4f903d(0x67f):case _0x4f903d(0x424):case _0x4f903d(0x205):{if(!/image/[_0x4f903d(0x956)](_0x24de29))return _0x1e8587['reply'](_0x4f903d(0x4af));_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]);let _0x4e6b6b=await _0x20ebdd[_0x4f903d(0x487)](),{floNime:_0x17e539}=require(_0x4f903d(0x393)),_0x587828=await _0x17e539(_0x4e6b6b),_0x22eb18=api(_0x4f903d(0x66f),_0x4f903d(0x2fa)+_0x179f46,{'url':_0x587828['result']['url']},_0x4f903d(0x950)),_0x5f1586=await _0x3f28da[_0x4f903d(0x19d)](_0x1e8587[_0x4f903d(0x155)],_0x22eb18,_0x1e8587,{'packname':global[_0x4f903d(0x8c6)],'author':global['author']});await fs[_0x4f903d(0x7cf)](_0x5f1586);}break;case'logo2':case _0x4f903d(0x76a):case _0x4f903d(0x20c):case _0x4f903d(0x2ce):case _0x4f903d(0x961):case _0x4f903d(0x809):case _0x4f903d(0x9d8):case _0x4f903d(0x612):case _0x4f903d(0x77f):case _0x4f903d(0x17e):case _0x4f903d(0x241):case _0x4f903d(0x8cf):case _0x4f903d(0x9bf):case _0x4f903d(0x396):case _0x4f903d(0x4e7):case _0x4f903d(0x4cd):case'kaligrafi':case _0x4f903d(0x99f):case _0x4f903d(0x28f):case _0x4f903d(0x823):case _0x4f903d(0x3a7):case'musimsemi':case _0x4f903d(0x76d):case _0x4f903d(0x15a):case _0x4f903d(0x57a):case _0x4f903d(0x51f):case _0x4f903d(0x903):case _0x4f903d(0x803):case'cake':case'flashlight':case _0x4f903d(0x452):case _0x4f903d(0x786):case _0x4f903d(0x3cb):case _0x4f903d(0x458):case _0x4f903d(0x66a):{if(!_0x496965)throw _0x4f903d(0x696);_0x1e8587['reply'](mess[_0x4f903d(0x8a2)]),_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],{'image':{'url':api(_0x4f903d(0x66f),'/ephoto/'+_0x179f46,{'text':_0x496965},_0x4f903d(0x950))},'caption':_0x4f903d(0x7a7)+_0x179f46},{'quoted':_0x37ae15});}break;case'nomerhoki':case _0x4f903d(0x763):{if(!Number(_0x496965))throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0x8e0);let _0x321f81=await primbon[_0x4f903d(0x8aa)](Number(_0x496965));if(_0x321f81[_0x4f903d(0x765)]==![])return _0x1e8587[_0x4f903d(0x70d)](_0x321f81[_0x4f903d(0x7d4)]);_0x3f28da[_0x4f903d(0x971)](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x726)+_0x321f81[_0x4f903d(0x7d4)]['nomer_hp']+_0x4f903d(0x3b6)+_0x321f81[_0x4f903d(0x7d4)][_0x4f903d(0x90f)]+'\x0a⭔\x20*Energi\x20Positif\x20:*\x0a-\x20Kekayaan\x20:\x20'+_0x321f81['message']['energi_positif'][_0x4f903d(0x83c)]+_0x4f903d(0x1d5)+_0x321f81[_0x4f903d(0x7d4)][_0x4f903d(0x4fb)][_0x4f903d(0x994)]+_0x4f903d(0x1ac)+_0x321f81[_0x4f903d(0x7d4)][_0x4f903d(0x4fb)]['cinta']+_0x4f903d(0x2d2)+_0x321f81[_0x4f903d(0x7d4)]['energi_positif'][_0x4f903d(0x611)]+_0x4f903d(0x3f2)+_0x321f81['message'][_0x4f903d(0x4fb)][_0x4f903d(0x58e)]+_0x4f903d(0x6fd)+_0x321f81[_0x4f903d(0x7d4)]['energi_negatif'][_0x4f903d(0x4f2)]+_0x4f903d(0x5cf)+_0x321f81[_0x4f903d(0x7d4)][_0x4f903d(0x996)][_0x4f903d(0x313)]+_0x4f903d(0x1c1)+_0x321f81[_0x4f903d(0x7d4)]['energi_negatif'][_0x4f903d(0x275)]+_0x4f903d(0x4c4)+_0x321f81[_0x4f903d(0x7d4)][_0x4f903d(0x996)][_0x4f903d(0x32c)]+_0x4f903d(0x3f2)+_0x321f81[_0x4f903d(0x7d4)][_0x4f903d(0x996)][_0x4f903d(0x58e)],_0x1e8587);}break;case _0x4f903d(0x82d):case _0x4f903d(0x849):{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0x7b6);let _0x57b987=await primbon['tafsir_mimpi'](_0x496965);if(_0x57b987[_0x4f903d(0x765)]==![])return _0x1e8587[_0x4f903d(0x70d)](_0x57b987[_0x4f903d(0x7d4)]);_0x3f28da[_0x4f903d(0x971)](_0x1e8587[_0x4f903d(0x155)],'⭔\x20*Mimpi\x20:*\x20'+_0x57b987[_0x4f903d(0x7d4)][_0x4f903d(0x61a)]+_0x4f903d(0x2e2)+_0x57b987[_0x4f903d(0x7d4)][_0x4f903d(0x86e)]+_0x4f903d(0x1f3)+_0x57b987[_0x4f903d(0x7d4)]['solusi'],_0x1e8587);}break;case _0x4f903d(0xa0b):case _0x4f903d(0x2bf):{if(!_0x496965)throw'Contoh\x20:\x20'+(_0x4ade91+_0x179f46)+'\x20Dika,\x207,\x207,\x202005,\x20Novia,\x2016,\x2011,\x202004';let [_0x1d78d9,_0x1d3e2f,_0x4aedb1,_0x2c70a1,_0x38d37b,_0x486ddc,_0x5de14e,_0x499019]=_0x496965['split']`,`,_0x391399=await primbon[_0x4f903d(0x8cc)](_0x1d78d9,_0x1d3e2f,_0x4aedb1,_0x2c70a1,_0x38d37b,_0x486ddc,_0x5de14e,_0x499019);if(_0x391399[_0x4f903d(0x765)]==![])return _0x1e8587[_0x4f903d(0x70d)](_0x391399['message']);_0x3f28da['sendText'](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x409)+_0x391399[_0x4f903d(0x7d4)][_0x4f903d(0x6e3)][_0x4f903d(0x9ae)]+_0x4f903d(0x5c8)+_0x391399[_0x4f903d(0x7d4)][_0x4f903d(0x6e3)][_0x4f903d(0x951)]+_0x4f903d(0x299)+_0x391399[_0x4f903d(0x7d4)][_0x4f903d(0x244)][_0x4f903d(0x9ae)]+_0x4f903d(0x45d)+_0x391399['message'][_0x4f903d(0x244)][_0x4f903d(0x951)]+_0x4f903d(0x328)+_0x391399[_0x4f903d(0x7d4)][_0x4f903d(0x1ed)]+_0x4f903d(0x20b)+_0x391399[_0x4f903d(0x7d4)][_0x4f903d(0x1c8)],_0x1e8587);}break;case _0x4f903d(0x67b):case _0x4f903d(0x223):{if(!_0x496965)throw'Contoh\x20:\x20'+(_0x4ade91+_0x179f46)+'\x20Dika,\x207,\x207,\x202005,\x20Novia,\x2016,\x2011,\x202004';let [_0x12227d,_0x3c0b71,_0x5e3a7c,_0x2256a2,_0x39c5a9,_0x1330ad,_0x269ad9,_0x1ef298]=_0x496965[_0x4f903d(0x87c)]`,`,_0x728265=await primbon[_0x4f903d(0x535)](_0x12227d,_0x3c0b71,_0x5e3a7c,_0x2256a2,_0x39c5a9,_0x1330ad,_0x269ad9,_0x1ef298);if(_0x728265['status']==![])return _0x1e8587[_0x4f903d(0x70d)](_0x728265['message']);_0x3f28da['sendText'](_0x1e8587['chat'],_0x4f903d(0x409)+_0x728265[_0x4f903d(0x7d4)][_0x4f903d(0x6e3)][_0x4f903d(0x9ae)]+_0x4f903d(0x5c8)+_0x728265[_0x4f903d(0x7d4)][_0x4f903d(0x6e3)][_0x4f903d(0x951)]+_0x4f903d(0x299)+_0x728265[_0x4f903d(0x7d4)]['nama_pasangan'][_0x4f903d(0x9ae)]+_0x4f903d(0x45d)+_0x728265[_0x4f903d(0x7d4)][_0x4f903d(0x244)][_0x4f903d(0x951)]+_0x4f903d(0x328)+_0x728265[_0x4f903d(0x7d4)][_0x4f903d(0x1ed)]+_0x4f903d(0x20b)+_0x728265[_0x4f903d(0x7d4)][_0x4f903d(0x1c8)],_0x1e8587);}break;case _0x4f903d(0x882):{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+'\x20Dika,\x207,\x207,\x202005,\x20Novia,\x2016,\x2011,\x202004';let [_0x225624,_0x284206,_0x25bc05,_0x5134a5,_0x2d045b,_0x1fcd75,_0x138e21,_0x5b3350]=_0x496965[_0x4f903d(0x87c)]`,`,_0x1ae7b0=await primbon[_0x4f903d(0x493)](_0x225624,_0x284206,_0x25bc05,_0x5134a5,_0x2d045b,_0x1fcd75,_0x138e21,_0x5b3350);if(_0x1ae7b0[_0x4f903d(0x765)]==![])return _0x1e8587[_0x4f903d(0x70d)](_0x1ae7b0[_0x4f903d(0x7d4)]);_0x3f28da[_0x4f903d(0x971)](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x947)+_0x1ae7b0['message']['suami'][_0x4f903d(0x9ae)]+_0x4f903d(0x492)+_0x1ae7b0[_0x4f903d(0x7d4)][_0x4f903d(0x5df)][_0x4f903d(0x951)]+_0x4f903d(0x3bc)+_0x1ae7b0[_0x4f903d(0x7d4)][_0x4f903d(0x90d)][_0x4f903d(0x9ae)]+_0x4f903d(0x77c)+_0x1ae7b0[_0x4f903d(0x7d4)]['istri'][_0x4f903d(0x951)]+'\x0a⭔\x20*Hasil\x20:*\x20'+_0x1ae7b0[_0x4f903d(0x7d4)][_0x4f903d(0x1ed)]+_0x4f903d(0x20b)+_0x1ae7b0['message']['catatan'],_0x1e8587);}break;case _0x4f903d(0x8d2):case _0x4f903d(0x238):{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+'\x20Dika,\x207,\x207,\x202005,\x20Novia,\x2016,\x2011,\x202004';let [_0x336357,_0x280510,_0x5a695b,_0x39ee68,_0x561883,_0x501fbe,_0x5af736,_0x58ee22]=_0x496965[_0x4f903d(0x87c)]`,`,_0x1eb3fa=await primbon[_0x4f903d(0x2ac)](_0x336357,_0x280510,_0x5a695b,_0x39ee68,_0x561883,_0x501fbe,_0x5af736,_0x58ee22);if(_0x1eb3fa[_0x4f903d(0x765)]==![])return _0x1e8587[_0x4f903d(0x70d)](_0x1eb3fa[_0x4f903d(0x7d4)]);_0x3f28da['sendText'](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x409)+_0x1eb3fa[_0x4f903d(0x7d4)][_0x4f903d(0x6e3)]['nama']+_0x4f903d(0x5c8)+_0x1eb3fa[_0x4f903d(0x7d4)]['nama_anda']['tgl_lahir']+_0x4f903d(0x299)+_0x1eb3fa[_0x4f903d(0x7d4)][_0x4f903d(0x244)][_0x4f903d(0x9ae)]+_0x4f903d(0x45d)+_0x1eb3fa[_0x4f903d(0x7d4)][_0x4f903d(0x244)][_0x4f903d(0x951)]+'\x0a⭔\x20*Sisi\x20Positif\x20:*\x20'+_0x1eb3fa['message'][_0x4f903d(0x414)]+_0x4f903d(0x4f4)+_0x1eb3fa[_0x4f903d(0x7d4)][_0x4f903d(0x46b)]+_0x4f903d(0x20b)+_0x1eb3fa['message']['catatan'],_0x1e8587);}break;case'artinama':{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+'\x20Dika\x20Ardianta';let _0x20dd8e=await primbon['arti_nama'](_0x496965);if(_0x20dd8e['status']==![])return _0x1e8587[_0x4f903d(0x70d)](_0x20dd8e[_0x4f903d(0x7d4)]);_0x3f28da['sendText'](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x9b2)+_0x20dd8e[_0x4f903d(0x7d4)][_0x4f903d(0x9ae)]+_0x4f903d(0x2e2)+_0x20dd8e['message'][_0x4f903d(0x86e)]+_0x4f903d(0x20b)+_0x20dd8e[_0x4f903d(0x7d4)][_0x4f903d(0x1c8)],_0x1e8587);}break;case _0x4f903d(0x200):case'cocoknama':{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0x866);let [_0x458be8,_0x4fc221,_0x28457c,_0x583daa]=_0x496965['split']`,`,_0x9f01d5=await primbon['kecocokan_nama'](_0x458be8,_0x4fc221,_0x28457c,_0x583daa);if(_0x9f01d5[_0x4f903d(0x765)]==![])return _0x1e8587[_0x4f903d(0x70d)](_0x9f01d5[_0x4f903d(0x7d4)]);_0x3f28da[_0x4f903d(0x971)](_0x1e8587[_0x4f903d(0x155)],'⭔\x20*Nama\x20:*\x20'+_0x9f01d5[_0x4f903d(0x7d4)][_0x4f903d(0x9ae)]+_0x4f903d(0x6ca)+_0x9f01d5[_0x4f903d(0x7d4)][_0x4f903d(0x951)]+'\x0a⭔\x20*Life\x20Path\x20:*\x20'+_0x9f01d5[_0x4f903d(0x7d4)][_0x4f903d(0x34f)]+_0x4f903d(0x39a)+_0x9f01d5[_0x4f903d(0x7d4)][_0x4f903d(0x572)]+_0x4f903d(0x9f3)+_0x9f01d5[_0x4f903d(0x7d4)]['destiny_desire']+_0x4f903d(0x2c8)+_0x9f01d5['message'][_0x4f903d(0x5fd)]+_0x4f903d(0x732)+_0x9f01d5[_0x4f903d(0x7d4)][_0x4f903d(0x21d)],_0x1e8587);}break;case _0x4f903d(0x145):case _0x4f903d(0x586):case'pasangan':{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0x63b);let [_0x415483,_0x1adf9f]=_0x496965[_0x4f903d(0x87c)]`|`,_0x275f2b=await primbon['kecocokan_nama_pasangan'](_0x415483,_0x1adf9f);if(_0x275f2b['status']==![])return _0x1e8587[_0x4f903d(0x70d)](_0x275f2b[_0x4f903d(0x7d4)]);_0x3f28da[_0x4f903d(0x185)](_0x1e8587[_0x4f903d(0x155)],_0x275f2b[_0x4f903d(0x7d4)][_0x4f903d(0x88e)],_0x4f903d(0x409)+_0x275f2b[_0x4f903d(0x7d4)][_0x4f903d(0x6e3)]+_0x4f903d(0x299)+_0x275f2b[_0x4f903d(0x7d4)]['nama_pasangan']+_0x4f903d(0x83e)+_0x275f2b[_0x4f903d(0x7d4)][_0x4f903d(0x414)]+_0x4f903d(0x4f4)+_0x275f2b['message'][_0x4f903d(0x46b)],_0x1e8587);}break;case _0x4f903d(0x385):case _0x4f903d(0x3a1):{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0x5a5);let [_0x336d89,_0x2c3ac1,_0x291ced]=_0x496965[_0x4f903d(0x87c)]`,`,_0x1a1a9b=await primbon['tanggal_jadian_pernikahan'](_0x336d89,_0x2c3ac1,_0x291ced);if(_0x1a1a9b[_0x4f903d(0x765)]==![])return _0x1e8587['reply'](_0x1a1a9b[_0x4f903d(0x7d4)]);_0x3f28da[_0x4f903d(0x971)](_0x1e8587['chat'],_0x4f903d(0x4f9)+_0x1a1a9b[_0x4f903d(0x7d4)]['tanggal']+_0x4f903d(0x990)+_0x1a1a9b['message']['karakteristik'],_0x1e8587);}break;case'sifatusaha':{if(!ext)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0x3ae);let [_0x56148a,_0xa0b30,_0x21ceaa]=_0x496965[_0x4f903d(0x87c)]`,`,_0x31fa3e=await primbon[_0x4f903d(0x740)](_0x56148a,_0xa0b30,_0x21ceaa);if(_0x31fa3e['status']==![])return _0x1e8587[_0x4f903d(0x70d)](_0x31fa3e['message']);_0x3f28da['sendText'](_0x1e8587['chat'],_0x4f903d(0x758)+_0x31fa3e[_0x4f903d(0x7d4)]['hari_lahir']+_0x4f903d(0x945)+_0x31fa3e[_0x4f903d(0x7d4)][_0x4f903d(0x568)],_0x1e8587);}break;case _0x4f903d(0x175):case _0x4f903d(0x343):{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+'\x207,\x207,\x202005';let [_0x1615b8,_0x5289bf,_0x16837a]=_0x496965[_0x4f903d(0x87c)]`,`,_0x1fe82c=await primbon['rejeki_hoki_weton'](_0x1615b8,_0x5289bf,_0x16837a);if(_0x1fe82c[_0x4f903d(0x765)]==![])return _0x1e8587[_0x4f903d(0x70d)](_0x1fe82c[_0x4f903d(0x7d4)]);_0x3f28da[_0x4f903d(0x971)](_0x1e8587[_0x4f903d(0x155)],'⭔\x20*Lahir\x20:*\x20'+_0x1fe82c[_0x4f903d(0x7d4)][_0x4f903d(0x57f)]+'\x0a⭔\x20*Rezeki\x20:*\x20'+_0x1fe82c[_0x4f903d(0x7d4)][_0x4f903d(0x175)]+_0x4f903d(0x20b)+_0x1fe82c[_0x4f903d(0x7d4)][_0x4f903d(0x1c8)],_0x1e8587);}break;case'pekerjaan':case _0x4f903d(0x20d):{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0x6c0);let [_0xf0a3a0,_0x51e17e,_0x1ace25]=_0x496965[_0x4f903d(0x87c)]`,`,_0x7ca6e2=await primbon[_0x4f903d(0x65c)](_0xf0a3a0,_0x51e17e,_0x1ace25);if(_0x7ca6e2[_0x4f903d(0x765)]==![])return _0x1e8587[_0x4f903d(0x70d)](_0x7ca6e2[_0x4f903d(0x7d4)]);_0x3f28da['sendText'](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x758)+_0x7ca6e2['message'][_0x4f903d(0x57f)]+'\x0a⭔\x20*Pekerjaan\x20:*\x20'+_0x7ca6e2['message']['pekerjaan']+'\x0a⭔\x20*Catatan\x20:*\x20'+_0x7ca6e2['message'][_0x4f903d(0x1c8)],_0x1e8587);}break;case _0x4f903d(0x4a4):case _0x4f903d(0x9e9):case _0x4f903d(0x9eb):{if(!_0x496965)throw'Contoh\x20:\x207,\x207,\x202005';let [_0x4fd37c,_0x38f0ba,_0x5a01d8]=_0x496965[_0x4f903d(0x87c)]`,`,_0x1b0ded=await primbon['ramalan_nasib'](_0x4fd37c,_0x38f0ba,_0x5a01d8);if(_0x1b0ded[_0x4f903d(0x765)]==![])return _0x1e8587[_0x4f903d(0x70d)](_0x1b0ded[_0x4f903d(0x7d4)]);_0x3f28da[_0x4f903d(0x971)](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x456)+_0x1b0ded[_0x4f903d(0x7d4)][_0x4f903d(0x598)]+_0x4f903d(0x4d6)+_0x1b0ded[_0x4f903d(0x7d4)]['angka_akar']+_0x4f903d(0x483)+_0x1b0ded['message'][_0x4f903d(0x4c6)]+_0x4f903d(0x93a)+_0x1b0ded['message'][_0x4f903d(0x501)]+_0x4f903d(0x94c)+_0x1b0ded[_0x4f903d(0x7d4)]['angka_keberuntungan'],_0x1e8587);}break;case _0x4f903d(0x640):case'penyakit':{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+'\x207,\x207,\x202005';let [_0x521dbc,_0x3a28d5,_0x135020]=_0x496965[_0x4f903d(0x87c)]`,`,_0x2b03bc=await primbon[_0x4f903d(0x7a3)](_0x521dbc,_0x3a28d5,_0x135020);if(_0x2b03bc['status']==![])return _0x1e8587['reply'](_0x2b03bc[_0x4f903d(0x7d4)]);_0x3f28da[_0x4f903d(0x971)](_0x1e8587['chat'],_0x4f903d(0x456)+_0x2b03bc[_0x4f903d(0x7d4)]['analisa']+_0x4f903d(0x4ce)+_0x2b03bc[_0x4f903d(0x7d4)][_0x4f903d(0x172)]+_0x4f903d(0x93a)+_0x2b03bc['message'][_0x4f903d(0x501)]+_0x4f903d(0x20b)+_0x2b03bc[_0x4f903d(0x7d4)][_0x4f903d(0x1c8)],_0x1e8587);}break;case _0x4f903d(0x293):case _0x4f903d(0x6a0):{if(!_0x496965)throw'Contoh\x20:\x20'+(_0x4ade91+_0x179f46)+_0x4f903d(0x6c0);let [_0x595424,_0x506a46,_0x5603d5]=_0x496965[_0x4f903d(0x87c)]`,`,_0x310602=await primbon['arti_kartu_tarot'](_0x595424,_0x506a46,_0x5603d5);if(_0x310602[_0x4f903d(0x765)]==![])return _0x1e8587[_0x4f903d(0x70d)](_0x310602['message']);_0x3f28da[_0x4f903d(0x185)](_0x1e8587[_0x4f903d(0x155)],_0x310602['message'][_0x4f903d(0x709)],_0x4f903d(0x758)+_0x310602[_0x4f903d(0x7d4)]['tgl_lahir']+_0x4f903d(0x15d)+_0x310602['message'][_0x4f903d(0x780)]+_0x4f903d(0x2e2)+_0x310602[_0x4f903d(0x7d4)][_0x4f903d(0x86e)]+'\x0a⭔\x20*Catatan\x20:*\x20'+_0x310602[_0x4f903d(0x7d4)][_0x4f903d(0x1c8)],_0x1e8587);}break;case _0x4f903d(0x298):{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0x92e)+(_0x4ade91+_0x179f46)+'\x20Nama,\x20gender,\x20tahun\x20lahir\x0aGender\x20:\x201\x20untuk\x20laki-laki\x20&\x202\x20untuk\x20perempuan';let [_0x41f057,_0x4d16b1,_0x39edf6]=_0x496965[_0x4f903d(0x87c)]`,`,_0xd43b4e=await primbon[_0x4f903d(0x46f)](_0x41f057,_0x4d16b1,_0x39edf6);if(_0xd43b4e[_0x4f903d(0x765)]==![])return _0x1e8587[_0x4f903d(0x70d)](_0xd43b4e[_0x4f903d(0x7d4)]);_0x3f28da[_0x4f903d(0x971)](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x9b2)+_0xd43b4e[_0x4f903d(0x7d4)]['nama']+_0x4f903d(0x6ca)+_0xd43b4e[_0x4f903d(0x7d4)][_0x4f903d(0x9be)]+_0x4f903d(0x7ef)+_0xd43b4e[_0x4f903d(0x7d4)][_0x4f903d(0x9ce)]+_0x4f903d(0x959)+_0xd43b4e[_0x4f903d(0x7d4)][_0x4f903d(0x74e)]+'\x0a⭔\x20*Kelompok\x20:*\x20'+_0xd43b4e['message']['kelompok']+_0x4f903d(0x60b)+_0xd43b4e[_0x4f903d(0x7d4)][_0x4f903d(0x9e6)]+_0x4f903d(0x515)+_0xd43b4e[_0x4f903d(0x7d4)][_0x4f903d(0x261)]+'\x0a⭔\x20*Sektor\x20Buruk\x20:*\x20'+_0xd43b4e['message']['sektor_buruk'],_0x1e8587);}break;case _0x4f903d(0x9e3):{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0x6c0);let [_0x1e371e,_0x7060ff,_0x377ee7]=_0x496965[_0x4f903d(0x87c)]`,`,_0x20d053=await primbon['petung_hari_baik'](_0x1e371e,_0x7060ff,_0x377ee7);if(_0x20d053[_0x4f903d(0x765)]==![])return _0x1e8587[_0x4f903d(0x70d)](_0x20d053[_0x4f903d(0x7d4)]);_0x3f28da[_0x4f903d(0x971)](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x758)+_0x20d053[_0x4f903d(0x7d4)]['tgl_lahir']+'\x0a⭔\x20*Kala\x20Tinantang\x20:*\x20'+_0x20d053[_0x4f903d(0x7d4)][_0x4f903d(0x722)]+'\x0a⭔\x20*Info\x20:*\x20'+_0x20d053[_0x4f903d(0x7d4)][_0x4f903d(0xa08)]+_0x4f903d(0x20b)+_0x20d053['message'][_0x4f903d(0x1c8)],_0x1e8587);}break;case _0x4f903d(0x1a5):case _0x4f903d(0x9f0):{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+'\x207,\x207,\x202005';let [_0x32d6bd,_0x1516a3,_0x53ce7d]=_0x496965['split']`,`,_0x2cee7b=await primbon[_0x4f903d(0x8ae)](_0x32d6bd,_0x1516a3,_0x53ce7d);if(_0x2cee7b[_0x4f903d(0x765)]==![])return _0x1e8587['reply'](_0x2cee7b[_0x4f903d(0x7d4)]);_0x3f28da[_0x4f903d(0x971)](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x758)+_0x2cee7b[_0x4f903d(0x7d4)]['tgl_lahir']+_0x4f903d(0x328)+_0x2cee7b[_0x4f903d(0x7d4)][_0x4f903d(0x1ed)]+_0x4f903d(0x954)+_0x2cee7b['message'][_0x4f903d(0xa08)]+_0x4f903d(0x20b)+_0x2cee7b[_0x4f903d(0x7d4)][_0x4f903d(0x1c8)],_0x1e8587);}break;case _0x4f903d(0x1dc):case _0x4f903d(0x6f9):{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0x6c0);let [_0x542adf,_0x33df94,_0x36dc24]=_0x496965[_0x4f903d(0x87c)]`,`,_0x284665=await primbon[_0x4f903d(0x432)](_0x542adf,_0x33df94,_0x36dc24);if(_0x284665['status']==![])return _0x1e8587[_0x4f903d(0x70d)](_0x284665[_0x4f903d(0x7d4)]);_0x3f28da['sendText'](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x466)+_0x284665[_0x4f903d(0x7d4)][_0x4f903d(0x57f)]+_0x4f903d(0x310)+_0x284665[_0x4f903d(0x7d4)][_0x4f903d(0x951)]+_0x4f903d(0x601)+_0x284665['message']['hari_naas']+_0x4f903d(0x954)+_0x284665['message'][_0x4f903d(0x1c8)]+_0x4f903d(0x20b)+_0x284665['message'][_0x4f903d(0xa08)],_0x1e8587);}break;case'nagahari':case'harinaga':{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0x6c0);let [_0x4fe3b9,_0x48ca08,_0x3aab5d]=_0x496965[_0x4f903d(0x87c)]`,`,_0x58a138=await primbon['rahasia_naga_hari'](_0x4fe3b9,_0x48ca08,_0x3aab5d);if(_0x58a138[_0x4f903d(0x765)]==![])return _0x1e8587['reply'](_0x58a138[_0x4f903d(0x7d4)]);_0x3f28da[_0x4f903d(0x971)](_0x1e8587[_0x4f903d(0x155)],'⭔\x20*Hari\x20Lahir\x20:*\x20'+_0x58a138['message'][_0x4f903d(0x57f)]+_0x4f903d(0x310)+_0x58a138[_0x4f903d(0x7d4)][_0x4f903d(0x951)]+_0x4f903d(0x306)+_0x58a138['message'][_0x4f903d(0x9b7)]+_0x4f903d(0x20b)+_0x58a138[_0x4f903d(0x7d4)][_0x4f903d(0x1c8)],_0x1e8587);}break;case _0x4f903d(0x35b):case _0x4f903d(0x987):{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0x6c0);let [_0x274582,_0x3d33c3,_0x2edcbf]=_0x496965['split']`,`,_0x5dfd62=await primbon[_0x4f903d(0x77b)](_0x274582,_0x3d33c3,_0x2edcbf);if(_0x5dfd62['status']==![])return _0x1e8587[_0x4f903d(0x70d)](_0x5dfd62[_0x4f903d(0x7d4)]);_0x3f28da[_0x4f903d(0x971)](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x466)+_0x5dfd62[_0x4f903d(0x7d4)]['hari_lahir']+'\x0a⭔\x20*tanggal\x20Lahir\x20:*\x20'+_0x5dfd62[_0x4f903d(0x7d4)]['tgl_lahir']+_0x4f903d(0x943)+_0x5dfd62['message'][_0x4f903d(0x1fe)]+'\x0a⭔\x20*Catatan\x20:*\x20'+_0x5dfd62[_0x4f903d(0x7d4)][_0x4f903d(0x1c8)],_0x1e8587);}break;case _0x4f903d(0x64a):{if(!_0x496965)throw'Contoh\x20:\x20'+(_0x4ade91+_0x179f46)+_0x4f903d(0x64d)+(_0x4ade91+_0x179f46)+_0x4f903d(0x55c);let [_0x2b94ab,_0x519100,_0x2bc5f6,_0x439d36,_0x56a256]=_0x496965[_0x4f903d(0x87c)]`,`,_0x5eaff0=await primbon[_0x4f903d(0x74d)](_0x2b94ab,_0x519100,_0x2bc5f6,_0x439d36,_0x56a256);if(_0x5eaff0[_0x4f903d(0x765)]==![])return _0x1e8587[_0x4f903d(0x70d)](_0x5eaff0['message']);_0x3f28da[_0x4f903d(0x971)](_0x1e8587[_0x4f903d(0x155)],'⭔\x20*Nama\x20:*\x20'+_0x5eaff0[_0x4f903d(0x7d4)][_0x4f903d(0x9ae)]+'\x0a⭔\x20*Lahir\x20:*\x20'+_0x5eaff0['message']['tgl_lahir']+_0x4f903d(0x14e)+_0x5eaff0['message'][_0x4f903d(0x9c3)]+_0x4f903d(0x328)+_0x5eaff0[_0x4f903d(0x7d4)][_0x4f903d(0x1ed)]+_0x4f903d(0x20b)+_0x5eaff0[_0x4f903d(0x7d4)][_0x4f903d(0x1c8)],_0x1e8587);}break;case _0x4f903d(0x70c):case _0x4f903d(0x6a8):{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+'\x207,\x207,\x202005';let [_0x3fd565,_0x14ca1f,_0x2b317b]=_0x496965[_0x4f903d(0x87c)]`,`,_0x5aec9c=await primbon['weton_jawa'](_0x3fd565,_0x14ca1f,_0x2b317b);if(_0x5aec9c['status']==![])return _0x1e8587[_0x4f903d(0x70d)](_0x5aec9c[_0x4f903d(0x7d4)]);_0x3f28da[_0x4f903d(0x971)](_0x1e8587['chat'],_0x4f903d(0x269)+_0x5aec9c[_0x4f903d(0x7d4)]['tanggal']+_0x4f903d(0x4e0)+_0x5aec9c[_0x4f903d(0x7d4)][_0x4f903d(0x677)]+_0x4f903d(0x925)+_0x5aec9c[_0x4f903d(0x7d4)]['watak_hari']+_0x4f903d(0x8fe)+_0x5aec9c['message']['naga_hari']+_0x4f903d(0x18c)+_0x5aec9c[_0x4f903d(0x7d4)][_0x4f903d(0x476)]+_0x4f903d(0x7d7)+_0x5aec9c[_0x4f903d(0x7d4)][_0x4f903d(0x3ea)],_0x1e8587);}break;case _0x4f903d(0x4c6):case _0x4f903d(0x9e6):{if(!_0x496965)throw'Contoh\x20:\x20'+(_0x4ade91+_0x179f46)+_0x4f903d(0x866);let [_0x5ba2ad,_0x2d585d,_0x308267,_0x3938b4]=_0x496965[_0x4f903d(0x87c)]`,`,_0x5942d1=await primbon[_0x4f903d(0x927)](_0x5ba2ad,_0x2d585d,_0x308267,_0x3938b4);if(_0x5942d1[_0x4f903d(0x765)]==![])return _0x1e8587[_0x4f903d(0x70d)](_0x5942d1[_0x4f903d(0x7d4)]);_0x3f28da['sendText'](_0x1e8587[_0x4f903d(0x155)],'⭔\x20*Nama\x20:*\x20'+_0x5942d1[_0x4f903d(0x7d4)][_0x4f903d(0x9ae)]+_0x4f903d(0x6ca)+_0x5942d1[_0x4f903d(0x7d4)][_0x4f903d(0x951)]+_0x4f903d(0x1af)+_0x5942d1['message'][_0x4f903d(0x988)],_0x1e8587);}break;case'keberuntungan':{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0x866);let [_0x36fb3b,_0x351ead,_0x3baccf,_0x5b853e]=_0x496965['split']`,`,_0x5c369f=await primbon[_0x4f903d(0x674)](_0x36fb3b,_0x351ead,_0x3baccf,_0x5b853e);if(_0x5c369f[_0x4f903d(0x765)]==![])return _0x1e8587['reply'](_0x5c369f[_0x4f903d(0x7d4)]);_0x3f28da['sendText'](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x9b2)+_0x5c369f[_0x4f903d(0x7d4)]['nama']+_0x4f903d(0x6ca)+_0x5c369f[_0x4f903d(0x7d4)]['tgl_lahir']+'\x0a⭔\x20*Hasil\x20:*\x20'+_0x5c369f[_0x4f903d(0x7d4)][_0x4f903d(0x1ed)],_0x1e8587);}break;case'memancing':{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0x22a);let [_0x53c321,_0x5c86c2,_0xc81093]=_0x496965['split']`,`,_0x2e9d36=await primbon['primbon_memancing_ikan'](_0x53c321,_0x5c86c2,_0xc81093);if(_0x2e9d36[_0x4f903d(0x765)]==![])return _0x1e8587[_0x4f903d(0x70d)](_0x2e9d36[_0x4f903d(0x7d4)]);_0x3f28da[_0x4f903d(0x971)](_0x1e8587['chat'],_0x4f903d(0x269)+_0x2e9d36[_0x4f903d(0x7d4)][_0x4f903d(0x6ef)]+_0x4f903d(0x328)+_0x2e9d36[_0x4f903d(0x7d4)][_0x4f903d(0x1ed)]+_0x4f903d(0x20b)+_0x2e9d36['message']['catatan'],_0x1e8587);}break;case _0x4f903d(0x5ee):{if(!_0x496965)throw'Contoh\x20:\x20'+(_0x4ade91+_0x179f46)+'\x2012,\x201,\x202022,\x2028\x0a\x0aNote\x20:\x20'+(_0x4ade91+_0x179f46)+_0x4f903d(0x799);let [_0x2415f2,_0x372d75,_0x2c8d66,_0x1a5575]=_0x496965['split']`,`,_0x42e6db=await primbon[_0x4f903d(0x4c8)](_0x2415f2,_0x372d75,_0x2c8d66,_0x1a5575);if(_0x42e6db[_0x4f903d(0x765)]==![])return _0x1e8587[_0x4f903d(0x70d)](_0x42e6db[_0x4f903d(0x7d4)]);_0x3f28da['sendText'](_0x1e8587['chat'],_0x4f903d(0x639)+_0x42e6db[_0x4f903d(0x7d4)][_0x4f903d(0x1ed)]+_0x4f903d(0x20b)+_0x42e6db[_0x4f903d(0x7d4)][_0x4f903d(0x1c8)],_0x1e8587);}break;case _0x4f903d(0x6ee):case _0x4f903d(0x735):{if(!_0x496965)throw'Contoh\x20:\x20'+(_0x4ade91+_0x179f46)+_0x4f903d(0x623);let _0x48c041=[['capricorn',new Date(0x7b2,0x0,0x1)],[_0x4f903d(0x24d),new Date(0x7b2,0x0,0x14)],['pisces',new Date(0x7b2,0x1,0x13)],[_0x4f903d(0x7bd),new Date(0x7b2,0x2,0x15)],[_0x4f903d(0x613),new Date(0x7b2,0x3,0x15)],[_0x4f903d(0x201),new Date(0x7b2,0x4,0x15)],[_0x4f903d(0x2a6),new Date(0x7b2,0x5,0x16)],[_0x4f903d(0x3fa),new Date(0x7b2,0x6,0x17)],[_0x4f903d(0x8a4),new Date(0x7b2,0x7,0x17)],[_0x4f903d(0x4a8),new Date(0x7b2,0x8,0x17)],['scorpio',new Date(0x7b2,0x9,0x17)],['sagittarius',new Date(0x7b2,0xa,0x16)],['capricorn',new Date(0x7b2,0xb,0x16)]][_0x4f903d(0x49a)]();function _0x564635(_0xc70f3b,_0x4b8c56){const _0x41721a=_0x4f903d;let _0x510967=new Date(0x7b2,_0xc70f3b-0x1,_0x4b8c56);return _0x48c041[_0x41721a(0x2b6)](([_0x59bc11,_0x411eff])=>_0x510967>=_0x411eff)[0x0];}let _0xec3d2e=new Date(_0x496965);if(_0xec3d2e==_0x4f903d(0x551))throw _0xec3d2e;let _0x1dca9c=new Date(),[_0x5990e2,_0x1d4262,_0x517662]=[_0x1dca9c['getFullYear'](),_0x1dca9c['getMonth']()+0x1,_0x1dca9c['getDate']()],_0x9a152a=[_0xec3d2e[_0x4f903d(0x9f7)](),_0xec3d2e[_0x4f903d(0x8da)]()+0x1,_0xec3d2e[_0x4f903d(0x357)]()],_0xe6faf0=await _0x564635(_0x9a152a[0x1],_0x9a152a[0x2]),_0x935a9a=await primbon[_0x4f903d(0x6ee)](_0xe6faf0);if(_0x935a9a[_0x4f903d(0x765)]==![])return _0x1e8587[_0x4f903d(0x70d)](_0x935a9a[_0x4f903d(0x7d4)]);_0x3f28da[_0x4f903d(0x971)](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x8cb)+_0x935a9a['message'][_0x4f903d(0x6ee)]+'\x0a⭔\x20*Nomor\x20:*\x20'+_0x935a9a[_0x4f903d(0x7d4)][_0x4f903d(0x89c)]+_0x4f903d(0x450)+_0x935a9a[_0x4f903d(0x7d4)][_0x4f903d(0x8c7)]+_0x4f903d(0x156)+_0x935a9a[_0x4f903d(0x7d4)][_0x4f903d(0x569)]+_0x4f903d(0x1e3)+_0x935a9a[_0x4f903d(0x7d4)][_0x4f903d(0x497)]+_0x4f903d(0x79c)+_0x935a9a[_0x4f903d(0x7d4)][_0x4f903d(0x3af)]+_0x4f903d(0x93d)+_0x935a9a[_0x4f903d(0x7d4)][_0x4f903d(0x599)]+_0x4f903d(0x93a)+_0x935a9a[_0x4f903d(0x7d4)][_0x4f903d(0x5ca)]+_0x4f903d(0x4f3)+_0x935a9a[_0x4f903d(0x7d4)]['pasangan_zodiak']+_0x4f903d(0x20b)+_0x935a9a['message'][_0x4f903d(0x1c8)],_0x1e8587);}break;case _0x4f903d(0x6cf):{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0x1a0);let _0x4aa349=await primbon['shio'](_0x496965);if(_0x4aa349[_0x4f903d(0x765)]==![])return _0x1e8587[_0x4f903d(0x70d)](_0x4aa349['message']);_0x3f28da[_0x4f903d(0x971)](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x639)+_0x4aa349['message'],_0x1e8587);}break;case'tiktok':{if(!_0x496965)throw _0x4f903d(0x2a8);let _0x21bbbe=[{'buttonId':'tiktoknowm\x20'+_0x496965,'buttonText':{'displayText':_0x4f903d(0x7e8)},'type':0x1},{'buttonId':'tiktokwm\x20'+_0x496965,'buttonText':{'displayText':_0x4f903d(0x9fa)},'type':0x1},{'buttonId':_0x4f903d(0x652)+_0x496965,'buttonText':{'displayText':'♫\x20Audio'},'type':0x1}],_0x18bb2a={'text':_0x4f903d(0x6d9),'footer':_0x4f903d(0x1f0),'buttons':_0x21bbbe,'headerType':0x5};_0x3f28da['sendMessage'](_0x1e8587['chat'],_0x18bb2a,{'quoted':_0x37ae15});}break;case _0x4f903d(0x368):case _0x4f903d(0x37c):{if(!_0x496965)throw _0x4f903d(0x2a8);_0x1e8587[_0x4f903d(0x70d)](mess['wait']);let _0x2f2376=await aiovideodl(''+_0x496965),_0x20f3ff={'video':{'url':_0x2f2376[_0x4f903d(0x2c0)][0x0][_0x4f903d(0x2cc)]},'caption':_0x4f903d(0x45b)+_0x496965,'footer':_0x3f28da['user']['name'],'headerType':0x5};_0x3f28da[_0x4f903d(0x682)](_0x1e8587['chat'],_0x20f3ff,{'quoted':_0x37ae15});}break;case _0x4f903d(0x5fe):case _0x4f903d(0x997):{if(!_0x496965)throw _0x4f903d(0xa03);_0x1e8587['reply'](mess[_0x4f903d(0x8a2)]);let _0x5d03b6=await aiovideodl(''+_0x496965),_0x2b55d9={'video':{'url':_0x5d03b6[_0x4f903d(0x2c0)][0x1]['url']},'caption':_0x4f903d(0x45b)+_0x496965,'footer':_0x3f28da['user'][_0x4f903d(0x28e)],'headerType':0x5};_0x3f28da['sendMessage'](_0x1e8587[_0x4f903d(0x155)],_0x2b55d9,{'quoted':_0x37ae15});}break;case _0x4f903d(0x899):case _0x4f903d(0x80b):{if(!_0x496965)throw _0x4f903d(0x2a8);_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]);let _0x18fc9b=await aiovideodl(''+_0x496965),_0x446581={'text':_0x4f903d(0x45b)+_0x496965,'footer':_0x3f28da[_0x4f903d(0x82e)]['name'],'headerType':0x2},_0x52d43e=await _0x3f28da[_0x4f903d(0x682)](_0x1e8587['chat'],_0x446581,{'quoted':_0x37ae15});_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],{'audio':{'url':_0x18fc9b[_0x4f903d(0x2c0)][0x2][_0x4f903d(0x2cc)]},'mimetype':_0x4f903d(0x633)},{'quoted':_0x52d43e});}break;case _0x4f903d(0x2b7):case'jooxdl':{if(!_0x496965)throw _0x4f903d(0x696);_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]);let _0x205f53=await fetchJson(api(_0x4f903d(0x66f),'/downloader/joox',{'query':_0x496965},_0x4f903d(0x950))),_0x454768=await _0x3f28da['sendImage'](_0x1e8587[_0x4f903d(0x155)],_0x205f53['result'][_0x4f903d(0x335)],'➣\x20Title\x20:\x20'+_0x205f53[_0x4f903d(0x1ed)]['lagu']+_0x4f903d(0x319)+_0x205f53[_0x4f903d(0x1ed)][_0x4f903d(0x553)]+_0x4f903d(0x917)+_0x205f53[_0x4f903d(0x1ed)]['penyanyi']+_0x4f903d(0x4b0)+_0x205f53[_0x4f903d(0x1ed)][_0x4f903d(0x6e9)]+'\x0a➣\x20Lirik\x20:\x0a'+_0x205f53[_0x4f903d(0x1ed)][_0x4f903d(0x928)][_0x4f903d(0x1ed)],_0x1e8587);_0x3f28da['sendMessage'](_0x1e8587[_0x4f903d(0x155)],{'audio':{'url':_0x205f53[_0x4f903d(0x1ed)][_0x4f903d(0x24b)]},'mimetype':'audio/mpeg','fileName':_0x205f53['result']['lagu']+_0x4f903d(0x4d2)},{'quoted':_0x454768});}break;case'soundcloud':case _0x4f903d(0x277):{if(!_0x496965)throw _0x4f903d(0x4e4);_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]);let _0x50cef2=await fetchJson(api(_0x4f903d(0x66f),_0x4f903d(0x762),{'url':isUrl(_0x496965)[0x0]},_0x4f903d(0x950))),_0xb91b64=await _0x3f28da[_0x4f903d(0x185)](_0x1e8587[_0x4f903d(0x155)],_0x50cef2[_0x4f903d(0x1ed)][_0x4f903d(0x34c)],_0x4f903d(0x43a)+_0x50cef2[_0x4f903d(0x1ed)][_0x4f903d(0x549)]+'\x0a➣\x20Url\x20:\x20'+isUrl(_0x496965)[0x0]);_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],{'audio':{'url':_0x50cef2[_0x4f903d(0x1ed)][_0x4f903d(0x2cc)]},'mimetype':_0x4f903d(0x633),'fileName':_0x50cef2[_0x4f903d(0x1ed)][_0x4f903d(0x549)]+_0x4f903d(0x4d2)},{'quoted':_0xb91b64});}break;case _0x4f903d(0x4f1):case _0x4f903d(0x625):{if(!_0x496965)throw _0x4f903d(0x349);_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]);let _0x4f15f7=await fetchJson(api('zenz',_0x4f903d(0x4c1),{'url':_0x496965},_0x4f903d(0x950))),_0xd3d911=[{'buttonId':_0x4f903d(0x177)+_0x496965,'buttonText':{'displayText':_0x4f903d(0x5e9)},'type':0x1}],_0x54aa90={'video':{'url':_0x4f15f7[_0x4f903d(0x1ed)]['HD']||_0x4f15f7[_0x4f903d(0x1ed)]['SD']},'caption':util[_0x4f903d(0x4ec)](_0x4f15f7[_0x4f903d(0x1ed)]),'footer':_0x4f903d(0x1f0),'buttons':_0xd3d911,'headerType':0x5};_0x3f28da['sendMessage'](_0x1e8587[_0x4f903d(0x155)],_0x54aa90,{'quoted':_0x37ae15});}break;case'twittermp3':case _0x4f903d(0x72e):{if(!_0x496965)throw _0x4f903d(0x349);_0x1e8587['reply'](mess['wait']);let _0x50e827=await fetchJson(api('zenz',_0x4f903d(0x4c1),{'url':_0x496965},_0x4f903d(0x950))),_0x1f8ad8=[{'buttonId':_0x4f903d(0x5f9)+_0x496965,'buttonText':{'displayText':_0x4f903d(0x860)},'type':0x1}],_0x1f60d5={'image':{'url':_0x50e827[_0x4f903d(0x1ed)][_0x4f903d(0x34c)]},'caption':util[_0x4f903d(0x4ec)](_0x50e827[_0x4f903d(0x1ed)]),'footer':_0x4f903d(0x1f0),'buttons':_0x1f8ad8,'headerType':0x4},_0x5d0bcc=await _0x3f28da['sendMessage'](_0x1e8587[_0x4f903d(0x155)],_0x1f60d5,{'quoted':_0x37ae15});_0x3f28da['sendMessage'](_0x1e8587[_0x4f903d(0x155)],{'audio':{'url':_0x50e827[_0x4f903d(0x1ed)]['audio']}},{'quoted':_0x5d0bcc});}break;case _0x4f903d(0x66d):case'fb':case _0x4f903d(0x4ae):{if(!_0x496965)throw _0x4f903d(0x3b3);_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]);let _0x2841b8=await fetchJson(api(_0x4f903d(0x66f),_0x4f903d(0x552),{'url':_0x496965},_0x4f903d(0x950)));_0x3f28da['sendMessage'](_0x1e8587[_0x4f903d(0x155)],{'video':{'url':_0x2841b8['result'][_0x4f903d(0x2cc)]},'caption':_0x4f903d(0x5e1)+_0x2841b8['result'][_0x4f903d(0x549)]},{'quoted':_0x37ae15});}break;case _0x4f903d(0x7cb):case _0x4f903d(0x342):{if(!_0x496965)throw'Link\x20Pinterest\x20Ya\x20Mana?!';_0x1e8587['reply'](mess[_0x4f903d(0x8a2)]);let _0x42d487=await fetchJson(api(_0x4f903d(0x66f),'/downloader/pinterestdl',{'url':_0x496965},_0x4f903d(0x950)));_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],{'video':{'url':_0x42d487['result']},'caption':_0x4f903d(0x45b)+_0x496965},{'quoted':_0x37ae15});}break;case'umma':case _0x4f903d(0x2a2):{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0x6a2);let {umma:_0x5457b6}=require('./lib/scraper'),_0x5c5405=await _0x5457b6(isUrl(_0x496965)[0x0]);if(_0x5c5405[_0x4f903d(0x85f)]==_0x4f903d(0x698)){let _0x416234=[{'buttonId':_0x4f903d(0x33d)+_0x5c5405[_0x4f903d(0x445)][0x0]+'\x20128kbps','buttonText':{'displayText':_0x4f903d(0x747)},'type':0x1},{'buttonId':_0x4f903d(0x84b)+_0x5c5405[_0x4f903d(0x445)][0x0]+_0x4f903d(0x3d0),'buttonText':{'displayText':_0x4f903d(0x860)},'type':0x1}],_0x3b8e7c={'image':{'url':_0x5c5405[_0x4f903d(0x1f5)][_0x4f903d(0x962)]},'caption':_0x4f903d(0x65b)+_0x5c5405[_0x4f903d(0x549)]+_0x4f903d(0x21b)+_0x5c5405['author'][_0x4f903d(0x28e)]+_0x4f903d(0x7f4)+_0x5c5405[_0x4f903d(0x5e5)]+'\x0a⭔\x20Caption\x20:\x20'+_0x5c5405[_0x4f903d(0x8f9)]+_0x4f903d(0x723)+_0x5c5405['media'][0x0]+_0x4f903d(0x451),'footer':_0x3f28da['user']['name'],'buttons':_0x416234,'headerType':0x4};_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],_0x3b8e7c,{'quoted':_0x37ae15});}else _0x5c5405[_0x4f903d(0x85f)]=='image'&&_0x5c5405[_0x4f903d(0x445)][_0x4f903d(0x6f6)](async _0x8d15fb=>{const _0x525bff=_0x4f903d;_0x3f28da[_0x525bff(0x682)](_0x1e8587[_0x525bff(0x155)],{'image':{'url':_0x8d15fb},'caption':'⭔\x20Title\x20:\x20'+_0x5c5405[_0x525bff(0x549)]+'\x0a⭔\x20Author\x20:\x20'+_0x5c5405[_0x525bff(0x1f5)][_0x525bff(0x28e)]+_0x525bff(0x7f4)+_0x5c5405[_0x525bff(0x5e5)]+_0x525bff(0x29b)+_0x5c5405[_0x525bff(0x8f9)]},{'quoted':_0x37ae15});});}break;case _0x4f903d(0x232):{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+'\x20black\x20rover';let {ringtone:_0x16714a}=require('./lib/scraper'),_0x39fae4=await _0x16714a(_0x496965),_0x25ac5b=_0x39fae4[Math[_0x4f903d(0x461)](Math[_0x4f903d(0x846)]()*_0x39fae4['length'])];_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],{'audio':{'url':_0x25ac5b[_0x4f903d(0x6f7)]},'fileName':_0x25ac5b[_0x4f903d(0x549)]+_0x4f903d(0x198),'mimetype':_0x4f903d(0x633)},{'quoted':_0x37ae15});}break;case _0x4f903d(0x59d):{oh=_0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0x500);if(!_0x496965)throw oh;yy=await getBuffer(_0x4f903d(0x144)+_0x496965),_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],{'document':yy,'mimetype':'application/pdf','fileName':_0x4f903d(0x59d)+_0x496965+_0x4f903d(0x98e)},{'quoted':_0x1e8587})[_0x4f903d(0x5bf)](_0x20c4ef=>_0x1e8587[_0x4f903d(0x70d)](oh));}break;case _0x4f903d(0x673):{if(_0x1a5e8a[0x0]===_0x4f903d(0x47f))_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]),_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],{'document':{'url':_0x4f903d(0x87b)},'mimetype':_0x4f903d(0x1f9),'fileName':'juz-amma-arab-latin-indonesia.pdf'},{'quoted':_0x1e8587});else{if(_0x1a5e8a[0x0]===_0x4f903d(0x23e))_0x1e8587['reply'](mess[_0x4f903d(0x8a2)]),_0x3f28da[_0x4f903d(0x682)](_0x1e8587['chat'],{'document':{'url':_0x4f903d(0x8c8)},'mimetype':_0x4f903d(0x444),'fileName':_0x4f903d(0x618)},{'quoted':_0x1e8587});else{if(_0x1a5e8a[0x0]===_0x4f903d(0x6fb))_0x1e8587['reply'](mess['wait']),_0x3f28da[_0x4f903d(0x682)](_0x1e8587['chat'],{'document':{'url':_0x4f903d(0x886)},'mimetype':_0x4f903d(0x753),'fileName':_0x4f903d(0x4fa)},{'quoted':_0x1e8587});else _0x1a5e8a[0x0]==='xlsx'?(_0x1e8587[_0x4f903d(0x70d)](mess['wait']),_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],{'document':{'url':_0x4f903d(0x22c)},'mimetype':_0x4f903d(0x6a1),'fileName':_0x4f903d(0x227)},{'quoted':_0x1e8587})):_0x1e8587['reply'](_0x4f903d(0x1b4)+(_0x4ade91+_0x179f46)+_0x4f903d(0x6c1));}}}break;case _0x4f903d(0x239):case _0x4f903d(0x6a5):{if(!_0x1a5e8a[0x0])throw _0x4f903d(0x176)+(_0x4ade91+_0x179f46)+_0x4f903d(0x616)+(_0x4ade91+_0x179f46)+_0x4f903d(0x405);if(!_0x1a5e8a[0x1])throw _0x4f903d(0x5d2)+(_0x4ade91+_0x179f46)+'\x20muslim\x201';try{let _0x367522=await fetchJson(_0x4f903d(0x4cf)+_0x1a5e8a[0x0]),{number:_0x19db50,arab:_0x353d81,id:_0x2473dd}=_0x367522[_0x4f903d(0x2b6)](_0x359b62=>_0x359b62['number']==_0x1a5e8a[0x1]);_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x958)+_0x19db50+'\x0a\x0a'+_0x353d81+'\x0a\x0a'+_0x2473dd);}catch(_0x58abeb){_0x1e8587['reply'](_0x4f903d(0x448));}}break;case _0x4f903d(0x520):case _0x4f903d(0x31b):{if(!_0x1a5e8a[0x0])throw _0x4f903d(0x802)+(_0x4ade91+_0x179f46)+'\x201\x202\x0a\x0amaka\x20hasilnya\x20adalah\x20surah\x20Al-Fatihah\x20ayat\x202\x20beserta\x20audionya,\x20dan\x20ayatnya\x201\x20aja';if(!_0x1a5e8a[0x1])throw _0x4f903d(0x802)+(_0x4ade91+_0x179f46)+_0x4f903d(0x686);let _0x260041=await fetchJson(_0x4f903d(0x467)+_0x1a5e8a[0x0]+_0x4f903d(0x81a)+_0x1a5e8a[0x1]),_0x45d66a=_0x4f903d(0x301)+_0x260041[_0x4f903d(0x1ed)]['data'][_0x4f903d(0x25a)][_0x4f903d(0x524)]+_0x4f903d(0x33b)+_0x260041[_0x4f903d(0x1ed)][_0x4f903d(0x759)][_0x4f903d(0x6fc)]['en']+'\x0a*Indonesia*\x20:\x20'+_0x260041[_0x4f903d(0x1ed)]['data']['translation']['id']+_0x4f903d(0x42e)+_0x260041['result'][_0x4f903d(0x759)]['surah']['name'][_0x4f903d(0x892)]['id']+_0x4f903d(0x28b)+_0x260041[_0x4f903d(0x1ed)][_0x4f903d(0x759)]['number'][_0x4f903d(0x4e9)]+'\x20)';_0x1e8587[_0x4f903d(0x70d)](_0x45d66a),_0x3f28da[_0x4f903d(0x682)](_0x1e8587[_0x4f903d(0x155)],{'audio':{'url':_0x260041[_0x4f903d(0x1ed)][_0x4f903d(0x759)][_0x4f903d(0x6f7)][_0x4f903d(0x7bb)]},'mimetype':'audio/mpeg'},{'quoted':_0x1e8587});}break;case _0x4f903d(0x977):{if(!_0x1a5e8a[0x0])throw _0x4f903d(0x802)+(_0x4ade91+_0x179f46)+_0x4f903d(0x1c9);if(!_0x1a5e8a[0x1])throw _0x4f903d(0x802)+(_0x4ade91+_0x179f46)+'\x201\x202\x0a\x0amaka\x20hasilnya\x20adalah\x20tafsir\x20surah\x20Al-Fatihah\x20ayat\x202';let _0x22330c=await fetchJson(_0x4f903d(0x467)+_0x1a5e8a[0x0]+_0x4f903d(0x81a)+_0x1a5e8a[0x1]),_0x388d8f=_0x4f903d(0x9f6)+_0x22330c[_0x4f903d(0x1ed)][_0x4f903d(0x759)][_0x4f903d(0x8b8)]['id'][_0x4f903d(0x4fe)]+_0x4f903d(0x8fd)+_0x22330c['result'][_0x4f903d(0x759)][_0x4f903d(0x8b8)]['id'][_0x4f903d(0x2af)]+_0x4f903d(0x42e)+_0x22330c['result']['data']['surah']['name']['transliteration']['id']+'\x20:\x20'+_0x22330c['result']['data'][_0x4f903d(0x442)][_0x4f903d(0x4e9)]+'\x20)';_0x1e8587['reply'](_0x388d8f);}break;case _0x4f903d(0x3c9):{let _0x262cbd=await fetchJson(_0x4f903d(0x363)),_0x2399e3=_0x4f903d(0x226);for(let _0x2a1905 of _0x262cbd){_0x2399e3+=_0x4f903d(0x583)+_0x2a1905['index']+'\x0a',_0x2399e3+=_0x4f903d(0xa04)+_0x2a1905[_0x4f903d(0x3f9)]+'\x0a',_0x2399e3+='⭔\x20Latin:\x20'+_0x2a1905[_0x4f903d(0x486)]+'\x0a',_0x2399e3+=_0x4f903d(0x7f6)+_0x2a1905[_0x4f903d(0x4d1)]+'\x0a',_0x2399e3+=_0x4f903d(0x8d6)+_0x2a1905[_0x4f903d(0x258)]+_0x4f903d(0x5c6);}_0x1e8587[_0x4f903d(0x70d)](_0x2399e3);}break;case'tulis':case'nulis':{if(_0x1a5e8a[_0x4f903d(0x36f)]<0x1)return _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x2ca));teks=_0x1a5e8a[_0x4f903d(0x650)]('\x20'),_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]);if(!_0x2234d8&&global['db'][_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]<0x1)return _0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8dd)]);db[_0x4f903d(0x291)][_0x1e8587[_0x4f903d(0x548)]][_0x4f903d(0x41c)]-=0x1,nulis=encodeURIComponent(teks),res=await axios[_0x4f903d(0x924)]('https://dt-04.herokuapp.com/nulis?text='+nulis);if(res[_0x4f903d(0x759)][_0x4f903d(0x233)])return _0x1e8587[_0x4f903d(0x70d)](res[_0x4f903d(0x759)][_0x4f903d(0x233)]);buff1=Buffer[_0x4f903d(0x9c2)](res[_0x4f903d(0x759)]['result'][_0x4f903d(0x87c)](',')[0x1],_0x4f903d(0x964)),_0x3f28da['sendMessage'](_0x1e8587[_0x4f903d(0x155)],{'image':buff1,'caption':'Nih\x20Kak'},{'quoted':_0x37ae15})['catch'](_0x18aae1=>{const _0x222528=_0x4f903d;return _0x1e8587['reply'](_0x222528(0x443));});}break;case'bass':case _0x4f903d(0x4b3):case _0x4f903d(0x329):case _0x4f903d(0x3d2):case _0x4f903d(0x8ad):case _0x4f903d(0x1f7):case'nightcore':case _0x4f903d(0x49a):case _0x4f903d(0x705):case _0x4f903d(0x963):case _0x4f903d(0x922):case _0x4f903d(0x153):try{let _0x54fed9;if(/bass/['test'](_0x179f46))_0x54fed9=_0x4f903d(0x868);if(/blown/[_0x4f903d(0x956)](_0x179f46))_0x54fed9=_0x4f903d(0x9c0);if(/deep/[_0x4f903d(0x956)](_0x179f46))_0x54fed9=_0x4f903d(0x3c4);if(/earrape/[_0x4f903d(0x956)](_0x179f46))_0x54fed9='-af\x20volume=12';if(/fast/[_0x4f903d(0x956)](_0x179f46))_0x54fed9=_0x4f903d(0x58b);if(/fat/['test'](_0x179f46))_0x54fed9=_0x4f903d(0x478);if(/nightcore/['test'](_0x179f46))_0x54fed9='-filter:a\x20atempo=1.06,asetrate=44100*1.25';if(/reverse/[_0x4f903d(0x956)](_0x179f46))_0x54fed9=_0x4f903d(0x307);if(/robot/['test'](_0x179f46))_0x54fed9=_0x4f903d(0x829);if(/slow/['test'](_0x179f46))_0x54fed9='-filter:a\x20\x22atempo=0.7,asetrate=44100\x22';if(/smooth/[_0x4f903d(0x956)](_0x179f46))_0x54fed9=_0x4f903d(0x81f);if(/tupai/[_0x4f903d(0x956)](_0x179f46))_0x54fed9=_0x4f903d(0x84f);if(/audio/[_0x4f903d(0x956)](_0x24de29)){_0x1e8587[_0x4f903d(0x70d)](mess['wait']);let _0x595ccc=await _0x3f28da[_0x4f903d(0x712)](_0x20ebdd),_0x20ea50=getRandom(_0x4f903d(0x198));exec(_0x4f903d(0x832)+_0x595ccc+'\x20'+_0x54fed9+'\x20'+_0x20ea50,(_0x5da959,_0xdadcb2,_0x1b778b)=>{const _0x44ba8b=_0x4f903d;fs[_0x44ba8b(0x7cf)](_0x595ccc);if(_0x5da959)return _0x1e8587[_0x44ba8b(0x70d)](_0x5da959);let _0x4629a8=fs[_0x44ba8b(0x7f5)](_0x20ea50);_0x3f28da[_0x44ba8b(0x682)](_0x1e8587['chat'],{'audio':_0x4629a8,'mimetype':'audio/mpeg'},{'quoted':_0x37ae15}),fs[_0x44ba8b(0x7cf)](_0x20ea50);});}else _0x1e8587['reply'](_0x4f903d(0x58c)+(_0x4ade91+_0x179f46)+'*');}catch(_0x2fef27){_0x1e8587['reply'](_0x2fef27);}break;case _0x4f903d(0x2ea):{if(!_0x1e8587[_0x4f903d(0x779)])throw _0x4f903d(0x8df);if(!_0x1e8587[_0x4f903d(0x779)]['fileSha256'])throw _0x4f903d(0x90e);if(!_0x496965)throw _0x4f903d(0x746);let _0x1691fd=_0x1e8587[_0x4f903d(0x779)]['fileSha256'][_0x4f903d(0xa09)](_0x4f903d(0x964));if(global['db']['sticker'][_0x1691fd]&&global['db'][_0x4f903d(0x982)][_0x1691fd][_0x4f903d(0x710)])throw _0x4f903d(0x5b8);global['db'][_0x4f903d(0x982)][_0x1691fd]={'text':_0x496965,'mentionedJid':_0x1e8587[_0x4f903d(0x2e8)],'creator':_0x1e8587[_0x4f903d(0x548)],'at':+new Date(),'locked':![]},_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x5f5)]);}break;case'delcmd':{let _0x294f46=_0x1e8587['quoted'][_0x4f903d(0x191)][_0x4f903d(0xa09)](_0x4f903d(0x964));if(!_0x294f46)throw _0x4f903d(0x731);if(global['db'][_0x4f903d(0x982)][_0x294f46]&&global['db'][_0x4f903d(0x982)][_0x294f46][_0x4f903d(0x710)])throw _0x4f903d(0x5b8);delete global['db'][_0x4f903d(0x982)][_0x294f46],_0x1e8587[_0x4f903d(0x70d)](mess['done']);}break;case _0x4f903d(0x391):{let _0xfa9298=(_0x4f903d(0x3c8)+Object[_0x4f903d(0x6eb)](global['db'][_0x4f903d(0x982)])['map'](([_0x2b1cd9,_0x475725],_0x270b68)=>_0x270b68+0x1+'.\x20'+(_0x475725[_0x4f903d(0x710)]?'*'+_0x2b1cd9+'*':_0x2b1cd9)+_0x4f903d(0x28b)+_0x475725[_0x4f903d(0x25a)])[_0x4f903d(0x650)]('\x0a')+'\x0a')[_0x4f903d(0x856)]();_0x3f28da[_0x4f903d(0x971)](_0x1e8587['chat'],_0xfa9298,_0x1e8587,{'mentions':Object[_0x4f903d(0x5d5)](global['db'][_0x4f903d(0x982)])[_0x4f903d(0x6f6)](_0x36cbd9=>_0x36cbd9[_0x4f903d(0x2e8)])[_0x4f903d(0x3de)]((_0x268ab7,_0x332dc9)=>[..._0x268ab7,..._0x332dc9],[])});}break;case _0x4f903d(0x5ba):{if(!_0x40c20b)throw mess[_0x4f903d(0x1ff)];if(!_0x1e8587[_0x4f903d(0x779)])throw _0x4f903d(0x8df);if(!_0x1e8587['quoted']['fileSha256'])throw _0x4f903d(0x5f1);let _0x54944d=_0x1e8587[_0x4f903d(0x779)][_0x4f903d(0x191)][_0x4f903d(0xa09)](_0x4f903d(0x964));if(!(_0x54944d in global['db'][_0x4f903d(0x982)]))throw _0x4f903d(0x2ab);global['db'][_0x4f903d(0x982)][_0x54944d][_0x4f903d(0x710)]=!/^un/i[_0x4f903d(0x956)](_0x179f46),_0x1e8587['reply'](_0x4f903d(0x706));}break;case'addmsg':{if(!_0x1e8587[_0x4f903d(0x779)])throw _0x4f903d(0x436);if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+'\x20Nama\x20File';let _0x449f2d=global['db'][_0x4f903d(0x1d2)];if(_0x496965['toLowerCase']()in _0x449f2d)throw'\x27'+_0x496965+_0x4f903d(0x44a);_0x449f2d[_0x496965[_0x4f903d(0x3d8)]()]=_0x20ebdd[_0x4f903d(0x820)],_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x669)+_0x496965+_0x4f903d(0x557)+_0x4ade91+_0x4f903d(0x19a)+_0x496965+'\x0a\x0aLihat\x20list\x20Pesan\x20Dengan\x20'+_0x4ade91+'listmsg');}break;case _0x4f903d(0x1be):{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0x16b)+_0x4ade91+_0x4f903d(0x4d4);let _0x484698=global['db'][_0x4f903d(0x1d2)];if(!(_0x496965[_0x4f903d(0x3d8)]()in _0x484698))throw'\x27'+_0x496965+_0x4f903d(0x7af);_0x3f28da[_0x4f903d(0x6d5)](_0x1e8587[_0x4f903d(0x155)],_0x484698[_0x496965[_0x4f903d(0x3d8)]()],!![]);}break;case'listmsg':{let _0xa5fa1d=JSON[_0x4f903d(0x5f8)](fs[_0x4f903d(0x7f5)]('./src/database.json')),_0x371155=Object[_0x4f903d(0x6eb)](global['db'][_0x4f903d(0x1d2)])['map'](([_0x4340ce,_0x5d413f])=>{return{'nama':_0x4340ce,..._0x5d413f};}),_0x1c870e=_0x4f903d(0x5dd);for(let _0x2c010c of _0x371155){_0x1c870e+=_0x4f903d(0x9ca)+_0x2c010c[_0x4f903d(0x9ae)],_0x1c870e+=_0x4f903d(0x87f)+getContentType(_0x2c010c[_0x4f903d(0x7d4)])['replace'](/Message/i,'')+'\x0a────────────────────────\x0a\x0a';}_0x1e8587[_0x4f903d(0x70d)](_0x1c870e);}break;case _0x4f903d(0x5aa):case'deletemsg':{let _0x39b9e1=global['db']['database'];if(!(_0x496965['toLowerCase']()in _0x39b9e1))return _0x1e8587[_0x4f903d(0x70d)]('\x27'+_0x496965+_0x4f903d(0x729));delete _0x39b9e1[_0x496965[_0x4f903d(0x3d8)]()],_0x1e8587['reply']('Berhasil\x20menghapus\x20\x27'+_0x496965+_0x4f903d(0x72b));}break;case _0x4f903d(0x538):{if(_0x1e8587[_0x4f903d(0x814)])throw mess['private'];this[_0x4f903d(0x538)]=this[_0x4f903d(0x538)]?this[_0x4f903d(0x538)]:{};let _0x5383f2=[{'buttonId':_0x4f903d(0x5e6),'buttonText':{'displayText':_0x4f903d(0x16a)},'type':0x1}];_0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],_0x5383f2,_0x4f903d(0x221)+await _0x3f28da[_0x4f903d(0x97e)](_0x1e8587[_0x4f903d(0x548)])+'\x20Welcome\x20To\x20Anonymous\x20Chat\x0a\x0aKlik\x20Button\x20Dibawah\x20Ini\x20Untuk\x20Mencari\x20Partner```',_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x1e8587);}break;case _0x4f903d(0x168):case'leave':{if(_0x1e8587[_0x4f903d(0x814)])throw mess['private'];this[_0x4f903d(0x538)]=this[_0x4f903d(0x538)]?this[_0x4f903d(0x538)]:{};let _0x2b2fca=Object[_0x4f903d(0x5d5)](this['anonymous'])['find'](_0x50645d=>_0x50645d['check'](_0x1e8587[_0x4f903d(0x548)]));if(!_0x2b2fca){let _0x56b55e=[{'buttonId':_0x4f903d(0x5e6),'buttonText':{'displayText':_0x4f903d(0x16a)},'type':0x1}];await _0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],_0x56b55e,'```Kamu\x20Sedang\x20Tidak\x20Berada\x20Di\x20Sesi\x20Anonymous,\x20Tekan\x20Button\x20Untuk\x20Mencari\x20Partner\x20```');throw![];}_0x1e8587[_0x4f903d(0x70d)]('Ok');let _0x2b8389=_0x2b2fca[_0x4f903d(0x49e)](_0x1e8587[_0x4f903d(0x548)]);if(_0x2b8389)await _0x3f28da[_0x4f903d(0x971)](_0x2b8389,_0x4f903d(0x935),_0x1e8587);delete this[_0x4f903d(0x538)][_0x2b2fca['id']];if(_0x179f46===_0x4f903d(0x656))break;}case _0x4f903d(0x594):case _0x4f903d(0x5e6):{if(_0x1e8587[_0x4f903d(0x814)])throw mess[_0x4f903d(0x40e)];this[_0x4f903d(0x538)]=this[_0x4f903d(0x538)]?this[_0x4f903d(0x538)]:{};if(Object[_0x4f903d(0x5d5)](this[_0x4f903d(0x538)])[_0x4f903d(0x2b6)](_0x3dd132=>_0x3dd132[_0x4f903d(0x1e8)](_0x1e8587[_0x4f903d(0x548)]))){let _0x1aae87=[{'buttonId':'keluar','buttonText':{'displayText':_0x4f903d(0x13d)},'type':0x1}];await _0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],_0x1aae87,'```Kamu\x20Masih\x20Berada\x20Di\x20dalam\x20Sesi\x20Anonymous,\x20Tekan\x20Button\x20Dibawah\x20Ini\x20Untuk\x20Menghentikan\x20Sesi\x20Anonymous\x20Anda```',_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x1e8587);throw![];}let _0x247164=Object[_0x4f903d(0x5d5)](this[_0x4f903d(0x538)])['find'](_0x49c3a3=>_0x49c3a3['state']===_0x4f903d(0x79b)&&!_0x49c3a3[_0x4f903d(0x1e8)](_0x1e8587[_0x4f903d(0x548)]));if(_0x247164){let _0x4f58bf=[{'buttonId':'next','buttonText':{'displayText':_0x4f903d(0x400)},'type':0x1},{'buttonId':_0x4f903d(0x168),'buttonText':{'displayText':_0x4f903d(0x13d)},'type':0x1}];await _0x3f28da[_0x4f903d(0x6af)](_0x247164['a'],_0x4f58bf,_0x4f903d(0x154),_0x3f28da['user']['name'],_0x1e8587),_0x247164['b']=_0x1e8587[_0x4f903d(0x548)],_0x247164[_0x4f903d(0x662)]=_0x4f903d(0x8e5),await _0x3f28da[_0x4f903d(0x6af)](_0x247164['b'],_0x4f58bf,_0x4f903d(0x154),_0x3f28da['user']['name'],_0x1e8587);}else{let _0x560fb6=+new Date();this[_0x4f903d(0x538)][_0x560fb6]={'id':_0x560fb6,'a':_0x1e8587[_0x4f903d(0x548)],'b':'','state':_0x4f903d(0x79b),'check':function(_0x1b234b=''){const _0x541cf6=_0x4f903d;return[this['a'],this['b']][_0x541cf6(0x1fd)](_0x1b234b);},'other':function(_0x4106cc=''){return _0x4106cc===this['a']?this['b']:_0x4106cc===this['b']?this['a']:'';}};let _0x1ca0d3=[{'buttonId':_0x4f903d(0x168),'buttonText':{'displayText':_0x4f903d(0x13d)},'type':0x1}];await _0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],_0x1ca0d3,_0x4f903d(0x506),_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x1e8587);}break;}case _0x4f903d(0x3ec):case _0x4f903d(0x5b9):{if(_0x1e8587['isGroup'])throw mess[_0x4f903d(0x40e)];this[_0x4f903d(0x538)]=this[_0x4f903d(0x538)]?this[_0x4f903d(0x538)]:{};let _0x4ea4e6=Object[_0x4f903d(0x5d5)](this['anonymous'])[_0x4f903d(0x2b6)](_0x438f12=>_0x438f12[_0x4f903d(0x1e8)](_0x1e8587[_0x4f903d(0x548)]));if(!_0x4ea4e6){let _0x43698f=[{'buttonId':_0x4f903d(0x5e6),'buttonText':{'displayText':'Start'},'type':0x1}];await _0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],_0x43698f,_0x4f903d(0x495));throw![];}let _0x364b82=_0x4ea4e6[_0x4f903d(0x49e)](_0x1e8587['sender']);if(_0x364b82)await _0x3f28da[_0x4f903d(0x971)](_0x364b82,_0x4f903d(0x935),_0x1e8587);delete this[_0x4f903d(0x538)][_0x4ea4e6['id']];let _0x4f7c30=Object[_0x4f903d(0x5d5)](this[_0x4f903d(0x538)])[_0x4f903d(0x2b6)](_0x4b5997=>_0x4b5997[_0x4f903d(0x662)]===_0x4f903d(0x79b)&&!_0x4b5997[_0x4f903d(0x1e8)](_0x1e8587[_0x4f903d(0x548)]));if(_0x4f7c30){let _0x1b844e=[{'buttonId':'next','buttonText':{'displayText':_0x4f903d(0x400)},'type':0x1},{'buttonId':_0x4f903d(0x168),'buttonText':{'displayText':_0x4f903d(0x13d)},'type':0x1}];await _0x3f28da[_0x4f903d(0x6af)](_0x4f7c30['a'],_0x1b844e,'```Berhasil\x20Menemukan\x20Partner,\x20sekarang\x20kamu\x20dapat\x20mengirim\x20pesan```',_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x1e8587),_0x4f7c30['b']=_0x1e8587['sender'],_0x4f7c30[_0x4f903d(0x662)]=_0x4f903d(0x8e5),await _0x3f28da[_0x4f903d(0x6af)](_0x4f7c30['b'],_0x1b844e,_0x4f903d(0x154),_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x1e8587);}else{let _0x282963=+new Date();this[_0x4f903d(0x538)][_0x282963]={'id':_0x282963,'a':_0x1e8587[_0x4f903d(0x548)],'b':'','state':_0x4f903d(0x79b),'check':function(_0x5dae7b=''){return[this['a'],this['b']]['includes'](_0x5dae7b);},'other':function(_0x162b92=''){return _0x162b92===this['a']?this['b']:_0x162b92===this['b']?this['a']:'';}};let _0x3b1f82=[{'buttonId':_0x4f903d(0x168),'buttonText':{'displayText':'Stop'},'type':0x1}];await _0x3f28da[_0x4f903d(0x6af)](_0x1e8587[_0x4f903d(0x155)],_0x3b1f82,'```Mohon\x20Tunggu\x20Sedang\x20Mencari\x20Partner```',_0x3f28da[_0x4f903d(0x82e)]['name'],_0x1e8587);}break;}case _0x4f903d(0x512):{if(!_0x40c20b&&!_0x1e8587[_0x4f903d(0x13a)]['fromMe'])throw mess[_0x4f903d(0x1ff)];_0x3f28da['public']=!![],_0x1e8587['reply']('Sukses\x20Mengubah\x20Mode\x20Bot\x20Menjadi\x20Publik');}break;case _0x4f903d(0x66b):{if(!_0x40c20b&&!_0x1e8587['key']['fromMe'])throw mess[_0x4f903d(0x1ff)];_0x3f28da['public']=![],_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x6c8));}break;case _0x4f903d(0x950):_0x1e8587['reply'](_0x4f903d(0x578)+global[_0x4f903d(0x47a)]+_0x4f903d(0x57e));break;case _0x4f903d(0x4b5):case _0x4f903d(0x20e):case _0x4f903d(0x973):case _0x4f903d(0x202):{let _0x32bf92=speed(),_0x4c1e42=speed()-_0x32bf92;neww=performance[_0x4f903d(0x26f)](),oldd=performance[_0x4f903d(0x26f)]();let _0x5cce2e=_0x4f903d(0x1e1);_0x5cce2e+='*👤\x20Owner\x20Name\x20:*\x20'+global[_0x4f903d(0x3c5)]+'\x0a',_0x5cce2e+='*🕊️\x20Nama\x20Bot\x20:*\x20'+global[_0x4f903d(0x47a)]+'\x0a',_0x5cce2e+=_0x4f903d(0x7d2)+global[_0x4f903d(0x1ff)]+'\x0a\x0a',_0x5cce2e+='*⍢⃝👾\x20I\x20N\x20F\x20O\x20\x20S\x20T\x20A\x20T\x20I\x20S\x20T\x20I\x20K*\x0a\x0a',_0x5cce2e+='*🗃️\x20Lib\x20:*\x20Baileys\x20Multi\x20Device\x0a',_0x5cce2e+='*🆎\x20Tipe\x20:*\x20Nodejs\x0a',_0x5cce2e+=_0x4f903d(0x1de),_0x5cce2e+=_0x4f903d(0x63c)+_0x4c1e42[_0x4f903d(0x82f)](0x4)+_0x4f903d(0x325),_0x5cce2e+=_0x4f903d(0x2b0)+runtime(process['uptime']())+'\x0a',_0x5cce2e+=_0x4f903d(0x5f4)+formatp(os[_0x4f903d(0x9b5)]()-os[_0x4f903d(0x472)]())+'/'+formatp(os[_0x4f903d(0x9b5)]())+'\x0a\x0a',_0x5cce2e+=_0x4f903d(0x975),_0x5cce2e+=_0x4f903d(0x140)+global[_0x4f903d(0x1dd)]+'\x0a',_0x5cce2e+=_0x4f903d(0x297)+global['myweb']+'\x0a',_0x5cce2e+=(_0x4f903d(0x968)+global['owner']+'\x0a')[_0x4f903d(0x856)]();let _0x5185b1=[{'urlButton':{'displayText':_0x4f903d(0x372),'url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':_0x4f903d(0x9ab),'phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':_0x4f903d(0x40c),'id':_0x4f903d(0x94a)}},{'quickReplyButton':{'displayText':_0x4f903d(0x73a),'id':'donasi'}},{'quickReplyButton':{'displayText':'⎙\x20Sewabot','id':_0x4f903d(0x199)}}],_0x56add5=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x56add5[_0x4f903d(0x50f)])_0x3f28da[_0x4f903d(0x665)](_0x1e8587[_0x4f903d(0x155)],_0x5cce2e,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x34c)],_0x5185b1);else{if(_0x56add5['templateGif'])_0x3f28da[_0x4f903d(0x1b8)](_0x1e8587[_0x4f903d(0x155)],_0x5cce2e,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x5185b1);else{if(_0x56add5[_0x4f903d(0x2e1)])_0x3f28da[_0x4f903d(0x503)](_0x1e8587['chat'],_0x5cce2e,_0x3f28da['user']['name'],global[_0x4f903d(0x3dc)],_0x5185b1);else _0x56add5[_0x4f903d(0x574)]&&_0x3f28da[_0x4f903d(0x991)](_0x1e8587[_0x4f903d(0x155)],_0x5cce2e,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x5185b1);}}}break;case _0x4f903d(0x9b1):case'speedtest':{_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x471));let _0x2ed19d=require('child_process'),{promisify:_0x5970f2}=require(_0x4f903d(0x390)),_0xa1a601=_0x5970f2(_0x2ed19d['exec'])[_0x4f903d(0x78d)](_0x2ed19d),_0x418574;try{_0x418574=await _0xa1a601(_0x4f903d(0x7a2));}catch(_0x508df2){_0x418574=_0x508df2;}finally{let {stdout:_0x1d246c,stderr:_0x447863}=_0x418574;if(_0x1d246c[_0x4f903d(0x856)]())_0x1e8587[_0x4f903d(0x70d)](_0x1d246c);if(_0x447863[_0x4f903d(0x856)]())_0x1e8587[_0x4f903d(0x70d)](_0x447863);}}break;case _0x4f903d(0x1ff):case _0x4f903d(0x17a):{_0x3f28da[_0x4f903d(0x81b)](_0x1e8587[_0x4f903d(0x155)],global['owner'],_0x1e8587);}break;case'bug':case _0x4f903d(0x37e):{if(!_0x496965)return _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x514)+_0x179f46+_0x4f903d(0x635));_0x3f28da[_0x4f903d(0x682)](_0x4f903d(0x974),{'text':_0x4f903d(0x8f4)+_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]+_0x4f903d(0x77e)+_0x496965}),_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x590));}break;case _0x4f903d(0x30e):case _0x4f903d(0x596):{if(!_0x496965)return _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x7dc)+_0x179f46+_0x4f903d(0x7be));_0x3f28da['sendMessage'](_0x4f903d(0x974),{'text':_0x4f903d(0x95c)+_0x1e8587[_0x4f903d(0x548)][_0x4f903d(0x87c)]('@')[0x0]+_0x4f903d(0x642)+_0x496965}),_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x1e0));}break;case'anime':{if(!_0x496965)return _0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x614));await _0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]),xfarr[_0x4f903d(0x6d7)](q)[_0x4f903d(0x245)](async _0x8d0161=>{const _0x5b6b97=_0x4f903d;let _0x34266c=_0x5b6b97(0x4bb);for(let _0x29e3d5 of _0x8d0161){_0x34266c+=_0x5b6b97(0x4eb)+_0x29e3d5[_0x5b6b97(0x1ea)]+'\x0a',_0x34266c+='*📚\x20Url\x20:*\x20'+_0x29e3d5['link']+'\x0a-----------------------------------------------------\x0a';}let _0x44cf90=await getBuffer(_0x8d0161[0x0][_0x5b6b97(0x9f8)]['replace'](_0x5b6b97(0x23c),'')),_0x1066c2=[{'urlButton':{'displayText':'TikTok\x20Creator','url':global[_0x5b6b97(0x46c)]}},{'callButton':{'displayText':_0x5b6b97(0x9ab),'phoneNumber':global[_0x5b6b97(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':_0x5b6b97(0x40c),'id':_0x5b6b97(0x94a)}},{'quickReplyButton':{'displayText':_0x5b6b97(0x73a),'id':_0x5b6b97(0x463)}},{'quickReplyButton':{'displayText':_0x5b6b97(0x8b5),'id':'sewabot'}}];await _0x3f28da[_0x5b6b97(0x682)](_0x1e8587[_0x5b6b97(0x155)],_0x34266c,footer,_0x44cf90,_0x1066c2,{'quoted':_0x37ae15});})[_0x4f903d(0x5bf)](_0x519b33=>{const _0x6f15a0=_0x4f903d;_0x1e8587[_0x6f15a0(0x70d)](mess[_0x6f15a0(0x233)]);});}break;case _0x4f903d(0x770):case _0x4f903d(0x9e6):{if(!_0x496965)return _0x1e8587[_0x4f903d(0x70d)]('Karakter\x20Anime\x20Apa\x20yang\x20Anda\x20Cari??');await _0x1e8587['reply'](mess[_0x4f903d(0x8a2)]),xfarr[_0x4f903d(0x6e4)](q)[_0x4f903d(0x245)](async _0x15e74c=>{const _0x5789e2=_0x4f903d;let _0xb42e5d=_0x5789e2(0xa0c);for(let _0x2edb35 of _0x15e74c){_0xb42e5d+='*📫\x20Character\x20:*\x20'+_0x2edb35['character']+'\x0a',_0xb42e5d+=_0x5789e2(0x83a)+_0x2edb35['link']+_0x5789e2(0x976);}let _0x20fc53=await getBuffer(_0x15e74c[0x0][_0x5789e2(0x9f8)][_0x5789e2(0x530)](_0x5789e2(0x23c),'')),_0x30f1f9=[{'urlButton':{'displayText':_0x5789e2(0x372),'url':global[_0x5789e2(0x46c)]}},{'callButton':{'displayText':'Number\x20Phone\x20Owner','phoneNumber':global['owner'][0x0]}},{'quickReplyButton':{'displayText':'❍\x20Rules','id':_0x5789e2(0x94a)}},{'quickReplyButton':{'displayText':'❍\x20Donasi','id':_0x5789e2(0x463)}},{'quickReplyButton':{'displayText':_0x5789e2(0x8b5),'id':_0x5789e2(0x199)}}];await _0x3f28da[_0x5789e2(0x682)](_0x1e8587[_0x5789e2(0x155)],_0xb42e5d,footer,_0x20fc53,_0x30f1f9,{'quoted':_0x37ae15});})['catch'](_0x1a8fa3=>{const _0x1f5230=_0x4f903d;_0x1e8587[_0x1f5230(0x70d)](mess[_0x1f5230(0x233)]);});}break;case _0x4f903d(0x16f):{if(!_0x496965)return _0x1e8587[_0x4f903d(0x70d)]('Manga\x20apa\x20yang\x20kamu\x20cari??');await _0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x8a2)]),xfarr['Manga'](q)[_0x4f903d(0x245)](async _0x6d54c5=>{const _0x24b7c8=_0x4f903d;let _0x5a25be='*------「\x20MANGA-SEARCH\x20」------*\x0a\x0a';for(let _0x4157ac of _0x6d54c5){_0x5a25be+='*📫\x20Title\x20:*\x20'+_0x4157ac['judul']+'\x0a',_0x5a25be+='*📚\x20Url\x20:*\x20'+_0x4157ac[_0x24b7c8(0x194)]+_0x24b7c8(0x976);}let _0x8d5971=await getBuffer(_0x6d54c5[0x0][_0x24b7c8(0x9f8)][_0x24b7c8(0x530)](_0x24b7c8(0x23c),'')),_0x5a59f8=[{'urlButton':{'displayText':_0x24b7c8(0x372),'url':global[_0x24b7c8(0x46c)]}},{'callButton':{'displayText':_0x24b7c8(0x9ab),'phoneNumber':global[_0x24b7c8(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':_0x24b7c8(0x40c),'id':_0x24b7c8(0x94a)}},{'quickReplyButton':{'displayText':'❍\x20Donasi','id':_0x24b7c8(0x463)}},{'quickReplyButton':{'displayText':_0x24b7c8(0x8b5),'id':_0x24b7c8(0x199)}}];await _0x3f28da[_0x24b7c8(0x682)](_0x1e8587[_0x24b7c8(0x155)],_0x5a25be,footer,_0x8d5971,_0x5a59f8,{'quoted':_0x37ae15});})[_0x4f903d(0x5bf)](_0x215c23=>{const _0x280403=_0x4f903d;_0x1e8587[_0x280403(0x70d)](mess[_0x280403(0x233)]);});}break;case _0x4f903d(0x417):{if(!_0x496965)throw'Contoh\x20:\x20'+(_0x4ade91+_0x179f46)+_0x4f903d(0x6ad);let _0x12a997=await fetchJson(api(_0x4f903d(0x66f),'/webzone/gsmarena',{'query':_0x496965},_0x4f903d(0x950))),{judul:_0x2eac21,rilis:_0x170960,thumb:_0xbbae17,ukuran:_0x392338,type:_0x5f3cc0,storage:_0x116dd0,display:_0x4222d1,inchi:_0x5d9bd0,pixel:_0x4335b0,videoPixel:_0x34fe52,ram:_0xf1c616,chipset:_0x3e046b,batrai:_0x59cd3e,merek_batre:_0x21f389,detail:_0x107480}=_0x12a997[_0x4f903d(0x1ed)],_0x75dfc5=_0x4f903d(0x3f1)+_0x2eac21+_0x4f903d(0x79a)+_0x170960+'\x0a⭔\x20Size:\x20'+_0x392338+'\x0a⭔\x20Type:\x20'+_0x5f3cc0+_0x4f903d(0x88f)+_0x116dd0+'\x0a⭔\x20Display:\x20'+_0x4222d1+_0x4f903d(0x1e2)+_0x5d9bd0+_0x4f903d(0x33e)+_0x4335b0+_0x4f903d(0x147)+_0x34fe52+_0x4f903d(0x187)+_0xf1c616+_0x4f903d(0x620)+_0x3e046b+_0x4f903d(0x332)+_0x59cd3e+_0x4f903d(0x344)+_0x21f389+'\x0a⭔\x20Detail:\x20'+_0x107480;_0x3f28da['sendImage'](_0x1e8587[_0x4f903d(0x155)],_0xbbae17,_0x75dfc5,_0x1e8587);}break;case _0x4f903d(0x263):{if(!_0x496965)throw _0x4f903d(0x5af)+(_0x4ade91+_0x179f46)+_0x4f903d(0x889);let _0x189b1f=await fetchJson(api(_0x4f903d(0x66f),_0x4f903d(0x3df),{'kota':_0x496965},_0x4f903d(0x950))),_0x219e4d='Jadwal\x20Bioskop\x20From\x20:\x20'+_0x496965+'\x0a\x0a';for(let _0x5570cc of _0x189b1f[_0x4f903d(0x1ed)]){_0x219e4d+=_0x4f903d(0x3f1)+_0x5570cc[_0x4f903d(0x549)]+'\x0a',_0x219e4d+='⭔\x20Thumbnail:\x20'+_0x5570cc['thumb']+'\x0a',_0x219e4d+=_0x4f903d(0x8ef)+_0x5570cc['url']+'\x0a\x0a──────────────────────\x0a';}_0x3f28da[_0x4f903d(0x185)](_0x1e8587[_0x4f903d(0x155)],_0x189b1f[_0x4f903d(0x1ed)][0x0]['thumb'],_0x219e4d,_0x1e8587);}break;case _0x4f903d(0x186):{let _0x351b53=await fetchJson(api('zenz','/webzone/nowplayingbioskop',{},_0x4f903d(0x950))),_0x4c0214='Now\x20Playing\x20Bioskop\x0a\x0a';for(let _0x4ea1d9 of _0x351b53[_0x4f903d(0x1ed)]){_0x4c0214+=_0x4f903d(0x3f1)+_0x4ea1d9['title']+'\x0a',_0x4c0214+=_0x4f903d(0x8ef)+_0x4ea1d9['url']+'\x0a',_0x4c0214+=_0x4f903d(0x5a1)+_0x4ea1d9[_0x4f903d(0x335)]+_0x4f903d(0x5c6);}_0x3f28da[_0x4f903d(0x185)](_0x1e8587[_0x4f903d(0x155)],_0x351b53[_0x4f903d(0x1ed)][0x0][_0x4f903d(0x335)],_0x4c0214,_0x1e8587);}break;case _0x4f903d(0x91d):{if(!_0x496965)throw'Contoh:\x20'+(_0x4ade91+_0x179f46)+_0x4f903d(0x2a5);let _0x37cfaa=await fetchJson(api('zenz',_0x4f903d(0xa11),{'query':_0x496965},_0x4f903d(0x950))),_0x1ac0d3=_0x4f903d(0x9d9)+_0x496965+'\x0a\x0a';for(let _0x18cfae of _0x37cfaa[_0x4f903d(0x1ed)]){_0x1ac0d3+=_0x4f903d(0x8b0)+_0x18cfae[_0x4f903d(0x94b)]+'\x0a',_0x1ac0d3+='⭔\x20Community\x20Link:\x20'+_0x18cfae['community_link']+'\x0a',_0x1ac0d3+=_0x4f903d(0x1ce)+_0x18cfae[_0x4f903d(0x6f2)]+'\x0a',_0x1ac0d3+='⭔\x20Description:\x20'+_0x18cfae['community_desc']+'\x0a',_0x1ac0d3+=_0x4f903d(0x38e)+_0x18cfae[_0x4f903d(0x9de)]+'\x0a\x0a──────────────────────\x0a';}_0x3f28da[_0x4f903d(0x185)](_0x1e8587[_0x4f903d(0x155)],'https://'+_0x37cfaa[_0x4f903d(0x1ed)][0x0]['community_thumb'],_0x1ac0d3,_0x1e8587);}break;case _0x4f903d(0x9aa):{if(!_0x496965)throw'Contoh\x20:\x20'+(_0x4ade91+_0x179f46)+_0x4f903d(0xa0f);let _0x215e26=await fetchJson(api(_0x4f903d(0x66f),_0x4f903d(0x871),{'query':_0x496965},'apikey')),{judul:_0x134b9b,dibaca:_0x543734,divote:_0x5ce81c,bab:_0x146316,waktu:_0x16d604,url:_0x1770b5,thumb:_0x32d76d,description:_0x5445ee}=_0x215e26[_0x4f903d(0x1ed)][0x0],_0x558fb9=_0x4f903d(0x15c);_0x558fb9+=_0x4f903d(0x946)+_0x134b9b+'\x0a',_0x558fb9+='⭔\x20Dibaca:\x20'+_0x543734+'\x0a',_0x558fb9+=_0x4f903d(0x64e)+_0x5ce81c+'\x0a',_0x558fb9+=_0x4f903d(0x21f)+_0x146316+'\x0a',_0x558fb9+='⭔\x20Url:\x20'+_0x1770b5+'\x0a',_0x558fb9+=_0x4f903d(0x559)+_0x5445ee,_0x3f28da[_0x4f903d(0x185)](_0x1e8587[_0x4f903d(0x155)],_0x32d76d,_0x558fb9,_0x1e8587);}break;case'webtoons':{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0xa0f);let _0x4f7f59=await fetchJson(api(_0x4f903d(0x66f),_0x4f903d(0x855),{'query':_0x496965},_0x4f903d(0x950))),_0x263607='Webtoons\x20Search\x20From\x20:\x20'+_0x496965+'\x0a\x0a';for(let _0x246e5d of _0x4f7f59[_0x4f903d(0x1ed)]){_0x263607+=_0x4f903d(0x946)+_0x246e5d['judul']+'\x0a',_0x263607+=_0x4f903d(0x9cd)+_0x246e5d[_0x4f903d(0x5e5)]+'\x0a',_0x263607+=_0x4f903d(0x5f7)+_0x246e5d['creator']+'\x0a',_0x263607+='⭔\x20Genre:\x20'+_0x246e5d[_0x4f903d(0x430)]+'\x0a',_0x263607+=_0x4f903d(0x8ef)+_0x246e5d[_0x4f903d(0x2cc)]+_0x4f903d(0x5c6);}_0x1e8587[_0x4f903d(0x70d)](_0x263607);}break;case _0x4f903d(0x874):{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0xa0f);let _0x51434e=await fetchJson(api('zenz',_0x4f903d(0x822),{'query':_0x496965},_0x4f903d(0x950))),_0x2709e3='Drakor\x20Search\x20From\x20:\x20'+_0x496965+'\x0a\x0a';for(let _0x567509 of _0x51434e[_0x4f903d(0x1ed)]){_0x2709e3+=_0x4f903d(0x946)+_0x567509[_0x4f903d(0x1ea)]+'\x0a',_0x2709e3+=_0x4f903d(0x9a1)+_0x567509[_0x4f903d(0x47d)]+'\x0a',_0x2709e3+=_0x4f903d(0x4e5)+_0x567509[_0x4f903d(0x430)]+'\x0a',_0x2709e3+='⭔\x20Url:\x20'+_0x567509[_0x4f903d(0x2cc)]+'\x0a',_0x2709e3+='⭔\x20Thumbnail\x20Url:\x20'+_0x567509['thumbnail']+_0x4f903d(0x5c6);}_0x3f28da['sendImage'](_0x1e8587['chat'],_0x51434e[_0x4f903d(0x1ed)][0x0][_0x4f903d(0x9f8)],_0x2709e3,_0x1e8587);}break;case _0x4f903d(0x6cd):{if(!_0x496965)throw'Contoh\x20:\x20'+(_0x4ade91+_0x179f46)+_0x4f903d(0x246);let _0x43b010=await fetchJson(api(_0x4f903d(0x66f),_0x4f903d(0x8e8),{'query':_0x496965},'apikey')),_0x53921b=_0x4f903d(0x8a9)+_0x496965+'\x0a\x0a';for(let _0x3a3449 of _0x43b010[_0x4f903d(0x1ed)][_0x4f903d(0x587)]){_0x53921b+=_0x4f903d(0x433)+_0x3a3449[_0x4f903d(0x683)]+'\x0a',_0x53921b+=_0x4f903d(0x35e)+_0x3a3449[_0x4f903d(0x6aa)]+_0x4f903d(0x5c6);}_0x1e8587[_0x4f903d(0x70d)](_0x53921b);}break;case _0x4f903d(0x3f8):case _0x4f903d(0x907):case _0x4f903d(0x25d):{if(!_0x496965)throw _0x4f903d(0x13c)+(_0x4ade91+_0x179f46)+_0x4f903d(0x5d4);let _0x19722e=await fetchJson(api(_0x4f903d(0x66f),_0x4f903d(0x794),{'kota':_0x496965},_0x4f903d(0x950))),_0x1d3eb3='Jadwal\x20Sholat\x20Kota\x20:\x20'+_0x496965+'\x0a\x0a',_0x1745e4=_0x19722e[_0x4f903d(0x1ed)];_0x1d3eb3+=_0x4f903d(0x957)+_0x1745e4[_0x4f903d(0x4ee)]+'\x0a',_0x1d3eb3+=_0x4f903d(0x256)+_0x1745e4[_0x4f903d(0x383)]+'\x0a',_0x1d3eb3+=_0x4f903d(0x5c1)+_0x1745e4['duha']+'\x0a',_0x1d3eb3+=_0x4f903d(0x720)+_0x1745e4['dzuhur']+'\x0a',_0x1d3eb3+=_0x4f903d(0x554)+_0x1745e4[_0x4f903d(0x532)]+'\x0a',_0x1d3eb3+=_0x4f903d(0x81d)+_0x1745e4['maghrib']+'\x0a',_0x1d3eb3+='⭔\x20Isya\x20:\x20'+_0x1745e4[_0x4f903d(0x862)]+_0x4f903d(0x5c6),_0x1e8587['reply'](_0x1d3eb3);}break;case _0x4f903d(0x810):case'cekapikey':{if(!_0x496965)throw'Contoh\x20:\x20'+(_0x4ade91+_0x179f46)+'\x20Budi12';let _0xfac0ec=await fetchJson(api(_0x4f903d(0x66f),_0x4f903d(0x39b),{'apikey':_0x496965})),_0x4bbcfe=_0x4f903d(0x7f0),_0x59173d=_0xfac0ec[_0x4f903d(0x7d4)];_0x4bbcfe+=_0x4f903d(0x644)+_0x59173d['id']+'\x0a',_0x4bbcfe+=_0x4f903d(0x94f)+_0x59173d['created']+'\x0a',_0x4bbcfe+=_0x4f903d(0x484)+_0x59173d[_0x4f903d(0x4d0)]+'\x0a',_0x4bbcfe+=_0x4f903d(0x7e7)+_0x59173d[_0x4f903d(0x742)]+'\x0a',_0x4bbcfe+='⭔\x20Last\x20Name\x20:\x20'+_0x59173d[_0x4f903d(0x32d)]+'\x0a',_0x4bbcfe+=_0x4f903d(0x257)+_0x59173d['email']+'\x0a',_0x4bbcfe+=_0x4f903d(0x6be)+_0x59173d[_0x4f903d(0x3b2)]+'\x0a',_0x4bbcfe+=_0x4f903d(0x71c)+_0x59173d[_0x4f903d(0x24e)]+'\x0a',_0x4bbcfe+='⭔\x20Todayhit\x20:\x20'+_0x59173d[_0x4f903d(0x790)]+'\x0a',_0x4bbcfe+=_0x4f903d(0x593)+_0x59173d[_0x4f903d(0x15e)]+'\x0a',_0x4bbcfe+=_0x4f903d(0x844)+_0x59173d['status']+'\x0a',_0x4bbcfe+=_0x4f903d(0x6ae)+_0x59173d[_0x4f903d(0x8e2)]+'\x0a',_0x4bbcfe+=_0x4f903d(0x8d8)+_0x59173d[_0x4f903d(0x564)]+'\x0a',_0x4bbcfe+='⭔\x20Active\x20:\x20'+_0x59173d[_0x4f903d(0x741)]+'\x0a',_0x4bbcfe+=_0x4f903d(0x9cc)+_0x59173d['location']+'\x0a',_0x4bbcfe+='⭔\x20Biodata\x20:\x20'+_0x59173d[_0x4f903d(0x9d3)]+_0x4f903d(0x5c6),_0x3f28da[_0x4f903d(0x185)](_0x1e8587[_0x4f903d(0x155)],_0x59173d[_0x4f903d(0x375)],'',_0x1e8587,{'caption':_0x4bbcfe});}break;case _0x4f903d(0x6f0):{if(!_0x40c20b)throw mess['owner'];let _0x32f2bd=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x1a5e8a[0x0]===_0x4f903d(0x50f))_0x32f2bd[_0x4f903d(0x50f)]=!![],_0x32f2bd[_0x4f903d(0x921)]=![],_0x32f2bd[_0x4f903d(0x98a)]=![],_0x32f2bd[_0x4f903d(0x574)]=![],_0x1e8587[_0x4f903d(0x70d)](mess['success']);else{if(_0x1a5e8a[0x0]==='templateVideo')_0x32f2bd['templateImage']=![],_0x32f2bd[_0x4f903d(0x921)]=!![],_0x32f2bd['templateGif']=![],_0x32f2bd[_0x4f903d(0x574)]=![],_0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x38c)]);else{if(_0x1a5e8a[0x0]===_0x4f903d(0x98a))_0x32f2bd[_0x4f903d(0x50f)]=![],_0x32f2bd['templateVideo']=![],_0x32f2bd[_0x4f903d(0x98a)]=!![],_0x32f2bd['templateMsg']=![],_0x1e8587['reply'](mess[_0x4f903d(0x38c)]);else{if(_0x1a5e8a[0x0]===_0x4f903d(0x3b9))_0x32f2bd['templateImage']=![],_0x32f2bd[_0x4f903d(0x921)]=![],_0x32f2bd[_0x4f903d(0x98a)]=![],_0x32f2bd[_0x4f903d(0x574)]=!![],_0x1e8587[_0x4f903d(0x70d)](mess['success']);else{let _0x578e36=[{'title':_0x4f903d(0x97c),'rows':[{'title':'⌲\x20Template\x20Message','rowId':_0x4f903d(0x708),'description':_0x4f903d(0x8dc)},{'title':_0x4f903d(0x149),'rowId':_0x4f903d(0x7de),'description':'Ubah\x20Menu\x20Bot\x20Menjadi\x20Gambar'},{'title':_0x4f903d(0x707),'rowId':'setmenu\x20templateGif','description':'Ubah\x20Menu\x20Bot\x20Menjadi\x20Gif'},{'title':_0x4f903d(0x1d6),'rowId':'setmenu\x20templateVideo','description':_0x4f903d(0x44c)}]}];_0x3f28da['sendListMsg'](_0x1e8587[_0x4f903d(0x155)],_0x4f903d(0x4b9),_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],'Hello\x20Owner\x20!',_0x4f903d(0x3e1),_0x578e36,_0x1e8587);}}}}}break;case _0x4f903d(0x94a):{anu=_0x4f903d(0x336)+_0x4f33ca+_0x4f903d(0x235)+_0x2a3917+_0x4f903d(0x9a6);let _0x2df25c=[{'quickReplyButton':{'displayText':'⎙\x20Sewabot','id':_0x4f903d(0x199)}}],_0x306e18=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x306e18['templateImage'])_0x3f28da['send5ButImg'](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)]['name'],global[_0x4f903d(0x34c)],_0x2df25c);else{if(_0x306e18['templateGif'])_0x3f28da[_0x4f903d(0x1b8)](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x2df25c);else{if(_0x306e18['templateVid'])_0x3f28da[_0x4f903d(0x503)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global['visoka'],_0x2df25c);else _0x306e18[_0x4f903d(0x574)]&&_0x3f28da['send5ButMsg'](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x2df25c);}}}break;case _0x4f903d(0x52d):case'sewabot':{anu=_0x4f903d(0x336)+_0x4f33ca+_0x4f903d(0x235)+_0x2a3917+_0x4f903d(0x40b)+global[_0x4f903d(0x676)]+_0x4f903d(0x5ec)+global['xl']+'\x0a│⭔\x20INDOSAT\x20:\x20'+global[_0x4f903d(0x428)]+_0x4f903d(0x605)+global['tri']+'\x0a│⭔\x20SMARTFREN\x20:\x20'+global[_0x4f903d(0x5f0)]+'\x0a│⭔\x20GOPAY\x20:\x20'+global[_0x4f903d(0x9ba)]+_0x4f903d(0x2d1)+global[_0x4f903d(0x2f9)]+'\x0a│⭔\x20OVO\x20:\x20'+global[_0x4f903d(0x44e)]+_0x4f903d(0x9a5)+global[_0x4f903d(0x670)]+_0x4f903d(0x44d);let _0x5109eb=[{'urlButton':{'displayText':_0x4f903d(0x372),'url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':_0x4f903d(0x9ab),'phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':_0x4f903d(0x40c),'id':_0x4f903d(0x94a)}},{'quickReplyButton':{'displayText':'❍\x20Donasi','id':_0x4f903d(0x178)}},{'quickReplyButton':{'displayText':_0x4f903d(0x811),'id':_0x4f903d(0x1ff)}}],_0x220a56=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x220a56[_0x4f903d(0x50f)])_0x3f28da[_0x4f903d(0x665)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da['user'][_0x4f903d(0x28e)],global[_0x4f903d(0x34c)],_0x5109eb);else{if(_0x220a56[_0x4f903d(0x98a)])_0x3f28da[_0x4f903d(0x1b8)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x5109eb);else{if(_0x220a56[_0x4f903d(0x2e1)])_0x3f28da['send5ButVid'](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x5109eb);else _0x220a56['templateMsg']&&_0x3f28da['send5ButMsg'](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da['user']['name'],_0x5109eb);}}}break;case'donasi':case'donate':{anu=_0x4f903d(0x336)+_0x4f33ca+'👋\x20」\x0a│「\x20'+_0x2a3917+_0x4f903d(0x3c7)+global['telkomsel']+'\x0a│⭔\x20XL\x20:\x20'+global['xl']+_0x4f903d(0x949)+global[_0x4f903d(0x428)]+_0x4f903d(0x605)+global[_0x4f903d(0x9f2)]+'\x0a│⭔\x20SMARTFREN\x20:\x20'+global[_0x4f903d(0x5f0)]+_0x4f903d(0x39e)+global['gopay']+'\x0a│⭔\x20DANA\x20:\x20'+global[_0x4f903d(0x2f9)]+'\x0a│⭔\x20OVO\x20:\x20'+global['ovo']+'\x0a│⭔\x20SAWERIA\x20:\x20'+global['saweria']+_0x4f903d(0x2df);let _0x67c1d7=[{'urlButton':{'displayText':_0x4f903d(0x372),'url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':_0x4f903d(0x9ab),'phoneNumber':global['owner'][0x0]}},{'quickReplyButton':{'displayText':'❍\x20Rules','id':_0x4f903d(0x94a)}},{'quickReplyButton':{'displayText':_0x4f903d(0x4a3),'id':_0x4f903d(0x4b5)}},{'quickReplyButton':{'displayText':_0x4f903d(0x811),'id':_0x4f903d(0x1ff)}}],_0x4223c9=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x4223c9[_0x4f903d(0x50f)])_0x3f28da['send5ButImg'](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global['thumb'],_0x67c1d7);else{if(_0x4223c9[_0x4f903d(0x98a)])_0x3f28da[_0x4f903d(0x1b8)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x67c1d7);else{if(_0x4223c9[_0x4f903d(0x2e1)])_0x3f28da[_0x4f903d(0x503)](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global['visoka'],_0x67c1d7);else _0x4223c9[_0x4f903d(0x574)]&&_0x3f28da[_0x4f903d(0x991)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)]['name'],_0x67c1d7);}}}break;case _0x4f903d(0x9a9):case'menugroup':{anu=_0x4f903d(0x336)+_0x4f33ca+_0x4f903d(0x235)+_0x2a3917+_0x4f903d(0x752)+_0x4ade91+'\x20)\x0a│\x20Name\x20:\x20'+global['namabot']+_0x4f903d(0x255)+global[_0x4f903d(0x3c5)]+_0x4f903d(0x891)+(_0x3f28da['public']?_0x4f903d(0x6a9):_0x4f903d(0x7e6))+_0x4f903d(0x4b1)+Object[_0x4f903d(0x429)](global['db'][_0x4f903d(0x291)])[_0x4f903d(0x36f)]+_0x4f903d(0x2c9)+runtime(process[_0x4f903d(0x7d0)]())+'\x0a│\x20Lib\x20:\x20Baileys-md\x0a│\x20Menuju\x20idul\x20Adha\x20:\x0a│\x20\x20'+_0x5f585c+_0x4f903d(0x419)+_0x4ade91+_0x4f903d(0x901)+_0x4ade91+_0x4f903d(0x4ba)+_0x4ade91+_0x4f903d(0x27c)+_0x4ade91+'setppgc\x20[image]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x9e0)+_0x4ade91+'setdesc\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x353)+_0x4ade91+_0x4f903d(0x76e)+_0x4ade91+'add\x20@user\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x839)+_0x4ade91+_0x4f903d(0x31a)+_0x4ade91+_0x4f903d(0x99b)+_0x4ade91+_0x4f903d(0x9a7)+_0x4ade91+_0x4f903d(0x482)+_0x4ade91+_0x4f903d(0x85b)+_0x4ade91+'antilink\x20[on/off]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0xa12)+_0x4ade91+'antilinktt\x20[on/off]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0xa02)+_0x4ade91+_0x4f903d(0x8e3)+_0x4ade91+_0x4f903d(0x3fb)+_0x4ade91+_0x4f903d(0x290)+_0x4ade91+_0x4f903d(0x4c0);let _0x474c28=[{'urlButton':{'displayText':_0x4f903d(0x372),'url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':_0x4f903d(0x9ab),'phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':_0x4f903d(0x40c),'id':_0x4f903d(0x94a)}},{'quickReplyButton':{'displayText':_0x4f903d(0x73a),'id':_0x4f903d(0x463)}},{'quickReplyButton':{'displayText':_0x4f903d(0x8b5),'id':_0x4f903d(0x199)}}],_0x2b11de=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x2b11de[_0x4f903d(0x50f)])_0x3f28da[_0x4f903d(0x665)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x34c)],_0x474c28);else{if(_0x2b11de[_0x4f903d(0x98a)])_0x3f28da[_0x4f903d(0x1b8)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da['user']['name'],global[_0x4f903d(0x3dc)],_0x474c28);else{if(_0x2b11de[_0x4f903d(0x2e1)])_0x3f28da[_0x4f903d(0x503)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da['user'][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x474c28);else _0x2b11de[_0x4f903d(0x574)]&&_0x3f28da['send5ButMsg'](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)]['name'],_0x474c28);}}}break;case _0x4f903d(0x5a0):case _0x4f903d(0x5d9):{anu='┌────────┈❖\x0a│「\x20Hi,\x20'+_0x4f33ca+_0x4f903d(0x235)+_0x2a3917+'\x20」\x0a└┬─────────────┈❖\x0a┌┤「\x20INFO\x20BOT\x20」\x0a│└─────────────┈❖\x0a│\x20Prefix\x20:\x20(\x20'+_0x4ade91+_0x4f903d(0x229)+global['namabot']+_0x4f903d(0x255)+global[_0x4f903d(0x3c5)]+_0x4f903d(0x891)+(_0x3f28da[_0x4f903d(0x512)]?_0x4f903d(0x6a9):_0x4f903d(0x7e6))+_0x4f903d(0x4b1)+Object['keys'](global['db'][_0x4f903d(0x291)])[_0x4f903d(0x36f)]+'\x0a│\x20Runtime\x20:\x20'+runtime(process[_0x4f903d(0x7d0)]())+_0x4f903d(0x672)+_0x5f585c+_0x4f903d(0x56d)+_0x4ade91+_0x4f903d(0x21a)+_0x4ade91+_0x4f903d(0x969)+_0x4ade91+'twittermp3\x20[url]\x0a│⭔\x20'+_0x4ade91+'facebook\x20[url]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x3ed)+_0x4ade91+_0x4f903d(0x268)+_0x4ade91+_0x4f903d(0x179)+_0x4ade91+_0x4f903d(0x95e)+_0x4ade91+'getvideo\x20[query]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x6d1)+_0x4ade91+'joox\x20[query]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x5d3);let _0x26daf1=[{'urlButton':{'displayText':'TikTok\x20Creator','url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':_0x4f903d(0x9ab),'phoneNumber':global['owner'][0x0]}},{'quickReplyButton':{'displayText':_0x4f903d(0x40c),'id':_0x4f903d(0x94a)}},{'quickReplyButton':{'displayText':_0x4f903d(0x73a),'id':'donasi'}},{'quickReplyButton':{'displayText':_0x4f903d(0x8b5),'id':_0x4f903d(0x199)}}],_0x550066=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x550066['templateImage'])_0x3f28da[_0x4f903d(0x665)](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)]['name'],global[_0x4f903d(0x34c)],_0x26daf1);else{if(_0x550066[_0x4f903d(0x98a)])_0x3f28da[_0x4f903d(0x1b8)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x26daf1);else{if(_0x550066[_0x4f903d(0x2e1)])_0x3f28da[_0x4f903d(0x503)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x26daf1);else _0x550066[_0x4f903d(0x574)]&&_0x3f28da[_0x4f903d(0x991)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x26daf1);}}}break;case _0x4f903d(0x1b7):case'menusearch':{anu=_0x4f903d(0x336)+_0x4f33ca+_0x4f903d(0x235)+_0x2a3917+_0x4f903d(0x752)+_0x4ade91+_0x4f903d(0x229)+global[_0x4f903d(0x47a)]+_0x4f903d(0x255)+global[_0x4f903d(0x3c5)]+'\x0a│\x20Mode\x20:\x20'+(_0x3f28da[_0x4f903d(0x512)]?_0x4f903d(0x6a9):_0x4f903d(0x7e6))+_0x4f903d(0x4b1)+Object[_0x4f903d(0x429)](global['db']['users'])[_0x4f903d(0x36f)]+'\x0a│\x20Runtime\x20:\x20'+runtime(process[_0x4f903d(0x7d0)]())+_0x4f903d(0x672)+_0x5f585c+_0x4f903d(0x25b)+_0x4ade91+_0x4f903d(0x782)+_0x4ade91+'manga\x20[query]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x58d)+_0x4ade91+_0x4f903d(0x61d)+_0x4ade91+'yts\x20[query]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x2bc)+_0x4ade91+'gimage\x20[query]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x57b)+_0x4ade91+_0x4f903d(0x84e)+_0x4ade91+'wikimedia\x20[query]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x7e3)+_0x4ade91+_0x4f903d(0x4f8);let _0x210510=[{'urlButton':{'displayText':_0x4f903d(0x372),'url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':'Number\x20Phone\x20Owner','phoneNumber':global['owner'][0x0]}},{'quickReplyButton':{'displayText':'❍\x20Rules','id':_0x4f903d(0x94a)}},{'quickReplyButton':{'displayText':_0x4f903d(0x73a),'id':_0x4f903d(0x463)}},{'quickReplyButton':{'displayText':_0x4f903d(0x8b5),'id':'sewabot'}}],_0x26a8cb=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x26a8cb[_0x4f903d(0x50f)])_0x3f28da[_0x4f903d(0x665)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)]['name'],global[_0x4f903d(0x34c)],_0x210510);else{if(_0x26a8cb[_0x4f903d(0x98a)])_0x3f28da[_0x4f903d(0x1b8)](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x210510);else{if(_0x26a8cb[_0x4f903d(0x2e1)])_0x3f28da[_0x4f903d(0x503)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x210510);else _0x26a8cb[_0x4f903d(0x574)]&&_0x3f28da[_0x4f903d(0x991)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x210510);}}}break;case _0x4f903d(0x812):case _0x4f903d(0x65a):{anu='┌────────┈❖\x0a│「\x20Hi,\x20'+_0x4f33ca+_0x4f903d(0x235)+_0x2a3917+_0x4f903d(0x752)+_0x4ade91+_0x4f903d(0x229)+global[_0x4f903d(0x47a)]+_0x4f903d(0x255)+global[_0x4f903d(0x3c5)]+_0x4f903d(0x891)+(_0x3f28da[_0x4f903d(0x512)]?_0x4f903d(0x6a9):_0x4f903d(0x7e6))+_0x4f903d(0x4b1)+Object[_0x4f903d(0x429)](global['db'][_0x4f903d(0x291)])['length']+_0x4f903d(0x2c9)+runtime(process['uptime']())+_0x4f903d(0x672)+_0x5f585c+_0x4f903d(0x61c)+_0x4ade91+_0x4f903d(0x165)+_0x4ade91+_0x4f903d(0x2d9)+_0x4ade91+_0x4f903d(0x496)+_0x4ade91+_0x4f903d(0x6bf)+_0x4ade91+_0x4f903d(0x7e1)+_0x4ade91+_0x4f903d(0x5ce);let _0x30d046=[{'urlButton':{'displayText':'TikTok\x20Creator','url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':_0x4f903d(0x9ab),'phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':_0x4f903d(0x40c),'id':_0x4f903d(0x94a)}},{'quickReplyButton':{'displayText':'❍\x20Donasi','id':'donasi'}},{'quickReplyButton':{'displayText':'⎙\x20SewaBot','id':_0x4f903d(0x199)}}],_0x1c54f1=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x1c54f1[_0x4f903d(0x50f)])_0x3f28da[_0x4f903d(0x665)](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x34c)],_0x30d046);else{if(_0x1c54f1[_0x4f903d(0x98a)])_0x3f28da[_0x4f903d(0x1b8)](_0x1e8587['chat'],anu,_0x3f28da['user']['name'],global[_0x4f903d(0x3dc)],_0x30d046);else{if(_0x1c54f1[_0x4f903d(0x2e1)])_0x3f28da['send5ButVid'](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x30d046);else _0x1c54f1['templateMsg']&&_0x3f28da[_0x4f903d(0x991)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x30d046);}}}break;case'animemenu':case _0x4f903d(0x23b):{anu=_0x4f903d(0x336)+_0x4f33ca+_0x4f903d(0x235)+_0x2a3917+_0x4f903d(0x752)+_0x4ade91+'\x20)\x0a│\x20Name\x20:\x20'+global[_0x4f903d(0x47a)]+_0x4f903d(0x255)+global[_0x4f903d(0x3c5)]+'\x0a│\x20Mode\x20:\x20'+(_0x3f28da[_0x4f903d(0x512)]?_0x4f903d(0x6a9):'Self')+'\x0a│\x20User\x20:\x20'+Object['keys'](global['db'][_0x4f903d(0x291)])[_0x4f903d(0x36f)]+_0x4f903d(0x2c9)+runtime(process['uptime']())+'\x0a│\x20Lib\x20:\x20Baileys-md\x0a│\x20Menuju\x20idul\x20Adha\x20:\x0a│\x20\x20'+_0x5f585c+_0x4f903d(0x181)+_0x4ade91+'couple\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x537)+_0x4ade91+_0x4f903d(0x9e4)+_0x4ade91+_0x4f903d(0x7eb)+_0x4ade91+'uniform\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x27f)+_0x4ade91+_0x4f903d(0x7b4)+_0x4ade91+_0x4f903d(0x9b6)+_0x4ade91+_0x4f903d(0x7f2)+_0x4ade91+_0x4f903d(0x56f)+_0x4ade91+_0x4f903d(0x9ef)+_0x4ade91+_0x4f903d(0x800)+_0x4ade91+_0x4f903d(0x7da)+_0x4ade91+_0x4f903d(0x379);let _0x4836d5=[{'urlButton':{'displayText':_0x4f903d(0x372),'url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':_0x4f903d(0x9ab),'phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':'❍\x20Rules','id':'rules'}},{'quickReplyButton':{'displayText':_0x4f903d(0x73a),'id':'donasi'}},{'quickReplyButton':{'displayText':_0x4f903d(0x8b5),'id':_0x4f903d(0x199)}}],_0x2d23f8=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x2d23f8['templateImage'])_0x3f28da[_0x4f903d(0x665)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)]['name'],global['thumb'],_0x4836d5);else{if(_0x2d23f8['templateGif'])_0x3f28da['send5ButGif'](_0x1e8587['chat'],anu,_0x3f28da['user']['name'],global['visoka'],_0x4836d5);else{if(_0x2d23f8['templateVid'])_0x3f28da[_0x4f903d(0x503)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x4836d5);else _0x2d23f8[_0x4f903d(0x574)]&&_0x3f28da[_0x4f903d(0x991)](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x4836d5);}}}break;case _0x4f903d(0x555):case _0x4f903d(0x490):{anu=_0x4f903d(0x336)+_0x4f33ca+_0x4f903d(0x235)+_0x2a3917+_0x4f903d(0x752)+_0x4ade91+_0x4f903d(0x229)+global[_0x4f903d(0x47a)]+_0x4f903d(0x255)+global[_0x4f903d(0x3c5)]+_0x4f903d(0x891)+(_0x3f28da[_0x4f903d(0x512)]?_0x4f903d(0x6a9):_0x4f903d(0x7e6))+_0x4f903d(0x4b1)+Object[_0x4f903d(0x429)](global['db']['users'])[_0x4f903d(0x36f)]+_0x4f903d(0x2c9)+runtime(process[_0x4f903d(0x7d0)]())+'\x0a│\x20Lib\x20:\x20Baileys-md\x0a│\x20Menuju\x20idul\x20Adha\x20:\x0a│\x20\x20'+_0x5f585c+'\x0a└┬─────────────┈❖\x0a┌┤「\x20NSFW\x20」\x0a│└─────────────┈❖\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x6ea)+_0x4ade91+_0x4f903d(0x7fa)+_0x4ade91+'bdsm\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x9ee)+_0x4ade91+_0x4f903d(0x8d0)+_0x4ade91+'cum\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x545)+_0x4ade91+_0x4f903d(0x558)+_0x4ade91+_0x4f903d(0x164)+_0x4ade91+_0x4f903d(0x243)+_0x4ade91+_0x4f903d(0x49d)+_0x4ade91+_0x4f903d(0x1b3)+_0x4ade91+_0x4f903d(0x4c9)+_0x4ade91+'masturbation\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x36d)+_0x4ade91+_0x4f903d(0x8b1)+_0x4ade91+_0x4f903d(0x4f0)+_0x4ade91+_0x4f903d(0x3f3)+_0x4ade91+_0x4f903d(0x53d)+_0x4ade91+'yuri\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x397);let _0x4319b1=[{'urlButton':{'displayText':_0x4f903d(0x372),'url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':'Number\x20Phone\x20Owner','phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':'❍\x20Rules','id':_0x4f903d(0x94a)}},{'quickReplyButton':{'displayText':_0x4f903d(0x73a),'id':_0x4f903d(0x463)}},{'quickReplyButton':{'displayText':_0x4f903d(0x8b5),'id':'sewabot'}}],_0x4ee843=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x4ee843['templateImage'])_0x3f28da[_0x4f903d(0x665)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x34c)],_0x4319b1);else{if(_0x4ee843[_0x4f903d(0x98a)])_0x3f28da[_0x4f903d(0x1b8)](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global['visoka'],_0x4319b1);else{if(_0x4ee843[_0x4f903d(0x2e1)])_0x3f28da[_0x4f903d(0x503)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da['user'][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x4319b1);else _0x4ee843['templateMsg']&&_0x3f28da['send5ButMsg'](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da['user'][_0x4f903d(0x28e)],_0x4319b1);}}}break;case _0x4f903d(0x52b):case _0x4f903d(0x1f1):{anu=_0x4f903d(0x336)+_0x4f33ca+_0x4f903d(0x235)+_0x2a3917+'\x20」\x0a└┬─────────────┈❖\x0a┌┤「\x20INFO\x20BOT\x20」\x0a│└─────────────┈❖\x0a│\x20Prefix\x20:\x20(\x20'+_0x4ade91+_0x4f903d(0x229)+global[_0x4f903d(0x47a)]+'\x0a│\x20Owner\x20:\x20'+global[_0x4f903d(0x3c5)]+_0x4f903d(0x891)+(_0x3f28da[_0x4f903d(0x512)]?'Public':_0x4f903d(0x7e6))+_0x4f903d(0x4b1)+Object['keys'](global['db'][_0x4f903d(0x291)])['length']+_0x4f903d(0x2c9)+runtime(process[_0x4f903d(0x7d0)]())+_0x4f903d(0x672)+_0x5f585c+_0x4f903d(0x52c)+_0x4ade91+_0x4f903d(0x8cd)+_0x4ade91+_0x4f903d(0x1fa)+_0x4ade91+_0x4f903d(0x42f)+_0x4ade91+'asupannatajadeh\x0a│⭔\x20'+_0x4ade91+'cecan\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x2f8)+_0x4ade91+'thailand\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x2e4)+_0x4ade91+_0x4f903d(0x282)+_0x4ade91+'notnot\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x9a2)+_0x4ade91+_0x4f903d(0x2cd)+_0x4ade91+'rose\x0a│⭔\x20'+_0x4ade91+'kpop\x0a└──────────────┈❖';let _0x69f742=[{'urlButton':{'displayText':'TikTok\x20Creator','url':global['myweb']}},{'callButton':{'displayText':_0x4f903d(0x9ab),'phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':_0x4f903d(0x40c),'id':_0x4f903d(0x94a)}},{'quickReplyButton':{'displayText':_0x4f903d(0x73a),'id':'donasi'}},{'quickReplyButton':{'displayText':_0x4f903d(0x8b5),'id':_0x4f903d(0x199)}}],_0x4f973f=db['settings'][_0xc0ef6f];if(_0x4f973f['templateImage'])_0x3f28da['send5ButImg'](_0x1e8587['chat'],anu,_0x3f28da['user'][_0x4f903d(0x28e)],global[_0x4f903d(0x34c)],_0x69f742);else{if(_0x4f973f['templateGif'])_0x3f28da[_0x4f903d(0x1b8)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x69f742);else{if(_0x4f973f[_0x4f903d(0x2e1)])_0x3f28da[_0x4f903d(0x503)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)]['name'],global[_0x4f903d(0x3dc)],_0x69f742);else _0x4f973f[_0x4f903d(0x574)]&&_0x3f28da['send5ButMsg'](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da['user'][_0x4f903d(0x28e)],_0x69f742);}}}break;case'quotesmenu':case _0x4f903d(0x873):{anu=_0x4f903d(0x336)+_0x4f33ca+_0x4f903d(0x235)+_0x2a3917+_0x4f903d(0x752)+_0x4ade91+_0x4f903d(0x229)+global[_0x4f903d(0x47a)]+_0x4f903d(0x255)+global[_0x4f903d(0x3c5)]+_0x4f903d(0x891)+(_0x3f28da[_0x4f903d(0x512)]?_0x4f903d(0x6a9):'Self')+_0x4f903d(0x4b1)+Object[_0x4f903d(0x429)](global['db'][_0x4f903d(0x291)])[_0x4f903d(0x36f)]+_0x4f903d(0x2c9)+runtime(process[_0x4f903d(0x7d0)]())+_0x4f903d(0x672)+_0x5f585c+'\x0a└┬─────────────┈❖\x0a┌┤「\x20QUOTES\x20」\x0a│└─────────────┈❖\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x3f4)+_0x4ade91+_0x4f903d(0x965)+_0x4ade91+_0x4f903d(0x3cc)+_0x4ade91+_0x4f903d(0x236)+_0x4ade91+_0x4f903d(0x688)+_0x4ade91+_0x4f903d(0x4b7)+_0x4ade91+_0x4f903d(0x92c)+_0x4ade91+'muslimquote\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x408)+_0x4ade91+'kanyequote\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x2f5)+_0x4ade91+'trumpthink\x0a│⭔\x20'+_0x4ade91+'creepyfact\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x89f)+_0x4ade91+'puisi\x0a│⭔\x20'+_0x4ade91+'pantun\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x13f);let _0x48dc7c=[{'urlButton':{'displayText':'TikTok\x20Creator','url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':_0x4f903d(0x9ab),'phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':'❍\x20Rules','id':'rules'}},{'quickReplyButton':{'displayText':'❍\x20Donasi','id':_0x4f903d(0x463)}},{'quickReplyButton':{'displayText':_0x4f903d(0x8b5),'id':_0x4f903d(0x199)}}],_0x2632a6=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x2632a6['templateImage'])_0x3f28da[_0x4f903d(0x665)](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x34c)],_0x48dc7c);else{if(_0x2632a6[_0x4f903d(0x98a)])_0x3f28da['send5ButGif'](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da['user']['name'],global[_0x4f903d(0x3dc)],_0x48dc7c);else{if(_0x2632a6[_0x4f903d(0x2e1)])_0x3f28da[_0x4f903d(0x503)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x48dc7c);else _0x2632a6[_0x4f903d(0x574)]&&_0x3f28da[_0x4f903d(0x991)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x48dc7c);}}}break;case _0x4f903d(0x7d3):case _0x4f903d(0x1d0):{anu=_0x4f903d(0x336)+_0x4f33ca+'👋\x20」\x0a│「\x20'+_0x2a3917+_0x4f903d(0x752)+_0x4ade91+_0x4f903d(0x229)+global['namabot']+'\x0a│\x20Owner\x20:\x20'+global[_0x4f903d(0x3c5)]+'\x0a│\x20Mode\x20:\x20'+(_0x3f28da[_0x4f903d(0x512)]?_0x4f903d(0x6a9):_0x4f903d(0x7e6))+'\x0a│\x20User\x20:\x20'+Object[_0x4f903d(0x429)](global['db']['users'])['length']+_0x4f903d(0x2c9)+runtime(process[_0x4f903d(0x7d0)]())+_0x4f903d(0x672)+_0x5f585c+_0x4f903d(0x346)+_0x4ade91+_0x4f903d(0x488)+_0x4ade91+_0x4f903d(0x3da)+_0x4ade91+_0x4f903d(0x610);let _0x1dd7e8=[{'urlButton':{'displayText':_0x4f903d(0x372),'url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':'Number\x20Phone\x20Owner','phoneNumber':global['owner'][0x0]}},{'quickReplyButton':{'displayText':_0x4f903d(0x40c),'id':_0x4f903d(0x94a)}},{'quickReplyButton':{'displayText':'❍\x20Donasi','id':_0x4f903d(0x463)}},{'quickReplyButton':{'displayText':_0x4f903d(0x8b5),'id':'sewabot'}}],_0x2e9a5a=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x2e9a5a['templateImage'])_0x3f28da[_0x4f903d(0x665)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da['user'][_0x4f903d(0x28e)],global[_0x4f903d(0x34c)],_0x1dd7e8);else{if(_0x2e9a5a[_0x4f903d(0x98a)])_0x3f28da['send5ButGif'](_0x1e8587['chat'],anu,_0x3f28da['user']['name'],global[_0x4f903d(0x3dc)],_0x1dd7e8);else{if(_0x2e9a5a[_0x4f903d(0x2e1)])_0x3f28da[_0x4f903d(0x503)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)]['name'],global[_0x4f903d(0x3dc)],_0x1dd7e8);else _0x2e9a5a[_0x4f903d(0x574)]&&_0x3f28da[_0x4f903d(0x991)](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)]['name'],_0x1dd7e8);}}}break;case'randommenu':case _0x4f903d(0x869):{anu=_0x4f903d(0x336)+_0x4f33ca+'👋\x20」\x0a│「\x20'+_0x2a3917+_0x4f903d(0x752)+_0x4ade91+'\x20)\x0a│\x20Name\x20:\x20'+global[_0x4f903d(0x47a)]+_0x4f903d(0x255)+global['namaowner']+_0x4f903d(0x891)+(_0x3f28da[_0x4f903d(0x512)]?'Public':'Self')+_0x4f903d(0x4b1)+Object[_0x4f903d(0x429)](global['db'][_0x4f903d(0x291)])['length']+'\x0a│\x20Runtime\x20:\x20'+runtime(process[_0x4f903d(0x7d0)]())+'\x0a│\x20Lib\x20:\x20Baileys-md\x0a│\x20Menuju\x20idul\x20Adha\x20:\x0a│\x20\x20'+_0x5f585c+_0x4f903d(0x69e)+_0x4ade91+'simih\x20[teks]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x714)+_0x4ade91+_0x4f903d(0x18d)+_0x4ade91+_0x4f903d(0x475)+_0x4ade91+_0x4f903d(0x371)+_0x4ade91+'styletext\x20[teks]\x0a└──────────────┈❖';let _0x4de890=[{'urlButton':{'displayText':'TikTok\x20Creator','url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':_0x4f903d(0x9ab),'phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':'❍\x20Rules','id':'rules'}},{'quickReplyButton':{'displayText':'❍\x20Donasi','id':_0x4f903d(0x463)}},{'quickReplyButton':{'displayText':_0x4f903d(0x8b5),'id':_0x4f903d(0x199)}}],_0xa1d717=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0xa1d717[_0x4f903d(0x50f)])_0x3f28da[_0x4f903d(0x665)](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x34c)],_0x4de890);else{if(_0xa1d717[_0x4f903d(0x98a)])_0x3f28da[_0x4f903d(0x1b8)](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x4de890);else{if(_0xa1d717[_0x4f903d(0x2e1)])_0x3f28da[_0x4f903d(0x503)](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x4de890);else _0xa1d717[_0x4f903d(0x574)]&&_0x3f28da[_0x4f903d(0x991)](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)]['name'],_0x4de890);}}}break;case _0x4f903d(0x455):case _0x4f903d(0x5c9):{anu=_0x4f903d(0x336)+_0x4f33ca+_0x4f903d(0x235)+_0x2a3917+'\x20」\x0a└┬─────────────┈❖\x0a┌┤「\x20INFO\x20BOT\x20」\x0a│└─────────────┈❖\x0a│\x20Prefix\x20:\x20(\x20'+_0x4ade91+'\x20)\x0a│\x20Name\x20:\x20'+global[_0x4f903d(0x47a)]+'\x0a│\x20Owner\x20:\x20'+global[_0x4f903d(0x3c5)]+'\x0a│\x20Mode\x20:\x20'+(_0x3f28da[_0x4f903d(0x512)]?_0x4f903d(0x6a9):'Self')+'\x0a│\x20User\x20:\x20'+Object['keys'](global['db'][_0x4f903d(0x291)])[_0x4f903d(0x36f)]+_0x4f903d(0x2c9)+runtime(process[_0x4f903d(0x7d0)]())+_0x4f903d(0x672)+_0x5f585c+_0x4f903d(0x84d)+_0x4ade91+_0x4f903d(0x95b)+_0x4ade91+_0x4f903d(0x33c)+_0x4ade91+_0x4f903d(0x679)+_0x4ade91+'3dscifi\x20[text]\x0a│⭔\x20'+_0x4ade91+'3drainbow\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x49b)+_0x4ade91+_0x4f903d(0x3eb)+_0x4ade91+'sketch\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x5e2)+_0x4ade91+'space\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x72d)+_0x4ade91+_0x4f903d(0x174)+_0x4ade91+_0x4f903d(0x384)+_0x4ade91+'transformer\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x41b)+_0x4ade91+_0x4f903d(0x302)+_0x4ade91+_0x4f903d(0x4bf)+_0x4ade91+_0x4f903d(0x2fb)+_0x4ade91+_0x4f903d(0x5e3)+_0x4ade91+_0x4f903d(0x468)+_0x4ade91+_0x4f903d(0x71a)+_0x4ade91+_0x4f903d(0x561)+_0x4ade91+_0x4f903d(0x643)+_0x4ade91+_0x4f903d(0x7d1)+_0x4ade91+_0x4f903d(0x3ca)+_0x4ade91+'foggywindow\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x796)+_0x4ade91+_0x4f903d(0x793)+_0x4ade91+_0x4f903d(0x511)+_0x4ade91+'blackpink\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x4e3);let _0x35eb2c=[{'urlButton':{'displayText':_0x4f903d(0x372),'url':global['myweb']}},{'callButton':{'displayText':_0x4f903d(0x9ab),'phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':'❍\x20Rules','id':_0x4f903d(0x94a)}},{'quickReplyButton':{'displayText':_0x4f903d(0x73a),'id':_0x4f903d(0x463)}},{'quickReplyButton':{'displayText':_0x4f903d(0x8b5),'id':_0x4f903d(0x199)}}],_0x554361=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x554361[_0x4f903d(0x50f)])_0x3f28da[_0x4f903d(0x665)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global['thumb'],_0x35eb2c);else{if(_0x554361['templateGif'])_0x3f28da['send5ButGif'](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da['user']['name'],global[_0x4f903d(0x3dc)],_0x35eb2c);else{if(_0x554361[_0x4f903d(0x2e1)])_0x3f28da[_0x4f903d(0x503)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da['user']['name'],global['visoka'],_0x35eb2c);else _0x554361[_0x4f903d(0x574)]&&_0x3f28da[_0x4f903d(0x991)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x35eb2c);}}}break;case _0x4f903d(0x9ad):case _0x4f903d(0x9e5):{anu=_0x4f903d(0x336)+_0x4f33ca+_0x4f903d(0x235)+_0x2a3917+'\x20」\x0a└┬─────────────┈❖\x0a┌┤「\x20INFO\x20BOT\x20」\x0a│└─────────────┈❖\x0a│\x20Prefix\x20:\x20(\x20'+_0x4ade91+'\x20)\x0a│\x20Name\x20:\x20'+global[_0x4f903d(0x47a)]+'\x0a│\x20Owner\x20:\x20'+global[_0x4f903d(0x3c5)]+_0x4f903d(0x891)+(_0x3f28da['public']?_0x4f903d(0x6a9):_0x4f903d(0x7e6))+_0x4f903d(0x4b1)+Object[_0x4f903d(0x429)](global['db'][_0x4f903d(0x291)])[_0x4f903d(0x36f)]+_0x4f903d(0x2c9)+runtime(process[_0x4f903d(0x7d0)]())+_0x4f903d(0x672)+_0x5f585c+_0x4f903d(0x62b)+_0x4ade91+_0x4f903d(0x6db)+_0x4ade91+_0x4f903d(0x28c)+_0x4ade91+'pixelate\x20[image]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x6b3)+_0x4ade91+_0x4f903d(0x481)+_0x4ade91+_0x4f903d(0x1d3)+_0x4ade91+_0x4f903d(0x18a)+_0x4ade91+_0x4f903d(0x203)+_0x4ade91+_0x4f903d(0x3a0)+_0x4ade91+_0x4f903d(0x43c)+_0x4ade91+_0x4f903d(0x827)+_0x4ade91+_0x4f903d(0x4c7)+_0x4ade91+_0x4f903d(0x1db)+_0x4ade91+_0x4f903d(0x7ad)+_0x4ade91+_0x4f903d(0x189)+_0x4ade91+_0x4f903d(0x8a1)+_0x4ade91+'jail\x20[image]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x588);let _0x41701f=[{'urlButton':{'displayText':_0x4f903d(0x372),'url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':_0x4f903d(0x9ab),'phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':'❍\x20Rules','id':'rules'}},{'quickReplyButton':{'displayText':'❍\x20Donasi','id':_0x4f903d(0x463)}},{'quickReplyButton':{'displayText':_0x4f903d(0x8b5),'id':_0x4f903d(0x199)}}],_0x27b7ce=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x27b7ce[_0x4f903d(0x50f)])_0x3f28da['send5ButImg'](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x34c)],_0x41701f);else{if(_0x27b7ce['templateGif'])_0x3f28da[_0x4f903d(0x1b8)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x41701f);else{if(_0x27b7ce[_0x4f903d(0x2e1)])_0x3f28da[_0x4f903d(0x503)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)]['name'],global['visoka'],_0x41701f);else _0x27b7ce[_0x4f903d(0x574)]&&_0x3f28da['send5ButMsg'](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x41701f);}}}break;case _0x4f903d(0x937):case'menuephoto':{anu=_0x4f903d(0x336)+_0x4f33ca+'👋\x20」\x0a│「\x20'+_0x2a3917+_0x4f903d(0x752)+_0x4ade91+'\x20)\x0a│\x20Name\x20:\x20'+global[_0x4f903d(0x47a)]+_0x4f903d(0x255)+global['namaowner']+_0x4f903d(0x891)+(_0x3f28da[_0x4f903d(0x512)]?_0x4f903d(0x6a9):_0x4f903d(0x7e6))+'\x0a│\x20User\x20:\x20'+Object['keys'](global['db'][_0x4f903d(0x291)])[_0x4f903d(0x36f)]+'\x0a│\x20Runtime\x20:\x20'+runtime(process[_0x4f903d(0x7d0)]())+'\x0a│\x20Lib\x20:\x20Baileys-md\x0a│\x20Menuju\x20idul\x20Adha\x20:\x0a│\x20\x20'+_0x5f585c+_0x4f903d(0x905)+_0x4ade91+_0x4f903d(0x9a8)+_0x4ade91+_0x4f903d(0x606)+_0x4ade91+'logo4\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x519)+_0x4ade91+_0x4f903d(0x615)+_0x4ade91+'logogold\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x88b)+_0x4ade91+_0x4f903d(0x2e6)+_0x4ade91+_0x4f903d(0x439)+_0x4ade91+_0x4f903d(0x577)+_0x4ade91+_0x4f903d(0x777)+_0x4ade91+_0x4f903d(0x774)+_0x4ade91+_0x4f903d(0x7a8)+_0x4ade91+_0x4f903d(0x51c)+_0x4ade91+_0x4f903d(0x62d)+_0x4ade91+_0x4f903d(0x5c7)+_0x4ade91+_0x4f903d(0x9d0)+_0x4ade91+_0x4f903d(0x68f)+_0x4ade91+_0x4f903d(0x73e)+_0x4ade91+_0x4f903d(0x470)+_0x4ade91+_0x4f903d(0x980)+_0x4ade91+_0x4f903d(0x8c5)+_0x4ade91+_0x4f903d(0x7e4)+_0x4ade91+_0x4f903d(0x16e)+_0x4ade91+_0x4f903d(0x81e)+_0x4ade91+_0x4f903d(0x6b5)+_0x4ade91+'starnight2\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x2ed)+_0x4ade91+_0x4f903d(0x8f6)+_0x4ade91+'flashlight\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x8ce)+_0x4ade91+'yasuologo\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x365)+_0x4ade91+_0x4f903d(0x288)+_0x4ade91+'ytcertificate\x20[text]\x0a└──────────────┈❖';let _0x211218=[{'urlButton':{'displayText':'TikTok\x20Creator','url':global['myweb']}},{'callButton':{'displayText':_0x4f903d(0x9ab),'phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':_0x4f903d(0x40c),'id':_0x4f903d(0x94a)}},{'quickReplyButton':{'displayText':_0x4f903d(0x73a),'id':_0x4f903d(0x463)}},{'quickReplyButton':{'displayText':'⎙\x20SewaBot','id':'sewabot'}}],_0x30628d=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x30628d[_0x4f903d(0x50f)])_0x3f28da['send5ButImg'](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da['user'][_0x4f903d(0x28e)],global[_0x4f903d(0x34c)],_0x211218);else{if(_0x30628d[_0x4f903d(0x98a)])_0x3f28da[_0x4f903d(0x1b8)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da['user']['name'],global['visoka'],_0x211218);else{if(_0x30628d[_0x4f903d(0x2e1)])_0x3f28da['send5ButVid'](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x211218);else _0x30628d[_0x4f903d(0x574)]&&_0x3f28da[_0x4f903d(0x991)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x211218);}}}break;case'gamemenu':case'menugame':{anu=_0x4f903d(0x336)+_0x4f33ca+'👋\x20」\x0a│「\x20'+_0x2a3917+_0x4f903d(0x752)+_0x4ade91+'\x20)\x0a│\x20Name\x20:\x20'+global[_0x4f903d(0x47a)]+_0x4f903d(0x255)+global[_0x4f903d(0x3c5)]+_0x4f903d(0x891)+(_0x3f28da[_0x4f903d(0x512)]?_0x4f903d(0x6a9):_0x4f903d(0x7e6))+_0x4f903d(0x4b1)+Object[_0x4f903d(0x429)](global['db']['users'])[_0x4f903d(0x36f)]+'\x0a│\x20Runtime\x20:\x20'+runtime(process[_0x4f903d(0x7d0)]())+_0x4f903d(0x672)+_0x5f585c+'\x0a└┬─────────────┈❖\x0a┌┤「\x20GAME\x20」\x0a│└─────────────┈❖\x0a│⭔\x20'+_0x4ade91+'delttt\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x8fa)+_0x4ade91+_0x4f903d(0x2a1)+_0x4ade91+_0x4f903d(0x402)+_0x4ade91+_0x4f903d(0x26d)+_0x4ade91+_0x4f903d(0x76b)+_0x4ade91+_0x4f903d(0x7fe)+_0x4ade91+_0x4f903d(0x207)+_0x4ade91+_0x4f903d(0x900)+_0x4ade91+_0x4f903d(0x9db);let _0x13609e=[{'urlButton':{'displayText':_0x4f903d(0x372),'url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':_0x4f903d(0x9ab),'phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':_0x4f903d(0x40c),'id':_0x4f903d(0x94a)}},{'quickReplyButton':{'displayText':'❍\x20Donasi','id':_0x4f903d(0x463)}},{'quickReplyButton':{'displayText':'⎙\x20SewaBot','id':'sewabot'}}],_0x588472=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x588472[_0x4f903d(0x50f)])_0x3f28da[_0x4f903d(0x665)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global['thumb'],_0x13609e);else{if(_0x588472[_0x4f903d(0x98a)])_0x3f28da['send5ButGif'](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x13609e);else{if(_0x588472[_0x4f903d(0x2e1)])_0x3f28da[_0x4f903d(0x503)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)]['name'],global[_0x4f903d(0x3dc)],_0x13609e);else _0x588472[_0x4f903d(0x574)]&&_0x3f28da[_0x4f903d(0x991)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da['user'][_0x4f903d(0x28e)],_0x13609e);}}}break;case _0x4f903d(0x725):case'menuprimbon':{anu=_0x4f903d(0x336)+_0x4f33ca+_0x4f903d(0x235)+_0x2a3917+_0x4f903d(0x752)+_0x4ade91+_0x4f903d(0x229)+global[_0x4f903d(0x47a)]+'\x0a│\x20Owner\x20:\x20'+global['namaowner']+_0x4f903d(0x891)+(_0x3f28da[_0x4f903d(0x512)]?_0x4f903d(0x6a9):_0x4f903d(0x7e6))+_0x4f903d(0x4b1)+Object[_0x4f903d(0x429)](global['db']['users'])[_0x4f903d(0x36f)]+_0x4f903d(0x2c9)+runtime(process[_0x4f903d(0x7d0)]())+_0x4f903d(0x672)+_0x5f585c+_0x4f903d(0x68d)+_0x4ade91+'nomorhoki\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x63a)+_0x4ade91+_0x4f903d(0x3d6)+_0x4ade91+_0x4f903d(0x923)+_0x4ade91+_0x4f903d(0x617)+_0x4ade91+'suamiistri\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x6b1)+_0x4ade91+'cocoknama\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x6da)+_0x4ade91+'jadiannikah\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x781)+_0x4ade91+'rezeki\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x864)+_0x4ade91+_0x4f903d(0x655)+_0x4ade91+_0x4f903d(0x7a5)+_0x4ade91+'tarot\x0a│⭔\x20'+_0x4ade91+'fengshui\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x53b)+_0x4ade91+'harisangar\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x830)+_0x4ade91+_0x4f903d(0x66e)+_0x4ade91+_0x4f903d(0x1cf)+_0x4ade91+_0x4f903d(0x79d)+_0x4ade91+_0x4f903d(0x526)+_0x4ade91+_0x4f903d(0x24a)+_0x4ade91+_0x4f903d(0x1c4)+_0x4ade91+_0x4f903d(0x183)+_0x4ade91+'masasubur\x0a│⭔\x20'+_0x4ade91+'zodiak\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x197);let _0x5f9e01=[{'urlButton':{'displayText':_0x4f903d(0x372),'url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':'Number\x20Phone\x20Owner','phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':'❍\x20Rules','id':'rules'}},{'quickReplyButton':{'displayText':_0x4f903d(0x73a),'id':_0x4f903d(0x463)}},{'quickReplyButton':{'displayText':'⎙\x20SewaBot','id':_0x4f903d(0x199)}}],_0x39abd2=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x39abd2['templateImage'])_0x3f28da[_0x4f903d(0x665)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x34c)],_0x5f9e01);else{if(_0x39abd2[_0x4f903d(0x98a)])_0x3f28da[_0x4f903d(0x1b8)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x5f9e01);else{if(_0x39abd2[_0x4f903d(0x2e1)])_0x3f28da[_0x4f903d(0x503)](_0x1e8587['chat'],anu,_0x3f28da['user']['name'],global[_0x4f903d(0x3dc)],_0x5f9e01);else _0x39abd2[_0x4f903d(0x574)]&&_0x3f28da[_0x4f903d(0x991)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x5f9e01);}}}break;case'convertmenu':case _0x4f903d(0x230):{anu='┌────────┈❖\x0a│「\x20Hi,\x20'+_0x4f33ca+'👋\x20」\x0a│「\x20'+_0x2a3917+_0x4f903d(0x752)+_0x4ade91+_0x4f903d(0x229)+global[_0x4f903d(0x47a)]+_0x4f903d(0x255)+global['namaowner']+_0x4f903d(0x891)+(_0x3f28da[_0x4f903d(0x512)]?_0x4f903d(0x6a9):_0x4f903d(0x7e6))+_0x4f903d(0x4b1)+Object[_0x4f903d(0x429)](global['db'][_0x4f903d(0x291)])[_0x4f903d(0x36f)]+_0x4f903d(0x2c9)+runtime(process[_0x4f903d(0x7d0)]())+_0x4f903d(0x672)+_0x5f585c+_0x4f903d(0x75e)+_0x4ade91+_0x4f903d(0x724)+_0x4ade91+_0x4f903d(0x8b6)+_0x4ade91+_0x4f903d(0x279)+_0x4ade91+_0x4f903d(0x219)+_0x4ade91+_0x4f903d(0x556)+_0x4ade91+_0x4f903d(0xa0d)+_0x4ade91+_0x4f903d(0x315)+_0x4ade91+_0x4f903d(0x83d)+_0x4ade91+'toaudio\x20[reply\x20video]\x0a│\x0a└───────⭓';let _0x1e7b47=[{'urlButton':{'displayText':_0x4f903d(0x372),'url':global['myweb']}},{'callButton':{'displayText':_0x4f903d(0x9ab),'phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':_0x4f903d(0x40c),'id':_0x4f903d(0x94a)}},{'quickReplyButton':{'displayText':_0x4f903d(0x73a),'id':_0x4f903d(0x463)}},{'quickReplyButton':{'displayText':_0x4f903d(0x8b5),'id':_0x4f903d(0x199)}}],_0x4a8708=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x4a8708['templateImage'])_0x3f28da[_0x4f903d(0x665)](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)]['name'],global['thumb'],_0x1e7b47);else{if(_0x4a8708[_0x4f903d(0x98a)])_0x3f28da[_0x4f903d(0x1b8)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)]['name'],global[_0x4f903d(0x3dc)],_0x1e7b47);else{if(_0x4a8708['templateVid'])_0x3f28da[_0x4f903d(0x503)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global['visoka'],_0x1e7b47);else _0x4a8708['templateMsg']&&_0x3f28da[_0x4f903d(0x991)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x1e7b47);}}}break;case'mainmenu':case _0x4f903d(0x76f):{anu='┌────────┈❖\x0a│「\x20Hi,\x20'+_0x4f33ca+_0x4f903d(0x235)+_0x2a3917+_0x4f903d(0x752)+_0x4ade91+'\x20)\x0a│\x20Name\x20:\x20'+global[_0x4f903d(0x47a)]+_0x4f903d(0x255)+global[_0x4f903d(0x3c5)]+_0x4f903d(0x891)+(_0x3f28da[_0x4f903d(0x512)]?'Public':_0x4f903d(0x7e6))+'\x0a│\x20User\x20:\x20'+Object[_0x4f903d(0x429)](global['db'][_0x4f903d(0x291)])[_0x4f903d(0x36f)]+_0x4f903d(0x2c9)+runtime(process[_0x4f903d(0x7d0)]())+'\x0a│\x20Lib\x20:\x20Baileys-md\x0a│\x20Menuju\x20idul\x20Adha\x20:\x0a│\x20\x20'+_0x5f585c+_0x4f903d(0x5da)+_0x4ade91+_0x4f903d(0x7b2)+_0x4ade91+_0x4f903d(0x3b1)+_0x4ade91+'donasi\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x462)+_0x4ade91+_0x4f903d(0x7e9)+_0x4ade91+_0x4f903d(0x630)+_0x4ade91+_0x4f903d(0x6e7)+_0x4ade91+'?\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x17f)+_0x4ade91+_0x4f903d(0x352)+_0x4ade91+'d\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x3ff)+_0x4ade91+_0x4f903d(0x3ba)+_0x4ade91+_0x4f903d(0x453)+_0x4ade91+_0x4f903d(0x9f4)+_0x4ade91+_0x4f903d(0x316)+_0x4ade91+'speedtest\x0a│⭔\x20'+_0x4ade91+'request\x20[req]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x98f);let _0x5ec296=[{'urlButton':{'displayText':'TikTok\x20Creator','url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':_0x4f903d(0x9ab),'phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':'❍\x20Rules','id':_0x4f903d(0x94a)}},{'quickReplyButton':{'displayText':_0x4f903d(0x73a),'id':_0x4f903d(0x463)}},{'quickReplyButton':{'displayText':'⎙\x20SewaBot','id':_0x4f903d(0x199)}}],_0x5637b5=db['settings'][_0xc0ef6f];if(_0x5637b5[_0x4f903d(0x50f)])_0x3f28da[_0x4f903d(0x665)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x34c)],_0x5ec296);else{if(_0x5637b5[_0x4f903d(0x98a)])_0x3f28da[_0x4f903d(0x1b8)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da['user'][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x5ec296);else{if(_0x5637b5[_0x4f903d(0x2e1)])_0x3f28da[_0x4f903d(0x503)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x5ec296);else _0x5637b5[_0x4f903d(0x574)]&&_0x3f28da['send5ButMsg'](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x5ec296);}}}break;case _0x4f903d(0x2bd):case _0x4f903d(0x192):{anu=_0x4f903d(0x336)+_0x4f33ca+_0x4f903d(0x235)+_0x2a3917+_0x4f903d(0x752)+_0x4ade91+'\x20)\x0a│\x20Name\x20:\x20'+global['namabot']+_0x4f903d(0x255)+global[_0x4f903d(0x3c5)]+_0x4f903d(0x891)+(_0x3f28da[_0x4f903d(0x512)]?_0x4f903d(0x6a9):'Self')+_0x4f903d(0x4b1)+Object[_0x4f903d(0x429)](global['db'][_0x4f903d(0x291)])[_0x4f903d(0x36f)]+_0x4f903d(0x2c9)+runtime(process[_0x4f903d(0x7d0)]())+_0x4f903d(0x672)+_0x5f585c+_0x4f903d(0x340)+_0x4ade91+_0x4f903d(0x91f)+_0x4ade91+_0x4f903d(0x37d)+_0x4ade91+_0x4f903d(0x53c)+_0x4ade91+_0x4f903d(0x622)+_0x4ade91+_0x4f903d(0x2da)+_0x4ade91+'listmsg\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x48b)+_0x4ade91+_0x4f903d(0x3ac);let _0x10cb87=[{'urlButton':{'displayText':_0x4f903d(0x372),'url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':_0x4f903d(0x9ab),'phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':'❍\x20Rules','id':_0x4f903d(0x94a)}},{'quickReplyButton':{'displayText':_0x4f903d(0x73a),'id':_0x4f903d(0x463)}},{'quickReplyButton':{'displayText':_0x4f903d(0x8b5),'id':_0x4f903d(0x199)}}],_0x260ca8=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x260ca8[_0x4f903d(0x50f)])_0x3f28da['send5ButImg'](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da['user'][_0x4f903d(0x28e)],global[_0x4f903d(0x34c)],_0x10cb87);else{if(_0x260ca8[_0x4f903d(0x98a)])_0x3f28da[_0x4f903d(0x1b8)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da['user']['name'],global[_0x4f903d(0x3dc)],_0x10cb87);else{if(_0x260ca8[_0x4f903d(0x2e1)])_0x3f28da[_0x4f903d(0x503)](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x10cb87);else _0x260ca8[_0x4f903d(0x574)]&&_0x3f28da['send5ButMsg'](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x10cb87);}}}break;case _0x4f903d(0x237):case _0x4f903d(0x540):{anu=_0x4f903d(0x336)+_0x4f33ca+_0x4f903d(0x235)+_0x2a3917+'\x20」\x0a└┬─────────────┈❖\x0a┌┤「\x20INFO\x20BOT\x20」\x0a│└─────────────┈❖\x0a│\x20Prefix\x20:\x20(\x20'+_0x4ade91+_0x4f903d(0x229)+global['namabot']+_0x4f903d(0x255)+global['namaowner']+_0x4f903d(0x891)+(_0x3f28da['public']?_0x4f903d(0x6a9):'Self')+_0x4f903d(0x4b1)+Object[_0x4f903d(0x429)](global['db'][_0x4f903d(0x291)])[_0x4f903d(0x36f)]+_0x4f903d(0x2c9)+runtime(process['uptime']())+_0x4f903d(0x672)+_0x5f585c+_0x4f903d(0x804)+_0x4ade91+'anonymous\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x55b)+_0x4ade91+'next\x0a│⭔\x20'+_0x4ade91+'keluar\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x4ab);let _0x42d441=[{'urlButton':{'displayText':'TikTok\x20Creator','url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':_0x4f903d(0x9ab),'phoneNumber':global['owner'][0x0]}},{'quickReplyButton':{'displayText':_0x4f903d(0x40c),'id':_0x4f903d(0x94a)}},{'quickReplyButton':{'displayText':_0x4f903d(0x73a),'id':_0x4f903d(0x463)}},{'quickReplyButton':{'displayText':_0x4f903d(0x8b5),'id':_0x4f903d(0x199)}}],_0x2a844a=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x2a844a['templateImage'])_0x3f28da[_0x4f903d(0x665)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da['user'][_0x4f903d(0x28e)],global['thumb'],_0x42d441);else{if(_0x2a844a['templateGif'])_0x3f28da[_0x4f903d(0x1b8)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da['user'][_0x4f903d(0x28e)],global['visoka'],_0x42d441);else{if(_0x2a844a['templateVid'])_0x3f28da[_0x4f903d(0x503)](_0x1e8587['chat'],anu,_0x3f28da['user']['name'],global[_0x4f903d(0x3dc)],_0x42d441);else _0x2a844a[_0x4f903d(0x574)]&&_0x3f28da[_0x4f903d(0x991)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x42d441);}}}break;case'islamicmenu':case _0x4f903d(0x23d):{anu='┌────────┈❖\x0a│「\x20Hi,\x20'+_0x4f33ca+_0x4f903d(0x235)+_0x2a3917+'\x20」\x0a└┬─────────────┈❖\x0a┌┤「\x20INFO\x20BOT\x20」\x0a│└─────────────┈❖\x0a│\x20Prefix\x20:\x20(\x20'+_0x4ade91+_0x4f903d(0x229)+global[_0x4f903d(0x47a)]+_0x4f903d(0x255)+global[_0x4f903d(0x3c5)]+_0x4f903d(0x891)+(_0x3f28da[_0x4f903d(0x512)]?_0x4f903d(0x6a9):_0x4f903d(0x7e6))+_0x4f903d(0x4b1)+Object[_0x4f903d(0x429)](global['db'][_0x4f903d(0x291)])[_0x4f903d(0x36f)]+_0x4f903d(0x2c9)+runtime(process[_0x4f903d(0x7d0)]())+_0x4f903d(0x672)+_0x5f585c+_0x4f903d(0x253)+_0x4ade91+_0x4f903d(0x4a5)+_0x4ade91+'hadist\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x29c)+_0x4ade91+_0x4f903d(0x887)+_0x4ade91+_0x4f903d(0x3e3)+_0x4ade91+'jadwalsholat\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x8f5);let _0x227bc0=[{'urlButton':{'displayText':'TikTok\x20Creator','url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':_0x4f903d(0x9ab),'phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':_0x4f903d(0x40c),'id':_0x4f903d(0x94a)}},{'quickReplyButton':{'displayText':_0x4f903d(0x73a),'id':'donasi'}},{'quickReplyButton':{'displayText':_0x4f903d(0x8b5),'id':_0x4f903d(0x199)}}],_0x497efb=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x497efb['templateImage'])_0x3f28da[_0x4f903d(0x665)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x34c)],_0x227bc0);else{if(_0x497efb['templateGif'])_0x3f28da['send5ButGif'](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da['user']['name'],global[_0x4f903d(0x3dc)],_0x227bc0);else{if(_0x497efb[_0x4f903d(0x2e1)])_0x3f28da['send5ButVid'](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x227bc0);else _0x497efb[_0x4f903d(0x574)]&&_0x3f28da[_0x4f903d(0x991)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da['user'][_0x4f903d(0x28e)],_0x227bc0);}}}break;case _0x4f903d(0x5c3):case _0x4f903d(0xa10):{anu=_0x4f903d(0x336)+_0x4f33ca+'👋\x20」\x0a│「\x20'+_0x2a3917+_0x4f903d(0x752)+_0x4ade91+'\x20)\x0a│\x20Name\x20:\x20'+global[_0x4f903d(0x47a)]+_0x4f903d(0x255)+global['namaowner']+_0x4f903d(0x891)+(_0x3f28da[_0x4f903d(0x512)]?'Public':'Self')+'\x0a│\x20User\x20:\x20'+Object[_0x4f903d(0x429)](global['db']['users'])[_0x4f903d(0x36f)]+_0x4f903d(0x2c9)+runtime(process[_0x4f903d(0x7d0)]())+_0x4f903d(0x672)+_0x5f585c+'\x0a└┬─────────────┈❖\x0a┌┤「\x20KERANG\x20」\x0a│└─────────────┈❖\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x1b6)+_0x4ade91+_0x4f903d(0x469)+_0x4ade91+'bagaimanakah\x20[teks]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x854)+_0x4ade91+_0x4f903d(0x56e)+_0x4ade91+'cekganteng\x20[teks]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x98d)+_0x4ade91+_0x4f903d(0x6c2)+_0x4ade91+'cekgay\x20[teks]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x516)+_0x4ade91+'cekmati\x20[teks]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x53e)+_0x4ade91+'halah\x20[teks]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x7cd)+_0x4ade91+_0x4f903d(0x865)+_0x4ade91+_0x4f903d(0x8d1)+_0x4ade91+_0x4f903d(0x242)+_0x4ade91+_0x4f903d(0x5e8)+_0x4ade91+_0x4f903d(0x981);let _0x428c62=[{'urlButton':{'displayText':_0x4f903d(0x372),'url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':_0x4f903d(0x9ab),'phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':_0x4f903d(0x40c),'id':_0x4f903d(0x94a)}},{'quickReplyButton':{'displayText':_0x4f903d(0x73a),'id':'donasi'}},{'quickReplyButton':{'displayText':_0x4f903d(0x8b5),'id':_0x4f903d(0x199)}}],_0x5a84b5=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x5a84b5[_0x4f903d(0x50f)])_0x3f28da[_0x4f903d(0x665)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x34c)],_0x428c62);else{if(_0x5a84b5['templateGif'])_0x3f28da[_0x4f903d(0x1b8)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da['user'][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x428c62);else{if(_0x5a84b5[_0x4f903d(0x2e1)])_0x3f28da['send5ButVid'](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)]['name'],global[_0x4f903d(0x3dc)],_0x428c62);else _0x5a84b5['templateMsg']&&_0x3f28da[_0x4f903d(0x991)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)]['name'],_0x428c62);}}}break;case _0x4f903d(0x64b):case _0x4f903d(0x71d):{anu=_0x4f903d(0x336)+_0x4f33ca+_0x4f903d(0x235)+_0x2a3917+'\x20」\x0a└┬─────────────┈❖\x0a┌┤「\x20INFO\x20BOT\x20」\x0a│└─────────────┈❖\x0a│\x20Prefix\x20:\x20(\x20'+_0x4ade91+'\x20)\x0a│\x20Name\x20:\x20'+global[_0x4f903d(0x47a)]+_0x4f903d(0x255)+global[_0x4f903d(0x3c5)]+_0x4f903d(0x891)+(_0x3f28da[_0x4f903d(0x512)]?_0x4f903d(0x6a9):_0x4f903d(0x7e6))+'\x0a│\x20User\x20:\x20'+Object['keys'](global['db'][_0x4f903d(0x291)])[_0x4f903d(0x36f)]+_0x4f903d(0x2c9)+runtime(process['uptime']())+'\x0a│\x20Lib\x20:\x20Baileys-md\x0a│\x20Menuju\x20idul\x20Adha\x20:\x0a│\x20\x20'+_0x5f585c+_0x4f903d(0x327)+_0x4ade91+_0x4f903d(0x74b)+_0x4ade91+_0x4f903d(0x34e)+_0x4ade91+'deep\x20[reply\x20audio\x20/\x20vn]\x0a│⭔\x20'+_0x4ade91+'earrape\x20[reply\x20audio\x20/\x20vn]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x8a3)+_0x4ade91+_0x4f903d(0x19f)+_0x4ade91+_0x4f903d(0x852)+_0x4ade91+_0x4f903d(0x401)+_0x4ade91+_0x4f903d(0x421)+_0x4ade91+'slow\x20[reply\x20audio\x20/\x20vn]\x0a│⭔\x20'+_0x4ade91+'tupai\x20[reply\x20audio\x20/\x20vn]\x0a└──────────────┈❖';let _0x2742a6=[{'urlButton':{'displayText':_0x4f903d(0x372),'url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':_0x4f903d(0x9ab),'phoneNumber':global['owner'][0x0]}},{'quickReplyButton':{'displayText':_0x4f903d(0x40c),'id':_0x4f903d(0x94a)}},{'quickReplyButton':{'displayText':'❍\x20Donasi','id':_0x4f903d(0x463)}},{'quickReplyButton':{'displayText':_0x4f903d(0x8b5),'id':_0x4f903d(0x199)}}],_0x1a5238=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x1a5238[_0x4f903d(0x50f)])_0x3f28da['send5ButImg'](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x34c)],_0x2742a6);else{if(_0x1a5238[_0x4f903d(0x98a)])_0x3f28da['send5ButGif'](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x2742a6);else{if(_0x1a5238[_0x4f903d(0x2e1)])_0x3f28da[_0x4f903d(0x503)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)]['name'],global[_0x4f903d(0x3dc)],_0x2742a6);else _0x1a5238['templateMsg']&&_0x3f28da['send5ButMsg'](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)]['name'],_0x2742a6);}}}break;case'stalkmenu':case _0x4f903d(0x6a6):{anu=_0x4f903d(0x336)+_0x4f33ca+_0x4f903d(0x235)+_0x2a3917+_0x4f903d(0x752)+_0x4ade91+'\x20)\x0a│\x20Name\x20:\x20'+global[_0x4f903d(0x47a)]+_0x4f903d(0x255)+global[_0x4f903d(0x3c5)]+_0x4f903d(0x891)+(_0x3f28da[_0x4f903d(0x512)]?'Public':_0x4f903d(0x7e6))+_0x4f903d(0x4b1)+Object[_0x4f903d(0x429)](global['db']['users'])[_0x4f903d(0x36f)]+_0x4f903d(0x2c9)+runtime(process['uptime']())+_0x4f903d(0x672)+_0x5f585c+_0x4f903d(0x8b9)+_0x4ade91+'cekapi\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x6cb)+_0x4ade91+_0x4f903d(0x289);let _0x17d40f=[{'urlButton':{'displayText':_0x4f903d(0x372),'url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':_0x4f903d(0x9ab),'phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':_0x4f903d(0x40c),'id':'rules'}},{'quickReplyButton':{'displayText':_0x4f903d(0x73a),'id':_0x4f903d(0x463)}},{'quickReplyButton':{'displayText':_0x4f903d(0x8b5),'id':'sewabot'}}],_0x43a683=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x43a683[_0x4f903d(0x50f)])_0x3f28da['send5ButImg'](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x34c)],_0x17d40f);else{if(_0x43a683[_0x4f903d(0x98a)])_0x3f28da[_0x4f903d(0x1b8)](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x17d40f);else{if(_0x43a683['templateVid'])_0x3f28da[_0x4f903d(0x503)](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x17d40f);else _0x43a683['templateMsg']&&_0x3f28da[_0x4f903d(0x991)](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x17d40f);}}}break;case _0x4f903d(0x608):case _0x4f903d(0x464):{anu=_0x4f903d(0x336)+_0x4f33ca+'👋\x20」\x0a│「\x20'+_0x2a3917+_0x4f903d(0x752)+_0x4ade91+_0x4f903d(0x229)+global['namabot']+_0x4f903d(0x255)+global[_0x4f903d(0x3c5)]+_0x4f903d(0x891)+(_0x3f28da[_0x4f903d(0x512)]?_0x4f903d(0x6a9):_0x4f903d(0x7e6))+_0x4f903d(0x4b1)+Object[_0x4f903d(0x429)](global['db'][_0x4f903d(0x291)])['length']+_0x4f903d(0x2c9)+runtime(process[_0x4f903d(0x7d0)]())+_0x4f903d(0x672)+_0x5f585c+_0x4f903d(0x1c5)+_0x4ade91+_0x4f903d(0x919)+_0x4ade91+_0x4f903d(0x37f)+_0x4ade91+'setexif\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x404)+_0x4ade91+_0x4f903d(0x7ab)+_0x4ade91+_0x4f903d(0x8bc)+_0x4ade91+'block\x20@user\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x5c0)+_0x4ade91+_0x4f903d(0x8e7)+_0x4ade91+_0x4f903d(0x341)+_0x4ade91+_0x4f903d(0x75b)+_0x4ade91+'setppbot\x20[image]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x5f6);let _0x102a51=[{'urlButton':{'displayText':_0x4f903d(0x372),'url':global['myweb']}},{'callButton':{'displayText':_0x4f903d(0x9ab),'phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':_0x4f903d(0x40c),'id':_0x4f903d(0x94a)}},{'quickReplyButton':{'displayText':_0x4f903d(0x73a),'id':_0x4f903d(0x463)}},{'quickReplyButton':{'displayText':_0x4f903d(0x8b5),'id':_0x4f903d(0x199)}}],_0x1b9572=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x1b9572[_0x4f903d(0x50f)])_0x3f28da[_0x4f903d(0x665)](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)]['name'],global[_0x4f903d(0x34c)],_0x102a51);else{if(_0x1b9572[_0x4f903d(0x98a)])_0x3f28da[_0x4f903d(0x1b8)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x102a51);else{if(_0x1b9572[_0x4f903d(0x2e1)])_0x3f28da[_0x4f903d(0x503)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x102a51);else _0x1b9572[_0x4f903d(0x574)]&&_0x3f28da['send5ButMsg'](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x102a51);}}}break;case'webzonemenu':case _0x4f903d(0x69a):{anu=_0x4f903d(0x336)+_0x4f33ca+_0x4f903d(0x235)+_0x2a3917+_0x4f903d(0x752)+_0x4ade91+_0x4f903d(0x229)+global[_0x4f903d(0x47a)]+_0x4f903d(0x255)+global[_0x4f903d(0x3c5)]+_0x4f903d(0x891)+(_0x3f28da['public']?_0x4f903d(0x6a9):'Self')+_0x4f903d(0x4b1)+Object[_0x4f903d(0x429)](global['db'][_0x4f903d(0x291)])['length']+_0x4f903d(0x2c9)+runtime(process[_0x4f903d(0x7d0)]())+_0x4f903d(0x672)+_0x5f585c+_0x4f903d(0x80c)+_0x4ade91+_0x4f903d(0x8ec)+_0x4ade91+_0x4f903d(0x318)+_0x4ade91+_0x4f903d(0x933)+_0x4ade91+_0x4f903d(0x7e0)+_0x4ade91+_0x4f903d(0x7c9)+_0x4ade91+_0x4f903d(0x425)+_0x4ade91+_0x4f903d(0x8a0)+_0x4ade91+'webtoons\x20[text]\x0a│⭔\x20'+_0x4ade91+'drakor\x20[text]\x0a└──────────────┈❖';let _0x357a66=[{'urlButton':{'displayText':'TikTok\x20Creator','url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':'Number\x20Phone\x20Owner','phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':_0x4f903d(0x40c),'id':_0x4f903d(0x94a)}},{'quickReplyButton':{'displayText':'❍\x20Donasi','id':_0x4f903d(0x463)}},{'quickReplyButton':{'displayText':_0x4f903d(0x8b5),'id':_0x4f903d(0x199)}}],_0x17e6c1=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x17e6c1[_0x4f903d(0x50f)])_0x3f28da[_0x4f903d(0x665)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da['user']['name'],global[_0x4f903d(0x34c)],_0x357a66);else{if(_0x17e6c1[_0x4f903d(0x98a)])_0x3f28da[_0x4f903d(0x1b8)](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x357a66);else{if(_0x17e6c1['templateVid'])_0x3f28da['send5ButVid'](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da['user'][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x357a66);else _0x17e6c1[_0x4f903d(0x574)]&&_0x3f28da[_0x4f903d(0x991)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x357a66);}}}break;case _0x4f903d(0x3b8):case _0x4f903d(0x861):case _0x4f903d(0x60a):case'?':{anu='┌────────┈❖\x0a│「\x20Hi,\x20'+_0x4f33ca+_0x4f903d(0x235)+_0x2a3917+_0x4f903d(0x22e)+global['namabot']+_0x4f903d(0x507)+_0x4ade91+_0x4f903d(0x3c1)+moment['tz']('Asia/Jakarta')[_0x4f903d(0x4ec)]('HH:mm:ss')+_0x4f903d(0x180)+moment['tz'](_0x4f903d(0x83b))[_0x4f903d(0x4ec)]('DD/MM/YY')+'\x0a│•\x20Menuju\x20idul\x20Adha\x20:\x0a│\x20\x20\x20'+_0x5f585c+_0x4f903d(0x148)+_0x231a42+_0x4f903d(0x1c0)+_0x4bc32f+'\x0a│•\x20Wit\x20:\x20'+_0x40c484+_0x4f903d(0x5d1);let _0x2c20a2=[{'urlButton':{'displayText':_0x4f903d(0x372),'url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':_0x4f903d(0x9ab),'phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':_0x4f903d(0x40c),'id':'rules'}},{'quickReplyButton':{'displayText':_0x4f903d(0x73a),'id':'donasi'}},{'quickReplyButton':{'displayText':_0x4f903d(0x824),'id':_0x4f903d(0x1d4)}}],_0x107aa1=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x107aa1[_0x4f903d(0x50f)])_0x3f28da[_0x4f903d(0x665)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global['thumb'],_0x2c20a2);else{if(_0x107aa1[_0x4f903d(0x98a)])_0x3f28da[_0x4f903d(0x1b8)](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x2c20a2);else{if(_0x107aa1[_0x4f903d(0x2e1)])_0x3f28da[_0x4f903d(0x503)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global['visoka'],_0x2c20a2);else _0x107aa1[_0x4f903d(0x574)]&&_0x3f28da['send5ButMsg'](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x2c20a2);}}}break;case _0x4f903d(0x508):case _0x4f903d(0x3cd):{anu=_0x4f903d(0x336)+_0x4f33ca+'👋\x20」\x0a│「\x20'+_0x2a3917+'\x20」\x0a└┬─────────────┈❖\x0a┌┤「\x20INFO\x20BOT\x20」\x0a│└─────────────┈❖\x0a│\x20Prefix\x20:\x20(\x20'+_0x4ade91+_0x4f903d(0x229)+global['namabot']+'\x0a│\x20Owner\x20:\x20'+global[_0x4f903d(0x3c5)]+_0x4f903d(0x891)+(_0x3f28da[_0x4f903d(0x512)]?_0x4f903d(0x6a9):_0x4f903d(0x7e6))+'\x0a│\x20User\x20:\x20'+Object[_0x4f903d(0x429)](global['db'][_0x4f903d(0x291)])[_0x4f903d(0x36f)]+_0x4f903d(0x2c9)+runtime(process['uptime']())+'\x0a│\x20Lib\x20:\x20Baileys-md\x0a│\x20Menuju\x20idul\x20Adha\x20:\x0a│\x20\x20'+_0x5f585c+_0x4f903d(0x804)+_0x4ade91+_0x4f903d(0x8db)+_0x4ade91+_0x4f903d(0x55b)+_0x4ade91+_0x4f903d(0x366)+_0x4ade91+_0x4f903d(0x266)+_0x4ade91+_0x4f903d(0x6c9)+_0x4ade91+'couple\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x537)+_0x4ade91+_0x4f903d(0x9e4)+_0x4ade91+_0x4f903d(0x7eb)+_0x4ade91+'uniform\x0a│⭔\x20'+_0x4ade91+'cosplay\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x7b4)+_0x4ade91+'oppai\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x7f2)+_0x4ade91+'shinobu\x0a│⭔\x20'+_0x4ade91+'megumin\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x800)+_0x4ade91+_0x4f903d(0x7da)+_0x4ade91+_0x4f903d(0x35f)+_0x4ade91+_0x4f903d(0x8cd)+_0x4ade91+_0x4f903d(0x1fa)+_0x4ade91+'asupantiktok\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x25c)+_0x4ade91+_0x4f903d(0x984)+_0x4ade91+'china\x0a│⭔\x20'+_0x4ade91+'thailand\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x2e4)+_0x4ade91+'kayes\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x525)+_0x4ade91+_0x4f903d(0x9a2)+_0x4ade91+'justina\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x27a)+_0x4ade91+'kpop\x0a└┬─────────────┈❖\x0a┌┤「\x20CONVERT\x20」\x0a│└─────────────┈❖\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x724)+_0x4ade91+_0x4f903d(0x8b6)+_0x4ade91+_0x4f903d(0x279)+_0x4ade91+_0x4f903d(0x219)+_0x4ade91+_0x4f903d(0x556)+_0x4ade91+_0x4f903d(0xa0d)+_0x4ade91+_0x4f903d(0x315)+_0x4ade91+_0x4f903d(0x83d)+_0x4ade91+_0x4f903d(0x754)+_0x4ade91+'tiktok\x20[url]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x969)+_0x4ade91+_0x4f903d(0x7bc)+_0x4ade91+_0x4f903d(0x1a7)+_0x4ade91+_0x4f903d(0x3ed)+_0x4ade91+'ytmp3\x20[url]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x179)+_0x4ade91+_0x4f903d(0x95e)+_0x4ade91+'getvideo\x20[query]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x6d1)+_0x4ade91+_0x4f903d(0x1bf)+_0x4ade91+_0x4f903d(0x4d9)+_0x4ade91+'setcmd\x20[reply\x20sticker/pesan]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x37d)+_0x4ade91+_0x4f903d(0x53c)+_0x4ade91+_0x4f903d(0x622)+_0x4ade91+_0x4f903d(0x2da)+_0x4ade91+'listmsg\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x48b)+_0x4ade91+_0x4f903d(0x2ad)+_0x4ade91+_0x4f903d(0x9a8)+_0x4ade91+_0x4f903d(0x606)+_0x4ade91+_0x4f903d(0x69d)+_0x4ade91+'logogaming\x20[text]\x0a│⭔\x20'+_0x4ade91+'logogirl\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x897)+_0x4ade91+'spiderlogo\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x2e6)+_0x4ade91+_0x4f903d(0x439)+_0x4ade91+'galaxy\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x777)+_0x4ade91+_0x4f903d(0x774)+_0x4ade91+_0x4f903d(0x7a8)+_0x4ade91+_0x4f903d(0x51c)+_0x4ade91+_0x4f903d(0x62d)+_0x4ade91+'bohlam\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x9d0)+_0x4ade91+'coklat\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x73e)+_0x4ade91+'grafity\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x980)+_0x4ade91+_0x4f903d(0x8c5)+_0x4ade91+_0x4f903d(0x7e4)+_0x4ade91+_0x4f903d(0x16e)+_0x4ade91+_0x4f903d(0x81e)+_0x4ade91+_0x4f903d(0x6b5)+_0x4ade91+'starnight2\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x2ed)+_0x4ade91+_0x4f903d(0x8f6)+_0x4ade91+_0x4f903d(0x18e)+_0x4ade91+_0x4f903d(0x8ce)+_0x4ade91+_0x4f903d(0x8d9)+_0x4ade91+'certificate\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x288)+_0x4ade91+_0x4f903d(0x54e)+_0x4ade91+_0x4f903d(0x901)+_0x4ade91+_0x4f903d(0x4ba)+_0x4ade91+_0x4f903d(0x27c)+_0x4ade91+_0x4f903d(0x8af)+_0x4ade91+_0x4f903d(0x9e0)+_0x4ade91+_0x4f903d(0x32f)+_0x4ade91+_0x4f903d(0x353)+_0x4ade91+_0x4f903d(0x76e)+_0x4ade91+_0x4f903d(0x5a8)+_0x4ade91+_0x4f903d(0x839)+_0x4ade91+_0x4f903d(0x31a)+_0x4ade91+_0x4f903d(0x99b)+_0x4ade91+_0x4f903d(0x9a7)+_0x4ade91+_0x4f903d(0x482)+_0x4ade91+_0x4f903d(0x85b)+_0x4ade91+_0x4f903d(0x546)+_0x4ade91+_0x4f903d(0xa12)+_0x4ade91+_0x4f903d(0x1c3)+_0x4ade91+_0x4f903d(0xa02)+_0x4ade91+_0x4f903d(0x8e3)+_0x4ade91+_0x4f903d(0x3fb)+_0x4ade91+_0x4f903d(0x290)+_0x4ade91+_0x4f903d(0x661)+_0x4ade91+_0x4f903d(0x884)+_0x4ade91+_0x4f903d(0x8fa)+_0x4ade91+'family100\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x402)+_0x4ade91+_0x4f903d(0x26d)+_0x4ade91+_0x4f903d(0x76b)+_0x4ade91+_0x4f903d(0x7fe)+_0x4ade91+_0x4f903d(0x207)+_0x4ade91+_0x4f903d(0x900)+_0x4ade91+_0x4f903d(0x580)+_0x4ade91+_0x4f903d(0x4a5)+_0x4ade91+_0x4f903d(0x6dc)+_0x4ade91+_0x4f903d(0x29c)+_0x4ade91+_0x4f903d(0x887)+_0x4ade91+_0x4f903d(0x3e3)+_0x4ade91+_0x4f903d(0x61b)+_0x4ade91+_0x4f903d(0x9c4)+_0x4ade91+_0x4f903d(0x1b6)+_0x4ade91+_0x4f903d(0x469)+_0x4ade91+_0x4f903d(0x764)+_0x4ade91+'rate\x20[teks]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x56e)+_0x4ade91+_0x4f903d(0x7c8)+_0x4ade91+_0x4f903d(0x98d)+_0x4ade91+_0x4f903d(0x6c2)+_0x4ade91+'cekgay\x20[teks]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x516)+_0x4ade91+_0x4f903d(0x4cb)+_0x4ade91+_0x4f903d(0x53e)+_0x4ade91+'halah\x20[teks]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x7cd)+_0x4ade91+_0x4f903d(0x865)+_0x4ade91+_0x4f903d(0x8d1)+_0x4ade91+_0x4f903d(0x242)+_0x4ade91+'jadian\x20[teks]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x3d1)+_0x4ade91+_0x4f903d(0x488)+_0x4ade91+_0x4f903d(0x3da)+_0x4ade91+_0x4f903d(0x6ab)+_0x4ade91+_0x4f903d(0x7b2)+_0x4ade91+_0x4f903d(0x3b1)+_0x4ade91+_0x4f903d(0x749)+_0x4ade91+_0x4f903d(0x462)+_0x4ade91+'agamabot\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x630)+_0x4ade91+_0x4f903d(0x6e7)+_0x4ade91+_0x4f903d(0x979)+_0x4ade91+_0x4f903d(0x17f)+_0x4ade91+'del\x20/\x20'+_0x4ade91+_0x4f903d(0x6a4)+_0x4ade91+_0x4f903d(0x3ff)+_0x4ade91+_0x4f903d(0x3ba)+_0x4ade91+'listpc\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x9f4)+_0x4ade91+'listonline\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x2b5)+_0x4ade91+_0x4f903d(0x944)+_0x4ade91+_0x4f903d(0x75d)+_0x4ade91+_0x4f903d(0x6ea)+_0x4ade91+_0x4f903d(0x7fa)+_0x4ade91+_0x4f903d(0x936)+_0x4ade91+_0x4f903d(0x9ee)+_0x4ade91+'cuckold\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x57d)+_0x4ade91+'ero\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x558)+_0x4ade91+_0x4f903d(0x164)+_0x4ade91+_0x4f903d(0x243)+_0x4ade91+_0x4f903d(0x49d)+_0x4ade91+_0x4f903d(0x1b3)+_0x4ade91+_0x4f903d(0x4c9)+_0x4ade91+'masturbation\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x36d)+_0x4ade91+_0x4f903d(0x8b1)+_0x4ade91+_0x4f903d(0x4f0)+_0x4ade91+_0x4f903d(0x3f3)+_0x4ade91+_0x4f903d(0x53d)+_0x4ade91+_0x4f903d(0x7b8)+_0x4ade91+_0x4f903d(0x85d)+_0x4ade91+_0x4f903d(0x919)+_0x4ade91+_0x4f903d(0x37f)+_0x4ade91+_0x4f903d(0x513)+_0x4ade91+_0x4f903d(0x404)+_0x4ade91+_0x4f903d(0x7ab)+_0x4ade91+_0x4f903d(0x8bc)+_0x4ade91+_0x4f903d(0x941)+_0x4ade91+'unblock\x20@user\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x8e7)+_0x4ade91+'bcall\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x7d5)+_0x4ade91+_0x4f903d(0x234)+_0x4ade91+_0x4f903d(0x25f)+_0x4ade91+'artimimpi\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x3d6)+_0x4ade91+_0x4f903d(0x923)+_0x4ade91+_0x4f903d(0x617)+_0x4ade91+_0x4f903d(0x437)+_0x4ade91+_0x4f903d(0x6b1)+_0x4ade91+_0x4f903d(0x5ac)+_0x4ade91+'pasangan\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x9ff)+_0x4ade91+'sifatusaha\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x2ee)+_0x4ade91+'pekerjaan\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x655)+_0x4ade91+'penyakit\x0a│⭔\x20'+_0x4ade91+'tarot\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x4d5)+_0x4ade91+'haribaik\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x602)+_0x4ade91+_0x4f903d(0x830)+_0x4ade91+'nagahari\x0a│⭔\x20'+_0x4ade91+'arahrezeki\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x79d)+_0x4ade91+_0x4f903d(0x526)+_0x4ade91+_0x4f903d(0x24a)+_0x4ade91+'keberuntungan\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x183)+_0x4ade91+'masasubur\x0a│⭔\x20'+_0x4ade91+'zodiak\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x465)+_0x4ade91+_0x4f903d(0x6db)+_0x4ade91+_0x4f903d(0x28c)+_0x4ade91+_0x4f903d(0x38a)+_0x4ade91+_0x4f903d(0x6b3)+_0x4ade91+_0x4f903d(0x481)+_0x4ade91+_0x4f903d(0x1d3)+_0x4ade91+'greyscale\x20[image]\x0a│⭔\x20'+_0x4ade91+'circle\x20[image]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x3a0)+_0x4ade91+'invert\x20[image]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x827)+_0x4ade91+_0x4f903d(0x4c7)+_0x4ade91+_0x4f903d(0x1db)+_0x4ade91+_0x4f903d(0x7ad)+_0x4ade91+_0x4f903d(0x189)+_0x4ade91+_0x4f903d(0x8a1)+_0x4ade91+_0x4f903d(0x96d)+_0x4ade91+_0x4f903d(0x265)+_0x4ade91+_0x4f903d(0x3f4)+_0x4ade91+_0x4f903d(0x965)+_0x4ade91+'motivasi\x0a│⭔\x20'+_0x4ade91+'dilanquote\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x688)+_0x4ade91+_0x4f903d(0x4b7)+_0x4ade91+'randomquote\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x1d7)+_0x4ade91+'galauquote\x0a│⭔\x20'+_0x4ade91+'kanyequote\x0a│⭔\x20'+_0x4ade91+'trumpquote\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x50d)+_0x4ade91+_0x4f903d(0x638)+_0x4ade91+_0x4f903d(0x89f)+_0x4ade91+_0x4f903d(0x632)+_0x4ade91+_0x4f903d(0x3a6)+_0x4ade91+'cerpen\x0a└┬─────────────┈❖\x0a┌┤「\x20RANDOM\x20」\x0a│└─────────────┈❖\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x5a6)+_0x4ade91+_0x4f903d(0x714)+_0x4ade91+'coffe\x0a│⭔\x20'+_0x4ade91+'ebinary\x20[teks]\x0a│⭔\x20'+_0x4ade91+'dbinary\x20[teks]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x61f)+_0x4ade91+_0x4f903d(0x165)+_0x4ade91+_0x4f903d(0x2d9)+_0x4ade91+'attp\x20[teks]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x6bf)+_0x4ade91+'emojimix\x20😎+🤠\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x78b)+_0x4ade91+_0x4f903d(0x782)+_0x4ade91+_0x4f903d(0x152)+_0x4ade91+'character\x20[query]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x61d)+_0x4ade91+_0x4f903d(0x649)+_0x4ade91+_0x4f903d(0x2bc)+_0x4ade91+'gimage\x20[query]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x57b)+_0x4ade91+_0x4f903d(0x84e)+_0x4ade91+'wikimedia\x20[query]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x7e3)+_0x4ade91+_0x4f903d(0x778)+_0x4ade91+'cekapi\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x6cb)+_0x4ade91+_0x4f903d(0x35a)+_0x4ade91+'3dchristmas\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x33c)+_0x4ade91+_0x4f903d(0x679)+_0x4ade91+_0x4f903d(0x7c4)+_0x4ade91+_0x4f903d(0x2ae)+_0x4ade91+_0x4f903d(0x49b)+_0x4ade91+_0x4f903d(0x3eb)+_0x4ade91+_0x4f903d(0x85a)+_0x4ade91+_0x4f903d(0x5e2)+_0x4ade91+'space\x20[text]\x0a│⭔\x20'+_0x4ade91+'metallic\x20[text]\x0a│⭔\x20'+_0x4ade91+'fiction\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x384)+_0x4ade91+_0x4f903d(0x31f)+_0x4ade91+_0x4f903d(0x41b)+_0x4ade91+'thunder\x20[text]\x0a│⭔\x20'+_0x4ade91+'magma\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x2fb)+_0x4ade91+_0x4f903d(0x5e3)+_0x4ade91+_0x4f903d(0x468)+_0x4ade91+'naturalleaves\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x561)+_0x4ade91+'matrix\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x7d1)+_0x4ade91+'harrypotter\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x27d)+_0x4ade91+_0x4f903d(0x796)+_0x4ade91+_0x4f903d(0x793)+_0x4ade91+_0x4f903d(0x511)+_0x4ade91+'blackpink\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x8ff)+_0x4ade91+_0x4f903d(0x74b)+_0x4ade91+'blown\x20[reply\x20audio\x20/\x20vn]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x2de)+_0x4ade91+_0x4f903d(0x929)+_0x4ade91+_0x4f903d(0x8a3)+_0x4ade91+_0x4f903d(0x19f)+_0x4ade91+_0x4f903d(0x852)+_0x4ade91+'reverse\x20[reply\x20audio\x20/\x20vn]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x421)+_0x4ade91+_0x4f903d(0x51a)+_0x4ade91+_0x4f903d(0x521)+_0x4ade91+'jadwaltv\x20[option]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x318)+_0x4ade91+_0x4f903d(0x933)+_0x4ade91+_0x4f903d(0x7e0)+_0x4ade91+_0x4f903d(0x7c9)+_0x4ade91+_0x4f903d(0x425)+_0x4ade91+'wattpad\x20[text]\x0a│⭔\x20'+_0x4ade91+_0x4f903d(0x8f7)+_0x4ade91+_0x4f903d(0xa06);let _0x2e3574=[{'urlButton':{'displayText':_0x4f903d(0x372),'url':global[_0x4f903d(0x46c)]}},{'callButton':{'displayText':'Number\x20Phone\x20Owner','phoneNumber':global[_0x4f903d(0x1ff)][0x0]}},{'quickReplyButton':{'displayText':_0x4f903d(0x40c),'id':_0x4f903d(0x94a)}},{'quickReplyButton':{'displayText':_0x4f903d(0x73a),'id':'donasi'}},{'quickReplyButton':{'displayText':_0x4f903d(0x8b5),'id':_0x4f903d(0x199)}}],_0x5d8d9a=db[_0x4f903d(0x566)][_0xc0ef6f];if(_0x5d8d9a[_0x4f903d(0x50f)])_0x3f28da[_0x4f903d(0x665)](_0x1e8587['chat'],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x34c)],_0x2e3574);else{if(_0x5d8d9a[_0x4f903d(0x98a)])_0x3f28da[_0x4f903d(0x1b8)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global['visoka'],_0x2e3574);else{if(_0x5d8d9a['templateVid'])_0x3f28da[_0x4f903d(0x503)](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],global[_0x4f903d(0x3dc)],_0x2e3574);else _0x5d8d9a[_0x4f903d(0x574)]&&_0x3f28da['send5ButMsg'](_0x1e8587[_0x4f903d(0x155)],anu,_0x3f28da[_0x4f903d(0x82e)][_0x4f903d(0x28e)],_0x2e3574);}}}break;default:_0x23f888[_0x4f903d(0x295)](_0x4f903d(0x5a9))&&_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x4a7));_0x23f888[_0x4f903d(0x295)]('Hi')&&_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x73f));_0x23f888[_0x4f903d(0x295)]('Hai')&&_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x8f3));_0x23f888[_0x4f903d(0x295)](_0x4f903d(0x9c9))&&_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x376));_0x23f888[_0x4f903d(0x295)](_0x4f903d(0x6a3))&&_0x1e8587[_0x4f903d(0x70d)]('Hello,\x20Apa\x20ada\x20yang\x20dapat\x20saya\x20bantu?');_0x23f888[_0x4f903d(0x295)](_0x4f903d(0x2c2))&&_0x1e8587[_0x4f903d(0x70d)]('Gua\x20Itu\x20Bot\x20WhatsApp\x20Ajg\x20Jadi\x20Samain\x20Command\x20Yg\x20Tertulis');_0x23f888[_0x4f903d(0x295)](_0x4f903d(0x621))&&_0x1e8587[_0x4f903d(0x70d)](_0x4f903d(0x4df));if(_0x23f888['startsWith']('=>')){if(!_0x40c20b)return _0x1e8587['reply'](mess[_0x4f903d(0x1ff)]);function _0xb9c553(_0xde7815){const _0x297440=_0x4f903d;return sat=JSON[_0x297440(0x459)](_0xde7815,null,0x2),bang=util[_0x297440(0x4ec)](sat),sat==undefined&&(bang=util[_0x297440(0x4ec)](_0xde7815)),_0x1e8587[_0x297440(0x70d)](bang);}try{_0x1e8587[_0x4f903d(0x70d)](util[_0x4f903d(0x4ec)](eval(_0x4f903d(0xa00)+_0x23f888[_0x4f903d(0x5dc)](0x3)+_0x4f903d(0x730))));}catch(_0x3ec45){_0x1e8587[_0x4f903d(0x70d)](String(_0x3ec45));}}if(_0x23f888[_0x4f903d(0x295)]('>')){if(!_0x40c20b)return _0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x1ff)]);try{let _0x121ac6=await eval(_0x23f888[_0x4f903d(0x5dc)](0x2));if(typeof _0x121ac6!=='string')_0x121ac6=require('util')[_0x4f903d(0x1da)](_0x121ac6);await _0x1e8587[_0x4f903d(0x70d)](_0x121ac6);}catch(_0x3ffc85){await _0x1e8587[_0x4f903d(0x70d)](String(_0x3ffc85));}}if(_0x23f888[_0x4f903d(0x295)]('$')){if(!_0x40c20b)return _0x1e8587[_0x4f903d(0x70d)](mess[_0x4f903d(0x1ff)]);exec(_0x23f888[_0x4f903d(0x5dc)](0x2),(_0x54fcb3,_0x35dcc4)=>{const _0x5d291f=_0x4f903d;if(_0x54fcb3)return _0x1e8587[_0x5d291f(0x70d)](_0x54fcb3);if(_0x35dcc4)return _0x1e8587[_0x5d291f(0x70d)](_0x35dcc4);});}if(_0x1e8587[_0x4f903d(0x155)][_0x4f903d(0x909)](_0x4f903d(0x96f))&&_0x1f0b6f){this[_0x4f903d(0x538)]=this[_0x4f903d(0x538)]?this['anonymous']:{};let _0x341bfe=Object['values'](this[_0x4f903d(0x538)])[_0x4f903d(0x2b6)](_0x425385=>[_0x425385['a'],_0x425385['b']][_0x4f903d(0x1fd)](_0x1e8587['sender'])&&_0x425385[_0x4f903d(0x662)]===_0x4f903d(0x8e5));if(_0x341bfe){if(/^.*(next|leave|start)/[_0x4f903d(0x956)](_0x1e8587[_0x4f903d(0x25a)]))return;if(['.next',_0x4f903d(0x225),_0x4f903d(0x54f),_0x4f903d(0x162),_0x4f903d(0x369),_0x4f903d(0x3cf),_0x4f903d(0x262),_0x4f903d(0x13d)][_0x4f903d(0x1fd)](_0x1e8587[_0x4f903d(0x25a)]))return;let _0x3c5022=[_0x341bfe['a'],_0x341bfe['b']][_0x4f903d(0x2b6)](_0x16ad2c=>_0x16ad2c!==_0x1e8587[_0x4f903d(0x548)]);_0x1e8587[_0x4f903d(0x6d5)](_0x3c5022,!![],_0x1e8587[_0x4f903d(0x779)]&&_0x1e8587['quoted'][_0x4f903d(0x323)]?{'contextInfo':{..._0x1e8587[_0x4f903d(0x56c)]['contextInfo'],'forwardingScore':0x0,'isForwarded':!![],'participant':_0x3c5022}}:{});}return!0x0;}if(_0x1f0b6f&&_0x23f888['toLowerCase']()!=undefined){if(_0x1e8587['chat'][_0x4f903d(0x909)](_0x4f903d(0x6e1)))return;if(_0x1e8587[_0x4f903d(0x52f)])return;let _0x49a952=global['db'][_0x4f903d(0x1d2)];if(!(_0x23f888[_0x4f903d(0x3d8)]()in _0x49a952))return;_0x3f28da[_0x4f903d(0x6d5)](_0x1e8587[_0x4f903d(0x155)],_0x49a952[_0x23f888[_0x4f903d(0x3d8)]()],!![]);}}}catch(_0x58f456){_0x1e8587[_0x4f903d(0x70d)](util['format'](_0x58f456));}};let file=require[_0xe53eab(0x7b7)](__filename);fs['watchFile'](file,()=>{const _0x29ddd1=_0xe53eab;fs[_0x29ddd1(0x768)](file),console[_0x29ddd1(0x7ba)](chalk['redBright'](_0x29ddd1(0x240)+__filename)),delete require[_0x29ddd1(0x736)][file],require(file);});
+require('./config')
+const {
+    BufferJSON,
+    WA_DEFAULT_EPHEMERAL,
+    generateWAMessageFromContent,
+    proto,
+    generateWAMessageContent,
+    generateWAMessage,
+    prepareWAMessageMedia,
+    WAMessageStubType,
+    areJidsSameUser,
+    getContentType
+} = require('@adiwajshing/baileys')
+const fs = require('fs')
+const util = require('util')
+const chalk = require('chalk')
+const {
+    exec,
+    spawn,
+    execSync
+} = require("child_process")
+const axios = require('axios')
+const path = require('path')
+const os = require('os')
+const {
+    JSDOM
+} = require('jsdom')
+const speed = require('performance-now')
+const moment = require("moment-timezone");
+const {
+    performance
+} = require('perf_hooks')
+const {
+    Primbon
+} = require('scrape-primbon')
+const primbon = new Primbon()
+let {
+    TelegraPh,
+} = require('./lib/uploader')
+const {
+    smsg,
+    formatp,
+    tanggal,
+    formatDate,
+    getTime,
+    isUrl,
+    sleep,
+    clockString,
+    runtime,
+    fetchJson,
+    getBuffer,
+    jsonformat,
+    format,
+    parseMention,
+    getRandom
+} = require('./lib/myfunc')
+const {
+    aiovideodl
+} = require('./lib/scraper.js')
+const {
+    wikiSearch
+} = require('./lib/wiki.js');
+const {
+    Gempa
+} = require("./lib/gempa.js");
+const {
+    jadwaltv
+}= require('./lib/jadwaltv');
+const xfarr = require('xfarr-api')
+
+// read database
+global.db = JSON.parse(fs.readFileSync('./src/database.json'))
+if (global.db) global.db = {
+    users: {},
+    chats: {},
+    database: {},
+    game: {},
+    settings: {},
+    others: {},
+    sticker: {},
+    ...(global.db || {})
+}
+let tebaklagu = db.game.tebaklagu = []
+let _family100 = db.game.family100 = []
+let kuismath = db.game.math = []
+let tebakgambar = db.game.tebakgambar = []
+let tebakkata = db.game.tebakkata = []
+let caklontong = db.game.lontong = []
+let caklontong_desk = db.game.lontong_desk = []
+let tebakkalimat = db.game.kalimat = []
+let tebaklirik = db.game.lirik = []
+let tebaktebakan = db.game.tebakan = []
+let tebakbendera = db.game.bendera = []
+let tebakkabupaten = db.game.kabupaten = []
+let tebakkimia = db.game.kimia = []
+let asahotak = db.game.asahotak = []
+let siapakahaku = db.game.siapakahaku = []
+let susunkata = db.game.susunkata = []
+let tekateki = db.game.tekateki = []
+let vote = db.others.vote = []
+
+moment.tz.setDefault("Asia/Jakarta").locale("id")
+
+module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
+    try {
+        var body = (m.mtype === 'conversation') ? m.message.conversation : (m.mtype == 'imageMessage') ? m.message.imageMessage.caption : (m.mtype == 'videoMessage') ? m.message.videoMessage.caption : (m.mtype == 'extendedTextMessage') ? m.message.extendedTextMessage.text : (m.mtype == 'buttonsResponseMessage') ? m.message.buttonsResponseMessage.selectedButtonId : (m.mtype == 'listResponseMessage') ? m.message.listResponseMessage.singleSelectReply.selectedRowId : (m.mtype == 'templateButtonReplyMessage') ? m.message.templateButtonReplyMessage.selectedId : (m.mtype === 'messageContextInfo') ? (m.message.buttonsResponseMessage?.selectedButtonId || m.message.listResponseMessage?.singleSelectReply.selectedRowId || m.text) : ''
+        var budy = (typeof m.text == 'string' ? m.text : '')
+        var prefix = prefa ? /^[°•π÷×¶∆£¢€¥®™+✓_=|~!?@#$%^&.©^]/gi.test(body) ? body.match(/^[°•π÷×¶∆£¢€¥®™+✓_=|~!?@#$%^&.©^]/gi)[0] : "" : prefa ?? global.prefix
+        const isCmd = body.startsWith(prefix)
+        const salam = moment(Date.now()).tz('Asia/Jakarta').locale('id').format('a')
+        const command = body.replace(prefix, '').trim().split(/ +/).shift().toLowerCase()
+        const args = body.trim().split(/ +/).slice(1)
+        const pushname = m.pushName || "No Name"
+        const botNumber = await hisoka.decodeJid(hisoka.user.id)
+        const isCreator = [botNumber, ...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
+        const itsMe = m.sender == botNumber ? true : false
+        const text = q = args.join(" ")
+        const quoted = m.quoted ? m.quoted : m
+        const mime = (quoted.msg || quoted).mimetype || ''
+        const isMedia = /image|video|sticker|audio/.test(mime)
+
+        // Group
+        const groupMetadata = m.isGroup ? await hisoka.groupMetadata(m.chat).catch(e => {}) : ''
+        const groupName = m.isGroup ? groupMetadata.subject : ''
+        const groupMembers = m.isGroup ? groupMetadata.participants : ''
+        const participants = m.isGroup ? await groupMetadata.participants : ''
+        const groupAdmins = m.isGroup ? await participants.filter(v => v.admin !== null).map(v => v.id) : ''
+        const groupOwner = m.isGroup ? groupMetadata.owner : ''
+        const isBotAdmins = m.isGroup ? groupAdmins.includes(botNumber) : false
+        const isAdmins = m.isGroup ? groupAdmins.includes(m.sender) : false
+        const isPremium = isCreator || global.premium.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender) || false
+
+
+        const wib = moment.tz('Asia/Jakarta').format('HH : mm : ss')
+        const wit = moment.tz('Asia/Jayapura').format('HH : mm : ss')
+        const wita = moment.tz('Asia/Makassar').format('HH : mm : ss')
+
+        const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
+        if (time2 < "23:59:00") {
+            var ucapanWaktu = '𝑺𝒆𝒍𝒂𝒎𝒂𝒕 𝑴𝒂𝒍𝒂𝒎 🏙️'
+        }
+        if (time2 < "19:00:00") {
+            var ucapanWaktu = '𝑺𝒆𝒍𝒂𝒎𝒂𝒕 𝑷𝒆𝒕𝒂𝒏𝒈 🌆'
+        }
+        if (time2 < "18:00:00") {
+            var ucapanWaktu = '𝑺𝒆𝒍𝒂𝒎𝒂𝒕 𝑺𝒐𝒓𝒆 🌇'
+        }
+        if (time2 < "15:00:00") {
+            var ucapanWaktu = '𝑺𝒆𝒍𝒂𝒎𝒂𝒕 𝑺𝒊𝒂𝒏𝒈 🌤️'
+        }
+        if (time2 < "10:00:00") {
+            var ucapanWaktu = '𝑺𝒆𝒍𝒂𝒎𝒂𝒕 𝑷𝒂𝒈𝒊 🌄'
+        }
+        if (time2 < "05:00:00") {
+            var ucapanWaktu = '𝑺𝒆𝒍𝒂𝒎𝒂𝒕 𝑺𝒖𝒃𝒖𝒉 🌆'
+        }
+        if (time2 < "03:00:00") {
+            var ucapanWaktu = '𝑺𝒆𝒍𝒂𝒎𝒂𝒕 𝑻𝒆𝒏𝒈𝒂𝒉 𝑴𝒂𝒍𝒂𝒎 🌃'
+        }
+
+        //Time Menuju Ulang Tahun Untuk GuaAbuzz ;)
+        const IdulAdha = new Date('July 17, 2022 12:00:00')
+        const sekarang = new Date().getTime();
+        const Selisih = IdulAdha - sekarang;
+        const jhari = Math.floor(Selisih / (1000 * 60 * 60 * 24));
+        const jjam = Math.floor(Selisih % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
+        const mmmenit = Math.floor(Selisih % (1000 * 60 * 60) / (1000 * 60));
+        const ddetik = Math.floor(Selisih % (1000 * 60) / 1000);
+        const menuju = `${jhari}Hari ${jjam}Jam ${mmmenit}Menit ${ddetik}Detik`
+
+
+        //━━━━━━━━━━━━━━━[ FAKE ]━━━━━━━━━━━━━━━━━//
+
+        const ftroli = {
+            key: {
+                fromMe: false,
+                "participant": "0@s.whatsapp.net",
+                "remoteJid": "6289636827082-1635036556@g.us"
+            },
+            "message": {
+                orderMessage: {
+                    itemCount: 2022,
+                    status: 200,
+                    thumbnail: fs.readFileSync('./storage/menu/hisoka.jpg'),
+                    surface: 200,
+                    message: `Haii Kak ${pushname}\n𝙲𝚖𝚍 ${command}`,
+                    orderTitle: 'Please Follow TikTok @GuaAbuzz',
+                    sellerJid: '0@s.whatsapp.net'
+                }
+            },
+            contextInfo: {
+                "forwardingScore": 999,
+                "isForwarded": true
+            },
+            sendEphemeral: true
+        }
+        //END
+
+        //member
+        let picaks = [flaming, fluming, flarun, flasmurf]
+        let picak = picaks[Math.floor(Math.random() * picaks.length)]
+
+        try {
+            let isNumber = x => typeof x === 'number' && !isNaN(x)
+            let limitUser = isPremium ? global.limitawal.premium : global.limitawal.free
+            let user = global.db.users[m.sender]
+            if (typeof user !== 'object') global.db.users[m.sender] = {}
+            if (user) {
+                if (!isNumber(user.afkTime)) user.afkTime = -1
+                if (!('afkReason' in user)) user.afkReason = ''
+                if (!isNumber(user.limit)) user.limit = limitUser
+            } else global.db.users[m.sender] = {
+                afkTime: -1,
+                afkReason: '',
+                limit: limitUser,
+            }
+            let chats = global.db.chats[m.chat]
+            if (typeof chats !== 'object') global.db.chats[m.chat] = {}
+            if (chats) {
+                if (!('mute' in chats)) chats.mute = false
+                if (!('antilinkwa' in chats)) chats.antilinkwa = false
+                if (!('antilinkyt' in chats)) chats.antilinkyt = false
+                if (!('antilinktt' in chats)) chats.antilinktt = false
+                if (!('antivirtex' in chats)) chats.antivirtex = true
+            } else global.db.chats[m.chat] = {
+                mute: false,
+                antilinkwa: false,
+                antilinkyt: false,
+                antilinktt: false,
+                antivirtex: true,
+            }
+
+            let setting = global.db.settings[botNumber]
+            if (typeof setting !== 'object') global.db.settings[botNumber] = {}
+            if (setting) {
+                if (!isNumber(setting.status)) setting.status = 0
+                if (!('autobio' in setting)) setting.autobio = false
+                if (!('templateImage' in setting)) setting.templateImage = true
+                if (!('templateVideo' in setting)) setting.templateVideo = false
+                if (!('templateGif' in setting)) setting.templateGif = false
+                if (!('templateMsg' in setting)) setting.templateMsg = false
+            } else global.db.settings[botNumber] = {
+                status: 0,
+                autobio: false,
+                templateImage: true,
+                templateVideo: false,
+                templateGif: false,
+                templateMsg: false,
+            }
+
+        } catch (err) {
+            console.error(err)
+        }
+        // Public & Self
+        if (!hisoka.public) {
+            if (!m.key.fromMe) return
+        }
+
+        // Push Message To Console && Auto Read
+        if (m.message && m.isGroup) {
+            console.log("" + "\n" + chalk.black(chalk.bgWhite('[ GRUP ]')), chalk.black(chalk.bgBlueBright(m.isGroup ? metadata.subject : m.pushName)) + "\n" + chalk.black(chalk.bgWhite('[ TIME ]')), chalk.black(chalk.bgBlueBright(new Date)) + "\n" + chalk.black(chalk.bgWhite('[ FROM ]')), chalk.black(chalk.bgBlueBright(m.pushName + " @" + m.sender.split('@')[0])) + "\n" + chalk.black(chalk.bgWhite('[ BODY ]')), chalk.black(chalk.bgBlueBright(body || type)) + "\n" + "")
+        }
+        if (m.message && !m.isGroup) {    
+            console.log("" + "\n" + chalk.black(chalk.bgWhite('[ PRIV ]')), chalk.black(chalk.bgRedBright('PRIVATE CHATT')) + "\n" + chalk.black(chalk.bgWhite('[ TIME ]')), chalk.black(chalk.bgRedBright(new Date)) + "\n" + chalk.black(chalk.bgWhite('[ FROM ]')), chalk.black(chalk.bgRedBright(m.pushName + " @" + m.sender.split('@')[0])) + "\n" + chalk.black(chalk.bgWhite('[ BODY ]')), chalk.black(chalk.bgRedBright(body || type)) + "\n" + "")
+        }
+
+        // write database every 1 minute
+        setInterval(() => {
+            fs.writeFileSync('./src/database.json', JSON.stringify(global.db, null, 2))
+        }, 60 * 1000)
+
+        // reset limit every 12 hours
+        let cron = require('node-cron')
+        cron.schedule('00 12 * * *', () => {
+            let user = Object.keys(global.db.users)
+            let limitUser = isPremium ? global.limitawal.premium : global.limitawal.free
+            for (let jid of user) global.db.users[jid].limit = limitUser
+            console.log('Reseted Limit')
+        }, {
+            scheduled: true,
+            timezone: "Asia/Jakarta"
+        })
+
+        // Respon Cmd with media
+        if (isMedia && m.msg.fileSha256 && (m.msg.fileSha256.toString('base64') in global.db.sticker)) {
+            let hash = global.db.sticker[m.msg.fileSha256.toString('base64')]
+            let {
+                text,
+                mentionedJid
+            } = hash
+            let messages = await generateWAMessage(m.chat, {
+                text: text,
+                mentions: mentionedJid
+            }, {
+                userJid: hisoka.user.id,
+                quoted: m.quoted && m.quoted.fakeObj
+            })
+            messages.key.fromMe = areJidsSameUser(m.sender, hisoka.user.id)
+            messages.key.id = m.key.id
+            messages.pushName = m.pushName
+            if (m.isGroup) messages.participant = m.sender
+            let msg = {
+                ...chatUpdate,
+                messages: [proto.WebMessageInfo.fromObject(messages)],
+                type: 'append'
+            }
+            hisoka.ev.emit('messages.upsert', msg)
+        }
+
+        if (('family100' + m.chat in _family100) && isCmd) {
+            kuis = true
+            let room = _family100['family100' + m.chat]
+            let teks = budy.toLowerCase().replace(/[^\w\s\-]+/, '')
+            let isSurender = /^((me)?nyerah|surr?ender)$/i.test(m.text)
+            if (!isSurender) {
+                let index = room.jawaban.findIndex(v => v.toLowerCase().replace(/[^\w\s\-]+/, '') === teks)
+                if (room.terjawab[index]) return !0
+                room.terjawab[index] = m.sender
+            }
+            let isWin = room.terjawab.length === room.terjawab.filter(v => v).length
+            let caption = `
+Jawablah Pertanyaan Berikut :\n${room.soal}\n\n\nTerdapat ${room.jawaban.length} Jawaban ${room.jawaban.find(v => v.includes(' ')) ? `(beberapa Jawaban Terdapat Spasi)` : ''}
+${isWin ? `Semua Jawaban Terjawab` : isSurender ? 'Menyerah!' : ''}
+${Array.from(room.jawaban, (jawaban, index) => {
+        return isSurender || room.terjawab[index] ? `(${index + 1}) ${jawaban} ${room.terjawab[index] ? '@' + room.terjawab[index].split('@')[0] : ''}`.trim() : false
+    }).filter(v => v).join('\n')}
+    ${isSurender ? '' : `Perfect Player`}`.trim()
+            hisoka.sendText(m.chat, caption, m, {
+                contextInfo: {
+                    mentionedJid: parseMention(caption)
+                }
+            }).then(mes => {
+                return _family100['family100' + m.chat].pesan = mesg
+            }).catch(_ => _)
+            if (isWin || isSurender) delete _family100['family100' + m.chat]
+        }
+
+        if (asahotak.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = asahotak[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await hisoka.sendButtonText(m.chat, [{
+                    buttonId: 'asahotak',
+                    buttonText: {
+                        displayText: '⌲ Asah Otak'
+                    },
+                    type: 1
+                }], `🎮 Asah Otak 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, hisoka.user.name, m)
+                delete asahotak[m.sender.split('@')[0]]
+            } else m.reply('*Jawaban Salah!*')
+        }
+
+        if (siapakahaku.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = siapakahaku[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await hisoka.sendButtonText(m.chat, [{
+                    buttonId: 'siapakahaku',
+                    buttonText: {
+                        displayText: '⌲ Siapkah Aku'
+                    },
+                    type: 1
+                }], `🎮 Siapakah Aku 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, hisoka.user.name, m)
+                delete siapakahaku[m.sender.split('@')[0]]
+            } else m.reply('*Jawaban Salah!*')
+        }
+
+        if (susunkata.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = susunkata[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await hisoka.sendButtonText(m.chat, [{
+                    buttonId: 'susunkata',
+                    buttonText: {
+                        displayText: '⌲ Susun Kata'
+                    },
+                    type: 1
+                }], `🎮 Susun Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, hisoka.user.name, m)
+                delete susunkata[m.sender.split('@')[0]]
+            } else m.reply('*Jawaban Salah!*')
+        }
+
+        if (tebakbendera.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = tebakbendera[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await hisoka.sendButtonText(m.chat, [{
+                    buttonId: 'tebak bendera',
+                    buttonText: {
+                        displayText: '⌲ Tebak Bendera'
+                    },
+                    type: 1
+                }], `🎮 Tebak Bendera 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, hisoka.user.name, m)
+                delete tebakbendera[m.sender.split('@')[0]]
+            } else m.reply('*Jawaban Salah!*')
+        }
+
+        if (tebakkabupaten.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = tebakkabupaten[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await hisoka.sendButtonText(m.chat, [{
+                    buttonId: 'tebak kabupaten',
+                    buttonText: {
+                        displayText: '⌲ Tebak Kabupaten'
+                    },
+                    type: 1
+                }], `🎮 Tebak Kabupaten 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, hisoka.user.name, m)
+                delete tebakkabupaten[m.sender.split('@')[0]]
+            } else m.reply('*Jawaban Salah!*')
+        }
+
+        if (susunkata.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = susunkata[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await hisoka.sendButtonText(m.chat, [{
+                    buttonId: 'susunkata',
+                    buttonText: {
+                        displayText: '⌲ Susun Kata'
+                    },
+                    type: 1
+                }], `🎮 Susun Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, hisoka.user.name, m)
+                delete tebaktebakan[m.sender.split('@')[0]]
+            } else m.reply('*Jawaban Salah!*')
+        }
+
+        if (tebakkimia.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = tebakkimia[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await hisoka.sendButtonText(m.chat, [{
+                    buttonId: 'tebak kimia',
+                    buttonText: {
+                        displayText: '⌲ Tebak Kimia'
+                    },
+                    type: 1
+                }], `🎮 Tebak Kimia 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, hisoka.user.name, m)
+                delete tebakkimia[m.sender.split('@')[0]]
+            } else m.reply('*Jawaban Salah!*')
+        }
+
+        if (tekateki.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = tekateki[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await hisoka.sendButtonText(m.chat, [{
+                    buttonId: 'tekateki',
+                    buttonText: {
+                        displayText: '⌲ Teka Teki'
+                    },
+                    type: 1
+                }], `🎮 Teka Teki 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, hisoka.user.name, m)
+                delete tekateki[m.sender.split('@')[0]]
+            } else m.reply('*Jawaban Salah!*')
+        }
+
+        if (tebaklagu.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = tebaklagu[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await hisoka.sendButtonText(m.chat, [{
+                    buttonId: 'tebak lagu',
+                    buttonText: {
+                        displayText: '⌲ Tebak Lagu'
+                    },
+                    type: 1
+                }], `🎮 Tebak Lagu 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, hisoka.user.name, m)
+                delete tebaklagu[m.sender.split('@')[0]]
+            } else m.reply('*Jawaban Salah!*')
+        }
+
+        if (kuismath.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = kuismath[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await m.reply(`🎮 Kuis Matematika  🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? kirim ${prefix}math mode`)
+                delete kuismath[m.sender.split('@')[0]]
+            } else m.reply('*Jawaban Salah!*')
+        }
+
+        if (tebakgambar.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = tebakgambar[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await hisoka.sendButtonText(m.chat, [{
+                    buttonId: 'tebak gambar',
+                    buttonText: {
+                        displayText: '⌲ Tebak Gambar'
+                    },
+                    type: 1
+                }], `🎮 Tebak Gambar 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, hisoka.user.name, m)
+                delete tebakgambar[m.sender.split('@')[0]]
+            } else m.reply('*Jawaban Salah!*')
+        }
+
+        if (tebakkata.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = tebakkata[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await hisoka.sendButtonText(m.chat, [{
+                    buttonId: 'tebak kata',
+                    buttonText: {
+                        displayText: '⌲ Tebak Kata'
+                    },
+                    type: 1
+                }], `🎮 Tebak Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, hisoka.user.name, m)
+                delete tebakkata[m.sender.split('@')[0]]
+            } else m.reply('*Jawaban Salah!*')
+        }
+
+        if (caklontong.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = caklontong[m.sender.split('@')[0]]
+            deskripsi = caklontong_desk[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await hisoka.sendButtonText(m.chat, [{
+                    buttonId: 'tebak lontong',
+                    buttonText: {
+                        displayText: '⌲ Tebak Lontong'
+                    },
+                    type: 1
+                }], `🎮 Cak Lontong 🎮\n\nJawaban Benar 🎉\n*${deskripsi}*\n\nIngin bermain lagi? tekan button dibawah`, hisoka.user.name, m)
+                delete caklontong[m.sender.split('@')[0]]
+                delete caklontong_desk[m.sender.split('@')[0]]
+            } else m.reply('*Jawaban Salah!*')
+        }
+
+        if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = tebakkalimat[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await hisoka.sendButtonText(m.chat, [{
+                    buttonId: 'tebak kalimat',
+                    buttonText: {
+                        displayText: '⌲ Tebak Kalimat'
+                    },
+                    type: 1
+                }], `🎮 Tebak Kalimat 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, hisoka.user.name, m)
+                delete tebakkalimat[m.sender.split('@')[0]]
+            } else m.reply('*Jawaban Salah!*')
+        }
+
+        if (tebaklirik.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = tebaklirik[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await hisoka.sendButtonText(m.chat, [{
+                    buttonId: 'tebak lirik',
+                    buttonText: {
+                        displayText: '⌲ Tebak Lirik'
+                    },
+                    type: 1
+                }], `🎮 Tebak Lirik 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, hisoka.user.name, m)
+                delete tebaklirik[m.sender.split('@')[0]]
+            } else m.reply('*Jawaban Salah!*')
+        }
+
+        if (tebaktebakan.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = tebaktebakan[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await hisoka.sendButtonText(m.chat, [{
+                    buttonId: 'tebak tebakan',
+                    buttonText: {
+                        displayText: '⌲ Tebak Tebakan'
+                    },
+                    type: 1
+                }], `🎮 Tebak Tebakan 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, hisoka.user.name, m)
+                delete tebaktebakan[m.sender.split('@')[0]]
+            } else m.reply('*Jawaban Salah!*')
+        }
+        // auto set bio
+        if (db.settings[botNumber].autobio) {
+            let setting = global.db.settings[botNumber]
+            if (new Date() * 1 - setting.status > 1000) {
+                let uptime = await runtime(process.uptime())
+                await hisoka.setStatus(`🤖 ${hisoka.user.name} | ⏳ Runtime : ${runtime(uptime)}`)
+                setting.status = new Date() * 1
+            }
+        }
+
+        //Anti Link
+        if (db.chats[m.chat].antilinkwa) {
+            if (budy.match(`chat.whatsapp.com`)) {
+                m.reply(`「 ANTI LINK WHATSAPP 」\n\nKamu Terdeteksi Mengirim Link Group, Maaf Kamu Akan Di Kick !`)
+                if (!isBotAdmins) return m.reply(`Ehh Bot Gak Admin T_T`)
+                let gclink = (`https://chat.whatsapp.com/` + await hisoka.groupInviteCode(m.chat))
+                let isLinkThisGc = new RegExp(gclink, 'i')
+                let isgclink = isLinkThisGc.test(m.text)
+                if (isgclink) return m.reply(`Ehh Maaf Kamu Ngirim Link Group Ini`)
+                if (isAdmins) return m.reply(`Ehh Maaf Kamu Admin`)
+                if (isCreator) return m.reply(`Ehh Maaf Kamu Owner Bot Ku`)
+                hisoka.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
+            }
+        }
+        //Anti Link YouTube
+        if (db.chats[m.chat].antilinkyt) {
+            if (budy.match(`https://youtu.be`)) {
+                m.reply(`「 ANTI LINK YOUTUBE 」\n\nKamu Terdeteksi Mengirim Link Youtube, Maaf Kamu Akan Di Kick !`)
+                if (!isBotAdmins) return m.reply(`Ehh Bot Gak Admin T_T`)
+                if (isAdmins) return m.reply(`Ehh Maaf Kamu Admin`)
+                if (isCreator) return m.reply(`Ehh Maaf Kamu Owner Bot Ku`)
+                hisoka.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
+            }
+        }
+        //Anti Link Tiktok
+        if (db.chats[m.chat].antilinktt) {
+            if (budy.match(`https://vt.tiktok.com`)) {
+                m.reply(`「 ANTI LINK TIKTOK 」\n\nKamu Terdeteksi Mengirim Link TikTok, Maaf Kamu Akan Di Kick !`)
+                if (!isBotAdmins) return m.reply(`Ehh Bot Gak Admin T_T`)
+                if (isAdmins) return m.reply(`Ehh Maaf Kamu Admin`)
+                if (isCreator) return m.reply(`Ehh Maaf Kamu Owner Bot Ku`)
+                hisoka.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
+            }
+        }
+        //AntiVirtex
+        if (db.chats[m.chat].antivirtex) {
+            if (budy.length > 3500) {
+                m.reply(`「 ANTI VIRTEX 」\n\nKamu Terdeteksi Mengirim Virtex, Maaf Kamu Akan Di Kick !`)
+                if (!isBotAdmins) return m.reply(`Ehh Bot Gak Admin T_T`)
+                hisoka.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
+            }
+        }
+        // Mute Chat
+        if (db.chats[m.chat].mute && !isAdmins && !isCreator) {
+            return
+        }
+        //TicTacToe
+        this.game = this.game ? this.game : {}
+        let room = Object.values(this.game).find(room => room.id && room.game && room.state && room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender) && room.state == 'PLAYING')
+        if (room) {
+            let ok
+            let isWin = !1
+            let isTie = !1
+            let isSurrender = !1
+            // m.reply(`[DEBUG]\n${parseInt(m.text)}`)
+            if (!/^([1-9]|(me)?nyerah|surr?ender|off|skip)$/i.test(m.text)) return
+            isSurrender = !/^[1-9]$/.test(m.text)
+            if (m.sender !== room.game.currentTurn) { // nek wayahku
+                if (!isSurrender) return !0
+            }
+            if (!isSurrender && 1 > (ok = room.game.turn(m.sender === room.game.playerO, parseInt(m.text) - 1))) {
+                m.reply({
+                    '-3': 'Game telah berakhir',
+                    '-2': 'Invalid',
+                    '-1': 'Posisi Invalid',
+                    0: 'Posisi Invalid',
+                } [ok])
+                return !0
+            }
+            if (m.sender === room.game.winner) isWin = true
+            else if (room.game.board === 511) isTie = true
+            let arr = room.game.render().map(v => {
+                return {
+                    X: '❌',
+                    O: '⭕',
+                    1: '1️⃣',
+                    2: '2️⃣',
+                    3: '3️⃣',
+                    4: '4️⃣',
+                    5: '5️⃣',
+                    6: '6️⃣',
+                    7: '7️⃣',
+                    8: '8️⃣',
+                    9: '9️⃣',
+                } [v]
+            })
+            if (isSurrender) {
+                room.game._currentTurn = m.sender === room.game.playerX
+                isWin = true
+            }
+            let winner = isSurrender ? room.game.currentTurn : room.game.winner
+            let str = `Room ID: ${room.id}
+
+${arr.slice(0, 3).join('')}
+${arr.slice(3, 6).join('')}
+${arr.slice(6).join('')}
+
+${isWin ? `@${winner.split('@')[0]} Menang!` : isTie ? `Game berakhir` : `Giliran ${['❌', '⭕'][1 * room.game._currentTurn]} (@${room.game.currentTurn.split('@')[0]})`}
+❌: @${room.game.playerX.split('@')[0]}
+⭕: @${room.game.playerO.split('@')[0]}
+
+Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
+            if ((room.game._currentTurn ^ isSurrender ? room.x : room.o) !== m.chat)
+                room[room.game._currentTurn ^ isSurrender ? 'x' : 'o'] = m.chat
+            if (room.x !== room.o) await hisoka.sendText(room.x, str, m, {
+                mentions: parseMention(str)
+            })
+            await hisoka.sendText(room.o, str, m, {
+                mentions: parseMention(str)
+            })
+            if (isTie || isWin) {
+                delete this.game[room.id]
+            }
+        }
+        //Suit PvP
+        this.suit = this.suit ? this.suit : {}
+        let roof = Object.values(this.suit).find(roof => roof.id && roof.status && [roof.p, roof.p2].includes(m.sender))
+        if (roof) {
+            let win = ''
+            let tie = false
+            if (m.sender == roof.p2 && /^(acc(ept)?|terima|gas|oke?|tolak|gamau|nanti|ga(k.)?bisa|y)/i.test(m.text) && m.isGroup && roof.status == 'wait') {
+                if (/^(tolak|gamau|nanti|n|ga(k.)?bisa)/i.test(m.text)) {
+                    hisoka.sendTextWithMentions(m.chat, `@${roof.p2.split`@`[0]} menolak suit, suit dibatalkan`, m)
+                    delete this.suit[roof.id]
+                    return !0
+                }
+                roof.status = 'play'
+                roof.asal = m.chat
+                clearTimeout(roof.waktu)
+                //delete roof[roof.id].waktu
+                hisoka.sendText(m.chat, `Suit telah dikirimkan ke chat
+
+@${roof.p.split`@`[0]} dan 
+@${roof.p2.split`@`[0]}
+
+Silahkan pilih suit di chat masing"
+klik https://wa.me/${botNumber.split`@`[0]}`, m, {
+                    mentions: [roof.p, roof.p2]
+                })
+                if (!roof.pilih) hisoka.sendText(roof.p, `Silahkan pilih \n\nBatu🗿\nKertas📄\nGunting✂️`, m)
+                if (!roof.pilih2) hisoka.sendText(roof.p2, `Silahkan pilih \n\nBatu🗿\nKertas📄\nGunting✂️`, m)
+                roof.waktu_milih = setTimeout(() => {
+                    if (!roof.pilih && !roof.pilih2) hisoka.sendText(m.chat, `Kedua pemain tidak niat main,\nSuit dibatalkan`)
+                    else if (!roof.pilih || !roof.pilih2) {
+                        win = !roof.pilih ? roof.p2 : roof.p
+                        hisoka.sendTextWithMentions(m.chat, `@${(roof.pilih ? roof.p2 : roof.p).split`@`[0]} tidak memilih suit, game berakhir`, m)
+                    }
+                    delete this.suit[roof.id]
+                    return !0
+                }, roof.timeout)
+            }
+            let jwb = m.sender == roof.p
+            let jwb2 = m.sender == roof.p2
+            let g = /gunting/i
+            let b = /batu/i
+            let k = /kertas/i
+            let reg = /^(gunting|batu|kertas)/i
+            if (jwb && reg.test(m.text) && !roof.pilih && !m.isGroup) {
+                roof.pilih = reg.exec(m.text.toLowerCase())[0]
+                roof.text = m.text
+                m.reply(`Kamu telah memilih ${m.text} ${!roof.pilih2 ? `\n\nMenunggu lawan memilih` : ''}`)
+                if (!roof.pilih2) hisoka.sendText(roof.p2, '_Lawan sudah memilih_\nSekarang giliran kamu', 0)
+            }
+            if (jwb2 && reg.test(m.text) && !roof.pilih2 && !m.isGroup) {
+                roof.pilih2 = reg.exec(m.text.toLowerCase())[0]
+                roof.text2 = m.text
+                m.reply(`Kamu telah memilih ${m.text} ${!roof.pilih ? `\n\nMenunggu lawan memilih` : ''}`)
+                if (!roof.pilih) hisoka.sendText(roof.p, '_Lawan sudah memilih_\nSekarang giliran kamu', 0)
+            }
+            let stage = roof.pilih
+            let stage2 = roof.pilih2
+            if (roof.pilih && roof.pilih2) {
+                clearTimeout(roof.waktu_milih)
+                if (b.test(stage) && g.test(stage2)) win = roof.p
+                else if (b.test(stage) && k.test(stage2)) win = roof.p2
+                else if (g.test(stage) && k.test(stage2)) win = roof.p
+                else if (g.test(stage) && b.test(stage2)) win = roof.p2
+                else if (k.test(stage) && b.test(stage2)) win = roof.p
+                else if (k.test(stage) && g.test(stage2)) win = roof.p2
+                else if (stage == stage2) tie = true
+                hisoka.sendText(roof.asal, `_*Hasil Suit*_${tie ? '\nSERI' : ''}
+
+@${roof.p.split`@`[0]} (${roof.text}) ${tie ? '' : roof.p == win ? ` Menang \n` : ` Kalah \n`}
+@${roof.p2.split`@`[0]} (${roof.text2}) ${tie ? '' : roof.p2 == win ? ` Menang \n` : ` Kalah \n`}
+`.trim(), m, {
+                    mentions: [roof.p, roof.p2]
+                })
+                delete this.suit[roof.id]
+            }
+        }
+
+        let mentionUser = [...new Set([...(m.mentionedJid || []), ...(m.quoted ? [m.quoted.sender] : [])])]
+        for (let jid of mentionUser) {
+            let user = global.db.users[jid]
+            if (!user) continue
+            let afkTime = user.afkTime
+            if (!afkTime || afkTime < 0) continue
+            let reason = user.afkReason || ''
+            m.reply(`
+Jangan tag dia!
+Dia sedang AFK ${reason ? 'dengan alasan ' + reason : 'tanpa alasan'}
+Selama ${clockString(new Date - afkTime)}
+`.trim())
+        }
+
+        if (db.users[m.sender].afkTime > -1) {
+            let user = global.db.users[m.sender]
+            m.reply(`
+Kamu berhenti AFK${user.afkReason ? ' setelah ' + user.afkReason : ''}
+Selama ${clockString(new Date - user.afkTime)}
+`.trim())
+            user.afkTime = -1
+            user.afkReason = ''
+        }
+
+        switch (command) {
+            case 'afk': {
+                let user = global.db.users[m.sender]
+                user.afkTime = +new Date
+                user.afkReason = text
+                m.reply(`${m.pushName} Telah Afk${text ? ': ' + text : ''}`)
+            }
+            break
+            case 'ttc':
+            case 'ttt':
+            case 'tictactoe': {
+                let TicTacToe = require("./lib/tictactoe")
+                this.game = this.game ? this.game : {}
+                if (Object.values(this.game).find(room => room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender))) throw 'Kamu masih didalam game'
+                let room = Object.values(this.game).find(room => room.state === 'WAITING' && (text ? room.name === text : true))
+                if (room) {
+                    m.reply('Partner ditemukan!')
+                    room.o = m.chat
+                    room.game.playerO = m.sender
+                    room.state = 'PLAYING'
+                    let arr = room.game.render().map(v => {
+                        return {
+                            X: '❌',
+                            O: '⭕',
+                            1: '1️⃣',
+                            2: '2️⃣',
+                            3: '3️⃣',
+                            4: '4️⃣',
+                            5: '5️⃣',
+                            6: '6️⃣',
+                            7: '7️⃣',
+                            8: '8️⃣',
+                            9: '9️⃣',
+                        } [v]
+                    })
+                    let str = `Room ID: ${room.id}
+
+${arr.slice(0, 3).join('')}
+${arr.slice(3, 6).join('')}
+${arr.slice(6).join('')}
+
+Menunggu @${room.game.currentTurn.split('@')[0]}
+
+Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
+                    if (room.x !== room.o) await hisoka.sendText(room.x, str, m, {
+                        mentions: parseMention(str)
+                    })
+                    await hisoka.sendText(room.o, str, m, {
+                        mentions: parseMention(str)
+                    })
+                } else {
+                    room = {
+                        id: 'tictactoe-' + (+new Date),
+                        x: m.chat,
+                        o: '',
+                        game: new TicTacToe(m.sender, 'o'),
+                        state: 'WAITING'
+                    }
+                    if (text) room.name = text
+                    m.reply('Menunggu partner' + (text ? ` mengetik command dibawah ini ${prefix}${command} ${text}` : ''))
+                    this.game[room.id] = room
+                }
+            }
+            break
+            case 'delttc':
+            case 'delttt': {
+                this.game = this.game ? this.game : {}
+                try {
+                    if (this.game) {
+                        delete this.game
+                        hisoka.sendText(m.chat, `Berhasil delete session TicTacToe`, m)
+                    } else if (!this.game) {
+                        m.reply(`Session TicTacToe🎮 tidak ada`)
+                    } else throw '?'
+                } catch (e) {
+                    m.reply('rusak')
+                }
+            }
+            break
+            case 'suitpvp':
+            case 'suit': {
+                this.suit = this.suit ? this.suit : {}
+                let poin = 10
+                let poin_lose = 10
+                let timeout = 60000
+                if (Object.values(this.suit).find(roof => roof.id.startsWith('suit') && [roof.p, roof.p2].includes(m.sender))) m.reply(`Selesaikan suit mu yang sebelumnya`)
+                if (m.mentionedJid[0] === m.sender) return m.reply(`Tidak bisa bermain dengan diri sendiri !`)
+                if (!m.mentionedJid[0]) return m.reply(`_Siapa yang ingin kamu tantang?_\nTag orangnya..\n\nContoh : ${prefix}suit @${owner[1]}`, m.chat, {
+                    mentions: [owner[1] + '@s.whatsapp.net']
+                })
+                if (Object.values(this.suit).find(roof => roof.id.startsWith('suit') && [roof.p, roof.p2].includes(m.mentionedJid[0]))) throw `Orang yang kamu tantang sedang bermain suit bersama orang lain :(`
+                let id = 'suit_' + new Date() * 1
+                let caption = `_*SUIT PvP*_
+
+@${m.sender.split`@`[0]} menantang @${m.mentionedJid[0].split`@`[0]} untuk bermain suit
+
+Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
+                this.suit[id] = {
+                    chat: await hisoka.sendText(m.chat, caption, m, {
+                        mentions: parseMention(caption)
+                    }),
+                    id: id,
+                    p: m.sender,
+                    p2: m.mentionedJid[0],
+                    status: 'wait',
+                    waktu: setTimeout(() => {
+                        if (this.suit[id]) hisoka.sendText(m.chat, `_Waktu suit habis_`, m)
+                        delete this.suit[id]
+                    }, 60000),
+                    poin,
+                    poin_lose,
+                    timeout
+                }
+            }
+            break
+            case 'myip': {
+                if (!isCreator) throw mess.owner
+                var http = require('http')
+                http.get({
+                    'host': 'api.ipify.org',
+                    'port': 80,
+                    'path': '/'
+                }, function(resp) {
+                    resp.on('data', function(ip) {
+                        m.reply("🔎 My public IP address is: " + ip);
+                    })
+                })
+            }
+            break
+            //Salam
+            case 'Assalamualaikum':
+            case 'assalamualaikum':
+            case 'Assalamualaikum Wr. Wb':
+                m.reply(`Waalaikumsalam Kak ${pushname} 🙏`)
+                break
+            case 'Shalom':
+            case 'Salam Sejahtera':
+            case 'shalom':
+            case 'salam sejahtera':
+            case 'Salam sejahtera':
+                m.reply(`Salam Sejahtera Juga Untukmu Kak ${pushname} 🙏`)
+                break
+            case 'Om Swastyastu':
+            case 'om swastyastu':
+            case 'Om swastyastu':
+                m.reply(`Om Santi, Santi, Santi, Om Kak ${pushname} 🙏`)
+                break
+            case 'Namo Buddhaya':
+            case 'Namo buddhaya':
+            case 'namo buddhaya':
+                m.reply(`Nammo Buddhaya Juga Kak ${pushname} 🙏`)
+                break
+            case 'Wie De Dong Tian':
+            case 'Wie de dong tian':
+            case 'wie de dong tian':
+                m.reply(`Xian You Yi De Kak ${pushname} 🙏`)
+                break
+
+                //Thx
+            case 'thanks':
+            case 'makasih':
+            case 'thx':
+            case 'tengkiyu':
+            case 'terima kasih':
+            case 'Terima Kasih':
+            case 'Terima kasih':
+                m.reply(`Sama-Sama Kak ${pushname}`)
+                break
+
+                //Case Cek Prefix
+            case 'cekpref':
+            case 'cekprefix':
+                m.reply('Bot Ini Menggunakan Multi Prefix Dan No Prefix')
+                break
+                //Balas Cepat
+            case 'p':
+                m.reply(`Ketik #menu Untuk Melihat List Menu Bot`)
+                break
+            case 'agamabot':
+            case 'agamaowner':
+                m.reply(`Agama Saya ${global.agama}, Walaupun Berbeda Adat/Suku/Ras/Agama Jangan Lupa Toleransi Sesama Manusia Itu Juga Penting Ya Guys🙏`)
+                break
+            case 'tqtt':
+            case 'tqto':
+            case 'thanksto': {
+                anu = `
+⭔ Allah SWT.
+⭔ Ortu Saya.
+⭔ DikaArdnt (Author).
+⭔ Sanzy YT.
+⭔ GuaAbuzz (Saya).
+⭔ Fatih A.
+⭔ Nurutomo.
+⭔ Mhankbarbar.
+⭔ ZeeoneOfc.
+⭔ Penyedia Module.
+⭔ Penyedia Res Api's.
+⭔ All My Friends.
+
+• Library : *Baileys-MD*.
+• Prefix : ( ${prefix} )
+• Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}
+• Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
+• Wib : ${wib}
+• Wita : ${wita}
+• Wit : ${wit}`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ Sewabot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'command': {
+                let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                    listMessage: {
+                        title: `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO USER 」
+│└─────────────┈❖
+│ Name : ${pushname}
+│ Number : ${m.sender.split('@')[0]}
+│ Status : ${isCreator ? 'Owner' : 'User'}
+│ User : ${Object.keys(global.db.users).length}
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}
+│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ Platform : ${os.platform()}
+│ Runtime :
+│  ${runtime(process.uptime())}
+│ Language : Javascript
+│ Lib : Baileys-md
+└┬─────────────┈❖
+┌┤「 INFO TIME 」
+│└─────────────┈❖
+│ Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
+│ Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}
+│ Menuju idul Adha :
+│  ${menuju}
+│ WIB : ${wib}
+│ WITA : ${wita}
+│ WIT : ${wit}
+└──────────────┈❖`,
+                        description: "\n",
+                        buttonText: "LIST MENU  >_<",
+                        footerText: "Donasi Kak Buat Beli Apikey🔥",
+                        listType: "SINGLE_SELECT",
+                        sections: [{
+                                "title": "All Fitur Bot >_<",
+                                "rows": [{
+                                    "title": "「 All Menu 」",
+                                    "description": "Menampilkan All Menu",
+                                    "rowId": `${prefix}allmenu`
+                                }]
+                            },
+                            {
+                                "title": "List menu Bot >_<",
+                                "rows": [{
+                                        "title": "「 Anonymous Menu 」",
+                                        "description": "Menampilkan Anonymous Menu",
+                                        "rowId": `${prefix}anonymousmenu`
+                                    },
+                                    {
+                                        "title": "「 Anime Menu 」",
+                                        "description": "Menampilkan Anime Menu",
+                                        "rowId": `${prefix}animemenu`
+                                    },
+                                    {
+                                        "title": "「 Asupan Menu 」",
+                                        "description": "Menampilkan Asupan Menu",
+                                        "rowId": `${prefix}asupanmenu`
+                                    },
+                                    {
+                                        "title": "「 Convert Menu 」",
+                                        "description": "Menampilkan Convert Menu",
+                                        "rowId": `${prefix}convertmenu`
+                                    },
+                                    {
+                                        "title": "「 Download Menu 」",
+                                        "description": "Menampilkan Download Menu",
+                                        "rowId": `${prefix}downloadmenu`
+                                    },
+                                    {
+                                        "title": "「 Database Menu 」",
+                                        "description": "Menampilkan Database Menu",
+                                        "rowId": `${prefix}databasemenu`
+                                    },
+                                    {
+                                        "title": "「 Ephoto Menu 」",
+                                        "description": "Menampilkan Ephoto Menu",
+                                        "rowId": `${prefix}ephotomenu`
+                                    },
+                                    {
+                                        "title": "「 Group Menu 」",
+                                        "description": "Menampilkan Group Menu",
+                                        "rowId": `${prefix}groupmenu`
+                                    },
+                                    {
+                                        "title": "「 Game Menu 」",
+                                        "description": "Menampilkan Game Menu",
+                                        "rowId": `${prefix}gamemenu`
+                                    },
+                                    {
+                                        "title": "「 Islamic Menu 」",
+                                        "description": "Menampilkan Islamic Menu",
+                                        "rowId": `${prefix}islamicmenu`
+                                    },
+                                    {
+                                        "title": "「 Kerang Menu 」",
+                                        "description": "Menampilkan Kerang Menu",
+                                        "rowId": `${prefix}kerangmenu`
+                                    },
+                                    {
+                                        "title": "「 Meme Menu 」",
+                                        "description": "Menampilkan Meme Image Menu",
+                                        "rowId": `${prefix}mememenu`
+                                    },
+                                    {
+                                        "title": "「 Main Menu 」",
+                                        "description": "Menampilkan Main Menu",
+                                        "rowId": `${prefix}mainmenu`
+                                    },
+                                    {
+                                        "title": "「 Nsfw Menu 」",
+                                        "description": "Menampilkan Nsfw Menu",
+                                        "rowId": `${prefix}nsfwmenu`
+                                    },
+                                    {
+                                        "title": "「 Owner Menu 」",
+                                        "description": "Menampilkan Owner Menu",
+                                        "rowId": `${prefix}ownermenu`
+                                    },
+                                    {
+                                        "title": "「 Primbon Menu 」",
+                                        "description": "Menampilkan Primbon Menu",
+                                        "rowId": `${prefix}primbonmenu`
+                                    },
+                                    {
+                                        "title": "「 Photo Editor Menu 」",
+                                        "description": "Menampilkan Photo Editor Menu",
+                                        "rowId": `${prefix}photoeditormenu`
+                                    },
+                                    {
+                                        "title": "「 Quotes Menu 」",
+                                        "description": "Menampilkan Quotes Menu",
+                                        "rowId": `${prefix}quotesmenu`
+                                    },
+                                    {
+                                        "title": "「 Random Menu 」",
+                                        "description": "Menampilkan Random Menu",
+                                        "rowId": `${prefix}randommenu`
+                                    },
+                                    {
+                                        "title": "「 Sticker Menu 」️",
+                                        "description": "Menampilkan Sticker  Menu",
+                                        "rowId": `${prefix}stickermenu`
+                                    },
+                                    {
+                                        "title": "「 Search Menu 」",
+                                        "description": "Menampilkan Search Menu",
+                                        "rowId": `${prefix}searchmenu`
+                                    },
+                                    {
+                                        "title": "「 Stalk Menu 」",
+                                        "description": "Menampilkan Stalk Menu",
+                                        "rowId": `${prefix}stalkmenu`
+                                    },
+                                    {
+                                        "title": "「 Text Pro Menu 」",
+                                        "description": "Menampilkan Text Pro menu",
+                                        "rowId": `${prefix}textpromenu`
+                                    },
+                                    {
+                                        "title": "「 Voice Changer Menu 」️",
+                                        "description": "Menampilkan Voice Changer Menu",
+                                        "rowId": `${prefix}voicemenu`
+                                    },
+                                    {
+                                        "title": "「 Webzone Menu 」",
+                                        "description": "Menampilkan Webzone Menu",
+                                        "rowId": `${prefix}webzonemenu`
+                                    }
+
+                                ]
+                            },
+                            {
+                                "title": "Open Jasa Sewabot >_<",
+                                "rows": [{
+                                    "title": "「 Sewa Bot 」",
+                                    "description": "Klik Untuk Melihat Daftar Sewabot",
+                                    "rowId": `${prefix}sewabot`
+                                }]
+                            },
+                            {
+                                "title": "Info Tentang Owner? >_<",
+                                "rows": [{
+                                    "title": "「 Chat Owner 」",
+                                    "description": "menampilkan Nomor Owner",
+                                    "rowId": `${prefix}owner`
+                                }]
+                            },
+                            {
+                                "title": "Thanks To >_<",
+                                "rows": [{
+                                    "title": "「 Contributor 」",
+                                    "description": "menampilkan Nama Teman - Teman Saya Yang Sudah Membantu Merakit Bot Ini !!",
+                                    "rowId": `${prefix}tqtt`
+                                }]
+                            }
+                        ],
+                        listType: 1
+                    }
+                }), {
+                    userJid: m.chat,
+                    quoted: ftroli
+                })
+                hisoka.relayMessage(m.chat, template.message, {
+                    messageId: template.key.id
+                })
+            }
+            break
+            case 'sc':
+            case 'script': {
+                anu = `
+                *Info Script*     
+📚 *Base : Dika Ardnt* 
+⌲ https://github.com/DikaArdnt/Hisoka-Morou
+
+🌱 *Recode By : GuaAbuzz*
+⎙ ${global.scbot}`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⌲ Chat Owner Disini',
+                        id: 'owner'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'tes':
+            case 'test':
+            case 'jaringan':
+            case 'lag': {
+                m.reply('Pending Ya Kak?')
+            }
+            break
+            case 'chat': {
+                if (!isCreator) throw mess.owner
+                if (!q) throw 'Option : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete'
+                if (args[0] === 'mute') {
+                    hisoka.chatModify({
+                        mute: 'Infinity'
+                    }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+                } else if (args[0] === 'unmute') {
+                    hisoka.chatModify({
+                        mute: null
+                    }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+                } else if (args[0] === 'archive') {
+                    hisoka.chatModify({
+                        archive: true
+                    }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+                } else if (args[0] === 'unarchive') {
+                    hisoka.chatModify({
+                        archive: false
+                    }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+                } else if (args[0] === 'read') {
+                    hisoka.chatModify({
+                        markRead: true
+                    }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+                } else if (args[0] === 'unread') {
+                    hisoka.chatModify({
+                        markRead: false
+                    }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+                } else if (args[0] === 'delete') {
+                    hisoka.chatModify({
+                        clear: {
+                            message: {
+                                id: m.quoted.id,
+                                fromMe: true
+                            }
+                        }
+                    }, m.chat, []).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+                }
+            }
+            break
+            case 'family100': {
+                if ('family100' + m.chat in _family100) {
+                    m.reply('Masih Ada Sesi Yang Belum Diselesaikan!')
+                    throw false
+                }
+                let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/family100.json')
+                let random = anu[Math.floor(Math.random() * anu.length)]
+                let hasil = `*Jawablah Pertanyaan Berikut :*\n${random.soal}\n\nTerdapat *${random.jawaban.length}* Jawaban ${random.jawaban.find(v => v.includes(' ')) ? `(beberapa Jawaban Terdapat Spasi)` : ''}`.trim()
+                _family100['family100' + m.chat] = {
+                    id: 'family100' + m.chat,
+                    pesan: await hisoka.sendText(m.chat, hasil, m),
+                    ...random,
+                    terjawab: Array.from(random.jawaban, () => false),
+                    hadiah: 6,
+                }
+            }
+            break
+            case 'apakah':
+                if (!q) return m.reply(`Penggunaan ${command} text\n\nContoh : ${command} saya wibu`)
+                const apa = ['Iya', 'Tidak', 'Bisa Jadi', 'Betul']
+                const kah = apa[Math.floor(Math.random() * apa.length)]
+                hisoka.sendMessage(m.chat, {
+                    text: `Pertanyaan : Apakah ${q}\nJawaban : ${kah}`
+                }, {
+                    quoted: ftroli
+                })
+
+                break
+            case 'bisakah':
+                if (!q) return m.reply(`Penggunaan ${command} text\n\nContoh : ${command} saya wibu`)
+                const bisa = ['Bisa', 'Gak Bisa', 'Gak Bisa Ajg Aaokawpk', 'TENTU PASTI KAMU BISA!!!!']
+                const ga = bisa[Math.floor(Math.random() * bisa.length)]
+                hisoka.sendMessage(m.chat, {
+                    text: `Pertanyaan : ${q}\nJawaban : ${ga}`
+                }, {
+                    quoted: ftroli
+                })
+
+                break
+            case 'bagaimanakah':
+                if (!q) return m.reply(`Penggunaan ${command} text\n\nContoh : ${command} saya wibu`)
+                const gimana = ['Gak Gimana2', 'Sulit Itu Bro', 'Maaf Bot Tidak Bisa Menjawab', 'Coba Deh Cari Di Gugel', 'astaghfirallah Beneran???', 'Pusing ah', 'Owhh Begitu:(', 'Yang Sabar Ya Bos:(', 'Gimana yeee']
+                const ya = gimana[Math.floor(Math.random() * gimana.length)]
+                hisoka.sendMessage(m.chat, {
+                    text: `Pertanyaan : ${q}\nJawaban : ${ya}`
+                }, {
+                    quoted: ftroli
+                })
+
+                break
+            case 'rate':
+
+                if (!q) return m.reply(`Penggunaan ${command} text\n\nContoh : ${command} Gambar aku`)
+                const ra = ['5', '10', '15', '20', '25', '30', '35', '40', '45', '50', '55', '60', '65', '70', '75', '80', '85', '90', '95', '100']
+                const te = ra[Math.floor(Math.random() * ra.length)]
+                hisoka.sendMessage(m.chat, {
+                    text: `Rate : ${q}\nJawaban : *${te}%*`
+                }, {
+                    quoted: ftroli
+                })
+
+                break
+            case 'gantengcek':
+            case 'cekganteng':
+
+                if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} GuaAbuzz`)
+                const gan = ['10% banyak" perawatan ya bang:v\nCanda Perawatan:v','30% Semangat bang Merawat Dirinya><','20% Semangat Ya bang👍','40% Wahh bang><','50% abang Ganteng deh><','60% Hai Ganteng🐊','70% Hai Ganteng🐊','62% Bang Ganteng><','74% abang ni ganteng deh><','83% Love You abang><','97% Assalamualaikum Ganteng🐊','100% Bang Pake Susuk ya??:v','29% Semangat Bang:)','94% Hai Ganteng><','75% Hai Bang Ganteng','82% wihh abang Pasti Sering Perawatan kan??','41% Semangat:)','39% Lebih Semangat🐊']
+                const teng = gan[Math.floor(Math.random() * gan.length)]
+                hisoka.sendMessage(m.chat, {
+                    text: `Nama : ${q}\nJawaban : *${teng}%*`
+                }, {
+                    quoted: ftroli
+                })
+
+                break
+            case 'cantikcek':
+            case 'cekcantik':
+
+                if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} Akame`)
+                const can = ['10% banyak" perawatan ya kak:v\nCanda Perawatan:v','30% Semangat Kaka Merawat Dirinya><','20% Semangat Ya Kaka👍','40% Wahh Kaka><','50% kaka cantik deh><','60% Hai Cantik🐊','70% Hai Ukhty🐊','62% Kakak Cantik><','74% Kakak ni cantik deh><','83% Love You Kakak><','97% Assalamualaikum Ukhty🐊','100% Kakak Pake Susuk ya??:v','29% Semangat Kakak:)','94% Hai Cantik><','75% Hai Kakak Cantik','82% wihh Kakak Pasti Sering Perawatan kan??','41% Semangat:)','39% Lebih Semangat🐊']
+                const tik = can[Math.floor(Math.random() * can.length)]
+                hisoka.sendMessage(m.chat, {
+                    text: `Nama : ${q}\nJawaban : *${tik}%*`
+                }, {
+                    quoted: ftroli
+                })
+
+                break
+            case 'sangecek':
+            case 'ceksange':
+            case 'gaycek':
+            case 'cekgay':
+            case 'lesbicek':
+            case 'ceklesbi':
+                if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} ${pushname}`)
+                const sangeh = ['5', '10', '15', '20', '25', '30', '35', '40', '45', '50', '55', '60', '65', '70', '75', '80', '85', '90', '95', '100']
+                const sange = sangeh[Math.floor(Math.random() * sangeh.length)]
+                hisoka.sendMessage(m.chat, {
+                    text: `Nama : ${q}\nJawaban : *${sange}%*`
+                }, {
+                    quoted: ftroli
+                })
+
+                break
+            case 'kapankah':
+                if (!q) return m.reply(`Penggunaan ${command} Pertanyaan\n\nContoh : ${command} Saya Mati`)
+                const kapan = ['5 Hari Lagi', '10 Hari Lagi', '15 Hari Lagi', '20 Hari Lagi', '25 Hari Lagi', '30 Hari Lagi', '35 Hari Lagi', '40 Hari Lagi', '45 Hari Lagi', '50 Hari Lagi', '55 Hari Lagi', '60 Hari Lagi', '65 Hari Lagi', '70 Hari Lagi', '75 Hari Lagi', '80 Hari Lagi', '85 Hari Lagi', '90 Hari Lagi', '95 Hari Lagi', '100 Hari Lagi', '5 Bulan Lagi', '10 Bulan Lagi', '15 Bulan Lagi', '20 Bulan Lagi', '25 Bulan Lagi', '30 Bulan Lagi', '35 Bulan Lagi', '40 Bulan Lagi', '45 Bulan Lagi', '50 Bulan Lagi', '55 Bulan Lagi', '60 Bulan Lagi', '65 Bulan Lagi', '70 Bulan Lagi', '75 Bulan Lagi', '80 Bulan Lagi', '85 Bulan Lagi', '90 Bulan Lagi', '95 Bulan Lagi', '100 Bulan Lagi', '1 Tahun Lagi', '2 Tahun Lagi', '3 Tahun Lagi', '4 Tahun Lagi', '5 Tahun Lagi', 'Besok', 'Lusa', `Abis Command Ini Juga Lu ${q}`]
+                const kapankah = kapan[Math.floor(Math.random() * kapan.length)]
+                hisoka.sendMessage(m.chat, {
+                    text: `Pertanyaan : ${q}\nJawaban : *${kapankah}*`
+                }, {
+                    quoted: ftroli
+                })
+                break
+            case 'wangy':
+                if (!q) return m.reply(`Contoh : .wangy Riy`)
+                qq = q.toUpperCase()
+                awikwok = `${qq} ${qq} ${qq} ❤️ ❤️ ❤️ WANGY WANGY WANGY WANGY HU HA HU HA HU HA, aaaah baunya rambut ${qq} wangyy aku mau nyiumin aroma wangynya ${qq} AAAAAAAAH ~ Rambutnya.... aaah rambutnya juga pengen aku elus-elus ~~ AAAAAH ${qq} keluar pertama kali di anime juga manis ❤️ ❤️ ❤️ banget AAAAAAAAH ${qq} AAAAA LUCCUUUUUUUUUUUUUUU............ ${qq} AAAAAAAAAAAAAAAAAAAAGH ❤️ ❤️ ❤️apa ? ${qq} itu gak nyata ? Cuma HALU katamu ? nggak, ngak ngak ngak ngak NGAAAAAAAAK GUA GAK PERCAYA ITU DIA NYATA NGAAAAAAAAAAAAAAAAAK PEDULI BANGSAAAAAT !! GUA GAK PEDULI SAMA KENYATAAN POKOKNYA GAK PEDULI. ❤️ ❤️ ❤️ ${qq} gw ... ${qq} di laptop ngeliatin gw, ${qq} .. kamu percaya sama aku ? aaaaaaaaaaah syukur ${q} aku gak mau merelakan ${qq} aaaaaah ❤️ ❤️ ❤️ YEAAAAAAAAAAAH GUA MASIH PUNYA ${qq} SENDIRI PUN NGGAK SAMA AAAAAAAAAAAAAAH`
+                m.reply(awikwok)
+                break
+            case 'cekmati':
+                if (!q) return m.reply(`Invalid!\n\nYg mau di cek siapa kontol?`)
+                predea = await axios.get(`https://api.agify.io/?name=${q}`)
+                m.reply(`Nama : ${predea.data.name}\n*Mati Pada Umur :* ${predea.data.age} Tahun.\n\n_Cepet Cepet Tobat Bro Soalnya Mati ga ada yang tau_`)
+                break
+            case 'halah':
+            case 'hilih':
+            case 'huluh':
+            case 'heleh':
+            case 'holoh':
+                if (!m.quoted && !text) throw `Kirim/reply text dengan caption ${prefix + command}`
+                ter = command[1].toLowerCase()
+                tex = m.quoted ? m.quoted.text ? m.quoted.text : q ? q : m.text : q ? q : m.text
+                m.reply(tex.replace(/[aiueo]/g, ter).replace(/[AIUEO]/g, ter.toUpperCase()))
+                break
+            case 'tebak': {
+                if (!text) throw `Contoh : ${prefix + command} lagu\n\nOption : \n⬣ lagu\n⬣ gambar\n⬣ kata\n⬣ kalimat\n⬣ lirik\n⬣ lontong \n⬣ bendera\n⬣ kabupaten\n⬣ kimia`
+                if (args[0] === "lagu") {
+                    if (tebaklagu.hasOwnProperty(m.sender.split('@')[0])) throw "Masih Ada Sesi Yang Belum Diselesaikan!"
+                    let anu = await fetchJson('https://fatiharridho.github.io/tebaklagu.json')
+                    let result = anu[Math.floor(Math.random() * anu.length)]
+                    let msg = await hisoka.sendMessage(m.chat, {
+                        audio: {
+                            url: result.link_song
+                        },
+                        mimetype: 'audio/mpeg'
+                    }, {
+                        quoted: ftroli
+                    })
+                    hisoka.sendText(m.chat, `Lagu Tersebut Adalah Lagu dari?\n\nArtist : ${result.artist}\nWaktu : 60s`, msg).then(() => {
+                        tebaklagu[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+                    })
+                    await sleep(60000)
+                    if (tebaklagu.hasOwnProperty(m.sender.split('@')[0])) {
+                        console.log("Jawaban: " + result.jawaban)
+                        hisoka.sendButtonText(m.chat, [{
+                            buttonId: 'tebak lagu',
+                            buttonText: {
+                                displayText: '⌲ Tebak Lagu'
+                            },
+                            type: 1
+                        }], `Waktu Habis\nJawaban:  ${tebaklagu[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, hisoka.user.name, m)
+                        delete tebaklagu[m.sender.split('@')[0]]
+                    }
+                } else if (args[0] === 'gambar') {
+                    if (tebakgambar.hasOwnProperty(m.sender.split('@')[0])) throw "Masih Ada Sesi Yang Belum Diselesaikan!"
+                    let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakgambar.json')
+                    let result = anu[Math.floor(Math.random() * anu.length)]
+                    hisoka.sendImage(m.chat, result.img, `Silahkan Jawab Soal Di Atas Ini\n\nDeskripsi : ${result.deskripsi}\nWaktu : 60s`, m).then(() => {
+                        tebakgambar[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+                    })
+                    await sleep(60000)
+                    if (tebakgambar.hasOwnProperty(m.sender.split('@')[0])) {
+                        console.log("Jawaban: " + result.jawaban)
+                        hisoka.sendButtonText(m.chat, [{
+                            buttonId: 'tebak gambar',
+                            buttonText: {
+                                displayText: '⌲ Tebak Gambar'
+                            },
+                            type: 1
+                        }], `Waktu Habis\nJawaban:  ${tebakgambar[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, hisoka.user.name, m)
+                        delete tebakgambar[m.sender.split('@')[0]]
+                    }
+                } else if (args[0] === 'kata') {
+                    if (tebakkata.hasOwnProperty(m.sender.split('@')[0])) throw "Masih Ada Sesi Yang Belum Diselesaikan!"
+                    let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakkata.json')
+                    let result = anu[Math.floor(Math.random() * anu.length)]
+                    hisoka.sendText(m.chat, `Silahkan Jawab Pertanyaan Berikut\n\n${result.soal}\nWaktu : 60s`, m).then(() => {
+                        tebakkata[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+                    })
+                    await sleep(60000)
+                    if (tebakkata.hasOwnProperty(m.sender.split('@')[0])) {
+                        console.log("Jawaban: " + result.jawaban)
+                        hisoka.sendButtonText(m.chat, [{
+                            buttonId: 'tebak kata',
+                            buttonText: {
+                                displayText: '⌲ Tebak Kata'
+                            },
+                            type: 1
+                        }], `Waktu Habis\nJawaban:  ${tebakkata[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, hisoka.user.name, m)
+                        delete tebakkata[m.sender.split('@')[0]]
+                    }
+                } else if (args[0] === 'kalimat') {
+                    if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0])) throw "Masih Ada Sesi Yang Belum Diselesaikan!"
+                    let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakkalimat.json')
+                    let result = anu[Math.floor(Math.random() * anu.length)]
+                    hisoka.sendText(m.chat, `Silahkan Jawab Pertanyaan Berikut\n\n${result.soal}\nWaktu : 60s`, m).then(() => {
+                        tebakkalimat[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+                    })
+                    await sleep(60000)
+                    if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0])) {
+                        console.log("Jawaban: " + result.jawaban)
+                        hisoka.sendButtonText(m.chat, [{
+                            buttonId: 'tebak kalimat',
+                            buttonText: {
+                                displayText: '⌲ Tebak Kalimat'
+                            },
+                            type: 1
+                        }], `Waktu Habis\nJawaban:  ${tebakkalimat[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, hisoka.user.name, m)
+                        delete tebakkalimat[m.sender.split('@')[0]]
+                    }
+                } else if (args[0] === 'lirik') {
+                    if (tebaklirik.hasOwnProperty(m.sender.split('@')[0])) throw "Masih Ada Sesi Yang Belum Diselesaikan!"
+                    let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebaklirik.json')
+                    let result = anu[Math.floor(Math.random() * anu.length)]
+                    hisoka.sendText(m.chat, `Ini Adalah Lirik Dari Lagu? : *${result.soal}*?\nWaktu : 60s`, m).then(() => {
+                        tebaklirik[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+                    })
+                    await sleep(60000)
+                    if (tebaklirik.hasOwnProperty(m.sender.split('@')[0])) {
+                        console.log("Jawaban: " + result.jawaban)
+                        hisoka.sendButtonText(m.chat, [{
+                            buttonId: 'tebak lirik',
+                            buttonText: {
+                                displayText: '⌲ Tebak Lirik'
+                            },
+                            type: 1
+                        }], `Waktu Habis\nJawaban:  ${tebaklirik[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, hisoka.user.name, m)
+                        delete tebaklirik[m.sender.split('@')[0]]
+                    }
+                } else if (args[0] === 'lontong') {
+                    if (caklontong.hasOwnProperty(m.sender.split('@')[0])) throw "Masih Ada Sesi Yang Belum Diselesaikan!"
+                    let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/caklontong.json')
+                    let result = anu[Math.floor(Math.random() * anu.length)]
+                    hisoka.sendText(m.chat, `*Jawablah Pertanyaan Berikut :*\n${result.soal}*\nWaktu : 60s`, m).then(() => {
+                        caklontong[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+                        caklontong_desk[m.sender.split('@')[0]] = result.deskripsi
+                    })
+                    await sleep(60000)
+                    if (caklontong.hasOwnProperty(m.sender.split('@')[0])) {
+                        console.log("Jawaban: " + result.jawaban)
+                        hisoka.sendButtonText(m.chat, [{
+                            buttonId: 'tebak lontong',
+                            buttonText: {
+                                displayText: '⌲ Tebak Lontong'
+                            },
+                            type: 1
+                        }], `Waktu Habis\nJawaban:  ${caklontong[m.sender.split('@')[0]]}\nDeskripsi : ${caklontong_desk[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, hisoka.user.name, m)
+                        delete caklontong[m.sender.split('@')[0]]
+                        delete caklontong_desk[m.sender.split('@')[0]]
+                    }
+                } else if (args[0] === 'bendera') {
+                    if (tebakbendera.hasOwnProperty(m.sender.split('@')[0])) throw "Masih Ada Sesi Yang Belum Diselesaikan!"
+                    let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakbendera.json')
+                    let result = anu[Math.floor(Math.random() * anu.length)]
+                    hisoka.sendImage(m.chat, result.img, `Silahkan Jawab Gambar Berikut\n\nClue : ${result.flag}\nWaktu : 60s`, m).then(() => {
+                        tebakbendera[m.sender.split('@')[0]] = result.name.toLowerCase()
+                    })
+                    await sleep(60000)
+                    if (tebakbendera.hasOwnProperty(m.sender.split('@')[0])) {
+                        console.log("Jawaban: " + result.name)
+                        hisoka.sendButtonText(m.chat, [{
+                            buttonId: 'tebak bendera',
+                            buttonText: {
+                                displayText: '⌲ Tebak Bendera'
+                            },
+                            type: 1
+                        }], `Waktu Habis\nJawaban:  ${tebakbendera[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, hisoka.user.name, m)
+                        delete tebakbendera[m.sender.split('@')[0]]
+                    }
+                } else if (args[0] === 'kabupaten') {
+                    if (tebakkapubaten.hasOwnProperty(m.sender.split('@')[0])) throw "Masih Ada Sesi Yang Belum Diselesaikan!"
+                    let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakkabupaten.json')
+                    let result = anu[Math.floor(Math.random() * anu.length)]
+                    hisoka.sendImage(m.chat, result.url, `Silahkan Jawab Gambar Berikut\n\nWaktu : 60s`, m).then(() => {
+                        tebakkabupaten[m.sender.split('@')[0]] = result.title.toLowerCase()
+                    })
+                    await sleep(60000)
+                    if (tebakkabupaten.hasOwnProperty(m.sender.split('@')[0])) {
+                        console.log("Jawaban: " + result.title)
+                        hisoka.sendButtonText(m.chat, [{
+                            buttonId: 'tebak kabupaten',
+                            buttonText: {
+                                displayText: '⌲ Tebak Kabupaten'
+                            },
+                            type: 1
+                        }], `Waktu Habis\nJawaban:  ${tebakkabupaten[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, hisoka.user.name, m)
+                        delete tebakkabupaten[m.sender.split('@')[0]]
+                    }
+                } else if (args[0] === 'kimia') {
+                    if (tebakkimia.hasOwnProperty(m.sender.split('@')[0])) throw "Masih Ada Sesi Yang Belum Diselesaikan!"
+                    let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakkimia.json')
+                    let result = anu[Math.floor(Math.random() * anu.length)]
+                    hisoka.sendText(m.chat, `Silahkan Jawab Pertanyaan Berikut\n\nUnsur : ${result.unsur}\nWaktu : 60s`, m).then(() => {
+                        tebakkimia[m.sender.split('@')[0]] = result.lambang.toLowerCase()
+                    })
+                    await sleep(60000)
+                    if (tebakkimia.hasOwnProperty(m.sender.split('@')[0])) {
+                        console.log("Jawaban: " + result.lambang)
+                        hisoka.sendButtonText(m.chat, [{
+                            buttonId: 'tebak kimia',
+                            buttonText: {
+                                displayText: '⌲ Tebak Kimia'
+                            },
+                            type: 1
+                        }], `Waktu Habis\nJawaban:  ${tebakkimia[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, hisoka.user.name, m)
+                        delete tebakkimia[m.sender.split('@')[0]]
+                    }
+                }
+            }
+            break
+            case 'asahotak': {
+                if (asahotak.hasOwnProperty(m.sender.split('@')[0])) throw "Masih Ada Sesi Yang Belum Diselesaikan!"
+                let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/asahotak.json')
+                let result = anu[Math.floor(Math.random() * anu.length)]
+                hisoka.sendText(m.chat, `Silahkan Jawab Pertanyaan Berikut\n\nSoal : ${result.soal}\nWaktu : 60s`, m).then(() => {
+                    asahotak[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+                    })
+                    await sleep(60000)
+                    if (asahotak.hasOwnProperty(m.sender.split('@')[0])) {
+                        console.log("Jawaban: " + result.jawaban)
+                        hisoka.sendButtonText(m.chat, [{
+                            buttonId: 'asahotak',
+                            buttonText: {
+                                displayText: '⌲ Asah Otak'
+                            },
+                            type: 1
+                        }], `Waktu Habis\nJawaban:  ${asahotak[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, hisoka.user.name, m)
+                        delete asahotak[m.sender.split('@')[0]]
+                    }
+                }
+            break
+            case 'siapakahaku': {
+                if (siapakahaku.hasOwnProperty(m.sender.split('@')[0])) throw "Masih Ada Sesi Yang Belum Diselesaikan!"
+                let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/siapakahaku.json')
+                let result = anu[Math.floor(Math.random() * anu.length)]
+                hisoka.sendText(m.chat, `Silahkan Jawab Pertanyaan Berikut\n\nSoal : ${result.soal}\nWaktu : 60s`, m).then(() => {
+                    siapakahaku[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+                    })
+                    await sleep(60000)
+                    if (siapakahaku.hasOwnProperty(m.sender.split('@')[0])) {
+                        console.log("Jawaban: " + result.jawaban)
+                        hisoka.sendButtonText(m.chat, [{
+                            buttonId: 'siapakahaku',
+                            buttonText: {
+                                displayText: '⌲ Siapakah Aku'
+                            },
+                            type: 1
+                        }], `Waktu Habis\nJawaban:  ${siapakahaku[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, hisoka.user.name, m)
+                        delete siapakahaku[m.sender.split('@')[0]]
+                    }
+                }
+            break
+            case 'susunkata': {
+                if (susunkata.hasOwnProperty(m.sender.split('@')[0])) throw "Masih Ada Sesi Yang Belum Diselesaikan!"
+                let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/susunkata.json')
+                let result = anu[Math.floor(Math.random() * anu.length)]
+                hisoka.sendText(m.chat, `Silahkan Jawab Pertanyaan Berikut\n\nSoal : ${result.soal}\nTipe : ${result.tipe}\nWaktu : 60s`, m).then(() => {
+                    susunkata[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+                    })
+                    await sleep(60000)
+                    if (susunkata.hasOwnProperty(m.sender.split('@')[0])) {
+                        console.log("Jawaban: " + result.jawaban)
+                        hisoka.sendButtonText(m.chat, [{
+                            buttonId: 'susunkata',
+                            buttonText: {
+                                displayText: '⌲ Susun Kata'
+                            },
+                            type: 1
+                        }], `Waktu Habis\nJawaban:  ${susunkata[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, hisoka.user.name, m)
+                        delete susunkata[m.sender.split('@')[0]]
+                    }
+                }
+            break
+            case 'tekateki': {
+                if (tekateki.hasOwnProperty(m.sender.split('@')[0])) throw "Masih Ada Sesi Yang Belum Diselesaikan!"
+                let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tekateki.json')
+                let result = anu[Math.floor(Math.random() * anu.length)]
+                hisoka.sendText(m.chat, `Silahkan Jawab Pertanyaan Berikut\n\nSoal : ${result.soal}\nWaktu : 60s`, m).then(() => {
+                    tekateki[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+                    })
+                    await sleep(60000)
+                    if (tekateki.hasOwnProperty(m.sender.split('@')[0])) {
+                        console.log("Jawaban: " + result.jawaban)
+                        hisoka.sendButtonText(m.chat, [{
+                            buttonId: 'tekateki',
+                            buttonText: {
+                                displayText: '⌲ Teka Teki'
+                            },
+                            type: 1
+                        }], `Waktu Habis\nJawaban:  ${tekateki[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, hisoka.user.name, m)
+                        delete tekateki[m.sender.split('@')[0]]
+                    }
+                }
+            break
+            case 'kuismath':
+            case 'math': {
+                if (kuismath.hasOwnProperty(m.sender.split('@')[0])) throw "Masih Ada Sesi Yang Belum Diselesaikan!"
+                let {
+                    genMath,
+                    modes
+                } = require('./src/math')
+                if (!text) throw `Mode: ${Object.keys(modes).join(' | ')}\nContoh penggunaan: ${prefix}math medium`
+                let result = await genMath(text.toLowerCase())
+                hisoka.sendText(m.chat, `*Berapa hasil dari: ${result.soal.toLowerCase()}*?\n\nWaktu: ${(result.waktu / 1000).toFixed(2)} detik`, m).then(() => {
+                    kuismath[m.sender.split('@')[0]] = result.jawaban
+                })
+                await sleep(result.waktu)
+                if (kuismath.hasOwnProperty(m.sender.split('@')[0])) {
+                    console.log("Jawaban: " + result.jawaban)
+                    m.reply("Waktu Habis\nJawaban: " + kuismath[m.sender.split('@')[0]])
+                    delete kuismath[m.sender.split('@')[0]]
+                }
+            }
+            break
+            case 'jodohku': {
+                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.users[m.sender].limit -= 1 // -1 limit
+                if (!m.isGroup) throw mess.group
+                let member = participants.map(u => u.id)
+                let me = m.sender
+                let jodoh = member[Math.floor(Math.random() * member.length)]
+                let jawab = `👫Jodoh mu adalah
+
+@${me.split('@')[0]} ❤️ @${jodoh.split('@')[0]}`
+                let ments = [me, jodoh]
+                let buttons = [{
+                    buttonId: 'jodohku',
+                    buttonText: {
+                        displayText: '⌲ Jodohku'
+                    },
+                    type: 1
+                }]
+                await hisoka.sendButtonText(m.chat, buttons, jawab, hisoka.user.name, m, {
+                    mentions: ments
+                })
+            }
+            break
+            case 'jadian': {
+                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.users[m.sender].limit -= 1 // -1 limit
+                if (!m.isGroup) throw mess.group
+                let member = participants.map(u => u.id)
+                let orang = member[Math.floor(Math.random() * member.length)]
+                let jodoh = member[Math.floor(Math.random() * member.length)]
+                let jawab = `Ciee yang Jadian💖 Jangan lupa pajak jadiannya🐤
+
+@${orang.split('@')[0]} ❤️ @${jodoh.split('@')[0]}`
+                let menst = [orang, jodoh]
+                let buttons = [{
+                    buttonId: 'jadian',
+                    buttonText: {
+                        displayText: '⌲ Jadiin'
+                    },
+                    type: 1
+                }]
+                await hisoka.sendButtonText(m.chat, buttons, jawab, hisoka.user.name, m, {
+                    mentions: menst
+                })
+            }
+            break
+            case 'react': {
+                if (!isCreator) throw mess.owner
+                reactionMessage = {
+                    react: {
+                        text: args[0],
+                        key: {
+                            remoteJid: m.chat,
+                            fromMe: true,
+                            id: quoted.id
+                        }
+                    }
+                }
+                hisoka.sendMessage(m.chat, reactionMessage)
+            }
+            break
+            case 'join': {
+                if (!isCreator) throw mess.owner
+                if (!text) throw 'Masukkan Link Group!'
+                if (!isUrl(args[0]) && !args[0].includes('whatsapp.com')) throw 'Link Invalid!'
+                m.reply(mess.wait)
+                let result = args[0].split('https://chat.whatsapp.com/')[1]
+                await hisoka.groupAcceptInvite(result).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+            }
+            break
+            case 'leave': {
+                if (!isCreator) throw mess.owner
+                await hisoka.groupLeave(m.chat).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+            }
+            break
+            case 'setexif': {
+                if (!isCreator) throw mess.owner
+                if (!text) throw `Contoh : ${prefix + command} packname|author`
+                global.packname = text.split("|")[0]
+                global.author = text.split("|")[1]
+                m.reply(`Exif berhasil diubah menjadi\n\n⭔ Packname : ${global.packname}\n⭔ Author : ${global.author}`)
+            }
+            break
+            case 'kick': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '') + '@s.whatsapp.net'
+                await hisoka.groupParticipantsUpdate(m.chat, [users], 'remove').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+            }
+            break
+            case 'add': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                let users = m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '') + '@s.whatsapp.net'
+                await hisoka.groupParticipantsUpdate(m.chat, [users], 'add').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+            }
+            break
+            case 'culik': {
+                if (args.length < 1) return m.reply('_*Masukin id grupnya tolol*_')
+                let pantek = []
+                for (let i of groupMembers) {
+                    pantek.push(i.jid)
+                }
+                hisoka.groupParticipantsUpdate(args[0], pantek)
+            }
+            break
+            case 'promote': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '') + '@s.whatsapp.net'
+                await hisoka.groupParticipantsUpdate(m.chat, [users], 'promote').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+            }
+            break
+            case 'demote': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '') + '@s.whatsapp.net'
+                await hisoka.groupParticipantsUpdate(m.chat, [users], 'demote').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+            }
+            break
+            case 'block': {
+                if (!isCreator) throw mess.owner
+                let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '') + '@s.whatsapp.net'
+                await hisoka.updateBlockStatus(users, 'block').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+            }
+            break
+            case 'unblock': {
+                if (!isCreator) throw mess.owner
+                let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '') + '@s.whatsapp.net'
+                await hisoka.updateBlockStatus(users, 'unblock').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+            }
+            break
+            case 'setname':
+            case 'setsubject': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                if (!text) throw 'Text ?'
+                await hisoka.groupUpdateSubject(m.chat, text).then((res) => m.reply(mess.success)).catch((err) => m.reply(jsonformat(err)))
+            }
+            break
+            case 'setdesc':
+            case 'setdesk': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                if (!text) throw 'Text ?'
+                await hisoka.groupUpdateDescription(m.chat, text).then((res) => m.reply(mess.success)).catch((err) => m.reply(jsonformat(err)))
+            }
+            break
+            case 'setpp':
+            case 'setppbot': {
+                if (!isCreator) throw mess.owner
+                if (!quoted) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
+                if (!/image/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
+                if (/webp/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
+                let media = await hisoka.downloadAndSaveMediaMessage(quoted)
+                await hisoka.updateProfilePicture(botNumber, {
+                    url: media
+                }).catch((err) => fs.unlinkSync(media))
+                m.reply(mess.success)
+            }
+            break
+            case 'setppgroup':
+            case 'setppgrup':
+            case 'setppgc': {
+                if (!m.isGroup) throw mess.group
+                if (!isAdmins) throw mess.admin
+                if (!quoted) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
+                if (!/image/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
+                if (/webp/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
+                let media = await hisoka.downloadAndSaveMediaMessage(quoted)
+                await hisoka.updateProfilePicture(m.chat, {
+                    url: media
+                }).catch((err) => fs.unlinkSync(media))
+                m.reply(mess.success)
+            }
+            break
+            case 'tagall': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                let teks = `*👥 Tag All By Admin*
+ 
+ 🗞️ *Pesan : ${q ? q : 'kosong'}*\n\n`
+                for (let mem of participants) {
+                    teks += `⭔ @${mem.id.split('@')[0]}\n`
+                }
+                hisoka.sendMessage(m.chat, {
+                    text: teks,
+                    mentions: participants.map(a => a.id)
+                }, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'hidetag': {
+                if (!m.isGroup) throw mess.group
+                if (!isAdmins) throw mess.admin
+                hisoka.sendMessage(m.chat, {
+                    text: q ? q : '',
+                    mentions: participants.map(a => a.id)
+                }, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'antilink': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                if (args[0] === "on") {
+                    if (db.chats[m.chat].antilinkwa) return m.reply(`Sudah Aktif Sebelumnya 🕊️`)
+                    db.chats[m.chat].antilinkwa = true
+                    m.reply(`Antilink Group WhatsApp Aktif 🕊️`)
+                } else if (args[0] === "off") {
+                    if (!db.chats[m.chat].antilink) return m.reply(`Sudah Nonaktif Sebelumnya 🕊`)
+                    db.chats[m.chat].antilink = false
+                    m.reply(`Antilink Group WhatsApp Nonaktif 🕊️`)
+                } else {
+                    let buttons = [{
+                            buttonId: 'antilink on',
+                            buttonText: {
+                                displayText: 'On'
+                            },
+                            type: 1
+                        },
+                        {
+                            buttonId: 'antilink off',
+                            buttonText: {
+                                displayText: 'Off'
+                            },
+                            type: 1
+                        }
+                    ]
+                    await hisoka.sendButtonText(m.chat, buttons, `Mode Antilink Group WhatsApp`, hisoka.user.name, ftroli)
+                }
+            }
+            break
+            case 'antilinkyt': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                if (args[0] === "on") {
+                    if (db.chats[m.chat].antilinkyt) return m.reply(`Sudah Aktif Sebelumnya 🕊`)
+                    db.chats[m.chat].antilinkyt = true
+                    m.reply(`Antilink YouTube Aktif 🕊️`)
+                } else if (args[0] === "off") {
+                    if (!db.chats[m.chat].antilinkyt) return m.reply(`Sudah Nonaktif Sebelumnya 🕊`)
+                    db.chats[m.chat].antilinkyt = false
+                    m.reply(`Antilink YouTube Nonaktif 🕊️`)
+                } else {
+                    let buttons = [{
+                            buttonId: 'antilinkyt on',
+                            buttonText: {
+                                displayText: 'On'
+                            },
+                            type: 1
+                        },
+                        {
+                            buttonId: 'antilinkyt off',
+                            buttonText: {
+                                displayText: 'Off'
+                            },
+                            type: 1
+                        }
+                    ]
+                    await hisoka.sendButtonText(m.chat, buttons, `Mode Antilink YouTube`, hisoka.user.name, ftroli)
+                }
+            }
+            break
+            case 'antilinktt': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                if (args[0] === "on") {
+                    if (db.chats[m.chat].antilinktt) return m.reply(`Sudah Aktif Sebelumnya 🕊`)
+                    db.chats[m.chat].antilinktt = true
+                    m.reply(`Antilink TikTok Aktif 🕊️`)
+                } else if (args[0] === "off") {
+                    if (!db.chats[m.chat].antilinktt) return m.reply(`Sudah Nonaktif Sebelumnya 🕊`)
+                    db.chats[m.chat].antilinktt = false
+                    m.reply(`Antilink TikTok Nonaktif 🕊️`)
+                } else {
+                    let buttons = [{
+                            buttonId: 'antilinktt on',
+                            buttonText: {
+                                displayText: 'On'
+                            },
+                            type: 1
+                        },
+                        {
+                            buttonId: 'antilinktt off',
+                            buttonText: {
+                                displayText: 'Off'
+                            },
+                            type: 1
+                        }
+                    ]
+                    await hisoka.sendButtonText(m.chat, buttons, `Mode Antilink TikTok`, hisoka.user.name, ftroli)
+                }
+            }
+            break
+            case 'mute': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                if (args[0] === "on") {
+                    if (db.chats[m.chat].mute) return m.reply(`Sudah Aktif Sebelumnya 🕊`)
+                    db.chats[m.chat].mute = true
+                    m.reply(`${hisoka.user.name} telah di mute di group ini 🕊️`)
+                } else if (args[0] === "off") {
+                    if (!db.chats[m.chat].mute) return m.reply(`Sudah Tidak Aktif Sebelumnya 🕊`)
+                    db.chats[m.chat].mute = false
+                    m.reply(`${hisoka.user.name} telah di unmute di group ini 🕊️`)
+                } else {
+                    let buttons = [{
+                            buttonId: 'mute on',
+                            buttonText: {
+                                displayText: 'On'
+                            },
+                            type: 1
+                        },
+                        {
+                            buttonId: 'mute off',
+                            buttonText: {
+                                displayText: 'Off'
+                            },
+                            type: 1
+                        }
+                    ]
+                    await hisoka.sendButtonText(m.chat, buttons, `Mute Bot`, hisoka.user.name, ftroli)
+                }
+            }
+            break
+            case 'style':
+            case 'styletext': {
+                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.users[m.sender].limit -= 1 // -1 limit
+                let {
+                    styletext
+                } = require('./lib/scraper')
+                if (!text) throw 'Masukkan Query text!'
+                let anu = await styletext(text)
+                let teks = `Srtle Text From ${text}\n\n`
+                for (let i of anu) {
+                    teks += `🖋️ *${i.name}* : ${i.result}\n\n`
+                }
+                m.reply(teks)
+            }
+            break
+
+            case 'vote': {
+                if (!m.isGroup) throw mess.group
+                if (m.chat in vote) throw `_Masih ada vote di chat ini!_\n\n*${prefix}hapusvote* - untuk menghapus vote`
+                if (!text) throw `Masukkan Alasan Melakukan Vote, Contoh: *${prefix + command} Owner Ganteng*`
+                m.reply(`Vote dimulai!`)
+                vote[m.chat] = [q, [],
+                    []
+                ]
+                await sleep(1000)
+                upvote = vote[m.chat][1]
+                devote = vote[m.chat][2]
+                teks_vote = `*「 VOTE 」*
+
+*Alasan:* ${vote[m.chat][0]}
+
+┌〔 UPVOTE 〕
+│ 
+├ Total: ${vote[m.chat][1].length}
+│
+│ 
+└────
+
+┌〔 DEVOTE 〕
+│ 
+├ Total: ${vote[m.chat][2].length}
+│
+│ 
+└────
+
+*${prefix}upvote* - Untuk Ya
+*${prefix}devote* - Untuk Tidak
+*${prefix}cekvote* - Untuk Mengecek Vote
+*${prefix}hapusvote* - Untuk Menghapus Vote`
+                let buttonsVote = [{
+                        buttonId: `${prefix}upvote`,
+                        buttonText: {
+                            displayText: '⌲ 𝚄𝙿𝚅𝙾𝚃𝙴'
+                        },
+                        type: 1
+                    },
+                    {
+                        buttonId: `${prefix}devote`,
+                        buttonText: {
+                            displayText: '⌲ 𝙳𝙴𝚅𝙾𝚃𝙴'
+                        },
+                        type: 1
+                    }
+                ]
+
+                let buttonMessageVote = {
+                    text: teks_vote,
+                    footer: hisoka.user.name,
+                    buttons: buttonsVote,
+                    headerType: 1
+                }
+                hisoka.sendMessage(m.chat, buttonMessageVote)
+            }
+            break
+            case 'upvote': {
+                if (!m.isGroup) throw mess.group
+                if (!(m.chat in vote)) throw `_*tidak ada voting digrup ini!*_\n\n*${prefix}vote* - untuk memulai vote`
+                isVote = vote[m.chat][1].concat(vote[m.chat][2])
+                wasVote = isVote.includes(m.sender)
+                if (wasVote) throw 'Kamu Sudah Vote'
+                vote[m.chat][1].push(m.sender)
+                menvote = vote[m.chat][1].concat(vote[m.chat][2])
+                teks_vote = `*「 VOTE 」*
+
+*Alasan:* ${vote[m.chat][0]}
+
+┌〔 UPVOTE 〕
+│ 
+├ Total: ${vote[m.chat][1].length}
+${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
+│ 
+└────
+
+┌〔 DEVOTE 〕
+│ 
+├ Total: ${vote[m.chat][2].length}
+${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
+│ 
+└────
+
+*${prefix}upvote* - Untuk Ya
+*${prefix}devote* - Untuk Tidak
+*${prefix}cekvote* - Untuk Mengecek Vote
+*${prefix}hapusvote* - Untuk Menghapus Vote
+
+©${hisoka.user.id}`
+                let buttonsUpvote = [{
+                        buttonId: `${prefix}upvote`,
+                        buttonText: {
+                            displayText: '⌲ 𝚄𝙿𝚅𝙾𝚃𝙴'
+                        },
+                        type: 1
+                    },
+                    {
+                        buttonId: `${prefix}devote`,
+                        buttonText: {
+                            displayText: '⌲ 𝙳𝙴𝚅𝙾𝚃𝙴'
+                        },
+                        type: 1
+                    }
+                ]
+
+                let buttonMessageUpvote = {
+                    text: teks_vote,
+                    footer: hisoka.user.name,
+                    buttons: buttonsUpvote,
+                    headerType: 1,
+                    mentions: menvote
+                }
+                hisoka.sendMessage(m.chat, buttonMessageUpvote)
+            }
+            break
+            case 'devote': {
+                if (!m.isGroup) throw mess.group
+                if (!(m.chat in vote)) throw `_*tidak ada voting digrup ini!*_\n\n*${prefix}vote* - untuk memulai vote`
+                isVote = vote[m.chat][1].concat(vote[m.chat][2])
+                wasVote = isVote.includes(m.sender)
+                if (wasVote) throw 'Kamu Sudah Vote'
+                vote[m.chat][2].push(m.sender)
+                menvote = vote[m.chat][1].concat(vote[m.chat][2])
+                teks_vote = `*「 VOTE 」*
+
+*Alasan:* ${vote[m.chat][0]}
+
+┌〔 UPVOTE 〕
+│ 
+├ Total: ${vote[m.chat][1].length}
+${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
+│ 
+└────
+
+┌〔 DEVOTE 〕
+│ 
+├ Total: ${vote[m.chat][2].length}
+${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
+│ 
+└────
+
+*${prefix}upvote* - Untuk Ya
+*${prefix}devote* - Untuk Tidak
+*${prefix}cekvote* - Untuk Mengecek Vote
+*${prefix}hapusvote* - Untuk Menghapus Vote
+
+©${hisoka.user.id}`
+                let buttonsDevote = [{
+                        buttonId: `${prefix}upvote`,
+                        buttonText: {
+                            displayText: '⌲ 𝚄𝙿𝚅𝙾𝚃𝙴'
+                        },
+                        type: 1
+                    },
+                    {
+                        buttonId: `${prefix}devote`,
+                        buttonText: {
+                            displayText: '⌲ 𝙳𝙴𝚅𝙾𝚃𝙴'
+                        },
+                        type: 1
+                    }
+                ]
+
+                let buttonMessageDevote = {
+                    text: teks_vote,
+                    footer: hisoka.user.name,
+                    buttons: buttonsDevote,
+                    headerType: 1,
+                    mentions: menvote
+                }
+                hisoka.sendMessage(m.chat, buttonMessageDevote)
+            }
+            break
+
+            case 'cekvote':
+                if (!m.isGroup) throw mess.group
+                if (!(m.chat in vote)) throw `_*tidak ada voting digrup ini!*_\n\n*${prefix}vote* - untuk memulai vote`
+                teks_vote = `*「 VOTE 」*
+
+*Alasan:* ${vote[m.chat][0]}
+
+┌〔 UPVOTE 〕
+│ 
+├ Total: ${upvote.length}
+${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
+│ 
+└────
+
+┌〔 DEVOTE 〕
+│ 
+├ Total: ${devote.length}
+${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
+│ 
+└────
+
+*${prefix}upvote* - Untuk Ya
+*${prefix}devote* - Untuk Tidak
+*${prefix}cekvote* - Untuk Mengecek Vote
+*${prefix}hapusvote* - Untuk Menghapus Vote
+
+©${hisoka.user.id}`
+                hisoka.sendTextWithMentions(m.chat, teks_vote, m)
+                break
+            case 'deletevote':
+            case 'delvote':
+            case 'hapusvote': {
+                if (!m.isGroup) throw mess.group
+                if (!(m.chat in vote)) throw `_*tidak ada voting digrup ini!*_\n\n*${prefix}vote* - untuk memulai vote`
+                delete vote[m.chat]
+                m.reply('Berhasil Menghapus Sesi Vote Di Grup Ini')
+            }
+            break
+            case 'group':
+            case 'grup': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                if (args[0] === 'close') {
+                    await hisoka.groupSettingUpdate(m.chat, 'announcement').then((res) => m.reply(`Sukses Menutup Group 🕊️`)).catch((err) => m.reply(jsonformat(err)))
+                } else if (args[0] === 'open') {
+                    await hisoka.groupSettingUpdate(m.chat, 'not_announcement').then((res) => m.reply(`Sukses Membuka Group 🕊️`)).catch((err) => m.reply(jsonformat(err)))
+                } else {
+                    let buttons = [{
+                            buttonId: 'group open',
+                            buttonText: {
+                                displayText: 'Open'
+                            },
+                            type: 1
+                        },
+                        {
+                            buttonId: 'group close',
+                            buttonText: {
+                                displayText: 'Close'
+                            },
+                            type: 1
+                        }
+                    ]
+                    await hisoka.sendButtonText(m.chat, buttons, `Mode Group`, hisoka.user.name, m)
+
+                }
+            }
+            break
+            case 'editinfo': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                if (args[0] === 'open') {
+                    await hisoka.groupSettingUpdate(m.chat, 'unlocked').then((res) => m.reply(`Sukses Membuka Edit Info Group 🕊️`)).catch((err) => m.reply(jsonformat(err)))
+                } else if (args[0] === 'close') {
+                    await hisoka.groupSettingUpdate(m.chat, 'locked').then((res) => m.reply(`Sukses Menutup Edit Info Group 🕊️`)).catch((err) => m.reply(jsonformat(err)))
+                } else {
+                    let buttons = [{
+                            buttonId: 'editinfo open',
+                            buttonText: {
+                                displayText: 'Open'
+                            },
+                            type: 1
+                        },
+                        {
+                            buttonId: 'editinfo close',
+                            buttonText: {
+                                displayText: 'Close'
+                            },
+                            type: 1
+                        }
+                    ]
+                    await hisoka.sendButtonText(m.chat, buttons, `Mode Edit Info`, hisoka.user.name, m)
+
+                }
+            }
+            break
+            case 'linkgroup':
+            case 'linkgc': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                let response = await hisoka.groupInviteCode(m.chat)
+                hisoka.sendText(m.chat, `👥 *INFO LINK GROUP*\n📛 *Nama :* ${groupMetadata.subject}\n👤 *Owner Grup :* ${groupMetadata.owner !== undefined ? '@' + groupMetadata.owner.split`@`[0] : 'Tidak diketahui'}\n🌱 *ID :* ${groupMetadata.id}\n🔗 *Link Chat :* https://chat.whatsapp.com/${response}\n👥 *Member :* ${groupMetadata.participants.length}\n`, m, {
+                    detectLink: true
+                })
+            }
+            break
+            case 'revoke':
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                await hisoka.groupRevokeInvite(m.chat)
+                    .then(res => {
+                        m.reply(`Sukses Menyetel Ulang, Tautan Undangan Grup ${groupMetadata.subject}`)
+                    }).catch((err) => m.reply(jsonformat(err)))
+                break
+            case 'ephemeral': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                if (!text) throw 'Masukkan value enable/disable'
+                if (args[0] === 'enable') {
+                    await hisoka.sendMessage(m.chat, {
+                        disappearingMessagesInChat: WA_DEFAULT_EPHEMERAL
+                    }).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+                } else if (args[0] === 'disable') {
+                    await hisoka.sendMessage(m.chat, {
+                        disappearingMessagesInChat: false
+                    }).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
+                }
+            }
+            break
+            case 'delete':
+            case 'del':
+            case 'd': {
+                if (!m.quoted) throw false
+                let {
+                    chat,
+                    fromMe,
+                    id,
+                    isBaileys
+                } = m.quoted
+                if (!isBaileys) throw 'Pesan tersebut bukan dikirim oleh bot'
+                hisoka.sendMessage(m.chat, {
+                    delete: {
+                        remoteJid: m.chat,
+                        fromMe: true,
+                        id: m.quoted.id,
+                        participant: m.quoted.sender
+                    }
+                })
+            }
+            break
+            case 'bcgc':
+            case 'bcgroup': {
+                if (!isCreator) throw mess.owner
+                if (!text) throw `Text mana?\n\nContoh : ${prefix + command} GuaAbuzz Oni-chan`
+                let getGroups = await hisoka.groupFetchAllParticipating()
+                let groups = Object.entries(getGroups).slice(0).map(entry => entry[1])
+                let anu = groups.map(v => v.id)
+                m.reply(`Mengirim Broadcast Ke ${anu.length} Group Chat, Waktu Selesai ${anu.length * 1.5} detik`)
+                for (let i of anu) {
+                    await sleep(1500)
+                    let btn = [{
+                        urlButton: {
+                            displayText: 'TikTok Creator',
+                            url: global.myweb
+                        }
+                    }, {
+                        callButton: {
+                            displayText: 'Number Phone Owner',
+                            phoneNumber: global.owner[0]
+                        }
+                    }, {
+                        quickReplyButton: {
+                            displayText: '❍ Ping',
+                            id: 'ping'
+                        }
+                    }, {
+                        quickReplyButton: {
+                            displayText: '❍ Donasi',
+                            id: 'donasi'
+                        }
+                    }, {
+                        quickReplyButton: {
+                            displayText: '⎙ Sewabot',
+                            id: 'sewabot'
+                        }
+                    }]
+                    let txt = `「 Broadcast Bot 」\n\n${text}`
+                    hisoka.send5ButImg(i, txt, hisoka.user.name, global.thumb, btn)
+                }
+                m.reply(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
+            }
+            break
+            case 'bc':
+            case 'broadcast':
+            case 'bcall': {
+                if (!isCreator) throw mess.owner
+                if (!text) throw `Text mana?\n\nContoh : ${prefix + command} GuaAbuzz Oni-chan`
+                let anu = await store.chats.all().map(v => v.id)
+                m.reply(`Mengirim Broadcast Ke ${anu.length} Chat\nWaktu Selesai ${anu.length * 1.5} detik`)
+                for (let yoi of anu) {
+                    await sleep(1500)
+                    let btn = [{
+                        urlButton: {
+                            displayText: 'TikTok Creator',
+                            url: global.myweb
+                        }
+                    }, {
+                        callButton: {
+                            displayText: 'Number Phone Owner',
+                            phoneNumber: global.owner[0]
+                        }
+                    }, {
+                        quickReplyButton: {
+                            displayText: '❍ Ping',
+                            id: 'ping'
+                        }
+                    }, {
+                        quickReplyButton: {
+                            displayText: '❍ Donasi',
+                            id: 'donasi'
+                        }
+                    }, {
+                        quickReplyButton: {
+                            displayText: '⎙ Sewabot',
+                            id: 'sewabot'
+                        }
+                    }]
+                    let txt = `「 Broadcast Bot 」\n\n${text}`
+                    hisoka.send5ButImg(yoi, txt, hisoka.user.name, global.thumb, btn)
+                }
+                m.reply('Sukses Broadcast')
+            }
+            break
+            case 'bcallmedia': {
+                if (!isCreator) throw mess.owner
+                let anu = await store.chats.all().map(v => v.id)
+                m.reply(`Mengirim Broadcast Ke ${anu.length} Chat\nWaktu Selesai ${anu.length * 1.5} detik`)
+                for (let i of anu) {
+
+                    await sleep(1500)
+
+                    hisoka.copyNForward(i, quoted.fakeObj, false, {
+                        quoted: ftroli
+                    })
+
+                }
+
+                m.reply(`Sukses Mengirim Broadcast Ke ${anu.length} Chat`)
+
+            }
+
+            break
+            case 'infochat': {
+                if (!m.quoted) m.reply('Reply Pesan')
+                let msg = await m.getQuotedObj()
+                if (!m.quoted.isBaileys) throw 'Pesan tersebut bukan dikirim oleh bot!'
+                let teks = ''
+                for (let i of msg.userReceipt) {
+                    let read = i.readTimestamp
+                    let unread = i.receiptTimestamp
+                    let waktu = read ? read : unread
+                    teks += `👤 @${i.userJid.split('@')[0]}\n`
+                    teks += `⏳ *Waktu :* ${moment(waktu * 1000).format('DD/MM/YY HH:mm:ss')}`
+                    teks += `📈 *Status :* ${read ? 'Dibaca' : 'Terkirim'}\n\n`
+                }
+                hisoka.sendTextWithMentions(m.chat, teks, m)
+            }
+            break
+            case 'q':
+            case 'quoted': {
+                if (!m.quoted) return m.reply('Reply Pesannya!!')
+                let wokwol = await hisoka.serializeM(await m.getQuotedObj())
+                if (!wokwol.quoted) return m.reply('Pesan Yang Anda Reply Tidak Mengandung Reply')
+                await wokwol.quoted.copyNForward(m.chat, true)
+            }
+            break
+            case 'listpc': {
+                if (!isCreator) return m.reply(mess.owner)
+                let anu = await store.chats.all().filter(v => v.id.endsWith('.net')).map(v => v.id)
+                let tekslist = `*🔒 LIST PERSONAL CHAT*\n\n`
+                tekslist += `*📱 Total Chat :* ${anu.length} Chat\n\n`
+                for (let i of anu) {
+                    let nama = store.messages[i].array[0].pushName
+                    tekslist += `📛 *Nama :* ${nama}\n`
+                    tekslist += `👤 *User :* @${i.split('@')[0]}\n`
+                    tekslist += `🔗 *Link Chat :* https://wa.me/${i.split('@')[0]}\n\n`
+                    tekslist += `──────────────────────\n\n`
+                }
+                hisoka.sendTextWithMentions(m.chat, tekslist, m)
+            }
+            break
+            case 'listgc': {
+                let anu = await store.chats.all().filter(v => v.id.endsWith('@g.us')).map(v => v.id)
+                let tekslistgc = `👥 *LIST GROUP CHAT*\n\n`
+                tekslistgc += `📱 Total Group : ${anu.length} Group\n\n`
+                for (let e of anu) {
+                    let metadata = await hisoka.groupMetadata(e)
+                    tekslistgc += `📛 *Nama :* ${metadata.subject}\n`
+                    tekslistgc += `👤 *Owner Grup :* ${metadata.owner !== undefined ? '@' + metadata.owner.split`@`[0] : 'Tidak diketahui'}\n`
+                    tekslistgc += `🌱 *ID :* ${metadata.id}\n`
+                    tekslistgc += `⏳ *Dibuat :* ${moment(metadata.creation * 1000).tz('Asia/Jakarta').format('DD/MM/YYYY HH:mm:ss')}\n`
+                    tekslistgc += `👥 *Member :* ${metadata.participants.length}\n\n`
+                    tekslistgc += `──────────────────────\n\n`
+                }
+                hisoka.sendTextWithMentions(m.chat, tekslistgc, m)
+            }
+            break
+            case 'listonline':
+            case 'liston': {
+                if (!m.isGroup) m.reply(mess.group)
+                let id = args && /\d+\-\d+@g.us/.test(args[0]) ? args[0] : m.chat
+                let online = [...Object.keys(store.presences[id]), botNumber]
+                hisoka.sendText(m.chat, '⏰ List Online:\n\n' + online.map(v => '🌱 @' + v.replace(/@.+/, '')).join`\n`, m, {
+                    mentions: online
+                })
+            }
+            break
+            case 'sticker':
+            case 'stiker':
+            case 's':
+            case 'stickergif':
+            case 'sgif': {
+                if (!quoted) throw `Balas Video/Image Dengan Caption ${prefix + command}`
+                m.reply(mess.wait)
+                if (/image/.test(mime)) {
+                    let media = await quoted.download()
+                    let encmedia = await hisoka.sendImageAsSticker(m.chat, media, m, {
+                        packname: global.packname,
+                        author: global.author
+                    })
+                    await fs.unlinkSync(encmedia)
+                } else if (/video/.test(mime)) {
+                    if ((quoted.msg || quoted).seconds > 11) return m.reply('Maksimal 10 detik!')
+                    let media = await quoted.download()
+                    let encmedia = await hisoka.sendVideoAsSticker(m.chat, media, m, {
+                        packname: global.packname,
+                        author: global.author
+                    })
+                    await fs.unlinkSync(encmedia)
+                } else {
+                    throw `Kirim Gambar/Video Dengan Caption ${prefix + command}\nDurasi Video 1-9 Detik`
+                }
+            }
+            break
+            case 'ebinary': {
+                let {
+                    eBinary
+                } = require('./lib/binary')
+                let teks = text ? text : m.quoted && m.quoted.text ? m.quoted.text : m.text
+                let eb = await eBinary(teks)
+                m.reply(eb)
+            }
+            break
+            case 'dbinary': {
+                let {
+                    dBinary
+                } = require('./lib/binary')
+                let teks = text ? text : m.quoted && m.quoted.text ? m.quoted.text : m.text
+                let db = await dBinary(teks)
+                m.reply(db)
+            }
+            break
+            case 'emojimix': {
+                let [emoji1, emoji2] = text.split`+`
+                if (!emoji1) throw `Contoh : ${prefix + command} 😅+🤔`
+                if (!emoji2) throw `Contoh : ${prefix + command} 😅+🤔`
+                let anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(emoji1)}_${encodeURIComponent(emoji2)}`)
+                for (let res of anu.results) {
+                    let encmedia = await hisoka.sendImageAsSticker(m.chat, res.url, m, {
+                        packname: global.packname,
+                        author: global.author,
+                        categories: res.tags
+                    })
+                    await fs.unlinkSync(encmedia)
+                }
+            }
+            break
+            case 'emojimix2': {
+                if (!text) throw `Contoh : ${prefix + command} 😅`
+                let anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(text)}`)
+                for (let res of anu.results) {
+                    let encmedia = await hisoka.sendImageAsSticker(m.chat, res.url, m, {
+                        packname: global.packname,
+                        author: global.author,
+                        categories: res.tags
+                    })
+                    await fs.unlinkSync(encmedia)
+                }
+            }
+            break
+            case 'attp':
+            case 'ttp': {
+                if (!text) throw `Contoh : ${prefix + command} text`
+                m.reply(mess.wait)
+                await hisoka.sendImageAsSticker(m.chat, `https://xteam.xyz/${command}?file&text=${text}`, 'hisoka', 'morou', m, {
+                    asSticker: true
+                })
+
+            }
+            break
+            case 'smeme':
+            case 'stickmeme':
+            case 'stikmeme':
+            case 'stickermeme':
+            case 'stikermeme': {
+                let respond = `Kirim/reply image/sticker dengan caption ${prefix + command} text1|text2`
+                if (!/image/.test(mime)) throw respond
+                if (!text) throw respond
+                m.reply(mess.wait)
+                atas = text.split('|')[0] ? text.split('|')[0] : '-'
+                bawah = text.split('|')[1] ? text.split('|')[1] : '-'
+                let dwnld = await quoted.download()
+                let {
+                    floNime
+                } = require('./lib/uploader')
+                let fatGans = await floNime(dwnld)
+                let smeme = `https://api.memegen.link/images/custom/${encodeURIComponent(atas)}/${encodeURIComponent(bawah)}.png?background=${fatGans.result.url}`
+                let FaTiH = await hisoka.sendImageAsSticker(m.chat, smeme, m, {
+                    packname: global.packname,
+                    author: global.author
+                })
+                await fs.unlinkSync(FaTiH)
+            }
+            break
+            case 'simih':
+            case 'simisimi': {
+                if (!text) throw `Contoh : ${prefix + command} text`
+                hm = await fetchJson(api('zenz', '/entertainment/simisimi', {
+                    text: text
+                }, 'apikey'))
+                m.reply(hm.result.message)
+            }
+            break
+            case 'gitstalk':
+            case 'ghstalk':
+            case 'githubstalk': {
+                if (!text) throw `Kirim perintah ${prefix + command} *username*\n\nContoh : ${prefix + command} Abuzzpoet`
+                y = await fetchJson(`https://api.github.com/users/${text}`)
+                let teks = `*Stalk Github*\n\n• Username : ${y.login}\n• Id : ${y.id}\n• Node Id : ${y.node_id}\n• Type : ${y.type}\n• Name : ${y.name}\n• Company : ${y.company}\n• Blog : ${y.blog}\n• Location : ${y.location}\n• Email : ${y.email}\n• Bio : ${y.bio}\n• Public Repo(s) : ${y.public_repos}\n• Public Gist(s) : ${y.public_gists}\n• Followers : ${y.followers}\n• Following : ${y.following}\n• Created At : ${moment(y.created_at).tz('Asia/Jakarta').format('HH:mm:ss DD/MM/YYYY')}\n• Updated At : ${moment(y.updated_at).tz('Asia/Jakarta').format('HH:mm:ss DD/MM/YYYY')}`
+                let ghs = [
+
+                    {
+
+                        "urlButton": {
+
+                            "displayText": `Profile`,
+
+                            "url": `https://github.com/${y.login}`
+
+                        }
+
+                    }
+
+                ]
+
+                buf = await getBuffer(y.avatar_url)
+
+                hisoka.send5ButImg(m.chat, teks, `© ${hisoka.user.name}`, buf, ghs)
+            }
+            break
+            case 'stalker':
+            case 'stalk': {
+                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply('Limit Harian Anda Telah Habis')
+                if (!text) return m.reply(`Contoh : ${prefix +command} type id\n\nList Type :\n1. ff (Free Fire)\n2. ml (Mobile Legends)\n3. aov (Arena Of Valor)\n4. cod (Call Of Duty)\n5. pb (point Blank)\n6. ig (Instagram)\n7. npm (https://npmjs.com)`)
+                let [type, id, zone] = args
+                if (type.toLowerCase() == 'ff') {
+                    if (!id) throw `No Query id, Contoh ${prefix + command} ff 552992060`
+                    let anu = await fetchJson(api('zenz', '/stalker/nickff', {
+                        apikey: global.APIKeys[global.APIs['zenz']],
+                        query: id
+                    }))
+                    if (anu.status == false) return m.reply(anu.result.message)
+                    m.reply(`ID : ${anu.result.gameId}\nUsername : ${anu.result.userName}`)
+                    db.users[m.sender].limit -= 1
+                } else if (type.toLowerCase() == 'ml') {
+                    if (!id) throw `No Query id, Contoh : ${prefix + command} ml 214885010 2253`
+                    if (!zone) throw `No Query id, Contoh : ${prefix + command} ml 214885010 2253`
+                    let anu = await fetchJson(api('zenz', '/stalker/nickml', {
+                        apikey: global.APIKeys[global.APIs['zenz']],
+                        query: id,
+                        query2: zone
+                    }))
+                    if (anu.status == false) return m.reply(anu.result.message)
+                    m.reply(`ID : ${anu.result.gameId}\nZone : ${anu.result.zoneId}\nUsername : ${anu.result.userName}`)
+                    db.users[m.sender].limit -= 1
+                } else if (type.toLowerCase() == 'aov') {
+                    if (!id) throw `No Query id, Contoh ${prefix + command} aov 293306941441181`
+                    let anu = await fetchJson(api('zenz', '/stalker/nickaov', {
+                        apikey: global.APIKeys[global.APIs['zenz']],
+                        query: id
+                    }))
+                    if (anu.status == false) return m.reply(anu.result.message)
+                    m.reply(`ID : ${anu.result.gameId}\nUsername : ${anu.result.userName}`)
+                    db.users[m.sender].limit -= 1
+                } else if (type.toLowerCase() == 'cod') {
+                    if (!id) throw `No Query id, Contoh ${prefix + command} cod 6290150021186841472`
+                    let anu = await fetchJson(api('zenz', '/stalker/nickcod', {
+                        apikey: global.APIKeys[global.APIs['zenz']],
+                        query: id
+                    }))
+                    if (anu.status == false) return m.reply(anu.result.message)
+                    m.reply(`ID : ${anu.result.gameId}\nUsername : ${anu.result.userName}`)
+                    db.users[m.sender].limit -= 1
+                } else if (type.toLowerCase() == 'pb') {
+                    if (!id) throw `No Query id, Contoh ${prefix + command} pb riio46`
+                    let anu = await fetchJson(api('zenz', '/stalker/nickpb', {
+                        apikey: global.APIKeys[global.APIs['zenz']],
+                        query: id
+                    }))
+                    if (anu.status == false) return m.reply(anu.result.message)
+                    m.reply(`ID : ${anu.result.gameId}\nUsername : ${anu.result.userName}`)
+                    db.users[m.sender].limit -= 1
+                } else if (type.toLowerCase() == 'ig') {
+                    if (!id) throw `No Query username, Contoh : ${prefix + command} ig cak_haho`
+                    let {
+                        result: anu
+                    } = await fetchJson(api('zenz', '/stalker/stalker/ig', {
+                        username: id
+                    }, 'apikey'))
+                    if (anu.status == false) return m.reply(anu.result.message)
+                    hisoka.sendMedia(m.chat, anu.caption.profile_hd, '', `⭔ Full Name : ${anu.caption.full_name}\n⭔ User Name : ${anu.caption.user_name}\n⭔ ID ${anu.caption.user_id}\n⭔ Followers : ${anu.caption.followers}\n⭔ Following : ${anu.caption.following}\n⭔ Bussines : ${anu.caption.bussines}\n⭔ Profesional : ${anu.caption.profesional}\n⭔ Verified : ${anu.caption.verified}\n⭔ Private : ${anu.caption.private}\n⭔ Bio : ${anu.caption.biography}\n⭔ Bio Url : ${anu.caption.bio_url}`, m)
+                    db.users[m.sender].limit -= 1
+                } else if (type.toLowerCase() == 'npm') {
+                    if (!id) throw `No Query username, Contoh : ${prefix + command} npm scrape-primbon`
+                    let {
+                        result: anu
+                    } = await fetchJson(api('zenz', '/stalker/stalker/npm', {
+                        query: id
+                    }, 'apikey'))
+                    if (anu.status == false) return m.reply(anu.result.message)
+                    m.reply(`⭔ Name : ${anu.name}\n⭔ Version : ${Object.keys(anu.versions)}\n⭔ Created : ${tanggal(anu.time.created)}\n⭔ Modified : ${tanggal(anu.time.modified)}\n⭔ Maintainers :\n ${anu.maintainers.map(v => `- ${v.name} : ${v.email}`).join('\n')}\n\n⭔ Description : ${anu.description}\n⭔ Homepage : ${anu.homepage}\n⭔ Keywords : ${anu.keywords}\n⭔ Author : ${anu.author.name}\n⭔ License : ${anu.license}\n⭔ Readme : ${anu.readme}`)
+                    db.users[m.sender].limit -= 1
+                } else {
+                    m.reply(`Contoh : ${prefix +command} type id\n\nList Type :\n1. ff (Free Fire)\n2. ml (Mobile Legends)\n3. aov (Arena Of Valor)\n4. cod (Call Of Duty)\n5. pb (point Blank)\n6. ig (Instagram)\n7. npm (https://npmjs.com)`)
+                }
+            }
+            break
+            case 'toimage':
+            case 'toimg': {
+                if (!quoted) throw 'Reply Image'
+                if (!/webp/.test(mime)) throw `Balas sticker dengan caption *${prefix + command}*`
+                m.reply(mess.wait)
+                let media = await hisoka.downloadAndSaveMediaMessage(quoted)
+                let ran = await getRandom('.png')
+                exec(`ffmpeg -i ${media} ${ran}`, (err) => {
+                    fs.unlinkSync(media)
+                    if (err) throw err
+                    let buffer = fs.readFileSync(ran)
+                    hisoka.sendMessage(m.chat, {
+                        image: buffer
+                    }, {
+                        quoted: ftroli
+                    })
+                    fs.unlinkSync(ran)
+                })
+            }
+            break
+            case 'tomp4':
+            case 'tovideo': {
+                if (!quoted) throw 'Reply Video'
+                if (!/webp/.test(mime)) throw `balas stiker dengan caption *${prefix + command}*`
+                m.reply(mess.wait)
+                let {
+                    webp2mp4File
+                } = require('./lib/uploader')
+                let media = await hisoka.downloadAndSaveMediaMessage(quoted)
+                let webpToMp4 = await webp2mp4File(media)
+                await hisoka.sendMessage(m.chat, {
+                    video: {
+                        url: webpToMp4.result,
+                        caption: 'Convert Webp To Video'
+                    }
+                }, {
+                    quoted: ftroli
+                })
+                await fs.unlinkSync(media)
+            }
+            break
+            case 'toaud':
+            case 'toaudio': {
+                if (!/video/.test(mime) && !/audio/.test(mime)) throw `Kirim/Reply Video/Audio Yang Ingin Dijadikan Audio Dengan Caption ${prefix + command}`
+                if (!quoted) throw `Kirim/Reply Video/Audio Yang Ingin Dijadikan Audio Dengan Caption ${prefix + command}`
+                m.reply(mess.wait)
+                let media = await quoted.download()
+                let {
+                    toAudio
+                } = require('./lib/converter')
+                let audio = await toAudio(media, 'mp4')
+                hisoka.sendMessage(m.chat, {
+                    audio: audio,
+                    mimetype: 'audio/mpeg'
+                }, {
+                    quoted: m
+                })
+            }
+            break
+            case 'tomp3': {
+                if (/document/.test(mime)) throw `Kirim/Reply Video/Audio Yang Ingin Dijadikan MP3 Dengan Caption ${prefix + command}`
+                if (!/video/.test(mime) && !/audio/.test(mime)) throw `Kirim/Reply Video/Audio Yang Ingin Dijadikan MP3 Dengan Caption ${prefix + command}`
+                if (!quoted) throw `Kirim/Reply Video/Audio Yang Ingin Dijadikan MP3 Dengan Caption ${prefix + command}`
+                m.reply(mess.wait)
+                let media = await quoted.download()
+                let {
+                    toAudio
+                } = require('./lib/converter')
+                let audio = await toAudio(media, 'mp4')
+                hisoka.sendMessage(m.chat, {
+                    document: audio,
+                    mimetype: 'audio/mpeg',
+                    fileName: `Convert By ${hisoka.user.name}.mp3`
+                }, {
+                    quoted: m
+                })
+            }
+            break
+            case 'tovn':
+            case 'toptt': {
+                if (!/video/.test(mime) && !/audio/.test(mime)) throw `Reply Video/Audio Yang Ingin Dijadikan VN Dengan Caption ${prefix + command}`
+                if (!quoted) throw `Reply Video/Audio Yang Ingin Dijadikan VN Dengan Caption ${prefix + command}`
+                m.reply(mess.wait)
+                let media = await quoted.download()
+                let {
+                    toPTT
+                } = require('./lib/converter')
+                let audio = await toPTT(media, 'mp4')
+                hisoka.sendMessage(m.chat, {
+                    audio: audio,
+                    mimetype: 'audio/mpeg',
+                    ptt: true
+                }, {
+                    quoted: m
+                })
+            }
+            break
+            case 'togif': {
+                if (!quoted) throw 'Reply Gif'
+                if (!/webp/.test(mime)) throw `balas stiker dengan caption *${prefix + command}*`
+                m.reply(mess.wait)
+                let {
+                    webp2mp4File
+                } = require('./lib/uploader')
+                let media = await hisoka.downloadAndSaveMediaMessage(quoted)
+                let webpToMp4 = await webp2mp4File(media)
+                await hisoka.sendMessage(m.chat, {
+                    video: {
+                        url: webpToMp4.result,
+                        caption: 'Convert Webp To Video'
+                    },
+                    gifPlayback: true
+                }, {
+                    quoted: ftroli
+                })
+                await fs.unlinkSync(media)
+            }
+            break
+            case 'tourl': {
+                m.reply(mess.wait)
+                let {
+                    UploadFileUgu,
+                    webp2mp4File,
+                    TelegraPh
+                } = require('./lib/uploader')
+                let media = await hisoka.downloadAndSaveMediaMessage(quoted)
+                if (/image/.test(mime)) {
+                    let anu = await TelegraPh(media)
+                    m.reply(util.format(anu))
+                } else if (!/image/.test(mime)) {
+                    let anu = await UploadFileUgu(media)
+                    m.reply(util.format(anu))
+                }
+                await fs.unlinkSync(media)
+            }
+            break
+            case 'imagenobg':
+            case 'removebg':
+            case 'remove-bg': {
+                if (!quoted) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
+                if (!/image/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
+                if (/webp/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
+                let remobg = require('remove.bg')
+                let apirnobg = ['q61faXzzR5zNU6cvcrwtUkRU', 'S258diZhcuFJooAtHTaPEn4T', '5LjfCVAp4vVNYiTjq9mXJWHF', 'aT7ibfUsGSwFyjaPZ9eoJc61', 'BY63t7Vx2tS68YZFY6AJ4HHF', '5Gdq1sSWSeyZzPMHqz7ENfi8', '86h6d6u4AXrst4BVMD9dzdGZ', 'xp8pSDavAgfE5XScqXo9UKHF', 'dWbCoCb3TacCP93imNEcPxcL']
+                let apinobg = apirnobg[Math.floor(Math.random() * apirnobg.length)]
+                hmm = await './src/remobg-' + getRandom('')
+                localFile = await hisoka.downloadAndSaveMediaMessage(quoted, hmm)
+                outputFile = await './src/hremo-' + getRandom('.png')
+                m.reply(mess.wait)
+                remobg.removeBackgroundFromImageFile({
+                    path: localFile,
+                    apiKey: apinobg,
+                    size: "regular",
+                    type: "auto",
+                    scale: "100%",
+                    outputFile
+                }).then(async result => {
+                    hisoka.sendMessage(m.chat, {
+                        image: fs.readFileSync(outputFile),
+                        caption: mess.success
+                    }, {
+                        quoted: m
+                    })
+                    await fs.unlinkSync(localFile)
+                    await fs.unlinkSync(outputFile)
+                })
+            }
+            break
+            case 'yts':
+            case 'ytsearch': {
+                if (!text) throw `Contoh : ${prefix + command} Story Wa Anime`
+                let yts = require("yt-search")
+                let search = await yts(text)
+                let teks = 'YouTube Search\n\n Result From ' + text + '\n\n'
+                let no = 1
+                for (let i of search.all) {
+                    teks += `⭔ No : ${no++}\n⭔ Type : ${i.type}\n⭔ Video ID : ${i.videoId}\n⭔ Title : ${i.title}\n⭔ Views : ${i.views}\n⭔ Duration : ${i.timestamp}\n⭔ Upload At : ${i.ago}\n⭔ Author : ${i.author.name}\n⭔ Url : ${i.url}\n\n─────────────────\n\n`
+                }
+                hisoka.sendMessage(m.chat, {
+                    image: {
+                        url: search.all[0].thumbnail
+                    },
+                    caption: teks
+                }, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'google': {
+                if (!text) throw `Contoh : ${prefix + command} Tutorial Membuat Bot WhatsApp`
+                m.reply(mess.wait)
+                let google = require('google-it')
+                google({
+                    query: text
+                }).then(res => {
+                    let teks = `Google Search From : ${text}\n\n`
+                    for (let g of res) {
+                        teks += `⭔ *Title* : ${g.title}\n`
+                        teks += `⭔ *Description* : ${g.snippet}\n`
+                        teks += `⭔ *Link* : ${g.link}\n\n────────────────────────\n\n`
+                    }
+                    m.reply(teks)
+                })
+            }
+            break
+            case 'gimage': {
+                if (!text) throw `Contoh : ${prefix + command} Akame`
+                m.reply(mess.wait)
+                let gis = require('g-i-s')
+                gis(text, async (error, result) => {
+                    n = result
+                    images = n[Math.floor(Math.random() * n.length)].url
+                    let buttons = [{
+                        buttonId: `gimage ${text}`,
+                        buttonText: {
+                            displayText: '⌲ Next Image'
+                        },
+                        type: 1
+                    }]
+                    let buttonMessage = {
+                        image: {
+                            url: images
+                        },
+                        caption: `*-------「 GIMAGE SEARCH 」-------*\n🤠 *Query* : ${text}\n🔗 *Media Url* : ${images}`,
+                        footer: hisoka.user.name,
+                        buttons: buttons,
+                        headerType: 4
+                    }
+                    hisoka.sendMessage(m.chat, buttonMessage, {
+                        quoted: ftroli
+                    })
+                })
+            }
+            break
+            case 'play':
+            case 'ytplay': {
+                if (!text) throw `Contoh : ${prefix + command} Story Wa Anime`
+                m.reply(mess.wait)
+                if (!isPremium && global.db.users[m.sender].limit < 2) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.users[m.sender].limit -= 2 // -2 limit
+                let yts = require("yt-search")
+                let search = await yts(text)
+                let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
+                let buttons = [{
+                        buttonId: `ytmp3 ${anu.url}`,
+                        buttonText: {
+                            displayText: '♫ Audio'
+                        },
+                        type: 1
+                    },
+                    {
+                        buttonId: `ytmp4 ${anu.url}`,
+                        buttonText: {
+                            displayText: '► Video'
+                        },
+                        type: 1
+                    }
+                ]
+                let buttonMessage = {
+                    image: {
+                        url: anu.thumbnail
+                    },
+                    caption: `
+📄 Title : ${anu.title}
+🔎 Ext : Search
+📀 ID : ${anu.videoId}
+⏳ Duration : ${anu.timestamp}
+👁️ Viewers : ${anu.views}
+📤 Upload At : ${anu.ago}
+👨‍🎤 Author : ${anu.author.name}
+💻 Channel : ${anu.author.url}
+💬 Description : ${anu.description}
+🔗 Url : ${anu.url}`,
+                    footer: hisoka.user.name,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                hisoka.sendMessage(m.chat, buttonMessage, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'ytmp3':
+            case 'ytaudio': {
+                let {
+                    yta
+                } = require('./lib/y2mate')
+                if (!text) throw `Contoh : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 128kbps`
+                m.reply(mess.wait)
+                if (!isPremium && global.db.users[m.sender].limit < 2) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.users[m.sender].limit -= 2 // -2 limit
+                let quality = args[1] ? args[1] : '128kbps'
+                let media = await yta(text, quality)
+                if (media.filesize >= 100000) return m.reply('File Melebihi Batas Silahkan Download Sendiri : ' + media.dl_link)
+                hisoka.sendImage(m.chat, media.thumb, `📄 Judul : ${media.title}\n🎚️ Ukuran File : ${media.filesizeF}\n🔗 Url : ${isUrl(text)}\n📥 Format : MP3\n📮 Resolusi : ${args[1] || '128kbps'}`, m)
+                hisoka.sendMessage(m.chat, {
+                    audio: {
+                        url: media.dl_link
+                    },
+                    mimetype: 'audio/mpeg',
+                    fileName: `${media.title}.mp3`
+                }, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'ytmp4':
+            case 'ytvideo': {
+                let {
+                    ytv
+                } = require('./lib/y2mate')
+                if (!text) throw `Contoh : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 360p`
+                m.reply(mess.wait)
+                if (!isPremium && global.db.users[m.sender].limit < 2) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.users[m.sender].limit -= 2 // -2 limit
+                let quality = args[1] ? args[1] : '360p'
+                let media = await ytv(text, quality)
+                if (media.filesize >= 100000) return m.reply('File Melebihi Batas Silahkan Download Sendiri : ' + media.dl_link)
+                hisoka.sendMessage(m.chat, {
+                    video: {
+                        url: media.dl_link
+                    },
+                    mimetype: 'video/mp4',
+                    fileName: `${media.title}.mp4`,
+                    caption: `📄 Judul : ${media.title}\n🎚️ Ukuran File : ${media.filesizeF}\n🔗 Url : ${isUrl(text)}\n📥 Format : MP4\n📮 Resolusi : ${args[1] || '360p'}`
+                }, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'getmusic': {
+                let {
+                    yta
+                } = require('./lib/y2mate')
+                if (!text) throw `Contoh : ${prefix + command} 1`
+                if (!m.quoted) return m.reply('Reply Pesan')
+                if (!m.quoted.isBaileys) throw `Hanya Bisa Membalas Pesan Dari Bot`
+                let urls = quoted.text.match(new RegExp(/(?:https?:\/\/)?(?:youtu\.be\/|(?:www\.|m\.)?youtube\.com\/(?:watch|v|embed|shorts)(?:\.php)?(?:\?.*v=|\/))([a-zA-Z0-9\_-]+)/, 'gi'))
+                if (!urls) throw `Mungkin Pesan Yang Anda Reply Tidak Mengandung Result Ytsearch`
+                m.reply(mess.wait)
+                let quality = args[1] ? args[1] : '128kbps'
+                let media = await yta(urls[text - 1], quality)
+                if (media.filesize >= 100000) return m.reply('File Melebihi Batas ' + util.format(media))
+                hisoka.sendImage(m.chat, media.thumb, `⭔ Title : ${media.title}\n⭔ File Size : ${media.filesizeF}\n⭔ Url : ${media.dl_link}\n⭔ Ext : MP3\n⭔ Resolusi : ${args[1] || '128kbps'}`, m)
+                hisoka.sendMessage(m.chat, {
+                    audio: {
+                        url: media.dl_link
+                    },
+                    mimetype: 'audio/mpeg',
+                    fileName: `${media.title}.mp3`
+                }, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'getvideo': {
+                let {
+                    ytv
+                } = require('./lib/y2mate')
+                if (!text) throw `Contoh : ${prefix + command} 1`
+                if (!m.quoted) return m.reply('Reply Pesan')
+                if (!m.quoted.isBaileys) throw `Hanya Bisa Membalas Pesan Dari Bot`
+                let urls = quoted.text.match(new RegExp(/(?:https?:\/\/)?(?:youtu\.be\/|(?:www\.|m\.)?youtube\.com\/(?:watch|v|embed|shorts)(?:\.php)?(?:\?.*v=|\/))([a-zA-Z0-9\_-]+)/, 'gi'))
+                if (!urls) throw `Mungkin Pesan Yang Anda Reply Tidak Mengandung Result Ytsearch`
+                m.reply(mess.wait)
+                let quality = args[1] ? args[1] : '360p'
+                let media = await ytv(urls[text - 1], quality)
+                if (media.filesize >= 100000) return m.reply('File Melebihi Batas ' + util.format(media))
+                hisoka.sendMessage(m.chat, {
+                    video: {
+                        url: media.dl_link
+                    },
+                    mimetype: 'video/mp4',
+                    fileName: `${media.title}.mp4`,
+                    caption: `⭔ Title : ${media.title}\n⭔ File Size : ${media.filesizeF}\n⭔ Url : ${media.dl_link}\n⭔ Ext : MP3\n⭔ Resolusi : ${args[1] || '360p'}`
+                }, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'pinterest': {
+                m.reply(mess.wait)
+                let {
+                    pinterest
+                } = require('./lib/scraper')
+                anu = await pinterest(text)
+                result = anu[Math.floor(Math.random() * anu.length)]
+                hisoka.sendMessage(m.chat, {
+                    image: {
+                        url: result
+                    },
+                    caption: '⭔ Media Url : ' + result
+                }, {
+                    quoted: ftroli
+                })
+            }
+            break
+            //Anime/Wibu
+            case 'waifu':
+            case 'husbu':
+            case 'neko':
+            case 'shinobu':
+            case 'megumin':
+            case 'uniform':
+            case 'maid':
+            case 'oppai':
+            case 'selfies':
+            case 'cosplay': {
+                m.reply(mess.wait)
+                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.users[m.sender].limit -= 1 // -1 limit
+                let buttons = [{
+                    buttonId: `${command}`,
+                    buttonText: {
+                        displayText: '⌲ Next Image'
+                    },
+                    type: 1
+                }]
+                let buttonMessage = {
+                    image: { url: api('zenz', '/randomanime/' + command, {}, 'apikey') },
+                    caption: `Random Image ${command}`,
+                    footer: hisoka.user.name,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                hisoka.sendMessage(m.chat, buttonMessage, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'kitagawa': {
+                m.reply(mess.wait)
+                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.users[m.sender].limit -= 1 // -1 limit
+                let buttons = [{
+                    buttonId: `kitagawa`,
+                    buttonText: {
+                        displayText: '⌲ Next Image'
+                    },
+                    type: 1
+                }]
+                let buttonMessage = {
+                    image: { url: api('zenz', '/randomanime/marin-kitagawa', {}, 'apikey') },
+                    caption: `Random Image Marin Kitagawa`,
+                    footer: hisoka.user.name,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                hisoka.sendMessage(m.chat, buttonMessage, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'calliope': {
+                m.reply(mess.wait)
+                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.users[m.sender].limit -= 1 // -1 limit
+                let buttons = [{
+                    buttonId: `calliope`,
+                    buttonText: {
+                        displayText: '⌲ Next Image'
+                    },
+                    type: 1
+                }]
+                let buttonMessage = {
+                    image: { url: api('zenz', '/randomanime/mori-calliope', {}, 'apikey') },
+                    caption: `Random Image Mori Calliope`,
+                    footer: hisoka.user.name,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                hisoka.sendMessage(m.chat, buttonMessage, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'raiden': {
+                m.reply(mess.wait)
+                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.users[m.sender].limit -= 1 // -1 limit
+                let buttons = [{
+                    buttonId: `raiden`,
+                    buttonText: {
+                        displayText: '⌲ Next Image'
+                    },
+                    type: 1
+                }]
+                let buttonMessage = {
+                    image: { url: api('zenz', '/randomanime/raiden-shogun', {}, 'apikey') },
+                    caption: `Random Image Raiden Shogun`,
+                    footer: hisoka.user.name,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                hisoka.sendMessage(m.chat, buttonMessage, {
+                    quoted: ftroli
+                })
+            }
+            break
+            //Tambahan
+            case 'patrick': {
+                m.reply(mess.wait)
+                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.users[m.sender].limit -= 1 // -1 limit
+                let buttons = [{
+                    buttonId: `patrick`,
+                    buttonText: {
+                        displayText: '⌲ Next Image'
+                    },
+                    type: 1
+                }]
+                let buttonMessage = {
+                    image: { url: api('zenz', '/randomimage/patrick', {}, 'apikey') },
+                    caption: `Random Image Patrick`,
+                    footer: hisoka.user.name,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                hisoka.sendMessage(m.chat, buttonMessage, {
+                    quoted: ftroli
+                })
+            }
+            break
+            //NSFW
+            case 'ahegao':
+            case 'ass':
+            case 'bdsm':
+            case 'blowjob':
+            case 'cuckold':
+            case 'cum':
+            case 'ero':
+            case 'fendom':
+            case 'foot':
+            case 'gangbang':
+            case 'glasses':
+            case 'hentai':
+            case 'jahy':
+            case 'masturbation':
+            case 'orgy':
+            case 'panties':
+            case 'pussy':
+            case 'tentacles':
+            case 'thighs':
+            case 'yuri':
+            case 'zettairyouiki': {
+                if (m.isGroup) throw mess.private
+                m.reply(mess.wait)
+                if (!isPremium && global.db.users[m.sender].limit < 2) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.users[m.sender].limit -= 2 // -2 limit
+                let buttons = [{
+                    buttonId: `${command}`,
+                    buttonText: {
+                        displayText: '⌲ Next Image'
+                    },
+                    type: 1
+                }]
+                let buttonMessage = {
+                    image: { url: api('zenz', '/api/morensfw/' + command, {}, 'apikey') },
+                    caption: `Astaghfirullah Tobat Kak`,
+                    footer: hisoka.user.name,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                hisoka.sendMessage(m.chat, buttonMessage, {
+                    quoted: ftroli
+                })
+            }
+            break
+            //Meme
+            case 'meme':
+            case 'darkjoke':
+            case 'memeindo': {
+                m.reply(mess.wait)
+                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.users[m.sender].limit -= 1 // -1 limit
+                let buttons = [{
+                    buttonId: `${command}`,
+                    buttonText: {
+                        displayText: '⌲ Next Image'
+                    },
+                    type: 1
+                }]
+                let buttonMessage = {
+                    image: { url: api('zenz', '/randomimage/' + command, {}, 'apikey') },
+                    caption: `Random Image ${command}`,
+                    footer: hisoka.user.name,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                hisoka.sendMessage(m.chat, buttonMessage, {
+                    quoted: ftroli
+                })
+            }
+            break
+            //Asupan
+            case 'cecan':
+            case 'china':
+            case 'thailand':
+            case 'vietnam':
+            case 'kayes':
+            case 'notnot':
+            case 'ryujin':
+            case 'justina':
+            case 'rose':
+            case 'kpop': {
+                m.reply(mess.wait)
+                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.users[m.sender].limit -= 1 // -1 limit
+                let buttons = [{
+                    buttonId: `${command}`,
+                    buttonText: {
+                        displayText: '⌲ Next Image'
+                    },
+                    type: 1
+                }]
+                let buttonMessage = {
+                    image: { url: api('zenz', '/randomasupan/' + command, {}, 'apikey') },
+                    caption: `Random Asupan ${command}`,
+                    footer: hisoka.user.name,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                hisoka.sendMessage(m.chat, buttonMessage, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'asupan':
+            case 'asupanaeuni':
+            case 'asupannatajadeh':
+            case 'asupantiktok': {
+                m.reply(mess.wait)
+                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.users[m.sender].limit -= 1 // -1 limit
+                let buttons = [{
+                    buttonId: `${command}`,
+                    buttonText: {
+                        displayText: '⌲ Next Video'
+                    },
+                    type: 1
+                }]
+                let buttonMessage = {
+                    video: { url: api('zenz', '/randomasupan/' + command, {}, 'apikey') },
+                    caption: `Random Asupan ${command}`,
+                    footer: hisoka.user.name,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                hisoka.sendMessage(m.chat, buttonMessage, {
+                    quoted: ftroli
+                })
+            }
+            break
+                case 'couple': {
+                m.reply(mess.wait)
+                let anu = await fetchJson('https://raw.githubusercontent.com/iamriz7/kopel_/main/kopel.json')
+                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.users[m.sender].limit -= 1 // -1 limit
+                let random = anu[Math.floor(Math.random() * anu.length)]
+                hisoka.sendMessage(m.chat, {
+                    image: {
+                        url: random.male
+                    },
+                    caption: `Couple Male`
+                }, {
+                    quoted: ftroli
+                })
+                hisoka.sendMessage(m.chat, {
+                    image: {
+                        url: random.female
+                    },
+                    caption: `Couple Female`
+                }, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'coffe':
+            case 'kopi': {
+                m.reply(mess.wait)
+                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.users[m.sender].limit -= 1 // -1 limit
+                let buttons = [{
+                    buttonId: `coffe`,
+                    buttonText: {
+                        displayText: '⌲ Next Image'
+                    },
+                    type: 1
+                }]
+                let buttonMessage = {
+                    image: {
+                        url: 'https://coffee.alexflipnote.dev/random'
+                    },
+                    caption: `☕ Random Coffe`,
+                    footer: hisoka.user.name,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                hisoka.sendMessage(m.chat, buttonMessage, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'wallpaper': {
+                if (!text) throw 'Mau Cari Wallpaper Apa?'
+                let {
+                    wallpaper
+                } = require('./lib/scraper')
+                anu = await wallpaper(text)
+                result = anu[Math.floor(Math.random() * anu.length)]
+                let buttons = [{
+                    buttonId: `wallpaper ${text}`,
+                    buttonText: {
+                        displayText: '⌲ Next Image'
+                    },
+                    type: 1
+                }]
+                let buttonMessage = {
+                    image: {
+                        url: result.image[0]
+                    },
+                    caption: `⭔ Title : ${result.title}\n⭔ Category : ${result.type}\n⭔ Detail : ${result.source}\n⭔ Media Url : ${result.image[2] || result.image[1] || result.image[0]}`,
+                    footer: hisoka.user.name,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                hisoka.sendMessage(m.chat, buttonMessage, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'wikimedia': {
+                if (!text) throw 'Mau Cari Wikimedia Apa?'
+                let {
+                    wikimedia
+                } = require('./lib/scraper')
+                anu = await wikimedia(text)
+                result = anu[Math.floor(Math.random() * anu.length)]
+                let buttons = [{
+                    buttonId: `wikimedia ${text}`,
+                    buttonText: {
+                        displayText: '⌲ Next Image'
+                    },
+                    type: 1
+                }]
+                let buttonMessage = {
+                    image: {
+                        url: result.image
+                    },
+                    caption: `📄 Judul : ${result.title}\n📬 Sumber : ${result.source}\n🔗 Media Url : ${result.image}`,
+                    footer: hisoka.user.name,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                hisoka.sendMessage(m.chat, buttonMessage, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'quotesanime':
+            case 'quoteanime': {
+                let {
+                    quotesAnime
+                } = require('./lib/scraper')
+                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.users[m.sender].limit -= 1 // -1 limit
+                let anu = await quotesAnime()
+                result = anu[Math.floor(Math.random() * anu.length)]
+                let buttons = [{
+                    buttonId: `quotesanime`,
+                    buttonText: {
+                        displayText: '⌲ Next Quotes'
+                    },
+                    type: 1
+                }]
+                let buttonMessage = {
+                    text: `~_${result.quotes}_\n\nBy '${result.karakter}', ${result.anime}\n\n- ${result.up_at}`,
+                    footer: 'Tekan Tombol Di Bawah',
+                    buttons: buttons,
+                    headerType: 2
+                }
+                hisoka.sendMessage(m.chat, buttonMessage, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'animequotes': {
+                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.users[m.sender].limit -= 1 // -1 limit
+                let anu = await fetchJson(api('zenz', '/randomtext/animequotes2', {}, 'apikey'))
+                let buttons = [{
+                    buttonId: `animequotes`,
+                    buttonText: {
+                        displayText: '⌲ Next Quotes'
+                    },
+                    type: 1
+                }]
+                let buttonMessage = {
+                    text: `~_${anu.result.quotes}_\n\nBy '${anu.result.character}', ${anu.result.anime}\n\n- ${anu.result.episode}`,
+                    footer: 'Tekan Tombol Di Bawah',
+                    buttons: buttons,
+                    headerType: 2
+                }
+                hisoka.sendMessage(m.chat, buttonMessage, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'motivasi':
+            case 'dilanquote':
+            case 'bucinquote':
+            case 'katasenja':
+            case 'randomquote':
+            case 'muslimquote':
+            case 'galauquote':
+            case 'kanyequote':
+            case 'trumpquote':
+            case 'trumpthink':
+            case 'creepyfact':
+            case 'faktaunik':
+            case 'puisi':
+            case 'pantun': {
+                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.users[m.sender].limit -= 1 // -1 limit
+                let anu = await fetchJson(api('zenz', '/randomtext/' + command, {}, 'apikey'))
+                let buttons = [{
+                    buttonId: `${command}`,
+                    buttonText: {
+                        displayText: '⌲ Next Quotes'
+                    },
+                    type: 1
+                }]
+                let buttonMessage = {
+                    text: anu.result.message,
+                    footer: 'Tekan Tombol Di Bawah',
+                    buttons: buttons,
+                    headerType: 2
+                }
+                hisoka.sendMessage(m.chat, buttonMessage, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'cerpen': {
+                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.users[m.sender].limit -= 1 // -1 limit
+                let anu = await fetchJson(api('zenz', '/randomtext/' + command, {}, 'apikey'))
+                let buttons = [{
+                    buttonId: `${command}`,
+                    buttonText: {
+                        displayText: '⌲ Next Quotes'
+                    },
+                    type: 1
+                }]
+                let buttonMessage = {
+                    text: `Judul : ${anu.result.Judul}\nPenulis : ${anu.result.Penulis}\n\n${anu.result.cerita}`,
+                    footer: 'Tekan Tombol Di Bawah',
+                    buttons: buttons,
+                    headerType: 2
+                }
+                hisoka.sendMessage(m.chat, buttonMessage, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case '3dchristmas':
+            case '3ddeepsea':
+            case 'americanflag':
+            case '3dscifi':
+            case '3drainbow':
+            case '3dwaterpipe':
+            case 'halloweenskeleton':
+            case 'sketch':
+            case 'bluecircuit':
+            case 'space':
+            case 'metallic':
+            case 'fiction':
+            case 'greenhorror':
+            case 'transformer':
+            case 'berry':
+            case 'thunder':
+            case 'magma':
+            case '3dcrackedstone':
+            case '3dneonlight':
+            case 'impressiveglitch':
+            case 'naturalleaves':
+            case 'fireworksparkle':
+            case 'matrix':
+            case 'dropwater':
+            case 'harrypotter':
+            case 'foggywindow':
+            case 'neondevils':
+            case 'christmasholiday':
+            case '3dgradient':
+            case 'blackpink':
+            case 'gluetext': {
+                if (!text) throw `Contoh : ${prefix + command} text`
+                m.reply(mess.wait)
+                hisoka.sendMessage(m.chat, {
+                    image: {
+                        url: api('zenz', '/textpro/' + command, {
+                            text: text
+                        }, 'apikey')
+                    },
+                    caption: `Text Pro ${command}`
+                }, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'gay':
+            case 'contrast':
+            case 'pixelate':
+            case 'dither':
+            case 'sepia':
+            case 'brighten':
+            case 'greyscale':
+            case 'circle':
+            case 'blur':
+            case 'invert':
+            case 'scale':
+            case 'upscale':
+            case 'glass':
+            case 'wasted':
+            case 'passed':
+            case 'comrade':
+            case 'jail':
+            case 'triggered': {
+                if (!/image/.test(mime)) return m.reply(`Kirim/Reply Foto`)
+                m.reply(mess.wait)
+                let dwnld = await quoted.download()
+                let {
+                    floNime
+                } = require('./lib/uploader')
+                let fatGans = await floNime(dwnld)
+                let smeme = api('zenz', '/photoeditor/' + command, { url: fatGans.result.url }, 'apikey')
+                let FaTiH = await hisoka.sendImageAsSticker(m.chat, smeme, m, {
+                    packname: global.packname,
+                    author: global.author
+                })
+                await fs.unlinkSync(FaTiH)
+            }
+            break
+            case 'logo2':
+            case 'logo3':
+            case 'logo4':
+            case 'logogaming':
+            case 'logogirl':
+            case 'logogold':
+            case 'spiderlogo':
+            case 'ffcover':
+            case 'crossfire':
+            case 'galaxy':
+            case 'glass':
+            case 'neon':
+            case 'beach':
+            case 'awan':
+            case 'flower':
+            case 'bohlam':
+            case 'kaligrafi':
+            case 'coklat':
+            case 'quotes':
+            case 'grafity':
+            case 'marmer':
+            case 'musimsemi':
+            case 'ruby':
+            case 'shadowtext':
+            case 'starlogo':
+            case 'starnight':
+            case 'starnight2':
+            case 'blackpink':
+            case 'cake':
+            case 'flashlight':
+            case 'puppycute':
+            case 'yasuologo':
+            case 'certificate':
+            case 'igcertificate':
+            case 'ytcertificate': {
+                if (!text) throw 'Text?'
+                m.reply(mess.wait)
+                hisoka.sendMessage(m.chat, {
+                    image: {
+                        url: api('zenz', '/ephoto/' + command, {
+                            text: text
+                        }, 'apikey')
+                    },
+                    caption: `Ephoto ${command}`
+                }, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'nomerhoki':
+            case 'nomorhoki': {
+                if (!Number(text)) throw `Contoh : ${prefix + command} 6289636827083`
+                let anu = await primbon.nomer_hoki(Number(text))
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Nomor HP :* ${anu.message.nomer_hp}\n⭔ *Angka Shuzi :* ${anu.message.angka_shuzi}\n⭔ *Energi Positif :*\n- Kekayaan : ${anu.message.energi_positif.kekayaan}\n- Kesehatan : ${anu.message.energi_positif.kesehatan}\n- Cinta : ${anu.message.energi_positif.cinta}\n- Kestabilan : ${anu.message.energi_positif.kestabilan}\n- Persentase : ${anu.message.energi_positif.persentase}\n⭔ *Energi Negatif :*\n- Perselisihan : ${anu.message.energi_negatif.perselisihan}\n- Kehilangan : ${anu.message.energi_negatif.kehilangan}\n- Malapetaka : ${anu.message.energi_negatif.malapetaka}\n- Kehancuran : ${anu.message.energi_negatif.kehancuran}\n- Persentase : ${anu.message.energi_negatif.persentase}`, m)
+            }
+            break
+            case 'artimimpi':
+            case 'tafsirmimpi': {
+                if (!text) throw `Contoh : ${prefix + command} belanja`
+                let anu = await primbon.tafsir_mimpi(text)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Mimpi :* ${anu.message.mimpi}\n⭔ *Arti :* ${anu.message.arti}\n⭔ *Solusi :* ${anu.message.solusi}`, m)
+            }
+            break
+            case 'ramalanjodoh':
+            case 'ramaljodoh': {
+                if (!text) throw `Contoh : ${prefix + command} Dika, 7, 7, 2005, Novia, 16, 11, 2004`
+                let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
+                let anu = await primbon.ramalan_jodoh(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Nama Anda :* ${anu.message.nama_anda.nama}\n⭔ *Lahir Anda :* ${anu.message.nama_anda.tgl_lahir}\n⭔ *Nama Pasangan :* ${anu.message.nama_pasangan.nama}\n⭔ *Lahir Pasangan :* ${anu.message.nama_pasangan.tgl_lahir}\n⭔ *Hasil :* ${anu.message.result}\n⭔ *Catatan :* ${anu.message.catatan}`, m)
+            }
+            break
+            case 'ramalanjodohbali':
+            case 'ramaljodohbali': {
+                if (!text) throw `Contoh : ${prefix + command} Dika, 7, 7, 2005, Novia, 16, 11, 2004`
+                let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
+                let anu = await primbon.ramalan_jodoh_bali(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Nama Anda :* ${anu.message.nama_anda.nama}\n⭔ *Lahir Anda :* ${anu.message.nama_anda.tgl_lahir}\n⭔ *Nama Pasangan :* ${anu.message.nama_pasangan.nama}\n⭔ *Lahir Pasangan :* ${anu.message.nama_pasangan.tgl_lahir}\n⭔ *Hasil :* ${anu.message.result}\n⭔ *Catatan :* ${anu.message.catatan}`, m)
+            }
+            break
+            case 'suamiistri': {
+                if (!text) throw `Contoh : ${prefix + command} Dika, 7, 7, 2005, Novia, 16, 11, 2004`
+                let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
+                let anu = await primbon.suami_istri(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Nama Suami :* ${anu.message.suami.nama}\n⭔ *Lahir Suami :* ${anu.message.suami.tgl_lahir}\n⭔ *Nama Istri :* ${anu.message.istri.nama}\n⭔ *Lahir Istri :* ${anu.message.istri.tgl_lahir}\n⭔ *Hasil :* ${anu.message.result}\n⭔ *Catatan :* ${anu.message.catatan}`, m)
+            }
+            break
+            case 'ramalancinta':
+            case 'ramalcinta': {
+                if (!text) throw `Contoh : ${prefix + command} Dika, 7, 7, 2005, Novia, 16, 11, 2004`
+                let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
+                let anu = await primbon.ramalan_cinta(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Nama Anda :* ${anu.message.nama_anda.nama}\n⭔ *Lahir Anda :* ${anu.message.nama_anda.tgl_lahir}\n⭔ *Nama Pasangan :* ${anu.message.nama_pasangan.nama}\n⭔ *Lahir Pasangan :* ${anu.message.nama_pasangan.tgl_lahir}\n⭔ *Sisi Positif :* ${anu.message.sisi_positif}\n⭔ *Sisi Negatif :* ${anu.message.sisi_negatif}\n⭔ *Catatan :* ${anu.message.catatan}`, m)
+            }
+            break
+            case 'artinama': {
+                if (!text) throw `Contoh : ${prefix + command} Dika Ardianta`
+                let anu = await primbon.arti_nama(text)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Nama :* ${anu.message.nama}\n⭔ *Arti :* ${anu.message.arti}\n⭔ *Catatan :* ${anu.message.catatan}`, m)
+            }
+            break
+            case 'kecocokannama':
+            case 'cocoknama': {
+                if (!text) throw `Contoh : ${prefix + command} Dika, 7, 7, 2005`
+                let [nama, tgl, bln, thn] = text.split`,`
+                let anu = await primbon.kecocokan_nama(nama, tgl, bln, thn)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Nama :* ${anu.message.nama}\n⭔ *Lahir :* ${anu.message.tgl_lahir}\n⭔ *Life Path :* ${anu.message.life_path}\n⭔ *Destiny :* ${anu.message.destiny}\n⭔ *Destiny Desire :* ${anu.message.destiny_desire}\n⭔ *Personality :* ${anu.message.personality}\n⭔ *Persentase :* ${anu.message.persentase_kecocokan}`, m)
+            }
+            break
+            case 'kecocokanpasangan':
+            case 'cocokpasangan':
+            case 'pasangan': {
+                if (!text) throw `Contoh : ${prefix + command} Dika|Novia`
+                let [nama1, nama2] = text.split`|`
+                let anu = await primbon.kecocokan_nama_pasangan(nama1, nama2)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendImage(m.chat, anu.message.gambar, `⭔ *Nama Anda :* ${anu.message.nama_anda}\n⭔ *Nama Pasangan :* ${anu.message.nama_pasangan}\n⭔ *Sisi Positif :* ${anu.message.sisi_positif}\n⭔ *Sisi Negatif :* ${anu.message.sisi_negatif}`, m)
+            }
+            break
+            case 'jadianpernikahan':
+            case 'jadiannikah': {
+                if (!text) throw `Contoh : ${prefix + command} 6, 12, 2020`
+                let [tgl, bln, thn] = text.split`,`
+                let anu = await primbon.tanggal_jadian_pernikahan(tgl, bln, thn)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Tanggal Pernikahan :* ${anu.message.tanggal}\n⭔ *karakteristik :* ${anu.message.karakteristik}`, m)
+            }
+            break
+            case 'sifatusaha': {
+                if (!ext) throw `Contoh : ${prefix+ command} 28, 12, 2021`
+                let [tgl, bln, thn] = text.split`,`
+                let anu = await primbon.sifat_usaha_bisnis(tgl, bln, thn)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Lahir :* ${anu.message.hari_lahir}\n⭔ *Usaha :* ${anu.message.usaha}`, m)
+            }
+            break
+            case 'rejeki':
+            case 'rezeki': {
+                if (!text) throw `Contoh : ${prefix + command} 7, 7, 2005`
+                let [tgl, bln, thn] = text.split`,`
+                let anu = await primbon.rejeki_hoki_weton(tgl, bln, thn)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Lahir :* ${anu.message.hari_lahir}\n⭔ *Rezeki :* ${anu.message.rejeki}\n⭔ *Catatan :* ${anu.message.catatan}`, m)
+            }
+            break
+            case 'pekerjaan':
+            case 'kerja': {
+                if (!text) throw `Contoh : ${prefix + command} 7, 7, 2005`
+                let [tgl, bln, thn] = text.split`,`
+                let anu = await primbon.pekerjaan_weton_lahir(tgl, bln, thn)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Lahir :* ${anu.message.hari_lahir}\n⭔ *Pekerjaan :* ${anu.message.pekerjaan}\n⭔ *Catatan :* ${anu.message.catatan}`, m)
+            }
+            break
+            case 'ramalannasib':
+            case 'ramalnasib':
+            case 'nasib': {
+                if (!text) throw `Contoh : 7, 7, 2005`
+                let [tgl, bln, thn] = text.split`,`
+                let anu = await primbon.ramalan_nasib(tgl, bln, thn)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Analisa :* ${anu.message.analisa}\n⭔ *Angka Akar :* ${anu.message.angka_akar}\n⭔ *Sifat :* ${anu.message.sifat}\n⭔ *Elemen :* ${anu.message.elemen}\n⭔ *Angka Keberuntungan :* ${anu.message.angka_keberuntungan}`, m)
+            }
+            break
+            case 'potensipenyakit':
+            case 'penyakit': {
+                if (!text) throw `Contoh : ${prefix + command} 7, 7, 2005`
+                let [tgl, bln, thn] = text.split`,`
+                let anu = await primbon.cek_potensi_penyakit(tgl, bln, thn)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Analisa :* ${anu.message.analisa}\n⭔ *Sektor :* ${anu.message.sektor}\n⭔ *Elemen :* ${anu.message.elemen}\n⭔ *Catatan :* ${anu.message.catatan}`, m)
+            }
+            break
+            case 'artitarot':
+            case 'tarot': {
+                if (!text) throw `Contoh : ${prefix + command} 7, 7, 2005`
+                let [tgl, bln, thn] = text.split`,`
+                let anu = await primbon.arti_kartu_tarot(tgl, bln, thn)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendImage(m.chat, anu.message.image, `⭔ *Lahir :* ${anu.message.tgl_lahir}\n⭔ *Simbol Tarot :* ${anu.message.simbol_tarot}\n⭔ *Arti :* ${anu.message.arti}\n⭔ *Catatan :* ${anu.message.catatan}`, m)
+            }
+            break
+            case 'fengshui': {
+                if (!text) throw `Contoh : ${prefix + command} Dika, 1, 2005\n\nNote : ${prefix + command} Nama, gender, tahun lahir\nGender : 1 untuk laki-laki & 2 untuk perempuan`
+                let [nama, gender, tahun] = text.split`,`
+                let anu = await primbon.perhitungan_feng_shui(nama, gender, tahun)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Nama :* ${anu.message.nama}\n⭔ *Lahir :* ${anu.message.tahun_lahir}\n⭔ *Gender :* ${anu.message.jenis_kelamin}\n⭔ *Angka Kua :* ${anu.message.angka_kua}\n⭔ *Kelompok :* ${anu.message.kelompok}\n⭔ *Karakter :* ${anu.message.karakter}\n⭔ *Sektor Baik :* ${anu.message.sektor_baik}\n⭔ *Sektor Buruk :* ${anu.message.sektor_buruk}`, m)
+            }
+            break
+            case 'haribaik': {
+                if (!text) throw `Contoh : ${prefix + command} 7, 7, 2005`
+                let [tgl, bln, thn] = text.split`,`
+                let anu = await primbon.petung_hari_baik(tgl, bln, thn)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Lahir :* ${anu.message.tgl_lahir}\n⭔ *Kala Tinantang :* ${anu.message.kala_tinantang}\n⭔ *Info :* ${anu.message.info}\n⭔ *Catatan :* ${anu.message.catatan}`, m)
+            }
+            break
+            case 'harisangar':
+            case 'taliwangke': {
+                if (!text) throw `Contoh : ${prefix + command} 7, 7, 2005`
+                let [tgl, bln, thn] = text.split`,`
+                let anu = await primbon.hari_sangar_taliwangke(tgl, bln, thn)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Lahir :* ${anu.message.tgl_lahir}\n⭔ *Hasil :* ${anu.message.result}\n⭔ *Info :* ${anu.message.info}\n⭔ *Catatan :* ${anu.message.catatan}`, m)
+            }
+            break
+            case 'harinaas':
+            case 'harisial': {
+                if (!text) throw `Contoh : ${prefix + command} 7, 7, 2005`
+                let [tgl, bln, thn] = text.split`,`
+                let anu = await primbon.primbon_hari_naas(tgl, bln, thn)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Hari Lahir :* ${anu.message.hari_lahir}\n⭔ *Tanggal Lahir :* ${anu.message.tgl_lahir}\n⭔ *Hari Naas :* ${anu.message.hari_naas}\n⭔ *Info :* ${anu.message.catatan}\n⭔ *Catatan :* ${anu.message.info}`, m)
+            }
+            break
+            case 'nagahari':
+            case 'harinaga': {
+                if (!text) throw `Contoh : ${prefix + command} 7, 7, 2005`
+                let [tgl, bln, thn] = text.split`,`
+                let anu = await primbon.rahasia_naga_hari(tgl, bln, thn)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Hari Lahir :* ${anu.message.hari_lahir}\n⭔ *Tanggal Lahir :* ${anu.message.tgl_lahir}\n⭔ *Arah Naga Hari :* ${anu.message.arah_naga_hari}\n⭔ *Catatan :* ${anu.message.catatan}`, m)
+            }
+            break
+            case 'arahrejeki':
+            case 'arahrezeki': {
+                if (!text) throw `Contoh : ${prefix + command} 7, 7, 2005`
+                let [tgl, bln, thn] = text.split`,`
+                let anu = await primbon.primbon_arah_rejeki(tgl, bln, thn)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Hari Lahir :* ${anu.message.hari_lahir}\n⭔ *tanggal Lahir :* ${anu.message.tgl_lahir}\n⭔ *Arah Rezeki :* ${anu.message.arah_rejeki}\n⭔ *Catatan :* ${anu.message.catatan}`, m)
+            }
+            break
+            case 'peruntungan': {
+                if (!text) throw `Contoh : ${prefix + command} DIka, 7, 7, 2005, 2022\n\nNote : ${prefix + command} Nama, tanggal lahir, bulan lahir, tahun lahir, untuk tahun`
+                let [nama, tgl, bln, thn, untuk] = text.split`,`
+                let anu = await primbon.ramalan_peruntungan(nama, tgl, bln, thn, untuk)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Nama :* ${anu.message.nama}\n⭔ *Lahir :* ${anu.message.tgl_lahir}\n⭔ *Peruntungan Tahun :* ${anu.message.peruntungan_tahun}\n⭔ *Hasil :* ${anu.message.result}\n⭔ *Catatan :* ${anu.message.catatan}`, m)
+            }
+            break
+            case 'weton':
+            case 'wetonjawa': {
+                if (!text) throw `Contoh : ${prefix + command} 7, 7, 2005`
+                let [tgl, bln, thn] = text.split`,`
+                let anu = await primbon.weton_jawa(tgl, bln, thn)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Tanggal :* ${anu.message.tanggal}\n⭔ *Jumlah Neptu :* ${anu.message.jumlah_neptu}\n⭔ *Watak Hari :* ${anu.message.watak_hari}\n⭔ *Naga Hari :* ${anu.message.naga_hari}\n⭔ *Jam Baik :* ${anu.message.jam_baik}\n⭔ *Watak Kelahiran :* ${anu.message.watak_kelahiran}`, m)
+            }
+            break
+            case 'sifat':
+            case 'karakter': {
+                if (!text) throw `Contoh : ${prefix + command} Dika, 7, 7, 2005`
+                let [nama, tgl, bln, thn] = text.split`,`
+                let anu = await primbon.sifat_karakter_tanggal_lahir(nama, tgl, bln, thn)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Nama :* ${anu.message.nama}\n⭔ *Lahir :* ${anu.message.tgl_lahir}\n⭔ *Garis Hidup :* ${anu.message.garis_hidup}`, m)
+            }
+            break
+            case 'keberuntungan': {
+                if (!text) throw `Contoh : ${prefix + command} Dika, 7, 7, 2005`
+                let [nama, tgl, bln, thn] = text.split`,`
+                let anu = await primbon.potensi_keberuntungan(nama, tgl, bln, thn)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Nama :* ${anu.message.nama}\n⭔ *Lahir :* ${anu.message.tgl_lahir}\n⭔ *Hasil :* ${anu.message.result}`, m)
+            }
+            break
+            case 'memancing': {
+                if (!text) throw `Contoh : ${prefix + command} 12, 1, 2022`
+                let [tgl, bln, thn] = text.split`,`
+                let anu = await primbon.primbon_memancing_ikan(tgl, bln, thn)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Tanggal :* ${anu.message.tgl_memancing}\n⭔ *Hasil :* ${anu.message.result}\n⭔ *Catatan :* ${anu.message.catatan}`, m)
+            }
+            break
+            case 'masasubur': {
+                if (!text) throw `Contoh : ${prefix + command} 12, 1, 2022, 28\n\nNote : ${prefix + command} hari pertama menstruasi, siklus`
+                let [tgl, bln, thn, siklus] = text.split`,`
+                let anu = await primbon.masa_subur(tgl, bln, thn, siklus)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Hasil :* ${anu.message.result}\n⭔ *Catatan :* ${anu.message.catatan}`, m)
+            }
+            break
+            case 'zodiak':
+            case 'zodiac': {
+                if (!text) throw `Contoh : ${prefix+ command} 7 7 2005`
+                let zodiak = [
+                    ["capricorn", new Date(1970, 0, 1)],
+                    ["aquarius", new Date(1970, 0, 20)],
+                    ["pisces", new Date(1970, 1, 19)],
+                    ["aries", new Date(1970, 2, 21)],
+                    ["taurus", new Date(1970, 3, 21)],
+                    ["gemini", new Date(1970, 4, 21)],
+                    ["cancer", new Date(1970, 5, 22)],
+                    ["leo", new Date(1970, 6, 23)],
+                    ["virgo", new Date(1970, 7, 23)],
+                    ["libra", new Date(1970, 8, 23)],
+                    ["scorpio", new Date(1970, 9, 23)],
+                    ["sagittarius", new Date(1970, 10, 22)],
+                    ["capricorn", new Date(1970, 11, 22)]
+                ].reverse()
+
+                function getZodiac(month, day) {
+                    let d = new Date(1970, month - 1, day)
+                    return zodiak.find(([_, _d]) => d >= _d)[0]
+                }
+                let date = new Date(text)
+                if (date == 'Invalid Date') throw date
+                let d = new Date()
+                let [tahun, bulan, tanggal] = [d.getFullYear(), d.getMonth() + 1, d.getDate()]
+                let birth = [date.getFullYear(), date.getMonth() + 1, date.getDate()]
+
+                let zodiac = await getZodiac(birth[1], birth[2])
+
+                let anu = await primbon.zodiak(zodiac)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Zodiak :* ${anu.message.zodiak}\n⭔ *Nomor :* ${anu.message.nomor_keberuntungan}\n⭔ *Aroma :* ${anu.message.aroma_keberuntungan}\n⭔ *Planet :* ${anu.message.planet_yang_mengitari}\n⭔ *Bunga :* ${anu.message.bunga_keberuntungan}\n⭔ *Warna :* ${anu.message.warna_keberuntungan}\n⭔ *Batu :* ${anu.message.batu_keberuntungan}\n⭔ *Elemen :* ${anu.message.elemen_keberuntungan}\n⭔ *Pasangan Zodiak :* ${anu.message.pasangan_zodiak}\n⭔ *Catatan :* ${anu.message.catatan}`, m)
+            }
+            break
+            case 'shio': {
+                if (!text) throw `Contoh : ${prefix + command} tikus\n\nNote : For Detail https://primbon.com/shio.htm`
+                let anu = await primbon.shio(text)
+                if (anu.status == false) return m.reply(anu.message)
+                hisoka.sendText(m.chat, `⭔ *Hasil :* ${anu.message}`, m)
+            }
+            break
+            case 'tiktok': {
+                if (!text) throw 'Link TikTok Ya Mana?'
+                let buttons = [{
+                        buttonId: `tiktoknowm ${text}`,
+                        buttonText: {
+                            displayText: '► No Watermark'
+                        },
+                        type: 1
+                    },
+                    {
+                        buttonId: `tiktokwm ${text}`,
+                        buttonText: {
+                            displayText: '► With Watermark'
+                        },
+                        type: 1
+                    },
+                    {
+                        buttonId: `tiktokmp3 ${text}`,
+                        buttonText: {
+                            displayText: '♫ Audio'
+                        },
+                        type: 1
+                    }
+                ]
+                let buttonMessage = {
+                    text: `TikTok Downloader`,
+                    footer: 'Tekan Tombol Di Bawah',
+                    buttons: buttons,
+                    headerType: 5
+                }
+                hisoka.sendMessage(m.chat, buttonMessage, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'tiktoknowm':
+            case 'tiktoknowatermark': {
+                if (!text) throw 'Link TikTok Ya Mana?'
+                m.reply(mess.wait)
+                let anu = await aiovideodl(`${text}`)
+                let buttonMessage = {
+                    video: {
+                        url: anu.medias[0].url
+                    },
+                    caption: `Download From ${text}`,
+                    footer: hisoka.user.name,
+                    headerType: 5
+                }
+                hisoka.sendMessage(m.chat, buttonMessage, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'tiktokwm':
+            case 'tiktokwatermark': {
+                if (!text) throw 'Link TikTok Ya, Mana?'
+                m.reply(mess.wait)
+                let anu = await aiovideodl(`${text}`)
+                let buttonMessage = {
+                    video: {
+                        url: anu.medias[1].url
+                    },
+                    caption: `Download From ${text}`,
+                    footer: hisoka.user.name,
+                    headerType: 5
+                }
+                hisoka.sendMessage(m.chat, buttonMessage, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'tiktokmp3':
+            case 'tiktokaudio': {
+                if (!text) throw 'Link TikTok Ya Mana?'
+                m.reply(mess.wait)
+                let anu = await aiovideodl(`${text}`)
+                let buttonMessage = {
+                    text: `Download From ${text}`,
+                    footer: hisoka.user.name,
+                    headerType: 2
+                }
+                let msg = await hisoka.sendMessage(m.chat, buttonMessage, {
+                    quoted: ftroli
+                })
+                hisoka.sendMessage(m.chat, {
+                    audio: {
+                        url: anu.medias[2].url
+                    },
+                    mimetype: 'audio/mpeg'
+                }, {
+                    quoted: msg
+                })
+            }
+            break
+            case 'instagram': {
+                if (!text) throw 'Link IG Ya Mana?'
+                m.reply(mess.wait)
+                if (/(?:\/p\/|\/reel\/|\/tv\/)([^\s&]+)/.test(isUrl(text)[0])) {
+                    let anu = await fetchJson(api('zenz', '/downloader/instagram', {
+                        url: isUrl(text)[0]
+                    }, 'apikey'))
+                    for (let url of anu.result) hisoka.sendFileUrl(m.chat, media, `Download Url Instagram From ${isUrl(text)[0]}`, m)
+                }
+            }
+            break
+            case 'instastory': {
+            if (!text) throw 'Link Instastory Ya Mana?'
+            m.reply(mess.wait)
+            if (/\/stories\/([^\s&]+)/.test(isUrl(text)[0])) {
+                let anu = await fetchJson(api('zenz', '/downloader/instastory', {
+                        url: isUrl(text)[0]
+                    }, 'apikey'))
+                    hisoka.sendFileUrl(m.chat, anu.result.media[0].url, `Download Url Instagram From ${isUrl(text)[0]}\n\nType: ${fetch.result.type}`, m)
+                } else {
+                let fetch = await fetchJson(api('zenz', '/downloader/igstory', {
+                       username: text
+                    }, 'apikey'))
+                    for (let i of fetch.result) hisoka.sendFile(m.chat, i.url, `Download Story From : ${text}\n\nType: ${i.type}`, m)
+                }
+            }
+            break
+            case 'joox':
+            case 'jooxdl': {
+                if (!text) throw 'Text?'
+                m.reply(mess.wait)
+                let anu = await fetchJson(api('zenz', '/downloader/joox', {
+                    query: text
+                }, 'apikey'))
+                let msg = await hisoka.sendImage(m.chat, anu.result.img, `➣ Title : ${anu.result.lagu}\n➣ Album : ${anu.result.album}\n➣ Singer : ${anu.result.penyanyi}\n➣ Publish : ${anu.result.publish}\n➣ Lirik :\n${anu.result.lirik.result}`, m)
+                hisoka.sendMessage(m.chat, {
+                    audio: {
+                        url: anu.result.mp4aLink
+                    },
+                    mimetype: 'audio/mpeg',
+                    fileName: anu.result.lagu + '.m4a'
+                }, {
+                    quoted: msg
+                })
+            }
+            break
+            case 'soundcloud':
+            case 'scdl': {
+                if (!text) throw 'Link SoundCloud Ya Mana?'
+                m.reply(mess.wait)
+                let anu = await fetchJson(api('zenz', '/downloader/soundcloud', {
+                    url: isUrl(text)[0]
+                }, 'apikey'))
+                let msg = await hisoka.sendImage(m.chat, anu.result.thumb, `➣ Title : ${anu.result.title}\n➣ Url : ${isUrl(text)[0]}`)
+                hisoka.sendMessage(m.chat, {
+                    audio: {
+                        url: anu.result.url
+                    },
+                    mimetype: 'audio/mpeg',
+                    fileName: anu.result.title + '.m4a'
+                }, {
+                    quoted: msg
+                })
+            }
+            break
+            case 'twitdl':
+            case 'twitter': {
+                if (!text) throw 'Link Twitter Ya Mana?'
+                m.reply(mess.wait)
+                let anu = await fetchJson(api('zenz', '/downloader/twitter', {
+                    url: text
+                }, 'apikey'))
+                let buttons = [{
+                    buttonId: `twittermp3 ${text}`,
+                    buttonText: {
+                        displayText: '► Audio'
+                    },
+                    type: 1
+                }]
+                let buttonMessage = {
+                    video: {
+                        url: anu.result.HD || anu.result.SD
+                    },
+                    caption: util.format(anu.result),
+                    footer: 'Tekan Tombol Di Bawah',
+                    buttons: buttons,
+                    headerType: 5
+                }
+                hisoka.sendMessage(m.chat, buttonMessage, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'twittermp3':
+            case 'twitteraudio': {
+                if (!text) throw 'Link Twitter Ya Mana?'
+                m.reply(mess.wait)
+                let anu = await fetchJson(api('zenz', '/downloader/twitter', {
+                    url: text
+                }, 'apikey'))
+                let buttons = [{
+                    buttonId: `twitter ${text}`,
+                    buttonText: {
+                        displayText: '► Video'
+                    },
+                    type: 1
+                }]
+                let buttonMessage = {
+                    image: {
+                        url: anu.result.thumb
+                    },
+                    caption: util.format(anu.result),
+                    footer: 'Tekan Tombol Di Bawah',
+                    buttons: buttons,
+                    headerType: 4
+                }
+                let msg = await hisoka.sendMessage(m.chat, buttonMessage, {
+                    quoted: ftroli
+                })
+                hisoka.sendMessage(m.chat, {
+                    audio: {
+                        url: anu.result.audio
+                    }
+                }, {
+                    quoted: msg
+                })
+            }
+            break
+            case 'fbdl':
+            case 'fb':
+            case 'facebook': {
+                if (!text) throw 'Link Facebook Ya Mana?'
+                m.reply(mess.wait)
+                let anu = await fetchJson(api('zenz', '/downloader/facebook', {
+                    url: text
+                }, 'apikey'))
+                hisoka.sendMessage(m.chat, {
+                    video: {
+                        url: anu.result.url
+                    },
+                    caption: `⭔ Title : ${anu.result.title}`
+                }, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'pindl':
+            case 'pinterestdl': {
+                if (!text) throw 'Link Pinterest Ya Mana?!'
+                m.reply(mess.wait)
+                let anu = await fetchJson(api('zenz', '/downloader/pinterestdl', {
+                    url: text
+                }, 'apikey'))
+                hisoka.sendMessage(m.chat, {
+                    video: {
+                        url: anu.result
+                    },
+                    caption: `Download From ${text}`
+                }, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'umma':
+            case 'ummadl': {
+                if (!text) throw `Contoh : ${prefix + command} https://umma.id/channel/video/post/gus-arafat-sumber-kecewa-84464612933698`
+                let {
+                    umma
+                } = require('./lib/scraper')
+                let anu = await umma(isUrl(text)[0])
+                if (anu.type == 'video') {
+                    let buttons = [{
+                            buttonId: `ytmp3 ${anu.media[0]} 128kbps`,
+                            buttonText: {
+                                displayText: '♫ Audio'
+                            },
+                            type: 1
+                        },
+                        {
+                            buttonId: `ytmp4 ${anu.media[0]} 360p`,
+                            buttonText: {
+                                displayText: '► Video'
+                            },
+                            type: 1
+                        }
+                    ]
+                    let buttonMessage = {
+                        image: {
+                            url: anu.author.profilePic
+                        },
+                        caption: `
+⭔ Title : ${anu.title}
+⭔ Author : ${anu.author.name}
+⭔ Like : ${anu.like}
+⭔ Caption : ${anu.caption}
+⭔ Url : ${anu.media[0]}
+Untuk Download Media Silahkan Klik salah satu Button dibawah ini atau masukkan command ytmp3/ytmp4 dengan url diatas
+`,
+                        footer: hisoka.user.name,
+                        buttons,
+                        headerType: 4
+                    }
+                    hisoka.sendMessage(m.chat, buttonMessage, {
+                        quoted: ftroli
+                    })
+                } else if (anu.type == 'image') {
+                    anu.media.map(async (url) => {
+                        hisoka.sendMessage(m.chat, {
+                            image: {
+                                url
+                            },
+                            caption: `⭔ Title : ${anu.title}\n⭔ Author : ${anu.author.name}\n⭔ Like : ${anu.like}\n⭔ Caption : ${anu.caption}`
+                        }, {
+                            quoted: ftroli
+                        })
+                    })
+                }
+            }
+            break
+            case 'ringtone': {
+                if (!text) throw `Contoh : ${prefix + command} black rover`
+                let {
+                    ringtone
+                } = require('./lib/scraper')
+                let anu = await ringtone(text)
+                let result = anu[Math.floor(Math.random() * anu.length)]
+                hisoka.sendMessage(m.chat, {
+                    audio: {
+                        url: result.audio
+                    },
+                    fileName: result.title + '.mp3',
+                    mimetype: 'audio/mpeg'
+                }, {
+                    quoted: ftroli
+                })
+            }
+            break
+            case 'iqra': {
+                oh = `Contoh : ${prefix + command} 3\n\nIQRA Yang tersedia : 1,2,3,4,5,6`
+                if (!text) throw oh
+                yy = await getBuffer(`https://islamic-api-indonesia.herokuapp.com/api/data/pdf/iqra${text}`)
+                hisoka.sendMessage(m.chat, {
+                    document: yy,
+                    mimetype: 'application/pdf',
+                    fileName: `iqra${text}.pdf`
+                }, {
+                    quoted: m
+                }).catch((err) => m.reply(oh))
+            }
+            break
+            case 'juzamma': {
+                if (args[0] === 'pdf') {
+                    m.reply(mess.wait)
+                    hisoka.sendMessage(m.chat, {
+                        document: {
+                            url: 'https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.pdf'
+                        },
+                        mimetype: 'application/pdf',
+                        fileName: 'juz-amma-arab-latin-indonesia.pdf'
+                    }, {
+                        quoted: m
+                    })
+                } else if (args[0] === 'docx') {
+                    m.reply(mess.wait)
+                    hisoka.sendMessage(m.chat, {
+                        document: {
+                            url: 'https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.docx'
+                        },
+                        mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+                        fileName: 'juz-amma-arab-latin-indonesia.docx'
+                    }, {
+                        quoted: m
+                    })
+                } else if (args[0] === 'pptx') {
+                    m.reply(mess.wait)
+                    hisoka.sendMessage(m.chat, {
+                        document: {
+                            url: 'https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.pptx'
+                        },
+                        mimetype: 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
+                        fileName: 'juz-amma-arab-latin-indonesia.pptx'
+                    }, {
+                        quoted: m
+                    })
+                } else if (args[0] === 'xlsx') {
+                    m.reply(mess.wait)
+                    hisoka.sendMessage(m.chat, {
+                        document: {
+                            url: 'https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.xlsx'
+                        },
+                        mimetype: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+                        fileName: 'juz-amma-arab-latin-indonesia.xlsx'
+                    }, {
+                        quoted: m
+                    })
+                } else {
+                    m.reply(`Mau format apa ? Contoh : ${prefix + command} pdf
+
+Format yang tersedia : pdf, docx, pptx, xlsx`)
+                }
+            }
+            break
+            case 'hadis':
+            case 'hadist': {
+                if (!args[0]) throw `Contoh:
+${prefix + command} bukhari 1
+${prefix + command} abu-daud 1
+
+Pilihan tersedia:
+abu-daud
+1 - 4590
+ahmad
+1 - 26363
+bukhari
+1 - 7008
+darimi
+1 - 3367
+ibnu-majah
+1 - 4331
+nasai
+1 - 5662
+malik
+1 - 1594
+muslim
+1 - 5362`
+                if (!args[1]) throw `Hadis yang ke berapa?\n\ncontoh:\n${prefix + command} muslim 1`
+                try {
+                    let res = await fetchJson(`https://islamic-api-indonesia.herokuapp.com/api/data/json/hadith/${args[0]}`)
+                    let {
+                        number,
+                        arab,
+                        id
+                    } = res.find(v => v.number == args[1])
+                    m.reply(`No. ${number}
+
+${arab}
+
+${id}`)
+                } catch (e) {
+                    m.reply(`Hadis tidak ditemukan !`)
+                }
+            }
+            break
+            case 'alquran':
+            case 'al-quran': {
+                if (!args[0]) throw `Contoh penggunaan:\n${prefix + command} 1 2\n\nmaka hasilnya adalah surah Al-Fatihah ayat 2 beserta audionya, dan ayatnya 1 aja`
+                if (!args[1]) throw `Contoh penggunaan:\n${prefix + command} 1 2\n\nmaka hasilnya adalah surah Al-Fatihah ayat 2 beserta audionya, dan ayatnya 1 aja`
+                let res = await fetchJson(`https://islamic-api-indonesia.herokuapp.com/api/data/quran?surah=${args[0]}&ayat=${args[1]}`)
+                let txt = `*Arab* : ${res.result.data.text.arab}
+*English* : ${res.result.data.translation.en}
+*Indonesia* : ${res.result.data.translation.id}
+
+( Q.S ${res.result.data.surah.name.transliteration.id} : ${res.result.data.number.inSurah} )`
+                m.reply(txt)
+                hisoka.sendMessage(m.chat, {
+                    audio: {
+                        url: res.result.data.audio.primary
+                    },
+                    mimetype: 'audio/mpeg'
+                }, {
+                    quoted: m
+                })
+            }
+            break
+            case 'tafsirsurah': {
+                if (!args[0]) throw `Contoh penggunaan:\n${prefix + command} 1 2\n\nmaka hasilnya adalah tafsir surah Al-Fatihah ayat 2`
+                if (!args[1]) throw `Contoh penggunaan:\n${prefix + command} 1 2\n\nmaka hasilnya adalah tafsir surah Al-Fatihah ayat 2`
+                let res = await fetchJson(`https://islamic-api-indonesia.herokuapp.com/api/data/quran?surah=${args[0]}&ayat=${args[1]}`)
+                let txt = `「 *Tafsir Surah*  」
+
+*Pendek* : ${res.result.data.tafsir.id.short}
+
+*Panjang* : ${res.result.data.tafsir.id.long}
+
+( Q.S ${res.result.data.surah.name.transliteration.id} : ${res.result.data.number.inSurah} )`
+                m.reply(txt)
+            }
+            break
+            case 'asmaulhusna': {
+                let fetch = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/religi/asmaulhusna.json')
+                let capt = `Asmaul Husna:\n\n`
+                for (let i of fetch) {
+                    capt += `⭔ Nomor: ${i.index}\n`
+                    capt += `⭔ Arab: ${i.arabic}\n`
+                    capt += `⭔ Latin: ${i.latin}\n`
+                    capt += `⭔ Arti ID: ${i.translation_id}\n`
+                    capt += `⭔ Arti EN: ${i.translation_en}\n\n──────────────────────\n`
+                }
+                m.reply(capt)
+            }
+            break
+            case 'tulis':
+            case 'nulis': {
+                if (args.length < 1) return m.reply('Yang mau di tulis apaan?')
+                teks = args.join(' ')
+                m.reply(mess.wait)
+                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.users[m.sender].limit -= 1 // -1 limit
+                nulis = encodeURIComponent(teks)
+                res = await axios.get(`https://dt-04.herokuapp.com/nulis?text=${nulis}`)
+                if (res.data.error) return m.reply(res.data.error)
+                buff1 = Buffer.from(res.data.result.split(',')[1], 'base64')
+                hisoka.sendMessage(m.chat, {
+                    image: buff1,
+                    caption: 'Nih Kak'
+                }, {
+                    quoted: ftroli
+                }).catch(e => {
+                    return m.reply('_[ ! ] Error Gagal Dalam Mendownload Dan Mengirim File_')
+                })
+            }
+            break
+            case 'bass':
+            case 'blown':
+            case 'deep':
+            case 'earrape':
+            case 'fast':
+            case 'fat':
+            case 'nightcore':
+            case 'reverse':
+            case 'robot':
+            case 'slow':
+            case 'smooth':
+            case 'tupai':
+                try {
+                    let set
+                    if(/bass/.test(command)) set = '-af equalizer=f=54:width_type=o:width=2:g=20'
+                    if (/blown/.test(command)) set = '-af acrusher=.1:1:64:0:log'
+                    if (/deep/.test(command)) set = '-af atempo=4/4,asetrate=44500*2/3'
+                    if (/earrape/.test(command)) set = '-af volume=12'
+                    if (/fast/.test(command)) set = '-filter:a "atempo=1.63,asetrate=44100"'
+                    if (/fat/.test(command)) set = '-filter:a "atempo=1.6,asetrate=22100"'
+                    if (/nightcore/.test(command)) set = '-filter:a atempo=1.06,asetrate=44100*1.25'
+                    if (/reverse/.test(command)) set = '-filter_complex "areverse"'
+                    if (/robot/.test(command)) set = '-filter_complex "afftfilt=real=\'hypot(re,im)*sin(0)\':imag=\'hypot(re,im)*cos(0)\':win_size=512:overlap=0.75"'
+                    if (/slow/.test(command)) set = '-filter:a "atempo=0.7,asetrate=44100"'
+                    if (/smooth/.test(command)) set = '-filter:v "minterpolate=\'mi_mode=mci:mc_mode=aobmc:vsbmc=1:fps=120\'"'
+                    if (/tupai/.test(command)) set = '-filter:a "atempo=0.5,asetrate=65100"'
+                    if (/audio/.test(mime)) {
+                        m.reply(mess.wait)
+                        let media = await hisoka.downloadAndSaveMediaMessage(quoted)
+                        let ran = getRandom('.mp3')
+                        exec(`ffmpeg -i ${media} ${set} ${ran}`, (err, stderr, stdout) => {
+                            fs.unlinkSync(media)
+                            if (err) return m.reply(err)
+                            let buff = fs.readFileSync(ran)
+                            hisoka.sendMessage(m.chat, {
+                                audio: buff,
+                                mimetype: 'audio/mpeg'
+                            }, {
+                                quoted: ftroli
+                            })
+                            fs.unlinkSync(ran)
+                        })
+                    } else m.reply(`Balas audio yang ingin diubah dengan caption *${prefix + command}*`)
+                } catch (e) {
+                    m.reply(e)
+                }
+                break
+            case 'setcmd': {
+                if (!m.quoted) throw 'Reply Pesan!'
+                if (!m.quoted.fileSha256) throw 'SHA256 Hash Tidak Ditemukan ❎'
+                if (!text) throw `Untuk Command Apa?`
+                let hash = m.quoted.fileSha256.toString('base64')
+                if (global.db.sticker[hash] && global.db.sticker[hash].locked) throw 'Anda Tidak Diizinkan Untuk Mengubah Perintah Stiker Ini ❎'
+                global.db.sticker[hash] = {
+                    text,
+                    mentionedJid: m.mentionedJid,
+                    creator: m.sender,
+                    at: +new Date,
+                    locked: false,
+                }
+                m.reply(mess.done)
+            }
+            break
+            case 'delcmd': {
+                let hash = m.quoted.fileSha256.toString('base64')
+                if (!hash) throw `Tidak Ada Hash`
+                if (global.db.sticker[hash] && global.db.sticker[hash].locked) throw 'Anda Tidak Diizinkan Untuk Mengubah Perintah Stiker Ini ❎'
+                delete global.db.sticker[hash]
+                m.reply(mess.done)
+            }
+            break
+            case 'listcmd': {
+                let teks = `*List Hash 🚀*
+Info: *bold* hash is Locked 🔒
+
+*Hash ☕ :*
+${Object.entries(global.db.sticker).map(([key, value], index) => `${index + 1}. ${value.locked ? `*${key}*` : key} : ${value.text}`).join('\n')}
+`.trim()
+                hisoka.sendText(m.chat, teks, m, {
+                    mentions: Object.values(global.db.sticker).map(x => x.mentionedJid).reduce((a, b) => [...a, ...b], [])
+                })
+            }
+            break
+            case 'lockcmd': {
+                if (!isCreator) throw mess.owner
+                if (!m.quoted) throw 'Reply Pesan!'
+                if (!m.quoted.fileSha256) throw 'SHA256 Hash Missing'
+                let hash = m.quoted.fileSha256.toString('base64')
+                if (!(hash in global.db.sticker)) throw 'Hash Not Found In Database'
+                global.db.sticker[hash].locked = !/^un/i.test(command)
+                m.reply('Done!')
+            }
+            break
+            case 'addmsg': {
+                if (!m.quoted) throw 'Reply Message Yang Ingin Disave Di Database'
+                if (!text) throw `Contoh : ${prefix + command} Nama File`
+                let msgs = global.db.database
+                if (text.toLowerCase() in msgs) throw `'${text}' Telah Terdaftar Di List Pesan`
+                msgs[text.toLowerCase()] = quoted.fakeObj
+                m.reply(`Berhasil Menambahkan Pesan Di List Pesan Sebagai '${text}'
+    
+Akses dengan ${prefix}getmsg ${text}
+
+Lihat list Pesan Dengan ${prefix}listmsg`)
+            }
+            break
+            case 'getmsg': {
+                if (!text) throw `Contoh : ${prefix + command} File Name\n\nLihat List Pesan Dengan ${prefix}listmsg`
+                let msgs = global.db.database
+                if (!(text.toLowerCase() in msgs)) throw `'${text}' Tidak Terdaftar Di List Pesan`
+                hisoka.copyNForward(m.chat, msgs[text.toLowerCase()], true)
+            }
+            break
+            case 'listmsg': {
+                let msgs = JSON.parse(fs.readFileSync('./src/database.json'))
+                let seplit = Object.entries(global.db.database).map(([nama, isi]) => {
+                    return {
+                        nama,
+                        ...isi
+                    }
+                })
+                let teks = 'LIST DATABASE 📂\n\n'
+                for (let i of seplit) {
+                    teks += `📛 *Name :* ${i.nama}`
+                    teks += `🚀 *Type :* ${getContentType(i.message).replace(/Message/i, '')}\n────────────────────────\n\n`
+                }
+                m.reply(teks)
+            }
+            break
+            case 'delmsg':
+            case 'deletemsg': {
+                let msgs = global.db.database
+                if (!(text.toLowerCase() in msgs)) return m.reply(`'${text}' tidak terdaftar didalam list pesan`)
+                delete msgs[text.toLowerCase()]
+                m.reply(`Berhasil menghapus '${text}' dari list pesan`)
+            }
+            break
+            case 'anonymous': {
+                if (m.isGroup) throw mess.private
+                this.anonymous = this.anonymous ? this.anonymous : {}
+                let buttons = [{
+                    buttonId: 'start',
+                    buttonText: {
+                        displayText: 'Start'
+                    },
+                    type: 1
+                }]
+                hisoka.sendButtonText(m.chat, buttons, `\`\`\`Hi ${await hisoka.getName(m.sender)} Welcome To Anonymous Chat\n\nKlik Button Dibawah Ini Untuk Mencari Partner\`\`\``, hisoka.user.name, m)
+            }
+            break
+            case 'keluar':
+            case 'leave': {
+                if (m.isGroup) throw mess.private
+                this.anonymous = this.anonymous ? this.anonymous : {}
+                let room = Object.values(this.anonymous).find(room => room.check(m.sender))
+                if (!room) {
+                    let buttons = [{
+                        buttonId: 'start',
+                        buttonText: {
+                            displayText: 'Start'
+                        },
+                        type: 1
+                    }]
+                    await hisoka.sendButtonText(m.chat, buttons, `\`\`\`Kamu Sedang Tidak Berada Di Sesi Anonymous, Tekan Button Untuk Mencari Partner \`\`\``)
+                    throw false
+                }
+                m.reply('Ok')
+                let other = room.other(m.sender)
+                if (other) await hisoka.sendText(other, `\`\`\`Partner Telah Meninggalkan Sesi Anonymous\`\`\``, m)
+                delete this.anonymous[room.id]
+                if (command === 'leave') break
+            }
+            case 'mulai':
+            case 'start': {
+                if (m.isGroup) throw mess.private
+                this.anonymous = this.anonymous ? this.anonymous : {}
+                if (Object.values(this.anonymous).find(room => room.check(m.sender))) {
+                    let buttons = [{
+                        buttonId: 'keluar',
+                        buttonText: {
+                            displayText: 'Stop'
+                        },
+                        type: 1
+                    }]
+                    await hisoka.sendButtonText(m.chat, buttons, `\`\`\`Kamu Masih Berada Di dalam Sesi Anonymous, Tekan Button Dibawah Ini Untuk Menghentikan Sesi Anonymous Anda\`\`\``, hisoka.user.name, m)
+                    throw false
+                }
+                let room = Object.values(this.anonymous).find(room => room.state === 'WAITING' && !room.check(m.sender))
+                if (room) {
+                    let buttons = [{
+                            buttonId: 'next',
+                            buttonText: {
+                                displayText: 'Skip'
+                            },
+                            type: 1
+                        },
+                        {
+                            buttonId: 'keluar',
+                            buttonText: {
+                                displayText: 'Stop'
+                            },
+                            type: 1
+                        }
+                    ]
+                    await hisoka.sendButtonText(room.a, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, hisoka.user.name, m)
+                    room.b = m.sender
+                    room.state = 'CHATTING'
+                    await hisoka.sendButtonText(room.b, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, hisoka.user.name, m)
+                } else {
+                    let id = +new Date
+                    this.anonymous[id] = {
+                        id,
+                        a: m.sender,
+                        b: '',
+                        state: 'WAITING',
+                        check: function(who = '') {
+                            return [this.a, this.b].includes(who)
+                        },
+                        other: function(who = '') {
+                            return who === this.a ? this.b : who === this.b ? this.a : ''
+                        },
+                    }
+                    let buttons = [{
+                        buttonId: 'keluar',
+                        buttonText: {
+                            displayText: 'Stop'
+                        },
+                        type: 1
+                    }]
+                    await hisoka.sendButtonText(m.chat, buttons, `\`\`\`Mohon Tunggu Sedang Mencari Partner\`\`\``, hisoka.user.name, m)
+                }
+                break
+            }
+            case 'next':
+            case 'lanjut': {
+                if (m.isGroup) throw mess.private
+                this.anonymous = this.anonymous ? this.anonymous : {}
+                let romeo = Object.values(this.anonymous).find(room => room.check(m.sender))
+                if (!romeo) {
+                    let buttons = [{
+                        buttonId: 'start',
+                        buttonText: {
+                            displayText: 'Start'
+                        },
+                        type: 1
+                    }]
+                    await hisoka.sendButtonText(m.chat, buttons, `\`\`\`Kamu Sedang Tidak Berada Di Sesi Anonymous, Tekan Button Untuk Mencari Partner\`\`\``)
+                    throw false
+                }
+                let other = romeo.other(m.sender)
+                if (other) await hisoka.sendText(other, `\`\`\`Partner Telah Meninggalkan Sesi Anonymous\`\`\``, m)
+                delete this.anonymous[romeo.id]
+                let room = Object.values(this.anonymous).find(room => room.state === 'WAITING' && !room.check(m.sender))
+                if (room) {
+                    let buttons = [{
+                            buttonId: 'next',
+                            buttonText: {
+                                displayText: 'Skip'
+                            },
+                            type: 1
+                        },
+                        {
+                            buttonId: 'keluar',
+                            buttonText: {
+                                displayText: 'Stop'
+                            },
+                            type: 1
+                        }
+                    ]
+                    await hisoka.sendButtonText(room.a, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, hisoka.user.name, m)
+                    room.b = m.sender
+                    room.state = 'CHATTING'
+                    await hisoka.sendButtonText(room.b, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, hisoka.user.name, m)
+                } else {
+                    let id = +new Date
+                    this.anonymous[id] = {
+                        id,
+                        a: m.sender,
+                        b: '',
+                        state: 'WAITING',
+                        check: function(who = '') {
+                            return [this.a, this.b].includes(who)
+                        },
+                        other: function(who = '') {
+                            return who === this.a ? this.b : who === this.b ? this.a : ''
+                        },
+                    }
+                    let buttons = [{
+                        buttonId: 'keluar',
+                        buttonText: {
+                            displayText: 'Stop'
+                        },
+                        type: 1
+                    }]
+                    await hisoka.sendButtonText(m.chat, buttons, `\`\`\`Mohon Tunggu Sedang Mencari Partner\`\`\``, hisoka.user.name, m)
+                }
+                break
+            }
+            case 'public': {
+                if (!isCreator && !m.key.fromMe) throw mess.owner
+                hisoka.public = true
+                m.reply('Sukses Mengubah Mode Bot Menjadi Publik')
+            }
+            break
+            case 'self': {
+                if (!isCreator && !m.key.fromMe) throw mess.owner
+                hisoka.public = false
+                m.reply('Sukses Mengubah Mode Bot Menjadi Self')
+            }
+            break
+            case 'eval': {
+                if (!isOwner && !m.key.fromMe) throw mess.owner
+                function Return(sul) {
+                sat = JSON.stringify(sul, null, 2)
+                bang = util.format(sat)
+                if (sat == undefined) {
+                bang = util.format(sul)
+                }
+                return m.reply(bang)
+                }
+            try {
+                m.reply(util.format(eval(`(async () => { return ${budy.slice(3)} })()`)))
+                } catch (e) {
+                m.reply(String(e))
+                }
+                }
+            break
+            case 'apikey':
+                m.reply(`Apikey Yang Dipake Oleh Bot Akame\n⬣ https://zenzapis.xyz [Sewa]`)
+                break
+            case 'ping':
+            case 'botstatus':
+            case 'statusbot':
+            case 'infobot': {
+                let timestamp = speed()
+                let latensi = speed() - timestamp
+                neww = performance.now()
+                oldd = performance.now()
+                let txtping = `*⍢⃝🤖 I N F O  B O T*\n\n`
+                txtping += `*👤 Owner Name :* ${global.namaowner}\n`
+                txtping += `*🕊️ Nama Bot :* ${global.namabot}\n`
+                txtping += `*🔗 Nomor Owner :* wa.me/${global.owner}\n\n`
+                txtping += `*⍢⃝👾 I N F O  S T A T I S T I K*\n\n`
+                txtping += `*🗃️ Lib :* Baileys Multi Device\n`
+                txtping += `*🆎 Tipe :* Nodejs\n`
+                txtping += `*📈 STATUS BOT :* ONLINE\n`
+                txtping += `*⚡ Speed :* ${latensi.toFixed(4)} Second\n`
+                txtping += `*⏰ Runtime :* ${runtime(process.uptime())}\n`
+                txtping += `*💻 RAM Server :* ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}\n\n`
+                txtping += `*⍢⃝🤝 C O N N E C T  W I T H  M E*\n\n`
+                txtping += `*🎗️ Github :* ${global.github}\n`
+                txtping += `*🎗️ TikTok :* ${global.myweb}\n`
+                txtping += `*🎗️ WhatsApp :* wa.me/${global.owner}\n`
+                    .trim()
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ Sewabot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, txtping, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, txtping, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, txtping, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, txtping, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'speed':
+            case 'speedtest': {
+                m.reply('Testing Speed...')
+                let cp = require('child_process')
+                let {
+                    promisify
+                } = require('util')
+                let exec = promisify(cp.exec).bind(cp)
+                let o
+                try {
+                    o = await exec('python speed.py')
+                } catch (e) {
+                    o = e
+                } finally {
+                    let {
+                        stdout,
+                        stderr
+                    } = o
+                    if (stdout.trim()) m.reply(stdout)
+                    if (stderr.trim()) m.reply(stderr)
+                }
+            }
+            break
+            // OWNER COMMNAND
+            case 'ownerbot':
+            case 'owner':
+            case 'creator': {
+                const vcard = 'BEGIN:VCARD\n'
+                + 'VERSION:3.0\n' 
+                + 'FN:Pengguna SC\n'
+                + 'ORG:Akame 🕊️\n'
+                + `TEL;type=CELL;type=VOICE;waid=${global.owner[0]}:${global.owner[0]}\n`
+                + 'END:VCARD'
+                sock.sendMessage(m.from, {
+                    contacts: { 
+                        displayName: '>_<', 
+                        contacts: [{ vcard }] 
+                    }
+                })
+            }
+            break
+            case 'bug':
+            case 'report': {
+                if (!text) return m.reply(`Mau Lapor Apa?\n\nContoh: ${command} Menu Error`)
+                hisoka.sendMessage(`6289636827082@s.whatsapp.net`, {
+                    text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
+Report Message: ${text}`
+                })
+                m.reply(`Berhasil Dilaporkan Ke Owner\n\nPastikan Bugnya Valid, Jika Anda Bermain-main Dengan Ini, Gunakan Fitur Ini Lagi Dan Lagi Tanpa Alasan, Anda Pasti Akan Diblokir !`)
+            }
+            break
+            case 'req':
+            case 'request': {
+                if (!text) return m.reply(`Mau Request Apa?\n\nContoh: ${command} Tambahin Menu Nsfw dong`)
+                hisoka.sendMessage(`6289636827082@s.whatsapp.net`, {
+                    text: `*Request Feature From:* wa.me/${m.sender.split("@")[0]}
+Request Message: ${text}`
+                })
+                m.reply(`Berhasil Dilaporkan Ke Owner!`)
+            }
+            break
+            case 'anime': {
+                if (!text) return m.reply(`Anime apa yang kamu cari??`)
+                await m.reply(mess.wait)
+                xfarr.Anime(q).then(async data => {
+                        let txt = `*-------「 ANIME-SEARCH 」-------*\n\n`
+                        for (let i of data) {
+                            txt += `*📫 Title :* ${i.judul}\n`
+                            txt += `*📚 Url :* ${i.link}\n-----------------------------------------------------\n`
+                        }
+                        let gam = await getBuffer(data[0].thumbnail.replace('https://www.anime-planet.com', ''))
+                        let btn = [{
+                            urlButton: {
+                                displayText: 'TikTok Creator',
+                                url: global.myweb
+                            }
+                        }, {
+                            callButton: {
+                                displayText: 'Number Phone Owner',
+                                phoneNumber: global.owner[0]
+                            }
+                        }, {
+                            quickReplyButton: {
+                                displayText: '❍ Rules',
+                                id: 'rules'
+                            }
+                        }, {
+                            quickReplyButton: {
+                                displayText: '❍ Donasi',
+                                id: 'donasi'
+                            }
+                        }, {
+                            quickReplyButton: {
+                                displayText: '⎙ SewaBot',
+                                id: 'sewabot'
+                            }
+                        }]
+                        await hisoka.sendMessage(m.chat, txt, footer, gam, btn, {
+                            quoted: ftroli
+                        })
+                    })
+                    .catch((err) => {
+                        m.reply(mess.error)
+                    })
+            }
+            break
+            case 'character':
+            case 'karakter': {
+                if (!text) return m.reply(`Karakter Anime Apa yang Anda Cari??`)
+                await m.reply(mess.wait)
+                xfarr.Character(q).then(async data => {
+                        let txt = `*---「 CHARACTER-SEARCH 」---*\n\n`
+                        for (let i of data) {
+                            txt += `*📫 Character :* ${i.character}\n`
+                            txt += `*📚 Url :* ${i.link}\n-----------------------------------------------------\n`
+                        }
+                        let gam = await getBuffer(data[0].thumbnail.replace('https://www.anime-planet.com', ''))
+                        let btn = [{
+                            urlButton: {
+                                displayText: 'TikTok Creator',
+                                url: global.myweb
+                            }
+                        }, {
+                            callButton: {
+                                displayText: 'Number Phone Owner',
+                                phoneNumber: global.owner[0]
+                            }
+                        }, {
+                            quickReplyButton: {
+                                displayText: '❍ Rules',
+                                id: 'rules'
+                            }
+                        }, {
+                            quickReplyButton: {
+                                displayText: '❍ Donasi',
+                                id: 'donasi'
+                            }
+                        }, {
+                            quickReplyButton: {
+                                displayText: '⎙ SewaBot',
+                                id: 'sewabot'
+                            }
+                        }]
+                        await hisoka.sendMessage(m.chat, txt, footer, gam, btn, {
+                            quoted: ftroli
+                        })
+                    })
+                    .catch((err) => {
+                        m.reply(mess.error)
+                    })
+            }
+            break
+            case 'manga': {
+                if (!text) return m.reply(`Manga apa yang kamu cari??`)
+                await m.reply(mess.wait)
+                xfarr.Manga(q).then(async data => {
+                        let txt = `*------「 MANGA-SEARCH 」------*\n\n`
+                        for (let i of data) {
+                            txt += `*📫 Title :* ${i.judul}\n`
+                            txt += `*📚 Url :* ${i.link}\n-----------------------------------------------------\n`
+                        }
+                        let gam = await getBuffer(data[0].thumbnail.replace('https://www.anime-planet.com', ''))
+                        let btn = [{
+                            urlButton: {
+                                displayText: 'TikTok Creator',
+                                url: global.myweb
+                            }
+                        }, {
+                            callButton: {
+                                displayText: 'Number Phone Owner',
+                                phoneNumber: global.owner[0]
+                            }
+                        }, {
+                            quickReplyButton: {
+                                displayText: '❍ Rules',
+                                id: 'rules'
+                            }
+                        }, {
+                            quickReplyButton: {
+                                displayText: '❍ Donasi',
+                                id: 'donasi'
+                            }
+                        }, {
+                            quickReplyButton: {
+                                displayText: '⎙ SewaBot',
+                                id: 'sewabot'
+                            }
+                        }]
+                        await hisoka.sendMessage(m.chat, txt, footer, gam, btn, {
+                            quoted: ftroli
+                        })
+                    })
+                    .catch((err) => {
+                        m.reply(mess.error)
+                    })
+            }
+            break
+            case 'gsmarena': {
+                if (!text) throw `Contoh : ${prefix + command} samsung`
+                let res = await fetchJson(api('zenz', '/webzone/gsmarena', {
+                    query: text
+                }, 'apikey'))
+                let {
+                    judul,
+                    rilis,
+                    thumb,
+                    ukuran,
+                    type,
+                    storage,
+                    display,
+                    inchi,
+                    pixel,
+                    videoPixel,
+                    ram,
+                    chipset,
+                    batrai,
+                    merek_batre,
+                    detail
+                } = res.result
+                let capt = `⭔ Title: ${judul}
+⭔ Realease: ${rilis}
+⭔ Size: ${ukuran}
+⭔ Type: ${type}
+⭔ Storage: ${storage}
+⭔ Display: ${display}
+⭔ Inchi: ${inchi}
+⭔ Pixel: ${pixel}
+⭔ Video Pixel: ${videoPixel}
+⭔ Ram: ${ram}
+⭔ Chipset: ${chipset}
+⭔ Battery: ${batrai}
+⭔ Battery Brand: ${merek_batre}
+⭔ Detail: ${detail}`
+                hisoka.sendImage(m.chat, thumb, capt, m)
+            }
+            break
+            case 'jadwalbioskop': {
+                if (!text) throw `Contoh: ${prefix + command} jakarta`
+                let res = await fetchJson(api('zenz', '/webzone/jadwalbioskop', {
+                    kota: text
+                }, 'apikey'))
+                let capt = `Jadwal Bioskop From : ${text}\n\n`
+                for (let i of res.result) {
+                    capt += `⭔ Title: ${i.title}\n`
+                    capt += `⭔ Thumbnail: ${i.thumb}\n`
+                    capt += `⭔ Url: ${i.url}\n\n──────────────────────\n`
+                }
+                hisoka.sendImage(m.chat, res.result[0].thumb, capt, m)
+            }
+            break
+            case 'nowplayingbioskop': {
+                let res = await fetchJson(api('zenz', '/webzone/nowplayingbioskop', {}, 'apikey'))
+                let capt = `Now Playing Bioskop\n\n`
+                for (let i of res.result) {
+                    capt += `⭔ Title: ${i.title}\n`
+                    capt += `⭔ Url: ${i.url}\n`
+                    capt += `⭔ Img Url: ${i.img}\n\n──────────────────────\n`
+                }
+                hisoka.sendImage(m.chat, res.result[0].img, capt, m)
+            }
+            break
+            case 'aminio': {
+                if (!text) throw `Contoh: ${prefix + command} free fire`
+                let res = await fetchJson(api('zenz', '/webzone/amino', {
+                    query: text
+                }, 'apikey'))
+                let capt = `Amino Search From : ${text}\n\n`
+                for (let i of res.result) {
+                    capt += `⭔ Community: ${i.community}\n`
+                    capt += `⭔ Community Link: ${i.community_link}\n`
+                    capt += `⭔ Thumbnail: ${i.community_thumb}\n`
+                    capt += `⭔ Description: ${i.community_desc}\n`
+                    capt += `⭔ Member Count: ${i.member_count}\n\n──────────────────────\n`
+                }
+                hisoka.sendImage(m.chat, 'https://' + res.result[0].community_thumb, capt, m)
+            }
+            break
+            case 'wattpad': {
+                if (!text) throw `Contoh : ${prefix + command} love`
+                let res = await fetchJson(api('zenz', '/webzone/wattpad', {
+                    query: text
+                }, 'apikey'))
+                let {
+                    judul,
+                    dibaca,
+                    divote,
+                    bab,
+                    waktu,
+                    url,
+                    thumb,
+                    description
+                } = res.result[0]
+                let capt = `Wattpad From query\n\n`
+                capt += `⭔ Judul: ${judul}\n`
+                capt += `⭔ Dibaca: ${dibaca}\n`
+                capt += `⭔ Divote: ${divote}\n`
+                capt += `⭔ Bab: ${bab}\n`
+                capt += `⭔ Url: ${url}\n`
+                capt += `⭔ Deskripsi: ${description}`
+                hisoka.sendImage(m.chat, thumb, capt, m)
+            }
+            break
+            case 'webtoons': {
+                if (!text) throw `Contoh : ${prefix + command} love`
+                let res = await fetchJson(api('zenz', '/webzone/webtoons', {
+                    query: text
+                }, 'apikey'))
+                let capt = `Webtoons Search From : ${text}\n\n`
+                for (let i of res.result) {
+                    capt += `⭔ Judul: ${i.judul}\n`
+                    capt += `⭔ Like: ${i.like}\n`
+                    capt += `⭔ Creator: ${i.creator}\n`
+                    capt += `⭔ Genre: ${i.genre}\n`
+                    capt += `⭔ Url: ${i.url}\n\n──────────────────────\n`
+                }
+                m.reply(capt)
+            }
+            break
+            case 'drakor': {
+                if (!text) throw `Contoh : ${prefix + command} love`
+                let res = await fetchJson(api('zenz', '/webzone/drakor', {
+                    query: text
+                }, 'apikey'))
+                let capt = `Drakor Search From : ${text}\n\n`
+                for (let i of res.result) {
+                    capt += `⭔ Judul: ${i.judul}\n`
+                    capt += `⭔ Years: ${i.years}\n`
+                    capt += `⭔ Genre: ${i.genre}\n`
+                    capt += `⭔ Url: ${i.url}\n`
+                    capt += `⭔ Thumbnail Url: ${i.thumbnail}\n\n──────────────────────\n`
+                }
+                hisoka.sendImage(m.chat, res.result[0].thumbnail, capt, m)
+            }
+            break
+            case 'jadwaltv': {
+                if (!text) throw `Contoh : ${prefix + command} gtv\n\nOption : \n⬣ rcti\n⬣ nettv\n⬣ antv\n⬣ indosiar\n⬣ inewstv\n⬣ kompastv\n⬣ metrotv\n⬣ mnctv\n⬣ rtv\n⬣ sctv\n⬣ trans7\n⬣ transtv\n⬣ tvone\n⬣ tvri`
+                let res = await fetchJson(api('zenz', '/searching/jadwaltv', {
+                    query: text
+                }, 'apikey'))
+                let capt = `Jadwal TV Search Query : ${text}\n\n`
+                for (let i of res.result.jadwal) {
+                    capt += `⭔ Acara : ${i.acara}\n`
+                    capt += `⭔ Time : ${i.time}\n\n──────────────────────\n`
+                }
+                m.reply(capt)
+            }
+            break
+            case 'jadwalsholat':
+            case 'jadwalshalat':
+            case 'jadwalsalat': {
+                if (!text) throw `Contoh : ${prefix + command} Padang`
+                let res = await fetchJson(api('zenz', '/islami/jadwalshalat', {
+                    kota: text
+                }, 'apikey'))
+                let capt = `Jadwal Sholat Kota : ${text}\n\n`
+                let i = res.result
+                    capt += `⭔ Tanggal : ${i.tanggal}\n`
+                    capt += `⭔ Subuh : ${i.shubuh}\n`
+                    capt += `⭔ Duha : ${i.duha}\n`
+                    capt += `⭔ Dzuhur : ${i.dzuhur}\n`
+                    capt += `⭔ Ashar : ${i.ashar}\n`
+                    capt += `⭔ Maghrib : ${i.maghrib}\n`
+                    capt += `⭔ Isya : ${i.isya}\n\n──────────────────────\n`
+                m.reply(capt)
+            }
+            break
+            case 'cekapi':
+            case 'cekapikey': {
+                if (!text) throw `Contoh : ${prefix + command} Budi12`
+                let fetch = await fetchJson(api("zenz", "/user/cekapi", { apikey: text }))
+                let caption = `Apikey Check :\n\n`
+                let i = fetch.message
+                    caption += `⭔ Id : ${i.id}\n`
+                    caption += `⭔ Created : ${i.created}\n`
+                    caption += `⭔ Updated : ${i.updated}\n`
+                    caption += `⭔ First Name : ${i.firstname}\n`
+                    caption += `⭔ Last Name : ${i.lastname}\n`
+                    caption += `⭔ Email : ${i.email}\n`
+                    caption += `⭔ Username : ${i.username}\n`
+                    caption += `⭔ ApiKey : ${i.apiKey}\n`
+                    caption += `⭔ Todayhit : ${i.today_hit}\n`
+                    caption += `⭔ Totalhit : ${i.total_hit}\n`
+                    caption += `⭔ Status : ${i.status}\n`
+                    caption += `⭔ Premium : ${i.premium}\n`
+                    caption += `⭔ Expired : ${i.premium_expired}\n`
+                    caption += `⭔ Active : ${i.active}\n`
+                    caption += `⭔ Location : ${i.location}\n`
+                    caption += `⭔ Biodata : ${i.biodata}\n\n──────────────────────\n`
+                    hisoka.sendImage(m.chat, i.profile_image, "", m, { caption })
+            }
+            break
+            case 'setmenu': {
+                if (!isCreator) throw mess.owner
+                let setbot = db.settings[botNumber]
+                if (args[0] === 'templateImage') {
+                    setbot.templateImage = true
+                    setbot.templateVideo = false
+                    setbot.templateGif = false
+                    setbot.templateMsg = false
+                    m.reply(mess.success)
+                } else if (args[0] === 'templateVideo') {
+                    setbot.templateImage = false
+                    setbot.templateVideo = true
+                    setbot.templateGif = false
+                    setbot.templateMsg = false
+                    m.reply(mess.success)
+                } else if (args[0] === 'templateGif') {
+                    setbot.templateImage = false
+                    setbot.templateVideo = false
+                    setbot.templateGif = true
+                    setbot.templateMsg = false
+                    m.reply(mess.success)
+                } else if (args[0] === 'templateMessage') {
+                    setbot.templateImage = false
+                    setbot.templateVideo = false
+                    setbot.templateGif = false
+                    setbot.templateMsg = true
+                    m.reply(mess.success)
+                } else {
+                    let sections = [{
+                        title: "GANTI MENU BOT",
+                        rows: [{
+                                title: "⌲ Template Message",
+                                rowId: `setmenu templateMessage`,
+                                description: `Ubah Menu Bot Menjadi Pesan`
+                            },
+                            {
+                                title: "⌲ Template Image",
+                                rowId: `setmenu templateImage`,
+                                description: `Ubah Menu Bot Menjadi Gambar`
+                            },
+                            {
+                                title: "⌲ Template Gif",
+                                rowId: `setmenu templateGif`,
+                                description: `Ubah Menu Bot Menjadi Gif`
+                            },
+                            {
+                                title: "⌲ Template Video",
+                                rowId: `setmenu templateVideo`,
+                                description: `Ubah Menu Bot Menjadi Video`
+                            }
+                        ]
+                    }, ]
+                    hisoka.sendListMsg(m.chat, `Silakan Pilih Menu Yang Ingin Anda Ubah!`, hisoka.user.name, `Hello Owner !`, `Klik disini`, sections, m)
+                }
+            }
+            break
+            case 'rules': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 RULES BOT 」
+│└─────────────┈❖
+│1. Tolong Gunakan Delay 5 Detik
+│   Untuk Menggukan BOT.
+│2. Cuilk Bot Tanpa Izin? Group
+│   Ya Gua Raid 😎.
+│2. Gunakan Dengan Bijak.
+│3. Don't Call Bots.
+│4. Don't Spam Bot.
+└┬─────────────┈❖
+┌┤「 SNK 」
+│└─────────────┈❖
+│1. Data Whatsapp Anda Akan Kami
+│   Simpan Di Server Kami
+│   Selama BOT Aktif.
+│2. Data Anda Akan Di Hapus
+│   Ketika BOT OFF.
+│3. Kami Tidak Menyimpan Gambar/
+│   Video/File/Audio/Dokumen
+│   Yang Anda Kirim.
+│4. Kami Tidak Pernah Meminta
+│   Anda Untuk Memberikan
+│   Informasi Pribadi.
+│5. Jika Menemukan BUG/ERROR
+│   Silahkan REPORT!.
+└┬─────────────┈❖
+┌┤「 ATTENTION 」
+│└─────────────┈❖
+│1. Bot Akan Memblokir Nomor Anda.
+│2. Anda Tidak Akan Bisa.
+│   Mengakses Bot Lagi.
+│3. Mengeksploitasi Terhadap bot.
+│Sanksi: *BLOCK PERMANENT*
+└──────────────┈❖`
+                let btn = [{
+                    quickReplyButton: {
+                        displayText: '⎙ Sewabot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'sewa':
+            case 'sewabot': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 SEWA BOT 」
+│└─────────────┈❖
+│⭔ 1 Minggu 5k
+│⭔ 1 Bulan 15k
+└┬─────────────┈❖
+┌┤「 PEMBAYARAN 」
+│└─────────────┈❖
+│⭔ TELKOMSEL : ${global.telkomsel}
+│⭔ XL : ${global.xl}
+│⭔ INDOSAT : ${global.indosat}
+│⭔ TRI : ${global.tri}
+│⭔ SMARTFREN : ${global.smartfren}
+│⭔ GOPAY : ${global.gopay}
+│⭔ DANA : ${global.dana}
+│⭔ OVO : ${global.ovo}
+│⭔ SAWERIA : ${global.saweria}
+└┬─────────────┈❖
+┌┤「 KEUNTUNGAN 」
+│└─────────────┈❖
+│⭔ On 24 Jam
+│⭔ Run Dirpd/Heroku/Oktote
+│⭔ Anti Delay
+│⭔ Anti Virtex
+│⭔ Antilink WA/TT/YT
+│⭔ Welcome Image
+│⭔ Left
+└┬─────────────┈❖
+┌┤「 SISTEM 」
+│└─────────────┈❖
+│⭔ Kirim » Bukti Pembayaran » Bot Join
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'Donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⌲ Chat Owner Disini',
+                        id: 'owner'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'donasi':
+            case 'donate': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 DONASI 」
+│└─────────────┈❖
+│⭔ TELKOMSEL : ${global.telkomsel}
+│⭔ XL : ${global.xl}
+│⭔ INDOSAT : ${global.indosat}
+│⭔ TRI : ${global.tri}
+│⭔ SMARTFREN : ${global.smartfren}
+│⭔ GOPAY : ${global.gopay}
+│⭔ DANA : ${global.dana}
+│⭔ OVO : ${global.ovo}
+│⭔ SAWERIA : ${global.saweria}
+│⭔ Q.S Az-Zalzalah Ayat 7 :
+│
+│    فَمَنْ يَّعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَّرَه
+│
+│⭔ Artinya : Maka barangsiapa
+│mengerjakan kebaikan seberatzarrah,
+│niscaya dia akan melihat
+│(balasan)nya.
+│
+│*Terima Kasih*
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: 'Ping',
+                        id: 'ping'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⌲ Chat Owner Disini',
+                        id: 'owner'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'groupmenu':
+            case 'menugroup': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ User : ${Object.keys(global.db.users).length}
+│ Runtime : ${runtime(process.uptime())}
+│ Lib : Baileys-md
+│ Menuju idul Adha :
+│  ${menuju}
+└┬─────────────┈❖
+┌┤「 GROUP 」
+│└─────────────┈❖
+│⭔ ${prefix}linkgroup
+│⭔ ${prefix}revoke 
+│⭔ ${prefix}ephemeral [option]
+│⭔ ${prefix}setppgc [image]
+│⭔ ${prefix}setname [text]
+│⭔ ${prefix}setdesc [text]
+│⭔ ${prefix}group [option]
+│⭔ ${prefix}editinfo [option]
+│⭔ ${prefix}add @user
+│⭔ ${prefix}kick @user
+│⭔ ${prefix}hidetag [text]
+│⭔ ${prefix}tagall [text]
+│⭔ ${prefix}promote @user
+│⭔ ${prefix}demote @user
+│⭔ ${prefix}mute [on/off]
+│⭔ ${prefix}antilinkwa [on/off]
+│⭔ ${prefix}antilinkyt [on/off]
+│⭔ ${prefix}antilinktt [on/off]
+│⭔ ${prefix}vote [text]
+│⭔ ${prefix}devote
+│⭔ ${prefix}upvote
+│⭔ ${prefix}cekvote
+│⭔ ${prefix}hapusvote
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ SewaBot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'downloadmenu':
+            case 'menudownload': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ User : ${Object.keys(global.db.users).length}
+│ Runtime : ${runtime(process.uptime())}
+│ Lib : Baileys-md
+│ Menuju idul Adha :
+│  ${menuju}
+└┬─────────────┈❖
+┌┤「 DOWNLOADER 」
+│└─────────────┈❖
+│⭔ ${prefix}tiktok [url]
+│⭔ ${prefix}instagram [url]
+│⭔ ${prefix}instastory [url]
+│⭔ ${prefix}twitter [url]
+│⭔ ${prefix}twittermp3 [url]
+│⭔ ${prefix}facebook [url]
+│⭔ ${prefix}pinterestdl [url]
+│⭔ ${prefix}ytmp3 [url]
+│⭔ ${prefix}ytmp4 [url] [Resolusi]
+│⭔ ${prefix}getmusic [query]
+│⭔ ${prefix}getvideo [query]
+│⭔ ${prefix}umma [url]
+│⭔ ${prefix}joox [query]
+│⭔ ${prefix}soundcloud [url]
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ SewaBot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'searchmenu':
+            case 'menusearch': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ User : ${Object.keys(global.db.users).length}
+│ Runtime : ${runtime(process.uptime())}
+│ Lib : Baileys-md
+│ Menuju idul Adha :
+│  ${menuju}
+└┬─────────────┈❖
+┌┤「 SEARCH 」
+│└─────────────┈❖
+│⭔ ${prefix}anime [query]
+│⭔ ${prefix}manga [query]
+│⭔ ${prefix}character [query]
+│⭔ ${prefix}play [query]
+│⭔ ${prefix}yts [query]
+│⭔ ${prefix}google [query]
+│⭔ ${prefix}gimage [query]
+│⭔ ${prefix}pinterest [query]
+│⭔ ${prefix}wallpaper [query]
+│⭔ ${prefix}wikimedia [query]
+│⭔ ${prefix}ytsearch [query]
+│⭔ ${prefix}ringtone [query]
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ SewaBot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'stickermenu':
+            case 'menusticker': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ User : ${Object.keys(global.db.users).length}
+│ Runtime : ${runtime(process.uptime())}
+│ Lib : Baileys-md
+│ Menuju idul Adha :
+│  ${menuju}
+└┬─────────────┈❖
+┌┤「 STICKER 」
+│└─────────────┈❖
+│⭔ ${prefix}sticker
+│⭔ ${prefix}patrick
+│⭔ ${prefix}attp [teks]
+│⭔ ${prefix}ttp [teks]
+│⭔ ${prefix}emojimix 😎+🤠
+│⭔ ${prefix}emojimix2 😎
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ SewaBot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'animemenu':
+            case 'menuanime': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ User : ${Object.keys(global.db.users).length}
+│ Runtime : ${runtime(process.uptime())}
+│ Lib : Baileys-md
+│ Menuju idul Adha :
+│  ${menuju}
+└┬─────────────┈❖
+┌┤「 ANIME 」
+│└─────────────┈❖
+│⭔ ${prefix}couple
+│⭔ ${prefix}waifu
+│⭔ ${prefix}husbu
+│⭔ ${prefix}neko
+│⭔ ${prefix}uniform
+│⭔ ${prefix}cosplay
+│⭔ ${prefix}maid
+│⭔ ${prefix}oppai
+│⭔ ${prefix}selfies
+│⭔ ${prefix}shinobu
+│⭔ ${prefix}megumin
+│⭔ ${prefix}raiden
+│⭔ ${prefix}calliope
+│⭔ ${prefix}kitagawa
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ SewaBot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'nsfwmenu':
+            case 'menunsfw': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ User : ${Object.keys(global.db.users).length}
+│ Runtime : ${runtime(process.uptime())}
+│ Lib : Baileys-md
+│ Menuju idul Adha :
+│  ${menuju}
+└┬─────────────┈❖
+┌┤「 NSFW 」
+│└─────────────┈❖
+│⭔ ${prefix}ahegao
+│⭔ ${prefix}ass
+│⭔ ${prefix}bdsm
+│⭔ ${prefix}blowjob
+│⭔ ${prefix}cuckold
+│⭔ ${prefix}cum
+│⭔ ${prefix}ero
+│⭔ ${prefix}fendom
+│⭔ ${prefix}foot
+│⭔ ${prefix}gangbang
+│⭔ ${prefix}glasses
+│⭔ ${prefix}hentai
+│⭔ ${prefix}jahy
+│⭔ ${prefix}masturbation
+│⭔ ${prefix}orgy
+│⭔ ${prefix}panties
+│⭔ ${prefix}pussy
+│⭔ ${prefix}tentacles
+│⭔ ${prefix}thighs
+│⭔ ${prefix}yuri
+│⭔ ${prefix}zettairyouiki
+│⭔ Noted : Stay Halal Brother >_<
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ SewaBot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'asupanmenu':
+            case 'menuasupan': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ User : ${Object.keys(global.db.users).length}
+│ Runtime : ${runtime(process.uptime())}
+│ Lib : Baileys-md
+│ Menuju idul Adha :
+│  ${menuju}
+└┬─────────────┈❖
+┌┤「 ASUPAN 」
+│└─────────────┈❖
+│⭔ ${prefix}asupan
+│⭔ ${prefix}asupanaeuni
+│⭔ ${prefix}asupantiktok
+│⭔ ${prefix}asupannatajadeh
+│⭔ ${prefix}cecan
+│⭔ ${prefix}china
+│⭔ ${prefix}thailand
+│⭔ ${prefix}vietnam
+│⭔ ${prefix}kayes
+│⭔ ${prefix}notnot
+│⭔ ${prefix}ryujin
+│⭔ ${prefix}justina
+│⭔ ${prefix}rose
+│⭔ ${prefix}kpop
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ SewaBot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'quotesmenu':
+            case 'menuquotes': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ User : ${Object.keys(global.db.users).length}
+│ Runtime : ${runtime(process.uptime())}
+│ Lib : Baileys-md
+│ Menuju idul Adha :
+│  ${menuju}
+└┬─────────────┈❖
+┌┤「 QUOTES 」
+│└─────────────┈❖
+│⭔ ${prefix}quotesanime
+│⭔ ${prefix}animequotes
+│⭔ ${prefix}motivasi
+│⭔ ${prefix}dilanquote
+│⭔ ${prefix}bucinquote
+│⭔ ${prefix}katasenja
+│⭔ ${prefix}randomquote
+│⭔ ${prefix}muslimquote
+│⭔ ${prefix}galauquote
+│⭔ ${prefix}kanyequote
+│⭔ ${prefix}trumpquote
+│⭔ ${prefix}trumpthink
+│⭔ ${prefix}creepyfact
+│⭔ ${prefix}faktaunik
+│⭔ ${prefix}puisi
+│⭔ ${prefix}pantun
+│⭔ ${prefix}cerpen
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ SewaBot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'mememenu':
+            case 'menumeme': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ User : ${Object.keys(global.db.users).length}
+│ Runtime : ${runtime(process.uptime())}
+│ Lib : Baileys-md
+│ Menuju idul Adha :
+│  ${menuju}
+└┬─────────────┈❖
+┌┤「 MEME 」
+│└─────────────┈❖
+│⭔ ${prefix}meme
+│⭔ ${prefix}memeindo
+│⭔ ${prefix}darkjoke
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ SewaBot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'randommenu':
+            case 'menurandom': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ User : ${Object.keys(global.db.users).length}
+│ Runtime : ${runtime(process.uptime())}
+│ Lib : Baileys-md
+│ Menuju idul Adha :
+│  ${menuju}
+└┬─────────────┈❖
+┌┤「 RANDOM 」
+│└─────────────┈❖
+│⭔ ${prefix}simih [teks]
+│⭔ ${prefix}apikey
+│⭔ ${prefix}coffe
+│⭔ ${prefix}ebinary [teks]
+│⭔ ${prefix}dbinary [teks]
+│⭔ ${prefix}styletext [teks]
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ SewaBot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'textpromenu':
+            case 'menutextpro': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ User : ${Object.keys(global.db.users).length}
+│ Runtime : ${runtime(process.uptime())}
+│ Lib : Baileys-md
+│ Menuju idul Adha :
+│  ${menuju}
+└┬─────────────┈❖
+┌┤「 TEXT PRO 」
+│└─────────────┈❖
+│⭔ ${prefix}3dchristmas
+│⭔ ${prefix}3ddeepsea
+│⭔ ${prefix}americanflag
+│⭔ ${prefix}3dscifi
+│⭔ ${prefix}3drainbow
+│⭔ ${prefix}3dwaterpipe
+│⭔ ${prefix}halloweenskeleton
+│⭔ ${prefix}sketch
+│⭔ ${prefix}bluecircuit
+│⭔ ${prefix}space
+│⭔ ${prefix}metallic
+│⭔ ${prefix}fiction
+│⭔ ${prefix}greenhorror
+│⭔ ${prefix}transformer
+│⭔ ${prefix}berry
+│⭔ ${prefix}thunder
+│⭔ ${prefix}magma
+│⭔ ${prefix}3dcrackedstone
+│⭔ ${prefix}3dneonlight
+│⭔ ${prefix}impressiveglitch
+│⭔ ${prefix}naturalleaves
+│⭔ ${prefix}fireworksparkle
+│⭔ ${prefix}matrix
+│⭔ ${prefix}dropwater
+│⭔ ${prefix}harrypotter
+│⭔ ${prefix}foggywindow
+│⭔ ${prefix}neondevils
+│⭔ ${prefix}christmasholiday
+│⭔ ${prefix}3dgradient
+│⭔ ${prefix}blackpink
+│⭔ ${prefix}gluetext
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ SewaBot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'photoeditormenu':
+            case 'menuphotoeditor': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ User : ${Object.keys(global.db.users).length}
+│ Runtime : ${runtime(process.uptime())}
+│ Lib : Baileys-md
+│ Menuju idul Adha :
+│  ${menuju}
+└┬─────────────┈❖
+┌┤「 PHOTO EDITOR 」
+│└─────────────┈❖
+│⭔ ${prefix}gay
+│⭔ ${prefix}contrast
+│⭔ ${prefix}pixelate
+│⭔ ${prefix}dither
+│⭔ ${prefix}sepia
+│⭔ ${prefix}brighten
+│⭔ ${prefix}greyscale
+│⭔ ${prefix}circle
+│⭔ ${prefix}blur
+│⭔ ${prefix}invert
+│⭔ ${prefix}scale
+│⭔ ${prefix}upscale
+│⭔ ${prefix}glass
+│⭔ ${prefix}wasted
+│⭔ ${prefix}passed
+│⭔ ${prefix}comrade
+│⭔ ${prefix}jail
+│⭔ ${prefix}triggered
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ SewaBot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'ephotomenu':
+            case 'menuephoto': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ User : ${Object.keys(global.db.users).length}
+│ Runtime : ${runtime(process.uptime())}
+│ Lib : Baileys-md
+│ Menuju idul Adha :
+│  ${menuju}
+└┬─────────────┈❖
+┌┤「 EPHOTO 」
+│└─────────────┈❖
+│⭔ ${prefix}logo2
+│⭔ ${prefix}logo3
+│⭔ ${prefix}logo4
+│⭔ ${prefix}logogaming
+│⭔ ${prefix}logogirl
+│⭔ ${prefix}logogold
+│⭔ ${prefix}spiderlogo
+│⭔ ${prefix}ffcover
+│⭔ ${prefix}crossfire
+│⭔ ${prefix}galaxy
+│⭔ ${prefix}glass
+│⭔ ${prefix}neon
+│⭔ ${prefix}beach
+│⭔ ${prefix}awan
+│⭔ ${prefix}flower
+│⭔ ${prefix}bohlam
+│⭔ ${prefix}kaligrafi
+│⭔ ${prefix}coklat
+│⭔ ${prefix}quotes
+│⭔ ${prefix}grafity
+│⭔ ${prefix}marmer
+│⭔ ${prefix}musimsemi
+│⭔ ${prefix}ruby
+│⭔ ${prefix}shadowtext
+│⭔ ${prefix}starlogo
+│⭔ ${prefix}starnight
+│⭔ ${prefix}starnight2
+│⭔ ${prefix}blackpink
+│⭔ ${prefix}cake
+│⭔ ${prefix}flashlight
+│⭔ ${prefix}puppycute
+│⭔ ${prefix}yasuologo
+│⭔ ${prefix}certificate
+│⭔ ${prefix}igcertificate
+│⭔ ${prefix}ytcertificate
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ SewaBot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'gamemenu':
+            case 'menugame': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ User : ${Object.keys(global.db.users).length}
+│ Runtime : ${runtime(process.uptime())}
+│ Lib : Baileys-md
+│ Menuju idul Adha :
+│  ${menuju}
+└┬─────────────┈❖
+┌┤「 GAME 」
+│└─────────────┈❖
+│⭔ ${prefix}delttt
+│⭔ ${prefix}tictactoe
+│⭔ ${prefix}family100
+│⭔ ${prefix}asahotak
+│⭔ ${prefix}siapakahaku
+│⭔ ${prefix}susunkata
+│⭔ ${prefix}tekateki
+│⭔ ${prefix}tebak [option]
+│⭔ ${prefix}math [mode]
+│⭔ ${prefix}suitpvp [@tag]
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ SewaBot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'primbonmenu':
+            case 'menuprimbon': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ User : ${Object.keys(global.db.users).length}
+│ Runtime : ${runtime(process.uptime())}
+│ Lib : Baileys-md
+│ Menuju idul Adha :
+│  ${menuju}
+└┬─────────────┈❖
+┌┤「 PRIMBON 」
+│└─────────────┈❖
+│⭔ ${prefix}nomorhoki
+│⭔ ${prefix}artimimpi
+│⭔ ${prefix}artinama
+│⭔ ${prefix}ramaljodoh
+│⭔ ${prefix}ramaljodohbali
+│⭔ ${prefix}suamiistri
+│⭔ ${prefix}ramalcinta
+│⭔ ${prefix}cocoknama
+│⭔ ${prefix}pasangan
+│⭔ ${prefix}jadiannikah
+│⭔ ${prefix}sifatusaha
+│⭔ ${prefix}rezeki
+│⭔ ${prefix}pekerjaan
+│⭔ ${prefix}nasib
+│⭔ ${prefix}penyakit
+│⭔ ${prefix}tarot
+│⭔ ${prefix}fengshui
+│⭔ ${prefix}haribaik
+│⭔ ${prefix}harisangar
+│⭔ ${prefix}harisial
+│⭔ ${prefix}nagahari
+│⭔ ${prefix}arahrezeki
+│⭔ ${prefix}peruntungan
+│⭔ ${prefix}weton
+│⭔ ${prefix}karakter
+│⭔ ${prefix}keberuntungan
+│⭔ ${prefix}memancing
+│⭔ ${prefix}masasubur
+│⭔ ${prefix}zodiak
+│⭔ ${prefix}shio
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ SewaBot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'convertmenu':
+            case 'menuconvert': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ User : ${Object.keys(global.db.users).length}
+│ Runtime : ${runtime(process.uptime())}
+│ Lib : Baileys-md
+│ Menuju idul Adha :
+│  ${menuju}
+└┬─────────────┈❖
+┌┤「 CONVERT 」
+│└─────────────┈❖
+│⭔ ${prefix}removebg [image]
+│⭔ ${prefix}nulis [teks]
+│⭔ ${prefix}toimage [reply sticker]
+│⭔ ${prefix}tovideo [reply sticker]
+│⭔ ${prefix}togif [reply sticker]
+│⭔ ${prefix}tourl [image / video]
+│⭔ ${prefix}tovn [reply video]
+│⭔ ${prefix}tomp3 [reply video]
+│⭔ ${prefix}toaudio [reply video]
+│
+└───────⭓`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ SewaBot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'mainmenu':
+            case 'menumain': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ User : ${Object.keys(global.db.users).length}
+│ Runtime : ${runtime(process.uptime())}
+│ Lib : Baileys-md
+│ Menuju idul Adha :
+│  ${menuju}
+└┬─────────────┈❖
+┌┤「 MAIN 」
+│└─────────────┈❖
+│⭔ ${prefix}ping
+│⭔ ${prefix}owner
+│⭔ ${prefix}donasi
+│⭔ ${prefix}agamaowner / ${prefix}agamabot
+│⭔ ${prefix}menu / ${prefix}help / ${prefix}?
+│⭔ ${prefix}delete / ${prefix}del / ${prefix}d
+│⭔ ${prefix}infochat
+│⭔ ${prefix}quoted
+│⭔ ${prefix}listpc
+│⭔ ${prefix}listgc
+│⭔ ${prefix}listonline
+│⭔ ${prefix}speedtest
+│⭔ ${prefix}request [req]
+│⭔ ${prefix}report [bug]
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ SewaBot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'databasemenu':
+            case 'menudatabase': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ User : ${Object.keys(global.db.users).length}
+│ Runtime : ${runtime(process.uptime())}
+│ Lib : Baileys-md
+│ Menuju idul Adha :
+│  ${menuju}
+└┬─────────────┈❖
+┌┤「 DATABASE 」
+│└─────────────┈❖
+│⭔ ${prefix}setcmd [reply sticker/pesan]
+│⭔ ${prefix}listcmd
+│⭔ ${prefix}delcmd [reply sticker/pesan]
+│⭔ ${prefix}lockcmd
+│⭔ ${prefix}addmsg
+│⭔ ${prefix}listmsg
+│⭔ ${prefix}getmsg
+│⭔ ${prefix}delmsg
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ SewaBot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'anonymousmenu':
+            case 'menuanonymous': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ User : ${Object.keys(global.db.users).length}
+│ Runtime : ${runtime(process.uptime())}
+│ Lib : Baileys-md
+│ Menuju idul Adha :
+│  ${menuju}
+└┬─────────────┈❖
+┌┤「 ANONYMOUS 」
+│└─────────────┈❖
+│⭔ ${prefix}anonymous
+│⭔ ${prefix}start
+│⭔ ${prefix}next
+│⭔ ${prefix}keluar
+│⭔ ${prefix}sendkontak
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ SewaBot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'islamicmenu':
+            case 'menuislamic': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ User : ${Object.keys(global.db.users).length}
+│ Runtime : ${runtime(process.uptime())}
+│ Lib : Baileys-md
+│ Menuju idul Adha :
+│  ${menuju}
+└┬─────────────┈❖
+┌┤「 ISLAMIC 」
+│└─────────────┈❖
+│⭔ ${prefix}iqra
+│⭔ ${prefix}hadist
+│⭔ ${prefix}alquran
+│⭔ ${prefix}juzamma
+│⭔ ${prefix}tafsirsurah
+│⭔ ${prefix}jadwalsholat
+│⭔ ${prefix}asmaulhusna
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ SewaBot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'kerangmenu':
+            case 'menukerang': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ User : ${Object.keys(global.db.users).length}
+│ Runtime : ${runtime(process.uptime())}
+│ Lib : Baileys-md
+│ Menuju idul Adha :
+│  ${menuju}
+└┬─────────────┈❖
+┌┤「 KERANG 」
+│└─────────────┈❖
+│⭔ ${prefix}apakah [teks]
+│⭔ ${prefix}bisakah [teks]
+│⭔ ${prefix}bagaimanakah [teks]
+│⭔ ${prefix}rate [teks]
+│⭔ ${prefix}kapankah [teks]
+│⭔ ${prefix}cekganteng [teks]
+│⭔ ${prefix}cekcantik [teks]
+│⭔ ${prefix}ceksange [teks]
+│⭔ ${prefix}cekgay [teks]
+│⭔ ${prefix}ceklesbi [teks]
+│⭔ ${prefix}cekmati [teks]
+│⭔ ${prefix}wangy [teks]
+│⭔ ${prefix}halah [teks]
+│⭔ ${prefix}hilih [teks]
+│⭔ ${prefix}huluh [teks]
+│⭔ ${prefix}heleh [teks]
+│⭔ ${prefix}holoh [teks]
+│⭔ ${prefix}jadian [teks]
+│⭔ ${prefix}jodohku [teks]
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ SewaBot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'voicemenu':
+            case 'menuvoice': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ User : ${Object.keys(global.db.users).length}
+│ Runtime : ${runtime(process.uptime())}
+│ Lib : Baileys-md
+│ Menuju idul Adha :
+│  ${menuju}
+└┬─────────────┈❖
+┌┤「 VOICE CHANGER 」
+│└─────────────┈❖
+│⭔ ${prefix}bass [reply audio / vn]
+│⭔ ${prefix}blown [reply audio / vn]
+│⭔ ${prefix}deep [reply audio / vn]
+│⭔ ${prefix}earrape [reply audio / vn]
+│⭔ ${prefix}fast [reply audio / vn]
+│⭔ ${prefix}fat [reply audio / vn]
+│⭔ ${prefix}nightcore [reply audio / vn]
+│⭔ ${prefix}reverse [reply audio / vn]
+│⭔ ${prefix}robot [reply audio / vn]
+│⭔ ${prefix}slow [reply audio / vn]
+│⭔ ${prefix}tupai [reply audio / vn]
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ SewaBot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'stalkmenu':
+            case 'menustalk': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ User : ${Object.keys(global.db.users).length}
+│ Runtime : ${runtime(process.uptime())}
+│ Lib : Baileys-md
+│ Menuju idul Adha :
+│  ${menuju}
+└┬─────────────┈❖
+┌┤「 STALK 」
+│└─────────────┈❖
+│⭔ ${prefix}cekapi
+│⭔ ${prefix}githubstalk [username]
+│⭔ ${prefix}stalk [option] [query]
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ SewaBot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'ownermenu':
+            case 'menuowner': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ User : ${Object.keys(global.db.users).length}
+│ Runtime : ${runtime(process.uptime())}
+│ Lib : Baileys-md
+│ Menuju idul Adha :
+│  ${menuju}
+└┬─────────────┈❖
+┌┤「 OWNER 」
+│└─────────────┈❖
+│⭔ ${prefix}myip
+│⭔ ${prefix}react [emoji]
+│⭔ ${prefix}setexif
+│⭔ ${prefix}chat [option]
+│⭔ ${prefix}join [link]
+│⭔ ${prefix}leave
+│⭔ ${prefix}block @user
+│⭔ ${prefix}unblock @user
+│⭔ ${prefix}bcgroup [text]
+│⭔ ${prefix}bcall [text]
+│⭔ ${prefix}bcallmedia
+│⭔ ${prefix}setppbot [image]
+│⭔ ${prefix}setmenu [option]
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ SewaBot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'webzonemenu':
+            case 'menuwebzone': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ User : ${Object.keys(global.db.users).length}
+│ Runtime : ${runtime(process.uptime())}
+│ Lib : Baileys-md
+│ Menuju idul Adha :
+│  ${menuju}
+└┬─────────────┈❖
+┌┤「 WEBZONE 」
+│└─────────────┈❖
+│⭔ ${prefix}jadwaltv
+│⭔ ${prefix}playstore
+│⭔ ${prefix}gsmarena
+│⭔ ${prefix}jadwalbioskop
+│⭔ ${prefix}nowplayingbioskop
+│⭔ ${prefix}aminio
+│⭔ ${prefix}wattpad
+│⭔ ${prefix}webtoons
+│⭔ ${prefix}drakor
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ SewaBot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'list':
+            case 'menu':
+            case 'help':
+            case '?': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 NOTE 」
+│└─────────────┈❖
+│• Saya ${global.namabot}, Bot Ini Adalah
+│  Beta Multi-Device WhatsApp.
+│• Jika Kamu Menemukan Semacam
+│  Bug Atau Kesalahan Mohon
+│  Dimaklumi Dulu Ya,Ketik Report
+│  Untuk Lapor Owner Agar Segera
+│  Diperbaiki Atau DiFix.
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│• Library : *Baileys-MD*.
+│• Prefix : ( ${prefix} )
+│• Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}
+│• Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
+│• Menuju idul Adha :
+│   ${menuju}
+│• Wib : ${wib}
+│• Wita : ${wita}
+│• Wit : ${wit}
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⌲ List Menu',
+                        id: 'command'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            case 'allmenu':
+            case 'menuall': {
+                anu = `┌────────┈❖
+│「 Hi, ${pushname}👋 」
+│「 ${ucapanWaktu} 」
+└┬─────────────┈❖
+┌┤「 INFO BOT 」
+│└─────────────┈❖
+│ Prefix : ( ${prefix} )
+│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
+│ Mode : ${hisoka.public ? 'Public' : 'Self'}
+│ User : ${Object.keys(global.db.users).length}
+│ Runtime : ${runtime(process.uptime())}
+│ Lib : Baileys-md
+│ Menuju idul Adha :
+│  ${menuju}
+└┬─────────────┈❖
+┌┤「 ANONYMOUS 」
+│└─────────────┈❖
+│⭔ ${prefix}anonymous
+│⭔ ${prefix}start
+│⭔ ${prefix}next
+│⭔ ${prefix}keluar
+│⭔ ${prefix}sendkontak
+└┬─────────────┈❖
+┌┤「 ANIME 」
+│└─────────────┈❖
+│⭔ ${prefix}couple
+│⭔ ${prefix}waifu
+│⭔ ${prefix}husbu
+│⭔ ${prefix}neko
+│⭔ ${prefix}uniform
+│⭔ ${prefix}cosplay
+│⭔ ${prefix}maid
+│⭔ ${prefix}oppai
+│⭔ ${prefix}selfies
+│⭔ ${prefix}shinobu
+│⭔ ${prefix}megumin
+│⭔ ${prefix}raiden
+│⭔ ${prefix}calliope
+│⭔ ${prefix}kitagawa
+└┬─────────────┈❖
+┌┤「 ASUPAN 」
+│└─────────────┈❖
+│⭔ ${prefix}asupan
+│⭔ ${prefix}asupanaeuni
+│⭔ ${prefix}asupantiktok
+│⭔ ${prefix}asupannatajadeh
+│⭔ ${prefix}cecan
+│⭔ ${prefix}china
+│⭔ ${prefix}thailand
+│⭔ ${prefix}vietnam
+│⭔ ${prefix}kayes
+│⭔ ${prefix}notnot
+│⭔ ${prefix}ryujin
+│⭔ ${prefix}justina
+│⭔ ${prefix}rose
+│⭔ ${prefix}kpop
+└┬─────────────┈❖
+┌┤「 CONVERT 」
+│└─────────────┈❖
+│⭔ ${prefix}removebg [image]
+│⭔ ${prefix}nulis [teks]
+│⭔ ${prefix}toimage [reply sticker]
+│⭔ ${prefix}tovideo [reply sticker]
+│⭔ ${prefix}togif [reply sticker]
+│⭔ ${prefix}tourl [image / video]
+│⭔ ${prefix}tovn [reply video]
+│⭔ ${prefix}tomp3 [reply video]
+│⭔ ${prefix}toaudio [reply video]
+└┬─────────────┈❖
+┌┤「 DOWNLOADER 」
+│└─────────────┈❖
+│⭔ ${prefix}tiktok [url]
+│⭔ ${prefix}instagram [url]
+│⭔ ${prefix}instastory [url]
+│⭔ ${prefix}twitter [url]
+│⭔ ${prefix}twittermp3 [url]
+│⭔ ${prefix}facebook [url]
+│⭔ ${prefix}pinterestdl [url]
+│⭔ ${prefix}ytmp3 [url]
+│⭔ ${prefix}ytmp4 [url] [Resolusi]
+│⭔ ${prefix}getmusic [query]
+│⭔ ${prefix}getvideo [query]
+│⭔ ${prefix}umma [url]
+│⭔ ${prefix}joox [query]
+│⭔ ${prefix}soundcloud [url]
+└┬─────────────┈❖
+┌┤「 DATABASE 」
+│└─────────────┈❖
+│⭔ ${prefix}setcmd [reply sticker/pesan]
+│⭔ ${prefix}listcmd
+│⭔ ${prefix}delcmd [reply sticker/pesan]
+│⭔ ${prefix}lockcmd
+│⭔ ${prefix}addmsg
+│⭔ ${prefix}listmsg
+│⭔ ${prefix}getmsg
+│⭔ ${prefix}delmsg
+└┬─────────────┈❖
+┌┤「 EPHOTO 」
+│└─────────────┈❖
+│⭔ ${prefix}logo2
+│⭔ ${prefix}logo3
+│⭔ ${prefix}logo4
+│⭔ ${prefix}logogaming
+│⭔ ${prefix}logogirl
+│⭔ ${prefix}logogold
+│⭔ ${prefix}spiderlogo
+│⭔ ${prefix}ffcover
+│⭔ ${prefix}crossfire
+│⭔ ${prefix}galaxy
+│⭔ ${prefix}glass
+│⭔ ${prefix}neon
+│⭔ ${prefix}beach
+│⭔ ${prefix}awan
+│⭔ ${prefix}flower
+│⭔ ${prefix}bohlam
+│⭔ ${prefix}kaligrafi
+│⭔ ${prefix}coklat
+│⭔ ${prefix}quotes
+│⭔ ${prefix}grafity
+│⭔ ${prefix}marmer
+│⭔ ${prefix}musimsemi
+│⭔ ${prefix}ruby
+│⭔ ${prefix}shadowtext
+│⭔ ${prefix}starlogo
+│⭔ ${prefix}starnight
+│⭔ ${prefix}starnight2
+│⭔ ${prefix}blackpink
+│⭔ ${prefix}cake
+│⭔ ${prefix}flashlight
+│⭔ ${prefix}puppycute
+│⭔ ${prefix}yasuologo
+│⭔ ${prefix}certificate
+│⭔ ${prefix}igcertificate
+│⭔ ${prefix}ytcertificate
+└┬─────────────┈❖
+┌┤「 GROUP 」
+│└─────────────┈❖
+│⭔ ${prefix}linkgroup
+│⭔ ${prefix}revoke 
+│⭔ ${prefix}ephemeral [option]
+│⭔ ${prefix}setppgc [image]
+│⭔ ${prefix}setname [text]
+│⭔ ${prefix}setdesc [text]
+│⭔ ${prefix}group [option]
+│⭔ ${prefix}editinfo [option]
+│⭔ ${prefix}add @user
+│⭔ ${prefix}kick @user
+│⭔ ${prefix}hidetag [text]
+│⭔ ${prefix}tagall [text]
+│⭔ ${prefix}promote @user
+│⭔ ${prefix}demote @user
+│⭔ ${prefix}mute [on/off]
+│⭔ ${prefix}antilinkwa [on/off]
+│⭔ ${prefix}antilinkyt [on/off]
+│⭔ ${prefix}antilinktt [on/off]
+│⭔ ${prefix}vote [text]
+│⭔ ${prefix}devote
+│⭔ ${prefix}upvote
+│⭔ ${prefix}cekvote
+│⭔ ${prefix}hapusvote
+└┬─────────────┈❖
+┌┤「 GAME 」
+│└─────────────┈❖
+│⭔ ${prefix}delttt
+│⭔ ${prefix}tictactoe
+│⭔ ${prefix}family100
+│⭔ ${prefix}asahotak
+│⭔ ${prefix}siapakahaku
+│⭔ ${prefix}susunkata
+│⭔ ${prefix}tekateki
+│⭔ ${prefix}tebak [option]
+│⭔ ${prefix}math [mode]
+│⭔ ${prefix}suitpvp [@tag]
+└┬─────────────┈❖
+┌┤「 ISLAMIC 」
+│└─────────────┈❖
+│⭔ ${prefix}iqra
+│⭔ ${prefix}hadist
+│⭔ ${prefix}alquran
+│⭔ ${prefix}juzamma
+│⭔ ${prefix}tafsirsurah
+│⭔ ${prefix}jadwalsholat
+│⭔ ${prefix}asmaulhusna
+└┬─────────────┈❖
+┌┤「 KERANG 」
+│└─────────────┈❖
+│⭔ ${prefix}apakah [teks]
+│⭔ ${prefix}bisakah [teks]
+│⭔ ${prefix}bagaimanakah [teks]
+│⭔ ${prefix}rate [teks]
+│⭔ ${prefix}kapankah [teks]
+│⭔ ${prefix}cekganteng [teks]
+│⭔ ${prefix}cekcantik [teks]
+│⭔ ${prefix}ceksange [teks]
+│⭔ ${prefix}cekgay [teks]
+│⭔ ${prefix}ceklesbi [teks]
+│⭔ ${prefix}cekmati [teks]
+│⭔ ${prefix}wangy [teks]
+│⭔ ${prefix}halah [teks]
+│⭔ ${prefix}hilih [teks]
+│⭔ ${prefix}huluh [teks]
+│⭔ ${prefix}heleh [teks]
+│⭔ ${prefix}holoh [teks]
+│⭔ ${prefix}jadian [teks]
+│⭔ ${prefix}jodohku [teks]
+└┬─────────────┈❖
+┌┤「 MEME 」
+│└─────────────┈❖
+│⭔ ${prefix}meme
+│⭔ ${prefix}memeindo
+│⭔ ${prefix}darkjoke
+└┬─────────────┈❖
+┌┤「 MAIN 」
+│└─────────────┈❖
+│⭔ ${prefix}ping
+│⭔ ${prefix}owner
+│⭔ ${prefix}donasi
+│⭔ ${prefix}agamaowner / ${prefix}agamabot
+│⭔ ${prefix}menu / ${prefix}help / ${prefix}?
+│⭔ ${prefix}delete / ${prefix}del / ${prefix}d
+│⭔ ${prefix}infochat
+│⭔ ${prefix}quoted
+│⭔ ${prefix}listpc
+│⭔ ${prefix}listgc
+│⭔ ${prefix}listonline
+│⭔ ${prefix}speedtest
+│⭔ ${prefix}request [req]
+│⭔ ${prefix}report [bug]
+└┬─────────────┈❖
+┌┤「 NSFW 」
+│└─────────────┈❖
+│⭔ ${prefix}ahegao
+│⭔ ${prefix}ass
+│⭔ ${prefix}bdsm
+│⭔ ${prefix}blowjob
+│⭔ ${prefix}cuckold
+│⭔ ${prefix}cum
+│⭔ ${prefix}ero
+│⭔ ${prefix}fendom
+│⭔ ${prefix}foot
+│⭔ ${prefix}gangbang
+│⭔ ${prefix}glasses
+│⭔ ${prefix}hentai
+│⭔ ${prefix}jahy
+│⭔ ${prefix}masturbation
+│⭔ ${prefix}orgy
+│⭔ ${prefix}panties
+│⭔ ${prefix}pussy
+│⭔ ${prefix}tentacles
+│⭔ ${prefix}thighs
+│⭔ ${prefix}yuri
+│⭔ ${prefix}zettairyouiki
+│⭔ Noted : Stay Halal Brother >_<
+└┬─────────────┈❖
+┌┤「 OWNER 」
+│└─────────────┈❖
+│⭔ ${prefix}myip
+│⭔ ${prefix}react [emoji]
+│⭔ ${prefix}setexif [packname|author]
+│⭔ ${prefix}chat [option]
+│⭔ ${prefix}join [link]
+│⭔ ${prefix}leave
+│⭔ ${prefix}block @user
+│⭔ ${prefix}unblock @user
+│⭔ ${prefix}bcgroup [text]
+│⭔ ${prefix}bcall [text]
+│⭔ ${prefix}bcallmedia  [image / video]
+│⭔ ${prefix}setppbot [image]
+└┬─────────────┈❖
+┌┤「 PRIMBON 」
+│└─────────────┈❖
+│⭔ ${prefix}nomorhoki
+│⭔ ${prefix}artimimpi
+│⭔ ${prefix}artinama
+│⭔ ${prefix}ramaljodoh
+│⭔ ${prefix}ramaljodohbali
+│⭔ ${prefix}suamiistri
+│⭔ ${prefix}ramalcinta
+│⭔ ${prefix}cocoknama
+│⭔ ${prefix}pasangan
+│⭔ ${prefix}jadiannikah
+│⭔ ${prefix}sifatusaha
+│⭔ ${prefix}rezeki
+│⭔ ${prefix}pekerjaan
+│⭔ ${prefix}nasib
+│⭔ ${prefix}penyakit
+│⭔ ${prefix}tarot
+│⭔ ${prefix}fengshui
+│⭔ ${prefix}haribaik
+│⭔ ${prefix}harisangar
+│⭔ ${prefix}harisial
+│⭔ ${prefix}nagahari
+│⭔ ${prefix}arahrezeki
+│⭔ ${prefix}peruntungan
+│⭔ ${prefix}weton
+│⭔ ${prefix}karakter
+│⭔ ${prefix}keberuntungan
+│⭔ ${prefix}memancing
+│⭔ ${prefix}masasubur
+│⭔ ${prefix}zodiak
+│⭔ ${prefix}shio
+└┬─────────────┈❖
+┌┤「 PHOTO EDITOR 」
+│└─────────────┈❖
+│⭔ ${prefix}gay
+│⭔ ${prefix}contrast
+│⭔ ${prefix}pixelate
+│⭔ ${prefix}dither
+│⭔ ${prefix}sepia
+│⭔ ${prefix}brighten
+│⭔ ${prefix}greyscale
+│⭔ ${prefix}circle
+│⭔ ${prefix}blur
+│⭔ ${prefix}invert
+│⭔ ${prefix}scale
+│⭔ ${prefix}upscale
+│⭔ ${prefix}glass
+│⭔ ${prefix}wasted
+│⭔ ${prefix}passed
+│⭔ ${prefix}comrade
+│⭔ ${prefix}jail
+│⭔ ${prefix}triggered
+└┬─────────────┈❖
+┌┤「 QUOTES 」
+│└─────────────┈❖
+│⭔ ${prefix}quotesanime
+│⭔ ${prefix}animequotes
+│⭔ ${prefix}motivasi
+│⭔ ${prefix}dilanquote
+│⭔ ${prefix}bucinquote
+│⭔ ${prefix}katasenja
+│⭔ ${prefix}randomquote
+│⭔ ${prefix}muslimquote
+│⭔ ${prefix}galauquote
+│⭔ ${prefix}kanyequote
+│⭔ ${prefix}trumpquote
+│⭔ ${prefix}trumpthink
+│⭔ ${prefix}creepyfact
+│⭔ ${prefix}faktaunik
+│⭔ ${prefix}puisi
+│⭔ ${prefix}pantun
+│⭔ ${prefix}cerpen
+└┬─────────────┈❖
+┌┤「 RANDOM 」
+│└─────────────┈❖
+│⭔ ${prefix}simih [teks]
+│⭔ ${prefix}apikey
+│⭔ ${prefix}coffe
+│⭔ ${prefix}ebinary [teks]
+│⭔ ${prefix}dbinary [teks]
+│⭔ ${prefix}styletext [teks]
+└┬─────────────┈❖
+┌┤「 STICKER 」
+│└─────────────┈❖
+│⭔ ${prefix}sticker
+│⭔ ${prefix}patrick
+│⭔ ${prefix}attp [teks]
+│⭔ ${prefix}ttp [teks]
+│⭔ ${prefix}emojimix 😎+🤠
+│⭔ ${prefix}emojimix2 😎
+└┬─────────────┈❖
+┌┤「 SEARCH 」
+│└─────────────┈❖
+│⭔ ${prefix}anime [query]
+│⭔ ${prefix}manga [query]
+│⭔ ${prefix}character [query]
+│⭔ ${prefix}play [query]
+│⭔ ${prefix}yts [query]
+│⭔ ${prefix}google [query]
+│⭔ ${prefix}gimage [query]
+│⭔ ${prefix}pinterest [query]
+│⭔ ${prefix}wallpaper [query]
+│⭔ ${prefix}wikimedia [query]
+│⭔ ${prefix}ytsearch [query]
+│⭔ ${prefix}ringtone [query]
+└┬─────────────┈❖
+┌┤「 STALK 」
+│└─────────────┈❖
+│⭔ ${prefix}cekapi
+│⭔ ${prefix}githubstalk [username]
+│⭔ ${prefix}stalk [option] [query]
+└┬─────────────┈❖
+┌┤「 TEXT PRO 」
+│└─────────────┈❖
+│⭔ ${prefix}3dchristmas
+│⭔ ${prefix}3ddeepsea
+│⭔ ${prefix}americanflag
+│⭔ ${prefix}3dscifi
+│⭔ ${prefix}3drainbow
+│⭔ ${prefix}3dwaterpipe
+│⭔ ${prefix}halloweenskeleton
+│⭔ ${prefix}sketch
+│⭔ ${prefix}bluecircuit
+│⭔ ${prefix}space
+│⭔ ${prefix}metallic
+│⭔ ${prefix}fiction
+│⭔ ${prefix}greenhorror
+│⭔ ${prefix}transformer
+│⭔ ${prefix}berry
+│⭔ ${prefix}thunder
+│⭔ ${prefix}magma
+│⭔ ${prefix}3dcrackedstone
+│⭔ ${prefix}3dneonlight
+│⭔ ${prefix}impressiveglitch
+│⭔ ${prefix}naturalleaves
+│⭔ ${prefix}fireworksparkle
+│⭔ ${prefix}matrix
+│⭔ ${prefix}dropwater
+│⭔ ${prefix}harrypotter
+│⭔ ${prefix}foggywindow
+│⭔ ${prefix}neondevils
+│⭔ ${prefix}christmasholiday
+│⭔ ${prefix}3dgradient
+│⭔ ${prefix}blackpink
+│⭔ ${prefix}gluetext
+└┬─────────────┈❖
+┌┤「 VOICE CHANGER 」
+│└─────────────┈❖
+│⭔ ${prefix}bass [reply audio / vn]
+│⭔ ${prefix}blown [reply audio / vn]
+│⭔ ${prefix}deep [reply audio / vn]
+│⭔ ${prefix}earrape [reply audio / vn]
+│⭔ ${prefix}fast [reply audio / vn]
+│⭔ ${prefix}fat [reply audio / vn]
+│⭔ ${prefix}nightcore [reply audio / vn]
+│⭔ ${prefix}reverse [reply audio / vn]
+│⭔ ${prefix}robot [reply audio / vn]
+│⭔ ${prefix}slow [reply audio / vn]
+│⭔ ${prefix}tupai [reply audio / vn]
+└┬─────────────┈❖
+┌┤「 WEBZONE 」
+│└─────────────┈❖
+│⭔ ${prefix}jadwaltv
+│⭔ ${prefix}playstore
+│⭔ ${prefix}gsmarena
+│⭔ ${prefix}jadwalbioskop
+│⭔ ${prefix}nowplayingbioskop
+│⭔ ${prefix}aminio
+│⭔ ${prefix}wattpad
+│⭔ ${prefix}webtoons
+│⭔ ${prefix}drakor
+└──────────────┈❖`
+                let btn = [{
+                    urlButton: {
+                        displayText: 'TikTok Creator',
+                        url: global.myweb
+                    }
+                }, {
+                    callButton: {
+                        displayText: 'Number Phone Owner',
+                        phoneNumber: global.owner[0]
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Rules',
+                        id: 'rules'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '❍ Donasi',
+                        id: 'donasi'
+                    }
+                }, {
+                    quickReplyButton: {
+                        displayText: '⎙ SewaBot',
+                        id: 'sewabot'
+                    }
+                }]
+                let setbot = db.settings[botNumber]
+                if (setbot.templateImage) {
+                    hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                } else if (setbot.templateGif) {
+                    hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateVid) {
+                    hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
+                } else if (setbot.templateMsg) {
+                    hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                }
+            }
+            break
+            default:
+                if (budy.startsWith('Bot')) {
+                    m.reply('Ya ada apa kak?')
+                }
+                if (budy.startsWith('Hi')) {
+                    m.reply('Hi, Apa ada yang dapat saya bantu?')
+                }
+                if (budy.startsWith('Hai')) {
+                    m.reply('Hai, Apa ada yang dapat saya bantu?')
+                }
+                if (budy.startsWith('Halo')) {
+                    m.reply('Halo, Apa ada yang dapat saya bantu?')
+                }
+                if (budy.startsWith('Hello')) {
+                    m.reply('Hello, Apa ada yang dapat saya bantu?')
+                }
+                if (budy.startsWith('Tapi')) {
+                    m.reply('Tapi, Tapi Apa?')
+                }
+                if (budy.startsWith('Sombong')) {
+                    m.reply('Gua Itu Bot WhatsApp Ajg Jadi Samain Command Yg Tertulis')
+                }
+                if (budy.startsWith('Canda')) {
+                    m.reply('Lucu Dan Original awok⁹⁹⁹')
+                }
+                if (budy.startsWith('=>')) {
+                    if (!isCreator) return m.reply(mess.owner)
+
+                    function Return(sul) {
+                        sat = JSON.stringify(sul, null, 2)
+                        bang = util.format(sat)
+                        if (sat == undefined) {
+                            bang = util.format(sul)
+                        }
+                        return m.reply(bang)
+                    }
+                    try {
+                        m.reply(util.format(eval(`(async () => { return ${budy.slice(3)} })()`)))
+                    } catch (e) {
+                        m.reply(String(e))
+                    }
+                }
+
+                if (budy.startsWith('>')) {
+                    if (!isCreator) return m.reply(mess.owner)
+                    try {
+                        let evaled = await eval(budy.slice(2))
+                        if (typeof evaled !== 'string') evaled = require('util').inspect(evaled)
+                        await m.reply(evaled)
+                    } catch (err) {
+                        await m.reply(String(err))
+                    }
+                }
+
+                if (budy.startsWith('$')) {
+                    if (!isCreator) return m.reply(mess.owner)
+                    exec(budy.slice(2), (err, stdout) => {
+                        if (err) return m.reply(err)
+                        if (stdout) return m.reply(stdout)
+                    })
+                }
+
+                if (m.chat.endsWith('@s.whatsapp.net') && isCmd) {
+                    this.anonymous = this.anonymous ? this.anonymous : {}
+                    let room = Object.values(this.anonymous).find(room => [room.a, room.b].includes(m.sender) && room.state === 'CHATTING')
+                    if (room) {
+                        if (/^.*(next|leave|start)/.test(m.text)) return
+                        if (['.next', '.leave', '.stop', '.start', 'Cari Partner', 'Keluar', 'Lanjut', 'Stop'].includes(m.text)) return
+                        let other = [room.a, room.b].find(user => user !== m.sender)
+                        m.copyNForward(other, true, m.quoted && m.quoted.fromMe ? {
+                            contextInfo: {
+                                ...m.msg.contextInfo,
+                                forwardingScore: 0,
+                                isForwarded: true,
+                                participant: other
+                            }
+                        } : {})
+                    }
+                    return !0
+                }
+
+                if (isCmd && budy.toLowerCase() != undefined) {
+                    if (m.chat.endsWith('broadcast')) return
+                    if (m.isBaileys) return
+                    let msgs = global.db.database
+                    if (!(budy.toLowerCase() in msgs)) return
+                    hisoka.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
+                }
+        }
+
+
+    } catch (err) {
+        m.reply(util.format(err))
+    }
+}
+
+
+let file = require.resolve(__filename)
+fs.watchFile(file, () => {
+    fs.unwatchFile(file)
+    console.log(chalk.redBright(`Update ${__filename}`))
+    delete require.cache[file]
+    require(file)
+})
