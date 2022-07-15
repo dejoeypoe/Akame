@@ -4927,7 +4927,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                 + 'ORG:Akame 🕊️\n'
                 + `TEL;type=CELL;type=VOICE;waid=${global.owner[0]}:${global.owner[0]}\n`
                 + 'END:VCARD'
-                sock.sendMessage(m.from, {
+                hisoka.sendMessage(m.from, {
                     contacts: { 
                         displayName: '>_<', 
                         contacts: [{ vcard }] 
