@@ -291,7 +291,7 @@ async function startHisoka() {
         for (let i of kon) {
             list.push({
                 displayName: await hisoka.getName(i + '@s.whatsapp.net'),
-                vcard: `BEGIN:VCARD\nVERSION:3.0\nN:GuaAbuzz ><\nFN:GuaAbuzz ><\nitem1.TEL;waid=6289636827082:6289636827082\nitem1.X-ABLabel:Ponsel\nitem2.EMAIL;type=INTERNET:rajifarmansyah46@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:tiktok.com/@guaabuzz\nitem3.X-ABLabel:TikTok\nitem4.ADR:;;Jepang;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
+                vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await hisoka.getName(i + '@s.whatsapp.net')}\nFN:${await hisoka.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Ponsel\nitem2.EMAIL;type=INTERNET:${global.email}\nitem2.X-ABLabel:Email\nitem3.URL:${global.web}\nitem3.X-ABLabel:TikTok\nitem4.ADR:;;${global.region};;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
             })
         }
         hisoka.sendMessage(jid, {

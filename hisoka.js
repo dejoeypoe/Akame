@@ -4917,17 +4917,18 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                 }
             }
             break
-            // OWNER COMMNAND
             case 'ownerbot':
             case 'owner':
             case 'creator': {
-                const vcard = 'BEGIN:VCARD\n'
-                + 'VERSION:3.0\n' 
-                + 'FN:Pengguna SC\n'
-                + 'ORG:Akame 🕊️\n'
-                + `TEL;type=CELL;type=VOICE;waid=${global.owner[0]}:${global.owner[0]}\n`
+                const vcard = 'BEGIN:VCARD\n
+                + 'VERSION:3.0\n'
+                + 'N:GuaAbuzz\nFN:GuaAbuzz\n'
+                + 'item1.TEL;waid=6289636827082:6289636827082\nitem1.X-ABLabel:📱 Ponsel\n'
+                + 'item2.EMAIL;type=INTERNET:guaabuzz@gmail.com\nitem2.X-ABLabel:💌 Email\n'
+                + 'item3.URL:tiktok.com/@guaabuzz\nitem3.X-ABLabel:TikTok\n'
+                + 'item4.ADR:;;Indonesia;;;;\nitem4.X-ABLabel:🇮🇩 Region\n'
                 + 'END:VCARD'
-                hisoka.sendMessage(m.from, {
+                hisoka.sendMessage(m.chat, {
                     contacts: { 
                         displayName: '>_<', 
                         contacts: [{ vcard }] 
