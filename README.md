@@ -29,7 +29,7 @@
 # Note
 This Script is for everyone, not for Sale. Jika dijual neraka menunggumu brother !
 
-## My Project Me
+## My Projects
 [![ASUNA](https://img.shields.io/badge/Asuna%20WhatsApp%20Bot-1b1e23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abuzzpoet/Asuna)
 
 [![AKAME](https://img.shields.io/badge/Akame%20WhatsApp%20Bot-1b1e23?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abuzzpoet/Akame)
@@ -46,7 +46,7 @@ This Script is for everyone, not for Sale. Jika dijual neraka menunggumu brother
 
 [![FFMPEG](https://img.shields.io/badge/BuildPack%20FFMPEG-1b1e23?style=for-the-badge&logo=heroku&logoColor=white)](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest)
 
-[![IMAGEMAGICK](https://img.shields.io/badge/BuildPack%20IMAGEMAGICK-1b1e23?style=for-the-badge&logo=heroku&logoColor=white)](https://github.com/DuckyTeam/heroku-buildpack-imagemagick)
+[![IMAGEMAGICK](https://img.shields.io/badge/BuildPack%20IMAGEMAGICK-1b1e23?style=for-the-badge&logo=heroku&logoColor=white)](https://github.com/clhuang/heroku-buildpack-webp-binaries.git)
 
 ## Okteto
 
