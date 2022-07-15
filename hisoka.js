@@ -4845,15 +4845,15 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                 }]
                 let setbot = db.settings[botNumber]
                         if (setbot.templateImage) {
-                        hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
+                        hisoka.send5ButImg(m.chat, txtping, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn, global.thumb)
+                        hisoka.send5ButGif(m.chat, txtping, hisoka.user.name, global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn, global.thumb)
+                        hisoka.send5ButVid(m.chat, txtping, hisoka.user.name, global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
                         hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
                         } else if (setbot.templateLocation) {
-                        hisoka.send5ButLoc(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                        hisoka.send5ButLoc(m.chat, txtping, hisoka.user.name, global.thumb, btn)
                         }
                      }
             break
