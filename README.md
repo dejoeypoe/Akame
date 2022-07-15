@@ -50,7 +50,7 @@ This Script is for everyone, not for Sale. Jika dijual neraka menunggumu brother
 
 ## Okteto
 
-[![Deploy](https://cloud.okteto.com)
+[![Deploy](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com)
 
 ```bash
 Login with your github
