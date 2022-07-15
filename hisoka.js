@@ -244,7 +244,6 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
             let setting = global.db.settings[botNumber]
             if (typeof setting !== 'object') global.db.settings[botNumber] = {}
             if (setting) {
-                if (!('anticall' in setting)) setting.anticall = true
                 if (!isNumber(setting.status)) setting.status = 0
                 if (!('autobio' in setting)) setting.autobio = false
                 if (!('templateImage' in setting)) setting.templateImage = true
@@ -253,7 +252,6 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
                 if (!('templateMsg' in setting)) setting.templateMsg = false
                 if (!('templateLocation' in setting)) setting.templateLocation = false
             } else global.db.settings[botNumber] = {
-                anticall: true,
                 status: 0,
                 autobio: false,
                 templateImage: true,
@@ -2141,26 +2139,6 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 }
             }
             break
-            case 'anticall': {
-            if (!isCreator) throw mess.owner
-                let ciko = db.settings[botNumber].anticall
-                if (args[0] === "on") {
-                if (ciko) return m.reply(`Sudah Aktif Sebelumnya 🕊️`)
-                ciko = true
-                m.reply(`AntiCall Aktif 🕊️`)
-                } else if (args[0] === "off") {
-                if (!ciko) return m.reply(`Sudah Tidak Aktif Sebelumnya 🕊️`)
-                ciko = false
-                m.reply(`AntiCall Tidak Aktif 🕊️`)
-                } else {
-                 let buttons = [
-                        { buttonId: 'anticall on', buttonText: { displayText: 'On' }, type: 1 },
-                        { buttonId: 'anticall off', buttonText: { displayText: 'Off' }, type: 1 }
-                    ]
-                    await hisoka.sendButtonText(m.chat, buttons, `Mode AntiCall`, hisoka.user.name, m)
-                }
-             }
-             break
             case 'style':
             case 'styletext': {
                 if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
@@ -4813,7 +4791,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
             }
             break
             case 'eval': {
-                if (!isOwner && !m.key.fromMe) throw mess.owner
+                if (!isCreator && !m.key.fromMe) throw mess.owner
                 function Return(sul) {
                 sat = JSON.stringify(sul, null, 2)
                 bang = util.format(sat)
@@ -7278,7 +7256,6 @@ Request Message: ${text}`
 │⭔ ${prefix}bcallmedia
 │⭔ ${prefix}setppbot [image]
 │⭔ ${prefix}setmenu [option]
-│⭔ ${prefix}anticall [on/off]
 └──────────────┈❖`
                 let btn = [{
                     urlButton: {
@@ -7731,7 +7708,6 @@ Request Message: ${text}`
 │⭔ ${prefix}bcall [text]
 │⭔ ${prefix}bcallmedia  [image / video]
 │⭔ ${prefix}setmenu [option]
-│⭔ ${prefix}anticall [on/off]
 └┬─────────────┈❖
 ┌┤「 PRIMBON 」
 │└─────────────┈❖
