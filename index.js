@@ -124,7 +124,7 @@ async function startHisoka() {
     // Anti Call
     hisoka.ev.on('call', async (fatihh) => {
     let botNumber = await hisoka.decodeJid(hisoka.user.id)
-    let ciko = db.data.settings[botNumber].anticall
+    let ciko = db.settings[botNumber].anticall
     if (!ciko) return
     console.log(fatihh)
     for (let tihh of fatihh) {
