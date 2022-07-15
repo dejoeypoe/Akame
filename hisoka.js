@@ -4790,23 +4790,6 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                 m.reply('Sukses Mengubah Mode Bot Menjadi Self')
             }
             break
-            case 'eval': {
-                if (!isCreator && !m.key.fromMe) throw mess.owner
-                function Return(sul) {
-                sat = JSON.stringify(sul, null, 2)
-                bang = util.format(sat)
-                if (sat == undefined) {
-                bang = util.format(sul)
-                }
-                return m.reply(bang)
-                }
-            try {
-                m.reply(util.format(eval(`(async () => { return ${budy.slice(3)} })()`)))
-                } catch (e) {
-                m.reply(String(e))
-                }
-                }
-            break
             case 'apikey':
                 m.reply(`Apikey Yang Dipake Oleh Bot Akame\n⬣ https://zenzapis.xyz [Sewa]`)
                 break
@@ -4861,16 +4844,18 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                     }
                 }]
                 let setbot = db.settings[botNumber]
-                if (setbot.templateImage) {
-                    hisoka.send5ButImg(m.chat, txtping, hisoka.user.name, global.thumb, btn)
-                } else if (setbot.templateGif) {
-                    hisoka.send5ButGif(m.chat, txtping, hisoka.user.name, global.visoka, btn)
-                } else if (setbot.templateVid) {
-                    hisoka.send5ButVid(m.chat, txtping, hisoka.user.name, global.visoka, btn)
-                } else if (setbot.templateMsg) {
-                    hisoka.send5ButMsg(m.chat, txtping, hisoka.user.name, btn)
-                }
-            }
+                        if (setbot.templateImage) {
+                        hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
+                        } else if (setbot.templateGif) {
+                        hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn, global.thumb)
+                        } else if (setbot.templateVid) {
+                        hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn, global.thumb)
+                        } else if (setbot.templateMsg) {
+                        hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
+                        } else if (setbot.templateLocation) {
+                        hisoka.send5ButLoc(m.chat, anu, hisoka.user.name, global.thumb, btn)
+                        }
+                     }
             break
             case 'speed':
             case 'speedtest': {
