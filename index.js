@@ -113,16 +113,14 @@ if (global.db) setInterval(async () => {
 
 async function startHisoka() {
     const hisoka = hisokaConnect({
-        logger: pino({
-            level: 'silent'
-        }),
+        logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['GuaAbuzz Multi Device', 'Safari', '1.0.0'],
+        browser: ['Akame Multi Device','Safari','1.0.0'],
         auth: state
     })
 
     store.bind(hisoka.ev)
-
+    
     // Anti Call
     hisoka.ev.on('call', async (fatihh) => {
     let botNumber = await hisoka.decodeJid(hisoka.user.id)
@@ -229,20 +227,17 @@ async function startHisoka() {
             return decode.user && decode.server && decode.user + '@' + decode.server || jid
         } else return jid
     }
-
+    
     hisoka.ev.on('contacts.update', update => {
         for (let contact of update) {
             let id = hisoka.decodeJid(contact.id)
-            if (store && store.contacts) store.contacts[id] = {
-                id,
-                name: contact.notify
-            }
+            if (store && store.contacts) store.contacts[id] = { id, name: contact.notify }
         }
     })
 
-    hisoka.getName = (jid, withoutContact = false) => {
+    hisoka.getName = (jid, withoutContact  = false) => {
         id = hisoka.decodeJid(jid)
-        withoutContact = hisoka.withoutContact || withoutContact
+        withoutContact = hisoka.withoutContact || withoutContact 
         let v
         if (id.endsWith("@g.us")) return new Promise(async (resolve) => {
             v = store.contacts[id] || {}
@@ -250,33 +245,25 @@ async function startHisoka() {
             resolve(v.name || v.subject || PhoneNumber('+' + id.replace('@s.whatsapp.net', '')).getNumber('international'))
         })
         else v = id === '0@s.whatsapp.net' ? {
-                id,
-                name: 'WhatsApp'
-            } : id === hisoka.decodeJid(hisoka.user.id) ?
+            id,
+            name: 'WhatsApp'
+        } : id === hisoka.decodeJid(hisoka.user.id) ?
             hisoka.user :
             (store.contacts[id] || {})
-        return (withoutContact ? '' : v.name) || v.subject || v.verifiedName || PhoneNumber('+' + jid.replace('@s.whatsapp.net', '')).getNumber('international')
+            return (withoutContact ? '' : v.name) || v.subject || v.verifiedName || PhoneNumber('+' + jid.replace('@s.whatsapp.net', '')).getNumber('international')
     }
-
+    
     hisoka.sendContact = async (jid, kon, quoted = '', opts = {}) => {
-        let list = []
-        for (let i of kon) {
-            list.push({
-                displayName: await hisoka.getName(i + '@s.whatsapp.net'),
-                vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await hisoka.getName(i + '@s.whatsapp.net')}\nFN:${await hisoka.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Ponsel\nitem2.EMAIL;type=INTERNET:guaabuzz@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:tiktok.com/@guaabuzz\nitem3.X-ABLabel:TikTok\nitem4.ADR:;;Indonesia;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
-            })
-        }
-        hisoka.sendMessage(jid, {
-            contacts: {
-                displayName: `${list.length} Kontak`,
-                contacts: list
-            },
-            ...opts
-        }, {
-            quoted
-        })
+	let list = []
+	for (let i of kon) {
+	    list.push({
+	    	displayName: await hisoka.getName(i + '@s.whatsapp.net'),
+	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await hisoka.getName(i + '@s.whatsapp.net')}\nFN:${await hisoka.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Ponsel\nitem2.EMAIL;type=INTERNET:guaabuzz@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:tiktok.com/@guaabuzz\nitem3.X-ABLabel:Web\nitem4.ADR:;;Indonesia;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
+	    })
+	}
+	hisoka.sendMessage(jid, { contacts: { displayName: `${list.length} Kontak`, contacts: list }, ...opts }, { quoted })
     }
-
+    
     hisoka.setStatus = (status) => {
         hisoka.query({
             tag: 'iq',
@@ -293,40 +280,23 @@ async function startHisoka() {
         })
         return status
     }
-
+	
     hisoka.public = true
 
     hisoka.serializeM = (m) => smsg(hisoka, m, store)
 
     hisoka.ev.on('connection.update', async (update) => {
-        const {
-            connection,
-            lastDisconnect
-        } = update
+        const { connection, lastDisconnect } = update	    
         if (connection === 'close') {
-            let reason = new Boom(lastDisconnect?.error)?.output.statusCode
-            if (reason === DisconnectReason.badSession) {
-                console.log(`Bad Session File, Please Delete Session and Scan Again`);
-                hisoka.logout();
-            } else if (reason === DisconnectReason.connectionClosed) {
-                console.log("Connection closed, reconnecting....");
-                startHisoka();
-            } else if (reason === DisconnectReason.connectionLost) {
-                console.log("Connection Lost from Server, reconnecting...");
-                startHisoka();
-            } else if (reason === DisconnectReason.connectionReplaced) {
-                console.log("Connection Replaced, Another New Session Opened, Please Close Current Session First");
-                hisoka.logout();
-            } else if (reason === DisconnectReason.loggedOut) {
-                console.log(`Device Logged Out, Please Scan Again And Run.`);
-                hisoka.logout();
-            } else if (reason === DisconnectReason.restartRequired) {
-                console.log("Restart Required, Restarting...");
-                startHisoka();
-            } else if (reason === DisconnectReason.timedOut) {
-                console.log("Connection TimedOut, Reconnecting...");
-                startHisoka();
-            } else hisoka.end(`Unknown DisconnectReason: ${reason}|${connection}`)
+        let reason = new Boom(lastDisconnect?.error)?.output.statusCode
+            if (reason === DisconnectReason.badSession) { console.log(`Bad Session File, Please Delete Session and Scan Again`); hisoka.logout(); }
+            else if (reason === DisconnectReason.connectionClosed) { console.log("Connection closed, reconnecting...."); startHisoka(); }
+            else if (reason === DisconnectReason.connectionLost) { console.log("Connection Lost from Server, reconnecting..."); startHisoka(); }
+            else if (reason === DisconnectReason.connectionReplaced) { console.log("Connection Replaced, Another New Session Opened, Please Close Current Session First"); hisoka.logout(); }
+            else if (reason === DisconnectReason.loggedOut) { console.log(`Device Logged Out, Please Scan Again And Run.`); hisoka.logout(); }
+            else if (reason === DisconnectReason.restartRequired) { console.log("Restart Required, Restarting..."); startHisoka(); }
+            else if (reason === DisconnectReason.timedOut) { console.log("Connection TimedOut, Reconnecting..."); startHisoka(); }
+            else hisoka.end(`Unknown DisconnectReason: ${reason}|${connection}`)
         }
         console.log('Connected...', update)
     })
