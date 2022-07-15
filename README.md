@@ -114,9 +114,9 @@ Editing Number Owner & session name in [`config.js`](https://github.com/Abuzzpoe
 ```How To Customise Message Display```
 ```js
 //—————「 Website Apikey 」—————//
-//gausah di apa² in, beli sendiri key ya :)
+//gausah di apa² in, Udah Free kok :)
 global.APIKeys = {
-    'https://zenzapis.xyz': 'Your_Apikey',
+    'https://zenzapis.xyz': 'akame-chan>_<',
 }
 
 //—————「 Set Nama Bot & Own & Agama 」—————//
