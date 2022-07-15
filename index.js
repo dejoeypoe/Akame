@@ -130,10 +130,10 @@ async function startHisoka() {
     for (let tihh of fatihh) {
     if (tihh.isGroup == false) {
     if (tihh.status == "offer") {
-    let pa7rick = await hisoka.sendTextWithMentions(tihh.from, `*${hisoka.user.name}* tidak bisa menerima panggilan ${tihh.isVideo ? `video` : `suara`}. Maaf @${tihh.from.split('@')[0]} kamu akan diblockir. Jika tidak sengaja silahkan hubungi Owner untuk dibuka !`)
-    hisoka.sendContact(tihh.from, global.owner, pa7rick)
+    let pa7rick = await hisoka.sendTextWithMentions(tihh.chat, `*${hisoka.user.name}* tidak bisa menerima panggilan ${tihh.isVideo ? `video` : `suara`}. Maaf @${tihh.chat.split('@')[0]} kamu akan diblockir. Jika tidak sengaja silahkan hubungi Owner untuk dibuka !`)
+    hisoka.sendContact(tihh.chat, global.owner, pa7rick)
     await sleep(8000)
-    await hisoka.updateBlockStatus(tihh.from, "block")
+    await hisoka.updateBlockStatus(tihh.chat, "block")
     }
     }
     }
