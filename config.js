@@ -31,9 +31,6 @@ global.agama = 'Islam'
 //—————「 Setting Owner 」—————//
 global.owner = ['6289636827082']
 global.premium = ['6289636827082']
-global.email = ['guaabuzz@gmail.com']
-global.web = ['guaabuzz@gmail.com']
-global.region = ['guaabuzz@gmail.com']
 
 //—————「 Setting Nomor Donasi 」—————//
 //ubah aja kalau ada yg gapunya kasih tanda -
