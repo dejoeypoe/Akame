@@ -362,99 +362,100 @@ async function startHisoka() {
     hisoka.ev.on('creds.update', saveState)
 
     // Add Other
+      
+      /** Resize Image
+      *
+      * @param {Buffer} Buffer (Only Image)
+      * @param {Numeric} Width
+      * @param {Numeric} Height
+      */
+      hisoka.reSize = async (image, width, height) => {
+       let jimp = require('jimp')
+       var oyy = await jimp.read(image);
+       var kiyomasa = await oyy.resize(width, height).getBufferAsync(jimp.MIME_JPEG)
+       return kiyomasa
+      }
+      // Siapa yang cita-citanya pakai resize buat keliatan thumbnailnya
+      
+      /** Send Button 5 Location
+       *
+       * @param {*} jid
+       * @param {*} text
+       * @param {*} footer
+       * @param {*} location
+       * @param [*] button
+       * @param {*} options
+       */
+      hisoka.send5ButLoc = async (jid , text = '' , footer = '', lok, but = [], options = {}) =>{
+       let resize = await hisoka.reSize(lok, 300, 150)
+       var template = generateWAMessageFromContent(jid, {
+       "templateMessage": {
+       "hydratedTemplate": {
+       "locationMessage": {
+       "degreesLatitude": 0,
+       "degreesLongitude": 0,
+       "jpegThumbnail": resize
+       },
+       "hydratedContentText": text,
+       "hydratedFooterText": footer,
+       "hydratedButtons": but
+       }
+       }
+       }, options)
+       hisoka.relayMessage(jid, template.message, { messageId: template.key.id })
+      }
 
-    /**
-     *
-     * @param {*} jid
-     * @param {*} url
-     * @param {*} caption
-     * @param {*} quoted
-     * @param {*} options
-     */
-    hisoka.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
-        let mime = '';
-        let res = await axios.head(url)
-        mime = res.headers['content-type']
-        if (mime.split("/")[1] === "gif") {
-            return hisoka.sendMessage(jid, {
-                video: await getBuffer(url),
-                caption: caption,
-                gifPlayback: true,
-                ...options
-            }, {
-                quoted: quoted,
-                ...options
-            })
-        }
-        let type = mime.split("/")[0] + "Message"
-        if (mime === "application/pdf") {
-            return hisoka.sendMessage(jid, {
-                document: await getBuffer(url),
-                mimetype: 'application/pdf',
-                caption: caption,
-                ...options
-            }, {
-                quoted: quoted,
-                ...options
-            })
-        }
-        if (mime.split("/")[0] === "image") {
-            return hisoka.sendMessage(jid, {
-                image: await getBuffer(url),
-                caption: caption,
-                ...options
-            }, {
-                quoted: quoted,
-                ...options
-            })
-        }
-        if (mime.split("/")[0] === "video") {
-            return hisoka.sendMessage(jid, {
-                video: await getBuffer(url),
-                caption: caption,
-                mimetype: 'video/mp4',
-                ...options
-            }, {
-                quoted: quoted,
-                ...options
-            })
-        }
-        if (mime.split("/")[0] === "audio") {
-            return hisoka.sendMessage(jid, {
-                audio: await getBuffer(url),
-                caption: caption,
-                mimetype: 'audio/mpeg',
-                ...options
-            }, {
-                quoted: quoted,
-                ...options
-            })
-        }
-    }
+      /**
+      *
+      * @param {*} jid
+      * @param {*} url
+      * @param {*} caption
+      * @param {*} quoted
+      * @param {*} options
+      */
+     hisoka.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
+      let mime = '';
+      let res = await axios.head(url)
+      mime = res.headers['content-type']
+      if (mime.split("/")[1] === "gif") {
+     return hisoka.sendMessage(jid, { video: await getBuffer(url), caption: caption, gifPlayback: true, ...options}, { quoted: quoted, ...options})
+      }
+      let type = mime.split("/")[0]+"Message"
+      if(mime === "application/pdf"){
+     return hisoka.sendMessage(jid, { document: await getBuffer(url), mimetype: 'application/pdf', caption: caption, ...options}, { quoted: quoted, ...options })
+      }
+      if(mime.split("/")[0] === "image"){
+     return hisoka.sendMessage(jid, { image: await getBuffer(url), caption: caption, ...options}, { quoted: quoted, ...options})
+      }
+      if(mime.split("/")[0] === "video"){
+     return hisoka.sendMessage(jid, { video: await getBuffer(url), caption: caption, mimetype: 'video/mp4', ...options}, { quoted: quoted, ...options })
+      }
+      if(mime.split("/")[0] === "audio"){
+     return hisoka.sendMessage(jid, { audio: await getBuffer(url), caption: caption, mimetype: 'audio/mpeg', ...options}, { quoted: quoted, ...options })
+      }
+      }
 
     /** Send List Messaage
-     *
-     *@param {*} jid
-     *@param {*} text
-     *@param {*} footer
-     *@param {*} title
-     *@param {*} butText
-     *@param [*] sections
-     *@param {*} quoted
-     */
-    hisoka.sendListMsg = (jid, text = '', footer = '', title = '', butText = '', sects = [], quoted) => {
+      *
+      *@param {*} jid
+      *@param {*} text
+      *@param {*} footer
+      *@param {*} title
+      *@param {*} butText
+      *@param [*] sections
+      *@param {*} quoted
+      */
+        hisoka.sendListMsg = (jid, text = '', footer = '', title = '' , butText = '', sects = [], quoted) => {
         let sections = sects
         var listMes = {
-            text: text,
-            footer: footer,
-            title: title,
-            buttonText: butText,
-            sections
+        text: text,
+        footer: footer,
+        title: title,
+        buttonText: butText,
+        sections
         }
-        hisoka.sendMessage(jid, listMes, {
-            quoted: quoted
-        })
-    }
+        hisoka.sendMessage(jid, listMes, { quoted: quoted })
+        }
 
     /** Send Button 5 Message
      * 
@@ -464,15 +465,15 @@ async function startHisoka() {
      * @param {*} button
      * @returns 
      */
-    hisoka.send5ButMsg = (jid, text = '', footer = '', but = []) => {
+        hisoka.send5ButMsg = (jid, text = '' , footer = '', but = []) =>{
         let templateButtons = but
         var templateMessage = {
-            text: text,
-            footer: footer,
-            templateButtons: templateButtons
+        text: text,
+        footer: footer,
+        templateButtons: templateButtons
         }
         hisoka.sendMessage(jid, templateMessage)
-    }
+        }
 
     /** Send Button 5 Image
      *
@@ -484,25 +485,20 @@ async function startHisoka() {
      * @param {*} options
      * @returns
      */
-    hisoka.send5ButImg = async (jid, text = '', footer = '', img, but = [], options = {}) => {
-        let message = await prepareWAMessageMedia({
-            image: img
-        }, {
-            upload: hisoka.waUploadToServer
-        })
+    hisoka.send5ButImg = async (jid , text = '' , footer = '', img, but = [], buff, options = {}) =>{
+        let resize = await hisoka.reSize(buff, 300, 150)
+        let message = await prepareWAMessageMedia({ image: img, jpegThumbnail: resize }, { upload: hisoka.waUploadToServer })
         var template = generateWAMessageFromContent(jid, proto.Message.fromObject({
-            templateMessage: {
-                hydratedTemplate: {
-                    imageMessage: message.imageMessage,
-                    "hydratedContentText": text,
-                    "hydratedFooterText": footer,
-                    "hydratedButtons": but
-                }
+        templateMessage: {
+        hydratedTemplate: {
+        imageMessage: message.imageMessage,
+               "hydratedContentText": text,
+               "hydratedFooterText": footer,
+               "hydratedButtons": but
             }
-        }), options)
-        hisoka.relayMessage(jid, template.message, {
-            messageId: template.key.id
-        })
+            }
+            }), options)
+            hisoka.relayMessage(jid, template.message, { messageId: template.key.id })
     }
 
     /** Send Button 5 Video
@@ -515,25 +511,20 @@ async function startHisoka() {
      * @param {*} options
      * @returns
      */
-    hisoka.send5ButVid = async (jid, text = '', footer = '', vid, but = [], options = {}) => {
-        let message = await prepareWAMessageMedia({
-            video: vid
-        }, {
-            upload: hisoka.waUploadToServer
-        })
+    hisoka.send5ButVid = async (jid , text = '' , footer = '', vid, but = [], buff, options = {}) =>{
+        let resize = await hisoka.reSize(buff, 300, 150)
+        let message = await prepareWAMessageMedia({ video: vid, jpegThumbnail: resize }, { upload: hisoka.waUploadToServer })
         var template = generateWAMessageFromContent(jid, proto.Message.fromObject({
-            templateMessage: {
-                hydratedTemplate: {
-                    videoMessage: message.videoMessage,
-                    "hydratedContentText": text,
-                    "hydratedFooterText": footer,
-                    "hydratedButtons": but
-                }
+        templateMessage: {
+        hydratedTemplate: {
+        videoMessage: message.videoMessage,
+               "hydratedContentText": text,
+               "hydratedFooterText": footer,
+               "hydratedButtons": but
             }
-        }), options)
-        hisoka.relayMessage(jid, template.message, {
-            messageId: template.key.id
-        })
+            }
+            }), options)
+            hisoka.relayMessage(jid, template.message, { messageId: template.key.id })
     }
 
     /** Send Button 5 Gif
@@ -546,26 +537,22 @@ async function startHisoka() {
      * @param {*} options
      * @returns
      */
-    hisoka.send5ButGif = async (jid, text = '', footer = '', gif, but = [], options = {}) => {
-        let message = await prepareWAMessageMedia({
-            video: gif,
-            gifPlayback: true
-        }, {
-            upload: hisoka.waUploadToServer
-        })
+    hisoka.send5ButGif = async (jid , text = '' , footer = '', gif, but = [], buff, options = {}) =>{
+        let resize = await hisoka.reSize(buff, 300, 150)
+        let a = [1,2]
+        let b = a[Math.floor(Math.random() * a.length)]
+        let message = await prepareWAMessageMedia({ video: gif, gifPlayback: true, jpegThumbnail: resize, gifAttribution: b}, { upload: hisoka.waUploadToServer })
         var template = generateWAMessageFromContent(jid, proto.Message.fromObject({
-            templateMessage: {
-                hydratedTemplate: {
-                    videoMessage: message.videoMessage,
-                    "hydratedContentText": text,
-                    "hydratedFooterText": footer,
-                    "hydratedButtons": but
-                }
+        templateMessage: {
+        hydratedTemplate: {
+        videoMessage: message.videoMessage,
+               "hydratedContentText": text,
+               "hydratedFooterText": footer,
+               "hydratedButtons": but
             }
-        }), options)
-        hisoka.relayMessage(jid, template.message, {
-            messageId: template.key.id
-        })
+            }
+            }), options)
+            hisoka.relayMessage(jid, template.message, { messageId: template.key.id })
     }
 
     /**
@@ -585,12 +572,9 @@ async function startHisoka() {
             headerType: 2,
             ...options
         }
-        hisoka.sendMessage(jid, buttonMessage, {
-            quoted,
-            ...options
-        })
+        hisoka.sendMessage(jid, buttonMessage, { quoted, ...options })
     }
-
+    
     /**
      * 
      * @param {*} jid 
@@ -599,12 +583,7 @@ async function startHisoka() {
      * @param {*} options 
      * @returns 
      */
-    hisoka.sendText = (jid, text, quoted = '', options) => hisoka.sendMessage(jid, {
-        text: text,
-        ...options
-    }, {
-        quoted
-    })
+    hisoka.sendText = (jid, text, quoted = '', options) => hisoka.sendMessage(jid, { text: text, ...options }, { quoted, ...options })
 
     /**
      * 
@@ -616,14 +595,8 @@ async function startHisoka() {
      * @returns 
      */
     hisoka.sendImage = async (jid, path, caption = '', quoted = '', options) => {
-        let buffer = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,` [1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
-        return await hisoka.sendMessage(jid, {
-            image: buffer,
-            caption: caption,
-            ...options
-        }, {
-            quoted
-        })
+	let buffer = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,`[1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
+        return await hisoka.sendMessage(jid, { image: buffer, caption: caption, ...options }, { quoted })
     }
 
     /**
@@ -636,15 +609,8 @@ async function startHisoka() {
      * @returns 
      */
     hisoka.sendVideo = async (jid, path, caption = '', quoted = '', gif = false, options) => {
-        let buffer = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,` [1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
-        return await hisoka.sendMessage(jid, {
-            video: buffer,
-            caption: caption,
-            gifPlayback: gif,
-            ...options
-        }, {
-            quoted
-        })
+        let buffer = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,`[1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
+        return await hisoka.sendMessage(jid, { video: buffer, caption: caption, gifPlayback: gif, ...options }, { quoted })
     }
 
     /**
@@ -657,14 +623,8 @@ async function startHisoka() {
      * @returns 
      */
     hisoka.sendAudio = async (jid, path, quoted = '', ptt = false, options) => {
-        let buffer = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,` [1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
-        return await hisoka.sendMessage(jid, {
-            audio: buffer,
-            ptt: ptt,
-            ...options
-        }, {
-            quoted
-        })
+        let buffer = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,`[1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
+        return await hisoka.sendMessage(jid, { audio: buffer, ptt: ptt, ...options }, { quoted })
     }
 
     /**
@@ -675,15 +635,7 @@ async function startHisoka() {
      * @param {*} options 
      * @returns 
      */
-    hisoka.sendTextWithMentions = async (jid, text, quoted, options = {}) => hisoka.sendMessage(jid, {
-        text: text,
-        contextInfo: {
-            mentionedJid: [...text.matchAll(/@(\d{0,16})/g)].map(v => v[1] + '@s.whatsapp.net')
-        },
-        ...options
-    }, {
-        quoted
-    })
+    hisoka.sendTextWithMentions = async (jid, text, quoted, options = {}) => hisoka.sendMessage(jid, { text: text, mentions: [...text.matchAll(/@(\d{0,16})/g)].map(v => v[1] + '@s.whatsapp.net'), ...options }, { quoted })
 
     /**
      * 
@@ -694,7 +646,7 @@ async function startHisoka() {
      * @returns 
      */
     hisoka.sendImageAsSticker = async (jid, path, quoted, options = {}) => {
-        let buff = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,` [1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
+        let buff = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,`[1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
         let buffer
         if (options && (options.packname || options.author)) {
             buffer = await writeExifImg(buff, options)
@@ -702,14 +654,7 @@ async function startHisoka() {
             buffer = await imageToWebp(buff)
         }
 
-        await hisoka.sendMessage(jid, {
-            sticker: {
-                url: buffer
-            },
-            ...options
-        }, {
-            quoted
-        })
+        await hisoka.sendMessage(jid, { sticker: { url: buffer }, ...options }, { quoted })
         return buffer
     }
 
@@ -722,7 +667,7 @@ async function startHisoka() {
      * @returns 
      */
     hisoka.sendVideoAsSticker = async (jid, path, quoted, options = {}) => {
-        let buff = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,` [1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
+        let buff = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,`[1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
         let buffer
         if (options && (options.packname || options.author)) {
             buffer = await writeExifVid(buff, options)
@@ -730,17 +675,10 @@ async function startHisoka() {
             buffer = await videoToWebp(buff)
         }
 
-        await hisoka.sendMessage(jid, {
-            sticker: {
-                url: buffer
-            },
-            ...options
-        }, {
-            quoted
-        })
+        await hisoka.sendMessage(jid, { sticker: { url: buffer }, ...options }, { quoted })
         return buffer
     }
-
+	
     /**
      * 
      * @param {*} message 
@@ -754,10 +692,10 @@ async function startHisoka() {
         let messageType = message.mtype ? message.mtype.replace(/Message/gi, '') : mime.split('/')[0]
         const stream = await downloadContentFromMessage(quoted, messageType)
         let buffer = Buffer.from([])
-        for await (const chunk of stream) {
+        for await(const chunk of stream) {
             buffer = Buffer.concat([buffer, chunk])
         }
-        let type = await FileType.fromBuffer(buffer)
+	let type = await FileType.fromBuffer(buffer)
         trueFileName = attachExtension ? (filename + '.' + type.ext) : filename
         // save to file
         await fs.writeFileSync(trueFileName, buffer)
@@ -769,13 +707,13 @@ async function startHisoka() {
         let messageType = message.mtype ? message.mtype.replace(/Message/gi, '') : mime.split('/')[0]
         const stream = await downloadContentFromMessage(message, messageType)
         let buffer = Buffer.from([])
-        for await (const chunk of stream) {
+        for await(const chunk of stream) {
             buffer = Buffer.concat([buffer, chunk])
-        }
-
-        return buffer
-    }
-
+	}
+        
+	return buffer
+     } 
+    
     /**
      * 
      * @param {*} jid 
@@ -788,60 +726,28 @@ async function startHisoka() {
      */
     hisoka.sendMedia = async (jid, path, fileName = '', caption = '', quoted = '', options = {}) => {
         let types = await hisoka.getFile(path, true)
-        let {
-            mime,
-            ext,
-            res,
-            data,
-            filename
-        } = types
-        if (res && res.status !== 200 || file.length <= 65536) {
-            try {
-                throw {
-                    json: JSON.parse(file.toString())
-                }
-            } catch (e) {
-                if (e.json) throw e.json
-            }
+           let { mime, ext, res, data, filename } = types
+           if (res && res.status !== 200 || file.length <= 65536) {
+               try { throw { json: JSON.parse(file.toString()) } }
+               catch (e) { if (e.json) throw e.json }
+           }
+       let type = '', mimetype = mime, pathFile = filename
+       if (options.asDocument) type = 'document'
+       if (options.asSticker || /webp/.test(mime)) {
+        let { writeExif } = require('./lib/exif')
+        let media = { mimetype: mime, data }
+        pathFile = await writeExif(media, { packname: options.packname ? options.packname : global.packname, author: options.author ? options.author : global.author, categories: options.categories ? options.categories : [] })
+        await fs.promises.unlink(filename)
+        type = 'sticker'
+        mimetype = 'image/webp'
         }
-        let type = '',
-            mimetype = mime,
-            pathFile = filename
-        if (options.asDocument) type = 'document'
-        if (options.asSticker || /webp/.test(mime)) {
-            let {
-                writeExif
-            } = require('./lib/exif')
-            let media = {
-                mimetype: mime,
-                data
-            }
-            pathFile = await writeExif(media, {
-                packname: options.packname ? options.packname : global.packname,
-                author: options.author ? options.author : global.author,
-                categories: options.categories ? options.categories : []
-            })
-            await fs.promises.unlink(filename)
-            type = 'sticker'
-            mimetype = 'image/webp'
-        } else if (/image/.test(mime)) type = 'image'
-        else if (/video/.test(mime)) type = 'video'
-        else if (/audio/.test(mime)) type = 'audio'
-        else type = 'document'
-        await hisoka.sendMessage(jid, {
-            [type]: {
-                url: pathFile
-            },
-            caption,
-            mimetype,
-            fileName,
-            ...options
-        }, {
-            quoted,
-            ...options
-        })
-        return fs.promises.unlink(pathFile)
-    }
+       else if (/image/.test(mime)) type = 'image'
+       else if (/video/.test(mime)) type = 'video'
+       else if (/audio/.test(mime)) type = 'audio'
+       else type = 'document'
+       await hisoka.sendMessage(jid, { [type]: { url: pathFile }, caption, mimetype, fileName, ...options }, { quoted, ...options })
+       return fs.promises.unlink(pathFile)
+       }
 
     /**
      * 
@@ -853,20 +759,20 @@ async function startHisoka() {
      */
     hisoka.copyNForward = async (jid, message, forceForward = false, options = {}) => {
         let vtype
-        if (options.readViewOnce) {
-            message.message = message.message && message.message.ephemeralMessage && message.message.ephemeralMessage.message ? message.message.ephemeralMessage.message : (message.message || undefined)
-            vtype = Object.keys(message.message.viewOnceMessage.message)[0]
-            delete(message.message && message.message.ignore ? message.message.ignore : (message.message || undefined))
-            delete message.message.viewOnceMessage.message[vtype].viewOnce
-            message.message = {
-                ...message.message.viewOnceMessage.message
-            }
-        }
+		if (options.readViewOnce) {
+			message.message = message.message && message.message.ephemeralMessage && message.message.ephemeralMessage.message ? message.message.ephemeralMessage.message : (message.message || undefined)
+			vtype = Object.keys(message.message.viewOnceMessage.message)[0]
+			delete(message.message && message.message.ignore ? message.message.ignore : (message.message || undefined))
+			delete message.message.viewOnceMessage.message[vtype].viewOnce
+			message.message = {
+				...message.message.viewOnceMessage.message
+			}
+		}
 
         let mtype = Object.keys(message.message)[0]
         let content = await generateForwardMessageContent(message, forceForward)
         let ctype = Object.keys(content)[0]
-        let context = {}
+		let context = {}
         if (mtype != "conversation") context = message.message[mtype].contextInfo
         content[ctype].contextInfo = {
             ...context,
@@ -882,34 +788,32 @@ async function startHisoka() {
                 }
             } : {})
         } : {})
-        await hisoka.relayMessage(jid, waMessage.message, {
-            messageId: waMessage.key.id
-        })
+        await hisoka.relayMessage(jid, waMessage.message, { messageId:  waMessage.key.id })
         return waMessage
     }
 
     hisoka.cMod = (jid, copy, text = '', sender = hisoka.user.id, options = {}) => {
         //let copy = message.toJSON()
-        let mtype = Object.keys(copy.message)[0]
-        let isEphemeral = mtype === 'ephemeralMessage'
+		let mtype = Object.keys(copy.message)[0]
+		let isEphemeral = mtype === 'ephemeralMessage'
         if (isEphemeral) {
             mtype = Object.keys(copy.message.ephemeralMessage.message)[0]
         }
         let msg = isEphemeral ? copy.message.ephemeralMessage.message : copy.message
-        let content = msg[mtype]
+		let content = msg[mtype]
         if (typeof content === 'string') msg[mtype] = text || content
-        else if (content.caption) content.caption = text || content.caption
-        else if (content.text) content.text = text || content.text
-        if (typeof content !== 'string') msg[mtype] = {
-            ...content,
-            ...options
+		else if (content.caption) content.caption = text || content.caption
+		else if (content.text) content.text = text || content.text
+		if (typeof content !== 'string') msg[mtype] = {
+			...content,
+			...options
         }
         if (copy.key.participant) sender = copy.key.participant = sender || copy.key.participant
-        else if (copy.key.participant) sender = copy.key.participant = sender || copy.key.participant
-        if (copy.key.remoteJid.includes('@s.whatsapp.net')) sender = sender || copy.key.remoteJid
-        else if (copy.key.remoteJid.includes('@broadcast')) sender = sender || copy.key.remoteJid
-        copy.key.remoteJid = jid
-        copy.key.fromMe = sender === hisoka.user.id
+		else if (copy.key.participant) sender = copy.key.participant = sender || copy.key.participant
+		if (copy.key.remoteJid.includes('@s.whatsapp.net')) sender = sender || copy.key.remoteJid
+		else if (copy.key.remoteJid.includes('@broadcast')) sender = sender || copy.key.remoteJid
+		copy.key.remoteJid = jid
+		copy.key.fromMe = sender === hisoka.user.id
 
         return proto.WebMessageInfo.fromObject(copy)
     }
@@ -922,7 +826,7 @@ async function startHisoka() {
      */
     hisoka.getFile = async (PATH, save) => {
         let res
-        let data = Buffer.isBuffer(PATH) ? PATH : /^data:.*?\/.*?;base64,/i.test(PATH) ? Buffer.from(PATH.split`,` [1], 'base64') : /^https?:\/\//.test(PATH) ? await (res = await getBuffer(PATH)) : fs.existsSync(PATH) ? (filename = PATH, fs.readFileSync(PATH)) : typeof PATH === 'string' ? PATH : Buffer.alloc(0)
+        let data = Buffer.isBuffer(PATH) ? PATH : /^data:.*?\/.*?;base64,/i.test(PATH) ? Buffer.from(PATH.split`,`[1], 'base64') : /^https?:\/\//.test(PATH) ? await (res = await getBuffer(PATH)) : fs.existsSync(PATH) ? (filename = PATH, fs.readFileSync(PATH)) : typeof PATH === 'string' ? PATH : Buffer.alloc(0)
         //if (!Buffer.isBuffer(data)) throw new TypeError('Result is not a buffer')
         let type = await FileType.fromBuffer(data) || {
             mime: 'application/octet-stream',
@@ -933,7 +837,7 @@ async function startHisoka() {
         return {
             res,
             filename,
-            size: await getSizeMedia(data),
+	    size: await getSizeMedia(data),
             ...type,
             data
         }
@@ -948,8 +852,8 @@ startHisoka()
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
-    fs.unwatchFile(file)
-    console.log(chalk.redBright(`Update ${__filename}`))
-    delete require.cache[file]
-    require(file)
+	fs.unwatchFile(file)
+	console.log(chalk.redBright(`Update ${__filename}`))
+	delete require.cache[file]
+	require(file)
 })
