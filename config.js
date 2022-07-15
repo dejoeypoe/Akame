@@ -18,7 +18,7 @@ global.APIs = {
 
 //—————「 Website Apikey 」—————//
 global.APIKeys = {
-    //gausah di apa² in, beli sendiri key ya :)
+    //gausah di apa² in, Udah Free kok :)
     'https://zenzapis.xyz': 'akame-chan>_<',
 }
 
