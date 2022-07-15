@@ -48,9 +48,9 @@ This Script is for everyone, not for Sale. Jika dijual neraka menunggumu brother
 
 [![IMAGEMAGICK](https://img.shields.io/badge/BuildPack%20IMAGEMAGICK-1b1e23?style=for-the-badge&logo=heroku&logoColor=white)](https://github.com/DuckyTeam/heroku-buildpack-imagemagick)
 
-## For Okteto
+## Okteto
 
-* Okteto [`Click Here`](https://okteto.com)
+[![Deploy](https://cloud.okteto.com)
 
 ```bash
 Login with your github
