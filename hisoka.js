@@ -4920,6 +4920,8 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
             case 'owner':
             case 'creator': {
                 hisoka.sendContact(m.chat, global.owner, m)
+            }
+            break
             case 'bug':
             case 'report': {
                 if (!text) return m.reply(`Mau Lapor Apa?\n\nContoh: ${command} Menu Error`)
