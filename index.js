@@ -160,26 +160,30 @@ async function startHisoka() {
     // Group Update
     hisoka.ev.on('groups.update', async pea => {
     //console.log(pea)
-        // Get Profile Picture Group
-        try {
-            ppgc = await hisoka.profilePictureUrl(pea[0].id, 'image')
-        } catch {
-            ppgc = 'https://shortlink.hisokaarridho.my.id/rg1oT'
-        }
-        let wm_fatih = {
-            url: ppgc
-        }
-        if (pea[0].announce == true) {
-            hisoka.send5ButImg(pea[0].id, `「 Group Settings Change 」\n\nGroup telah ditutup oleh admin, Sekarang hanya admin yang dapat mengirim pesan !`, `Group Settings Change Message`, wm_fatih, [])
-        } else if (pea[0].announce == false) {
-            hisoka.send5ButImg(pea[0].id, `「 Group Settings Change 」\n\nGroup telah dibuka oleh admin, Sekarang peserta dapat mengirim pesan !`, `Group Settings Change Message`, wm_fatih, [])
-        } else if (pea[0].restrict == true) {
-            hisoka.send5ButImg(pea[0].id, `「 Group Settings Change 」\n\nInfo group telah dibatasi, Sekarang hanya admin yang dapat mengedit info group !`, `Group Settings Change Message`, wm_fatih, [])
-        } else if (pea[0].restrict == false) {
-            hisoka.send5ButImg(pea[0].id, `「 Group Settings Change 」\n\nInfo group telah dibuka, Sekarang peserta dapat mengedit info group !`, `Group Settings Change Message`, wm_fatih, [])
-        } else {
-            hisoka.send5ButImg(pea[0].id, `「 Group Settings Change 」\n\nGroup Subject telah diganti menjadi *${pea[0].subject}*`, `Group Settings Change Message`, wm_fatih, [])
-        }
+    try {
+    for(let ciko of pea) {
+    // Get Profile Picture Group
+       try {
+       ppgc = await hisoka.profilePictureUrl(ciko.id, 'image')
+       } catch {
+       ppgc = 'https://tinyurl.com/yx93l6da'
+       }
+       let wm_fatih = { url : ppgc }
+       if (ciko.announce == true) {
+       hisoka.send5ButImg(ciko.id, `「 Group Settings Change 」\n\nGroup telah ditutup oleh admin, Sekarang hanya admin yang dapat mengirim pesan !`, `Group Settings Change Message`, wm_fatih, [])
+       } else if (ciko.announce == false) {
+       hisoka.send5ButImg(ciko.id, `「 Group Settings Change 」\n\nGroup telah dibuka oleh admin, Sekarang peserta dapat mengirim pesan !`, `Group Settings Change Message`, wm_fatih, [])
+       } else if (ciko.restrict == true) {
+       hisoka.send5ButImg(ciko.id, `「 Group Settings Change 」\n\nInfo group telah dibatasi, Sekarang hanya admin yang dapat mengedit info group !`, `Group Settings Change Message`, wm_fatih, [])
+       } else if (ciko.restrict == false) {
+       hisoka.send5ButImg(ciko.id, `「 Group Settings Change 」\n\nInfo group telah dibuka, Sekarang peserta dapat mengedit info group !`, `Group Settings Change Message`, wm_fatih, [])
+       } else {
+       hisoka.send5ButImg(ciko.id, `「 Group Settings Change 」\n\nGroup Subject telah diganti menjadi *${ciko.subject}*`, `Group Settings Change Message`, wm_fatih, [])
+     }
+    }
+    } catch (err){
+    console.log(err)
+    }
     })
 
     hisoka.ev.on('group-participants.update', async (anu) => {
@@ -192,63 +196,31 @@ async function startHisoka() {
                 try {
                     ppuser = await hisoka.profilePictureUrl(num, 'image')
                 } catch {
-                    ppuser = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+                    ppuser = 'https://tinyurl.com/yx93l6da'
                 }
 
                 // Get Profile Picture Group
                 try {
                     ppgroup = await hisoka.profilePictureUrl(anu.id, 'image')
                 } catch {
-                    ppgroup = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+                    ppgroup = 'https://tinyurl.com/yx93l6da'
                 }
 
                 if (anu.action == 'add') {
-                    hisoka.sendMessage(anu.id, {
-                        image: {
-                            url: ppuser
-                        },
-                        contextInfo: {
-                            mentionedJid: [num]
-                        },
-                        caption: `Welcome @${num.split("@")[0]} To Group ${metadata.subject} 👋`
-                    })
+                    hisoka.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Welcome @${num.split("@")[0]} To Group ${metadata.subject} 👋` })
                 } else if (anu.action == 'remove') {
-                    hisoka.sendMessage(anu.id, {
-                        image: {
-                            url: ppuser
-                        },
-                        contextInfo: {
-                            mentionedJid: [num]
-                        },
-                        caption: `Sayonaraa @${num.split("@")[0]} 👋`
-                    })
+                    hisoka.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Sayonaraa @${num.split("@")[0]} 👋` })
                 } else if (anu.action == 'promote') {
-                    hisoka.sendMessage(anu.id, {
-                        image: {
-                            url: ppuser
-                        },
-                        contextInfo: {
-                            mentionedJid: [num]
-                        },
-                        caption: `Selamat Ya @${num.split("@")[0]} Atas Kenaikan Jabatannya Di Grup ${metadata.subject} 🎉`
-                    })
+                    hisoka.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Selamat Ya @${num.split("@")[0]} Atas Kenaikan Jabatannya Di Grup ${metadata.subject} 🎉` })
                 } else if (anu.action == 'demote') {
-                    hisoka.sendMessage(anu.id, {
-                        image: {
-                            url: ppuser
-                        },
-                        contextInfo: {
-                            mentionedJid: [num]
-                        },
-                        caption: `Nice Try @${num.split("@")[0]} Atas Penurunan Jabatannya Di Grup ${metadata.subject} 😔`
-                    })
-                }
+                    hisoka.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `@Nice Try @${num.split("@")[0]} Atas Penurunan Jabatannya Di Grup ${metadata.subject} 😔` })
+              }
             }
         } catch (err) {
             console.log(err)
         }
     })
-
+	
     // Setting
     hisoka.decodeJid = (jid) => {
         if (!jid) return jid
@@ -291,7 +263,7 @@ async function startHisoka() {
         for (let i of kon) {
             list.push({
                 displayName: await hisoka.getName(i + '@s.whatsapp.net'),
-                vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await hisoka.getName(i + '@s.whatsapp.net')}\nFN:${await hisoka.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Ponsel\nitem2.EMAIL;type=INTERNET:${global.email}\nitem2.X-ABLabel:Email\nitem3.URL:${global.web}\nitem3.X-ABLabel:TikTok\nitem4.ADR:;;${global.region};;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
+                vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await hisoka.getName(i + '@s.whatsapp.net')}\nFN:${await hisoka.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Ponsel\nitem2.EMAIL;type=INTERNET:guaabuzz@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:tiktok.com/@guaabuzz\nitem3.X-ABLabel:TikTok\nitem4.ADR:;;Indonesia;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
             })
         }
         hisoka.sendMessage(jid, {
