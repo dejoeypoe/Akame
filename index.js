@@ -123,40 +123,43 @@ async function startHisoka() {
 
     store.bind(hisoka.ev)
 
-    // anticall auto block
-    hisoka.ws.on('CB:call', async (json) => {
-        const callerId = json.content[0].attrs['call-creator']
-        if (json.content[0].tag == 'offer') {
-            let pa7rick = await hisoka.sendContact(callerId, global.owner)
-            hisoka.sendMessage(callerId, {
-                text: `Sistem otomatis block!\nJangan menelpon bot!\nSilahkan Hubungi Owner Untuk Dibuka !`
-            }, {
-                quoted: pa7rick
-            })
-            await sleep(8000)
-            await hisoka.updateBlockStatus(callerId, "block")
-        }
+    // Anti Call
+    hisoka.ev.on('call', async (fatihh) => {
+    let botNumber = await hisoka.decodeJid(hisoka.user.id)
+    let ciko = db.data.settings[botNumber].anticall
+    if (!ciko) return
+    console.log(fatihh)
+    for (let tihh of fatihh) {
+    if (tihh.isGroup == false) {
+    if (tihh.status == "offer") {
+    let pa7rick = await hisoka.sendTextWithMentions(tihh.from, `*${hisoka.user.name}* tidak bisa menerima panggilan ${tihh.isVideo ? `video` : `suara`}. Maaf @${tihh.from.split('@')[0]} kamu akan diblockir. Jika tidak sengaja silahkan hubungi Owner untuk dibuka !`)
+    hisoka.sendContact(tihh.from, global.owner, pa7rick)
+    await sleep(8000)
+    await hisoka.updateBlockStatus(tihh.from, "block")
+    }
+    }
+    }
     })
 
     hisoka.ev.on('messages.upsert', async chatUpdate => {
         //console.log(JSON.stringify(chatUpdate, undefined, 2))
         try {
-            mek = chatUpdate.messages[0]
-            if (!mek.message) return
-            mek.message = (Object.keys(mek.message)[0] === 'ephemeralMessage') ? mek.message.ephemeralMessage.message : mek.message
-            if (mek.key && mek.key.remoteJid === 'status@broadcast') return
-            if (!hisoka.public && !mek.key.fromMe && chatUpdate.type === 'notify') return
-            if (mek.key.id.startsWith('BAE5') && mek.key.id.length === 16) return
-            m = smsg(hisoka, mek, store)
-            require("./hisoka")(hisoka, m, chatUpdate, store)
+        mek = chatUpdate.messages[0]
+        if (!mek.message) return
+        mek.message = (Object.keys(mek.message)[0] === 'ephemeralMessage') ? mek.message.ephemeralMessage.message : mek.message
+        if (mek.key && mek.key.remoteJid === 'status@broadcast') return
+        if (!hisoka.public && !mek.key.fromMe && chatUpdate.type === 'notify') return
+        if (mek.key.id.startsWith('BAE5') && mek.key.id.length === 16) return
+        m = smsg(hisoka, mek, store)
+        require("./hisoka")(hisoka, m, chatUpdate, store)
         } catch (err) {
             console.log(err)
         }
     })
-
+    
     // Group Update
     hisoka.ev.on('groups.update', async pea => {
-        //console.log(pea)
+    //console.log(pea)
         // Get Profile Picture Group
         try {
             ppgc = await hisoka.profilePictureUrl(pea[0].id, 'image')
@@ -245,39 +248,6 @@ async function startHisoka() {
             console.log(err)
         }
     })
-
-hisoka.ev.on("message.delete", async (m) => {
-//	 console.log(m)
-		if (!m) m = false;
-	try {
-		const dataChat = JSON.parse(fs.readFileSync("./src/database.json"));
-		let mess = dataChat.find((a) => a.id == m.id);
-	//	console.log(mess)
-		
-		let mek = mess.msg;
-		let participant = mek.key.remoteJid.endsWith("@g.us") ? mek.key.participant : mek.key.remoteJid;
-		let froms = mek.key.remoteJid;
-		let teks = `「 *Anti delete Message* 」
-    
-    🤠 *Name* : ${mek.pushName}
-    👾 *User* : @${mek.sender.split("@")[0]}
-    ⏰ *Clock* : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')} WIB
-    💫 *MessageType* : ${mek.mtype}`
-		await hisoka.sendMessage(
-			froms,
-			{
-				text:teks,
-				mentions: [participant],
-			},
-			{ quoted: mek }
-		);
-		await hisoka.copyNForward(froms, mek, true) 
-	} catch (err) {
-		//console.log(JSON.stringify(err, undefined, 2))
-		}
-	  
-
-	});
 
     // Setting
     hisoka.decodeJid = (jid) => {
