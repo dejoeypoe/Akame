@@ -4917,6 +4917,9 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                 }
             }
             break
+            case 'owner':
+            case 'creator': {
+                hisoka.sendContact(m.chat, global.owner, m)
             case 'bug':
             case 'report': {
                 if (!text) return m.reply(`Mau Lapor Apa?\n\nContoh: ${command} Menu Error`)
