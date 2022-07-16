@@ -4030,98 +4030,58 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 hisoka.sendText(m.chat, `⭔ *Hasil :* ${anu.message}`, m)
             }
             break
-            case 'tiktok': {
-                if (!text) throw 'Link TikTok Ya Mana?'
-                let buttons = [{
-                        buttonId: `tiktoknowm ${text}`,
-                        buttonText: {
-                            displayText: '► No Watermark'
-                        },
-                        type: 1
-                    },
-                    {
-                        buttonId: `tiktokwm ${text}`,
-                        buttonText: {
-                            displayText: '► With Watermark'
-                        },
-                        type: 1
-                    },
-                    {
-                        buttonId: `tiktokmp3 ${text}`,
-                        buttonText: {
-                            displayText: '♫ Audio'
-                        },
-                        type: 1
-                    }
+            case 'tiktok': case 'tiktoknowm': {
+                if (!text) throw 'Masukkan Query Link!'
+                m.reply(mess.wait)
+                let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
+                let buttons = [
+                    {buttonId: `tiktokwm ${text}`, buttonText: {displayText: '► With Watermark'}, type: 1},
+                    {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '♫ Audio'}, type: 1}
                 ]
                 let buttonMessage = {
-                    text: `TikTok Downloader`,
-                    footer: 'Tekan Tombol Di Bawah',
+                    video: { url: anu.result.nowatermark },
+                    caption: `Download From ${text}`,
+                    footer: 'Press The Button Below',
                     buttons: buttons,
                     headerType: 5
                 }
-                hisoka.sendMessage(m.chat, buttonMessage, {
-                    quoted: ftroli
-                })
+                hisoka.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
-            case 'tiktoknowm':
-            case 'tiktoknowatermark': {
-                if (!text) throw 'Link TikTok Ya Mana?'
+            case 'tiktokwm': case 'tiktokwatermark': {
+                if (!text) throw 'Masukkan Query Link!'
                 m.reply(mess.wait)
-                let anu = await TiktokDownloader(`${text}`)
+                let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
+                let buttons = [
+                    {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '► No Watermark'}, type: 1},
+                    {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '♫ Audio'}, type: 1}
+                ]
                 let buttonMessage = {
-                    video: {
-                        url: anu.result.nowatermark
-                    },
+                    video: { url: anu.result.watermark },
                     caption: `Download From ${text}`,
-                    footer: hisoka.user.name,
+                    footer: 'Press The Button Below',
+                    buttons: buttons,
                     headerType: 5
                 }
-                hisoka.sendMessage(m.chat, buttonMessage, {
-                    quoted: ftroli
-                })
+                hisoka.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
-            case 'tiktokwm':
-            case 'tiktokwatermark': {
-                if (!text) throw 'Link TikTok Ya, Mana?'
+            case 'tiktokmp3': case 'tiktokaudio': {
+                if (!text) throw 'Masukkan Query Link!'
                 m.reply(mess.wait)
-                let anu = await TiktokDownloader(`${text}`)
-                let buttonMessage = {
-                    video: {
-                        url: anu.result.watermark
-                    },
-                    caption: `Download From ${text}`,
-                    footer: hisoka.user.name,
-                    headerType: 5
-                }
-                hisoka.sendMessage(m.chat, buttonMessage, {
-                    quoted: ftroli
-                })
-            }
-            break
-            case 'tiktokmp3':
-            case 'tiktokaudio': {
-                if (!text) throw 'Link TikTok Ya Mana?'
-                m.reply(mess.wait)
-                let anu = await TiktokDownloader(`${text}`)
+                let anu = await fetchJson(api('zenz', '/downloader/musically', { url: text }, 'apikey'))
+                let buttons = [
+                    {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '► No Watermark'}, type: 1},
+                    {buttonId: `tiktokwm ${text}`, buttonText: {displayText: '► With Watermark'}, type: 1}
+                ]
                 let buttonMessage = {
                     text: `Download From ${text}`,
-                    footer: hisoka.user.name,
+                    footer: 'Press The Button Below',
+                    buttons: buttons,
                     headerType: 2
                 }
-                let msg = await hisoka.sendMessage(m.chat, buttonMessage, {
-                    quoted: ftroli
-                })
-                hisoka.sendMessage(m.chat, {
-                    audio: {
-                        url: anu.result.audio
-                    },
-                    mimetype: 'audio/mpeg'
-                }, {
-                    quoted: msg
-                })
+                let msg = await hisoka.sendMessage(m.chat, buttonMessage, { quoted: m })
+                hisoka.sendMessage(m.chat, { audio: { url: anu.result.audio }, mimetype: 'audio/mpeg'}, { quoted: msg })
             }
             break
             case 'instagram': case 'ig': case 'igdl': {
