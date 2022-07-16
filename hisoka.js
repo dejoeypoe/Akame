@@ -4069,10 +4069,10 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             case 'tiktoknowatermark': {
                 if (!text) throw 'Link TikTok Ya Mana?'
                 m.reply(mess.wait)
-                let anu = await aiovideodl(`${text}`)
+                let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
                 let buttonMessage = {
                     video: {
-                        url: anu.medias[1].url
+                        url: anu.result.nowatermark
                     },
                     caption: `Download From ${text}`,
                     footer: hisoka.user.name,
@@ -4087,10 +4087,10 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             case 'tiktokwatermark': {
                 if (!text) throw 'Link TikTok Ya, Mana?'
                 m.reply(mess.wait)
-                let anu = await aiovideodl(`${text}`)
+                let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
                 let buttonMessage = {
                     video: {
-                        url: anu.medias[0].url
+                        url: anu.result.watermark
                     },
                     caption: `Download From ${text}`,
                     footer: hisoka.user.name,
@@ -4105,7 +4105,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             case 'tiktokaudio': {
                 if (!text) throw 'Link TikTok Ya Mana?'
                 m.reply(mess.wait)
-                let anu = await aiovideodl(`${text}`)
+                let anu = await fetchJson(api('zenz', '/downloader/musically', { url: text }, 'apikey'))
                 let buttonMessage = {
                     text: `Download From ${text}`,
                     footer: hisoka.user.name,
@@ -4116,7 +4116,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 })
                 hisoka.sendMessage(m.chat, {
                     audio: {
-                        url: anu.medias[2].url
+                        url: anu.result.audio
                     },
                     mimetype: 'audio/mpeg'
                 }, {
