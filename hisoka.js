@@ -4069,7 +4069,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             case 'tiktoknowatermark': {
                 if (!text) throw 'Link TikTok Ya Mana?'
                 m.reply(mess.wait)
-                let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
+                let anu = await TiktokDownloader(`${text}`)
                 let buttonMessage = {
                     video: {
                         url: anu.result.nowatermark
@@ -4087,7 +4087,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             case 'tiktokwatermark': {
                 if (!text) throw 'Link TikTok Ya, Mana?'
                 m.reply(mess.wait)
-                let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
+                let anu = await TiktokDownloader(`${text}`)
                 let buttonMessage = {
                     video: {
                         url: anu.result.watermark
@@ -4105,7 +4105,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             case 'tiktokaudio': {
                 if (!text) throw 'Link TikTok Ya Mana?'
                 m.reply(mess.wait)
-                let anu = await fetchJson(api('zenz', '/downloader/musically', { url: text }, 'apikey'))
+                let anu = await TiktokDownloader(`${text}`)
                 let buttonMessage = {
                     text: `Download From ${text}`,
                     footer: hisoka.user.name,
