@@ -2454,10 +2454,9 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 hisoka.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: true, id: m.quoted.id, participant: m.quoted.sender } })
             }
             break
-            case 'bcgc':
-            case 'bcgroup': {
+            case 'bcgc': case 'bcgroup': {
                 if (!isCreator) throw mess.owner
-                if (!text) throw `Text mana?\n\nContoh : ${prefix + command} GuaAbuzz Oni-chan`
+                if (!text) throw `Text mana?\n\nExample : ${prefix + command} fatih-san`
                 let getGroups = await hisoka.groupFetchAllParticipating()
                 let groups = Object.entries(getGroups).slice(0).map(entry => entry[1])
                 let anu = groups.map(v => v.id)
@@ -2490,22 +2489,20 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                             id: 'sewabot'
                         }
                     }]
-                    let txt = `「 Broadcast Bot 」\n\n${text}`
-                    hisoka.send5ButImg(i, txt, hisoka.user.name, global.thumb, btn)
-                }
+                      let txt = `「 Broadcast Bot 」\n\n${text}`
+                      hisoka.send5ButImg(i, txt, hisoka.user.name, global.thumb, btn)
+                    }
                 m.reply(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
             }
             break
-            case 'bc':
-            case 'broadcast':
-            case 'bcall': {
+            case 'bc': case 'broadcast': case 'bcall': {
                 if (!isCreator) throw mess.owner
-                if (!text) throw `Text mana?\n\nContoh : ${prefix + command} GuaAbuzz Oni-chan`
+                if (!text) throw `Text mana?\n\nExample : ${prefix + command} fatih-san`
                 let anu = await store.chats.all().map(v => v.id)
                 m.reply(`Mengirim Broadcast Ke ${anu.length} Chat\nWaktu Selesai ${anu.length * 1.5} detik`)
-                for (let yoi of anu) {
-                    await sleep(1500)
-                    let btn = [{
+		for (let yoi of anu) {
+		    await sleep(1500)
+		    let btn = [{
                         urlButton: {
                             displayText: 'TikTok Creator',
                             url: global.myweb
@@ -2531,10 +2528,10 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                             id: 'sewabot'
                         }
                     }]
-                    let txt = `「 Broadcast Bot 」\n\n${text}`
-                    hisoka.send5ButImg(yoi, txt, hisoka.user.name, global.thumb, btn)
-                }
-                m.reply('Sukses Broadcast')
+                      let txt = `「 Broadcast Bot 」\n\n${text}`
+                      hisoka.send5ButImg(yoi, txt, hisoka.user.name, global.thumb, btn)
+		}
+		m.reply('Sukses Broadcast')
             }
             break
             case 'bcallmedia': {
