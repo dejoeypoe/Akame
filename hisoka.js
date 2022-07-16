@@ -2967,22 +2967,19 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'google': {
-                if (!text) throw `Contoh : ${prefix + command} Tutorial Membuat Bot WhatsApp`
-                m.reply(mess.wait)
+                if (!text) throw `Example : ${prefix + command} fatih arridho`
                 let google = require('google-it')
-                google({
-                    query: text
-                }).then(res => {
-                    let teks = `Google Search From : ${text}\n\n`
-                    for (let g of res) {
-                        teks += `⭔ *Title* : ${g.title}\n`
-                        teks += `⭔ *Description* : ${g.snippet}\n`
-                        teks += `⭔ *Link* : ${g.link}\n\n────────────────────────\n\n`
-                    }
-                    m.reply(teks)
+                google({'query': text}).then(res => {
+                let teks = `Google Search From : ${text}\n\n`
+                for (let g of res) {
+                teks += `⭔ *Title* : ${g.title}\n`
+                teks += `⭔ *Description* : ${g.snippet}\n`
+                teks += `⭔ *Link* : ${g.link}\n\n────────────────────────\n\n`
+                } 
+                m.reply(teks)
                 })
-            }
-            break
+                }
+                break
             case 'gimage': {
                 if (!text) throw `Contoh : ${prefix + command} Akame`
                 m.reply(mess.wait)
@@ -3555,7 +3552,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 }]
                 let buttonMessage = {
                     text: `~_${result.quotes}_\n\nBy '${result.karakter}', ${result.anime}\n\n- ${result.up_at}`,
-                    footer: 'Tekan Tombol Di Bawah',
+                    footer: 'Quotes By Akame',
                     buttons: buttons,
                     headerType: 2
                 }
@@ -3577,7 +3574,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 }]
                 let buttonMessage = {
                     text: `~_${anu.result.quotes}_\n\nBy '${anu.result.character}', ${anu.result.anime}\n\n- ${anu.result.episode}`,
-                    footer: 'Tekan Tombol Di Bawah',
+                    footer: 'Quotes By Akame',
                     buttons: buttons,
                     headerType: 2
                 }
@@ -3612,7 +3609,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 }]
                 let buttonMessage = {
                     text: anu.result.message,
-                    footer: 'Tekan Tombol Di Bawah',
+                    footer: 'Quotes By Akame',
                     buttons: buttons,
                     headerType: 2
                 }
@@ -3634,7 +3631,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 }]
                 let buttonMessage = {
                     text: `Judul : ${anu.result.Judul}\nPenulis : ${anu.result.Penulis}\n\n${anu.result.cerita}`,
-                    footer: 'Tekan Tombol Di Bawah',
+                    footer: 'Quotes By Akame',
                     buttons: buttons,
                     headerType: 2
                 }
@@ -4075,7 +4072,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 let anu = await aiovideodl(`${text}`)
                 let buttonMessage = {
                     video: {
-                        url: anu.medias[0].url
+                        url: anu.medias[1].url
                     },
                     caption: `Download From ${text}`,
                     footer: hisoka.user.name,
@@ -4093,7 +4090,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 let anu = await aiovideodl(`${text}`)
                 let buttonMessage = {
                     video: {
-                        url: anu.medias[1].url
+                        url: anu.medias[0].url
                     },
                     caption: `Download From ${text}`,
                     footer: hisoka.user.name,
