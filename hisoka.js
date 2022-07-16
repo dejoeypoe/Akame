@@ -116,7 +116,6 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
         var budy = (typeof m.text == 'string' ? m.text : '')
         var prefix = prefa ? /^[°•π÷×¶∆£¢€¥®™+✓_=|~!?@#$%^&.©^]/gi.test(body) ? body.match(/^[°•π÷×¶∆£¢€¥®™+✓_=|~!?@#$%^&.©^]/gi)[0] : "" : prefa ?? global.prefix
         const isCmd = body.startsWith(prefix)
-        const salam = moment(Date.now()).tz('Asia/Jakarta').locale('id').format('a')
         const command = body.replace(prefix, '').trim().split(/ +/).shift().toLowerCase()
         const args = body.trim().split(/ +/).slice(1)
         const pushname = m.pushName || "No Name"
@@ -129,17 +128,15 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
         const mime = (quoted.msg || quoted).mimetype || ''
         const qmsg = (quoted.msg || quoted)
         const isMedia = /image|video|sticker|audio/.test(mime)
-
+	
         // Group
         const groupMetadata = m.isGroup ? await hisoka.groupMetadata(m.chat).catch(e => {}) : ''
         const groupName = m.isGroup ? groupMetadata.subject : ''
-        const groupMembers = m.isGroup ? groupMetadata.participants : ''
         const participants = m.isGroup ? await groupMetadata.participants : ''
-        const groupAdmins = m.isGroup ? await participants.filter(v => v.admin !== null).map(v => v.id) : ''
-        const groupOwner = m.isGroup ? groupMetadata.owner : ''
-        const isBotAdmins = m.isGroup ? groupAdmins.includes(botNumber) : false
-        const isAdmins = m.isGroup ? groupAdmins.includes(m.sender) : false
-        const isPremium = isCreator || global.premium.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender) || false
+        const groupAdmins = m.isGroup ? await getGroupAdmins(participants) : ''
+    	const isBotAdmins = m.isGroup ? groupAdmins.includes(botNumber) : false
+    	const isAdmins = m.isGroup ? groupAdmins.includes(m.sender) : false
+    	const isPremium = isCreator || global.premium.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender) || false
 
 
         const wib = moment.tz('Asia/Jakarta').format('HH : mm : ss')
@@ -246,19 +243,19 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
             if (setting) {
                 if (!isNumber(setting.status)) setting.status = 0
                 if (!('autobio' in setting)) setting.autobio = false
-                if (!('templateImage' in setting)) setting.templateImage = true
+                if (!('templateImage' in setting)) setting.templateImage = false
                 if (!('templateVideo' in setting)) setting.templateVideo = false
                 if (!('templateGif' in setting)) setting.templateGif = false
                 if (!('templateMsg' in setting)) setting.templateMsg = false
-                if (!('templateLocation' in setting)) setting.templateLocation = false
+                if (!('templateLocation' in setting)) setting.templateLocation = true
             } else global.db.settings[botNumber] = {
                 status: 0,
                 autobio: false,
-                templateImage: true,
+                templateImage: false,
                 templateVideo: false,
                 templateGif: false,
                 templateMsg: false,
-                templateLocation: false,
+                templateLocation: true,
             }
 
         } catch (err) {
