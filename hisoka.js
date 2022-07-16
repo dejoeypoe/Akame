@@ -2719,30 +2719,21 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 
          }
          break
-            case 'smeme':
-            case 'stickmeme':
-            case 'stikmeme':
-            case 'stickermeme':
-            case 'stikermeme': {
-                let respond = `Kirim/reply image/sticker dengan caption ${prefix + command} text1|text2`
-                if (!/image/.test(mime)) throw respond
-                if (!text) throw respond
-                m.reply(mess.wait)
-                atas = text.split('|')[0] ? text.split('|')[0] : '-'
-                bawah = text.split('|')[1] ? text.split('|')[1] : '-'
-                let dwnld = await quoted.download()
-                let {
-                    floNime
-                } = require('./lib/uploader')
-                let fatGans = await floNime(dwnld)
-                let smeme = `https://api.memegen.link/images/custom/${encodeURIComponent(atas)}/${encodeURIComponent(bawah)}.png?background=${fatGans.result.url}`
-                let FaTiH = await hisoka.sendImageAsSticker(m.chat, smeme, m, {
-                    packname: global.packname,
-                    author: global.author
-                })
-                await fs.unlinkSync(FaTiH)
+            case 'smeme': case 'stickmeme': case 'stikmeme': case 'stickermeme': case 'stikermeme': {
+	        let respond = `Kirim/reply image/sticker dengan caption ${prefix + command} text1|text2`
+	        if (!/image/.test(mime)) throw respond
+            if (!text) throw respond
+	        m.reply(mess.wait)
+            atas = text.split('|')[0] ? text.split('|')[0] : '-'
+            bawah = text.split('|')[1] ? text.split('|')[1] : '-'
+	        let dwnld = await hisoka.downloadMediaMessage(qmsg)
+	        let { floNime } = require('./lib/uploader')
+	        let fatGans = await floNime(dwnld)
+	        let smeme = `https://api.memegen.link/images/custom/${encodeURIComponent(atas)}/${encodeURIComponent(bawah)}.png?background=${fatGans.result.url}`
+	        let FaTiH = await hisoka.sendImageAsSticker(m.chat, smeme, m, { packname: global.packname, author: global.auhor })
+	        await fs.unlinkSync(FaTiH)
             }
-            break
+	       break     
             case 'simih':
             case 'simisimi': {
                 if (!text) throw `Contoh : ${prefix + command} text`
@@ -2856,132 +2847,71 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 }
             }
             break
-            case 'toimage':
-            case 'toimg': {
-                if (!quoted) throw 'Reply Image'
-                if (!/webp/.test(mime)) throw `Balas sticker dengan caption *${prefix + command}*`
+            case 'toimage': case 'toimg': {
+                if (!/webp/.test(mime)) throw `Reply sticker dengan caption *${prefix + command}*`
                 m.reply(mess.wait)
-                let media = await hisoka.downloadAndSaveMediaMessage(quoted)
+                let media = await hisoka.downloadAndSaveMediaMessage(qmsg)
                 let ran = await getRandom('.png')
                 exec(`ffmpeg -i ${media} ${ran}`, (err) => {
                     fs.unlinkSync(media)
                     if (err) throw err
                     let buffer = fs.readFileSync(ran)
-                    hisoka.sendMessage(m.chat, {
-                        image: buffer
-                    }, {
-                        quoted: ftroli
-                    })
+                    hisoka.sendMessage(m.chat, { image: buffer }, { quoted: m })
                     fs.unlinkSync(ran)
                 })
             }
             break
-            case 'tomp4':
-            case 'tovideo': {
-                if (!quoted) throw 'Reply Video'
-                if (!/webp/.test(mime)) throw `balas stiker dengan caption *${prefix + command}*`
+	        case 'tomp4': case 'tovideo': {
+                if (!/webp/.test(mime)) throw `Reply stiker dengan caption *${prefix + command}*`
                 m.reply(mess.wait)
-                let {
-                    webp2mp4File
-                } = require('./lib/uploader')
-                let media = await hisoka.downloadAndSaveMediaMessage(quoted)
+		        let { webp2mp4File } = require('./lib/uploader')
+                let media = await hisoka.downloadAndSaveMediaMessage(qmsg)
                 let webpToMp4 = await webp2mp4File(media)
-                await hisoka.sendMessage(m.chat, {
-                    video: {
-                        url: webpToMp4.result,
-                        caption: 'Convert Webp To Video'
-                    }
-                }, {
-                    quoted: ftroli
-                })
+                await hisoka.sendMessage(m.chat, { video: { url: webpToMp4.result, caption: 'Convert Webp To Video' } }, { quoted: m })
                 await fs.unlinkSync(media)
             }
             break
-            case 'toaud':
-            case 'toaudio': {
-                if (!/video/.test(mime) && !/audio/.test(mime)) throw `Kirim/Reply Video/Audio Yang Ingin Dijadikan Audio Dengan Caption ${prefix + command}`
-                if (!quoted) throw `Kirim/Reply Video/Audio Yang Ingin Dijadikan Audio Dengan Caption ${prefix + command}`
-                m.reply(mess.wait)
-                let media = await quoted.download()
-                let {
-                    toAudio
-                } = require('./lib/converter')
-                let audio = await toAudio(media, 'mp4')
-                hisoka.sendMessage(m.chat, {
-                    audio: audio,
-                    mimetype: 'audio/mpeg'
-                }, {
-                    quoted: m
-                })
+            case 'toaud': case 'toaudio': {
+            if (!/video/.test(mime) && !/audio/.test(mime)) throw `Kirim/Reply Video/Audio Yang Ingin Dijadikan Audio Dengan Caption ${prefix + command}`
+            m.reply(mess.wait)
+            let media = await hisoka.downloadMediaMessage(qmsg)
+            let { toAudio } = require('./lib/converter')
+            let audio = await toAudio(media, 'mp4')
+            hisoka.sendMessage(m.chat, {audio: audio, mimetype: 'audio/mpeg'}, { quoted : m })
             }
             break
             case 'tomp3': {
-                if (/document/.test(mime)) throw `Kirim/Reply Video/Audio Yang Ingin Dijadikan MP3 Dengan Caption ${prefix + command}`
-                if (!/video/.test(mime) && !/audio/.test(mime)) throw `Kirim/Reply Video/Audio Yang Ingin Dijadikan MP3 Dengan Caption ${prefix + command}`
-                if (!quoted) throw `Kirim/Reply Video/Audio Yang Ingin Dijadikan MP3 Dengan Caption ${prefix + command}`
-                m.reply(mess.wait)
-                let media = await quoted.download()
-                let {
-                    toAudio
-                } = require('./lib/converter')
-                let audio = await toAudio(media, 'mp4')
-                hisoka.sendMessage(m.chat, {
-                    document: audio,
-                    mimetype: 'audio/mpeg',
-                    fileName: `Convert By ${hisoka.user.name}.mp3`
-                }, {
-                    quoted: m
-                })
+            if (!/video/.test(mime) && !/audio/.test(mime)) throw `Kirim/Reply Video/Audio Yang Ingin Dijadikan MP3 Dengan Caption ${prefix + command}`
+            m.reply(mess.wait)
+            let media = await hisoka.downloadMediaMessage(qmsg)
+            let { toAudio } = require('./lib/converter')
+            let audio = await toAudio(media, 'mp4')
+            hisoka.sendMessage(m.chat, {document: audio, mimetype: 'audio/mpeg', fileName: `Convert By ${hisoka.user.name}.mp3`}, { quoted : m })
             }
             break
-            case 'tovn':
-            case 'toptt': {
-                if (!/video/.test(mime) && !/audio/.test(mime)) throw `Reply Video/Audio Yang Ingin Dijadikan VN Dengan Caption ${prefix + command}`
-                if (!quoted) throw `Reply Video/Audio Yang Ingin Dijadikan VN Dengan Caption ${prefix + command}`
-                m.reply(mess.wait)
-                let media = await quoted.download()
-                let {
-                    toPTT
-                } = require('./lib/converter')
-                let audio = await toPTT(media, 'mp4')
-                hisoka.sendMessage(m.chat, {
-                    audio: audio,
-                    mimetype: 'audio/mpeg',
-                    ptt: true
-                }, {
-                    quoted: m
-                })
+            case 'tovn': case 'toptt': {
+            if (!/video/.test(mime) && !/audio/.test(mime)) throw `Reply Video/Audio Yang Ingin Dijadikan VN Dengan Caption ${prefix + command}`
+            m.reply(mess.wait)
+            let media = await hisoka.downloadMediaMessage(qmsg)
+            let { toPTT } = require('./lib/converter')
+            let audio = await toPTT(media, 'mp4')
+            hisoka.sendMessage(m.chat, {audio: audio, mimetype:'audio/mpeg', ptt:true }, {quoted:m})
             }
             break
             case 'togif': {
-                if (!quoted) throw 'Reply Gif'
-                if (!/webp/.test(mime)) throw `balas stiker dengan caption *${prefix + command}*`
+                if (!/webp/.test(mime)) throw `Reply stiker dengan caption *${prefix + command}*`
                 m.reply(mess.wait)
-                let {
-                    webp2mp4File
-                } = require('./lib/uploader')
-                let media = await hisoka.downloadAndSaveMediaMessage(quoted)
+		        let { webp2mp4File } = require('./lib/uploader')
+                let media = await hisoka.downloadAndSaveMediaMessage(qmsg)
                 let webpToMp4 = await webp2mp4File(media)
-                await hisoka.sendMessage(m.chat, {
-                    video: {
-                        url: webpToMp4.result,
-                        caption: 'Convert Webp To Video'
-                    },
-                    gifPlayback: true
-                }, {
-                    quoted: ftroli
-                })
+                await hisoka.sendMessage(m.chat, { video: { url: webpToMp4.result, caption: 'Convert Webp To Video' }, gifPlayback: true }, { quoted: m })
                 await fs.unlinkSync(media)
             }
             break
-            case 'tourl': {
+	        case 'tourl': {
                 m.reply(mess.wait)
-                let {
-                    UploadFileUgu,
-                    webp2mp4File,
-                    TelegraPh
-                } = require('./lib/uploader')
-                let media = await hisoka.downloadAndSaveMediaMessage(quoted)
+		let { UploadFileUgu, webp2mp4File, TelegraPh } = require('./lib/uploader')
+                let media = await hisoka.downloadAndSaveMediaMessage(qmsg)
                 if (/image/.test(mime)) {
                     let anu = await TelegraPh(media)
                     m.reply(util.format(anu))
@@ -2992,38 +2922,30 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 await fs.unlinkSync(media)
             }
             break
-            case 'imagenobg':
-            case 'removebg':
-            case 'remove-bg': {
-                if (!quoted) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
-                if (!/image/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
-                if (/webp/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
-                let remobg = require('remove.bg')
-                let apirnobg = ['q61faXzzR5zNU6cvcrwtUkRU', 'S258diZhcuFJooAtHTaPEn4T', '5LjfCVAp4vVNYiTjq9mXJWHF', 'aT7ibfUsGSwFyjaPZ9eoJc61', 'BY63t7Vx2tS68YZFY6AJ4HHF', '5Gdq1sSWSeyZzPMHqz7ENfi8', '86h6d6u4AXrst4BVMD9dzdGZ', 'xp8pSDavAgfE5XScqXo9UKHF', 'dWbCoCb3TacCP93imNEcPxcL']
-                let apinobg = apirnobg[Math.floor(Math.random() * apirnobg.length)]
-                hmm = await './src/remobg-' + getRandom('')
-                localFile = await hisoka.downloadAndSaveMediaMessage(quoted, hmm)
-                outputFile = await './src/hremo-' + getRandom('.png')
-                m.reply(mess.wait)
-                remobg.removeBackgroundFromImageFile({
-                    path: localFile,
-                    apiKey: apinobg,
-                    size: "regular",
-                    type: "auto",
-                    scale: "100%",
-                    outputFile
-                }).then(async result => {
-                    hisoka.sendMessage(m.chat, {
-                        image: fs.readFileSync(outputFile),
-                        caption: mess.success
-                    }, {
-                        quoted: m
-                    })
-                    await fs.unlinkSync(localFile)
-                    await fs.unlinkSync(outputFile)
-                })
-            }
-            break
+            case 'imagenobg': case 'removebg': case 'remove-bg': {
+	    if (!/image/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
+	    if (/webp/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
+	    let remobg = require('remove.bg')
+	    let apirnobg = ['q61faXzzR5zNU6cvcrwtUkRU','S258diZhcuFJooAtHTaPEn4T','5LjfCVAp4vVNYiTjq9mXJWHF','aT7ibfUsGSwFyjaPZ9eoJc61','BY63t7Vx2tS68YZFY6AJ4HHF','5Gdq1sSWSeyZzPMHqz7ENfi8','86h6d6u4AXrst4BVMD9dzdGZ','xp8pSDavAgfE5XScqXo9UKHF','dWbCoCb3TacCP93imNEcPxcL']
+	    let apinobg = apirnobg[Math.floor(Math.random() * apirnobg.length)]
+	    hmm = await './src/remobg-'+getRandom('')
+	    localFile = await hisoka.downloadAndSaveMediaMessage(qmsg, hmm)
+	    outputFile = await './src/hremo-'+getRandom('.png')
+	    m.reply(mess.wait)
+	    remobg.removeBackgroundFromImageFile({
+	      path: localFile,
+	      apiKey: apinobg,
+	      size: "regular",
+	      type: "auto",
+	      scale: "100%",
+	      outputFile 
+	    }).then(async result => {
+	    hisoka.sendMessage(m.chat, {image: fs.readFileSync(outputFile), caption: mess.success}, { quoted : m })
+	    await fs.unlinkSync(localFile)
+	    await fs.unlinkSync(outputFile)
+	    })
+	    }
+	    break
             case 'yts':
             case 'ytsearch': {
                 if (!text) throw `Contoh : ${prefix + command} Story Wa Anime`
