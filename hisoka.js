@@ -167,7 +167,7 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
         }
 
         //Time Menuju Ulang Tahun Untuk GuaAbuzz ;)
-        const IdulAdha = new Date('July 17, 2022 12:00:00')
+        const IdulAdha = new Date('July 17, 2023 12:00:00')
         const sekarang = new Date().getTime();
         const Selisih = IdulAdha - sekarang;
         const jhari = Math.floor(Selisih / (1000 * 60 * 60 * 24));
