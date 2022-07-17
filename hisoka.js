@@ -1080,7 +1080,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
 │└─────────────┈❖
 │ Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
 │ Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 │ WIB : ${wib}
 │ WITA : ${wita}
@@ -5421,7 +5421,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 GROUP 」
@@ -5505,7 +5505,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 DOWNLOADER 」
@@ -5580,7 +5580,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 SEARCH 」
@@ -5652,7 +5652,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 STICKER 」
@@ -5719,7 +5719,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 ANIME 」
@@ -5793,7 +5793,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 NSFW 」
@@ -5875,7 +5875,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 ASUPAN 」
@@ -5949,7 +5949,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 QUOTES 」
@@ -6026,7 +6026,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 MEME 」
@@ -6089,7 +6089,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 RANDOM 」
@@ -6155,7 +6155,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 TEXT PRO 」
@@ -6246,7 +6246,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 PHOTO EDITOR 」
@@ -6324,7 +6324,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 EPHOTO 」
@@ -6419,7 +6419,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 GAME 」
@@ -6489,7 +6489,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 PRIMBON 」
@@ -6579,7 +6579,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 CONVERT 」
@@ -6649,7 +6649,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 MAIN 」
@@ -6723,7 +6723,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 DATABASE 」
@@ -6791,7 +6791,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 ANONYMOUS CHAT 」
@@ -6856,7 +6856,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 ISLAMIC 」
@@ -6923,7 +6923,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 KERANG 」
@@ -7002,7 +7002,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 VOICE CHANGER 」
@@ -7073,7 +7073,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 STALK 」
@@ -7136,7 +7136,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 OWNER 」
@@ -7209,7 +7209,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 WEBZONE 」
@@ -7288,7 +7288,7 @@ Request Message: ${text}`
 │• Prefix : ( ${prefix} )
 │• Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}
 │• Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
-│• Menuju idul Adha :
+│• Menuju Ulang Tahun OwnerKu :
 │   ${menuju}
 │• Wib : ${wib}
 │• Wita : ${wita}
@@ -7348,7 +7348,7 @@ Request Message: ${text}`
 │ User : ${Object.keys(global.db.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju idul Adha :
+│ Menuju Ulang Tahun OwnerKu :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 ANONYMOUS CHAT 」
