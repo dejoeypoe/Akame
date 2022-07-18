@@ -77,7 +77,7 @@ const {
 }= require('./lib/jadwaltv.js');
 const {
     sholat
-= require('./lib/hxz-api.js)
+= require('./lib/hxz-api.js')
 const xfarr = require('xfarr-api')
 
 // read database
