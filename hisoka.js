@@ -74,7 +74,10 @@ const {
 } = require("./lib/gempa.js");
 const {
     jadwaltv
-}= require('./lib/jadwaltv');
+}= require('./lib/jadwaltv.js');
+const {
+    sholat
+= require('./lib/hxz-api.js)
 const xfarr = require('xfarr-api')
 
 // read database
@@ -5127,15 +5130,13 @@ Request Message: ${text}`
             case 'jadwalshalat':
             case 'jadwalsalat': {
                 if (!text) throw `Contoh : ${prefix + command} Padang`
-                let res = await fetchJson(api('zenz', '/islami/jadwalshalat', {
-                    kota: text
-                }, 'apikey'))
+                let res = await sholat
                 let capt = `Jadwal Sholat Kota : ${text}\n\n`
                 let i = res.result
-                    capt += `⭔ Tanggal : ${i.tanggal}\n`
-                    capt += `⭔ Subuh : ${i.shubuh}\n`
-                    capt += `⭔ Duha : ${i.duha}\n`
-                    capt += `⭔ Dzuhur : ${i.dzuhur}\n`
+                    capt += `⭔ Tanggal : ${i.Tanggal}\n`
+                    capt += `⭔ Imsak : ${i.imsak}\n`
+                    capt += `⭔ Subuh : ${i.subuh}\n`
+                    capt += `⭔ Dzuhur : ${i.zuhur}\n`
                     capt += `⭔ Ashar : ${i.ashar}\n`
                     capt += `⭔ Maghrib : ${i.maghrib}\n`
                     capt += `⭔ Isya : ${i.isya}\n\n──────────────────────\n`
@@ -5168,13 +5169,13 @@ Request Message: ${text}`
             }
             break
             case 'mediafire': {
-                if (!text) throw `Link MediaFire Ya Mana?`)
+                if (!text) throw `Link MediaFire Ya Mana?`
                 let fetch = await fetchJson(api('zenz', '/downloader/mediafire', { url: isUrl(text)[0] }, 'apikey'))
                 hisoka.sendFileUrl(m.chat, fetch.result, "", m)
             }
             break
             case 'zippyshare': {
-                if (!text) throw `Link ZippyShare Ya Mana?`)
+                if (!text) throw `Link ZippyShare Ya Mana?`
                 let fetch = await fetchJson(api('zenz', '/downloader/zippyshare', { url: isUrl(text)[0] }, 'apikey'))
                 hisoka.sendFileUrl(m.chat, fetch.result.link, "", m)
             }
@@ -5193,7 +5194,7 @@ Request Message: ${text}`
             }
             break
             case 'iplookup': {
-                if (!text) throw `Ip Ya Mana?`)
+                if (!text) throw `Ip Ya Mana?`
                 let fetch = await fetchJson(api('zenz', '/information/iplookup', { query: text }, 'apikey'))
                 let caption = `IP Information :\n\n`
                 let i = fetch.result
