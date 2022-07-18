@@ -4025,9 +4025,9 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'tiktok': {
-                if (!text) throw 'Link TikTok Ya Mana?'
-                m.reply(mess.wait) {
-                let buttons = [{
+                if (isUrl(text)) {
+                    let fetch = await fetchJson(api('zenz', 'downloader/musically', { url: isUrl(text)[0] }, 'apikey'))
+                    let buttons = [{
                         buttonId: `tiktoknowm ${text}`,
                         buttonText: {
                             displayText: '► No Watermark'
@@ -4055,13 +4055,11 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                     buttons: buttons,
                     headerType: 5
                 }
-                hisoka.sendMessage(m.chat, buttonMessage, {
-                    quoted: ftroli
-                })
-                  } else {
-                    let anu = await fetchJson(api('zenz', '/downloader/asupantiktok', { query: text }, 'apikey'))
+                    hisoka.sendMessage(m.chat, buttonMessage, { quoted: m })
+                } else {
+                    let fetch = await fetchJson(api('zenz', '/downloader/asupantiktok', { query: text }, 'apikey'))
                     let caption = `Random Asupan Tiktok ${text}\n\n`
-                    let i = anu.result
+                    let i = fetch.result
                     caption += `⭔ Username : ${i.username}\n`
                     caption += `⭔ Followers : ${i.followers}\n`
                     caption += `⭔ Caption : ${i.media.caption}\n`
@@ -4076,9 +4074,9 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                         buttons: buttons,
                         headerType: 5
                     }
-                    hisoka.sendMessage(m.chat, buttonMessage, { quoted: ftroli })
+                    hisoka.sendMessage(m.chat, buttonMessage, { quoted: m })
                 }
-              }
+            }
             break
             case 'tiktoknowm':
             case 'tiktoknowatermark': {
