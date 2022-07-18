@@ -2730,7 +2730,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 	       break     
             case 'simih':
             case 'simisimi': {
-                if (!text) throw `Contoh : ${prefix + command} text`
+                if (!text) throw `Contoh : ${prefix + command} Mau Nanya Apa?`
                 hm = await fetchJson(api('zenz', '/entertainment/simisimi', {
                     text: text
                 }, 'apikey'))
@@ -4026,6 +4026,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             break
             case 'tiktok': {
                 if (!text) throw 'Link TikTok Ya Mana?'
+                m.reply(mess.wait) {
                 let buttons = [{
                         buttonId: `tiktoknowm ${text}`,
                         buttonText: {
@@ -4057,7 +4058,27 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 hisoka.sendMessage(m.chat, buttonMessage, {
                     quoted: ftroli
                 })
-            }
+                  } else {
+                    let anu = await fetchJson(api('zenz', '/downloader/asupantiktok', { query: text }, 'apikey'))
+                    let caption = `Random Asupan Tiktok ${text}\n\n`
+                    let i = anu.result
+                    caption += `⭔ Username : ${i.username}\n`
+                    caption += `⭔ Followers : ${i.followers}\n`
+                    caption += `⭔ Caption : ${i.media.caption}\n`
+        
+                    let buttons = [
+                        {buttonId: `tiktok ${text}`, buttonText: {displayText: '► NEXT'}, type: 1},
+                    ]
+                    let buttonMessage = {
+                        video: { url: i.media.videourl },
+                        caption: caption,
+                        footer: hisoka.user.name,
+                        buttons: buttons,
+                        headerType: 5
+                    }
+                    hisoka.sendMessage(m.chat, buttonMessage, { quoted: ftroli })
+                }
+              }
             break
             case 'tiktoknowm':
             case 'tiktoknowatermark': {
@@ -4122,11 +4143,11 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 if (!text) throw 'No Query Url!'
                 m.reply(mess.wait)
                 if (/(?:\/p\/|\/reel\/|\/tv\/)([^\s&]+)/.test(isUrl(text)[0])) {
-                    let anu = await fetchJson(api('zenz', '/downloader/instagram2', { url: isUrl(text)[0] }, 'apikey'))
-                    for (let media of anu.data) hisoka.sendFileUrl(m.chat, media, `Download Url Instagram From ${isUrl(text)[0]}`, m)
+                    let anu = await fetchJson(api('zenz', '/downloader/instagram', { url: isUrl(text)[0] }, 'apikey'))
+                    for (let media of anu.result) hisoka.sendFileUrl(m.chat, media, `Download Url Instagram From ${isUrl(text)[0]}`, m)
                 } else if (/\/stories\/([^\s&]+)/.test(isUrl(text)[0])) {
                     let anu = await fetchJson(api('zenz', '/downloader/instastory', { url: isUrl(text)[0] }, 'apikey'))
-                    hisoka.sendFileUrl(m.chat, anu.media[0].url, `Download Url Instagram From ${isUrl(text)[0]}`, m)
+                    hisoka.sendFileUrl(m.chat, anu.result.media[0].url, `Download Url Instagram From ${isUrl(text)[0]}`, m)
                 }
             }
             break
@@ -5126,7 +5147,7 @@ Request Message: ${text}`
             case 'cekapi':
             case 'cekapikey': {
                 if (!text) throw `Contoh : ${prefix + command} Budi12`
-                let fetch = await fetchJson(api("zenz", "/user/cekapi", { apikey: text }))
+                let fetch = await fetchJson(api('zenz', '/user/cekapi', { apikey: text }))
                 let caption = `Apikey Check :\n\n`
                 let i = fetch.message
                     caption += `⭔ Id : ${i.id}\n`
@@ -5146,6 +5167,134 @@ Request Message: ${text}`
                     caption += `⭔ Location : ${i.location}\n`
                     caption += `⭔ Biodata : ${i.biodata}\n\n──────────────────────\n`
                     hisoka.sendImage(m.chat, i.profile_image, "", m, { caption })
+            }
+            break
+            case 'mediafire': {
+                if (!text) throw `Link MediaFire Ya Mana?`)
+                let fetch = await fetchJson(api('zenz', '/downloader/mediafire', { url: isUrl(text)[0] }, 'apikey'))
+                hisoka.sendFileUrl(m.chat, fetch.result, "", m)
+            }
+            break
+            case 'zippyshare': {
+                if (!text) throw `Link ZippyShare Ya Mana?`)
+                let fetch = await fetchJson(api('zenz', '/downloader/zippyshare', { url: isUrl(text)[0] }, 'apikey'))
+                hisoka.sendFileUrl(m.chat, fetch.result.link, "", m)
+            }
+            break
+            case 'gempa': {
+                let fetch = await Gempa
+                let caption = `Gempa Information :\n\n`
+                let i = fetch.result
+                caption += `⭔ Waktu : ${i.tanggal}\n`
+                caption += `⭔ Lintang : ${i.jam}\n`
+                caption += `⭔ Bujur : ${i.datetime}\n`
+                caption += `⭔ Magnitudo : ${i.coordinates}\n`
+                caption += `⭔ Kedalaman : ${i.lintang}\n`
+                caption += `⭔ Wilayah : ${i.bujur}\n`
+                hisoka.sendFile(m.chat, i.Map, "", m, { caption })
+            }
+            break
+            case 'iplookup': {
+                if (!text) throw `Ip Ya Mana?`)
+                let fetch = await fetchJson(api('zenz', '/information/iplookup', { query: text }, 'apikey'))
+                let caption = `IP Information :\n\n`
+                let i = fetch.result
+                caption += `⭔ Country : ${i.country}\n`
+                caption += `⭔ Region : ${i.region}\n`
+                caption += `⭔ City : ${i.city}\n`
+                caption += `⭔ Zip : ${i.zip}\n`
+                caption += `⭔ Latitude : ${i.latitude}\n`
+                caption += `⭔ Longtitude : ${i.longtitude}\n`
+                caption += `⭔ Isp : ${i.isp}\n`
+                caption += `⭔ Domain : ${i.domain}\n`
+                caption += `⭔ Usagetype : ${i.usage_type}\n`
+                caption += `⭔ Time_zone : ${i.time_zone}\n`
+                caption += `⭔ Local_time : ${i.local_time}\n`
+                caption += `⭔ Addres_type : ${i.addres_type}\n`
+                caption += `⭔ Category : ${i.category}\n`
+                caption += `⭔ Proxy : ${i.proxy}\n`
+                caption += `⭔ Provider : ${i.provider}\n`
+                caption += `⭔ Weather : ${i.weather}\n`
+                hisoka.sendText(m.chat, caption, m)
+            }
+            break
+            case 'kisahmuslim': {
+                let fetch = await fetchJson(api('zenz', '/islami/kisahmuslim', {}, 'apikey'))
+                let teks = `⭔ Judul : ${fetch.result.Judul}\n⭔ Kisah :\n${fetch.result.Cerita}`
+                hisoka.sendFileUrl(m.chat, fetch.result.Thumb, "", m, { caption: teks })
+            }
+            break
+            case 'kisahnabi': {
+                if (text) {
+                    title = text.toLowerCase()
+                    let fetch = await fetchJson(api('zenz', `/islami/kisahnabi/${title}`, {}, 'apikey'))
+                    let teks = `⭔ Nama : ${fetch.result.name}\n⭔ Lahir : ${fetch.result.lahir}\n⭔ Umur : ${fetch.result.age}\n⭔ Lokasi : ${fetch.result.place}\n⭔ Kisah :\n${fetch.result.story}`
+                    hisoka.sendFileUrl(m.chat, 'https://i.pinimg.com/originals/a6/81/c5/a681c55ca1bee611c39d3b4a58712dc3.jpg', "", m, { caption: teks })
+                } else if (!text) {
+                    const sections = [{
+                        title: "Kisah Nabi",
+                        rows: [
+                            {title: "Kisah Nabi Adam", rowId: ".kisahnabi adam"},
+                            {title: "Kisah Nabi Idris", rowId: ".kisahnabi idris"},
+                            {title: "Kisah Nabi Nuh", rowId: ".kisahnabi nuh"},
+                            {title: "Kisah Nabi Hud", rowId: ".kisahnabi hud"},
+                            {title: "Kisah Nabi Sholeh", rowId: ".kisahnabi sholeh"},
+                            {title: "Kisah Nabi Ibrahim", rowId: ".kisahnabi ibrahim"},
+                            {title: "Kisah Nabi Luth", rowId: ".kisahnabi luth"},
+                            {title: "Kisah Nabi Ismail", rowId: ".kisahnabi ismail"},
+                            {title: "Kisah Nabi Ishaq", rowId: ".kisahnabi ishaq"},
+                            {title: "Kisah Nabi Yaqub", rowId: ".kisahnabi yaqub"},
+                            {title: "Kisah Nabi Yusuf", rowId: ".kisahnabi yusuf"},
+                            {title: "Kisah Nabi Ayyub", rowId: ".kisahnabi ayyub"},
+                            {title: "Kisah Nabi Syuaib", rowId: ".kisahnabi syuaib"},
+                            {title: "Kisah Nabi Musa", rowId: ".kisahnabi musa"},
+                            {title: "Kisah Nabi Harun", rowId: ".kisahnabi harun"},
+                            {title: "Kisah Nabi Dzulkifli", rowId: ".kisahnabi dzulkifli"},
+                            {title: "Kisah Nabi Daud", rowId: ".kisahnabi daud"},
+                            {title: "Kisah Nabi Sulaiman", rowId: ".kisahnabi sulaiman"},
+                            {title: "Kisah Nabi Ilyas", rowId: ".kisahnabi ilyas"},
+                            {title: "Kisah Nabi Ilyasa", rowId: ".kisahnabi ilyasa"},
+                            {title: "Kisah Nabi Yunus", rowId: ".kisahnabi yunus"},
+                            {title: "Kisah Nabi Zakariya", rowId: ".kisahnabi zakariya"},
+                            {title: "Kisah Nabi Yahya", rowId: ".kisahnabi yahya"},
+                            {title: "Kisah Nabi Isa", rowId: ".kisahnabi isa"},
+                            {title: "Kisah Nabi Muhammad", rowId: ".kisahnabi muhammad"}
+                        ]
+                    }]
+                    const listMessage = {
+                        text: 'List 25 Nabi',
+                        footer: hisoka.user.name,
+                        buttonText: 'OPEN LIST',
+                        sections
+                    }
+                    const sendMsg = await hisoka.sendMessage(m.cha, listMessage, { quoted: m })
+                }
+            }
+            break
+            case 'listkota': {
+                let fetch = await fetchJson(api('zenz', '/islami/listkota', {}, 'apikey'))
+                let teks = `List Kota Di seluruh Indonesia\n\n`
+                for (let i of fetch.result) {
+                    teks += `⭔ Provinsi : ${i.provinsi}\n`
+                    teks += `⭔ Kota : \n${i.kota.join("\n")}\n`
+                    teks += `\n`
+                }
+                hisoka.sendText(m.chat, teks, m)
+            }
+            break
+            case 'hololive': {
+                let fetch = await fetchJson(api('zenz', '/randomanime/hololive', {},'apikey'))
+                let buttons = [
+                    {buttonId: `${prefix}hololive`, buttonText: { displayText: 'NEXT'}, type: 1 }
+                ]
+                let buttonMessage = {
+                    image: { url: fetch.result.image },
+                    caption: fetch.result.caption,
+                    footer: hisoka.user.name,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                hisoka.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
             case 'setmenu': {
