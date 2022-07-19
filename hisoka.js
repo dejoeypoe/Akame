@@ -76,7 +76,7 @@ const {
     jadwaltv
 }= require('./lib/jadwaltv.js');
 const {
-    sholat
+    Sholat
 = require('./lib/hxz-api.js')
 const xfarr = require('xfarr-api')
 
@@ -5130,7 +5130,7 @@ Request Message: ${text}`
             case 'jadwalshalat':
             case 'jadwalsalat': {
                 if (!text) throw `Contoh : ${prefix + command} Padang`
-                let res = await sholat
+                let res = await Sholat
                 let capt = `Jadwal Sholat Kota : ${text}\n\n`
                 let i = res.result
                     capt += `⭔ Tanggal : ${i.Tanggal}\n`
@@ -5266,7 +5266,7 @@ Request Message: ${text}`
                         buttonText: 'OPEN LIST',
                         sections
                     }
-                    const sendMsg = await hisoka.sendMessage(m.cha, listMessage, { quoted: m })
+                    const sendMsg = await hisoka.sendMessage(m.chat, listMessage, { quoted: m })
                 }
             }
             break
