@@ -7,77 +7,26 @@
  * Follow https://github.com/Abuzzpoet
  */
 require('./config')
-const {
-    BufferJSON,
-    WA_DEFAULT_EPHEMERAL,
-    generateWAMessageFromContent,
-    proto,
-    generateWAMessageContent,
-    generateWAMessage,
-    prepareWAMessageMedia,
-    WAMessageStubType,
-    areJidsSameUser,
-    getContentType
-} = require('@adiwajshing/baileys')
+const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@adiwajshing/baileys')
 const fs = require('fs')
 const util = require('util')
 const chalk = require('chalk')
-const {
-    exec,
-    spawn,
-    execSync
-} = require("child_process")
+const { exec, spawn, execSync } = require("child_process")
 const axios = require('axios')
 const path = require('path')
 const os = require('os')
-const {
-    JSDOM
-} = require('jsdom')
+const moment = require('moment-timezone')
+const { JSDOM } = require('jsdom')
 const speed = require('performance-now')
-const moment = require("moment-timezone");
-const {
-    performance
-} = require('perf_hooks')
-const {
-    Primbon
-} = require('scrape-primbon')
+const { performance } = require('perf_hooks')
+const { Primbon } = require('scrape-primbon')
 const primbon = new Primbon()
-let {
-    TelegraPh,
-} = require('./lib/uploader')
-const {
-    smsg,
-    formatp,
-    tanggal,
-    formatDate,
-    getTime,
-    isUrl,
-    sleep,
-    clockString,
-    runtime,
-    fetchJson,
-    getBuffer,
-    jsonformat,
-    format,
-    parseMention,
-    getRandom,
-    getGroupAdmins
-} = require('./lib/myfunc')
-const {
-    aiovideodl
-} = require('./lib/scraper.js')
-const {
-    wikiSearch
-} = require('./lib/wiki.js');
-const {
-    Gempa
-} = require("./lib/gempa.js");
-const {
-    jadwaltv
-}= require('./lib/jadwaltv.js');
-const {
-    Sholat
-= require('./lib/hxz-api.js')
+const { smsg, formatp, tanggal, formatDate, getTime, isUrl, sleep, clockString, runtime, fetchJson, getBuffer, jsonformat, format, parseMention, getRandom, getGroupAdmins } = require('./lib/myfunc')
+const { aiovideodl } = require('./lib/scraper.js')
+const { wikiSearch } = require('./lib/wiki.js')
+const { Gempa } = require("./lib/gempa.js")
+const { jadwaltv }= require('./lib/jadwaltv.js')
+const { Sholat }= require('./lib/hxz-api.js')
 
 // read database
 let tebaklagu = db.game.tebaklagu = []
@@ -157,7 +106,7 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
             var ucapanWaktu = '𝑺𝒆𝒍𝒂𝒎𝒂𝒕 𝑻𝒆𝒏𝒈𝒂𝒉 𝑴𝒂𝒍𝒂𝒎 🌃'
         }
 
-        //Time Menuju Ulang Tahun Untuk GuaAbuzz ;)
+        //Time Menuju Ulang Tahun Untuk GuaAbuzz :)
         const HBD = new Date('July 17, 2023 06:00:00').getTime();
         const sekarang = new Date().getTime();
         const Selisih = HBD - sekarang;
@@ -217,13 +166,13 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
             if (typeof chats !== 'object') global.db.chats[m.chat] = {}
             if (chats) {
                 if (!('mute' in chats)) chats.mute = false
-                if (!('antilinkwa' in chats)) chats.antilinkwa = false
+                if (!('antilink' in chats)) chats.antilink = false
                 if (!('antilinkyt' in chats)) chats.antilinkyt = false
                 if (!('antilinktt' in chats)) chats.antilinktt = false
                 if (!('antivirtex' in chats)) chats.antivirtex = true
             } else global.db.chats[m.chat] = {
                 mute: false,
-                antilinkwa: false,
+                antilink: false,
                 antilinkyt: false,
                 antilinktt: false,
                 antivirtex: true,
@@ -232,6 +181,7 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
             let setting = global.db.settings[botNumber]
             if (typeof setting !== 'object') global.db.settings[botNumber] = {}
             if (setting) {
+                if (!('anticall' in setting)) setting.anticall = true
                 if (!isNumber(setting.status)) setting.status = 0
                 if (!('autobio' in setting)) setting.autobio = false
                 if (!('templateImage' in setting)) setting.templateImage = false
@@ -240,6 +190,7 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
                 if (!('templateMsg' in setting)) setting.templateMsg = false
                 if (!('templateLocation' in setting)) setting.templateLocation = true
             } else global.db.settings[botNumber] = {
+                anticall: true,
                 status: 0,
                 autobio: false,
                 templateImage: false,
@@ -581,7 +532,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
         }
         
         //Anti Link
-        if (db.chats[m.chat].antilinkwa) {
+        if (db.chats[m.chat].antilink) {
             if (budy.match(`chat.whatsapp.com`)) {
                 m.reply(`「 ANTI LINK WHATSAPP 」\n\nKamu Terdeteksi Mengirim Link Group, Maaf Kamu Akan Di Kick !`)
                 if (!isBotAdmins) return m.reply(`Ehh Bot Gak Admin T_T`)
@@ -1976,8 +1927,8 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
                 if (args[0] === "on") {
-                    if (db.chats[m.chat].antilinkwa) return m.reply(`Sudah Aktif Sebelumnya 🕊️`)
-                    db.chats[m.chat].antilinkwa = true
+                    if (db.chats[m.chat].antilink) return m.reply(`Sudah Aktif Sebelumnya 🕊️`)
+                    db.chats[m.chat].antilink = true
                     m.reply(`Antilink Group WhatsApp Aktif 🕊️`)
                 } else if (args[0] === "off") {
                     if (!db.chats[m.chat].antilink) return m.reply(`Sudah Nonaktif Sebelumnya 🕊`)
@@ -2099,6 +2050,26 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 }
             }
             break
+            case 'anticall': {
+            if (!isCreator) throw mess.owner
+                let ciko = db.settings[botNumber].anticall
+                if (args[0] === "on") {
+                if (ciko) return m.reply(`Sudah Aktif Sebelumnya 🕊️`)
+                ciko = true
+                m.reply(`AntiCall Aktif 🕊️`)
+                } else if (args[0] === "off") {
+                if (!ciko) return m.reply(`Sudah Tidak Aktif Sebelumnya 🕊️`)
+                ciko = false
+                m.reply(`AntiCall Tidak Aktif 🕊️`)
+                } else {
+                 let buttons = [
+                        { buttonId: 'anticall on', buttonText: { displayText: 'On' }, type: 1 },
+                        { buttonId: 'anticall off', buttonText: { displayText: 'Off' }, type: 1 }
+                    ]
+                    await hisoka.sendButtonText(m.chat, buttons, `Mode AntiCall`, hisoka.user.name, m)
+                }
+             }
+             break
             case 'ephemeral': {
                 if (!m.isGroup) throw mess.group
                 if (!isBotAdmins) throw mess.botAdmin
@@ -2125,6 +2096,18 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 ]
                 hisoka.sendListMsg(m.chat, `Please select the following Ephemeral Options List !`, hisoka.user.name, `Hello Admin ${groupMetadata.subject}`, `Click Here`, sections, m)
                 }
+            }
+            break
+            case 'setnamabot': case 'setnamebot': {
+            if (!text) throw `Contoh : ${prefix + command} WhatsApp ✅`
+            let name = await hisoka.updateProfileName(text)
+            m.reply(`Successfully renamed bot to ${name}`)
+            }
+            break
+            case 'setstatus': case 'setbiobot': case 'setbotbio': {
+            if (!text) throw `this is a WhatsApp Bot named Akame ><`
+            let name = await hisoka.updateProfileStatus(text)
+            m.reply(`Successfully changed bot bio status to ${name}`)
             }
             break
             case 'style':
@@ -2444,7 +2427,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             break
             case 'bcgc': case 'bcgroup': {
                 if (!isCreator) throw mess.owner
-                if (!text) throw `Text mana?\n\nExample : ${prefix + command} fatih-san`
+                if (!text) throw `Text mana?\n\nContoh : ${prefix + command} Akame ><`
                 let getGroups = await hisoka.groupFetchAllParticipating()
                 let groups = Object.entries(getGroups).slice(0).map(entry => entry[1])
                 let anu = groups.map(v => v.id)
@@ -2476,7 +2459,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                             displayText: '⎙ Sewabot',
                             id: 'sewabot'
                         }
-                    }]
+                            }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
                       hisoka.send5ButImg(i, txt, hisoka.user.name, global.thumb, btn)
                     }
@@ -2485,7 +2468,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             break
             case 'bc': case 'broadcast': case 'bcall': {
                 if (!isCreator) throw mess.owner
-                if (!text) throw `Text mana?\n\nExample : ${prefix + command} fatih-san`
+                if (!text) throw `Text mana?\n\nContoh : ${prefix + command} Akame ><`
                 let anu = await store.chats.all().map(v => v.id)
                 m.reply(`Mengirim Broadcast Ke ${anu.length} Chat\nWaktu Selesai ${anu.length * 1.5} detik`)
 		for (let yoi of anu) {
@@ -2515,31 +2498,12 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                             displayText: '⎙ Sewabot',
                             id: 'sewabot'
                         }
-                    }]
+                            }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
                       hisoka.send5ButImg(yoi, txt, hisoka.user.name, global.thumb, btn)
 		}
 		m.reply('Sukses Broadcast')
             }
-            break
-            case 'bcallmedia': {
-                if (!isCreator) throw mess.owner
-                let anu = await store.chats.all().map(v => v.id)
-                m.reply(`Mengirim Broadcast Ke ${anu.length} Chat\nWaktu Selesai ${anu.length * 1.5} detik`)
-                for (let i of anu) {
-
-                    await sleep(1500)
-
-                    hisoka.copyNForward(i, quoted.fakeObj, false, {
-                        quoted: ftroli
-                    })
-
-                }
-
-                m.reply(`Sukses Mengirim Broadcast Ke ${anu.length} Chat`)
-
-            }
-
             break
             case 'infochat': {
                 if (!m.quoted) m.reply('Reply Pesan')
@@ -2699,7 +2663,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'attp': case 'ttp': {
-           if (!text) throw `Example : ${prefix + command} text`
+           if (!text) throw `Contoh : ${prefix + command} text`
            await hisoka.sendMedia(m.chat, `https://xteam.xyz/${command}?file&text=${text}`, 'hisoka', 'morou', m, {asSticker: true})
 
          }
@@ -2952,7 +2916,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'google': {
-                if (!text) throw `Example : ${prefix + command} fatih arridho`
+                if (!text) throw `Contoh : ${prefix + command} fatih arridho`
                 let google = require('google-it')
                 google({'query': text}).then(res => {
                 let teks = `Google Search From : ${text}\n\n`
@@ -3753,21 +3717,21 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'nomerhoki': case 'nomorhoki': {
-                if (!Number(text)) throw `Example : ${prefix + command} 6288292024190`
+                if (!Number(text)) throw `Contoh : ${prefix + command} 6288292024190`
                 let anu = await primbon.nomer_hoki(Number(text))
                 if (anu.status == false) return m.reply(anu.message)
                 hisoka.sendText(m.chat, `⭔ *Nomor HP :* ${anu.message.nomer_hp}\n⭔ *Angka Shuzi :* ${anu.message.angka_shuzi}\n⭔ *Energi Positif :*\n- Kekayaan : ${anu.message.energi_positif.kekayaan}\n- Kesehatan : ${anu.message.energi_positif.kesehatan}\n- Cinta : ${anu.message.energi_positif.cinta}\n- Kestabilan : ${anu.message.energi_positif.kestabilan}\n- Persentase : ${anu.message.energi_positif.persentase}\n⭔ *Energi Negatif :*\n- Perselisihan : ${anu.message.energi_negatif.perselisihan}\n- Kehilangan : ${anu.message.energi_negatif.kehilangan}\n- Malapetaka : ${anu.message.energi_negatif.malapetaka}\n- Kehancuran : ${anu.message.energi_negatif.kehancuran}\n- Persentase : ${anu.message.energi_negatif.persentase}`, m)
             }
             break
             case 'artimimpi': case 'tafsirmimpi': {
-                if (!text) throw `Example : ${prefix + command} belanja`
+                if (!text) throw `Contoh : ${prefix + command} belanja`
                 let anu = await primbon.tafsir_mimpi(text)
                 if (anu.status == false) return m.reply(anu.message)
                 hisoka.sendText(m.chat, `⭔ *Mimpi :* ${anu.message.mimpi}\n⭔ *Arti :* ${anu.message.arti}\n⭔ *Solusi :* ${anu.message.solusi}`, m)
             }
             break
             case 'ramalanjodoh': case 'ramaljodoh': {
-                if (!text) throw `Example : ${prefix + command} Dika, 7, 7, 2005, Novia, 16, 11, 2004`
+                if (!text) throw `Contoh : ${prefix + command} Dika, 7, 7, 2005, Novia, 16, 11, 2004`
                 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
                 let anu = await primbon.ramalan_jodoh(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
                 if (anu.status == false) return m.reply(anu.message)
@@ -3775,7 +3739,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'ramalanjodohbali': case 'ramaljodohbali': {
-                if (!text) throw `Example : ${prefix + command} Dika, 7, 7, 2005, Novia, 16, 11, 2004`
+                if (!text) throw `Contoh : ${prefix + command} Dika, 7, 7, 2005, Novia, 16, 11, 2004`
                 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
                 let anu = await primbon.ramalan_jodoh_bali(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
                 if (anu.status == false) return m.reply(anu.message)
@@ -3783,7 +3747,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'suamiistri': {
-                if (!text) throw `Example : ${prefix + command} Dika, 7, 7, 2005, Novia, 16, 11, 2004`
+                if (!text) throw `Contoh : ${prefix + command} Dika, 7, 7, 2005, Novia, 16, 11, 2004`
                 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
                 let anu = await primbon.suami_istri(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
                 if (anu.status == false) return m.reply(anu.message)
@@ -3791,7 +3755,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'ramalancinta': case 'ramalcinta': {
-                if (!text) throw `Example : ${prefix + command} Dika, 7, 7, 2005, Novia, 16, 11, 2004`
+                if (!text) throw `Contoh : ${prefix + command} Dika, 7, 7, 2005, Novia, 16, 11, 2004`
                 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
                 let anu = await primbon.ramalan_cinta(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
                 if (anu.status == false) return m.reply(anu.message)
@@ -3799,14 +3763,14 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'artinama': {
-                if (!text) throw `Example : ${prefix + command} Dika Ardianta`
+                if (!text) throw `Contoh : ${prefix + command} Dika Ardianta`
                 let anu = await primbon.arti_nama(text)
                 if (anu.status == false) return m.reply(anu.message)
                 hisoka.sendText(m.chat, `⭔ *Nama :* ${anu.message.nama}\n⭔ *Arti :* ${anu.message.arti}\n⭔ *Catatan :* ${anu.message.catatan}`, m)
             }
             break
             case 'kecocokannama': case 'cocoknama': {
-                if (!text) throw `Example : ${prefix + command} Dika, 7, 7, 2005`
+                if (!text) throw `Contoh : ${prefix + command} Dika, 7, 7, 2005`
                 let [nama, tgl, bln, thn] = text.split`,`
                 let anu = await primbon.kecocokan_nama(nama, tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -3814,7 +3778,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'kecocokanpasangan': case 'cocokpasangan': case 'pasangan': {
-                if (!text) throw `Example : ${prefix + command} Dika|Novia`
+                if (!text) throw `Contoh : ${prefix + command} Dika|Novia`
                 let [nama1, nama2] = text.split`|`
                 let anu = await primbon.kecocokan_nama_pasangan(nama1, nama2)
                 if (anu.status == false) return m.reply(anu.message)
@@ -3822,7 +3786,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'jadianpernikahan': case 'jadiannikah': {
-                if (!text) throw `Example : ${prefix + command} 6, 12, 2020`
+                if (!text) throw `Contoh : ${prefix + command} 6, 12, 2020`
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.tanggal_jadian_pernikahan(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -3830,7 +3794,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'sifatusaha': {
-                if (!ext)throw `Example : ${prefix+ command} 28, 12, 2021`
+                if (!ext)throw `Contoh : ${prefix+ command} 28, 12, 2021`
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.sifat_usaha_bisnis(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -3838,7 +3802,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'rejeki': case 'rezeki': {
-                if (!text) throw `Example : ${prefix + command} 7, 7, 2005`
+                if (!text) throw `Contoh : ${prefix + command} 7, 7, 2005`
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.rejeki_hoki_weton(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -3846,7 +3810,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'pekerjaan': case 'kerja': {
-                if (!text) throw `Example : ${prefix + command} 7, 7, 2005`
+                if (!text) throw `Contoh : ${prefix + command} 7, 7, 2005`
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.pekerjaan_weton_lahir(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -3854,7 +3818,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'ramalannasib': case 'ramalnasib': case 'nasib': {
-                if (!text) throw `Example : 7, 7, 2005`
+                if (!text) throw `Contoh : 7, 7, 2005`
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.ramalan_nasib(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -3862,7 +3826,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'potensipenyakit': case 'penyakit': {
-                if (!text) throw `Example : ${prefix + command} 7, 7, 2005`
+                if (!text) throw `Contoh : ${prefix + command} 7, 7, 2005`
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.cek_potensi_penyakit(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -3870,7 +3834,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'artitarot': case 'tarot': {
-                if (!text) throw `Example : ${prefix + command} 7, 7, 2005`
+                if (!text) throw `Contoh : ${prefix + command} 7, 7, 2005`
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.arti_kartu_tarot(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -3878,7 +3842,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'fengshui': {
-                if (!text) throw `Example : ${prefix + command} Dika, 1, 2005\n\nNote : ${prefix + command} Nama, gender, tahun lahir\nGender : 1 untuk laki-laki & 2 untuk perempuan`
+                if (!text) throw `Contoh : ${prefix + command} Dika, 1, 2005\n\nNote : ${prefix + command} Nama, gender, tahun lahir\nGender : 1 untuk laki-laki & 2 untuk perempuan`
                 let [nama, gender, tahun] = text.split`,`
                 let anu = await primbon.perhitungan_feng_shui(nama, gender, tahun)
                 if (anu.status == false) return m.reply(anu.message)
@@ -3886,7 +3850,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'haribaik': {
-                if (!text) throw `Example : ${prefix + command} 7, 7, 2005`
+                if (!text) throw `Contoh : ${prefix + command} 7, 7, 2005`
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.petung_hari_baik(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -3894,7 +3858,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'harisangar': case 'taliwangke': {
-                if (!text) throw `Example : ${prefix + command} 7, 7, 2005`
+                if (!text) throw `Contoh : ${prefix + command} 7, 7, 2005`
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.hari_sangar_taliwangke(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -3902,7 +3866,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'harinaas': case 'harisial': {
-                if (!text) throw `Example : ${prefix + command} 7, 7, 2005`
+                if (!text) throw `Contoh : ${prefix + command} 7, 7, 2005`
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.primbon_hari_naas(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -3910,7 +3874,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'nagahari': case 'harinaga': {
-                if (!text) throw `Example : ${prefix + command} 7, 7, 2005`
+                if (!text) throw `Contoh : ${prefix + command} 7, 7, 2005`
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.rahasia_naga_hari(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -3918,7 +3882,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'arahrejeki': case 'arahrezeki': {
-                if (!text) throw `Example : ${prefix + command} 7, 7, 2005`
+                if (!text) throw `Contoh : ${prefix + command} 7, 7, 2005`
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.primbon_arah_rejeki(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -3926,7 +3890,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'peruntungan': {
-                if (!text) throw `Example : ${prefix + command} DIka, 7, 7, 2005, 2022\n\nNote : ${prefix + command} Nama, tanggal lahir, bulan lahir, tahun lahir, untuk tahun`
+                if (!text) throw `Contoh : ${prefix + command} DIka, 7, 7, 2005, 2022\n\nNote : ${prefix + command} Nama, tanggal lahir, bulan lahir, tahun lahir, untuk tahun`
                 let [nama, tgl, bln, thn, untuk] = text.split`,`
                 let anu = await primbon.ramalan_peruntungan(nama, tgl, bln, thn, untuk)
                 if (anu.status == false) return m.reply(anu.message)
@@ -3934,7 +3898,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'weton': case 'wetonjawa': {
-                if (!text) throw `Example : ${prefix + command} 7, 7, 2005`
+                if (!text) throw `Contoh : ${prefix + command} 7, 7, 2005`
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.weton_jawa(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -3942,7 +3906,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'sifat': case 'karakter': {
-                if (!text) throw `Example : ${prefix + command} Dika, 7, 7, 2005`
+                if (!text) throw `Contoh : ${prefix + command} Dika, 7, 7, 2005`
                 let [nama, tgl, bln, thn] = text.split`,`
                 let anu = await primbon.sifat_karakter_tanggal_lahir(nama, tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -3950,7 +3914,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'keberuntungan': {
-                if (!text) throw `Example : ${prefix + command} Dika, 7, 7, 2005`
+                if (!text) throw `Contoh : ${prefix + command} Dika, 7, 7, 2005`
                 let [nama, tgl, bln, thn] = text.split`,`
                 let anu = await primbon.potensi_keberuntungan(nama, tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -3958,7 +3922,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'memancing': {
-                if (!text) throw `Example : ${prefix + command} 12, 1, 2022`
+                if (!text) throw `Contoh : ${prefix + command} 12, 1, 2022`
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.primbon_memancing_ikan(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -3966,7 +3930,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'masasubur': {
-                if (!text) throw `Example : ${prefix + command} 12, 1, 2022, 28\n\nNote : ${prefix + command} hari pertama menstruasi, siklus`
+                if (!text) throw `Contoh : ${prefix + command} 12, 1, 2022, 28\n\nNote : ${prefix + command} hari pertama menstruasi, siklus`
                 let [tgl, bln, thn, siklus] = text.split`,`
                 let anu = await primbon.masa_subur(tgl, bln, thn, siklus)
                 if (anu.status == false) return m.reply(anu.message)
@@ -3974,7 +3938,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'zodiak': case 'zodiac': {
-                if (!text) throw `Example : ${prefix+ command} 7 7 2005`
+                if (!text) throw `Contoh : ${prefix+ command} 7 7 2005`
                 let zodiak = [
                     ["capricorn", new Date(1970, 0, 1)],
                     ["aquarius", new Date(1970, 0, 20)],
@@ -4009,7 +3973,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'shio': {
-                if (!text) throw `Example : ${prefix + command} tikus\n\nNote : For Detail https://primbon.com/shio.htm`
+                if (!text) throw `Contoh : ${prefix + command} tikus\n\nNote : For Detail https://primbon.com/shio.htm`
                 let anu = await primbon.shio(text)
                 if (anu.status == false) return m.reply(anu.message)
                 hisoka.sendText(m.chat, `⭔ *Hasil :* ${anu.message}`, m)
@@ -4206,7 +4170,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'umma': case 'ummadl': {
-	        if (!text) throw `Example : ${prefix + command} https://umma.id/channel/video/post/gus-arafat-sumber-kecewa-84464612933698`
+	        if (!text) throw `Contoh : ${prefix + command} https://umma.id/channel/video/post/gus-arafat-sumber-kecewa-84464612933698`
                 let { umma } = require('./lib) scraper')
 		let anu = await umma(isUrl(text)[0])
 		if (anu.type == 'video') {
@@ -4237,7 +4201,7 @@ Untuk Download Media Silahkan Klik salah satu Button dibawah ini atau masukkan c
 	    }
 	    break
         case 'ringtone': {
-		if (!text) throw `Example : ${prefix + command} black rover`
+		if (!text) throw `Contoh : ${prefix + command} black rover`
         let { ringtone } = require('./lib/scraper')
 		let anu = await ringtone(text)
 		let result = anu[Math.floor(Math.random() * anu.length)]
@@ -5442,7 +5406,7 @@ Request Message: ${text}`
 │⭔ ${prefix}promote @user
 │⭔ ${prefix}demote @user
 │⭔ ${prefix}mute [on/off]
-│⭔ ${prefix}antilinkwa [on/off]
+│⭔ ${prefix}antilink [on/off]
 │⭔ ${prefix}antilinkyt [on/off]
 │⭔ ${prefix}antilinktt [on/off]
 │⭔ ${prefix}vote [text]
@@ -7148,9 +7112,10 @@ Request Message: ${text}`
 │⭔ ${prefix}unblock @user
 │⭔ ${prefix}bcgroup [text]
 │⭔ ${prefix}bcall [text]
-│⭔ ${prefix}bcallmedia
 │⭔ ${prefix}setppbot [image]
 │⭔ ${prefix}setmenu [option]
+│⭔ ${prefix}setstatus
+│⭔ ${prefix}setnamebot
 └──────────────┈❖`
                 let btn = [{
                     urlButton: {
@@ -7487,7 +7452,7 @@ Request Message: ${text}`
 │⭔ ${prefix}promote @user
 │⭔ ${prefix}demote @user
 │⭔ ${prefix}mute [on/off]
-│⭔ ${prefix}antilinkwa [on/off]
+│⭔ ${prefix}antilink [on/off]
 │⭔ ${prefix}antilinkyt [on/off]
 │⭔ ${prefix}antilinktt [on/off]
 │⭔ ${prefix}vote [text]
@@ -7601,8 +7566,9 @@ Request Message: ${text}`
 │⭔ ${prefix}unblock @user
 │⭔ ${prefix}bcgroup [text]
 │⭔ ${prefix}bcall [text]
-│⭔ ${prefix}bcallmedia  [image / video]
 │⭔ ${prefix}setmenu [option]
+│⭔ ${prefix}setstatus
+│⭔ ${prefix}setnamebot
 └┬─────────────┈❖
 ┌┤「 PRIMBON 」
 │└─────────────┈❖
