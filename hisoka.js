@@ -25,8 +25,8 @@ const { smsg, formatp, tanggal, formatDate, getTime, isUrl, sleep, clockString, 
 const { aiovideodl } = require('./lib/scraper.js')
 const { wikiSearch } = require('./lib/wiki.js')
 const { Gempa } = require("./lib/gempa.js")
-const { jadwaltv }= require('./lib/jadwaltv.js')
-const { Sholat }= require('./lib/hxz-api.js')
+const { jadwaltv } = require('./lib/jadwaltv.js')
+const { Sholat } = require('./lib/hxz-api.js')
 
 // read database
 let tebaklagu = db.game.tebaklagu = []
