@@ -7,28 +7,10 @@
  * Follow https://github.com/Abuzzpoet
  */
 require('./config')
-const {
-    default: hisokaConnect,
-    useSingleFileAuthState,
-    DisconnectReason,
-    fetchLatestBaileysVersion,
-    generateForwardMessageContent,
-    prepareWAMessageMedia,
-    generateWAMessageFromContent,
-    generateMessageID,
-    downloadContentFromMessage,
-    makeInMemoryStore,
-    jidDecode,
-    proto
-} = require("@adiwajshing/baileys")
-const {
-    state,
-    saveState
-} = useSingleFileAuthState(`./${sessionName}.json`)
+const { default: hisokaConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
+const { state, saveState } = useSingleFileAuthState(`./${sessionName}.json`)
 const pino = require('pino')
-const {
-    Boom
-} = require('@hapi/boom')
+const { Boom } = require('@hapi/boom')
 const fs = require('fs')
 const yargs = require('yargs/yargs')
 const chalk = require('chalk')
@@ -37,79 +19,56 @@ const path = require('path')
 const _ = require('lodash')
 const axios = require('axios')
 const PhoneNumber = require('awesome-phonenumber')
-const {
-    imageToWebp,
-    videoToWebp,
-    writeExifImg,
-    writeExifVid
-} = require('./lib/exif')
-const {
-    smsg,
-    isUrl,
-    generateMessageTag,
-    getBuffer,
-    getSizeMedia,
-    fetchJson,
-    await,
-    sleep
-} = require('./lib/myfunc')
+const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/exif')
+const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/myfunc')
 
 var low
 try {
-    low = require('lowdb')
+  low = require('lowdb')
 } catch (e) {
-    low = require('./lib/lowdb')
+  low = require('./lib/lowdb')
 }
 
-const {
-    Low,
-    JSONFile
-} = low
+const { Low, JSONFile } = low
 const mongoDB = require('./lib/mongoDB')
 
 global.api = (name, path = '/', query = {}, apikeyqueryname) => (name in global.APIs ? global.APIs[name] : name) + path + (query || apikeyqueryname ? '?' + new URLSearchParams(Object.entries({ ...query, ...(apikeyqueryname ? { [apikeyqueryname]: global.APIKeys[name in global.APIs ? global.APIs[name] : name] } : {}) })) : '')
 
-const store = makeInMemoryStore({
-    logger: pino().child({
-        level: 'silent',
-        stream: 'store'
-    })
-})
+const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 
 global.opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
 global.db = new Low(
-    /https?:\/\//.test(opts['db'] || '') ?
+  /https?:\/\//.test(opts['db'] || '') ?
     new cloudDBAdapter(opts['db']) : /mongodb/.test(opts['db']) ?
-    new mongoDB(opts['db']) :
-    new JSONFile(`src/database.json`)
+      new mongoDB(opts['db']) :
+      new JSONFile(`src/database.json`)
 )
 global.DATABASE = global.db // Backwards Compatibility
 global.loadDatabase = async function loadDatabase() {
-    if (global.db.READ) return new Promise((resolve) => setInterval(function() {
-        (!global.db.READ ? (clearInterval(this), resolve(global.db == null ? global.loadDatabase() : global.db)) : null)
-    }, 1 * 1000))
-    if (global.db !== null) return
-    global.db.READ = true
-    await global.db.read()
-    global.db.READ = false
-    global.db = {
-        users: {},
-        chats: {},
-        database: {},
-        game: {},
-        settings: {},
-        others: {},
-        sticker: {},
-        ...(global.db || {})
-    }
-    global.db.chain = _.chain(global.db)
+  if (global.db.READ) return new Promise((resolve) => setInterval(function () { (!global.db.READ ? (clearInterval(this), resolve(global.db == null ? global.loadDatabase() : global.db)) : null) }, 1 * 1000))
+  if (global.db !== null) return
+  global.db.READ = true
+  await global.db.read()
+  global.db.READ = false
+  global.db = {
+    users: {},
+    chats: {},
+    database: {},
+    game: {},
+    settings: {},
+    others: {},
+    sticker: {},
+    anonymous: {},
+    ...(global.db || {})
+  }
+  global.db.chain = _.chain(global.db)
 }
 loadDatabase()
 
 // save database every 30seconds
 if (global.db) setInterval(async () => {
-    if (global.db.data) await global.db.write()
-}, 30 * 1000)
+    if (global.db) await global.db.write()
+  }, 30 * 1000)
 
 async function startHisoka() {
     const hisoka = hisokaConnect({
@@ -121,19 +80,22 @@ async function startHisoka() {
 
     store.bind(hisoka.ev)
     
-    // anticall auto block
-    hisoka.ws.on('CB:call', async (json) => {
-        const callerId = json.content[0].attrs['call-creator']
-        if (json.content[0].tag == 'offer') {
-            let pa7rick = await hisoka.sendContact(callerId, global.owner)
-            hisoka.sendMessage(callerId, {
-                text: `Sistem otomatis block!\nJangan menelpon bot!\nSilahkan Hubungi Owner Untuk Dibuka !`
-            }, {
-                quoted: pa7rick
-            })
-            await sleep(8000)
-            await hisoka.updateBlockStatus(callerId, "block")
-        }
+    // Anti Call
+    hisoka.ev.on('call', async (fatihh) => {
+    let botNumber = await hisoka.decodeJid(hisoka.user.id)
+    let ciko = db.settings[botNumber].anticall
+    if (!ciko) return
+    console.log(fatihh)
+    for (let tihh of fatihh) {
+    if (tihh.isGroup == false) {
+    if (tihh.status == "offer") {
+    let pa7rick = await hisoka.sendTextWithMentions(tihh.from, `*${hisoka.user.name}* tidak bisa menerima panggilan ${tihh.isVideo ? `video` : `suara`}. Maaf @${tihh.from.split('@')[0]} kamu akan diblockir. Jika tidak sengaja silahkan hubungi Owner untuk dibuka !`)
+    hisoka.sendContact(tihh.from, global.owner, pa7rick)
+    await sleep(8000)
+    await hisoka.updateBlockStatus(tihh.from, "block")
+    }
+    }
+    }
     })
 
     hisoka.ev.on('messages.upsert', async chatUpdate => {
@@ -145,6 +107,7 @@ async function startHisoka() {
         if (mek.key && mek.key.remoteJid === 'status@broadcast') return
         if (!hisoka.public && !mek.key.fromMe && chatUpdate.type === 'notify') return
         if (mek.key.id.startsWith('BAE5') && mek.key.id.length === 16) return
+        if (mek.key.id.startsWith('FatihArridho_')) return
         m = smsg(hisoka, mek, store)
         require("./hisoka")(hisoka, m, chatUpdate, store)
         } catch (err) {
@@ -202,13 +165,13 @@ async function startHisoka() {
                 }
 
                 if (anu.action == 'add') {
-                    hisoka.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Welcome @${num.split("@")[0]} To Group ${metadata.subject} 👋` })
+                    hisoka.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Welcome To ${metadata.subject} @${num.split("@")[0]}` })
                 } else if (anu.action == 'remove') {
-                    hisoka.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Sayonaraa @${num.split("@")[0]} 👋` })
+                    hisoka.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `@${num.split("@")[0]} Leaving To ${metadata.subject}` })
                 } else if (anu.action == 'promote') {
-                    hisoka.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Selamat Ya @${num.split("@")[0]} Atas Kenaikan Jabatannya Di Grup ${metadata.subject} 🎉` })
+                    hisoka.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `@${num.split('@')[0]} Promote From ${metadata.subject}` })
                 } else if (anu.action == 'demote') {
-                    hisoka.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `@Nice Try @${num.split("@")[0]} Atas Penurunan Jabatannya Di Grup ${metadata.subject} 😔` })
+                    hisoka.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `@${num.split('@')[0]} Demote From ${metadata.subject}` })
               }
             }
         } catch (err) {
@@ -255,29 +218,12 @@ async function startHisoka() {
 	for (let i of kon) {
 	    list.push({
 	    	displayName: await hisoka.getName(i + '@s.whatsapp.net'),
-	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await hisoka.getName(i + '@s.whatsapp.net')}\nFN:${await hisoka.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:📱 Ponsel\nitem2.EMAIL;type=INTERNET:guaabuzz@gmail.com\nitem2.X-ABLabel:💌 Email\nitem3.URL:tiktok.com/@guaabuzz\nitem3.X-ABLabel:Web\nitem4.ADR:;;Indonesia;;;;\nitem4.X-ABLabel:🌐 Region\nEND:VCARD`
+	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await hisoka.getName(i + '@s.whatsapp.net')}\nFN:${await hisoka.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Ponsel\nitem2.EMAIL;type=INTERNET:okeae2410@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://instagram.com/cak_haho\nitem3.X-ABLabel:Instagram\nitem4.ADR:;;Indonesia;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
 	    })
 	}
 	hisoka.sendMessage(jid, { contacts: { displayName: `${list.length} Kontak`, contacts: list }, ...opts }, { quoted })
     }
     
-    hisoka.setStatus = (status) => {
-        hisoka.query({
-            tag: 'iq',
-            attrs: {
-                to: '@s.whatsapp.net',
-                type: 'set',
-                xmlns: 'status',
-            },
-            content: [{
-                tag: 'status',
-                attrs: {},
-                content: Buffer.from(status, 'utf-8')
-            }]
-        })
-        return status
-    }
-	
     hisoka.public = true
 
     hisoka.serializeM = (m) => smsg(hisoka, m, store)
@@ -293,6 +239,7 @@ async function startHisoka() {
             else if (reason === DisconnectReason.loggedOut) { console.log(`Device Logged Out, Please Scan Again And Run.`); hisoka.logout(); }
             else if (reason === DisconnectReason.restartRequired) { console.log("Restart Required, Restarting..."); startHisoka(); }
             else if (reason === DisconnectReason.timedOut) { console.log("Connection TimedOut, Reconnecting..."); startHisoka(); }
+            else if (reason === DisconnectReason.Multidevicemismatch) { console.log("Multi device mismatch, please scan again"); hisoka.logout(); }
             else hisoka.end(`Unknown DisconnectReason: ${reason}|${connection}`)
         }
         console.log('Connected...', update)
@@ -316,33 +263,6 @@ async function startHisoka() {
       }
       // Siapa yang cita-citanya pakai resize buat keliatan thumbnailnya
       
-      /** Send Button 5 Location
-       *
-       * @param {*} jid
-       * @param {*} text
-       * @param {*} footer
-       * @param {*} location
-       * @param [*] button
-       * @param {*} options
-       */
-      hisoka.send5ButLoc = async (jid , text = '' , footer = '', lok, but = [], options = {}) =>{
-       let resize = await hisoka.reSize(lok, 300, 150)
-       var template = generateWAMessageFromContent(jid, {
-       "templateMessage": {
-       "hydratedTemplate": {
-       "locationMessage": {
-       "degreesLatitude": 0,
-       "degreesLongitude": 0,
-       "jpegThumbnail": resize
-       },
-       "hydratedContentText": text,
-       "hydratedFooterText": footer,
-       "hydratedButtons": but
-       }
-       }
-       }, options)
-       hisoka.relayMessage(jid, template.message, { messageId: template.key.id })
-      }
 
       /**
       *
@@ -425,20 +345,22 @@ async function startHisoka() {
      * @returns
      */
     hisoka.send5ButImg = async (jid , text = '' , footer = '', img, but = [], buff, options = {}) =>{
-        let resize = await hisoka.reSize(buff, 300, 150)
-        let message = await prepareWAMessageMedia({ image: img, jpegThumbnail: resize }, { upload: hisoka.waUploadToServer })
-        var template = generateWAMessageFromContent(jid, proto.Message.fromObject({
-        templateMessage: {
-        hydratedTemplate: {
-        imageMessage: message.imageMessage,
-               "hydratedContentText": text,
-               "hydratedFooterText": footer,
-               "hydratedButtons": but
-            }
-            }
-            }), options)
-            hisoka.relayMessage(jid, template.message, { messageId: template.key.id })
+    hisoka.sendMessage(jid, { image: img, caption: text, footer: footer, templateButtons: but, ...options })
     }
+
+      /** Send Button 5 Location
+       *
+       * @param {*} jid
+       * @param {*} text
+       * @param {*} footer
+       * @param {*} location
+       * @param [*] button
+       * @param {*} options
+       */
+      hisoka.send5ButLoc = async (jid , text = '' , footer = '', lok, but = [], options = {}) =>{
+      let bb = await hisoka.reSize(lok, 300, 150)
+      hisoka.sendMessage(jid, { location: { jpegThumbnail: bb }, caption: text, footer: footer, templateButtons: but, ...options })
+      }
 
     /** Send Button 5 Video
      *
@@ -451,19 +373,8 @@ async function startHisoka() {
      * @returns
      */
     hisoka.send5ButVid = async (jid , text = '' , footer = '', vid, but = [], buff, options = {}) =>{
-        let resize = await hisoka.reSize(buff, 300, 150)
-        let message = await prepareWAMessageMedia({ video: vid, jpegThumbnail: resize }, { upload: hisoka.waUploadToServer })
-        var template = generateWAMessageFromContent(jid, proto.Message.fromObject({
-        templateMessage: {
-        hydratedTemplate: {
-        videoMessage: message.videoMessage,
-               "hydratedContentText": text,
-               "hydratedFooterText": footer,
-               "hydratedButtons": but
-            }
-            }
-            }), options)
-            hisoka.relayMessage(jid, template.message, { messageId: template.key.id })
+    let lol = await hisoka.reSize(buf, 300, 150)
+    hisoka.sendMessage(jid, { video: vid, jpegThumbnail: lol, caption: text, footer: footer, templateButtons: but, ...options })
     }
 
     /** Send Button 5 Gif
@@ -477,21 +388,10 @@ async function startHisoka() {
      * @returns
      */
     hisoka.send5ButGif = async (jid , text = '' , footer = '', gif, but = [], buff, options = {}) =>{
-        let resize = await hisoka.reSize(buff, 300, 150)
-        let a = [1,2]
-        let b = a[Math.floor(Math.random() * a.length)]
-        let message = await prepareWAMessageMedia({ video: gif, gifPlayback: true, jpegThumbnail: resize, gifAttribution: b}, { upload: hisoka.waUploadToServer })
-        var template = generateWAMessageFromContent(jid, proto.Message.fromObject({
-        templateMessage: {
-        hydratedTemplate: {
-        videoMessage: message.videoMessage,
-               "hydratedContentText": text,
-               "hydratedFooterText": footer,
-               "hydratedButtons": but
-            }
-            }
-            }), options)
-            hisoka.relayMessage(jid, template.message, { messageId: template.key.id })
+    let ahh = await hisoka.reSize(buf, 300, 150)
+    let a = [1,2]
+    let b = a[Math.floor(Math.random() * a.length)]
+    hisoka.sendMessage(jid, { video: gif, gifPlayback: true, gifAttribution: b, caption: text, footer: footer, jpegThumbnail: ahh, templateButtons: but, ...options })
     }
 
     /**
