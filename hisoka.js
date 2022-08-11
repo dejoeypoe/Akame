@@ -80,17 +80,6 @@ const {
 = require('./lib/hxz-api.js')
 
 // read database
-global.db = JSON.parse(fs.readFileSync('./src/database.json'))
-if (global.db) global.db = {
-    users: {},
-    chats: {},
-    database: {},
-    game: {},
-    settings: {},
-    others: {},
-    sticker: {},
-    ...(global.db || {})
-}
 let tebaklagu = db.game.tebaklagu = []
 let _family100 = db.game.family100 = []
 let kuismath = db.game.math = []
