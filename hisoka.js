@@ -78,7 +78,6 @@ const {
 const {
     Sholat
 = require('./lib/hxz-api.js')
-const xfarr = require('xfarr-api')
 
 // read database
 global.db = JSON.parse(fs.readFileSync('./src/database.json'))
@@ -4840,142 +4839,6 @@ Request Message: ${text}`
                 m.reply(`Berhasil Dilaporkan Ke Owner!`)
             }
             break
-            case 'anime': {
-                if (!text) return m.reply(`Anime apa yang kamu cari??`)
-                await m.reply(mess.wait)
-                xfarr.Anime(q).then(async data => {
-                        let txt = `*-------「 ANIME-SEARCH 」-------*\n\n`
-                        for (let i of data) {
-                            txt += `*📫 Title :* ${i.judul}\n`
-                            txt += `*📚 Url :* ${i.link}\n-----------------------------------------------------\n`
-                        }
-                        let gam = await getBuffer(data[0].thumbnail.replace('https://www.anime-planet.com', ''))
-                        let btn = [{
-                            urlButton: {
-                                displayText: 'TikTok Creator',
-                                url: global.myweb
-                            }
-                        }, {
-                            callButton: {
-                                displayText: 'Number Phone Owner',
-                                phoneNumber: global.owner[0]
-                            }
-                        }, {
-                            quickReplyButton: {
-                                displayText: '❍ Rules',
-                                id: 'rules'
-                            }
-                        }, {
-                            quickReplyButton: {
-                                displayText: '❍ Donasi',
-                                id: 'donasi'
-                            }
-                        }, {
-                            quickReplyButton: {
-                                displayText: '⎙ SewaBot',
-                                id: 'sewabot'
-                            }
-                        }]
-                        await hisoka.sendMessage(m.chat, txt, footer, gam, btn, {
-                            quoted: ftroli
-                        })
-                    })
-                    .catch((err) => {
-                        m.reply(mess.error)
-                    })
-            }
-            break
-            case 'character':
-            case 'karakter': {
-                if (!text) return m.reply(`Karakter Anime Apa yang Anda Cari??`)
-                await m.reply(mess.wait)
-                xfarr.Character(q).then(async data => {
-                        let txt = `*---「 CHARACTER-SEARCH 」---*\n\n`
-                        for (let i of data) {
-                            txt += `*📫 Character :* ${i.character}\n`
-                            txt += `*📚 Url :* ${i.link}\n-----------------------------------------------------\n`
-                        }
-                        let gam = await getBuffer(data[0].thumbnail.replace('https://www.anime-planet.com', ''))
-                        let btn = [{
-                            urlButton: {
-                                displayText: 'TikTok Creator',
-                                url: global.myweb
-                            }
-                        }, {
-                            callButton: {
-                                displayText: 'Number Phone Owner',
-                                phoneNumber: global.owner[0]
-                            }
-                        }, {
-                            quickReplyButton: {
-                                displayText: '❍ Rules',
-                                id: 'rules'
-                            }
-                        }, {
-                            quickReplyButton: {
-                                displayText: '❍ Donasi',
-                                id: 'donasi'
-                            }
-                        }, {
-                            quickReplyButton: {
-                                displayText: '⎙ SewaBot',
-                                id: 'sewabot'
-                            }
-                        }]
-                        await hisoka.sendMessage(m.chat, txt, footer, gam, btn, {
-                            quoted: ftroli
-                        })
-                    })
-                    .catch((err) => {
-                        m.reply(mess.error)
-                    })
-            }
-            break
-            case 'manga': {
-                if (!text) return m.reply(`Manga apa yang kamu cari??`)
-                await m.reply(mess.wait)
-                xfarr.Manga(q).then(async data => {
-                        let txt = `*------「 MANGA-SEARCH 」------*\n\n`
-                        for (let i of data) {
-                            txt += `*📫 Title :* ${i.judul}\n`
-                            txt += `*📚 Url :* ${i.link}\n-----------------------------------------------------\n`
-                        }
-                        let gam = await getBuffer(data[0].thumbnail.replace('https://www.anime-planet.com', ''))
-                        let btn = [{
-                            urlButton: {
-                                displayText: 'TikTok Creator',
-                                url: global.myweb
-                            }
-                        }, {
-                            callButton: {
-                                displayText: 'Number Phone Owner',
-                                phoneNumber: global.owner[0]
-                            }
-                        }, {
-                            quickReplyButton: {
-                                displayText: '❍ Rules',
-                                id: 'rules'
-                            }
-                        }, {
-                            quickReplyButton: {
-                                displayText: '❍ Donasi',
-                                id: 'donasi'
-                            }
-                        }, {
-                            quickReplyButton: {
-                                displayText: '⎙ SewaBot',
-                                id: 'sewabot'
-                            }
-                        }]
-                        await hisoka.sendMessage(m.chat, txt, footer, gam, btn, {
-                            quoted: ftroli
-                        })
-                    })
-                    .catch((err) => {
-                        m.reply(mess.error)
-                    })
-            }
-            break
             case 'gsmarena': {
                 if (!text) throw `Contoh : ${prefix + command} samsung`
                 let res = await fetchJson(api('zenz', '/webzone/gsmarena', {
@@ -5733,9 +5596,6 @@ Request Message: ${text}`
 └┬─────────────┈❖
 ┌┤「 SEARCH 」
 │└─────────────┈❖
-│⭔ ${prefix}anime [query]
-│⭔ ${prefix}manga [query]
-│⭔ ${prefix}character [query]
 │⭔ ${prefix}play [query]
 │⭔ ${prefix}yts [query]
 │⭔ ${prefix}google [query]
@@ -7850,9 +7710,6 @@ Request Message: ${text}`
 └┬─────────────┈❖
 ┌┤「 SEARCH 」
 │└─────────────┈❖
-│⭔ ${prefix}anime [query]
-│⭔ ${prefix}manga [query]
-│⭔ ${prefix}character [query]
 │⭔ ${prefix}play [query]
 │⭔ ${prefix}yts [query]
 │⭔ ${prefix}google [query]
