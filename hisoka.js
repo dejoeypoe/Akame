@@ -1005,9 +1005,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                      }
             break
             case 'command': {
-                let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-                    listMessage: {
-                        title: `┌────────┈❖
+                  anu =`┌────────┈❖
 │「 Hi, ${pushname}👋 」
 │「 ${ucapanWaktu} 」
 └┬─────────────┈❖
@@ -1039,183 +1037,64 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
 │ WIB : ${wib}
 │ WITA : ${wita}
 │ WIT : ${wit}
-└──────────────┈❖`,
-                        description: "\n",
-                        buttonText: "LIST MENU  >_<",
-                        footerText: "Donasi Kak Buat Beli Apikey🔥",
-                        listType: "SINGLE_SELECT",
-                        sections: [{
-                                "title": "All Fitur Bot >_<",
-                                "rows": [{
-                                    "title": "「 All Menu 」",
-                                    "description": "Menampilkan All Menu",
-                                    "rowId": `${prefix}allmenu`
-                                }]
-                            },
-                            {
-                                "title": "List menu Bot >_<",
-                                "rows": [{
-                                        "title": "「 Anonymous Chat Menu 」",
-                                        "description": "Menampilkan Anonymous Chat Menu",
-                                        "rowId": `${prefix}anonymousmenu`
-                                    },
-                                    {
-                                        "title": "「 Anime Menu 」",
-                                        "description": "Menampilkan Anime Menu",
-                                        "rowId": `${prefix}animemenu`
-                                    },
-                                    {
-                                        "title": "「 Asupan Menu 」",
-                                        "description": "Menampilkan Asupan Menu",
-                                        "rowId": `${prefix}asupanmenu`
-                                    },
-                                    {
-                                        "title": "「 Convert Menu 」",
-                                        "description": "Menampilkan Convert Menu",
-                                        "rowId": `${prefix}convertmenu`
-                                    },
-                                    {
-                                        "title": "「 Download Menu 」",
-                                        "description": "Menampilkan Download Menu",
-                                        "rowId": `${prefix}downloadmenu`
-                                    },
-                                    {
-                                        "title": "「 Database Menu 」",
-                                        "description": "Menampilkan Database Menu",
-                                        "rowId": `${prefix}databasemenu`
-                                    },
-                                    {
-                                        "title": "「 Ephoto Menu 」",
-                                        "description": "Menampilkan Ephoto Menu",
-                                        "rowId": `${prefix}ephotomenu`
-                                    },
-                                    {
-                                        "title": "「 Group Menu 」",
-                                        "description": "Menampilkan Group Menu",
-                                        "rowId": `${prefix}groupmenu`
-                                    },
-                                    {
-                                        "title": "「 Game Menu 」",
-                                        "description": "Menampilkan Game Menu",
-                                        "rowId": `${prefix}gamemenu`
-                                    },
-                                    {
-                                        "title": "「 Islamic Menu 」",
-                                        "description": "Menampilkan Islamic Menu",
-                                        "rowId": `${prefix}islamicmenu`
-                                    },
-                                    {
-                                        "title": "「 Kerang Menu 」",
-                                        "description": "Menampilkan Kerang Menu",
-                                        "rowId": `${prefix}kerangmenu`
-                                    },
-                                    {
-                                        "title": "「 Meme Menu 」",
-                                        "description": "Menampilkan Meme Image Menu",
-                                        "rowId": `${prefix}mememenu`
-                                    },
-                                    {
-                                        "title": "「 Main Menu 」",
-                                        "description": "Menampilkan Main Menu",
-                                        "rowId": `${prefix}mainmenu`
-                                    },
-                                    {
-                                        "title": "「 Nsfw Menu 」",
-                                        "description": "Menampilkan Nsfw Menu",
-                                        "rowId": `${prefix}nsfwmenu`
-                                    },
-                                    {
-                                        "title": "「 Owner Menu 」",
-                                        "description": "Menampilkan Owner Menu",
-                                        "rowId": `${prefix}ownermenu`
-                                    },
-                                    {
-                                        "title": "「 Primbon Menu 」",
-                                        "description": "Menampilkan Primbon Menu",
-                                        "rowId": `${prefix}primbonmenu`
-                                    },
-                                    {
-                                        "title": "「 Photo Editor Menu 」",
-                                        "description": "Menampilkan Photo Editor Menu",
-                                        "rowId": `${prefix}photoeditormenu`
-                                    },
-                                    {
-                                        "title": "「 Quotes Menu 」",
-                                        "description": "Menampilkan Quotes Menu",
-                                        "rowId": `${prefix}quotesmenu`
-                                    },
-                                    {
-                                        "title": "「 Random Menu 」",
-                                        "description": "Menampilkan Random Menu",
-                                        "rowId": `${prefix}randommenu`
-                                    },
-                                    {
-                                        "title": "「 Sticker Menu 」️",
-                                        "description": "Menampilkan Sticker  Menu",
-                                        "rowId": `${prefix}stickermenu`
-                                    },
-                                    {
-                                        "title": "「 Search Menu 」",
-                                        "description": "Menampilkan Search Menu",
-                                        "rowId": `${prefix}searchmenu`
-                                    },
-                                    {
-                                        "title": "「 Stalk Menu 」",
-                                        "description": "Menampilkan Stalk Menu",
-                                        "rowId": `${prefix}stalkmenu`
-                                    },
-                                    {
-                                        "title": "「 Text Pro Menu 」",
-                                        "description": "Menampilkan Text Pro menu",
-                                        "rowId": `${prefix}textpromenu`
-                                    },
-                                    {
-                                        "title": "「 Voice Changer Menu 」️",
-                                        "description": "Menampilkan Voice Changer Menu",
-                                        "rowId": `${prefix}voicemenu`
-                                    },
-                                    {
-                                        "title": "「 Webzone Menu 」",
-                                        "description": "Menampilkan Webzone Menu",
-                                        "rowId": `${prefix}webzonemenu`
-                                    }
-
-                                ]
-                            },
-                            {
-                                "title": "Open Jasa Sewabot >_<",
-                                "rows": [{
-                                    "title": "「 Sewa Bot 」",
-                                    "description": "Klik Untuk Melihat Daftar Sewabot",
-                                    "rowId": `${prefix}sewabot`
-                                }]
-                            },
-                            {
-                                "title": "Info Tentang Owner? >_<",
-                                "rows": [{
-                                    "title": "「 Chat Owner 」",
-                                    "description": "menampilkan Nomor Owner",
-                                    "rowId": `${prefix}owner`
-                                }]
-                            },
-                            {
-                                "title": "Thanks To >_<",
-                                "rows": [{
-                                    "title": "「 Contributor 」",
-                                    "description": "menampilkan Nama Teman - Teman Saya Yang Sudah Membantu Merakit Bot Ini !!",
-                                    "rowId": `${prefix}tqtt`
-                                }]
-                            }
-                        ],
-                        listType: 1
-                    }
-                }), {
-                    userJid: m.chat,
-                    quoted: ftroli
-                })
-                hisoka.relayMessage(m.chat, template.message, {
-                    messageId: template.key.id
-                })
+└──────────────┈❖`
+                let sections = [
+                {
+                title: "All Fitur Bot >_<",
+                rows: [
+                {title: "⌲ 「 All Menu 」", rowId: `${prefix}allmenu`, description: `Menampilkan All Menu`}
+                ]
+                },
+                {
+                title: "List Menu Simpel Bot >_<",
+                rows: [
+                {title: "⌲ 「 Anonymous Chat Menu 」", rowId: `${prefix}anonymousmenu`, description: `Menampilkan Anonymous Chat Menu`},
+                {title: "⌲ 「 Anime Menu 」", rowId: `${prefix}animemenu`, description: `Menampilkan Anime Menu`},
+                {title: "⌲ 「 Asupan Menu 」", rowId: `${prefix}asupanmenu`, description: `Menampilkan Asupan Menu`},
+                {title: "⌲ 「 Convert Menu 」", rowId: `${prefix}convertmenu`, description: `Menampilkan Convert Menu`},
+                {title: "⌲ 「 Download Menu 」", rowId: `${prefix}downloadmenu`, description: `Menampilkan Download Menu`},
+                {title: "⌲ 「 Database Menu 」", rowId: `${prefix}databasemenu`, description: `Menampilkan Database Menu`},
+                {title: "⌲ 「 Ephoto Menu 」", rowId: `${prefix}ephotomenu`, description: `Menampilkan Ephoto Menu`},
+                {title: "⌲ 「 Group Menu 」", rowId: `${prefix}groupmenu`, description: `Menampilkan Group Menu`},
+                {title: "⌲ 「 Game Menu 」", rowId: `${prefix}gamemenu`, description: `Menampilkan Game Menu`},
+                {title: "⌲ 「 Islamic Menu 」", rowId: `${prefix}downloadmenu`, description: `Menampilkan Islamic Menu`},
+                {title: "⌲ 「 Kerang Menu 」", rowId: `${prefix}kerangmenu`, description: `Menampilkan Kerang Menu`},
+                {title: "⌲ 「 Meme Menu 」", rowId: `${prefix}mememenu`, description: `Menampilkan Meme Menu`},
+                {title: "⌲ 「 Main Menu 」", rowId: `${prefix}mainmenu`, description: `Menampilkan Main Menu`},
+                {title: "⌲ 「 Nsfw Menu 」", rowId: `${prefix}nsfwmenu`, description: `Menampilkan Nsfw Menu`},
+                {title: "⌲ 「 Owner Menu 」", rowId: `${prefix}ownermenu`, description: `Menampilkan Owner Menu`},
+                {title: "⌲ 「 Primbon Menu 」", rowId: `${prefix}primbonmenu`, description: `Menampilkan Primbon Menu`},
+                {title: "⌲ 「 Photo Editor Menu 」", rowId: `${prefix}photoeditormenu`, description: `Menampilkan Photo Editor Menu`},
+                {title: "⌲ 「 Quotes Menu 」", rowId: `${prefix}quotesmenu`, description: `Menampilkan Quotes Menu`},
+                {title: "⌲ 「 Random Menu 」", rowId: `${prefix}randommenu`, description: `Menampilkan Random Menu`},
+                {title: "⌲ 「 Sticker Menu 」", rowId: `${prefix}stickermenu`, description: `Menampilkan Sticker Menu`},
+                {title: "⌲ 「 Search Menu 」", rowId: `${prefix}searchmenu`, description: `Menampilkan Search Menu`},
+                {title: "⌲ 「 Stalk Menu 」", rowId: `${prefix}stalkmenu`, description: `Menampilkan Stalk Menu`},
+                {title: "⌲ 「 Text Pro Menu 」", rowId: `${prefix}textpromenu`, description: `Menampilkan Text Pro Menu`},
+                {title: "⌲ 「 Voice Changer Menu 」", rowId: `${prefix}voicemenu`, description: `Menampilkan Voice Changer Menu`},
+                {title: "⌲ 「 Webzone Menu 」", rowId: `${prefix}webzonemenu`, description: `Menampilkan Webzone Menu`}
+                ]
+                },
+                {
+                title: "Open Jasa Sewabot >_<",
+                rows: [
+                {title: "⌲ 「 Anonymous Sewa Bot 」", rowId: `${prefix}sewabot`, description: `Klik Untuk Melihat Daftar Sewabot`}
+                ]
+                },
+                {
+                title: "Info Tentang Owner? >_<",
+                rows: [
+                {title: "⌲ 「 Chat Owner 」", rowId: `${prefix}owner`, description: `Menampilkan Nomor WhatsApp Owner`}
+                ]
+                },
+                {
+                title: "Thanks To >_<",
+                rows: [
+                {title: "⌲ 「 Contributor 」", rowId: `${prefix}tqtt`, description: `Menampilkan Nama Teman - Teman Saya Yang Sudah Membantu Merakit Bot Ini !!`}
+                ]
+                }
+                ],
+                hisoka.sendListMsg(m.chat, anu, hisoka.user.name, `Hello Everyone !`, `Click Here`, sections, m)
             }
             break
             case 'sc':
@@ -5360,7 +5239,7 @@ Request Message: ${text}`
                     }
                 }, {
                     quickReplyButton: {
-                        displayText: 'Ping',
+                        displayText: '❍ Ping',
                         id: 'ping'
                     }
                 }, {
