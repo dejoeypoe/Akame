@@ -1061,39 +1061,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 ]
                 }
                 ],
-                hisoka.sendListMsg(m.chat, `┌────────┈❖
-│「 Hi, ${pushname}👋 」
-│「 ${ucapanWaktu} 」
-└┬─────────────┈❖
-┌┤「 INFO USER 」
-│└─────────────┈❖
-│ Name : ${pushname}
-│ Number : ${m.sender.split('@')[0]}
-│ Status : ${isCreator ? 'Owner' : 'User'}
-│ User : ${Object.keys(global.db.users).length}
-└┬─────────────┈❖
-┌┤「 INFO BOT 」
-│└─────────────┈❖
-│ Prefix : ( ${prefix} )
-│ Name : ${global.namabot}
-│ Owner : ${global.namaowner}
-│ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ Platform : ${os.platform()}
-│ Runtime :
-│  ${runtime(process.uptime())}
-│ Language : Javascript
-│ Lib : Baileys-md
-└┬─────────────┈❖
-┌┤「 INFO TIME 」
-│└─────────────┈❖
-│ Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
-│ Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}
-│ Menuju Ulang Tahun OwnerKu :
-│  ${menuju}
-│ WIB : ${wib}
-│ WITA : ${wita}
-│ WIT : ${wit}
-└──────────────┈❖`, hisoka.user.name, `Hello Everyone !`, `Click Here`, sections, m)
+                hisoka.sendListMsg(m.chat, `┌────────┈❖\n│「 Hi, ${pushname}👋 」\n│「 ${ucapanWaktu} 」\n└┬─────────────┈❖\n┌┤「 INFO USER 」\n│└─────────────┈❖\n│ Name : ${pushname}\n│ Number : ${m.sender.split('@')[0]}\n│ Status : ${isCreator ? 'Owner' : 'User'}\n│ User : ${Object.keys(global.db.users).length}\n└┬─────────────┈❖\n┌┤「 INFO BOT 」\n│└─────────────┈❖\n│ Prefix : ( ${prefix} )\n│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}\n│ Mode : ${hisoka.public ? 'Public' : 'Self'}\n│ Platform : ${os.platform()}\n│ Runtime :\n│  ${runtime(process.uptime())}\n│ Language : Javascript\n│ Lib : Baileys-md\n└┬─────────────┈❖\n┌┤「 INFO TIME 」\n│└─────────────┈❖\n│ Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}\n│ Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n│ Menuju Ulang Tahun OwnerKu :\n│  ${menuju}\n│ WIB : ${wib}\n│ WITA : ${wita}\n│ WIT : ${wit}\n└──────────────┈❖`, hisoka.user.name, `Hello Everyone !`, `Click Here`, sections, m)
             }
             break
             case 'sc':
