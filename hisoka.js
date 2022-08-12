@@ -1005,9 +1005,8 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                      }
             break
             case 'command': {
-                let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-                    listMessage: {
-                        title: `┌────────┈❖
+                let sections = [
+                title: "┌────────┈❖
 │「 Hi, ${pushname}👋 」
 │「 ${ucapanWaktu} 」
 └┬─────────────┈❖
@@ -1039,12 +1038,8 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
 │ WIB : ${wib}
 │ WITA : ${wita}
 │ WIT : ${wit}
-└──────────────┈❖`,
-                        description: "\n",
-                        buttonText: "LIST MENU  >_<",
-                        footerText: "Donasi Kak Buat Beli Apikey🔥",
-                        listType: "SINGLE_SELECT",
-                        sections: [{
+└──────────────┈❖",
+                            rows: [{
                                 "title": "All Fitur Bot >_<",
                                 "rows": [{
                                     "title": "「 All Menu 」",
@@ -1207,15 +1202,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                                 }]
                             }
                         ],
-                        listType: 1
-                    }
-                }), {
-                    userJid: m.chat,
-                    quoted: ftroli
-                })
-                hisoka.relayMessage(m.chat, template.message, {
-                    messageId: template.key.id
-                })
+                hisoka.sendListMsg(m.chat, `Please select the menu you!`, hisoka.user.name, `Hi Everyone !`, `Click Here`, sections, m)
             }
             break
             case 'sc':
