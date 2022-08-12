@@ -2373,8 +2373,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                     let unread = i.receiptTimestamp
                     let waktu = read ? read : unread
                     teks += `👤 @${i.userJid.split('@')[0]}\n`
-                    teks += `⏳ *Waktu :* ${moment(waktu * 1000).format('DD/MM/YY HH:mm:ss')}`
-                    teks += `📈 *Status :* ${read ? 'Dibaca' : 'Terkirim'}\n\n`
+                    teks += `⏳ *Waktu :* ${moment(waktu * 1000).format('DD/MM/YY HH:mm:ss')}\n📈 *Status :* ${read ? 'Dibaca' : 'Terkirim'}\n\n`
                 }
                 hisoka.sendTextWithMentions(m.chat, teks, m)
             }
@@ -2980,6 +2979,9 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             //Anime/Wibu
+            case 'couples':
+            case 'animememe':
+            case 'anime':
             case 'waifu':
             case 'husbu':
             case 'neko':
@@ -2989,7 +2991,8 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             case 'maid':
             case 'oppai':
             case 'selfies':
-            case 'cosplay': {
+            case 'cosplay':
+            case 'hololive': {
                 m.reply(mess.wait)
                 if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
                 db.users[m.sender].limit -= 1 // -1 limit
@@ -3082,12 +3085,23 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             //Tambahan
-            case 'patrick': {
+            case 'patrick':
+            case 'minecraft':
+            case 'aesthetic':
+            case 'anjing':
+            case 'blackpink':
+            case 'boneka':
+            case 'mobil':
+            case 'motor':
+            case 'kucing':
+            case 'wallhp':
+            case 'hacker':
+            case 'cogan': {
                 m.reply(mess.wait)
                 if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
                 db.users[m.sender].limit -= 1 // -1 limit
                 let buttons = [{
-                    buttonId: `patrick`,
+                    buttonId: `${command}`,
                     buttonText: {
                         displayText: '⌲ Next Image'
                     },
@@ -3095,7 +3109,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 }]
                 let buttonMessage = {
                     image: { url: api('zenz', '/randomimage/patrick', {}, 'apikey') },
-                    caption: `Random Image Patrick`,
+                    caption: `Random Image ${command}`,
                     footer: hisoka.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -3153,7 +3167,8 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             //Meme
             case 'meme':
             case 'darkjoke':
-            case 'memeindo': {
+            case 'memeindo':
+            case 'onecak': {
                 m.reply(mess.wait)
                 if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
                 db.users[m.sender].limit -= 1 // -1 limit
@@ -5543,6 +5558,10 @@ Request Message: ${text}`
 └┬─────────────┈❖
 ┌┤「 ANIME 」
 │└─────────────┈❖
+│⭔ ${prefix}anime
+│⭔ ${prefix}animememe
+│⭔ ${prefix}hololive
+│⭔ ${prefix}couples
 │⭔ ${prefix}couple
 │⭔ ${prefix}waifu
 │⭔ ${prefix}husbu
@@ -5704,6 +5723,7 @@ Request Message: ${text}`
 │⭔ ${prefix}asupantiktok
 │⭔ ${prefix}asupannatajadeh
 │⭔ ${prefix}cecan
+│⭔ ${prefix}cogan
 │⭔ ${prefix}china
 │⭔ ${prefix}thailand
 │⭔ ${prefix}vietnam
@@ -5853,6 +5873,7 @@ Request Message: ${text}`
 │⭔ ${prefix}meme
 │⭔ ${prefix}memeindo
 │⭔ ${prefix}darkjoke
+│⭔ ${prefix}onecak
 └──────────────┈❖`
                 let btn = [{
                     urlButton: {
@@ -5916,6 +5937,16 @@ Request Message: ${text}`
 │⭔ ${prefix}simih [teks]
 │⭔ ${prefix}apikey
 │⭔ ${prefix}coffe
+│⭔ ${prefix}minecraft
+│⭔ ${prefix}aesthetic
+│⭔ ${prefix}anjing
+│⭔ ${prefix}blackpink
+│⭔ ${prefix}boneka
+│⭔ ${prefix}mobil
+│⭔ ${prefix}motor
+│⭔ ${prefix}kucing
+│⭔ ${prefix}wallhp
+│⭔ ${prefix}hacker
 │⭔ ${prefix}ebinary [teks]
 │⭔ ${prefix}dbinary [teks]
 │⭔ ${prefix}styletext [teks]
@@ -7181,6 +7212,10 @@ Request Message: ${text}`
 └┬─────────────┈❖
 ┌┤「 ANIME 」
 │└─────────────┈❖
+│⭔ ${prefix}anime
+│⭔ ${prefix}animememe
+│⭔ ${prefix}hololive
+│⭔ ${prefix}couples
 │⭔ ${prefix}couple
 │⭔ ${prefix}waifu
 │⭔ ${prefix}husbu
@@ -7203,6 +7238,7 @@ Request Message: ${text}`
 │⭔ ${prefix}asupantiktok
 │⭔ ${prefix}asupannatajadeh
 │⭔ ${prefix}cecan
+│⭔ ${prefix}cogan
 │⭔ ${prefix}china
 │⭔ ${prefix}thailand
 │⭔ ${prefix}vietnam
@@ -7369,6 +7405,7 @@ Request Message: ${text}`
 │⭔ ${prefix}meme
 │⭔ ${prefix}memeindo
 │⭔ ${prefix}darkjoke
+│⭔ ${prefix}onecak
 └┬─────────────┈❖
 ┌┤「 MAIN 」
 │└─────────────┈❖
@@ -7507,6 +7544,16 @@ Request Message: ${text}`
 │⭔ ${prefix}simih [teks]
 │⭔ ${prefix}apikey
 │⭔ ${prefix}coffe
+│⭔ ${prefix}minecraft
+│⭔ ${prefix}aesthetic
+│⭔ ${prefix}anjing
+│⭔ ${prefix}blackpink
+│⭔ ${prefix}boneka
+│⭔ ${prefix}mobil
+│⭔ ${prefix}motor
+│⭔ ${prefix}kucing
+│⭔ ${prefix}wallhp
+│⭔ ${prefix}hacker
 │⭔ ${prefix}ebinary [teks]
 │⭔ ${prefix}dbinary [teks]
 │⭔ ${prefix}styletext [teks]
