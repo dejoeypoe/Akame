@@ -183,7 +183,7 @@ global.visoka = { url: 'https://telegra.ph/file/de381b0caeb315a99c68a.mp4' }
 ---------
 
 # Apikey
-* Get Apikey zenz on [`Zenz`](https://zenzapi.xyz/pricing)
+* Get Apikey zenz on [`Zenz`](https://zenzapis.xyz/)
 
 ## Thanks To
 * [`@adiwajshing/baileys`](https://github.com/adiwajshing/baileys)
