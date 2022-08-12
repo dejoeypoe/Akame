@@ -1060,8 +1060,8 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 {title: "⌲ 「 Contributor 」", rowId: `${prefix}tqtt`, description: `Menampilkan Nama Teman - Teman Saya Yang Sudah Membantu Merakit Bot Ini !!`}
                 ]
                 }
-                ],
-                hisoka.sendListMsg(m.chat, `Please select the menu`, hisoka.user.name, `Hello Everyone !`, `Click Here`, sections, m)
+                ]
+                hisoka.sendListMsg(m.chat, `Please select the menu!`, hisoka.user.name, `Hello Everyone !`, `Click Here`, sections, m)
             }
             break
             case 'sc':
