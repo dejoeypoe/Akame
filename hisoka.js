@@ -1045,7 +1045,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 {
                 title: "Open Jasa Sewabot >_<",
                 rows: [
-                {title: "⌲ 「 Anonymous Sewa Bot 」", rowId: `${prefix}sewabot`, description: `Klik Untuk Melihat Daftar Sewabot`}
+                {title: "⌲ 「 Sewa Bot 」", rowId: `${prefix}sewabot`, description: `Klik Untuk Melihat Harga Sewabot`}
                 ]
                 },
                 {
