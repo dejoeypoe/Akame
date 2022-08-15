@@ -310,7 +310,10 @@ ${Array.from(room.jawaban, (jawaban, index) => {
         if (asahotak.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
             kuis = true
             jawaban = asahotak[m.sender.split('@')[0]]
-            if (budy.toLowerCase() == jawaban) {
+            if (budy.toLowerCase() == "nyerah") {
+                await m.reply('*Anda Telah menyerah*')
+                delete asahotak[m.sender.split('@')[0]]
+            } else if (budy.toLowerCase() == jawaban) {
                 await hisoka.sendButtonText(m.chat, [{
                     buttonId: 'asahotak',
                     buttonText: {
@@ -325,7 +328,10 @@ ${Array.from(room.jawaban, (jawaban, index) => {
         if (siapakahaku.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
             kuis = true
             jawaban = siapakahaku[m.sender.split('@')[0]]
-            if (budy.toLowerCase() == jawaban) {
+            if (budy.toLowerCase() == "nyerah") {
+                await m.reply('*Anda Telah menyerah*')
+                delete siapakahaku[m.sender.split('@')[0]]
+            } else if (budy.toLowerCase() == jawaban) {
                 await hisoka.sendButtonText(m.chat, [{
                     buttonId: 'siapakahaku',
                     buttonText: {
@@ -340,7 +346,10 @@ ${Array.from(room.jawaban, (jawaban, index) => {
         if (susunkata.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
             kuis = true
             jawaban = susunkata[m.sender.split('@')[0]]
-            if (budy.toLowerCase() == jawaban) {
+            if (budy.toLowerCase() == "nyerah") {
+                await m.reply('*Anda Telah menyerah*')
+                delete susunkata[m.sender.split('@')[0]]
+            } else if (budy.toLowerCase() == jawaban) {
                 await hisoka.sendButtonText(m.chat, [{
                     buttonId: 'susunkata',
                     buttonText: {
@@ -355,7 +364,10 @@ ${Array.from(room.jawaban, (jawaban, index) => {
         if (tebakbendera.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
             kuis = true
             jawaban = tebakbendera[m.sender.split('@')[0]]
-            if (budy.toLowerCase() == jawaban) {
+            if (budy.toLowerCase() == "nyerah") {
+                await m.reply('*Anda Telah menyerah*')
+                delete tebakbendera[m.sender.split('@')[0]]
+            } else if (budy.toLowerCase() == jawaban) {
                 await hisoka.sendButtonText(m.chat, [{
                     buttonId: 'tebak bendera',
                     buttonText: {
@@ -370,7 +382,10 @@ ${Array.from(room.jawaban, (jawaban, index) => {
         if (tebakkabupaten.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
             kuis = true
             jawaban = tebakkabupaten[m.sender.split('@')[0]]
-            if (budy.toLowerCase() == jawaban) {
+            if (budy.toLowerCase() == "nyerah") {
+                await m.reply('*Anda Telah menyerah*')
+                delete tebakkabupaten[m.sender.split('@')[0]]
+            } else if (budy.toLowerCase() == jawaban) {
                 await hisoka.sendButtonText(m.chat, [{
                     buttonId: 'tebak kabupaten',
                     buttonText: {
@@ -385,7 +400,10 @@ ${Array.from(room.jawaban, (jawaban, index) => {
         if (susunkata.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
             kuis = true
             jawaban = susunkata[m.sender.split('@')[0]]
-            if (budy.toLowerCase() == jawaban) {
+            if (budy.toLowerCase() == "nyerah") {
+                await m.reply('*Anda Telah menyerah*')
+                delete susunkata[m.sender.split('@')[0]]
+            } else if (budy.toLowerCase() == jawaban) {
                 await hisoka.sendButtonText(m.chat, [{
                     buttonId: 'susunkata',
                     buttonText: {
@@ -400,7 +418,10 @@ ${Array.from(room.jawaban, (jawaban, index) => {
         if (tebakkimia.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
             kuis = true
             jawaban = tebakkimia[m.sender.split('@')[0]]
-            if (budy.toLowerCase() == jawaban) {
+            if (budy.toLowerCase() == "nyerah") {
+                await m.reply('*Anda Telah menyerah*')
+                delete tebakkimia[m.sender.split('@')[0]]
+            } else if (budy.toLowerCase() == jawaban) {
                 await hisoka.sendButtonText(m.chat, [{
                     buttonId: 'tebak kimia',
                     buttonText: {
@@ -415,7 +436,10 @@ ${Array.from(room.jawaban, (jawaban, index) => {
         if (tekateki.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
             kuis = true
             jawaban = tekateki[m.sender.split('@')[0]]
-            if (budy.toLowerCase() == jawaban) {
+            if (budy.toLowerCase() == "nyerah") {
+                await m.reply('*Anda Telah menyerah*')
+                delete tekateki[m.sender.split('@')[0]]
+            } else if (budy.toLowerCase() == jawaban) {
                 await hisoka.sendButtonText(m.chat, [{
                     buttonId: 'tekateki',
                     buttonText: {
@@ -430,7 +454,10 @@ ${Array.from(room.jawaban, (jawaban, index) => {
         if (tebaklagu.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
             kuis = true
             jawaban = tebaklagu[m.sender.split('@')[0]]
-            if (budy.toLowerCase() == jawaban) {
+            if (budy.toLowerCase() == "nyerah") {
+                await m.reply('*Anda Telah menyerah*')
+                delete tebaklagu[m.sender.split('@')[0]]
+            } else if (budy.toLowerCase() == jawaban) {
                 await hisoka.sendButtonText(m.chat, [{
                     buttonId: 'tebak lagu',
                     buttonText: {
@@ -445,7 +472,10 @@ ${Array.from(room.jawaban, (jawaban, index) => {
         if (kuismath.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
             kuis = true
             jawaban = kuismath[m.sender.split('@')[0]]
-            if (budy.toLowerCase() == jawaban) {
+            if (budy.toLowerCase() == "nyerah") {
+                await m.reply('*Anda Telah menyerah*')
+                delete kuismath[m.sender.split('@')[0]]
+            } else if (budy.toLowerCase() == jawaban) {
                 await m.reply(`🎮 Kuis Matematika  🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? kirim ${prefix}math mode`)
                 delete kuismath[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
@@ -454,7 +484,10 @@ ${Array.from(room.jawaban, (jawaban, index) => {
         if (tebakgambar.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
             kuis = true
             jawaban = tebakgambar[m.sender.split('@')[0]]
-            if (budy.toLowerCase() == jawaban) {
+            if (budy.toLowerCase() == "nyerah") {
+                await m.reply('*Anda Telah menyerah*')
+                delete tebakgambar[m.sender.split('@')[0]]
+            } else if (budy.toLowerCase() == jawaban) {
                 await hisoka.sendButtonText(m.chat, [{
                     buttonId: 'tebak gambar',
                     buttonText: {
@@ -469,7 +502,10 @@ ${Array.from(room.jawaban, (jawaban, index) => {
         if (tebakkata.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
             kuis = true
             jawaban = tebakkata[m.sender.split('@')[0]]
-            if (budy.toLowerCase() == jawaban) {
+            if (budy.toLowerCase() == "nyerah") {
+                await m.reply('*Anda Telah menyerah*')
+                delete tebakkata[m.sender.split('@')[0]]
+            } else if (budy.toLowerCase() == jawaban) {
                 await hisoka.sendButtonText(m.chat, [{
                     buttonId: 'tebak kata',
                     buttonText: {
@@ -485,7 +521,10 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             kuis = true
             jawaban = caklontong[m.sender.split('@')[0]]
             deskripsi = caklontong_desk[m.sender.split('@')[0]]
-            if (budy.toLowerCase() == jawaban) {
+            if (budy.toLowerCase() == "nyerah") {
+                await m.reply('*Anda Telah menyerah*')
+                delete caklontong[m.sender.split('@')[0]]
+            } else if (budy.toLowerCase() == jawaban) {
                 await hisoka.sendButtonText(m.chat, [{
                     buttonId: 'tebak lontong',
                     buttonText: {
@@ -501,7 +540,10 @@ ${Array.from(room.jawaban, (jawaban, index) => {
         if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
             kuis = true
             jawaban = tebakkalimat[m.sender.split('@')[0]]
-            if (budy.toLowerCase() == jawaban) {
+            if (budy.toLowerCase() == "nyerah") {
+                await m.reply('*Anda Telah menyerah*')
+                delete tebakkalimat[m.sender.split('@')[0]]
+            } else if (budy.toLowerCase() == jawaban) {
                 await hisoka.sendButtonText(m.chat, [{
                     buttonId: 'tebak kalimat',
                     buttonText: {
@@ -516,7 +558,10 @@ ${Array.from(room.jawaban, (jawaban, index) => {
         if (tebaklirik.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
             kuis = true
             jawaban = tebaklirik[m.sender.split('@')[0]]
-            if (budy.toLowerCase() == jawaban) {
+            if (budy.toLowerCase() == "nyerah") {
+                await m.reply('*Anda Telah menyerah*')
+                delete tebaklirik[m.sender.split('@')[0]]
+            } else if (budy.toLowerCase() == jawaban) {
                 await hisoka.sendButtonText(m.chat, [{
                     buttonId: 'tebak lirik',
                     buttonText: {
@@ -531,7 +576,10 @@ ${Array.from(room.jawaban, (jawaban, index) => {
         if (tebaktebakan.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
             kuis = true
             jawaban = tebaktebakan[m.sender.split('@')[0]]
-            if (budy.toLowerCase() == jawaban) {
+            if (budy.toLowerCase() == "nyerah") {
+                await m.reply('*Anda Telah menyerah*')
+                delete tebaktebakan[m.sender.split('@')[0]]
+            } else if (budy.toLowerCase() == jawaban) {
                 await hisoka.sendButtonText(m.chat, [{
                     buttonId: 'tebak tebakan',
                     buttonText: {
