@@ -2324,7 +2324,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                         m.reply(`Sukses Menyetel Ulang, Tautan Undangan Grup ${groupMetadata.subject}`)
                     }).catch((err) => m.reply(jsonformat(err)))
                 break
-            case 'delete': case 'del': {
+            case 'hapus': case 'delete': case 'del': case 'd': {
                 if (!m.quoted) throw false
                 let { chat, fromMe, id, isBaileys } = m.quoted
                 if (!isBaileys) throw 'Pesan tersebut bukan dikirim oleh bot!'
