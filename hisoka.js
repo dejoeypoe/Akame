@@ -3901,6 +3901,8 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'tiktok': {
+            if (!text) throw 'Link TikTok Ya Mana?'
+            try {
                 if (isUrl(text)) {
                     let fetch = await fetchJson(api('zenz', 'downloader/musically', { url: isUrl(text)[0] }, 'apikey'))
                     let buttons = [{
