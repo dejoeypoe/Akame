@@ -3901,6 +3901,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'tiktok': {
+                if (!text) throw 'Link TikTok Ya Mana?'
                 if (isUrl(text)) {
                     let fetch = await fetchJson(api('zenz', 'downloader/musically', { url: isUrl(text)[0] }, 'apikey'))
                     let buttons = [{
@@ -3951,6 +3952,9 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                         headerType: 5
                     }
                     hisoka.sendMessage(m.chat, buttonMessage, { quoted: m })
+                    }
+                } catch {
+                    m.reply('Error / Not Found')
                 }
             }
             break
@@ -3996,21 +4000,13 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 m.reply(mess.wait)
                 let anu = fetchJson(api('zenz', '/downloader/musically', { url: text }, 'apikey'))
                 let buttonMessage = {
+                    video: { url: anu.result.prefiew },
                     text: `Download From ${text}`,
                     footer: hisoka.user.name,
                     headerType: 2
                 }
-                let msg = await hisoka.sendMessage(m.chat, buttonMessage, {
-                    quoted: ftroli
-                })
-                hisoka.sendMessage(m.chat, {
-                    audio: {
-                        url: anu.result.audio
-                    },
-                    mimetype: 'audio/mpeg'
-                }, {
-                    quoted: msg
-                })
+                hisoka.sendMessage(m.from, buttonMessage, { quoted: m })
+                hisoka.sendFile(m.from, fetch.result.audio, "", m)
             }
             break
             case 'instagram': case 'ig': case 'igdl': {
