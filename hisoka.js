@@ -182,12 +182,16 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
                 if (!('antilinkyt' in chats)) chats.antilinkyt = false
                 if (!('antilinktt' in chats)) chats.antilinktt = false
                 if (!('antivirtex' in chats)) chats.antivirtex = true
+                if (!('antidelete' in chats)) chats.antidelete = false
+                if (!('antiviewone' in chats)) chats.antiviewone = false
             } else global.db.chats[m.chat] = {
                 mute: false,
                 antilink: false,
                 antilinkyt: false,
                 antilinktt: false,
                 antivirtex: true,
+                antidelete: false,
+                antiviewone: false,
             }
 
             let setting = global.db.settings[botNumber]
@@ -633,6 +637,30 @@ ${Array.from(room.jawaban, (jawaban, index) => {
                 hisoka.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
             }
         }
+        //anti delete
+        if (db.chats[m.chat].antidelete) {
+            hisoka.addMessage(m, m.mtype);
+        }
+        //anti viewone
+        if (db.chats[m.chat].antiviewone) {
+        if (!m.isGroup) return 
+	     	if (m.isGroup && m.mtype == 'viewOnceMessage') {
+			let teks = `「 *Anti ViewOnce Message* 」
+    
+    🤠 *Name* : ${pushname}
+    👾 *User* : @${m.sender.split("@")[0]}
+    ⏰ *Clock* : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')} WIB
+    
+    💫 *MessageType* : ${m.mtype}`
+     reply(teks)
+			await sleep(500)
+			m.copyNForward(m.chat, true, {
+				readViewOnce: true
+			}, {
+				quoted: mek
+			}).catch(_ => m.reply('Mungkin dah pernah dibuka bot'))
+		}
+}
         // Mute Chat
         if (db.chats[m.chat].mute && !isAdmins && !isCreator) {
             return
@@ -1856,7 +1884,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                             type: 1
                         }
                     ]
-                    await hisoka.sendButtonText(m.chat, buttons, `Mode Antilink Group WhatsApp`, hisoka.user.name, ftroli)
+                    await hisoka.sendButtonText(m.chat, buttons, `Mode ${command} 🕊️`, `Silahkan Klik Button Dibawah, Jika Button Tidak Muncul Ketik ${command} on/off`, m)
                 }
             }
             break
@@ -1888,7 +1916,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                             type: 1
                         }
                     ]
-                    await hisoka.sendButtonText(m.chat, buttons, `Mode Antilink YouTube`, hisoka.user.name, ftroli)
+                    await hisoka.sendButtonText(m.chat, buttons, `Mode ${command} 🕊️`, `Silahkan Klik Button Dibawah, Jika Button Tidak Muncul Ketik ${command} on/off`, m)
                 }
             }
             break
@@ -1920,7 +1948,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                             type: 1
                         }
                     ]
-                    await hisoka.sendButtonText(m.chat, buttons, `Mode Antilink TikTok`, hisoka.user.name, ftroli)
+                    await hisoka.sendButtonText(m.chat, buttons, `Mode ${command} 🕊️`, `Silahkan Klik Button Dibawah, Jika Button Tidak Muncul Ketik ${command} on/off`, m)
                 }
             }
             break
@@ -1952,7 +1980,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                             type: 1
                         }
                     ]
-                    await hisoka.sendButtonText(m.chat, buttons, `Mute Bot`, hisoka.user.name, ftroli)
+                    await hisoka.sendButtonText(m.chat, buttons, `Mode ${command} 🕊️`, `Silahkan Klik Button Dibawah, Jika Button Tidak Muncul Ketik ${command} on/off`, m)
                 }
             }
             break
@@ -1972,10 +2000,50 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                         { buttonId: 'anticall on', buttonText: { displayText: 'On' }, type: 1 },
                         { buttonId: 'anticall off', buttonText: { displayText: 'Off' }, type: 1 }
                     ]
-                    await hisoka.sendButtonText(m.chat, buttons, `Mode AntiCall`, hisoka.user.name, m)
+                    await hisoka.sendButtonText(m.chat, buttons, `Mode ${command} 🕊️`, `Silahkan Klik Button Dibawah, Jika Button Tidak Muncul Ketik ${command} on/off`, m)
                 }
              }
              break
+             case 'antidelete':
+             if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                if (args[0] === "on") {
+                if (db.chats[m.chat].antidelete) return m.reply(`Sudah Aktif Sebelumnya 🕊️`)
+                db.chats[m.chat].antidelete = true
+                m.reply(`Antilink Berhasil Di Aktifkan 🕊️`)
+                } else if (args[0] === "off") {
+                if (!db.chats[m.chat].antidelete) return m.reply(`Sudah Nonaktif Sebelumnya 🕊️`)
+                db.chats[m.chat].antidelete = false
+                m.reply(`Antilink Berhasil Di Nonaktifkan 🕊️`)
+                } else {
+                let buttons = [
+                        { buttonId: 'anticall on', buttonText: { displayText: 'On' }, type: 1 },
+                        { buttonId: 'anticall off', buttonText: { displayText: 'Off' }, type: 1 }
+                    ]
+                await hisoka.sendButtonText(m.chat, buttons, `Mode ${command} 🕊️`, `Silahkan Klik Button Dibawah, Jika Button Tidak Muncul Ketik ${command} on/off`, m)
+                  }
+                break
+           case 'antiviewone':
+             if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                if (args[0] === "on") {
+                if (db.chats[m.chat].antiviewone) return m.reply(`Sudah Aktif Sebelumnya`)
+                db.chats[m.chat].antiviewone = true
+                m.reply(`Antilink Berhasil Di Aktifkan !`)
+                } else if (args[0] === "off") {
+                if (!db.chats[m.chat].antiviewone) return m.reply(`Sudah Nonaktif Sebelumnya`)
+                db.chats[m.chat].antiviewone = false
+                m.reply(`Antilink Berhasil Di Nonaktifkan !`)
+                } else {
+                let buttons = [
+                        { buttonId: 'anticall on', buttonText: { displayText: 'On' }, type: 1 },
+                        { buttonId: 'anticall off', buttonText: { displayText: 'Off' }, type: 1 }
+                    ]
+                await hisoka.sendButtonText(m.chat, buttons, `Mode ${command} 🕊️`, `Silahkan Klik Button Dibawah, Jika Button Tidak Muncul Ketik ${command} on/off`, m)
+                  }
+                break
             case 'ephemeral': {
                 if (!m.isGroup) throw mess.group
                 if (!isBotAdmins) throw mess.botAdmin
@@ -2013,7 +2081,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             break
             case 'setstatus': case 'setbiobot': case 'setbotbio': {
             if (!isCreator) throw mess.owner
-            if (!text) throw `this is a WhatsApp Bot named Akame ><`
+            if (!text) throw `this is a WhatsApp Bot named Akame >_<`
             let name = await hisoka.updateProfileStatus(text)
             m.reply(`Successfully changed bot bio status to ${name}`)
             }
@@ -2273,7 +2341,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                             type: 1
                         }
                     ]
-                    await hisoka.sendButtonText(m.chat, buttons, `Mode Group`, hisoka.user.name, m)
+                    await hisoka.sendButtonText(m.chat, buttonsgroup, `Mode ${command} 🕊️`, `Silahkan Klik Button Dibawah, Jika Button Tidak Muncul Ketik ${command} open/close`, m)
 
                 }
             }
@@ -2302,7 +2370,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                             type: 1
                         }
                     ]
-                    await hisoka.sendButtonText(m.chat, buttons, `Mode Edit Info`, hisoka.user.name, m)
+                    await hisoka.sendButtonText(m.chat, buttons, `Mode Edit Info 🔥`, `Silahkan Klik Button Dibawah, Jika Button Tidak Muncul Ketik ${command} open/close`, m)
 
                 }
             }
@@ -3433,7 +3501,8 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 })
             }
             break
-            case 'animequotes': {
+            case 'animequotes':
+            case 'animequote': {
                 if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
                 db.users[m.sender].limit -= 1 // -1 limit
                 let anu = await fetchJson(api('zenz', '/randomtext/animequotes2', {}, 'apikey'))
@@ -3903,10 +3972,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'tiktok': {
-            if (!text) throw 'Link TikTok Ya Mana?'
-            try {
-                if (isUrl(text)) {
-                    let fetch = await fetchJson(api('zenz', 'downloader/musically', { url: isUrl(text)[0] }, 'apikey'))
+                if (!text) throw 'Link TikTok Ya Mana?'
                     let buttons = [{
                         buttonId: `tiktoknowm ${text}`,
                         buttonText: {
@@ -3936,39 +4002,16 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                     headerType: 5
                 }
                     hisoka.sendMessage(m.chat, buttonMessage, { quoted: m })
-                } else {
-                    let fetch = await fetchJson(api('zenz', '/downloader/asupantiktok', { query: text }, 'apikey'))
-                    let caption = `Random Asupan Tiktok ${text}\n\n`
-                    let i = fetch.result
-                    caption += `⭔ Username : ${i.username}\n`
-                    caption += `⭔ Followers : ${i.followers}\n`
-                    caption += `⭔ Caption : ${i.media.caption}\n`
-        
-                    let buttons = [
-                        {buttonId: `tiktok ${text}`, buttonText: {displayText: '► NEXT'}, type: 1},
-                    ]
-                    let buttonMessage = {
-                        video: { url: i.media.videourl },
-                        caption: caption,
-                        footer: hisoka.user.name,
-                        buttons: buttons,
-                        headerType: 5
-                    }
-                    hisoka.sendMessage(m.chat, buttonMessage, { quoted: m })
-                    }
-                } catch {
-                    m.reply(mess.error)
-                }
             }
             break
             case 'tiktoknowm':
             case 'tiktoknowatermark': {
                 if (!text) throw 'Link TikTok Ya Mana?'
                 m.reply(mess.wait)
-                let anu = await fetchJson(api('zenz', '/downloader/musically', { url: text }, 'apikey'))
+                let anu = await fetchJson(api('betabotz', '/api/download/tiktok', { url: text }, 'apikey'))
                 let buttonMessage = {
                     video: {
-                        url: anu.result.nowm
+                        url: anu.result.nowatermark
                     },
                     caption: `Download From ${text}`,
                     footer: hisoka.user.name,
@@ -3983,7 +4026,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             case 'tiktokwatermark': {
                 if (!text) throw 'Link TikTok Ya, Mana?'
                 m.reply(mess.wait)
-                let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
+                let anu = await fetchJson(api('betabotz', '/api/download/tiktok', { url: text }, 'apikey'))
                 let buttonMessage = {
                     video: {
                         url: anu.result.watermark
@@ -4001,9 +4044,9 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             case 'tiktokaudio': {
                 if (!text) throw 'Link TikTok Ya Mana?'
                 m.reply(mess.wait)
-                let anu = fetchJson(api('zenz', '/downloader/musically', { url: text }, 'apikey'))
+                let anu = await fetchJson(api('betabotz', '/api/download/tiktok', { url: text }, 'apikey'))
                 let buttonMessage = {
-                    video: { url: anu.result.prefiew },
+                    video: { url: anu.result.nowatermark },
                     text: `Download From ${text}`,
                     footer: hisoka.user.name,
                     headerType: 2

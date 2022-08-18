@@ -14,12 +14,14 @@ const chalk = require('chalk')
 global.APIs = {
     //gausah di apa² in!
     zenz: 'https://zenzapis.xyz',
+    betabotz: 'https://betabotz-api.herokuapp.com',
 }
 
 //—————「 Website Apikey 」—————//
 global.APIKeys = {
     //gausah di apa² in, Udah Free kok :)
     'https://zenzapis.xyz': 'akame-chan>_<',
+    'https://betabotz-api.herokuapp.com': 'BetaBotz',
 }
 
 //—————「 Set Nama Bot & Own & Agama 」—————//
@@ -91,7 +93,7 @@ global.limitawal = {
 //—————「 Set Image 」—————//
 //terserah mau ubah apa nggak, menurut gua jangan di ubah!
 global.thumb = fs.readFileSync('./storage/menu/hisoka.jpg')
-global.visoka = { url: 'https://telegra.ph/file/de381b0caeb315a99c68a.mp4' }
+global.visoka = fs.readFileSync('./storage/menu/またね.mp4')
 
 //—————「 Set Random Image Menu 」—————//
 //gausah di apa² in!

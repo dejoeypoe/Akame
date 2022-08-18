@@ -97,6 +97,39 @@ async function startHisoka() {
     }
     }
     })
+    
+    hisoka.ev.on("message.delete", async (m) => {
+//	 console.log(m)
+		if (!m) m = false;
+	try {
+		const dataChat = JSON.parse(fs.readFileSync("./src/database.json"));
+		let mess = dataChat.find((a) => a.id == m.id);
+	//	console.log(mess)
+		
+		let mek = mess.msg;
+		let participant = mek.key.remoteJid.endsWith("@g.us") ? mek.key.participant : mek.key.remoteJid;
+		let froms = mek.key.remoteJid;
+		let teks = `「 *Anti delete Message* 」
+    
+    🤠 *Name* : ${mek.pushName}
+    👾 *User* : @${mek.sender.split("@")[0]}
+    ⏰ *Clock* : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')} WIB
+    💫 *MessageType* : ${mek.mtype}`
+		await hisoka.sendMessage(
+			froms,
+			{
+				text:teks,
+				mentions: [participant],
+			},
+			{ quoted: mek }
+		);
+		await hisoka.copyNForward(froms, mek, true) 
+	} catch (err) {
+		//console.log(JSON.stringify(err, undefined, 2))
+		}
+	  
+
+	});
 
     hisoka.ev.on('messages.upsert', async chatUpdate => {
         //console.log(JSON.stringify(chatUpdate, undefined, 2))
