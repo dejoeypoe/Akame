@@ -2005,12 +2005,14 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
             case 'setnamabot': case 'setnamebot': {
+            if (!isCreator) throw mess.owner
             if (!text) throw `Contoh : ${prefix + command} WhatsApp ✅`
             let name = await hisoka.updateProfileName(text)
             m.reply(`Successfully renamed bot to ${name}`)
             }
             break
             case 'setstatus': case 'setbiobot': case 'setbotbio': {
+            if (!isCreator) throw mess.owner
             if (!text) throw `this is a WhatsApp Bot named Akame ><`
             let name = await hisoka.updateProfileStatus(text)
             m.reply(`Successfully changed bot bio status to ${name}`)
@@ -7746,15 +7748,6 @@ Request Message: ${text}`
                 }
                 if (budy.startsWith('Hello')) {
                     m.reply('Hello, Apa ada yang dapat saya bantu?')
-                }
-                if (budy.startsWith('Tapi')) {
-                    m.reply('Tapi, Tapi Apa?')
-                }
-                if (budy.startsWith('Sombong')) {
-                    m.reply('Gua Itu Bot WhatsApp Ajg Jadi Samain Command Yg Tertulis')
-                }
-                if (budy.startsWith('Canda')) {
-                    m.reply('Lucu Dan Original awok⁹⁹⁹')
                 }
                 if (budy.startsWith('=>')) {
                     if (!isCreator) return m.reply(mess.owner)
