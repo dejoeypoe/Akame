@@ -3996,9 +3996,6 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 } else {
                     let fetch = await fetchJson(api('zenz', '/downloader/instagram/story/v2', { url:isUrl(text)[0] }, 'apikey'))
                     sock.sendFile(m.from, fetch.result[0], "", m, { caption: `Download Story From : ${isUrl(text)[0]}` })
-                } else {
-                    let fetch = await fetchJson(api('zenz', '/downloader/instagram/story', { username: text }, 'apikey'))
-                    for (let i of fetch.result) sock.sendFile(m.from, i.url_list, "", m, { caption: `Download Story From : ${text}` })
                 }
             }
             break
