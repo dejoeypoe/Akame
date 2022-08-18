@@ -97,39 +97,6 @@ async function startHisoka() {
     }
     }
     })
-    
-    hisoka.ev.on("message.delete", async (m) => {
-//	 console.log(m)
-		if (!m) m = false;
-	try {
-		const dataChat = JSON.parse(fs.readFileSync("./src/database.json"));
-		let mess = dataChat.find((a) => a.id == m.id);
-	//	console.log(mess)
-		
-		let mek = mess.msg;
-		let participant = mek.key.remoteJid.endsWith("@g.us") ? mek.key.participant : mek.key.remoteJid;
-		let froms = mek.key.remoteJid;
-		let teks = `「 *Anti delete Message* 」
-    
-    🤠 *Name* : ${mek.pushName}
-    👾 *User* : @${mek.sender.split("@")[0]}
-    ⏰ *Clock* : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')} WIB
-    💫 *MessageType* : ${mek.mtype}`
-		await hisoka.sendMessage(
-			froms,
-			{
-				text:teks,
-				mentions: [participant],
-			},
-			{ quoted: mek }
-		);
-		await hisoka.copyNForward(froms, mek, true) 
-	} catch (err) {
-		//console.log(JSON.stringify(err, undefined, 2))
-		}
-	  
-
-	});
 
     hisoka.ev.on('messages.upsert', async chatUpdate => {
         //console.log(JSON.stringify(chatUpdate, undefined, 2))
@@ -251,7 +218,7 @@ async function startHisoka() {
 	for (let i of kon) {
 	    list.push({
 	    	displayName: await hisoka.getName(i + '@s.whatsapp.net'),
-	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await hisoka.getName(i + '@s.whatsapp.net')}\nFN:${await hisoka.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:📱 Ponsel\nitem2.EMAIL;type=INTERNET:guaabuzz@gmail.com\nitem2.X-ABLabel:💌 Email\nitem3.URL:tiktok.com/@guaabuzz\nitem3.X-ABLabel:Web\nitem4.ADR:;;Indonesia;;;;\nitem4.X-ABLabel:🌐 Region\nEND:VCARD`
+	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await hisoka.getName(i + '@s.whatsapp.net')}\nFN:${await hisoka.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:📱 Ponsel\nitem2.EMAIL;type=INTERNET:guaabuzz@gmail.com\nitem2.X-ABLabel:💌 Email\nitem3.URL:tiktok.com/@guaabuzz\nitem3.X-ABLabel:Web\nitem4.ADR:;;Jepang;;;;\nitem4.X-ABLabel:🌐 Region\nEND:VCARD`
 	    })
 	}
 	hisoka.sendMessage(jid, { contacts: { displayName: `${list.length} Kontak`, contacts: list }, ...opts }, { quoted })
