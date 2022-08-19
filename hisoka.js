@@ -3904,8 +3904,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'tiktok': {
-                if (isUrl(text)) {
-                    let fetch = await fetchJson(api('zenz', 'downloader/musically', { url: isUrl(text)[0] }, 'apikey'))
+                if (!text) throw 'Link TikTok Ya Mana?'
                     let buttons = [{
                         buttonId: `tiktoknowm ${text}`,
                         buttonText: {
@@ -3935,26 +3934,6 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                     headerType: 5
                 }
                     hisoka.sendMessage(m.chat, buttonMessage, { quoted: m })
-                } else {
-                    let fetch = await fetchJson(api('zenz', '/downloader/asupantiktok', { query: text }, 'apikey'))
-                    let caption = `Random Asupan Tiktok ${text}\n\n`
-                    let i = fetch.result
-                    caption += `⭔ Username : ${i.username}\n`
-                    caption += `⭔ Followers : ${i.followers}\n`
-                    caption += `⭔ Caption : ${i.media.caption}\n`
-        
-                    let buttons = [
-                        {buttonId: `tiktok ${text}`, buttonText: {displayText: '► NEXT'}, type: 1},
-                    ]
-                    let buttonMessage = {
-                        video: { url: i.media.videourl },
-                        caption: caption,
-                        footer: hisoka.user.name,
-                        buttons: buttons,
-                        headerType: 5
-                    }
-                    hisoka.sendMessage(m.chat, buttonMessage, { quoted: m })
-                }
             }
             break
             case 'tiktoknowm':
