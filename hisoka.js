@@ -3983,8 +3983,8 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                     footer: hisoka.user.name,
                     headerType: 2
                 }
-                hisoka.sendMessage(m.from, buttonMessage, { quoted: m })
-                hisoka.sendFile(m.from, fetch.result.audio, "", m)
+                hisoka.sendMessage(m.chat, buttonMessage, { quoted: m })
+                hisoka.sendFile(m.chat, fetch.result.audio, "", m)
             }
             break
             case 'instagram': case 'ig': case 'igdl': {
@@ -3992,10 +3992,10 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 m.reply(mess.wait)
                 if (isUrl(text)) {
                     let fetch = await fetchJson(api('zenz', '/downloader/instagram', { url:isUrl(text)[0] }, 'apikey'))
-                    for (let i of fetch.result) sock.sendFile(m.from, i, "", m, { caption: `Download Media From : ${isUrl(text)[0]}` })
+                    for (let i of fetch.result) sock.sendFile(m.chat, i, "", m, { caption: `Download Media From : ${isUrl(text)[0]}` })
                 } else {
                     let fetch = await fetchJson(api('zenz', '/downloader/instagram/story/v2', { url:isUrl(text)[0] }, 'apikey'))
-                    sock.sendFile(m.from, fetch.result[0], "", m, { caption: `Download Story From : ${isUrl(text)[0]}` })
+                    sock.sendFile(m.chat, fetch.result[0], "", m, { caption: `Download Story From : ${isUrl(text)[0]}` })
                 }
             }
             break
