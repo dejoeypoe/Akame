@@ -165,16 +165,16 @@ async function startHisoka() {
                 }
 
                 if (anu.action == 'add') {
-                var but = [{buttonId: `menu`, buttonText: { displayText: "Youkoso" }, type: 1 }]
+                var buttons = [{buttonId: `menu`, buttonText: { displayText: 'Youkoso' }, type: 1 }]
                     hisoka.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Welcome @${num.split("@")[0]} To Group ${metadata.subject} 👋` })
                 } else if (anu.action == 'remove') {
-                var but = [{buttonId: `menu`, buttonText: { displayText: "Sayonaraa" }, type: 1 }]
+                var buttons = [{buttonId: `menu`, buttonText: { displayText: 'Sayōnara' }, type: 1 }]
                     hisoka.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Sayonaraa @${num.split("@")[0]} 👋` })
                 } else if (anu.action == 'promote') {
-                var but = [{buttonId: `menu`, buttonText: { displayText: "Omedetou" }, type: 1 }]
+                var buttons = [{buttonId: `menu`, buttonText: { displayText: 'Shōkaku Omedetō' }, type: 1 }]
                     hisoka.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Selamat Ya @${num.split("@")[0]} Atas Kenaikan Jabatannya Di Grup ${metadata.subject} 🎉` })
                 } else if (anu.action == 'demote') {
-                var but = [{buttonId: `menu`, buttonText: { displayText: "Aiseki Ni Taezu" }, type: 1 }]
+                var buttons = [{buttonId: `menu`, buttonText: { displayText: 'Juni Sage Okuyami' }, type: 1 }]
                     hisoka.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Nice Try @${num.split("@")[0]} Atas Penurunan Jabatannya Di Grup ${metadata.subject} 😔` })
               }
             }
