@@ -22,11 +22,9 @@ const { performance } = require('perf_hooks')
 const { Primbon } = require('scrape-primbon')
 const primbon = new Primbon()
 const { smsg, formatp, tanggal, formatDate, getTime, isUrl, sleep, clockString, runtime, fetchJson, getBuffer, jsonformat, format, parseMention, getRandom, getGroupAdmins } = require('./lib/myfunc')
-const { aiovideodl } = require('./lib/scraper.js')
-const { wikiSearch } = require('./lib/wiki.js')
-const { Gempa } = require("./lib/gempa.js")
-const { jadwaltv } = require('./lib/jadwaltv.js')
-const { Sholat } = require('./lib/hxz-api.js')
+const { wikiSearch } = require('./lib/wiki')
+const { jadwaltv } = require('./lib/jadwaltv')
+const { Sholat } = require('./lib/hxz-api')
 
 // read database
 global.db = JSON.parse(fs.readFileSync('./src/database.json'))
@@ -4841,7 +4839,7 @@ Request Message: ${text}`
             case 'jadwalshalat':
             case 'jadwalsalat': {
                 if (!text) throw `Contoh : ${prefix + command} Padang`
-                let res = await Sholat
+                let res = await fetchJson(api('zenz', '/islami/jadwalshalat', { kota: text }, 'apikey'))
                 let capt = `Jadwal Sholat Kota : ${text}\n\n`
                 let i = res.result
                     capt += `⭔ Tanggal : ${i.Tanggal}\n`
@@ -4892,9 +4890,12 @@ Request Message: ${text}`
             }
             break
             case 'gempa': {
-                let fetch = await Gempa
+                let {
+                    gempa
+                } = require('./lib/gempa')
+                let anu = await gempa(text)
                 let caption = `Gempa Information :\n\n`
-                let i = fetch.result
+                let i = anu.result
                 caption += `⭔ Waktu : ${i.tanggal}\n`
                 caption += `⭔ Lintang : ${i.jam}\n`
                 caption += `⭔ Bujur : ${i.datetime}\n`
