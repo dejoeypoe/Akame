@@ -3981,8 +3981,8 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                     footer: hisoka.user.name,
                     headerType: 2
                 }
-                hisoka.sendMessage(m.from, buttonMessage, { quoted: m })
-                hisoka.sendFile(m.from, fetch.result.audio, "", m)
+                hisoka.sendMessage(m.chat, buttonMessage, { quoted: m })
+                hisoka.sendFileUrl(m.chat, fetch.result.audio, "", m)
             }
             break
             case 'instagram': case 'ig': case 'igdl': {
@@ -4890,19 +4890,22 @@ Request Message: ${text}`
             }
             break
             case 'gempa': {
-                let {
-                    gempa
-                } = require('./lib/gempa')
-                let anu = await gempa(text)
+                let fetch = await fetchJson(api('zenz', '/information/bmkg/gempa', {}, 'apikey'))
                 let caption = `Gempa Information :\n\n`
-                let i = anu.result
-                caption += `⭔ Waktu : ${i.tanggal}\n`
-                caption += `⭔ Lintang : ${i.jam}\n`
-                caption += `⭔ Bujur : ${i.datetime}\n`
-                caption += `⭔ Magnitudo : ${i.coordinates}\n`
-                caption += `⭔ Kedalaman : ${i.lintang}\n`
-                caption += `⭔ Wilayah : ${i.bujur}\n`
-                hisoka.sendFile(m.chat, i.Map, "", m, { caption })
+                let i = fetch.result
+                caption += `⭔ Tanggal : ${i.tanggal}\n`
+                caption += `⭔ Jam : ${i.jam}\n`
+                caption += `⭔ Datetime : ${i.datetime}\n`
+                caption += `⭔ Coordinates : ${i.coordinates}\n`
+                caption += `⭔ Lintang : ${i.lintang}\n`
+                caption += `⭔ Bujur : ${i.bujur}\n`
+                caption += `⭔ Magnitude : ${i.magnitude}\n`
+                caption += `⭔ Kedalaman : ${i.kedalaman}\n`
+                caption += `⭔ Wilayah : ${i.wilayah}\n`
+                caption += `⭔ Potensi : ${i.potensi}\n`
+                caption += `⭔ Dirasakan : ${i.dirasakan}\n`
+                caption += `⭔ Shakemap : ${i.shakemap}\n`
+                hisoka.sendFileUrl(m.chat, i.shakemap, "", m, { caption })
             }
             break
             case 'iplookup': {
