@@ -137,7 +137,7 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
                 orderMessage: {
                     itemCount: 2022,
                     status: 200,
-                    thumbnail: fs.readFileSync('./storage/menu/hisoka.jpg'),
+                    thumbnail: fs.readFileSync('./lib/hisoka.jpg'),
                     surface: 200,
                     message: `Haii Kak ${pushname}\n𝙲𝚖𝚍 ${command}`,
                     orderTitle: 'Please Follow TikTok @GuaAbuzz',
