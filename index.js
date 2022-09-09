@@ -53,10 +53,12 @@ global.loadDatabase = async function loadDatabase() {
   global.db.READ = false
   global.db.data = {
     users: {},
+    group: {},
     chats: {},
     database: {},
     game: {},
     settings: {},
+    donate: {} ,
     others: {},
     sticker: {},
     anonymous: {},
@@ -219,7 +221,7 @@ async function startHisoka() {
 	for (let i of kon) {
 	    list.push({
 	    	displayName: await hisoka.getName(i + '@s.whatsapp.net'),
-	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await hisoka.getName(i + '@s.whatsapp.net')}\nFN:${await hisoka.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Ponsel\nitem2.EMAIL;type=INTERNET: guaabuzz@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://instagram.com/GuaAbuzz\nitem3.X-ABLabel:Instagram\nitem4.ADR:;;Jepang;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
+	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await hisoka.getName(i + '@s.whatsapp.net')}\nFN:${await hisoka.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 	    })
 	}
 	hisoka.sendMessage(jid, { contacts: { displayName: `${list.length} Kontak`, contacts: list }, ...opts }, { quoted })

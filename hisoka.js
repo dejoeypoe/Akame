@@ -25,36 +25,39 @@ const primbon = new Primbon()
 const { smsg, formatp, tanggal, formatDate, getTime, isUrl, sleep, clockString, runtime, fetchJson, getBuffer, jsonformat, format, parseMention, getRandom, getGroupAdmins } = require('./lib/myfunc')
 
 // read database
-global.db = JSON.parse(fs.readFileSync('./src/database.json'))
-if (global.db) global.db = {
+global.db.data = JSON.parse(fs.readFileSync('./src/database.json'))
+if (global.db.data) global.db.data = {
     users: {},
+    group: {},
     chats: {},
     database: {},
     game: {},
     settings: {},
+    donate: {} ,
     others: {},
     sticker: {},
     anonymous: {},
-    ...(global.db || {})
+    ...(global.db.data || {})
 }
-let tebaklagu = db.game.tebaklagu = []
-let _family100 = db.game.family100 = []
-let kuismath = db.game.math = []
-let tebakgambar = db.game.tebakgambar = []
-let tebakkata = db.game.tebakkata = []
-let caklontong = db.game.lontong = []
-let caklontong_desk = db.game.lontong_desk = []
-let tebakkalimat = db.game.kalimat = []
-let tebaklirik = db.game.lirik = []
-let tebaktebakan = db.game.tebakan = []
-let tebakbendera = db.game.bendera = []
-let tebakkabupaten = db.game.kabupaten = []
-let tebakkimia = db.game.kimia = []
-let asahotak = db.game.asahotak = []
-let siapakahaku = db.game.siapakahaku = []
-let susunkata = db.game.susunkata = []
-let tekateki = db.game.tekateki = []
-let vote = db.others.vote = []
+let tebaklagu = db.data.game.tebaklagu = []
+let _family100 = db.data.game.family100 = []
+let kuismath = db.data.game.math = []
+let tebakgambar = db.data.game.tebakgambar = []
+let tebakkata = db.data.game.tebakkata = []
+let caklontong = db.data.game.lontong = []
+let caklontong_desk = db.data.game.lontong_desk = []
+let tebakkalimat = db.data.game.kalimat = []
+let tebaklirik = db.data.game.lirik = []
+let tebaktebakan = db.data.game.tebakan = []
+let tebakbendera = db.data.game.bendera = []
+let tebakbendera2 = db.data.game.bendera2 = []
+let tebakkabupaten = db.data.game.kabupaten = []
+let tebakkimia = db.data.game.kimia = []
+let asahotak = db.data.game.asahotak = []
+let siapakahaku = db.data.game.siapakahaku = []
+let susunkata = db.data.game.susunkata = []
+let tekateki = db.data.game.tekateki = []
+let vote = db.data.others.vote = []
 
 moment.tz.setDefault("Asia/Jakarta").locale("id")
 
@@ -150,6 +153,14 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
             },
             sendEphemeral: true
         }
+        //Fake Reply Group
+	const reply = (teks) => {
+            hisoka.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.namabot}`,"body": ` Join Bot's Official GC`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./media/hisoka.jpg`),"sourceUrl": "https://chat.whatsapp.com/FGmVjFYJBjjGst62qwNKJB"}}}, { quoted: m})
+        }
+        
+        const reply1 = (teks) => {
+            hisoka.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.namabot}`,"body": ` Follow My Github Creator`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./media/hisoka.jpg`),"sourceUrl": "https://github.com/Abuzzpoet/Akame"}}}, { quoted: m})
+        }
         //END
 
         //member
@@ -159,26 +170,26 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
         try {
             let isNumber = x => typeof x === 'number' && !isNaN(x)
             let limitUser = isPremium ? global.limitawal.premium : global.limitawal.free
-            let user = global.db.users[m.sender]
-            if (typeof user !== 'object') global.db.users[m.sender] = {}
+            let user = global.db.data.users[m.sender]
+            if (typeof user !== 'object') global.db.data.users[m.sender] = {}
             if (user) {
                 if (!isNumber(user.afkTime)) user.afkTime = -1
                 if (!('afkReason' in user)) user.afkReason = ''
                 if (!isNumber(user.limit)) user.limit = limitUser
-            } else global.db.users[m.sender] = {
+            } else global.db.data.users[m.sender] = {
                 afkTime: -1,
                 afkReason: '',
                 limit: limitUser,
             }
-            let chats = global.db.chats[m.chat]
-            if (typeof chats !== 'object') global.db.chats[m.chat] = {}
+            let chats = global.db.data.chats[m.chat]
+            if (typeof chats !== 'object') global.db.data.chats[m.chat] = {}
             if (chats) {
                 if (!('mute' in chats)) chats.mute = false
                 if (!('antilink' in chats)) chats.antilink = false
                 if (!('antilinkyt' in chats)) chats.antilinkyt = false
                 if (!('antilinktt' in chats)) chats.antilinktt = false
                 if (!('antivirtex' in chats)) chats.antivirtex = true
-            } else global.db.chats[m.chat] = {
+            } else global.db.data.chats[m.chat] = {
                 mute: false,
                 antilink: false,
                 antilinkyt: false,
@@ -186,8 +197,8 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
                 antivirtex: true,
             }
 
-            let setting = global.db.settings[botNumber]
-            if (typeof setting !== 'object') global.db.settings[botNumber] = {}
+            let setting = global.db.data.settings[botNumber]
+            if (typeof setting !== 'object') global.db.data.settings[botNumber] = {}
             if (setting) {
                 if (!('anticall' in setting)) setting.anticall = true
                 if (!isNumber(setting.status)) setting.status = 0
@@ -197,7 +208,7 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
                 if (!('templateGif' in setting)) setting.templateGif = false
                 if (!('templateMsg' in setting)) setting.templateMsg = false
                 if (!('templateLocation' in setting)) setting.templateLocation = true
-            } else global.db.settings[botNumber] = {
+            } else global.db.data.settings[botNumber] = {
                 anticall: true,
                 status: 0,
                 autobio: false,
@@ -224,15 +235,15 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
 	
         // write database every 1 minute
         setInterval(() => {
-            fs.writeFileSync('./src/database.json', JSON.stringify(global.db, null, 2))
+            fs.writeFileSync('./src/database.json', JSON.stringify(global.db.data, null, 2))
         }, 60 * 1000)
 
         // reset limit every 12 hours
         let cron = require('node-cron')
         cron.schedule('00 12 * * *', () => {
-            let user = Object.keys(global.db.users)
+            let user = Object.keys(global.db.data.users)
             let limitUser = isPremium ? global.limitawal.premium : global.limitawal.free
-            for (let jid of user) global.db.users[jid].limit = limitUser
+            for (let jid of user) global.db.data.users[jid].limit = limitUser
             console.log('Reseted Limit')
         }, {
             scheduled: true,
@@ -240,8 +251,8 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
         })
 
 	// auto set bio
-	if (db.settings[botNumber].autobio) {
-	    let setting = global.db.settings[botNumber]
+	if (db.data.settings[botNumber].autobio) {
+	    let setting = global.db.data.settings[botNumber]
 	    if (new Date() * 1 - setting.status > 1000) {
 		let uptime = await runtime(process.uptime())
 		await hisoka.setStatus(`${hisoka.user.name} | Runtime : ${runtime(uptime)}`)
@@ -250,8 +261,8 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
 	}
 	
         // Respon Cmd with media
-        if (isMedia && m.msg.fileSha256 && (m.msg.fileSha256.toString('base64') in global.db.sticker)) {
-            let hash = global.db.sticker[m.msg.fileSha256.toString('base64')]
+        if (isMedia && m.msg.fileSha256 && (m.msg.fileSha256.toString('base64') in global.db.data.sticker)) {
+            let hash = global.db.data.sticker[m.msg.fileSha256.toString('base64')]
             let {
                 text,
                 mentionedJid
@@ -372,6 +383,24 @@ ${Array.from(room.jawaban, (jawaban, index) => {
                     type: 1
                 }], `🎮 Tebak Bendera 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, hisoka.user.name, m)
                 delete tebakbendera[m.sender.split('@')[0]]
+            } else m.reply('*Jawaban Salah!*')
+        }
+
+        if (tebakbendera2.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = tebakbendera2[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == "nyerah") {
+                await m.reply('*Anda Telah menyerah*')
+                delete tebakbendera2[m.sender.split('@')[0]]
+            } else if (budy.toLowerCase() == jawaban) {
+                await hisoka.sendButtonText(m.chat, [{
+                    buttonId: 'tebak bendera2',
+                    buttonText: {
+                        displayText: '⌲ Tebak Bendera 2'
+                    },
+                    type: 1
+                }], `🎮 Tebak Bendera 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, hisoka.user.name, m)
+                delete tebakbendera2[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
 
@@ -588,7 +617,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
         }
         
         //Anti Link
-        if (db.chats[m.chat].antilink) {
+        if (db.data.chats[m.chat].antilink) {
             if (budy.match(`chat.whatsapp.com`)) {
                 m.reply(`「 ANTI LINK WHATSAPP 」\n\nKamu Terdeteksi Mengirim Link Group, Maaf Kamu Akan Di Kick !`)
                 if (!isBotAdmins) return m.reply(`Ehh Bot Gak Admin T_T`)
@@ -602,7 +631,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             }
         }
         //Anti Link YouTube
-        if (db.chats[m.chat].antilinkyt) {
+        if (db.data.chats[m.chat].antilinkyt) {
             if (budy.match(`https://youtu.be`)) {
                 m.reply(`「 ANTI LINK YOUTUBE 」\n\nKamu Terdeteksi Mengirim Link Youtube, Maaf Kamu Akan Di Kick !`)
                 if (!isBotAdmins) return m.reply(`Ehh Bot Gak Admin T_T`)
@@ -612,7 +641,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             }
         }
         //Anti Link Tiktok
-        if (db.chats[m.chat].antilinktt) {
+        if (db.data.chats[m.chat].antilinktt) {
             if (budy.match(`https://vt.tiktok.com`)) {
                 m.reply(`「 ANTI LINK TIKTOK 」\n\nKamu Terdeteksi Mengirim Link TikTok, Maaf Kamu Akan Di Kick !`)
                 if (!isBotAdmins) return m.reply(`Ehh Bot Gak Admin T_T`)
@@ -622,7 +651,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             }
         }
         //AntiVirtex
-        if (db.chats[m.chat].antivirtex) {
+        if (db.data.chats[m.chat].antivirtex) {
             if (budy.length > 3500) {
                 m.reply(`「 ANTI VIRTEX 」\n\nKamu Terdeteksi Mengirim Virtex, Maaf Kamu Akan Di Kick !`)
                 if (!isBotAdmins) return m.reply(`Ehh Bot Gak Admin T_T`)
@@ -630,7 +659,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             }
         }
         // Mute Chat
-        if (db.chats[m.chat].mute && !isAdmins && !isCreator) {
+        if (db.data.chats[m.chat].mute && !isAdmins && !isCreator) {
             return
         }
         //TicTacToe
@@ -780,7 +809,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, {
 
         let mentionUser = [...new Set([...(m.mentionedJid || []), ...(m.quoted ? [m.quoted.sender] : [])])]
         for (let jid of mentionUser) {
-            let user = global.db.users[jid]
+            let user = global.db.data.users[jid]
             if (!user) continue
             let afkTime = user.afkTime
             if (!afkTime || afkTime < 0) continue
@@ -792,8 +821,8 @@ Selama ${clockString(new Date - afkTime)}
 `.trim())
         }
 
-        if (db.users[m.sender].afkTime > -1) {
-            let user = global.db.users[m.sender]
+        if (db.data.users[m.sender].afkTime > -1) {
+            let user = global.db.data.users[m.sender]
             m.reply(`
 Kamu berhenti AFK${user.afkReason ? ' setelah ' + user.afkReason : ''}
 Selama ${clockString(new Date - user.afkTime)}
@@ -804,7 +833,7 @@ Selama ${clockString(new Date - user.afkTime)}
 
         switch (command) {
             case 'afk': {
-                let user = global.db.users[m.sender]
+                let user = global.db.data.users[m.sender]
                 user.afkTime = +new Date
                 user.afkReason = text
                 m.reply(`${m.pushName} Telah Afk${text ? ': ' + text : ''}`)
@@ -1034,7 +1063,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -1105,7 +1134,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 ]
                 }
                 ]
-                hisoka.sendListMsg(m.chat, `┌────────┈❖\n│「 Hi, ${pushname}👋 」\n│「 ${ucapanWaktu} 」\n└┬─────────────┈❖\n┌┤「 INFO USER 」\n│└─────────────┈❖\n│ Name : ${pushname}\n│ Number : ${m.sender.split('@')[0]}\n│ Status : ${isCreator ? 'Owner' : 'User'}\n│ User : ${Object.keys(global.db.users).length}\n└┬─────────────┈❖\n┌┤「 INFO BOT 」\n│└─────────────┈❖\n│ Prefix : ( ${prefix} )\n│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}\n│ Mode : ${hisoka.public ? 'Public' : 'Self'}\n│ Platform : ${os.platform()}\n│ Runtime :\n│  ${runtime(process.uptime())}\n│ Language : Javascript\n│ Lib : Baileys-md\n└┬─────────────┈❖\n┌┤「 INFO TIME 」\n│└─────────────┈❖\n│ Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}\n│ Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n│ Menuju Ulang Tahun OwnerKu :\n│  ${menuju}\n│ WIB : ${wib}\n│ WITA : ${wita}\n│ WIT : ${wit}\n└──────────────┈❖`, hisoka.user.name, `Hello Everyone !`, `Click Here`, sections, m)
+                hisoka.sendListMsg(m.chat, `┌────────┈❖\n│「 Hi, ${pushname}👋 」\n│「 ${ucapanWaktu} 」\n└┬─────────────┈❖\n┌┤「 INFO USER 」\n│└─────────────┈❖\n│ Name : ${pushname}\n│ Number : ${m.sender.split('@')[0]}\n│ Status : ${isCreator ? 'Owner' : 'User'}\n│ User : ${Object.keys(global.db.data.users).length}\n└┬─────────────┈❖\n┌┤「 INFO BOT 」\n│└─────────────┈❖\n│ Prefix : ( ${prefix} )\n│ Name : ${global.namabot}\n│ Owner : ${global.namaowner}\n│ Mode : ${hisoka.public ? 'Public' : 'Self'}\n│ Platform : ${os.platform()}\n│ Runtime :\n│  ${runtime(process.uptime())}\n│ Language : Javascript\n│ Lib : Baileys-md\n└┬─────────────┈❖\n┌┤「 INFO TIME 」\n│└─────────────┈❖\n│ Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}\n│ Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n│ Menuju HBD GuaAbuzz :\n│  ${menuju}\n│ WIB : ${wib}\n│ WITA : ${wita}\n│ WIT : ${wit}\n└──────────────┈❖`, hisoka.user.name, `Hello Everyone !`, `Click Here`, sections, m)
             }
             break
             case 'sc':
@@ -1143,7 +1172,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                         id: 'owner'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -1208,7 +1237,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 hisoka.sendMessage(m.chat, {
                     text: `Pertanyaan : Apakah ${q}\nJawaban : ${kah}`
                 }, {
-                    quoted: ftroli
+                    quoted: reply
                 })
 
                 break
@@ -1219,7 +1248,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 hisoka.sendMessage(m.chat, {
                     text: `Pertanyaan : ${q}\nJawaban : ${ga}`
                 }, {
-                    quoted: ftroli
+                    quoted: reply
                 })
 
                 break
@@ -1230,7 +1259,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 hisoka.sendMessage(m.chat, {
                     text: `Pertanyaan : ${q}\nJawaban : ${ya}`
                 }, {
-                    quoted: ftroli
+                    quoted: reply
                 })
 
                 break
@@ -1242,7 +1271,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 hisoka.sendMessage(m.chat, {
                     text: `Rate : ${q}\nJawaban : *${te}%*`
                 }, {
-                    quoted: ftroli
+                    quoted: reply
                 })
 
                 break
@@ -1255,7 +1284,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 hisoka.sendMessage(m.chat, {
                     text: `Nama : ${q}\nJawaban : *${teng}%*`
                 }, {
-                    quoted: ftroli
+                    quoted: reply
                 })
 
                 break
@@ -1268,7 +1297,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 hisoka.sendMessage(m.chat, {
                     text: `Nama : ${q}\nJawaban : *${tik}%*`
                 }, {
-                    quoted: ftroli
+                    quoted: reply
                 })
 
                 break
@@ -1284,7 +1313,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 hisoka.sendMessage(m.chat, {
                     text: `Nama : ${q}\nJawaban : *${sange}%*`
                 }, {
-                    quoted: ftroli
+                    quoted: reply
                 })
 
                 break
@@ -1295,7 +1324,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 hisoka.sendMessage(m.chat, {
                     text: `Pertanyaan : ${q}\nJawaban : *${kapankah}*`
                 }, {
-                    quoted: ftroli
+                    quoted: reply
                 })
                 break
             case 'wangy':
@@ -1320,7 +1349,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 m.reply(tex.replace(/[aiueo]/g, ter).replace(/[AIUEO]/g, ter.toUpperCase()))
                 break
             case 'tebak': {
-                if (!text) throw `Contoh : ${prefix + command} lagu\n\nOption : \n⬣ lagu\n⬣ gambar\n⬣ kata\n⬣ kalimat\n⬣ lirik\n⬣ lontong \n⬣ bendera\n⬣ kabupaten\n⬣ kimia`
+                if (!text) throw `Contoh : ${prefix + command} lagu\n\nOption : \n⬣ lagu\n⬣ gambar\n⬣ kata\n⬣ kalimat\n⬣ lirik\n⬣ lontong \n⬣ bendera \n⬣ bendera2\n⬣ kabupaten\n⬣ kimia`
                 if (args[0] === "lagu") {
                     if (tebaklagu.hasOwnProperty(m.sender.split('@')[0])) throw "Masih Ada Sesi Yang Belum Diselesaikan!"
                     let anu = await fetchJson('https://fatiharridho.github.io/tebaklagu.json')
@@ -1331,7 +1360,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                         },
                         mimetype: 'audio/mpeg'
                     }, {
-                        quoted: ftroli
+                        quoted: reply1
                     })
                     hisoka.sendText(m.chat, `Lagu Tersebut Adalah Lagu dari?\n\nArtist : ${result.artist}\nWaktu : 60s`, msg).then(() => {
                         tebaklagu[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
@@ -1463,6 +1492,25 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                             type: 1
                         }], `Waktu Habis\nJawaban:  ${tebakbendera[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, hisoka.user.name, m)
                         delete tebakbendera[m.sender.split('@')[0]]
+                    }
+                } else if (args[0] === 'bendera2') {
+                    if (tebakbendera2.hasOwnProperty(m.sender.split('@')[0])) throw "Masih Ada Sesi Yang Belum Diselesaikan!"
+                    let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakbendera2.json')
+                    let result = anu[Math.floor(Math.random() * anu.length)]
+                    hisoka.sendImage(m.chat, result.img, `Silahkan Jawab Gambar Berikut\n\nWaktu : 60s`, m).then(() => {
+                        tebakbendera2[m.sender.split('@')[0]] = result.name.toLowerCase()
+                    })
+                    await sleep(60000)
+                    if (tebakbendera2.hasOwnProperty(m.sender.split('@')[0])) {
+                        console.log("Jawaban: " + result.name)
+                        hisoka.sendButtonText(m.chat, [{
+                            buttonId: 'tebak bendera',
+                            buttonText: {
+                                displayText: '⌲ Tebak Bendera'
+                            },
+                            type: 1
+                        }], `Waktu Habis\nJawaban:  ${tebakbendera2[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, hisoka.user.name, m)
+                        delete tebakbendera2[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'kabupaten') {
                     if (tebakkabupaten.hasOwnProperty(m.sender.split('@')[0])) throw "Masih Ada Sesi Yang Belum Diselesaikan!"
@@ -1610,8 +1658,8 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
             case 'jodohku': {
-                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
-                db.users[m.sender].limit -= 1 // -1 limit
+                if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.data.users[m.sender].limit -= 1 // -1 limit
                 if (!m.isGroup) throw mess.group
                 let member = participants.map(u => u.id)
                 let me = m.sender
@@ -1633,8 +1681,8 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
             case 'jadian': {
-                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
-                db.users[m.sender].limit -= 1 // -1 limit
+                if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.data.users[m.sender].limit -= 1 // -1 limit
                 if (!m.isGroup) throw mess.group
                 let member = participants.map(u => u.id)
                 let orang = member[Math.floor(Math.random() * member.length)]
@@ -1801,7 +1849,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                     text: teks,
                     mentions: participants.map(a => a.id)
                 }, {
-                    quoted: ftroli
+                    quoted: reply1
                 })
             }
             break
@@ -1812,7 +1860,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                     text: q ? q : '',
                     mentions: participants.map(a => a.id)
                 }, {
-                    quoted: ftroli
+                    quoted: reply1
                 })
             }
             break
@@ -1829,12 +1877,12 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
                 if (args[0] === "on") {
-                    if (db.chats[m.chat].antilink) return m.reply(`Sudah Aktif Sebelumnya 🕊️`)
-                    db.chats[m.chat].antilink = true
+                    if (db.data.chats[m.chat].antilink) return m.reply(`Sudah Aktif Sebelumnya 🕊️`)
+                    db.data.chats[m.chat].antilink = true
                     m.reply(`Antilink Group WhatsApp Aktif 🕊️`)
                 } else if (args[0] === "off") {
-                    if (!db.chats[m.chat].antilink) return m.reply(`Sudah Nonaktif Sebelumnya 🕊`)
-                    db.chats[m.chat].antilink = false
+                    if (!db.data.chats[m.chat].antilink) return m.reply(`Sudah Nonaktif Sebelumnya 🕊`)
+                    db.data.chats[m.chat].antilink = false
                     m.reply(`Antilink Group WhatsApp Nonaktif 🕊️`)
                 } else {
                     let buttons = [{
@@ -1861,12 +1909,12 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
                 if (args[0] === "on") {
-                    if (db.chats[m.chat].antilinkyt) return m.reply(`Sudah Aktif Sebelumnya 🕊`)
-                    db.chats[m.chat].antilinkyt = true
+                    if (db.data.chats[m.chat].antilinkyt) return m.reply(`Sudah Aktif Sebelumnya 🕊`)
+                    db.data.chats[m.chat].antilinkyt = true
                     m.reply(`Antilink YouTube Aktif 🕊️`)
                 } else if (args[0] === "off") {
-                    if (!db.chats[m.chat].antilinkyt) return m.reply(`Sudah Nonaktif Sebelumnya 🕊`)
-                    db.chats[m.chat].antilinkyt = false
+                    if (!db.data.chats[m.chat].antilinkyt) return m.reply(`Sudah Nonaktif Sebelumnya 🕊`)
+                    db.data.chats[m.chat].antilinkyt = false
                     m.reply(`Antilink YouTube Nonaktif 🕊️`)
                 } else {
                     let buttons = [{
@@ -1893,12 +1941,12 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
                 if (args[0] === "on") {
-                    if (db.chats[m.chat].antilinktt) return m.reply(`Sudah Aktif Sebelumnya 🕊`)
-                    db.chats[m.chat].antilinktt = true
+                    if (db.data.chats[m.chat].antilinktt) return m.reply(`Sudah Aktif Sebelumnya 🕊`)
+                    db.data.chats[m.chat].antilinktt = true
                     m.reply(`Antilink TikTok Aktif 🕊️`)
                 } else if (args[0] === "off") {
-                    if (!db.chats[m.chat].antilinktt) return m.reply(`Sudah Nonaktif Sebelumnya 🕊`)
-                    db.chats[m.chat].antilinktt = false
+                    if (!db.data.chats[m.chat].antilinktt) return m.reply(`Sudah Nonaktif Sebelumnya 🕊`)
+                    db.data.chats[m.chat].antilinktt = false
                     m.reply(`Antilink TikTok Nonaktif 🕊️`)
                 } else {
                     let buttons = [{
@@ -1925,12 +1973,12 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
                 if (args[0] === "on") {
-                    if (db.chats[m.chat].mute) return m.reply(`Sudah Aktif Sebelumnya 🕊`)
-                    db.chats[m.chat].mute = true
+                    if (db.data.chats[m.chat].mute) return m.reply(`Sudah Aktif Sebelumnya 🕊`)
+                    db.data.chats[m.chat].mute = true
                     m.reply(`${hisoka.user.name} telah di mute di group ini 🕊️`)
                 } else if (args[0] === "off") {
-                    if (!db.chats[m.chat].mute) return m.reply(`Sudah Tidak Aktif Sebelumnya 🕊`)
-                    db.chats[m.chat].mute = false
+                    if (!db.data.chats[m.chat].mute) return m.reply(`Sudah Tidak Aktif Sebelumnya 🕊`)
+                    db.data.chats[m.chat].mute = false
                     m.reply(`${hisoka.user.name} telah di unmute di group ini 🕊️`)
                 } else {
                     let buttons = [{
@@ -1954,7 +2002,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             break
             case 'anticall': {
             if (!isCreator) throw mess.owner
-                let ciko = db.settings[botNumber].anticall
+                let ciko = db.data.settings[botNumber].anticall
                 if (args[0] === "on") {
                 if (ciko) return m.reply(`Sudah Aktif Sebelumnya 🕊️`)
                 ciko = true
@@ -2016,8 +2064,8 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             break
             case 'style':
             case 'styletext': {
-                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
-                db.users[m.sender].limit -= 1 // -1 limit
+                if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.data.users[m.sender].limit -= 1 // -1 limit
                 let {
                     styletext
                 } = require('./lib/scraper')
@@ -2624,7 +2672,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             break
             case 'stalker':
             case 'stalk': {
-                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply('Limit Harian Anda Telah Habis')
+                if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply('Limit Harian Anda Telah Habis')
                 if (!text) return m.reply(`Contoh : ${prefix +command} type id\n\nList Type :\n1. ff (Free Fire)\n2. ml (Mobile Legends)\n3. aov (Arena Of Valor)\n4. cod (Call Of Duty)\n5. pb (point Blank)\n6. ig (Instagram)\n7. npm (https://npmjs.com)`)
                 let [type, id, zone] = args
                 if (type.toLowerCase() == 'ff') {
@@ -2635,7 +2683,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                     }))
                     if (anu.status == false) return m.reply(anu.result.message)
                     m.reply(`ID : ${anu.result.gameId}\nUsername : ${anu.result.userName}`)
-                    db.users[m.sender].limit -= 1
+                    db.data.users[m.sender].limit -= 1
                 } else if (type.toLowerCase() == 'ml') {
                     if (!id) throw `No Query id, Contoh : ${prefix + command} ml 214885010 2253`
                     if (!zone) throw `No Query id, Contoh : ${prefix + command} ml 214885010 2253`
@@ -2646,7 +2694,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                     }))
                     if (anu.status == false) return m.reply(anu.result.message)
                     m.reply(`ID : ${anu.result.gameId}\nZone : ${anu.result.zoneId}\nUsername : ${anu.result.userName}`)
-                    db.users[m.sender].limit -= 1
+                    db.data.users[m.sender].limit -= 1
                 } else if (type.toLowerCase() == 'aov') {
                     if (!id) throw `No Query id, Contoh ${prefix + command} aov 293306941441181`
                     let anu = await fetchJson(api('zenz', '/stalker/nickaov', {
@@ -2655,7 +2703,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                     }))
                     if (anu.status == false) return m.reply(anu.result.message)
                     m.reply(`ID : ${anu.result.gameId}\nUsername : ${anu.result.userName}`)
-                    db.users[m.sender].limit -= 1
+                    db.data.users[m.sender].limit -= 1
                 } else if (type.toLowerCase() == 'cod') {
                     if (!id) throw `No Query id, Contoh ${prefix + command} cod 6290150021186841472`
                     let anu = await fetchJson(api('zenz', '/stalker/nickcod', {
@@ -2664,7 +2712,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                     }))
                     if (anu.status == false) return m.reply(anu.result.message)
                     m.reply(`ID : ${anu.result.gameId}\nUsername : ${anu.result.userName}`)
-                    db.users[m.sender].limit -= 1
+                    db.data.users[m.sender].limit -= 1
                 } else if (type.toLowerCase() == 'pb') {
                     if (!id) throw `No Query id, Contoh ${prefix + command} pb riio46`
                     let anu = await fetchJson(api('zenz', '/stalker/nickpb', {
@@ -2673,7 +2721,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                     }))
                     if (anu.status == false) return m.reply(anu.result.message)
                     m.reply(`ID : ${anu.result.gameId}\nUsername : ${anu.result.userName}`)
-                    db.users[m.sender].limit -= 1
+                    db.data.users[m.sender].limit -= 1
                 } else if (type.toLowerCase() == 'ig') {
                     if (!id) throw `No Query username, Contoh : ${prefix + command} ig cak_haho`
                     let {
@@ -2683,7 +2731,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                     }, 'apikey'))
                     if (anu.status == false) return m.reply(anu.result.message)
                     hisoka.sendMedia(m.chat, anu.caption.profile_hd, '', `⭔ Full Name : ${anu.caption.full_name}\n⭔ User Name : ${anu.caption.user_name}\n⭔ ID ${anu.caption.user_id}\n⭔ Followers : ${anu.caption.followers}\n⭔ Following : ${anu.caption.following}\n⭔ Bussines : ${anu.caption.bussines}\n⭔ Profesional : ${anu.caption.profesional}\n⭔ Verified : ${anu.caption.verified}\n⭔ Private : ${anu.caption.private}\n⭔ Bio : ${anu.caption.biography}\n⭔ Bio Url : ${anu.caption.bio_url}`, m)
-                    db.users[m.sender].limit -= 1
+                    db.data.users[m.sender].limit -= 1
                 } else if (type.toLowerCase() == 'npm') {
                     if (!id) throw `No Query username, Contoh : ${prefix + command} npm scrape-primbon`
                     let {
@@ -2693,7 +2741,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                     }, 'apikey'))
                     if (anu.status == false) return m.reply(anu.result.message)
                     m.reply(`⭔ Name : ${anu.name}\n⭔ Version : ${Object.keys(anu.versions)}\n⭔ Created : ${tanggal(anu.time.created)}\n⭔ Modified : ${tanggal(anu.time.modified)}\n⭔ Maintainers :\n ${anu.maintainers.map(v => `- ${v.name} : ${v.email}`).join('\n')}\n\n⭔ Description : ${anu.description}\n⭔ Homepage : ${anu.homepage}\n⭔ Keywords : ${anu.keywords}\n⭔ Author : ${anu.author.name}\n⭔ License : ${anu.license}\n⭔ Readme : ${anu.readme}`)
-                    db.users[m.sender].limit -= 1
+                    db.data.users[m.sender].limit -= 1
                 } else {
                     m.reply(`Contoh : ${prefix +command} type id\n\nList Type :\n1. ff (Free Fire)\n2. ml (Mobile Legends)\n3. aov (Arena Of Valor)\n4. cod (Call Of Duty)\n5. pb (point Blank)\n6. ig (Instagram)\n7. npm (https://npmjs.com)`)
                 }
@@ -2849,7 +2897,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                         headerType: 4
                     }
                     hisoka.sendMessage(m.chat, buttonMessage, {
-                        quoted: ftroli
+                        quoted: reply
                     })
                 })
             }
@@ -2858,8 +2906,8 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             case 'ytplay': {
                 if (!text) throw `Contoh : ${prefix + command} Story Wa Anime`
                 m.reply(mess.wait)
-                if (!isPremium && global.db.users[m.sender].limit < 2) return m.reply(mess.endLimit) // respon ketika limit habis
-                db.users[m.sender].limit -= 2 // -2 limit
+                if (!isPremium && global.db.data.users[m.sender].limit < 2) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.data.users[m.sender].limit -= 2 // -2 limit
                 let yts = require("yt-search")
                 let search = await yts(text)
                 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
@@ -2909,8 +2957,8 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 } = require('./lib/y2mate')
                 if (!text) throw `Contoh : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 128kbps`
                 m.reply(mess.wait)
-                if (!isPremium && global.db.users[m.sender].limit < 2) return m.reply(mess.endLimit) // respon ketika limit habis
-                db.users[m.sender].limit -= 2 // -2 limit
+                if (!isPremium && global.db.data.users[m.sender].limit < 2) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.data.users[m.sender].limit -= 2 // -2 limit
                 let quality = args[1] ? args[1] : '128kbps'
                 let media = await yta(text, quality)
                 if (media.filesize >= 100000) return m.reply('File Melebihi Batas Silahkan Download Sendiri : ' + media.dl_link)
@@ -2933,8 +2981,8 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 } = require('./lib/y2mate')
                 if (!text) throw `Contoh : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 360p`
                 m.reply(mess.wait)
-                if (!isPremium && global.db.users[m.sender].limit < 2) return m.reply(mess.endLimit) // respon ketika limit habis
-                db.users[m.sender].limit -= 2 // -2 limit
+                if (!isPremium && global.db.data.users[m.sender].limit < 2) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.data.users[m.sender].limit -= 2 // -2 limit
                 let quality = args[1] ? args[1] : '360p'
                 let media = await ytv(text, quality)
                 if (media.filesize >= 100000) return m.reply('File Melebihi Batas Silahkan Download Sendiri : ' + media.dl_link)
@@ -3033,8 +3081,8 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             case 'cosplay':
             case 'hololive': {
                 m.reply(mess.wait)
-                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
-                db.users[m.sender].limit -= 1 // -1 limit
+                if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.data.users[m.sender].limit -= 1 // -1 limit
                 let buttons = [{
                     buttonId: `${command}`,
                     buttonText: {
@@ -3056,8 +3104,8 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             break
             case 'kitagawa': {
                 m.reply(mess.wait)
-                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
-                db.users[m.sender].limit -= 1 // -1 limit
+                if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.data.users[m.sender].limit -= 1 // -1 limit
                 let buttons = [{
                     buttonId: `kitagawa`,
                     buttonText: {
@@ -3079,8 +3127,8 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             break
             case 'calliope': {
                 m.reply(mess.wait)
-                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
-                db.users[m.sender].limit -= 1 // -1 limit
+                if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.data.users[m.sender].limit -= 1 // -1 limit
                 let buttons = [{
                     buttonId: `calliope`,
                     buttonText: {
@@ -3102,8 +3150,8 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             break
             case 'raiden': {
                 m.reply(mess.wait)
-                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
-                db.users[m.sender].limit -= 1 // -1 limit
+                if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.data.users[m.sender].limit -= 1 // -1 limit
                 let buttons = [{
                     buttonId: `raiden`,
                     buttonText: {
@@ -3137,8 +3185,8 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             case 'hacker':
             case 'cogan': {
                 m.reply(mess.wait)
-                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
-                db.users[m.sender].limit -= 1 // -1 limit
+                if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.data.users[m.sender].limit -= 1 // -1 limit
                 let buttons = [{
                     buttonId: `${command}`,
                     buttonText: {
@@ -3182,8 +3230,8 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             case 'zettairyouiki': {
                 if (m.isGroup) throw mess.private
                 m.reply(mess.wait)
-                if (!isPremium && global.db.users[m.sender].limit < 2) return m.reply(mess.endLimit) // respon ketika limit habis
-                db.users[m.sender].limit -= 2 // -2 limit
+                if (!isPremium && global.db.data.users[m.sender].limit < 2) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.data.users[m.sender].limit -= 2 // -2 limit
                 let buttons = [{
                     buttonId: `${command}`,
                     buttonText: {
@@ -3209,8 +3257,8 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             case 'memeindo':
             case 'onecak': {
                 m.reply(mess.wait)
-                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
-                db.users[m.sender].limit -= 1 // -1 limit
+                if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.data.users[m.sender].limit -= 1 // -1 limit
                 let buttons = [{
                     buttonId: `${command}`,
                     buttonText: {
@@ -3242,8 +3290,8 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             case 'rose':
             case 'kpop': {
                 m.reply(mess.wait)
-                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
-                db.users[m.sender].limit -= 1 // -1 limit
+                if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.data.users[m.sender].limit -= 1 // -1 limit
                 let buttons = [{
                     buttonId: `${command}`,
                     buttonText: {
@@ -3268,8 +3316,8 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             case 'asupannatajadeh':
             case 'asupantiktok': {
                 m.reply(mess.wait)
-                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
-                db.users[m.sender].limit -= 1 // -1 limit
+                if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.data.users[m.sender].limit -= 1 // -1 limit
                 let buttons = [{
                     buttonId: `${command}`,
                     buttonText: {
@@ -3292,8 +3340,8 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 case 'couple': {
                 m.reply(mess.wait)
                 let anu = await fetchJson('https://raw.githubusercontent.com/iamriz7/kopel_/main/kopel.json')
-                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
-                db.users[m.sender].limit -= 1 // -1 limit
+                if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.data.users[m.sender].limit -= 1 // -1 limit
                 let random = anu[Math.floor(Math.random() * anu.length)]
                 hisoka.sendMessage(m.chat, {
                     image: {
@@ -3316,8 +3364,8 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             case 'coffe':
             case 'kopi': {
                 m.reply(mess.wait)
-                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
-                db.users[m.sender].limit -= 1 // -1 limit
+                if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.data.users[m.sender].limit -= 1 // -1 limit
                 let buttons = [{
                     buttonId: `coffe`,
                     buttonText: {
@@ -3400,8 +3448,8 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 let {
                     quotesAnime
                 } = require('./lib/scraper')
-                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
-                db.users[m.sender].limit -= 1 // -1 limit
+                if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.data.users[m.sender].limit -= 1 // -1 limit
                 let anu = await quotesAnime()
                 result = anu[Math.floor(Math.random() * anu.length)]
                 let buttons = [{
@@ -3424,8 +3472,8 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             break
             case 'animequotes':
             case 'animequote': {
-                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
-                db.users[m.sender].limit -= 1 // -1 limit
+                if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.data.users[m.sender].limit -= 1 // -1 limit
                 let anu = await fetchJson(api('zenz', '/randomtext/animequotes2', {}, 'apikey'))
                 let buttons = [{
                     buttonId: `animequotes`,
@@ -3459,8 +3507,8 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             case 'faktaunik':
             case 'puisi':
             case 'pantun': {
-                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
-                db.users[m.sender].limit -= 1 // -1 limit
+                if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.data.users[m.sender].limit -= 1 // -1 limit
                 let anu = await fetchJson(api('zenz', '/randomtext/' + command, {}, 'apikey'))
                 let buttons = [{
                     buttonId: `${command}`,
@@ -3481,8 +3529,8 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             }
             break
             case 'cerpen': {
-                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
-                db.users[m.sender].limit -= 1 // -1 limit
+                if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.data.users[m.sender].limit -= 1 // -1 limit
                 let anu = await fetchJson(api('zenz', '/randomtext/' + command, {}, 'apikey'))
                 let buttons = [{
                     buttonId: `${command}`,
@@ -4251,8 +4299,8 @@ ${id}`)
                 if (args.length < 1) return m.reply('Yang mau di tulis apaan?')
                 teks = args.join(' ')
                 m.reply(mess.wait)
-                if (!isPremium && global.db.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
-                db.users[m.sender].limit -= 1 // -1 limit
+                if (!isPremium && global.db.data.users[m.sender].limit < 1) return m.reply(mess.endLimit) // respon ketika limit habis
+                db.data.users[m.sender].limit -= 1 // -1 limit
                 nulis = encodeURIComponent(teks)
                 res = await axios.get(`https://dt-04.herokuapp.com/nulis?text=${nulis}`)
                 if (res.data.error) return m.reply(res.data.error)
@@ -4303,8 +4351,8 @@ ${id}`)
                 if (!m.quoted.fileSha256) throw 'SHA256 Hash Tidak Ditemukan ❎'
                 if (!text) throw `Untuk Command Apa?`
                 let hash = m.quoted.fileSha256.toString('base64')
-                if (global.db.sticker[hash] && global.db.sticker[hash].locked) throw 'Anda Tidak Diizinkan Untuk Mengubah Perintah Stiker Ini ❎'
-                global.db.sticker[hash] = {
+                if (global.db.data.sticker[hash] && global.db.data.sticker[hash].locked) throw 'Anda Tidak Diizinkan Untuk Mengubah Perintah Stiker Ini ❎'
+                global.db.data.sticker[hash] = {
                     text,
                     mentionedJid: m.mentionedJid,
                     creator: m.sender,
@@ -4317,8 +4365,8 @@ ${id}`)
             case 'delcmd': {
                 let hash = m.quoted.fileSha256.toString('base64')
                 if (!hash) throw `Tidak Ada Hash`
-                if (global.db.sticker[hash] && global.db.sticker[hash].locked) throw 'Anda Tidak Diizinkan Untuk Mengubah Perintah Stiker Ini ❎'
-                delete global.db.sticker[hash]
+                if (global.db.data.sticker[hash] && global.db.data.sticker[hash].locked) throw 'Anda Tidak Diizinkan Untuk Mengubah Perintah Stiker Ini ❎'
+                delete global.db.data.sticker[hash]
                 m.reply(mess.done)
             }
             break
@@ -4327,10 +4375,10 @@ ${id}`)
 Info: *bold* hash is Locked 🔒
 
 *Hash ☕ :*
-${Object.entries(global.db.sticker).map(([key, value], index) => `${index + 1}. ${value.locked ? `*${key}*` : key} : ${value.text}`).join('\n')}
+${Object.entries(global.db.data.sticker).map(([key, value], index) => `${index + 1}. ${value.locked ? `*${key}*` : key} : ${value.text}`).join('\n')}
 `.trim()
                 hisoka.sendText(m.chat, teks, m, {
-                    mentions: Object.values(global.db.sticker).map(x => x.mentionedJid).reduce((a, b) => [...a, ...b], [])
+                    mentions: Object.values(global.db.data.sticker).map(x => x.mentionedJid).reduce((a, b) => [...a, ...b], [])
                 })
             }
             break
@@ -4339,15 +4387,15 @@ ${Object.entries(global.db.sticker).map(([key, value], index) => `${index + 1}. 
                 if (!m.quoted) throw 'Reply Pesan!'
                 if (!m.quoted.fileSha256) throw 'SHA256 Hash Missing'
                 let hash = m.quoted.fileSha256.toString('base64')
-                if (!(hash in global.db.sticker)) throw 'Hash Not Found In Database'
-                global.db.sticker[hash].locked = !/^un/i.test(command)
+                if (!(hash in global.db.data.sticker)) throw 'Hash Not Found In Database'
+                global.db.data.sticker[hash].locked = !/^un/i.test(command)
                 m.reply('Done!')
             }
             break
             case 'addmsg': {
                 if (!m.quoted) throw 'Reply Message Yang Ingin Disave Di Database'
                 if (!text) throw `Contoh : ${prefix + command} Nama File`
-                let msgs = global.db.database
+                let msgs = global.db.data.database
                 if (text.toLowerCase() in msgs) throw `'${text}' Telah Terdaftar Di List Pesan`
                 msgs[text.toLowerCase()] = quoted.fakeObj
                 m.reply(`Berhasil Menambahkan Pesan Di List Pesan Sebagai '${text}'
@@ -4359,14 +4407,14 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
             break
             case 'getmsg': {
                 if (!text) throw `Contoh : ${prefix + command} File Name\n\nLihat List Pesan Dengan ${prefix}listmsg`
-                let msgs = global.db.database
+                let msgs = global.db.data.database
                 if (!(text.toLowerCase() in msgs)) throw `'${text}' Tidak Terdaftar Di List Pesan`
                 hisoka.copyNForward(m.chat, msgs[text.toLowerCase()], true)
             }
             break
             case 'listmsg': {
                 let msgs = JSON.parse(fs.readFileSync('./src/database.json'))
-                let seplit = Object.entries(global.db.database).map(([nama, isi]) => {
+                let seplit = Object.entries(global.db.data.database).map(([nama, isi]) => {
                     return {
                         nama,
                         ...isi
@@ -4382,7 +4430,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
             break
             case 'delmsg':
             case 'deletemsg': {
-                let msgs = global.db.database
+                let msgs = global.db.data.database
                 if (!(text.toLowerCase() in msgs)) return m.reply(`'${text}' tidak terdaftar didalam list pesan`)
                 delete msgs[text.toLowerCase()]
                 m.reply(`Berhasil menghapus '${text}' dari list pesan`)
@@ -4614,7 +4662,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, txtping, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -4651,9 +4699,22 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                 }
             }
             break
-            case 'owner':
-            case 'creator': {
-                hisoka.sendContact(m.chat, global.owner, m)
+            case 'owner': case 'creator': {
+                let vcard = 'BEGIN:VCARD\n'
+    + 'VERSION:3.0\n' 
+    + 'N:;GuaAbuzz;;;'
+    + 'FN:GuaAbuzz\n'
+    + 'ORG:Creator GuaAbuzz;\n'
+    + 'item1.TEL;type=CELL;type=VOICE;waid=6289636827082:+62 896-3682-7082\n' 
+    + 'item1.X-ABLabel:Creator Abuzzpoet\n'
+    + 'item2.EMAIL;type=INTERNET:rajifarmansyah46@gmail.com\n'
+    + 'item2.X-ABLabel:Email\n'
+    + 'item3.URL:https://tiktok.com/@guaabuzz\n'
+    + 'item3.X-ABLabel:TikTok\n'
+    + 'item4.ADR:;;Jepang;;;;\n'
+    + 'item4.X-ABLabel:Region\n'
+    + 'END:VCARD'
+        hisoka.sendMessage(m.chat, { contacts: { displayName: 'Creator GuaAbuzz', contacts: [{ vcard }] } }, { quoted: reply1 })
             }
             break
             case 'bug':
@@ -4990,7 +5051,7 @@ Request Message: ${text}`
             case 'hololive': {
                 let fetch = await fetchJson(api('zenz', '/randomanime/hololive', {},'apikey'))
                 let buttons = [
-                    {buttonId: `${prefix}hololive`, buttonText: { displayText: 'NEXT'}, type: 1 }
+                    {buttonId: `${prefix}hololive`, buttonText: { displayText: '⌲ Next HoloLive'}, type: 1 }
                 ]
                 let buttonMessage = {
                     image: { url: fetch.result.image },
@@ -5004,7 +5065,7 @@ Request Message: ${text}`
             break
             case 'setmenu': {
             if (!isCreator) throw mess.owner
-            let setbot = db.settings[botNumber]
+            let setbot = db.data.settings[botNumber]
                if (args[0] === 'templateImage'){
                 setbot.templateImage = true
                 setbot.templateVideo = false
@@ -5094,7 +5155,7 @@ Request Message: ${text}`
 │2. Anda Tidak Akan Bisa.
 │   Mengakses Bot Lagi.
 │3. Mengeksploitasi Terhadap bot.
-│Sanksi: *BLOCK PERMANENT*
+│Sanksi: BLOCK PERMANENT
 └──────────────┈❖`
                 let btn = [{
                     quickReplyButton: {
@@ -5102,7 +5163,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -5179,7 +5240,7 @@ Request Message: ${text}`
                         id: 'owner'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -5247,7 +5308,7 @@ Request Message: ${text}`
                         id: 'owner'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -5272,10 +5333,10 @@ Request Message: ${text}`
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
 │ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ User : ${Object.keys(global.db.users).length}
+│ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju Ulang Tahun OwnerKu :
+│ Menuju HBD GuaAbuzz :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 GROUP 」
@@ -5331,7 +5392,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -5356,10 +5417,10 @@ Request Message: ${text}`
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
 │ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ User : ${Object.keys(global.db.users).length}
+│ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju Ulang Tahun OwnerKu :
+│ Menuju HBD GuaAbuzz :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 DOWNLOADER 」
@@ -5406,7 +5467,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -5431,10 +5492,10 @@ Request Message: ${text}`
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
 │ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ User : ${Object.keys(global.db.users).length}
+│ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju Ulang Tahun OwnerKu :
+│ Menuju HBD GuaAbuzz :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 SEARCH 」
@@ -5475,7 +5536,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -5500,10 +5561,10 @@ Request Message: ${text}`
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
 │ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ User : ${Object.keys(global.db.users).length}
+│ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju Ulang Tahun OwnerKu :
+│ Menuju HBD GuaAbuzz :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 STICKER 」
@@ -5542,7 +5603,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -5567,10 +5628,10 @@ Request Message: ${text}`
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
 │ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ User : ${Object.keys(global.db.users).length}
+│ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju Ulang Tahun OwnerKu :
+│ Menuju HBD GuaAbuzz :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 ANIME 」
@@ -5620,7 +5681,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -5645,10 +5706,10 @@ Request Message: ${text}`
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
 │ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ User : ${Object.keys(global.db.users).length}
+│ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju Ulang Tahun OwnerKu :
+│ Menuju HBD GuaAbuzz :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 NSFW 」
@@ -5702,7 +5763,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -5727,10 +5788,10 @@ Request Message: ${text}`
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
 │ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ User : ${Object.keys(global.db.users).length}
+│ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju Ulang Tahun OwnerKu :
+│ Menuju HBD GuaAbuzz :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 ASUPAN 」
@@ -5777,7 +5838,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -5802,10 +5863,10 @@ Request Message: ${text}`
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
 │ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ User : ${Object.keys(global.db.users).length}
+│ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju Ulang Tahun OwnerKu :
+│ Menuju HBD GuaAbuzz :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 QUOTES 」
@@ -5854,7 +5915,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -5879,10 +5940,10 @@ Request Message: ${text}`
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
 │ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ User : ${Object.keys(global.db.users).length}
+│ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju Ulang Tahun OwnerKu :
+│ Menuju HBD GuaAbuzz :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 MEME 」
@@ -5918,7 +5979,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -5943,10 +6004,10 @@ Request Message: ${text}`
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
 │ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ User : ${Object.keys(global.db.users).length}
+│ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju Ulang Tahun OwnerKu :
+│ Menuju HBD GuaAbuzz :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 RANDOM 」
@@ -5994,7 +6055,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -6019,10 +6080,10 @@ Request Message: ${text}`
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
 │ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ User : ${Object.keys(global.db.users).length}
+│ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju Ulang Tahun OwnerKu :
+│ Menuju HBD GuaAbuzz :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 TEXT PRO 」
@@ -6085,7 +6146,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -6110,10 +6171,10 @@ Request Message: ${text}`
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
 │ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ User : ${Object.keys(global.db.users).length}
+│ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju Ulang Tahun OwnerKu :
+│ Menuju HBD GuaAbuzz :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 PHOTO EDITOR 」
@@ -6163,7 +6224,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -6188,10 +6249,10 @@ Request Message: ${text}`
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
 │ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ User : ${Object.keys(global.db.users).length}
+│ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju Ulang Tahun OwnerKu :
+│ Menuju HBD GuaAbuzz :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 EPHOTO 」
@@ -6258,7 +6319,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -6283,10 +6344,10 @@ Request Message: ${text}`
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
 │ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ User : ${Object.keys(global.db.users).length}
+│ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju Ulang Tahun OwnerKu :
+│ Menuju HBD GuaAbuzz :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 GAME 」
@@ -6328,7 +6389,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -6353,10 +6414,10 @@ Request Message: ${text}`
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
 │ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ User : ${Object.keys(global.db.users).length}
+│ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju Ulang Tahun OwnerKu :
+│ Menuju HBD GuaAbuzz :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 PRIMBON 」
@@ -6418,7 +6479,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -6443,10 +6504,10 @@ Request Message: ${text}`
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
 │ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ User : ${Object.keys(global.db.users).length}
+│ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju Ulang Tahun OwnerKu :
+│ Menuju HBD GuaAbuzz :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 CONVERT 」
@@ -6488,7 +6549,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -6513,10 +6574,10 @@ Request Message: ${text}`
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
 │ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ User : ${Object.keys(global.db.users).length}
+│ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju Ulang Tahun OwnerKu :
+│ Menuju HBD GuaAbuzz :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 MAIN 」
@@ -6562,7 +6623,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -6587,10 +6648,10 @@ Request Message: ${text}`
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
 │ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ User : ${Object.keys(global.db.users).length}
+│ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju Ulang Tahun OwnerKu :
+│ Menuju HBD GuaAbuzz :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 DATABASE 」
@@ -6630,7 +6691,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -6655,10 +6716,10 @@ Request Message: ${text}`
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
 │ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ User : ${Object.keys(global.db.users).length}
+│ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju Ulang Tahun OwnerKu :
+│ Menuju HBD GuaAbuzz :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 ANONYMOUS CHAT 」
@@ -6695,7 +6756,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -6720,10 +6781,10 @@ Request Message: ${text}`
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
 │ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ User : ${Object.keys(global.db.users).length}
+│ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju Ulang Tahun OwnerKu :
+│ Menuju HBD GuaAbuzz :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 ISLAMIC 」
@@ -6762,7 +6823,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -6787,10 +6848,10 @@ Request Message: ${text}`
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
 │ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ User : ${Object.keys(global.db.users).length}
+│ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju Ulang Tahun OwnerKu :
+│ Menuju HBD GuaAbuzz :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 KERANG 」
@@ -6841,7 +6902,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -6866,10 +6927,10 @@ Request Message: ${text}`
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
 │ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ User : ${Object.keys(global.db.users).length}
+│ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju Ulang Tahun OwnerKu :
+│ Menuju HBD GuaAbuzz :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 VOICE CHANGER 」
@@ -6912,7 +6973,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -6937,10 +6998,10 @@ Request Message: ${text}`
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
 │ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ User : ${Object.keys(global.db.users).length}
+│ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju Ulang Tahun OwnerKu :
+│ Menuju HBD GuaAbuzz :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 STALK 」
@@ -6975,7 +7036,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -7000,10 +7061,10 @@ Request Message: ${text}`
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
 │ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ User : ${Object.keys(global.db.users).length}
+│ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju Ulang Tahun OwnerKu :
+│ Menuju HBD GuaAbuzz :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 OWNER 」
@@ -7049,7 +7110,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -7074,10 +7135,10 @@ Request Message: ${text}`
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
 │ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ User : ${Object.keys(global.db.users).length}
+│ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju Ulang Tahun OwnerKu :
+│ Menuju HBD GuaAbuzz :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 WEBZONE 」
@@ -7118,7 +7179,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -7156,7 +7217,7 @@ Request Message: ${text}`
 │• Prefix : ( ${prefix} )
 │• Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}
 │• Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
-│• Menuju Ulang Tahun OwnerKu :
+│• Menuju HBD GuaAbuzz :
 │   ${menuju}
 │• Wib : ${wib}
 │• Wita : ${wita}
@@ -7188,7 +7249,7 @@ Request Message: ${text}`
                         id: 'command'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -7213,10 +7274,10 @@ Request Message: ${text}`
 │ Prefix : ( ${prefix} )
 │ Name : ${global.namabot}\n│ Owner : ${global.namaowner}
 │ Mode : ${hisoka.public ? 'Public' : 'Self'}
-│ User : ${Object.keys(global.db.users).length}
+│ User : ${Object.keys(global.db.data.users).length}
 │ Runtime : ${runtime(process.uptime())}
 │ Lib : Baileys-md
-│ Menuju Ulang Tahun OwnerKu :
+│ Menuju HBD GuaAbuzz :
 │  ${menuju}
 └┬─────────────┈❖
 ┌┤「 ANONYMOUS CHAT 」
@@ -7689,7 +7750,7 @@ Request Message: ${text}`
                         id: 'sewabot'
                     }
                 }]
-                let setbot = db.settings[botNumber]
+                let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
@@ -7778,7 +7839,7 @@ Request Message: ${text}`
                 if (isCmd && budy.toLowerCase() != undefined) {
                     if (m.chat.endsWith('broadcast')) return
                     if (m.isBaileys) return
-                    let msgs = global.db.database
+                    let msgs = global.db.data.database
                     if (!(budy.toLowerCase() in msgs)) return
                     hisoka.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
                 }
