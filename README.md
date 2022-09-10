@@ -119,11 +119,10 @@ global.APIKeys = {
     'https://zenzapis.xyz':'GetApiKey',
 }
 
-//—————「 Set Nama Bot & Own & Agama 」—————//
-//kok pake agama bang? fitur toleransi bang
+//—————「 Set Nama Bot & Own 」—————//
+//terserah mau ubah atau nggak
 global.namabot = 'Akame'
 global.namaowner = 'GuaAbuzz'
-global.agama = 'Islam'
 
 //—————「 Setting Owner 」—————//
 //terserah mau ubah atau nggak
@@ -145,7 +144,6 @@ global.saweria = ['https://saweria.co/GuaAbuzz']
 //—————「 Set Kebutuhan Button 」—————//
 //ubah aja kalau ada yang gapunya gsh di hps anggap aja credits :)
 global.github = 'https://github.com/Abuzzpoet'
-global.scbot = 'https://github.com/Abuzzpoet/Akame'
 global.myweb = 'https://tiktok.com/@guaabuzz'
 
 //—————「 Set Sticker Wm 」—————//
