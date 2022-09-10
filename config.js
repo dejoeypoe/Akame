@@ -22,12 +22,13 @@ global.APIKeys = {
     'https://zenzapis.xyz': 'akame-chan>_<',
 }
 
-//—————「 Set Nama Bot & Own & Agama 」—————//
-//kok pake agama bang? fitur toleransi bang
+//—————「 Set Nama Bot & Own 」—————//
+//terserah mau ubah atau nggak
 global.namabot = 'Akame'
 global.namaowner = 'GuaAbuzz'
 
 //—————「 Setting Owner 」—————//
+//terserah mau ubah atau nggak
 global.owner = ['6289636827082']
 global.premium = ['6289636827082']
 
@@ -49,15 +50,16 @@ global.github = 'https://github.com/Abuzzpoet''
 global.myweb = 'https://tiktok.com/@guaabuzz'
 
 //—————「 Set Wm 」—————//
+//terserah mau ubah atau nggak
 global.packname = 'GuaAbuzz'
 global.author = 'WhatsApp Bot'
 
 //—————「 Set Nama Session 」—————//
-//gausah di apa² in!
+//gausah di apa² ini!
 global.sessionName = 'session'
 
 //—————「 Set Prefix 」—————//
-//gausah di apa² in!
+//gausah di apa² ini!
 global.prefa = ['', '!', '.', '🐦', '🐤', '🗿']
 
 //—————「 Set Simbol 」—————//
