@@ -26,7 +26,6 @@ global.APIKeys = {
 //kok pake agama bang? fitur toleransi bang
 global.namabot = 'Akame'
 global.namaowner = 'GuaAbuzz'
-global.agama = 'Islam'
 
 //—————「 Setting Owner 」—————//
 global.owner = ['6289636827082']
@@ -46,8 +45,7 @@ global.saweria = ['https://saweria.co/GuaAbuzz']
 
 //—————「 Set Kebutuhan Button 」—————//
 //ubah aja kalau ada yang gapunya gsh di hps anggap aja credits :)
-global.github = 'https://github.com/Abuzzpoet'
-global.scbot = 'https://github.com/Abuzzpoet/Akame'
+global.github = 'https://github.com/Abuzzpoet''
 global.myweb = 'https://tiktok.com/@guaabuzz'
 
 //—————「 Set Wm 」—————//
