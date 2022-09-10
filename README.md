@@ -114,9 +114,9 @@ Editing Number Owner & session name in [`config.js`](https://github.com/Abuzzpoe
 ```How To Customise Message Display```
 ```js
 //—————「 Website Apikey 」—————//
-//gausah di apa² in, Udah Free kok :)
+//gausah di apa² ini, Beli Sendiri banh :)
 global.APIKeys = {
-    'https://zenzapis.xyz': 'akame-chan>_<',
+    'https://zenzapis.xyz':'GetApiKey',
 }
 
 //—————「 Set Nama Bot & Own & Agama 」—————//
@@ -174,11 +174,6 @@ global.limitawal = {
     premium: "Infinity",
     free: 50,
 }
-
-//—————「 Set Image 」—————//
-//terserah mau ubah apa nggak, menurut gua jangan di ubah!
-global.thumb = fs.readFileSync('./storage/menu/hisoka.jpg')
-global.visoka = { url: 'https://telegra.ph/file/de381b0caeb315a99c68a.mp4' }
 ```
 ---------
 
