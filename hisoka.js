@@ -149,8 +149,6 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
 	const fdoc = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {title: `*HIDETAG!*`,jpegThumbnail: global.thumb}}}
 	
 	const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6283102650464-1589321480@g.us","inviteCode": "https://chat.whatsapp.com/FGmVjFYJBjjGst62qwNKJB","groupName": "Akame Bot", "caption": `© GuaAbuzz`, 'jpegThumbnail': global.thumb}}}
-	
-    const fvideo = {key: { fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289636827082-1635036556@g.us" } : {}) },message: { "videoMessage": { "title":`*AUTO DOWNLOAD AUDIO YOUTUBE*`, "h": `Hmm`,'seconds': '10000000⁰0', 'caption': `*AUTO DOWNLOAD AUDIO YOUTUBE*`, 'jpegThumbnail': global.thumb}}}
         //END
 
         //member
@@ -2874,7 +2872,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                         headerType: 4
                     }
                     hisoka.sendMessage(m.chat, buttonMessage, {
-                        quoted: fvideo
+                        quoted: fgclink
                     })
                 })
             }
@@ -3038,7 +3036,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                     },
                     caption: '⭔ Media Url : ' + result
                 }, {
-                    quoted: fvideo
+                    quoted: fgclink
                 })
             }
             break
