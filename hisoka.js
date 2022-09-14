@@ -2,7 +2,7 @@
  * Base By Dika Ardnt.
  * Recode By GuaAbuzz
  * Kalau Mau Recode, Edit Aja Di confiq.js
- * Script No Enc? DiJual 20k No Enc
+ * Script No Enc? Harga Chat Nomor Dibawah ini
  * Contact Me On wa.me/6289636827082
  * Follow https://github.com/Abuzzpoet
  */
