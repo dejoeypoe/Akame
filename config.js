@@ -1,9 +1,9 @@
 /**
  * Base By Dika Ardnt.
- * Recode By GuaAbuzz
+ * Recode By Zoey
  * Kalau Mau Recode, Edit Aja Di confiq.js
- * Contact Me On wa.me/6289636827082
- * Follow https://github.com/Abuzzpoet
+ * Contact Me On wa.me/6281390260036
+ * Follow https://github.com/dejoeypoe
  */
 
 //gausah di apa² in!
@@ -29,30 +29,30 @@ global.namaowner = 'GuaAbuzz'
 
 //—————「 Setting Owner 」—————//
 //terserah mau ubah atau nggak
-global.owner = ['6289636827082']
-global.premium = ['6289636827082']
+global.owner = ['6281390260036']
+global.premium = ['6281390260036']
 
 //—————「 Setting Nomor Donasi 」—————//
 //ubah aja kalau ada yg gapunya kasih tanda -
-global.telkomsel = ['6282171978174']
+global.telkomsel = ['082226182566']
 global.xl = ['-']
 global.indosat = ['-']
-global.tri = ['6289636827082']
+global.tri = ['-']
 global.smartfren = ['-']
-global.gopay = ['6289636827082']
-global.dana = ['6289636827082']
+global.gopay = ['-']
+global.dana = ['6282226182566']
 global.ovo = ['-']
-global.saweria = ['https://saweria.co/GuaAbuzz']
+global.saweria = ['https://saweria.co/dejoeypoe']
 
 //—————「 Set Kebutuhan Button 」—————//
 //ubah aja kalau ada yang gapunya gsh di hps anggap aja credits :)
-global.github = 'https://github.com/Abuzzpoet'
-global.myweb = 'https://tiktok.com/@guaabuzz'
+global.github = 'https://github.com/dejoeypoe'
+global.myweb = 'https://google.com/'
 
 //—————「 Set Wm 」—————//
 //terserah mau ubah atau nggak
-global.packname = 'GuaAbuzz'
-global.author = 'WhatsApp Bot'
+global.packname = 'De Joey'
+global.author = 'mau nyolong?'
 
 //—————「 Set Nama Session 」—————//
 //gausah di apa² ini!
@@ -69,13 +69,13 @@ global.sp = '⭔'
 //—————「 Set Message 」—————//
 //terserah mau ubah apa nggak
 global.mess = {
-    success: '🤗Done, Oke Desu~',
+    success: '🤗Done, Ente kadang kadang..',
     admin: 'Perintah Ini Hanya Bisa Digunakan Oleh Admin !',
-    botAdmin: 'Perintah Ini Hanya Bisa Digunakan Ketika Bot Menjadi Admin !',
-    owner: 'Perintah Ini Hanya Bisa Digunakan Oleh Owner !',
+    botAdmin: 'Jadiin saya admin dulu kakak !',
+    owner: 'Perintah Ini Hanya Bisa Digunakan Oleh Dewa !',
     group: 'Perintah Ini Hanya Bisa Digunakan Di Group Chat !',
     private: 'Perintah Ini Hanya Bisa Digunakan Di Private Chat !',
-    bot: 'Fitur Khusus Pengguna Nomor Bot !',
+    bot: 'Fitur Khusus Bot !',
     wait: '⏳ Sedang Di Proses !',
     endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12 !',
     error: 'Fitur Sedang Error !',
@@ -85,7 +85,7 @@ global.mess = {
 //terserah mau ubah atau nggak
 global.limitawal = {
     premium: "Infinity",
-    free: 50,
+    free: 10,
 }
 
 //—————「 Set Image 」—————//
